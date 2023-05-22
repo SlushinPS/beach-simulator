@@ -15,14 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "PLGBNGCKFPJ.proto";
 import "MFJNHGLKNGA.proto";
 message HomeMarkPointFurnitureData {
 	uint32 guid = 1;
 	uint32 furniture_id = 2;
 	uint32 furniture_type = 3;
-	PBDDPMHLPJG pos = 4;
+	Vector pos = 4;
 	oneof extra {
 		PLGBNGCKFPJ OGOKJBMCPLH = 6;
 		MFJNHGLKNGA OCLMCOHLDPC = 7;

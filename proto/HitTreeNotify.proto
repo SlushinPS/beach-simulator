@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 3420
 message HitTreeNotify {
 	uint32 tree_type = 6;
-	PBDDPMHLPJG tree_pos = 14;
-	PBDDPMHLPJG drop_pos = 10;
+	Vector tree_pos = 14;
+	Vector drop_pos = 10;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 import "ForwardType.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 376
 message EvtAvatarUpdateFocusNotify {
 	ForwardType forward_type = 13;
 	uint32 entity_id = 3;
-	PBDDPMHLPJG focus_forward = 9;
+	Vector focus_forward = 9;
 }

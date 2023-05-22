@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "HomeMarkPointFurnitureData.proto";
 message HomeMarkPointSceneData {
-	PBDDPMHLPJG KAMNDPCJCGN = 1;
-	PBDDPMHLPJG LCHMEEHFLLK = 13;
+	Vector KAMNDPCJCGN = 1;
+	Vector LCHMEEHFLLK = 13;
 	uint32 module_id = 12;
 	uint32 scene_id = 6;
 	repeated HomeMarkPointFurnitureData furniture_list = 10;

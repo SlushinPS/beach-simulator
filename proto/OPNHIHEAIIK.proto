@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message OPNHIHEAIIK {
-	PBDDPMHLPJG rot = 10;
-	PBDDPMHLPJG pos = 12;
+	Vector rot = 10;
+	Vector pos = 12;
 }

@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message EACNKHKNNDA {
 	uint32 id = 1;
-	PBDDPMHLPJG center = 2;
-	PBDDPMHLPJG size = 3;
+	Vector center = 2;
+	Vector size = 3;
 }

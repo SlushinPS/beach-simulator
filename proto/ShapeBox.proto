@@ -15,8 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message OGILNLELDED {
-	uint32 PBKDCNDBKPF = 4;
-	uint32 total_num = 7;
-	map<uint32, uint32> ADNCOHLPDAE = 12;
+import "Vector.proto";
+message ShapeBox {
+	Vector center = 1;
+	Vector axis0 = 2;
+	Vector axis1 = 3;
+	Vector axis2 = 4;
+	Vector extents = 5;
 }

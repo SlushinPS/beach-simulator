@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message EGJNNEHKJCO {
-	PBDDPMHLPJG pos = 7;
+	Vector pos = 7;
 	uint32 open_time = 2;
 	uint32 max_score = 15;
 	uint32 id = 11;

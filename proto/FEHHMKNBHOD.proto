@@ -15,13 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "KJBFEJDBCKI.proto";
 message FEHHMKNBHOD {
 	bool CELEIPDMPHA = 5;
 	bool LLOCDLHDAJD = 7;
 	repeated uint32 FADENBKNJFN = 13;
-	repeated PBDDPMHLPJG IIOMNLFMDIC = 2;
+	repeated Vector IIOMNLFMDIC = 2;
 	bool NKABPMKGDLM = 6;
 	repeated KJBFEJDBCKI OLEDBPBCBCA = 4;
 }

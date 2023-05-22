@@ -15,12 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "IEFNJJOADGD.proto";
-import "ONOPOBPAHOE.proto";
+import "Reliquary.proto";
+import "Weapon.proto";
 message ShowEquip {
 	uint32 item_id = 1;
 	oneof detail {
-		IEFNJJOADGD LMBIOFFOFIJ = 2;
-		ONOPOBPAHOE FAJIMHIOAKD = 3;
+		Reliquary reliquary = 2;
+		Weapon weapon = 3;
 	}
 }

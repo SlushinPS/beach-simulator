@@ -15,13 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message ECIPFNGJAIF {
 	message EKDJLLIPACM {
 	}
 	
 	message FLOPFNIHOIO {
-		repeated PBDDPMHLPJG JILAPMLEIJA = 1;
+		repeated Vector JILAPMLEIJA = 1;
 	}
 	
 	message LEOLCCAAAPG {

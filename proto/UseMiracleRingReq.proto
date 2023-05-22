@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 5228
 message UseMiracleRingReq {
-	PBDDPMHLPJG rot = 1;
+	Vector rot = 1;
 	uint32 miracle_ring_op_type = 13;
-	PBDDPMHLPJG pos = 15;
+	Vector pos = 15;
 }

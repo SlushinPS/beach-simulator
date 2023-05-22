@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 import "EnterType.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 275
 message PlayerEnterSceneNotify {
 	uint32 enter_scene_token = 4;
@@ -31,8 +31,8 @@ message PlayerEnterSceneNotify {
 	bool is_first_login_enter_scene = 91;
 	EnterType type = 3;
 	uint32 scene_id = 15;
-	PBDDPMHLPJG pos = 8;
+	Vector pos = 8;
 	repeated uint32 scene_tag_id_list = 9;
 	bool is_skip_ui = 2;
-	PBDDPMHLPJG prev_pos = 14;
+	Vector prev_pos = 14;
 }

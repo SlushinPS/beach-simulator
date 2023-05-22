@@ -15,6 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message BFFAMAJFAIO {
-	string NOMMAKKFKFO = 1;
+import "RegionInfo.proto";
+import "ForceUdpate.proto";
+import "StopServer.proto";
+message QueryCurrRegionHttpRsp {
+	int32 retcode = 1;
+	string msg = 2;
+	RegionInfo regionInfo = 3;
+	oneof detail {
+		ForceUdpate force_udpate = 4;
+		StopServer stop_server = 5;
+	}
+	bytes client_secret_key = 11;
+	bytes region_custom_config_encrypted = 12;
+	bytes client_region_custom_config_encrypted = 13;
 }

@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "EBCKEILKJOG.proto";
+import "Item.proto";
 import "StoreType.proto";
 // CmdId: 675
 message PlayerStoreNotify {
 	uint32 weight_limit = 15;
-	repeated EBCKEILKJOG item_list = 10;
+	repeated Item item_list = 10;
 	StoreType store_type = 8;
 }

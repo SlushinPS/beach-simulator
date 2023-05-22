@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message EvtFaceToDirInfo {
 	uint32 entity_id = 8;
-	PBDDPMHLPJG face_dir = 9;
+	Vector face_dir = 9;
 }

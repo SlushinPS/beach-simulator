@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "FishEscapeReason.proto";
 // CmdId: 5807
 message FishEscapeNotify {
-	PBDDPMHLPJG pos = 1;
+	Vector pos = 1;
 	repeated uint32 fish_id_list = 15;
 	uint32 uid = 5;
 	FishEscapeReason reason = 7;

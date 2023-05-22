@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 289
 message PersonalSceneJumpRsp {
-	PBDDPMHLPJG dest_pos = 8;
+	Vector dest_pos = 8;
 	uint32 dest_scene_id = 5;
 	int32 retcode = 14;
 }

@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "EBCKEILKJOG.proto";
+import "Item.proto";
 import "TrialAvatarGrantRecord.proto";
 message TrialAvatarInfo {
 	uint32 trial_avatar_id = 1;
-	repeated EBCKEILKJOG trial_equip_list = 2;
+	repeated Item trial_equip_list = 2;
 	TrialAvatarGrantRecord grant_record = 3;
 }

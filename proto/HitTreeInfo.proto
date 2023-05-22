@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message HitTreeInfo {
-	PBDDPMHLPJG tree_pos = 15;
+	Vector tree_pos = 15;
 	uint32 tree_type = 2;
 }

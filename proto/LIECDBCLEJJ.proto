@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message LIECDBCLEJJ {
-	PBDDPMHLPJG pos = 11;
-	PBDDPMHLPJG rot = 5;
+	Vector pos = 11;
+	Vector rot = 5;
 }

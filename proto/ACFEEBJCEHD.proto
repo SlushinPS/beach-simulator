@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message ACFEEBJCEHD {
 	uint32 furniture_id = 11;
-	PBDDPMHLPJG NHLNGOEOGMN = 10;
-	PBDDPMHLPJG spawn_pos = 4;
+	Vector NHLNGOEOGMN = 10;
+	Vector spawn_pos = 4;
 }

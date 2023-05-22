@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 import "JICIBIJIHAB.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message HomePlantFieldData {
 	repeated JICIBIJIHAB PLNDHOHDGHO = 14;
 	uint32 field_guid = 10;
 	uint32 scene_id = 1;
-	PBDDPMHLPJG spawn_pos = 11;
+	Vector spawn_pos = 11;
 	uint32 furniture_id = 6;
 }

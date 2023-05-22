@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message OHPPDGFKJFD {
 	uint32 entity_id = 10;
-	PBDDPMHLPJG skill_anchor_position = 3;
+	Vector skill_anchor_position = 3;
 }

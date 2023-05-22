@@ -17,8 +17,8 @@
 syntax = "proto3";
 message MsgParam {
 	oneof param {
-		uint32 MHMOBJMFJGG = 2;
-		float BLHCMAHIFDE = 3;
-		string FMEENBNFAEO = 12;
+		uint32 int_param = 2;
+		float flt_param = 3;
+		string str_param = 12;
 	}
 }

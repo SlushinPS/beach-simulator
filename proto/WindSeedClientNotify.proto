@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 1130
 message WindSeedClientNotify {
 	message GEAHCBGKECM {
@@ -23,7 +23,7 @@ message WindSeedClientNotify {
 	}
 	
 	message JONENPANFIF {
-		PBDDPMHLPJG seed_pos = 3;
+		Vector seed_pos = 3;
 		uint32 refresh_notify = 15;
 		uint32 EDCOKIMMMEJ = 13;
 	}

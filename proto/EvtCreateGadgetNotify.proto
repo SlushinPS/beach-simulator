@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 import "ForwardType.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 355
 message EvtCreateGadgetNotify {
 	uint32 camp_id = 11;
@@ -27,7 +27,7 @@ message EvtCreateGadgetNotify {
 	uint32 entity_id = 10;
 	ForwardType forward_type = 4;
 	bool NHMFDGLCHPK = 174;
-	PBDDPMHLPJG KFOPAKLLJHL = 1;
+	Vector KFOPAKLLJHL = 1;
 	uint32 owner_entity_id = 8;
 	uint32 room_id = 3;
 	uint32 AJHOCIPOMFO = 2;
@@ -35,7 +35,7 @@ message EvtCreateGadgetNotify {
 	bool is_peer_id_from_player = 172;
 	uint32 config_id = 15;
 	uint32 camp_type = 5;
-	PBDDPMHLPJG APIDFLDIKJP = 14;
+	Vector APIDFLDIKJP = 14;
 	bool CPEAMBJJDAP = 6;
 	repeated uint32 target_entity_id_list = 418;
 }

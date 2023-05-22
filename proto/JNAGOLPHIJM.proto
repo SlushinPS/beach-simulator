@@ -15,12 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 2907
 message JNAGOLPHIJM {
 	uint32 config_id = 2;
 	uint32 offering_id = 10;
-	PBDDPMHLPJG hint_center_pos = 9;
+	Vector hint_center_pos = 9;
 	uint32 MELJODAFPCD = 11;
 	uint32 group_id = 5;
 }

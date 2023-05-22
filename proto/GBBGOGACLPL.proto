@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message GBBGOGACLPL {
 	float region_radius = 3;
 	bool is_open = 15;
@@ -25,6 +25,6 @@ message GBBGOGACLPL {
 	uint32 region_id = 14;
 	uint32 open_time = 1;
 	uint32 scene_id = 7;
-	PBDDPMHLPJG region_center_pos = 4;
+	Vector region_center_pos = 4;
 	uint32 PNIGDNOPAGE = 8;
 }

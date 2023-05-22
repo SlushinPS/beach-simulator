@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message SkyCrystalDetectorData {
 	bool is_hint_valid = 6;
-	PBDDPMHLPJG hint_center_pos = 3;
+	Vector hint_center_pos = 3;
 	uint32 config_id = 12;
 	uint32 group_id = 14;
 }

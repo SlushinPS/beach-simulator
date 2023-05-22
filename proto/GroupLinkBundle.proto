@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 import "IADPAEJBNNG.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message GroupLinkBundle {
 	uint32 radius = 8;
 	IADPAEJBNNG FOLGBEBIFCG = 3;
-	PBDDPMHLPJG center = 13;
+	Vector center = 13;
 	bool is_show_mark = 9;
 	uint32 bundle_id = 7;
 	uint32 scene_id = 2;

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 import "DAKBAOLCLCB.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message ToTheMoonObstacleInfo {
 	enum ShapeType {
 		ObstacleShapeCapsule = 0;
@@ -26,6 +26,6 @@ message ToTheMoonObstacleInfo {
 	ShapeType type = 15;
 	DAKBAOLCLCB rotation = 14;
 	int32 handle_id = 12;
-	PBDDPMHLPJG center = 9;
-	PBDDPMHLPJG half_extents = 13;
+	Vector center = 9;
+	Vector half_extents = 13;
 }

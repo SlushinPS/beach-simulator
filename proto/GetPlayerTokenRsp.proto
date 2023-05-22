@@ -15,14 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "CHDJMPLAMAF.proto";
+import "StopServer.proto";
 // CmdId: 196
 message GetPlayerTokenRsp {
 	bool HCPBAACPGBJ = 343;
 	bytes security_cmd_buffer = 10;
 	bool EAEFJELFOLA = 960;
 	string birthday = 2027;
-	CHDJMPLAMAF stop_server = 647;
+	StopServer stop_server = 647;
 	uint32 channel_id = 362;
 	bytes extra_bin_data = 3;
 	uint32 gm_uid = 11;

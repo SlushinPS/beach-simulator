@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message CLHGHBAPIDK {
-	uint32 LBIIOEBMNMB = 6;
+import "Vector.proto";
+message ShapeSphere {
+	Vector center = 1;
+	float radius = 2;
 }

@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "LunaRiteHintPointType.proto";
 message LunaRiteHintPoint {
 	uint32 area_id = 1;
-	PBDDPMHLPJG pos = 15;
+	Vector pos = 15;
 	LunaRiteHintPointType type = 14;
 	uint32 index = 10;
 }

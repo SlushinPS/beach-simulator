@@ -15,13 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ODLCGPLCCDF.proto";
-import "MGKIFECKMDL.proto";
+import "LocationInfo.proto";
+import "CreatorInfo.proto";
 // CmdId: 4295
 message WidgetDoBagReq {
 	uint32 material_id = 10;
 	oneof op_info {
-		ODLCGPLCCDF OFABIHJLICB = 1329;
-		MGKIFECKMDL LIHOJOEOPAI = 1593;
+		LocationInfo location_info = 1329;
+		CreatorInfo widget_creator_info = 1593;
 	}
 }

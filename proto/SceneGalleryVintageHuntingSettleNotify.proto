@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "EKBNJOEGGBN.proto";
-import "OGILNLELDED.proto";
-import "KNKOFBCIECL.proto";
+import "FirstStageInfo.proto";
+import "SecondStageInfo.proto";
+import "ThirdStageInfo.proto";
 // CmdId: 24282
 message SceneGalleryVintageHuntingSettleNotify {
 	uint32 BDKLLHMMNJB = 7;
@@ -26,8 +26,8 @@ message SceneGalleryVintageHuntingSettleNotify {
 	uint32 stage_id = 4;
 	bool has_new_watcher = 8;
 	oneof info {
-		EKBNJOEGGBN EBAGDMMGKKM = 2;
-		OGILNLELDED KBKFPDLKDDJ = 3;
-		KNKOFBCIECL ABOOIFMJFCM = 12;
+		FirstStageInfo first_stage_info = 2;
+		SecondStageInfo second_stage_info = 3;
+		ThirdStageInfo third_stage_info = 12;
 	}
 }

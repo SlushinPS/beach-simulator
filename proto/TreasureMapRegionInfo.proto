@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message TreasureMapRegionInfo {
 	uint32 JAIOGCBIKEC = 6;
-	PBDDPMHLPJG region_center_pos = 9;
+	Vector region_center_pos = 9;
 	uint32 region_id = 14;
 	uint32 OANABNBFBPI = 15;
 	bool EHPGJNDPBIC = 12;

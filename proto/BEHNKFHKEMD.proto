@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message BEHNKFHKEMD {
-	PBDDPMHLPJG pos = 4;
+	Vector pos = 4;
 	uint32 room_id = 7;
-	PBDDPMHLPJG rot = 15;
+	Vector rot = 15;
 }

@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "DAKBAOLCLCB.proto";
 import "Vector3Int.proto";
 message ObstacleInfo {
@@ -25,7 +25,7 @@ message ObstacleInfo {
 	}
 	
 	int32 obstacle_id = 4;
-	PBDDPMHLPJG center = 6;
+	Vector center = 6;
 	DAKBAOLCLCB rotation = 2;
 	ShapeType shape = 11;
 	Vector3Int extents = 13;

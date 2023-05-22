@@ -17,6 +17,6 @@
 syntax = "proto3";
 message GDLNENFGMCP {
 	uint32 cur_score = 10;
-	uint32 LBIIOEBMNMB = 4;
+	uint32 target_score = 4;
 	uint32 end_time = 1;
 }

@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message FFELGFFLAAC {
-	repeated PBDDPMHLPJG COJCABJLJLO = 9;
+	repeated Vector COJCABJLJLO = 9;
 }

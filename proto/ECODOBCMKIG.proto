@@ -15,13 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message ECODOBCMKIG {
 	int32 id = 1;
 	uint32 config_id = 2;
-	PBDDPMHLPJG center = 3;
-	PBDDPMHLPJG extents = 4;
-	PBDDPMHLPJG JNCLFBFEIJJ = 5;
-	PBDDPMHLPJG forward = 6;
-	PBDDPMHLPJG ODAMPABFHCD = 7;
+	Vector center = 3;
+	Vector extents = 4;
+	Vector JNCLFBFEIJJ = 5;
+	Vector forward = 6;
+	Vector ODAMPABFHCD = 7;
 }

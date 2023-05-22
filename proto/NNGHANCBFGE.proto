@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message NNGHANCBFGE {
-	PBDDPMHLPJG FOIOAHHLCPL = 5;
-	PBDDPMHLPJG BAIDAEGLGAP = 12;
+	Vector FOIOAHHLCPL = 5;
+	Vector BAIDAEGLGAP = 12;
 	uint32 entity_id = 4;
 }

@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "DAKBAOLCLCB.proto";
 message RoutePoint {
-	PBDDPMHLPJG position = 1;
+	Vector position = 1;
 	float arrive_range = 2;
 	bool has_reach_event = 3;
 	oneof PLOCBOAFHED {
@@ -26,7 +26,7 @@ message RoutePoint {
 		float EGECGLCCNLB = 12;
 	}
 	oneof BAHPKHNMIMG {
-		PBDDPMHLPJG DCFDJCBCBIL = 21;
+		Vector DCFDJCBCBIL = 21;
 		DAKBAOLCLCB GKNGJIJPAJH = 22;
 		DAKBAOLCLCB DIECKDNJNJP = 23;
 	}

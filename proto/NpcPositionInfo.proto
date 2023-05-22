@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message NpcPositionInfo {
 	uint32 npc_id = 1;
-	PBDDPMHLPJG pos = 2;
+	Vector pos = 2;
 }

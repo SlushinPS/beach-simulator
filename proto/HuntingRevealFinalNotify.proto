@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 import "HuntingPair.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 4323
 message HuntingRevealFinalNotify {
 	HuntingPair hunting_pair = 13;
 	uint32 finished_group_id = 5;
-	PBDDPMHLPJG final_position = 4;
+	Vector final_position = 4;
 }

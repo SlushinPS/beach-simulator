@@ -15,15 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "KOKDLGLHBDK.proto";
-import "JFNFEJHPPKA.proto";
-import "BILANGJEJAM.proto";
-message EBCKEILKJOG {
-	uint32 item_id = 1;
-	uint64 guid = 2;
-	oneof DOCDJJDCADK {
-		KOKDLGLHBDK PLOKCCCCNEN = 5;
-		JFNFEJHPPKA GKKJEMAKLCB = 6;
-		BILANGJEJAM JNEIPKFPCJI = 7;
-	}
+message RegionSimpleInfo {
+	string name = 1;
+	string title = 2;
+	string type = 3;
+	string dispatch_url = 4;
 }

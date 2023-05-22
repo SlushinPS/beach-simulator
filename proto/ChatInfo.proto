@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 message ChatInfo {
-	message KGNCKLCKPLN {
+	message SystemHint {
 		uint32 type = 13;
 	}
 	
@@ -26,8 +26,8 @@ message ChatInfo {
 	uint32 uid = 5;
 	uint32 sequence = 12;
 	oneof MJPHBPPGHFC {
-		string HPLIGIFFCEN = 408;
-		uint32 IJLFNAFBFLH = 1308;
-		KGNCKLCKPLN BLBDEHNOKEO = 166;
+		string text = 408;
+		uint32 icon = 1308;
+		SystemHint system_hint = 166;
 	}
 }

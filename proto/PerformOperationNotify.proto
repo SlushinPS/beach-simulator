@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 1138
 message PerformOperationNotify {
 	enum OperateType {
@@ -23,9 +23,9 @@ message PerformOperationNotify {
 		Effect = 1;
 	}
 	
-	PBDDPMHLPJG rot = 5;
+	Vector rot = 5;
 	OperateType operate_type = 6;
-	PBDDPMHLPJG pos = 4;
+	Vector pos = 4;
 	uint32 entity_id = 2;
 	uint32 index = 14;
 }

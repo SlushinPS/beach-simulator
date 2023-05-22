@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 import "ItemHint.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 655
 message ItemAddHintNotify {
 	bool DOKPNFNGLOK = 7;
@@ -24,7 +24,7 @@ message ItemAddHintNotify {
 	repeated ItemHint overflow_transformed_item_list = 1;
 	repeated ItemHint item_list = 13;
 	uint32 quest_id = 15;
-	PBDDPMHLPJG position = 8;
+	Vector position = 8;
 	bool IBCJJEBBKJE = 9;
 	uint32 reason = 4;
 }

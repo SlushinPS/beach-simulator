@@ -15,8 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message PBDDPMHLPJG {
-	float x = 1;
-	float y = 2;
-	float z = 3;
+message FirstStageInfo {
+	uint32 HCMMMMAIJCH = 8;
+	uint32 score = 3;
+	uint32 EKFKANEBDIF = 4;
+	uint32 JIEADFBLOOL = 15;
 }

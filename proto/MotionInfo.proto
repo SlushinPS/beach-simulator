@@ -15,15 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "MotionState.proto";
 message MotionInfo {
-	PBDDPMHLPJG pos = 1;
-	PBDDPMHLPJG rot = 2;
-	PBDDPMHLPJG speed = 3;
+	Vector pos = 1;
+	Vector rot = 2;
+	Vector speed = 3;
 	MotionState state = 4;
-	repeated PBDDPMHLPJG params = 5;
-	PBDDPMHLPJG ref_pos = 6;
+	repeated Vector params = 5;
+	Vector ref_pos = 6;
 	uint32 ref_id = 7;
 	uint32 scene_time = 8;
 	uint64 interval_velocity = 9;

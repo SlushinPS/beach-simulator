@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message FJMINHJHNDA {
 	uint32 entity_id = 2;
-	PBDDPMHLPJG BAIDAEGLGAP = 5;
+	Vector BAIDAEGLGAP = 5;
 	bool CEECBFGGDCJ = 15;
 	float speed = 1;
 	bool NAHILIAHHLI = 8;

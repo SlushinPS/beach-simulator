@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 283
 message HitClientTrivialNotify {
 	uint32 owner_entity_id = 10;
-	PBDDPMHLPJG position = 2;
+	Vector position = 2;
 }

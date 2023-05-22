@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message COPAGJPLLDL {
 	uint32 guid = 15;
 	uint32 config_id = 1;
-	PBDDPMHLPJG pos = 14;
-	PBDDPMHLPJG rot = 13;
+	Vector pos = 14;
+	Vector rot = 13;
 }

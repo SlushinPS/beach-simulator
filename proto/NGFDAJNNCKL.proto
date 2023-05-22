@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message NGFDAJNNCKL {
 	uint32 group_id = 2;
-	PBDDPMHLPJG pos = 11;
+	Vector pos = 11;
 	uint32 config_id = 5;
 }

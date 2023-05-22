@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "CLHGHBAPIDK.proto";
-import "NGIFMHFCFAC.proto";
+import "FlowerStartParam.proto";
+import "ElectroherculesStartParam.proto";
 // CmdId: 5575
 message GalleryStartNotify {
 	uint32 owner_uid = 5;
@@ -25,7 +25,7 @@ message GalleryStartNotify {
 	uint32 end_time = 2;
 	uint32 gallery_id = 3;
 	oneof detail {
-		CLHGHBAPIDK ECBBNPGLOLH = 14;
-		NGIFMHFCFAC NFECBOCDDAJ = 9;
+		FlowerStartParam flower_start_param = 14;
+		ElectroherculesStartParam electrohercules_start_param = 9;
 	}
 }

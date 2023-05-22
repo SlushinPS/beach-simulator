@@ -15,6 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message BILANGJEJAM {
-	uint32 count = 1;
+import "LACENMJJAHB.proto";
+import "LocationInfo.proto";
+message CreatorInfo {
+	LACENMJJAHB op_type = 13;
+	LocationInfo locationInfo = 8;
+	uint32 entity_id = 9;
 }

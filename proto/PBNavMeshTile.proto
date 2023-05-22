@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "PBNavMeshPoly.proto";
 message PBNavMeshTile {
-	repeated PBDDPMHLPJG vecs = 10;
+	repeated Vector vecs = 10;
 	repeated PBNavMeshPoly polys = 9;
 }

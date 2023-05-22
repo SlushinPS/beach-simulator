@@ -17,6 +17,6 @@
 syntax = "proto3";
 message BCDBPJIBPJM {
 	uint32 EJIFPPMOLPD = 7;
-	uint32 PBKDCNDBKPF = 13;
+	uint32 capture_animal_num = 13;
 	uint32 total_num = 15;
 }

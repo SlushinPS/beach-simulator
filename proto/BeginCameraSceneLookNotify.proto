@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 263
 message BeginCameraSceneLookNotify {
 	enum KeepRotType {
@@ -35,11 +35,11 @@ message BeginCameraSceneLookNotify {
 	bool JJCBIOMFBNH = 1;
 	bool PPILENHAAJB = 8;
 	bool HLBKIBHNJCO = 15;
-	PBDDPMHLPJG CJNAAACNIGL = 3;
+	Vector CJNAAACNIGL = 3;
 	uint32 EJFEBPBDOJN = 1356;
 	KeepRotType keep_rot_type = 2;
 	bool KIHOMJJOKDH = 13;
-	PBDDPMHLPJG MCBKKMABEKK = 9;
+	Vector MCBKKMABEKK = 9;
 	float duration = 12;
 	bool MGDGBCPNEFO = 6;
 	float HMOMAJADGBN = 14;

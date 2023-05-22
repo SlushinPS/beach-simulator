@@ -15,13 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message EvtAnimatorStateChangedInfo {
 	uint32 BILMMKGKBOK = 7;
 	uint32 ADDBLOMJJIA = 8;
 	bool BDNLIAKCHJM = 12;
 	int32 face_angle_compact = 4;
-	PBDDPMHLPJG pos = 6;
+	Vector pos = 6;
 	uint32 entity_id = 10;
 	float fade_duration = 1;
 	bool MFBMIOOAJIF = 11;

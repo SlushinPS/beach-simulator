@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "EBCKEILKJOG.proto";
+import "Item.proto";
 // CmdId: 834
 message GadgetAutoPickDropInfoNotify {
-	repeated EBCKEILKJOG item_list = 12;
+	repeated Item item_list = 12;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 import "ForwardType.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 324
 message EvtAvatarEnterFocusNotify {
 	bool CIOFIKMDBKB = 10;
@@ -31,5 +31,5 @@ message EvtAvatarEnterFocusNotify {
 	bool IDANBDBPLHD = 2;
 	bool PHIGHBIEJCA = 5;
 	bool PDMKBJJDBEC = 9;
-	PBDDPMHLPJG focus_forward = 7;
+	Vector focus_forward = 7;
 }

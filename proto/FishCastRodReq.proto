@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 5826
 message FishCastRodReq {
-	PBDDPMHLPJG pos = 12;
+	Vector pos = 12;
 	uint32 MHKMFJLLHFF = 8;
 	uint32 JBIAOCKLELE = 3;
 	uint32 rod_entity_id = 11;

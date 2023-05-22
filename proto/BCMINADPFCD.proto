@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message BCMINADPFCD {
 	uint32 open_time = 14;
 	bool is_open = 7;
-	PBDDPMHLPJG pos = 3;
+	Vector pos = 3;
 	uint32 FJICFMCGMEO = 2;
 }

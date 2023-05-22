@@ -15,14 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message EvtRushMoveInfo {
-	PBDDPMHLPJG velocity = 7;
-	PBDDPMHLPJG pos = 1;
+	Vector velocity = 7;
+	Vector pos = 1;
 	int32 face_angle_compact = 9;
 	uint32 entity_id = 5;
-	PBDDPMHLPJG JHIKKHHMDFJ = 12;
+	Vector JHIKKHHMDFJ = 12;
 	float time_range = 11;
 	int32 state_name_hash = 2;
-	PBDDPMHLPJG LNNAGFHEFIO = 3;
+	Vector LNNAGFHEFIO = 3;
 }

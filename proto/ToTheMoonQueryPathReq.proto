@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 6175
 message ToTheMoonQueryPathReq {
 	enum OALCKINEBHD {
@@ -43,7 +43,7 @@ message ToTheMoonQueryPathReq {
 	bool PHNPILBKNAN = 3;
 	NJDHEEAOEBE EOOIJPDPPFG = 8;
 	IAKAPNKHDPJ GPLBKBPOBIF = 14;
-	PBDDPMHLPJG destination_pos = 10;
-	PBDDPMHLPJG source_pos = 12;
+	Vector destination_pos = 10;
+	Vector source_pos = 12;
 	bool GKLIGFPCPHK = 13;
 }

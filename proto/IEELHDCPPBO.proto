@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message IEELHDCPPBO {
-	PBDDPMHLPJG move_dir = 4;
+	Vector move_dir = 4;
 	uint32 AFJGPBDOFFF = 7;
-	PBDDPMHLPJG pos = 2;
-	PBDDPMHLPJG rot = 6;
+	Vector pos = 2;
+	Vector rot = 6;
 }

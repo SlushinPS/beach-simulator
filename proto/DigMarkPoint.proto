@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message DigMarkPoint {
-	PBDDPMHLPJG rot = 8;
-	PBDDPMHLPJG pos = 7;
+	Vector rot = 8;
+	Vector pos = 7;
 	uint32 bundle_id = 6;
 }

@@ -26,7 +26,7 @@ message DungeonPlayerDieNotify {
 	uint32 wait_time = 8;
 	uint32 murderer_entity_id = 15;
 	oneof entity {
-		uint32 HKLICMFBIKK = 5;
-		uint32 FEMFCIALFPJ = 1;
+		uint32 monster_id = 5;
+		uint32 gadget_id = 1;
 	}
 }

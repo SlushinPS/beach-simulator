@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 4254
 message WidgetCaptureAnimalReq {
 	uint32 material_id = 4;
-	PBDDPMHLPJG pos = 7;
+	Vector pos = 7;
 	uint32 entity_id = 3;
 }

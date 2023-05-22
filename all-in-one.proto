@@ -16,25 +16,25 @@
 
 syntax = "proto3";
 
-message NEPABBOKLDD {
-	uint32 BHCINLIFBHJ = 1;
-	uint32 GICGNEHLIGL = 2;
-	uint32 CICGPADPKMG = 3;
-	uint32 OKOGMPLPIOK = 4;
-	uint32 AAIHCOOPDJC = 5;
-	uint64 MCAMHNKDPGD = 6;
-	uint32 LCKLKCNJOIP = 11;
-	uint32 AMPKJBILCCG = 12;
-	uint32 JHPLPGKPNHH = 13;
-	uint64 IPEMLKCDGFI = 21;
-	uint32 AJDJIAGOADJ = 22;
-	map<uint32, uint32> NKHHMHOGLPE = 23;
-	uint32 ODKFNOPBNCG = 24;
-	uint32 KNNPIOECHFB = 31;
-	uint32 IFKOOOEJLHL = 32;
-	map<uint32, uint32> KMANIGMDBKL = 33;
-	bool EKMLGOLLHDN = 34;
-	uint32 AJGDCNOLCIC = 35;
+message PacketHead {
+	uint32 packet_id = 1;
+	uint32 rpc_id = 2;
+	uint32 client_sequence_id = 3;
+	uint32 enet_channel_id = 4;
+	uint32 enet_is_reliable = 5;
+	uint64 sent_ms = 6;
+	uint32 user_id = 11;
+	uint32 user_ip = 12;
+	uint32 user_session_id = 13;
+	uint64 recv_time_ms = 21;
+	uint32 rpc_begin_time_ms = 22;
+	map<uint32, uint32> ext_map = 23;
+	uint32 sender_app_id = 24;
+	uint32 source_service = 31;
+	uint32 target_service = 32;
+	map<uint32, uint32> service_app_id_map = 33;
+	bool is_set_game_thread = 34;
+	uint32 game_thread_index = 35;
 }
 
 message AbilityInvokeEntryHead {
@@ -147,36 +147,36 @@ message AGDCLCLDMBK {
 
 message ICJEFJLIABP {
 	float damage = 5;
-	PBDDPMHLPJG NBBIKGEEIPA = 9;
+	Vector NBBIKGEEIPA = 9;
 }
 
 message BAHALCKDAKF {
-	PBDDPMHLPJG rot = 11;
-	PBDDPMHLPJG pos = 15;
-	PBDDPMHLPJG move_dir = 10;
+	Vector rot = 11;
+	Vector pos = 15;
+	Vector move_dir = 10;
 }
 
 message IEELHDCPPBO {
-	PBDDPMHLPJG move_dir = 4;
+	Vector move_dir = 4;
 	uint32 AFJGPBDOFFF = 7;
-	PBDDPMHLPJG pos = 2;
-	PBDDPMHLPJG rot = 6;
+	Vector pos = 2;
+	Vector rot = 6;
 }
 
 message MIDKDEJEEDA {
-	PBDDPMHLPJG pos = 1;
-	PBDDPMHLPJG rot = 7;
+	Vector pos = 1;
+	Vector rot = 7;
 }
 
 message LIECDBCLEJJ {
-	PBDDPMHLPJG pos = 11;
-	PBDDPMHLPJG rot = 5;
+	Vector pos = 11;
+	Vector rot = 5;
 }
 
 message OPDCPCFOLIE {
-	PBDDPMHLPJG rot = 8;
+	Vector rot = 8;
 	uint32 room_id = 6;
-	PBDDPMHLPJG pos = 13;
+	Vector pos = 13;
 }
 
 message NPDLPJGBLME {
@@ -188,17 +188,17 @@ message KFHHLHAMIAL {
 }
 
 message HOGPBIIGLEO {
-	PBDDPMHLPJG pos = 11;
-	PBDDPMHLPJG rot = 4;
+	Vector pos = 11;
+	Vector rot = 4;
 }
 
 message BMCEGJLELCA {
-	PBDDPMHLPJG pos = 11;
-	PBDDPMHLPJG rot = 3;
+	Vector pos = 11;
+	Vector rot = 3;
 }
 
 message DNOIPLKDGGO {
-	PBDDPMHLPJG CNELEEJIAMD = 12;
+	Vector CNELEEJIAMD = 12;
 }
 
 message NHKODIELCKE {
@@ -206,9 +206,9 @@ message NHKODIELCKE {
 }
 
 message BEHNKFHKEMD {
-	PBDDPMHLPJG pos = 4;
+	Vector pos = 4;
 	uint32 room_id = 7;
-	PBDDPMHLPJG rot = 15;
+	Vector rot = 15;
 }
 
 message GPAFLCHDODD {
@@ -225,8 +225,8 @@ message DJBBMCCIIIJ {
 }
 
 message MDENGHHCBCE {
-	PBDDPMHLPJG BAIDAEGLGAP = 8;
-	PBDDPMHLPJG IPPGGCIEAGI = 5;
+	Vector BAIDAEGLGAP = 8;
+	Vector IPPGGCIEAGI = 5;
 }
 
 message AGMCPLHHDMM {
@@ -272,7 +272,7 @@ message ECIPFNGJAIF {
 	}
 	
 	message FLOPFNIHOIO {
-		repeated PBDDPMHLPJG JILAPMLEIJA = 1;
+		repeated Vector JILAPMLEIJA = 1;
 	}
 	
 	message LEOLCCAAAPG {
@@ -330,8 +330,8 @@ message DGCJOENFOJC {
 }
 
 message EOEKNCGNPGB {
-	PBDDPMHLPJG KFOPAKLLJHL = 5;
-	PBDDPMHLPJG forward = 4;
+	Vector KFOPAKLLJHL = 5;
+	Vector forward = 4;
 }
 
 message JLFKECJAKLK {
@@ -441,7 +441,7 @@ message WindSeedClientNotify {
 	}
 	
 	message JONENPANFIF {
-		PBDDPMHLPJG seed_pos = 3;
+		Vector seed_pos = 3;
 		uint32 refresh_notify = 15;
 		uint32 EDCOKIMMMEJ = 13;
 	}
@@ -517,9 +517,9 @@ message PerformOperationNotify {
 		Effect = 1;
 	}
 	
-	PBDDPMHLPJG rot = 5;
+	Vector rot = 5;
 	OperateType operate_type = 6;
-	PBDDPMHLPJG pos = 4;
+	Vector pos = 4;
 	uint32 entity_id = 2;
 	uint32 index = 14;
 }
@@ -786,7 +786,7 @@ message GJIPMDIPMGO {
 
 // CmdId: 2144
 message SeaLampFlyLampReq {
-	PBDDPMHLPJG pos = 15;
+	Vector pos = 15;
 	int32 param = 6;
 	uint32 item_num = 1;
 	uint32 item_id = 8;
@@ -858,7 +858,7 @@ message SeaLampFlyLampNotify {
 	int32 param = 9;
 	uint32 item_id = 5;
 	uint32 item_num = 14;
-	PBDDPMHLPJG pos = 8;
+	Vector pos = 8;
 }
 
 // CmdId: 2127
@@ -1044,7 +1044,7 @@ message LFPLMPFDIHK {
 }
 
 message GKNCGFLIHAF {
-	PBDDPMHLPJG pos = 3;
+	Vector pos = 3;
 	repeated LFPLMPFDIHK uid_info_list = 10;
 	uint32 cost_time = 5;
 	uint32 LKAHBJHOIAO = 12;
@@ -1084,7 +1084,7 @@ message AsterLittleDetailInfo {
 
 message AsterMidCampInfo {
 	uint32 camp_id = 3;
-	PBDDPMHLPJG pos = 14;
+	Vector pos = 14;
 }
 
 message AsterMidDetailInfo {
@@ -1370,7 +1370,7 @@ message RestartEffigyChallengeRsp {
 
 message TreasureMapRegionInfo {
 	uint32 JAIOGCBIKEC = 6;
-	PBDDPMHLPJG region_center_pos = 9;
+	Vector region_center_pos = 9;
 	uint32 region_id = 14;
 	uint32 OANABNBFBPI = 15;
 	bool EHPGJNDPBIC = 12;
@@ -1840,7 +1840,7 @@ message ActivityTakeWatcherRewardBatchRsp {
 
 message AKPGAHJAFMB {
 	uint32 IMGOCECOCPD = 3;
-	PBDDPMHLPJG pos = 6;
+	Vector pos = 6;
 	uint32 group_id = 1;
 	uint32 reward_id = 12;
 }
@@ -2070,8 +2070,8 @@ message GAMAHBMCHGE {
 message MistTrialSelectAvatarAndEnterDungeonReq {
 	message SelectAvatarIndex {
 		oneof detail {
-			uint32 JLHKPAJEBEC = 4;
-			uint64 PNDBBMOGABG = 5;
+			uint32 mist_trial_avatar_id = 4;
+			uint64 formal_avatar_guid = 5;
 		}
 	}
 	
@@ -2235,14 +2235,14 @@ message NLIAPNIJAKO {
 // CmdId: 8259
 message SummerTimeFloatSignalPositionNotify {
 	bool is_transfer_anchor = 9;
-	PBDDPMHLPJG position = 2;
+	Vector position = 2;
 	uint32 float_signal_id = 13;
 }
 
 // CmdId: 8915
 message SummerTimeFloatSignalUpdateNotify {
 	bool is_transfer_anchor = 14;
-	PBDDPMHLPJG position = 10;
+	Vector position = 10;
 	uint32 float_signal_id = 7;
 }
 
@@ -2368,7 +2368,7 @@ message LBDBMDFKMFC {
 message BCMINADPFCD {
 	uint32 open_time = 14;
 	bool is_open = 7;
-	PBDDPMHLPJG pos = 3;
+	Vector pos = 3;
 	uint32 FJICFMCGMEO = 2;
 }
 
@@ -2574,7 +2574,7 @@ message FishingGallerySettleNotify {
 
 message LunaRiteHintPoint {
 	uint32 area_id = 1;
-	PBDDPMHLPJG pos = 15;
+	Vector pos = 15;
 	LunaRiteHintPointType type = 14;
 	uint32 index = 10;
 }
@@ -3222,8 +3222,8 @@ message RoguelikeRefreshCardCostUpdateNotify {
 }
 
 message DigMarkPoint {
-	PBDDPMHLPJG rot = 8;
-	PBDDPMHLPJG pos = 7;
+	Vector rot = 8;
+	Vector pos = 7;
 	uint32 bundle_id = 6;
 }
 
@@ -3262,7 +3262,7 @@ message AAALOFKKDHO {
 
 message WinterCampStageInfo {
 	uint32 open_time = 7;
-	PBDDPMHLPJG pos = 4;
+	Vector pos = 4;
 	uint32 id = 9;
 	bool is_finished = 2;
 	uint32 cur_progress = 14;
@@ -3270,7 +3270,7 @@ message WinterCampStageInfo {
 }
 
 message EGJNNEHKJCO {
-	PBDDPMHLPJG pos = 7;
+	Vector pos = 7;
 	uint32 open_time = 2;
 	uint32 max_score = 15;
 	uint32 id = 11;
@@ -3599,11 +3599,11 @@ message PCNDNIOHPPA {
 	repeated ClientInputType NNFEAJFMMCO = 10;
 }
 
-message LBHNHAEEOCA {
+message BundleInfo {
 	repeated uint32 BADKPBDHGPJ = 15;
 }
 
-message FOPDMMNKCLB {
+message ScoreChallengeInfo {
 	uint32 max_score = 3;
 	uint32 GHINIIJNMMJ = 12;
 }
@@ -3612,9 +3612,9 @@ message ADJAGBNPNIN {
 	uint32 challenge_type = 12;
 	bool is_unlock = 7;
 	oneof ODHNJHMDPBJ {
-		LBHNHAEEOCA NMKCOOKNNBG = 8;
-		FOPDMMNKCLB IENLPLIJACJ = 14;
-		uint32 CMHOHDPGENG = 4;
+		BundleInfo bundle_info = 8;
+		ScoreChallengeInfo score_challenge_info = 14;
+		uint32 boss_challenge_id = 4;
 	}
 }
 
@@ -3826,13 +3826,13 @@ message JHKDEDKDIJH {
 
 message NGFDAJNNCKL {
 	uint32 group_id = 2;
-	PBDDPMHLPJG pos = 11;
+	Vector pos = 11;
 	uint32 config_id = 5;
 }
 
 message FKOFDCNFGIN {
 	uint32 group_id = 11;
-	PBDDPMHLPJG pos = 3;
+	Vector pos = 3;
 	uint32 gadget_id = 12;
 }
 
@@ -4270,7 +4270,7 @@ message IrodoriMasterGallerySettleNotify {
 
 message BDIKBENAFPG {
 	bool is_open = 5;
-	PBDDPMHLPJG center = 6;
+	Vector center = 6;
 	bool DNHFHLENEOA = 10;
 	uint32 pos_id = 15;
 	uint32 open_time = 14;
@@ -5215,7 +5215,7 @@ message GBBGOGACLPL {
 	uint32 region_id = 14;
 	uint32 open_time = 1;
 	uint32 scene_id = 7;
-	PBDDPMHLPJG region_center_pos = 4;
+	Vector region_center_pos = 4;
 	uint32 PNIGDNOPAGE = 8;
 }
 
@@ -5357,20 +5357,20 @@ message VintageMarketDeliverItemRsp {
 	uint32 trader_id = 2;
 }
 
-message EKBNJOEGGBN {
+message FirstStageInfo {
 	uint32 HCMMMMAIJCH = 8;
 	uint32 score = 3;
 	uint32 EKFKANEBDIF = 4;
 	uint32 JIEADFBLOOL = 15;
 }
 
-message OGILNLELDED {
-	uint32 PBKDCNDBKPF = 4;
+message SecondStageInfo {
+	uint32 capture_animal_num = 4;
 	uint32 total_num = 7;
-	map<uint32, uint32> ADNCOHLPDAE = 12;
+	map<uint32, uint32> animal_count_map = 12;
 }
 
-message KNKOFBCIECL {
+message ThirdStageInfo {
 	uint32 left_time = 9;
 	bool is_success = 4;
 }
@@ -5383,9 +5383,9 @@ message SceneGalleryVintageHuntingSettleNotify {
 	uint32 stage_id = 4;
 	bool has_new_watcher = 8;
 	oneof info {
-		EKBNJOEGGBN EBAGDMMGKKM = 2;
-		OGILNLELDED KBKFPDLKDDJ = 3;
-		KNKOFBCIECL ABOOIFMJFCM = 12;
+		FirstStageInfo first_stage_info = 2;
+		SecondStageInfo second_stage_info = 3;
+		ThirdStageInfo third_stage_info = 12;
 	}
 }
 
@@ -6269,7 +6269,7 @@ message EDPNCKEJJPN {
 message DMABGAGCFAO {
 	uint32 open_time = 9;
 	bool DNHFHLENEOA = 7;
-	PBDDPMHLPJG center = 11;
+	Vector center = 11;
 	uint32 pos_id = 1;
 	bool is_open = 8;
 }
@@ -6495,9 +6495,9 @@ message EDJJPNEEFNE {
 
 message KGHCFBAHNBO {
 	uint32 block_id = 1;
-	PBDDPMHLPJG rot = 7;
+	Vector rot = 7;
 	uint32 guid = 5;
-	PBDDPMHLPJG pos = 12;
+	Vector pos = 12;
 }
 
 // CmdId: 21550
@@ -7170,7 +7170,7 @@ message ChooseCurAvatarTeamRsp {
 
 // CmdId: 1690
 message ChangeAvatarReq {
-	PBDDPMHLPJG move_pos = 3;
+	Vector move_pos = 3;
 	bool is_move = 9;
 	uint32 skill_id = 15;
 	uint64 guid = 8;
@@ -7253,7 +7253,7 @@ message AvatarUpgradeRsp {
 
 // CmdId: 1619
 message AvatarDieAnimationEndReq {
-	PBDDPMHLPJG reborn_pos = 15;
+	Vector reborn_pos = 15;
 	uint32 skill_id = 4;
 	uint64 die_guid = 1;
 }
@@ -7753,7 +7753,7 @@ message BlossomBriefInfo {
 	uint32 monster_level = 10;
 	uint32 state = 13;
 	uint32 refresh_id = 1;
-	PBDDPMHLPJG pos = 4;
+	Vector pos = 4;
 	uint32 circle_camp_id = 11;
 	bool is_guide_opened = 9;
 	uint32 reward_id = 12;
@@ -7811,8 +7811,8 @@ message OpenBlossomCircleCampGuideNotify {
 message PrivateChatReq {
 	uint32 target_uid = 2;
 	oneof content {
-		string HPLIGIFFCEN = 4;
-		uint32 IJLFNAFBFLH = 5;
+		string text = 4;
+		uint32 icon = 5;
 	}
 }
 
@@ -8174,8 +8174,8 @@ message MainCoopFailNotify {
 message CustomDungeonBlock {
 	uint32 block_id = 5;
 	uint32 guid = 11;
-	PBDDPMHLPJG pos = 3;
-	PBDDPMHLPJG rot = 10;
+	Vector pos = 3;
+	Vector rot = 10;
 }
 
 message CustomDungeonRoom {
@@ -8727,8 +8727,8 @@ message DungeonPlayerDieNotify {
 	uint32 wait_time = 8;
 	uint32 murderer_entity_id = 15;
 	oneof entity {
-		uint32 HKLICMFBIKK = 5;
-		uint32 FEMFCIALFPJ = 1;
+		uint32 monster_id = 5;
+		uint32 gadget_id = 1;
 	}
 }
 
@@ -9097,9 +9097,9 @@ message HDNBCGCMHGF {
 message LFGGJIKICHD {
 	float BODOCDABOGL = 2;
 	float LGPPCHOBNEF = 8;
-	PBDDPMHLPJG MFKBMBAFDGJ = 5;
+	Vector MFKBMBAFDGJ = 5;
 	int32 hit_box_index = 6;
-	PBDDPMHLPJG NMKKCNFCFMF = 10;
+	Vector NMKKCNFCFMF = 10;
 	HitColliderType hit_collider_type = 11;
 }
 
@@ -9146,7 +9146,7 @@ message AttackResult {
 	LFGGJIKICHD BDJAOEIOAAG = 2;
 	bool ANOIGIKGJLP = 1765;
 	uint32 DOAKEOLAJEM = 1772;
-	PBDDPMHLPJG resolved_dir = 3;
+	Vector resolved_dir = 3;
 	uint32 MCDCPBKDBND = 316;
 	float KGLMAKCMPIH = 979;
 	AbilityIdentifier ability_identifier = 12;
@@ -9188,7 +9188,7 @@ message HostPlayerNotify {
 // CmdId: 372
 message EvtDoSkillSuccNotify {
 	ForwardType forward_type = 8;
-	PBDDPMHLPJG forward = 6;
+	Vector forward = 6;
 	uint32 caster_id = 13;
 	uint32 skill_id = 15;
 }
@@ -9203,7 +9203,7 @@ message EvtCreateGadgetNotify {
 	uint32 entity_id = 10;
 	ForwardType forward_type = 4;
 	bool NHMFDGLCHPK = 174;
-	PBDDPMHLPJG KFOPAKLLJHL = 1;
+	Vector KFOPAKLLJHL = 1;
 	uint32 owner_entity_id = 8;
 	uint32 room_id = 3;
 	uint32 AJHOCIPOMFO = 2;
@@ -9211,7 +9211,7 @@ message EvtCreateGadgetNotify {
 	bool is_peer_id_from_player = 172;
 	uint32 config_id = 15;
 	uint32 camp_type = 5;
-	PBDDPMHLPJG APIDFLDIKJP = 14;
+	Vector APIDFLDIKJP = 14;
 	bool CPEAMBJJDAP = 6;
 	repeated uint32 target_entity_id_list = 418;
 }
@@ -9231,7 +9231,7 @@ message EvtFaceToEntityNotify {
 
 message EvtFaceToDirInfo {
 	uint32 entity_id = 8;
-	PBDDPMHLPJG face_dir = 9;
+	Vector face_dir = 9;
 }
 
 // CmdId: 335
@@ -9263,7 +9263,7 @@ message EvtAnimatorStateChangedInfo {
 	uint32 ADDBLOMJJIA = 8;
 	bool BDNLIAKCHJM = 12;
 	int32 face_angle_compact = 4;
-	PBDDPMHLPJG pos = 6;
+	Vector pos = 6;
 	uint32 entity_id = 10;
 	float fade_duration = 1;
 	bool MFBMIOOAJIF = 11;
@@ -9271,7 +9271,7 @@ message EvtAnimatorStateChangedInfo {
 }
 
 message ACLNMEGDNGL {
-	PBDDPMHLPJG cur_pos = 13;
+	Vector cur_pos = 13;
 	uint32 DOHANHABPFI = 9;
 	uint32 entity_id = 5;
 	int32 face_angle_compact = 7;
@@ -9279,14 +9279,14 @@ message ACLNMEGDNGL {
 }
 
 message NNGHANCBFGE {
-	PBDDPMHLPJG FOIOAHHLCPL = 5;
-	PBDDPMHLPJG BAIDAEGLGAP = 12;
+	Vector FOIOAHHLCPL = 5;
+	Vector BAIDAEGLGAP = 12;
 	uint32 entity_id = 4;
 }
 
 message FJMINHJHNDA {
 	uint32 entity_id = 2;
-	PBDDPMHLPJG BAIDAEGLGAP = 5;
+	Vector BAIDAEGLGAP = 5;
 	bool CEECBFGGDCJ = 15;
 	float speed = 1;
 	bool NAHILIAHHLI = 8;
@@ -9295,13 +9295,13 @@ message FJMINHJHNDA {
 }
 
 message AJDKBLNNCOI {
-	PBDDPMHLPJG MCLOLMGMPDD = 6;
+	Vector MCLOLMGMPDD = 6;
 	uint32 entity_id = 2;
-	PBDDPMHLPJG LBDDBKPDMMD = 5;
+	Vector LBDDBKPDMMD = 5;
 }
 
 message LGDPLHFPCJE {
-	PBDDPMHLPJG BAIDAEGLGAP = 15;
+	Vector BAIDAEGLGAP = 15;
 	float CJJNKKPNKHF = 13;
 	float speed = 9;
 	float GBOPPJFMPJE = 5;
@@ -9309,7 +9309,7 @@ message LGDPLHFPCJE {
 }
 
 message IBHMAGDNHPL {
-	PBDDPMHLPJG BAIDAEGLGAP = 5;
+	Vector BAIDAEGLGAP = 5;
 	float FOPFGKKKBPP = 11;
 	float speed = 1;
 	repeated uint32 CMHIJMPDPAK = 12;
@@ -9327,33 +9327,33 @@ message EvtAnimatorStateChangedNotify {
 }
 
 message EvtRushMoveInfo {
-	PBDDPMHLPJG velocity = 7;
-	PBDDPMHLPJG pos = 1;
+	Vector velocity = 7;
+	Vector pos = 1;
 	int32 face_angle_compact = 9;
 	uint32 entity_id = 5;
-	PBDDPMHLPJG JHIKKHHMDFJ = 12;
+	Vector JHIKKHHMDFJ = 12;
 	float time_range = 11;
 	int32 state_name_hash = 2;
-	PBDDPMHLPJG LNNAGFHEFIO = 3;
+	Vector LNNAGFHEFIO = 3;
 }
 
 message MOIBLIHBOHO {
-	PBDDPMHLPJG face_dir = 14;
-	PBDDPMHLPJG pos = 5;
+	Vector face_dir = 14;
+	Vector pos = 5;
 	uint32 entity_id = 2;
-	PBDDPMHLPJG velocity = 15;
+	Vector velocity = 15;
 }
 
 message LHMBKAHAEFB {
 	uint32 OFJEKNEFAHP = 12;
-	PBDDPMHLPJG BAIDAEGLGAP = 1;
+	Vector BAIDAEGLGAP = 1;
 	uint32 GNABIMGMFHI = 7;
 	uint32 entity_id = 5;
 }
 
 message FJINHACIPMN {
 	uint32 entity_id = 11;
-	PBDDPMHLPJG pos = 5;
+	Vector pos = 5;
 	uint32 HFFJANKBIDK = 12;
 	uint32 BILMMKGKBOK = 10;
 	int32 face_angle_compact = 14;
@@ -9369,18 +9369,18 @@ message EvtRushMoveNotify {
 message EvtBulletHitNotify {
 	uint32 forward_peer = 9;
 	HitColliderType hit_collider_type = 12;
-	PBDDPMHLPJG NGMPNDHIDME = 7;
+	Vector NGMPNDHIDME = 7;
 	uint32 entity_id = 10;
 	ForwardType forward_type = 8;
 	uint32 EJBDDBOFGCC = 3;
-	PBDDPMHLPJG NMKKCNFCFMF = 11;
+	Vector NMKKCNFCFMF = 11;
 	uint32 LHIECGAAENL = 4;
 	int32 hit_box_index = 6;
 }
 
 // CmdId: 334
 message EvtBulletDeactiveNotify {
-	PBDDPMHLPJG disappear_pos = 10;
+	Vector disappear_pos = 10;
 	uint32 entity_id = 15;
 	ForwardType forward_type = 2;
 }
@@ -9395,7 +9395,7 @@ message EvtEntityStartDieEndNotify {
 
 // CmdId: 333
 message EvtBulletMoveNotify {
-	PBDDPMHLPJG cur_pos = 14;
+	Vector cur_pos = 14;
 	uint32 entity_id = 2;
 	ForwardType forward_type = 13;
 }
@@ -9414,21 +9414,21 @@ message EvtAvatarEnterFocusNotify {
 	bool IDANBDBPLHD = 2;
 	bool PHIGHBIEJCA = 5;
 	bool PDMKBJJDBEC = 9;
-	PBDDPMHLPJG focus_forward = 7;
+	Vector focus_forward = 7;
 }
 
 // CmdId: 331
 message EvtAvatarExitFocusNotify {
 	uint32 entity_id = 15;
 	ForwardType forward_type = 5;
-	PBDDPMHLPJG finish_forward = 7;
+	Vector finish_forward = 7;
 }
 
 // CmdId: 376
 message EvtAvatarUpdateFocusNotify {
 	ForwardType forward_type = 13;
 	uint32 entity_id = 3;
-	PBDDPMHLPJG focus_forward = 9;
+	Vector focus_forward = 9;
 }
 
 message AuthorityChange {
@@ -9514,7 +9514,7 @@ message EvtBeingHitsCombineNotify {
 // CmdId: 371
 message EvtAvatarSitDownNotify {
 	uint32 entity_id = 6;
-	PBDDPMHLPJG position = 8;
+	Vector position = 8;
 	uint64 chair_id = 10;
 }
 
@@ -9571,7 +9571,7 @@ message DelTeamEntityNotify {
 
 message OHPPDGFKJFD {
 	uint32 entity_id = 10;
-	PBDDPMHLPJG skill_anchor_position = 3;
+	Vector skill_anchor_position = 3;
 }
 
 message CombatInvokeEntry {
@@ -9618,8 +9618,8 @@ message MassiveEntityElementOpBatchNotify {
 	float attack_element_durability = 10;
 	uint32 attacker_id = 7;
 	oneof check_shape {
-		OODCAOFHFPD LGCFNAEIIKO = 14;
-		KEOGDMLAMBC PNJLGDNMOMH = 5;
+		ShapeSphere shape_sphere = 14;
+		ShapeBox shape_box = 5;
 	}
 }
 
@@ -9659,7 +9659,7 @@ message EntityAiKillSelfNotify {
 // CmdId: 370
 message EvtAvatarLockChairReq {
 	uint64 chair_id = 11;
-	PBDDPMHLPJG position = 4;
+	Vector position = 4;
 }
 
 // CmdId: 361
@@ -9667,7 +9667,7 @@ message EvtAvatarLockChairRsp {
 	uint32 entity_id = 13;
 	int32 retcode = 15;
 	uint64 chair_id = 10;
-	PBDDPMHLPJG position = 7;
+	Vector position = 7;
 }
 
 // CmdId: 301
@@ -9714,7 +9714,7 @@ message StartFishingRsp {
 
 // CmdId: 5826
 message FishCastRodReq {
-	PBDDPMHLPJG pos = 12;
+	Vector pos = 12;
 	uint32 MHKMFJLLHFF = 8;
 	uint32 JBIAOCKLELE = 3;
 	uint32 rod_entity_id = 11;
@@ -9732,7 +9732,7 @@ message FishChosenNotify {
 
 // CmdId: 5807
 message FishEscapeNotify {
-	PBDDPMHLPJG pos = 1;
+	Vector pos = 1;
 	repeated uint32 fish_id_list = 15;
 	uint32 uid = 5;
 	FishEscapeReason reason = 7;
@@ -9793,7 +9793,7 @@ message ExitFishingRsp {
 // CmdId: 5810
 message FishAttractNotify {
 	uint32 uid = 10;
-	PBDDPMHLPJG pos = 3;
+	Vector pos = 3;
 	repeated uint32 fish_id_list = 11;
 }
 
@@ -10048,7 +10048,7 @@ message GadgetGeneralRewardInfoNotify {
 
 // CmdId: 834
 message GadgetAutoPickDropInfoNotify {
-	repeated EBCKEILKJOG item_list = 12;
+	repeated Item item_list = 12;
 }
 
 // CmdId: 894
@@ -10112,21 +10112,21 @@ message VehicleInteractReq {
 
 // CmdId: 824
 message VehicleInteractRsp {
-	PBDDPMHLPJG AMNIDPNNJLG = 14;
+	Vector AMNIDPNNJLG = 14;
 	VehicleMember member = 3;
 	uint32 entity_id = 9;
 	uint32 PHMCOINMOPH = 15;
 	VehicleInteractType interact_type = 7;
 	int32 retcode = 11;
 	uint32 gadget_id = 13;
-	PBDDPMHLPJG FLDHOMPALBK = 10;
+	Vector FLDHOMPALBK = 10;
 }
 
 // CmdId: 831
 message CreateVehicleReq {
-	PBDDPMHLPJG pos = 12;
+	Vector pos = 12;
 	uint32 scene_point_id = 4;
-	PBDDPMHLPJG rot = 3;
+	Vector rot = 3;
 	uint32 vehicle_id = 1;
 }
 
@@ -10218,7 +10218,7 @@ message DeshretObeliskChestInfo {
 	uint32 group_id = 6;
 	uint32 scene_id = 9;
 	uint32 config_id = 2;
-	PBDDPMHLPJG pos = 7;
+	Vector pos = 7;
 }
 
 // CmdId: 859
@@ -10232,11 +10232,11 @@ message ANKMHOAHDAI {
 	bool DKKBJAADOPK = 3;
 }
 
-message CLHGHBAPIDK {
-	uint32 LBIIOEBMNMB = 6;
+message FlowerStartParam {
+	uint32 target_score = 6;
 }
 
-message NGIFMHFCFAC {
+message ElectroherculesStartParam {
 	uint32 difficulty = 12;
 }
 
@@ -10248,8 +10248,8 @@ message GalleryStartNotify {
 	uint32 end_time = 2;
 	uint32 gallery_id = 3;
 	oneof detail {
-		CLHGHBAPIDK ECBBNPGLOLH = 14;
-		NGIFMHFCFAC NFECBOCDDAJ = 9;
+		FlowerStartParam flower_start_param = 14;
+		ElectroherculesStartParam electrohercules_start_param = 9;
 	}
 }
 
@@ -10340,7 +10340,7 @@ message COMLPJLKHDH {
 
 message GDLNENFGMCP {
 	uint32 cur_score = 10;
-	uint32 LBIIOEBMNMB = 4;
+	uint32 target_score = 4;
 	uint32 end_time = 1;
 }
 
@@ -10620,7 +10620,7 @@ message KIMACFMCKGE {
 }
 
 message CLFPDJOHKIE {
-	uint32 LBIIOEBMNMB = 6;
+	uint32 target_score = 6;
 	repeated uint32 DGIMPELHPMP = 1;
 	string name = 14;
 	uint32 LCIAEFNBNPO = 7;
@@ -10935,7 +10935,7 @@ message KJEODHHMHDG {
 
 message BCDBPJIBPJM {
 	uint32 EJIFPPMOLPD = 7;
-	uint32 PBKDCNDBKPF = 13;
+	uint32 capture_animal_num = 13;
 	uint32 total_num = 15;
 }
 
@@ -10945,9 +10945,9 @@ message FMFCGDJGCIF {
 message AIPAJAMGOMI {
 	uint32 stage_id = 2;
 	oneof NGIPMDAFPGH {
-		KJEODHHMHDG EBAGDMMGKKM = 8;
-		BCDBPJIBPJM KBKFPDLKDDJ = 14;
-		FMFCGDJGCIF ABOOIFMJFCM = 6;
+		KJEODHHMHDG first_stage_info = 8;
+		BCDBPJIBPJM second_stage_info = 14;
+		FMFCGDJGCIF third_stage_info = 6;
 	}
 }
 
@@ -12504,7 +12504,7 @@ message IKMBHONFGBO {
 message GroupLinkBundle {
 	uint32 radius = 8;
 	IADPAEJBNNG FOLGBEBIFCG = 3;
-	PBDDPMHLPJG center = 13;
+	Vector center = 13;
 	bool is_show_mark = 9;
 	uint32 bundle_id = 7;
 	uint32 scene_id = 2;
@@ -12643,38 +12643,38 @@ message HomeChangeModuleRsp {
 }
 
 message LLCNMEPLEBL {
-	PBDDPMHLPJG NHLNGOEOGMN = 9;
+	Vector NHLNGOEOGMN = 9;
 	uint32 version = 14;
 	int32 DFGEFIOLAOJ = 11;
 	uint32 furniture_id = 6;
 	uint32 guid = 13;
-	PBDDPMHLPJG spawn_pos = 7;
+	Vector spawn_pos = 7;
 }
 
 message BAADBIGHGPM {
 	repeated int32 LFEJCBDKFGN = 2;
 	uint32 OHEOAOJGLMN = 13;
 	uint32 guid = 3;
-	PBDDPMHLPJG spawn_pos = 15;
+	Vector spawn_pos = 15;
 	bool OGPJKPOGBCL = 14;
 }
 
 message CNGHNAGPNIM {
 	uint32 avatar_id = 10;
 	uint32 costume_id = 8;
-	PBDDPMHLPJG spawn_pos = 4;
-	PBDDPMHLPJG NHLNGOEOGMN = 7;
+	Vector spawn_pos = 4;
+	Vector NHLNGOEOGMN = 7;
 }
 
 message ACFEEBJCEHD {
 	uint32 furniture_id = 11;
-	PBDDPMHLPJG NHLNGOEOGMN = 10;
-	PBDDPMHLPJG spawn_pos = 4;
+	Vector NHLNGOEOGMN = 10;
+	Vector spawn_pos = 4;
 }
 
 message ILCMJCOHIKF {
-	PBDDPMHLPJG rot = 14;
-	PBDDPMHLPJG pos = 13;
+	Vector rot = 14;
+	Vector pos = 13;
 }
 
 message FIABNBMDCIE {
@@ -12684,16 +12684,16 @@ message FIABNBMDCIE {
 }
 
 message OPNHIHEAIIK {
-	PBDDPMHLPJG rot = 10;
-	PBDDPMHLPJG pos = 12;
+	Vector rot = 10;
+	Vector pos = 12;
 }
 
 message IHLFOFHLINA {
-	PBDDPMHLPJG pos = 3;
+	Vector pos = 3;
 	uint32 furniture_id = 13;
 	repeated OPNHIHEAIIK PLNDHOHDGHO = 9;
 	uint32 guid = 5;
-	PBDDPMHLPJG rot = 1;
+	Vector rot = 1;
 }
 
 message OKOMHBCDEIH {
@@ -12702,7 +12702,7 @@ message OKOMHBCDEIH {
 }
 
 message OHIFMEACCCK {
-	PBDDPMHLPJG spawn_pos = 4;
+	Vector spawn_pos = 4;
 	repeated int32 LFEJCBDKFGN = 13;
 	uint32 guid = 1;
 }
@@ -12725,16 +12725,16 @@ message NJLAEMBOJCO {
 
 message HomeSceneArrangementInfo {
 	repeated LLCNMEPLEBL IOICLAIFPBI = 12;
-	PBDDPMHLPJG born_pos = 4;
+	Vector born_pos = 4;
 	repeated NJLAEMBOJCO HIDBPEENDDF = 15;
-	PBDDPMHLPJG OHINJNMDOKG = 3;
+	Vector OHINJNMDOKG = 3;
 	uint32 scene_id = 14;
 	LLCNMEPLEBL ONKCHLBPBOL = 6;
 	repeated LLCNMEPLEBL GNEAJHKIOHH = 5;
 	bool is_set_born_pos = 2;
 	uint32 bgm_id = 10;
 	uint32 OFLGOKGLHGK = 1;
-	PBDDPMHLPJG IGEALDAOJBK = 13;
+	Vector IGEALDAOJBK = 13;
 	uint32 LMBLMBEDNON = 11;
 }
 
@@ -12962,8 +12962,8 @@ message HomePriorCheckNotify {
 }
 
 message HomeMarkPointSceneData {
-	PBDDPMHLPJG KAMNDPCJCGN = 1;
-	PBDDPMHLPJG LCHMEEHFLLK = 13;
+	Vector KAMNDPCJCGN = 1;
+	Vector LCHMEEHFLLK = 13;
 	uint32 module_id = 12;
 	uint32 scene_id = 6;
 	repeated HomeMarkPointFurnitureData furniture_list = 10;
@@ -13126,9 +13126,9 @@ message FunitureMakeMakeInfoChangeNotify {
 message MPEONKDACFL {
 	fixed32 OLCHHOPKNMP = 12;
 	uint32 uid = 6;
-	PBDDPMHLPJG OHINJNMDOKG = 8;
+	Vector OHINJNMDOKG = 8;
 	fixed32 MKBBLPBBAPK = 14;
-	PBDDPMHLPJG JFLFFDGDOAB = 15;
+	Vector JFLFFDGDOAB = 15;
 	fixed32 IKEDLABLPGF = 9;
 }
 
@@ -13369,7 +13369,7 @@ message HomePlantFieldData {
 	repeated JICIBIJIHAB PLNDHOHDGHO = 14;
 	uint32 field_guid = 10;
 	uint32 scene_id = 1;
-	PBDDPMHLPJG spawn_pos = 11;
+	Vector spawn_pos = 11;
 	uint32 furniture_id = 6;
 }
 
@@ -13875,7 +13875,7 @@ message GetHuntingOfferRewardRsp {
 // CmdId: 4325
 message HuntingStartNotify {
 	HuntingPair hunting_pair = 5;
-	PBDDPMHLPJG clue_position = 14;
+	Vector clue_position = 14;
 	bool is_final = 2;
 	uint32 fail_time = 4;
 }
@@ -13883,7 +13883,7 @@ message HuntingStartNotify {
 // CmdId: 4307
 message HuntingRevealClueNotify {
 	HuntingPair hunting_pair = 2;
-	PBDDPMHLPJG clue_position = 1;
+	Vector clue_position = 1;
 	uint32 finished_group_id = 6;
 	uint32 finish_clue_count = 3;
 }
@@ -13892,7 +13892,7 @@ message HuntingRevealClueNotify {
 message HuntingRevealFinalNotify {
 	HuntingPair hunting_pair = 13;
 	uint32 finished_group_id = 5;
-	PBDDPMHLPJG final_position = 4;
+	Vector final_position = 4;
 }
 
 // CmdId: 4316
@@ -13910,7 +13910,7 @@ message HuntingOngoingNotify {
 	bool is_started = 1;
 	uint32 finish_clue_count = 9;
 	bool is_final = 8;
-	PBDDPMHLPJG next_position = 10;
+	Vector next_position = 10;
 	HuntingPair hunting_pair = 12;
 	uint32 fail_time = 4;
 }
@@ -14010,7 +14010,7 @@ message InvestigationMonster {
 	bool BMAKOAPPPIK = 14;
 	uint32 next_refresh_time = 10;
 	uint32 DCIOPCGIJML = 7;
-	PBDDPMHLPJG pos = 15;
+	Vector pos = 15;
 	uint32 group_id = 1266;
 }
 
@@ -14055,7 +14055,7 @@ message InvestigationReadQuestDailyNotify {
 // CmdId: 675
 message PlayerStoreNotify {
 	uint32 weight_limit = 15;
-	repeated EBCKEILKJOG item_list = 10;
+	repeated Item item_list = 10;
 	StoreType store_type = 8;
 }
 
@@ -14071,7 +14071,7 @@ message StoreWeightLimitNotify {
 
 // CmdId: 602
 message StoreItemChangeNotify {
-	repeated EBCKEILKJOG item_list = 4;
+	repeated Item item_list = 4;
 	StoreType store_type = 7;
 }
 
@@ -14095,7 +14095,7 @@ message ItemAddHintNotify {
 	repeated ItemHint overflow_transformed_item_list = 1;
 	repeated ItemHint item_list = 13;
 	uint32 quest_id = 15;
-	PBDDPMHLPJG position = 8;
+	Vector position = 8;
 	bool IBCJJEBBKJE = 9;
 	uint32 reason = 4;
 }
@@ -14121,7 +14121,7 @@ message UseItemRsp {
 // CmdId: 630
 message DropItemReq {
 	StoreType store_type = 3;
-	PBDDPMHLPJG pos = 15;
+	Vector pos = 15;
 	uint64 guid = 8;
 	uint32 count = 11;
 }
@@ -14274,7 +14274,7 @@ message ItemCdGroupTimeNotify {
 // CmdId: 642
 message DropHintNotify {
 	repeated uint32 item_id_list = 10;
-	PBDDPMHLPJG position = 7;
+	Vector position = 7;
 }
 
 // CmdId: 607
@@ -14881,9 +14881,9 @@ message MechanicusCandidateTeamCreateRsp {
 
 // CmdId: 5228
 message UseMiracleRingReq {
-	PBDDPMHLPJG rot = 1;
+	Vector rot = 1;
 	uint32 miracle_ring_op_type = 13;
-	PBDDPMHLPJG pos = 15;
+	Vector pos = 15;
 }
 
 // CmdId: 5208
@@ -14959,9 +14959,9 @@ message GmTalkRsp {
 
 message MsgParam {
 	oneof param {
-		uint32 MHMOBJMFJGG = 2;
-		float BLHCMAHIFDE = 3;
-		string FMEENBNFAEO = 12;
+		uint32 int_param = 2;
+		float flt_param = 3;
+		string str_param = 12;
 	}
 }
 
@@ -15040,7 +15040,7 @@ message UnionCmdNotify {
 message GetOnlinePlayerInfoReq {
 	bool is_online_id = 9;
 	oneof player_id {
-		uint32 EGLOKEMINPP = 11;
+		uint32 target_uid = 11;
 		string FPIEFBFEOLH = 15;
 		string NMLMGEPFMMF = 10;
 	}
@@ -16122,7 +16122,7 @@ message NGIADNIJOJF {
 message JNAGOLPHIJM {
 	uint32 config_id = 2;
 	uint32 offering_id = 10;
-	PBDDPMHLPJG hint_center_pos = 9;
+	Vector hint_center_pos = 9;
 	uint32 MELJODAFPCD = 11;
 	uint32 group_id = 5;
 }
@@ -16194,10 +16194,10 @@ message QueryPathReq {
 	
 	FOFMOHPPKPO DNENHNOGAJN = 8;
 	Vector3Int FMALKPNLFIE = 10;
-	PBDDPMHLPJG source_pos = 12;
+	Vector source_pos = 12;
 	int32 query_id = 5;
 	CHNMLGAIJDL PPENFPGIFFL = 4;
-	repeated PBDDPMHLPJG destination_pos = 14;
+	repeated Vector destination_pos = 14;
 	Vector3Int CDJMADILEBN = 15;
 	uint32 scene_id = 11;
 }
@@ -16212,7 +16212,7 @@ message QueryPathRsp {
 	
 	PathStatusType query_status = 2;
 	int32 retcode = 3;
-	repeated PBDDPMHLPJG corners = 10;
+	repeated Vector corners = 10;
 	int32 query_id = 8;
 }
 
@@ -16223,7 +16223,7 @@ message ObstacleInfo {
 	}
 	
 	int32 obstacle_id = 4;
-	PBDDPMHLPJG center = 6;
+	Vector center = 6;
 	DAKBAOLCLCB rotation = 2;
 	ShapeType shape = 11;
 	Vector3Int extents = 13;
@@ -16261,7 +16261,7 @@ message GMShowObstacleReq {
 }
 
 message GMObstacleInfo {
-	PBDDPMHLPJG center = 5;
+	Vector center = 5;
 	Vector3Int extents = 3;
 	ObstacleInfo.ShapeType shape = 2;
 	int64 timestamp = 12;
@@ -16278,8 +16278,8 @@ message GMShowObstacleRsp {
 // CmdId: 2392
 message GMShowNavMeshReq {
 	int32 uid = 14;
-	PBDDPMHLPJG center = 9;
-	PBDDPMHLPJG NNOGFPEOELF = 11;
+	Vector center = 9;
+	Vector NNOGFPEOELF = 11;
 }
 
 message PBNavMeshPoly {
@@ -16296,7 +16296,7 @@ message PBNavMeshPoly {
 }
 
 message PBNavMeshTile {
-	repeated PBDDPMHLPJG vecs = 10;
+	repeated Vector vecs = 10;
 	repeated PBNavMeshPoly polys = 9;
 }
 
@@ -16319,18 +16319,18 @@ message NavMeshStatsNotify {
 }
 
 message FFELGFFLAAC {
-	repeated PBDDPMHLPJG COJCABJLJLO = 9;
+	repeated Vector COJCABJLJLO = 9;
 }
 
 // CmdId: 2317
 message BIIIHIGEMBP {
 	FOFMOHPPKPO DNENHNOGAJN = 2;
 	uint32 scene_id = 4;
-	PBDDPMHLPJG destination_pos = 1;
+	Vector destination_pos = 1;
 	int32 query_id = 12;
 	int32 uid = 5;
 	Vector3Int CDJMADILEBN = 13;
-	PBDDPMHLPJG source_pos = 9;
+	Vector source_pos = 9;
 	Vector3Int FMALKPNLFIE = 15;
 }
 
@@ -16342,13 +16342,13 @@ message IFNOHBONEGM {
 		StatusPartial = 2;
 	}
 	
-	repeated PBDDPMHLPJG corners = 4;
+	repeated Vector corners = 4;
 	JNHPFDEDNEI query_status = 1;
 	int32 retcode = 10;
 	repeated FFELGFFLAAC JFDBEJLOCOO = 6;
 	int32 query_id = 12;
 	repeated FFELGFFLAAC ODMFFIDDPFB = 5;
-	repeated PBDDPMHLPJG ICEFFKBDGJI = 9;
+	repeated Vector ICEFFKBDGJI = 9;
 }
 
 // CmdId: 175
@@ -16382,7 +16382,7 @@ message GetPlayerTokenRsp {
 	bytes security_cmd_buffer = 10;
 	bool EAEFJELFOLA = 960;
 	string birthday = 2027;
-	CHDJMPLAMAF stop_server = 647;
+	StopServer stop_server = 647;
 	uint32 channel_id = 362;
 	bytes extra_bin_data = 3;
 	uint32 gm_uid = 11;
@@ -16832,7 +16832,7 @@ message WorldOwnerDailyTaskNotify {
 
 // CmdId: 110
 message AddRandTaskInfoNotify {
-	PBDDPMHLPJG pos = 14;
+	Vector pos = 14;
 	uint32 rand_task_id = 5;
 }
 
@@ -17054,7 +17054,7 @@ message PEEDNDFPNGH {
 }
 
 message MAELGEKPEAL {
-	uint32 BIHLFHIHLOM = 8;
+	uint32 main_prop_id = 8;
 	uint32 LHHMFDHLHJH = 5;
 }
 
@@ -18250,10 +18250,10 @@ message PlayerEnterSceneNotify {
 	bool is_first_login_enter_scene = 91;
 	EnterType type = 3;
 	uint32 scene_id = 15;
-	PBDDPMHLPJG pos = 8;
+	Vector pos = 8;
 	repeated uint32 scene_tag_id_list = 9;
 	bool is_skip_ui = 2;
-	PBDDPMHLPJG prev_pos = 14;
+	Vector prev_pos = 14;
 }
 
 // CmdId: 296
@@ -18310,13 +18310,13 @@ message SceneEntityMoveRsp {
 // CmdId: 230
 message SceneAvatarStaminaStepReq {
 	bool use_client_rot = 4;
-	PBDDPMHLPJG rot = 15;
+	Vector rot = 15;
 }
 
 // CmdId: 284
 message SceneAvatarStaminaStepRsp {
 	bool use_client_rot = 10;
-	PBDDPMHLPJG rot = 3;
+	Vector rot = 3;
 	int32 retcode = 13;
 }
 
@@ -18335,8 +18335,8 @@ message VehicleLocationInfo {
 	uint32 entity_id = 7;
 	uint32 owner_uid = 9;
 	uint32 gadget_id = 11;
-	PBDDPMHLPJG rot = 15;
-	PBDDPMHLPJG pos = 14;
+	Vector rot = 15;
+	Vector pos = 14;
 }
 
 // CmdId: 221
@@ -18418,8 +18418,8 @@ message EntityJumpNotify {
 		Passive = 2;
 	}
 	
-	PBDDPMHLPJG rot = 6;
-	PBDDPMHLPJG pos = 14;
+	Vector rot = 6;
+	Vector pos = 14;
 	uint32 entity_id = 13;
 	Type jump_type = 1;
 }
@@ -18534,9 +18534,9 @@ message GetAreaExplorePointRsp {
 
 // CmdId: 211
 message ClientTransmitReq {
-	PBDDPMHLPJG pos = 1;
+	Vector pos = 1;
 	TransmitReason reason = 4;
-	PBDDPMHLPJG rot = 13;
+	Vector rot = 13;
 	uint32 scene_id = 3;
 }
 
@@ -18580,9 +18580,9 @@ message ScenePlayerInfoNotify {
 }
 
 message PlayerLocationInfo {
-	PBDDPMHLPJG rot = 8;
+	Vector rot = 8;
 	uint32 uid = 15;
-	PBDDPMHLPJG pos = 6;
+	Vector pos = 6;
 }
 
 message PlayerWorldLocationInfo {
@@ -18615,11 +18615,11 @@ message BeginCameraSceneLookNotify {
 	bool JJCBIOMFBNH = 1;
 	bool PPILENHAAJB = 8;
 	bool HLBKIBHNJCO = 15;
-	PBDDPMHLPJG CJNAAACNIGL = 3;
+	Vector CJNAAACNIGL = 3;
 	uint32 EJFEBPBDOJN = 1356;
 	KeepRotType keep_rot_type = 2;
 	bool KIHOMJJOKDH = 13;
-	PBDDPMHLPJG MCBKKMABEKK = 9;
+	Vector MCBKKMABEKK = 9;
 	float duration = 12;
 	bool MGDGBCPNEFO = 6;
 	float HMOMAJADGBN = 14;
@@ -18631,7 +18631,7 @@ message EndCameraSceneLookNotify {
 
 // CmdId: 269
 message MarkEntityInMinMapNotify {
-	PBDDPMHLPJG position = 15;
+	Vector position = 15;
 	uint32 monster_id = 1;
 	uint32 entity_id = 6;
 }
@@ -18722,7 +18722,7 @@ message ScenePlayerSoundNotify {
 	
 	string sound_name = 1;
 	PlaySoundType play_type = 3;
-	PBDDPMHLPJG play_pos = 5;
+	Vector play_pos = 5;
 }
 
 // CmdId: 219
@@ -18732,7 +18732,7 @@ message PersonalSceneJumpReq {
 
 // CmdId: 289
 message PersonalSceneJumpRsp {
-	PBDDPMHLPJG dest_pos = 8;
+	Vector dest_pos = 8;
 	uint32 dest_scene_id = 5;
 	int32 retcode = 14;
 }
@@ -18827,7 +18827,7 @@ message SceneKickPlayerNotify {
 // CmdId: 283
 message HitClientTrivialNotify {
 	uint32 owner_entity_id = 10;
-	PBDDPMHLPJG position = 2;
+	Vector position = 2;
 }
 
 // CmdId: 227
@@ -18901,8 +18901,8 @@ message WorldPlayerDieNotify {
 	PlayerDieType die_type = 14;
 	uint32 murderer_entity_id = 9;
 	oneof entity {
-		uint32 HKLICMFBIKK = 2;
-		uint32 FEMFCIALFPJ = 8;
+		uint32 monster_id = 2;
+		uint32 gadget_id = 8;
 	}
 }
 
@@ -19075,7 +19075,7 @@ message PostEnterSceneRsp {
 }
 
 message ChatInfo {
-	message KGNCKLCKPLN {
+	message SystemHint {
 		uint32 type = 13;
 	}
 	
@@ -19085,9 +19085,9 @@ message ChatInfo {
 	uint32 uid = 5;
 	uint32 sequence = 12;
 	oneof MJPHBPPGHFC {
-		string HPLIGIFFCEN = 408;
-		uint32 IJLFNAFBFLH = 1308;
-		KGNCKLCKPLN BLBDEHNOKEO = 166;
+		string text = 408;
+		uint32 icon = 1308;
+		SystemHint system_hint = 166;
 	}
 }
 
@@ -19234,11 +19234,11 @@ message PlayerEyePointStateNotify {
 	bool AHOJPGCJFHK = 14;
 	uint32 NCNOKJEPIBL = 1;
 	uint32 GLKODFFOGEM = 4;
-	PBDDPMHLPJG eye_point_pos = 9;
+	Vector eye_point_pos = 9;
 	uint32 HBHGHKMILKA = 6;
 	oneof region_size {
 		float GOBLLLKMBMG = 1935;
-		PBDDPMHLPJG FLIFDHKOLBP = 181;
+		Vector FLIFDHKOLBP = 181;
 		IDHBCOHLJPD HKNJDPCFAHN = 976;
 		MGDFIKKDIGG IHELEKOBPIP = 1589;
 	}
@@ -19320,7 +19320,7 @@ message GetScenePerformanceRsp {
 	uint32 MPGCIFCPEOI = 10;
 	uint32 IJKKNMFGCMK = 3;
 	uint32 ACEBGFDPEEG = 14;
-	PBDDPMHLPJG pos = 8;
+	Vector pos = 8;
 	uint32 ANPCFGIBHAP = 1;
 	uint32 NCPDHILBAHL = 5;
 }
@@ -19337,8 +19337,8 @@ message SceneAudioNotify {
 // CmdId: 3420
 message HitTreeNotify {
 	uint32 tree_type = 6;
-	PBDDPMHLPJG tree_pos = 14;
-	PBDDPMHLPJG drop_pos = 10;
+	Vector tree_pos = 14;
+	Vector drop_pos = 10;
 }
 
 // CmdId: 3095
@@ -19470,7 +19470,7 @@ message DeathZoneObserveNotify {
 }
 
 message HitTreeInfo {
-	PBDDPMHLPJG tree_pos = 15;
+	Vector tree_pos = 15;
 	uint32 tree_type = 2;
 }
 
@@ -19499,8 +19499,8 @@ message BeginCameraSceneLookWithTemplateNotify {
 		SetAbsFollowPos = 2;
 	}
 	
-	PBDDPMHLPJG CJNAAACNIGL = 13;
-	PBDDPMHLPJG MCBKKMABEKK = 15;
+	Vector CJNAAACNIGL = 13;
+	Vector MCBKKMABEKK = 15;
 	FollowType follow_type = 5;
 	uint32 template_id = 10;
 	uint32 entity_id = 3;
@@ -19529,11 +19529,11 @@ message OOGHEGIJMLD {
 message HAFFINEEMDH {
 	uint32 group_id = 11;
 	uint32 shape = 3;
-	PBDDPMHLPJG pos = 10;
+	Vector pos = 10;
 	uint32 config_id = 14;
 	oneof EFOLIOJOIFD {
 		float GOBLLLKMBMG = 1992;
-		PBDDPMHLPJG FLIFDHKOLBP = 1282;
+		Vector FLIFDHKOLBP = 1282;
 		IDHBCOHLJPD HKNJDPCFAHN = 1201;
 		MGDFIKKDIGG IHELEKOBPIP = 818;
 	}
@@ -20521,8 +20521,8 @@ message ToTheMoonQueryPathReq {
 	bool PHNPILBKNAN = 3;
 	NJDHEEAOEBE EOOIJPDPPFG = 8;
 	IAKAPNKHDPJ GPLBKBPOBIF = 14;
-	PBDDPMHLPJG destination_pos = 10;
-	PBDDPMHLPJG source_pos = 12;
+	Vector destination_pos = 10;
+	Vector source_pos = 12;
 	bool GKLIGFPCPHK = 13;
 }
 
@@ -20534,7 +20534,7 @@ message ToTheMoonQueryPathRsp {
 		StatusPartial = 2;
 	}
 	
-	repeated PBDDPMHLPJG corners = 4;
+	repeated Vector corners = 4;
 	int32 retcode = 3;
 	PathStatusType query_status = 6;
 	repeated int32 level = 14;
@@ -20566,8 +20566,8 @@ message ToTheMoonObstacleInfo {
 	ShapeType type = 15;
 	DAKBAOLCLCB rotation = 14;
 	int32 handle_id = 12;
-	PBDDPMHLPJG center = 9;
-	PBDDPMHLPJG half_extents = 13;
+	Vector center = 9;
+	Vector half_extents = 13;
 }
 
 // CmdId: 6148
@@ -20580,7 +20580,7 @@ message ToTheMoonAddObstacleReq {
 
 message DynamicSVONode {
 	int64 index = 3;
-	PBDDPMHLPJG refer_pos = 14;
+	Vector refer_pos = 14;
 	int32 area = 4;
 }
 
@@ -20977,8 +20977,8 @@ message FIADNJBJLCF {
 message COPAGJPLLDL {
 	uint32 guid = 15;
 	uint32 config_id = 1;
-	PBDDPMHLPJG pos = 14;
-	PBDDPMHLPJG rot = 13;
+	Vector pos = 14;
+	Vector rot = 13;
 }
 
 message BHCOPHHAFLC {
@@ -21124,7 +21124,7 @@ message DONOOJBPJAD {
 }
 
 message KJBFEJDBCKI {
-	PBDDPMHLPJG pos = 6;
+	Vector pos = 6;
 	bool HNBOEOMCFBD = 3;
 }
 
@@ -21132,7 +21132,7 @@ message FEHHMKNBHOD {
 	bool CELEIPDMPHA = 5;
 	bool LLOCDLHDAJD = 7;
 	repeated uint32 FADENBKNJFN = 13;
-	repeated PBDDPMHLPJG IIOMNLFMDIC = 2;
+	repeated Vector IIOMNLFMDIC = 2;
 	bool NKABPMKGDLM = 6;
 	repeated KJBFEJDBCKI OLEDBPBCBCA = 4;
 }
@@ -21153,7 +21153,7 @@ message AFCLGCNDDBH {
 	uint32 MDPMJADANLD = 4;
 	uint32 ONJNOEBJLHH = 3;
 	LKCJKONCEDO BLFOKJOHAHM = 7;
-	uint32 LBIIOEBMNMB = 15;
+	uint32 target_score = 15;
 	uint32 EJNMEDKNMDA = 12;
 	uint32 KPECIJJOLDH = 1;
 	repeated uint32 INPDIDMMFCD = 2;
@@ -21862,8 +21862,8 @@ message GetPushTipsRewardRsp {
 
 message AnchorPointData {
 	uint32 anchor_point_id = 8;
-	PBDDPMHLPJG pos = 11;
-	PBDDPMHLPJG rot = 1;
+	Vector pos = 11;
+	Vector rot = 1;
 	uint32 end_time = 4;
 	uint32 scene_id = 10;
 }
@@ -21907,7 +21907,7 @@ message LPLOENMNIOC {
 	bool NOMBNOKOKMN = 9;
 	uint32 group_id = 10;
 	bool is_hint_valid = 4;
-	PBDDPMHLPJG hint_center_pos = 3;
+	Vector hint_center_pos = 3;
 	uint32 MELJODAFPCD = 8;
 	uint32 material_id = 13;
 }
@@ -21920,15 +21920,15 @@ message NLEMHBCLPLJ {
 
 message TreasureMapDetectorData {
 	uint32 region_id = 2;
-	PBDDPMHLPJG center_pos = 1;
+	Vector center_pos = 1;
 	uint32 radius = 11;
 	bool is_region_detected = 6;
-	repeated PBDDPMHLPJG spot_list = 5;
+	repeated Vector spot_list = 5;
 }
 
 message SkyCrystalDetectorData {
 	bool is_hint_valid = 6;
-	PBDDPMHLPJG hint_center_pos = 3;
+	Vector hint_center_pos = 3;
 	uint32 config_id = 12;
 	uint32 group_id = 14;
 }
@@ -21955,10 +21955,10 @@ message EAGOACENHEI {
 }
 
 message FFGKNAHPKKF {
-	PBDDPMHLPJG pos = 2;
+	Vector pos = 2;
 	bool GCKHEOANBGM = 11;
 	bool PCOAINOANLJ = 3;
-	PBDDPMHLPJG rot = 8;
+	Vector rot = 8;
 	bool HKPOPFIKCMA = 10;
 	uint32 slot = 7;
 }
@@ -21967,9 +21967,9 @@ message FFGKNAHPKKF {
 message QuickUseWidgetReq {
 	bool GNNNCMLEGAB = 782;
 	oneof param {
-		ODLCGPLCCDF OFABIHJLICB = 1827;
+		LocationInfo location_info = 1827;
 		CNJMNIJCIAA EDAOJIJAJAH = 1598;
-		MGKIFECKMDL IBPOMDNKLIJ = 1489;
+		CreatorInfo IBPOMDNKLIJ = 1489;
 		EAGOACENHEI LCMFKCNBMNO = 767;
 		FFGKNAHPKKF EBKACAALGLM = 75;
 	}
@@ -22092,8 +22092,8 @@ message AllWidgetDataNotify {
 // CmdId: 4272
 message UseWidgetCreateGadgetReq {
 	uint32 material_id = 14;
-	PBDDPMHLPJG pos = 10;
-	PBDDPMHLPJG rot = 13;
+	Vector pos = 10;
+	Vector rot = 13;
 }
 
 // CmdId: 4284
@@ -22133,14 +22133,14 @@ message WidgetGadgetDestroyNotify {
 	uint32 entity_id = 13;
 }
 
-message ODLCGPLCCDF {
-	PBDDPMHLPJG pos = 15;
-	PBDDPMHLPJG rot = 8;
+message LocationInfo {
+	Vector pos = 15;
+	Vector rot = 8;
 }
 
-message MGKIFECKMDL {
+message CreatorInfo {
 	LACENMJJAHB op_type = 13;
-	ODLCGPLCCDF DAMKJLDNFFA = 8;
+	LocationInfo locationInfo = 8;
 	uint32 entity_id = 9;
 }
 
@@ -22148,8 +22148,8 @@ message MGKIFECKMDL {
 message WidgetDoBagReq {
 	uint32 material_id = 10;
 	oneof op_info {
-		ODLCGPLCCDF OFABIHJLICB = 1329;
-		MGKIFECKMDL LIHOJOEOPAI = 1593;
+		LocationInfo location_info = 1329;
+		CreatorInfo widget_creator_info = 1593;
 	}
 }
 
@@ -22173,14 +22173,14 @@ message WidgetUseAttachAbilityGroupChangeNotify {
 // CmdId: 4254
 message WidgetCaptureAnimalReq {
 	uint32 material_id = 4;
-	PBDDPMHLPJG pos = 7;
+	Vector pos = 7;
 	uint32 entity_id = 3;
 }
 
 // CmdId: 4277
 message WidgetCaptureAnimalRsp {
 	uint32 entity_id = 5;
-	PBDDPMHLPJG pos = 12;
+	Vector pos = 12;
 	uint32 material_id = 1;
 	int32 retcode = 2;
 }
@@ -22322,8 +22322,8 @@ message PropValue {
 	uint32 type = 1;
 	int64 val = 4;
 	oneof value {
-		int64 PAHGBPCPPBK = 2;
-		float LPLNGPLDMCL = 3;
+		int64 ival = 2;
+		float fval = 3;
 	}
 }
 
@@ -22332,30 +22332,30 @@ message Uint32Pair {
 	uint32 value = 2;
 }
 
-message BODMEBNADPL {
+message RegionSimpleInfo {
 	string name = 1;
 	string title = 2;
 	string type = 3;
-	string OKKCNNODFJC = 4;
+	string dispatch_url = 4;
 }
 
-message IGDHIBNDKBO {
+message QueryRegionListHttpRsp {
 	int32 retcode = 1;
-	repeated BODMEBNADPL OAPPFJOLBCK = 2;
-	bytes BDIMGGCLPBC = 5;
-	bytes OOAHMHFFBIO = 6;
-	bool KDLPGCMCDJF = 7;
+	repeated RegionSimpleInfo region_list = 2;
+	bytes client_secret_key = 5;
+	bytes client_custom_config_encrypted = 6;
+	bool enable_login_pc = 7;
 }
 
-message BFFAMAJFAIO {
-	string NOMMAKKFKFO = 1;
+message ForceUdpate {
+	string force_update_url = 1;
 }
 
-message CHDJMPLAMAF {
-	uint32 ABLPGNHCFGJ = 1;
-	uint32 FIGJLKEEPMF = 2;
+message StopServer {
+	uint32 stopBeginTime = 1;
+	uint32 stopEndTime = 2;
 	string url = 3;
-	string OLGHAKKLJNM = 4;
+	string contentMsg = 4;
 }
 
 message ResVersionConfig {
@@ -22368,61 +22368,60 @@ message ResVersionConfig {
 	string next_script_version = 7;
 }
 
-message NBDGDBINJAH {
-	string JMCIINIOPIG = 1;
-	uint32 JCPCNMAFMBK = 2;
-	string ODFNENBIPHE = 3;
+message RegionInfo {
+	string gateserver_ip = 1;
+	uint32 gateserver_port = 2;
+	string pay_callback_url = 3;
 	string area_type = 7;
-	string NDKHMGPGFKB = 8;
-	string CPFLJECMLHC = 9;
-	string AKBNOMPFCLA = 10;
-	string AGHIMJJPKHG = 11;
-	string IGEBEJNPKJH = 12;
-	string DKKMJMGGHOE = 13;
+	string resource_url = 8;
+	string data_url = 9;
+	string feedback_url = 10;
+	string bulletin_url = 11;
+	string resource_url_bak = 12;
+	string data_url_bak = 13;
 	uint32 client_data_version = 14;
-	string EEHGFGDFDBL = 16;
+	string handbook_url = 16;
 	uint32 client_silence_data_version = 18;
-	string KPCCBLNCGFG = 19;
-	string KLMFDAIKMMH = 20;
-	ResVersionConfig next_res_version_config = 22;
+	string client_data_md5 = 19;
+	string client_silence_data_md5 = 20;
+	ResVersionConfig res_version_config = 22;
 	bytes secret_key = 23;
-	string BNFCNFJIOKA = 24;
+	string official_community_url = 24;
 	string client_version_suffix = 26;
 	string client_silence_version_suffix = 27;
-	bool EHMBNGBCCHI = 28;
-	string IBPAAECIAIA = 29;
-	string HBLKJEILMMD = 30;
-	string IDDHJPJEEKI = 31;
-	string LOFJJLEJILO = 32;
-	string MKCKCIHJNHO = 33;
+	bool use_gateserver_domain_name = 28;
+	string gateserver_domain_name = 29;
+	string user_center_url = 30;
+	string account_bind_url = 31;
+	string cdkey_url = 32;
+	string privacy_policy_url = 33;
 	string next_resource_url = 34;
-	ResVersionConfig res_version_config = 35;
+	ResVersionConfig next_res_version_config = 35;
 	string game_biz = 36;
 }
 
-message EBEJJGCKFNF {
+message QueryCurrRegionHttpRsp {
 	int32 retcode = 1;
 	string msg = 2;
-	NBDGDBINJAH region_info = 3;
-	bytes BDIMGGCLPBC = 11;
-	bytes MJLEDIMPNAD = 12;
-	bytes EMMMAACDNOL = 13;
-	string JFELLBIBPHA = 14;
-	oneof KMPBFKFDDOK {
-		BFFAMAJFAIO FOFDNEPGADB = 4;
-		CHDJMPLAMAF JGNGKFKIIFP = 5;
+	RegionInfo regionInfo = 3;
+	oneof detail {
+		ForceUdpate force_udpate = 4;
+		StopServer stop_server = 5;
 	}
+	bytes client_secret_key = 11;
+	bytes region_custom_config_encrypted = 12;
+	bytes client_region_custom_config_encrypted = 13;
 }
 
-message IEFNJJOADGD {
+message Reliquary {
 	uint32 level = 1;
 	uint32 exp = 2;
 	uint32 promote_level = 3;
-	uint32 BIHLFHIHLOM = 4;
-	repeated uint32 FBGGAFBHNJG = 5;
+	uint32 main_prop_id = 4;
+	repeated uint32 append_prop_id_list = 5;
 }
 
-message ONOPOBPAHOE {
+message Weapon {
 	uint32 level = 1;
 	uint32 exp = 2;
 	uint32 promote_level = 3;
@@ -22430,53 +22429,53 @@ message ONOPOBPAHOE {
 }
 
 message MaterialDeleteInfo {
-	message CGLLDOGBCHF {
+	message CountDownDelete {
 		map<uint32, uint32> delete_time_num_map = 1;
 		uint32 config_count_down_time = 2;
 	}
 	
-	message AGGPDECMMIG {
-		uint32 delete_time_num_map = 1;
+	message DateTimeDelete {
+		uint32 delete_time = 1;
 	}
 	
-	message GIAAHILNMBN {
+	message DelayWeekCountDownDelete {
 		map<uint32, uint32> delete_time_num_map = 1;
-		uint32 PBIKNJFLBCC = 2;
+		uint32 config_delay_week = 2;
 		uint32 config_count_down_time = 3;
 	}
 	
 	bool has_delete_config = 1;
 	oneof KOHLDAAGPPE {
-		CGLLDOGBCHF DFBKEFLEBID = 2;
-		AGGPDECMMIG JKGPFIDBGDP = 3;
-		GIAAHILNMBN JKNOEFNBAAG = 4;
+		CountDownDelete count_down_delete = 2;
+		DateTimeDelete date_delete = 3;
+		DelayWeekCountDownDelete delay_week_count_down_delete = 4;
 	}
 }
 
-message KOKDLGLHBDK {
+message Material {
 	uint32 count = 1;
 	MaterialDeleteInfo delete_info = 2;
 }
 
-message JFNFEJHPPKA {
+message Equip {
 	bool is_locked = 3;
-	oneof HHPPCFFDHJP {
-		IEFNJJOADGD LMBIOFFOFIJ = 1;
-		ONOPOBPAHOE FAJIMHIOAKD = 2;
+	oneof detail {
+		Reliquary reliquary = 1;
+		Weapon weapon = 2;
 	}
 }
 
-message BILANGJEJAM {
+message Furniture {
 	uint32 count = 1;
 }
 
-message EBCKEILKJOG {
+message Item {
 	uint32 item_id = 1;
 	uint64 guid = 2;
-	oneof DOCDJJDCADK {
-		KOKDLGLHBDK PLOKCCCCNEN = 5;
-		JFNFEJHPPKA GKKJEMAKLCB = 6;
-		BILANGJEJAM JNEIPKFPCJI = 7;
+	oneof detail {
+		Material material = 5;
+		Equip equip = 6;
+		Furniture furniture = 7;
 	}
 }
 
@@ -22499,8 +22498,8 @@ message Reward {
 
 message AbilityString {
 	oneof type {
-		string FAMLNLIKMEP = 1;
-		uint32 JBOMCLAJCJO = 2;
+		string str = 1;
+		uint32 hash = 2;
 	}
 }
 
@@ -22508,10 +22507,10 @@ message AbilityScalarValueEntry {
 	AbilityString key = 1;
 	AbilityScalarType value_type = 2;
 	oneof value {
-		float FNKBHJENPJE = 3;
-		string KCNABLKKLOI = 4;
-		int32 JEAEBBFPHHF = 5;
-		uint32 MCPOLFJOJHN = 6;
+		float float_value = 3;
+		string string_value = 4;
+		int32 int_value = 5;
+		uint32 uint_value = 6;
 	}
 }
 
@@ -22711,7 +22710,7 @@ message AbilityControlBlock {
 	repeated AbilityEmbryo ability_embryo_list = 1;
 }
 
-message PBDDPMHLPJG {
+message Vector {
 	float x = 1;
 	float y = 2;
 	float z = 3;
@@ -22737,20 +22736,20 @@ message EntityMoveInfo {
 }
 
 message MotionInfo {
-	PBDDPMHLPJG pos = 1;
-	PBDDPMHLPJG rot = 2;
-	PBDDPMHLPJG speed = 3;
+	Vector pos = 1;
+	Vector rot = 2;
+	Vector speed = 3;
 	MotionState state = 4;
-	repeated PBDDPMHLPJG params = 5;
-	PBDDPMHLPJG ref_pos = 6;
+	repeated Vector params = 5;
+	Vector ref_pos = 6;
 	uint32 ref_id = 7;
 	uint32 scene_time = 8;
 	uint64 interval_velocity = 9;
 }
 
 message FGPAAKCNONO {
-	PBDDPMHLPJG pos = 1;
-	PBDDPMHLPJG rot = 2;
+	Vector pos = 1;
+	Vector rot = 2;
 }
 
 message SceneWeaponInfo {
@@ -22784,9 +22783,9 @@ message IEDNAPEHNEN {
 	uint32 entity_id = 1;
 	uint32 pos = 2;
 	uint32 gadget_id = 3;
-	PBDDPMHLPJG FLDHOMPALBK = 4;
+	Vector FLDHOMPALBK = 4;
 	uint32 PHMCOINMOPH = 5;
-	PBDDPMHLPJG AMNIDPNNJLG = 6;
+	Vector AMNIDPNNJLG = 6;
 }
 
 message AvatarExcelInfo {
@@ -22824,7 +22823,7 @@ message IPPGFCBJAGI {
 message EALFECBKMNC {
 	uint32 fish_id = 1;
 	uint32 FOKPIPEHIPJ = 2;
-	PBDDPMHLPJG KNNDBDOAADI = 3;
+	Vector KNNDBDOAADI = 3;
 	uint32 PPBHBNMHCOE = 4;
 	uint32 NICAECHMHFM = 5;
 }
@@ -22889,11 +22888,11 @@ message PlatformInfo {
 	int32 start_index = 2;
 	uint32 start_route_time = 3;
 	uint32 start_scene_time = 4;
-	PBDDPMHLPJG start_pos = 7;
+	Vector start_pos = 7;
 	bool is_started = 8;
 	DAKBAOLCLCB start_rot = 9;
 	uint32 stop_scene_time = 10;
-	PBDDPMHLPJG pos_offset = 11;
+	Vector pos_offset = 11;
 	DAKBAOLCLCB rot_offset = 12;
 	MovingPlatformType moving_platform_type = 13;
 	bool is_active = 14;
@@ -22902,7 +22901,7 @@ message PlatformInfo {
 }
 
 message RoutePoint {
-	PBDDPMHLPJG position = 1;
+	Vector position = 1;
 	float arrive_range = 2;
 	bool has_reach_event = 3;
 	oneof PLOCBOAFHED {
@@ -22910,7 +22909,7 @@ message RoutePoint {
 		float EGECGLCCNLB = 12;
 	}
 	oneof BAHPKHNMIMG {
-		PBDDPMHLPJG DCFDJCBCBIL = 21;
+		Vector DCFDJCBCBIL = 21;
 		DAKBAOLCLCB GKNGJIJPAJH = 22;
 		DAKBAOLCLCB DIECKDNJNJP = 23;
 	}
@@ -23126,7 +23125,7 @@ message GBAFHJBNENJ {
 	OPEMEOGOHME BEBDBCCIBKJ = 102;
 	HKILNLMDIGF BMLOCKHPFAF = 103;
 	oneof MPPMMEHBCEO {
-		EBCKEILKJOG FIHLPNBKOFL = 12;
+		Item FIHLPNBKOFL = 12;
 		MOKCLGJBLDD LDOLCEIKGPM = 13;
 		LHPOPGLKKEE OKIGBNDIFLM = 14;
 		INJJFHFANAD OLMECBGFOOF = 15;
@@ -23167,7 +23166,7 @@ message ServantInfo {
 
 message SceneEntityAiInfo {
 	bool is_ai_open = 1;
-	PBDDPMHLPJG born_pos = 2;
+	Vector born_pos = 2;
 	map<uint32, uint32> skill_cd_map = 3;
 	ServantInfo servant_info = 4;
 	map<uint32, uint32> ai_threat_map = 5;
@@ -23203,14 +23202,14 @@ message EntityEnvironmentInfo {
 }
 
 message EntityClientExtraInfo {
-	PBDDPMHLPJG skill_anchor_position = 1;
+	Vector skill_anchor_position = 1;
 }
 
 message EntityAuthorityInfo {
 	AbilitySyncStateInfo ability_info = 1;
 	EntityRendererChangedInfo renderer_changed_info = 2;
 	SceneEntityAiInfo ai_info = 3;
-	PBDDPMHLPJG born_pos = 4;
+	Vector born_pos = 4;
 	repeated AnimatorParameterValueInfoPair pose_para_list = 5;
 	EntityClientExtraInfo client_extra_info = 6;
 }
@@ -23251,15 +23250,15 @@ message NCOOFLCLKIP {
 
 message CreateEntityInfo {
 	uint32 level = 5;
-	PBDDPMHLPJG pos = 6;
-	PBDDPMHLPJG rot = 7;
+	Vector pos = 6;
+	Vector rot = 7;
 	uint32 scene_id = 10;
 	uint32 room_id = 11;
 	uint32 client_unique_id = 12;
 	oneof entity {
-		uint32 HKLICMFBIKK = 1;
+		uint32 monster_id = 1;
 		uint32 FDMLMFHFFMH = 2;
-		uint32 FEMFCIALFPJ = 3;
+		uint32 gadget_id = 3;
 		uint32 FCINCNIGMFJ = 4;
 	}
 	optional NCOOFLCLKIP DICOPCGEFND = 13;
@@ -23272,7 +23271,7 @@ message TrialAvatarGrantRecord {
 
 message TrialAvatarInfo {
 	uint32 trial_avatar_id = 1;
-	repeated EBCKEILKJOG trial_equip_list = 2;
+	repeated Item trial_equip_list = 2;
 	TrialAvatarGrantRecord grant_record = 3;
 }
 
@@ -23347,8 +23346,8 @@ message AvatarInfo {
 message ShowEquip {
 	uint32 item_id = 1;
 	oneof detail {
-		IEFNJJOADGD LMBIOFFOFIJ = 2;
-		ONOPOBPAHOE FAJIMHIOAKD = 3;
+		Reliquary reliquary = 2;
+		Weapon weapon = 3;
 	}
 }
 
@@ -23387,7 +23386,7 @@ message Quest {
 
 message NpcPositionInfo {
 	uint32 npc_id = 1;
-	PBDDPMHLPJG pos = 2;
+	Vector pos = 2;
 }
 
 message MailTextContent {
@@ -23439,7 +23438,7 @@ message Birthday {
 message MapMarkPoint {
 	uint32 scene_id = 1;
 	string name = 2;
-	PBDDPMHLPJG pos = 3;
+	Vector pos = 3;
 	MapMarkPointType point_type = 4;
 	uint32 monster_id = 5;
 	MapMarkFromType from_type = 6;
@@ -23452,18 +23451,18 @@ message EMAIJJNIDOE {
 
 message EACNKHKNNDA {
 	uint32 id = 1;
-	PBDDPMHLPJG center = 2;
-	PBDDPMHLPJG size = 3;
+	Vector center = 2;
+	Vector size = 3;
 }
 
 message ECODOBCMKIG {
 	int32 id = 1;
 	uint32 config_id = 2;
-	PBDDPMHLPJG center = 3;
-	PBDDPMHLPJG extents = 4;
-	PBDDPMHLPJG JNCLFBFEIJJ = 5;
-	PBDDPMHLPJG forward = 6;
-	PBDDPMHLPJG ODAMPABFHCD = 7;
+	Vector center = 3;
+	Vector extents = 4;
+	Vector JNCLFBFEIJJ = 5;
+	Vector forward = 6;
+	Vector ODAMPABFHCD = 7;
 }
 
 message ClientMassiveEntity {
@@ -23477,17 +23476,17 @@ message ClientMassiveEntity {
 	}
 }
 
-message OODCAOFHFPD {
-	PBDDPMHLPJG center = 1;
+message ShapeSphere {
+	Vector center = 1;
 	float radius = 2;
 }
 
-message KEOGDMLAMBC {
-	PBDDPMHLPJG center = 1;
-	PBDDPMHLPJG LCNDIOJOHKP = 2;
-	PBDDPMHLPJG KDCMGAPBAEL = 3;
-	PBDDPMHLPJG PJKFLIHLFCB = 4;
-	PBDDPMHLPJG extents = 5;
+message ShapeBox {
+	Vector center = 1;
+	Vector axis0 = 2;
+	Vector axis1 = 3;
+	Vector axis2 = 4;
+	Vector extents = 5;
 }
 
 message ServerMassiveEntity {
@@ -23612,7 +23611,7 @@ message HomeMarkPointFurnitureData {
 	uint32 guid = 1;
 	uint32 furniture_id = 2;
 	uint32 furniture_type = 3;
-	PBDDPMHLPJG pos = 4;
+	Vector pos = 4;
 	oneof extra {
 		PLGBNGCKFPJ OGOKJBMCPLH = 6;
 		MFJNHGLKNGA OCLMCOHLDPC = 7;

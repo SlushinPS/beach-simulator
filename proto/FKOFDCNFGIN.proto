@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message FKOFDCNFGIN {
 	uint32 group_id = 11;
-	PBDDPMHLPJG pos = 3;
+	Vector pos = 3;
 	uint32 gadget_id = 12;
 }

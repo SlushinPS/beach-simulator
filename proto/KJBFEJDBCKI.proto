@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message KJBFEJDBCKI {
-	PBDDPMHLPJG pos = 6;
+	Vector pos = 6;
 	bool HNBOEOMCFBD = 3;
 }

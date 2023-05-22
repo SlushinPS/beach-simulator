@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message LHMBKAHAEFB {
 	uint32 OFJEKNEFAHP = 12;
-	PBDDPMHLPJG BAIDAEGLGAP = 1;
+	Vector BAIDAEGLGAP = 1;
 	uint32 GNABIMGMFHI = 7;
 	uint32 entity_id = 5;
 }

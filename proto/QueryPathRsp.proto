@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 2396
 message QueryPathRsp {
 	enum PathStatusType {
@@ -26,6 +26,6 @@ message QueryPathRsp {
 	
 	PathStatusType query_status = 2;
 	int32 retcode = 3;
-	repeated PBDDPMHLPJG corners = 10;
+	repeated Vector corners = 10;
 	int32 query_id = 8;
 }

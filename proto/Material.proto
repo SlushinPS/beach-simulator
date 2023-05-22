@@ -15,19 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "NBDGDBINJAH.proto";
-import "BFFAMAJFAIO.proto";
-import "CHDJMPLAMAF.proto";
-message EBEJJGCKFNF {
-	int32 retcode = 1;
-	string msg = 2;
-	NBDGDBINJAH region_info = 3;
-	bytes BDIMGGCLPBC = 11;
-	bytes MJLEDIMPNAD = 12;
-	bytes EMMMAACDNOL = 13;
-	string JFELLBIBPHA = 14;
-	oneof KMPBFKFDDOK {
-		BFFAMAJFAIO FOFDNEPGADB = 4;
-		CHDJMPLAMAF JGNGKFKIIFP = 5;
-	}
+import "MaterialDeleteInfo.proto";
+message Material {
+	uint32 count = 1;
+	MaterialDeleteInfo delete_info = 2;
 }

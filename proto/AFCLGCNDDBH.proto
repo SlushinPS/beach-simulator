@@ -21,7 +21,7 @@ message AFCLGCNDDBH {
 	uint32 MDPMJADANLD = 4;
 	uint32 ONJNOEBJLHH = 3;
 	LKCJKONCEDO BLFOKJOHAHM = 7;
-	uint32 LBIIOEBMNMB = 15;
+	uint32 target_score = 15;
 	uint32 EJNMEDKNMDA = 12;
 	uint32 KPECIJJOLDH = 1;
 	repeated uint32 INPDIDMMFCD = 2;

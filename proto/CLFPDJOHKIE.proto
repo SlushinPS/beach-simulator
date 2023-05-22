@@ -20,7 +20,7 @@ import "NIBFGODLJIC.proto";
 import "GAFGDOHOCNP.proto";
 import "KIMACFMCKGE.proto";
 message CLFPDJOHKIE {
-	uint32 LBIIOEBMNMB = 6;
+	uint32 target_score = 6;
 	repeated uint32 DGIMPELHPMP = 1;
 	string name = 14;
 	uint32 LCIAEFNBNPO = 7;

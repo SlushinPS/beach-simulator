@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 3498
 message BeginCameraSceneLookWithTemplateNotify {
 	enum FollowType {
@@ -24,8 +24,8 @@ message BeginCameraSceneLookWithTemplateNotify {
 		SetAbsFollowPos = 2;
 	}
 	
-	PBDDPMHLPJG CJNAAACNIGL = 13;
-	PBDDPMHLPJG MCBKKMABEKK = 15;
+	Vector CJNAAACNIGL = 13;
+	Vector MCBKKMABEKK = 15;
 	FollowType follow_type = 5;
 	uint32 template_id = 10;
 	uint32 entity_id = 3;

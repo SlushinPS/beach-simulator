@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message IBHMAGDNHPL {
-	PBDDPMHLPJG BAIDAEGLGAP = 5;
+	Vector BAIDAEGLGAP = 5;
 	float FOPFGKKKBPP = 11;
 	float speed = 1;
 	repeated uint32 CMHIJMPDPAK = 12;

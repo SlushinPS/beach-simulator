@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message EALFECBKMNC {
 	uint32 fish_id = 1;
 	uint32 FOKPIPEHIPJ = 2;
-	PBDDPMHLPJG KNNDBDOAADI = 3;
+	Vector KNNDBDOAADI = 3;
 	uint32 PPBHBNMHCOE = 4;
 	uint32 NICAECHMHFM = 5;
 }

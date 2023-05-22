@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message KGHCFBAHNBO {
 	uint32 block_id = 1;
-	PBDDPMHLPJG rot = 7;
+	Vector rot = 7;
 	uint32 guid = 5;
-	PBDDPMHLPJG pos = 12;
+	Vector pos = 12;
 }

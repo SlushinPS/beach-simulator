@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 import "HuntingPair.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 4325
 message HuntingStartNotify {
 	HuntingPair hunting_pair = 5;
-	PBDDPMHLPJG clue_position = 14;
+	Vector clue_position = 14;
 	bool is_final = 2;
 	uint32 fail_time = 4;
 }

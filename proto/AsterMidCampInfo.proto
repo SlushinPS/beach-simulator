@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message AsterMidCampInfo {
 	uint32 camp_id = 3;
-	PBDDPMHLPJG pos = 14;
+	Vector pos = 14;
 }

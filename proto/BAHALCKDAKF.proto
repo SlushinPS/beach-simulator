@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message BAHALCKDAKF {
-	PBDDPMHLPJG rot = 11;
-	PBDDPMHLPJG pos = 15;
-	PBDDPMHLPJG move_dir = 10;
+	Vector rot = 11;
+	Vector pos = 15;
+	Vector move_dir = 10;
 }

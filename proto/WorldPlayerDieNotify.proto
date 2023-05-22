@@ -21,7 +21,7 @@ message WorldPlayerDieNotify {
 	PlayerDieType die_type = 14;
 	uint32 murderer_entity_id = 9;
 	oneof entity {
-		uint32 HKLICMFBIKK = 2;
-		uint32 FEMFCIALFPJ = 8;
+		uint32 monster_id = 2;
+		uint32 gadget_id = 8;
 	}
 }

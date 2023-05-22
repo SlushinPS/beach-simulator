@@ -15,12 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "TransmitReason.proto";
 // CmdId: 211
 message ClientTransmitReq {
-	PBDDPMHLPJG pos = 1;
+	Vector pos = 1;
 	TransmitReason reason = 4;
-	PBDDPMHLPJG rot = 13;
+	Vector rot = 13;
 	uint32 scene_id = 3;
 }

@@ -15,6 +15,6 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message LBHNHAEEOCA {
-	repeated uint32 BADKPBDHGPJ = 15;
+message Furniture {
+	uint32 count = 1;
 }

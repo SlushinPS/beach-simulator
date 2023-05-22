@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 import "ForwardType.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 331
 message EvtAvatarExitFocusNotify {
 	uint32 entity_id = 15;
 	ForwardType forward_type = 5;
-	PBDDPMHLPJG finish_forward = 7;
+	Vector finish_forward = 7;
 }

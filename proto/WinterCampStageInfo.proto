@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message WinterCampStageInfo {
 	uint32 open_time = 7;
-	PBDDPMHLPJG pos = 4;
+	Vector pos = 4;
 	uint32 id = 9;
 	bool is_finished = 2;
 	uint32 cur_progress = 14;

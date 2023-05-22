@@ -15,13 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "HitColliderType.proto";
 message LFGGJIKICHD {
 	float BODOCDABOGL = 2;
 	float LGPPCHOBNEF = 8;
-	PBDDPMHLPJG MFKBMBAFDGJ = 5;
+	Vector MFKBMBAFDGJ = 5;
 	int32 hit_box_index = 6;
-	PBDDPMHLPJG NMKKCNFCFMF = 10;
+	Vector NMKKCNFCFMF = 10;
 	HitColliderType hit_collider_type = 11;
 }

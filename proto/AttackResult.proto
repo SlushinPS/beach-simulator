@@ -17,7 +17,7 @@
 syntax = "proto3";
 import "PBAFNBPPAND.proto";
 import "LFGGJIKICHD.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "AbilityIdentifier.proto";
 message AttackResult {
 	uint32 JAKHCJPHJLL = 1198;
@@ -44,7 +44,7 @@ message AttackResult {
 	LFGGJIKICHD BDJAOEIOAAG = 2;
 	bool ANOIGIKGJLP = 1765;
 	uint32 DOAKEOLAJEM = 1772;
-	PBDDPMHLPJG resolved_dir = 3;
+	Vector resolved_dir = 3;
 	uint32 MCDCPBKDBND = 316;
 	float KGLMAKCMPIH = 979;
 	AbilityIdentifier ability_identifier = 12;

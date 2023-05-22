@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "IDHBCOHLJPD.proto";
 import "MGDFIKKDIGG.proto";
 // CmdId: 3327
@@ -26,11 +26,11 @@ message PlayerEyePointStateNotify {
 	bool AHOJPGCJFHK = 14;
 	uint32 NCNOKJEPIBL = 1;
 	uint32 GLKODFFOGEM = 4;
-	PBDDPMHLPJG eye_point_pos = 9;
+	Vector eye_point_pos = 9;
 	uint32 HBHGHKMILKA = 6;
 	oneof region_size {
 		float GOBLLLKMBMG = 1935;
-		PBDDPMHLPJG FLIFDHKOLBP = 181;
+		Vector FLIFDHKOLBP = 181;
 		IDHBCOHLJPD HKNJDPCFAHN = 976;
 		MGDFIKKDIGG IHELEKOBPIP = 1589;
 	}

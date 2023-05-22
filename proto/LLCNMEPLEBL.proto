@@ -15,12 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message LLCNMEPLEBL {
-	PBDDPMHLPJG NHLNGOEOGMN = 9;
+	Vector NHLNGOEOGMN = 9;
 	uint32 version = 14;
 	int32 DFGEFIOLAOJ = 11;
 	uint32 furniture_id = 6;
 	uint32 guid = 13;
-	PBDDPMHLPJG spawn_pos = 7;
+	Vector spawn_pos = 7;
 }

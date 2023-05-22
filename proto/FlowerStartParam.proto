@@ -15,11 +15,6 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "BODMEBNADPL.proto";
-message IGDHIBNDKBO {
-	int32 retcode = 1;
-	repeated BODMEBNADPL OAPPFJOLBCK = 2;
-	bytes BDIMGGCLPBC = 5;
-	bytes OOAHMHFFBIO = 6;
-	bool KDLPGCMCDJF = 7;
+message FlowerStartParam {
+	uint32 target_score = 6;
 }

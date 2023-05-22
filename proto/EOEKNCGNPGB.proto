@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message EOEKNCGNPGB {
-	PBDDPMHLPJG KFOPAKLLJHL = 5;
-	PBDDPMHLPJG forward = 4;
+	Vector KFOPAKLLJHL = 5;
+	Vector forward = 4;
 }

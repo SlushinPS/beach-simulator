@@ -15,23 +15,6 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message NEPABBOKLDD {
-	uint32 BHCINLIFBHJ = 1;
-	uint32 GICGNEHLIGL = 2;
-	uint32 CICGPADPKMG = 3;
-	uint32 OKOGMPLPIOK = 4;
-	uint32 AAIHCOOPDJC = 5;
-	uint64 MCAMHNKDPGD = 6;
-	uint32 LCKLKCNJOIP = 11;
-	uint32 AMPKJBILCCG = 12;
-	uint32 JHPLPGKPNHH = 13;
-	uint64 IPEMLKCDGFI = 21;
-	uint32 AJDJIAGOADJ = 22;
-	map<uint32, uint32> NKHHMHOGLPE = 23;
-	uint32 ODKFNOPBNCG = 24;
-	uint32 KNNPIOECHFB = 31;
-	uint32 IFKOOOEJLHL = 32;
-	map<uint32, uint32> KMANIGMDBKL = 33;
-	bool EKMLGOLLHDN = 34;
-	uint32 AJGDCNOLCIC = 35;
+message ForceUdpate {
+	string force_update_url = 1;
 }

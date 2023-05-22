@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 1619
 message AvatarDieAnimationEndReq {
-	PBDDPMHLPJG reborn_pos = 15;
+	Vector reborn_pos = 15;
 	uint32 skill_id = 4;
 	uint64 die_guid = 1;
 }

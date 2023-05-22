@@ -15,8 +15,6 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
-message ODLCGPLCCDF {
-	PBDDPMHLPJG pos = 15;
-	PBDDPMHLPJG rot = 8;
+message ElectroherculesStartParam {
+	uint32 difficulty = 12;
 }

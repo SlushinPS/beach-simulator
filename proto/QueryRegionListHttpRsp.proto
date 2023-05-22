@@ -15,8 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "MaterialDeleteInfo.proto";
-message KOKDLGLHBDK {
-	uint32 count = 1;
-	MaterialDeleteInfo delete_info = 2;
+import "RegionSimpleInfo.proto";
+message QueryRegionListHttpRsp {
+	int32 retcode = 1;
+	repeated RegionSimpleInfo region_list = 2;
+	bytes client_secret_key = 5;
+	bytes client_custom_config_encrypted = 6;
+	bool enable_login_pc = 7;
 }

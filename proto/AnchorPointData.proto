@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message AnchorPointData {
 	uint32 anchor_point_id = 8;
-	PBDDPMHLPJG pos = 11;
-	PBDDPMHLPJG rot = 1;
+	Vector pos = 11;
+	Vector rot = 1;
 	uint32 end_time = 4;
 	uint32 scene_id = 10;
 }

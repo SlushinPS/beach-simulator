@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "LFPLMPFDIHK.proto";
 message GKNCGFLIHAF {
-	PBDDPMHLPJG pos = 3;
+	Vector pos = 3;
 	repeated LFPLMPFDIHK uid_info_list = 10;
 	uint32 cost_time = 5;
 	uint32 LKAHBJHOIAO = 12;

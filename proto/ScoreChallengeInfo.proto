@@ -15,6 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message NGIFMHFCFAC {
-	uint32 difficulty = 12;
+message ScoreChallengeInfo {
+	uint32 max_score = 3;
+	uint32 GHINIIJNMMJ = 12;
 }

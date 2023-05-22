@@ -15,14 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "LBHNHAEEOCA.proto";
-import "FOPDMMNKCLB.proto";
+import "BundleInfo.proto";
+import "ScoreChallengeInfo.proto";
 message ADJAGBNPNIN {
 	uint32 challenge_type = 12;
 	bool is_unlock = 7;
 	oneof ODHNJHMDPBJ {
-		LBHNHAEEOCA NMKCOOKNNBG = 8;
-		FOPDMMNKCLB IENLPLIJACJ = 14;
-		uint32 CMHOHDPGENG = 4;
+		BundleInfo bundle_info = 8;
+		ScoreChallengeInfo score_challenge_info = 14;
+		uint32 boss_challenge_id = 4;
 	}
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 import "ForwardType.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 372
 message EvtDoSkillSuccNotify {
 	ForwardType forward_type = 8;
-	PBDDPMHLPJG forward = 6;
+	Vector forward = 6;
 	uint32 caster_id = 13;
 	uint32 skill_id = 15;
 }

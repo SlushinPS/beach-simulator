@@ -21,8 +21,8 @@ import "FMFCGDJGCIF.proto";
 message AIPAJAMGOMI {
 	uint32 stage_id = 2;
 	oneof NGIPMDAFPGH {
-		KJEODHHMHDG EBAGDMMGKKM = 8;
-		BCDBPJIBPJM KBKFPDLKDDJ = 14;
-		FMFCGDJGCIF ABOOIFMJFCM = 6;
+		KJEODHHMHDG first_stage_info = 8;
+		BCDBPJIBPJM second_stage_info = 14;
+		FMFCGDJGCIF third_stage_info = 6;
 	}
 }

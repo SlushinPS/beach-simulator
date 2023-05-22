@@ -19,7 +19,7 @@ syntax = "proto3";
 message PrivateChatReq {
 	uint32 target_uid = 2;
 	oneof content {
-		string HPLIGIFFCEN = 4;
-		uint32 IJLFNAFBFLH = 5;
+		string text = 4;
+		uint32 icon = 5;
 	}
 }

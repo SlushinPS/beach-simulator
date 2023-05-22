@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 6196
 message ToTheMoonQueryPathRsp {
 	enum PathStatusType {
@@ -24,7 +24,7 @@ message ToTheMoonQueryPathRsp {
 		StatusPartial = 2;
 	}
 	
-	repeated PBDDPMHLPJG corners = 4;
+	repeated Vector corners = 4;
 	int32 retcode = 3;
 	PathStatusType query_status = 6;
 	repeated int32 level = 14;

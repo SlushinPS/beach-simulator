@@ -21,9 +21,9 @@ message AbilityScalarValueEntry {
 	AbilityString key = 1;
 	AbilityScalarType value_type = 2;
 	oneof value {
-		float FNKBHJENPJE = 3;
-		string KCNABLKKLOI = 4;
-		int32 JEAEBBFPHHF = 5;
-		uint32 MCPOLFJOJHN = 6;
+		float float_value = 3;
+		string string_value = 4;
+		int32 int_value = 5;
+		uint32 uint_value = 6;
 	}
 }

@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 215
 message ScenePlayerSoundNotify {
 	enum PlaySoundType {
@@ -26,5 +26,5 @@ message ScenePlayerSoundNotify {
 	
 	string sound_name = 1;
 	PlaySoundType play_type = 3;
-	PBDDPMHLPJG play_pos = 5;
+	Vector play_pos = 5;
 }

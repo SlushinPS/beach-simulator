@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message BAADBIGHGPM {
 	repeated int32 LFEJCBDKFGN = 2;
 	uint32 OHEOAOJGLMN = 13;
 	uint32 guid = 3;
-	PBDDPMHLPJG spawn_pos = 15;
+	Vector spawn_pos = 15;
 	bool OGPJKPOGBCL = 14;
 }

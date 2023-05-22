@@ -15,12 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "Vector3Int.proto";
 import "ObstacleInfo.proto";
 import "DAKBAOLCLCB.proto";
 message GMObstacleInfo {
-	PBDDPMHLPJG center = 5;
+	Vector center = 5;
 	Vector3Int extents = 3;
 	ObstacleInfo.ShapeType shape = 2;
 	int64 timestamp = 12;

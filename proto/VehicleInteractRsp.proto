@@ -15,17 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "VehicleMember.proto";
 import "VehicleInteractType.proto";
 // CmdId: 824
 message VehicleInteractRsp {
-	PBDDPMHLPJG AMNIDPNNJLG = 14;
+	Vector AMNIDPNNJLG = 14;
 	VehicleMember member = 3;
 	uint32 entity_id = 9;
 	uint32 PHMCOINMOPH = 15;
 	VehicleInteractType interact_type = 7;
 	int32 retcode = 11;
 	uint32 gadget_id = 13;
-	PBDDPMHLPJG FLDHOMPALBK = 10;
+	Vector FLDHOMPALBK = 10;
 }

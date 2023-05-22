@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message ACLNMEGDNGL {
-	PBDDPMHLPJG cur_pos = 13;
+	Vector cur_pos = 13;
 	uint32 DOHANHABPFI = 9;
 	uint32 entity_id = 5;
 	int32 face_angle_compact = 7;

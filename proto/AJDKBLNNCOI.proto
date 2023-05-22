@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message AJDKBLNNCOI {
-	PBDDPMHLPJG MCLOLMGMPDD = 6;
+	Vector MCLOLMGMPDD = 6;
 	uint32 entity_id = 2;
-	PBDDPMHLPJG LBDDBKPDMMD = 5;
+	Vector LBDDBKPDMMD = 5;
 }

@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 370
 message EvtAvatarLockChairReq {
 	uint64 chair_id = 11;
-	PBDDPMHLPJG position = 4;
+	Vector position = 4;
 }

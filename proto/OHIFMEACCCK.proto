@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message OHIFMEACCCK {
-	PBDDPMHLPJG spawn_pos = 4;
+	Vector spawn_pos = 4;
 	repeated int32 LFEJCBDKFGN = 13;
 	uint32 guid = 1;
 }

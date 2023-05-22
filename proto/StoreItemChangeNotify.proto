@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "EBCKEILKJOG.proto";
+import "Item.proto";
 import "StoreType.proto";
 // CmdId: 602
 message StoreItemChangeNotify {
-	repeated EBCKEILKJOG item_list = 4;
+	repeated Item item_list = 4;
 	StoreType store_type = 7;
 }

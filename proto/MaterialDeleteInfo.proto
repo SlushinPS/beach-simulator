@@ -16,25 +16,25 @@
 
 syntax = "proto3";
 message MaterialDeleteInfo {
-	message CGLLDOGBCHF {
+	message CountDownDelete {
 		map<uint32, uint32> delete_time_num_map = 1;
 		uint32 config_count_down_time = 2;
 	}
 	
-	message AGGPDECMMIG {
-		uint32 delete_time_num_map = 1;
+	message DateTimeDelete {
+		uint32 delete_time = 1;
 	}
 	
-	message GIAAHILNMBN {
+	message DelayWeekCountDownDelete {
 		map<uint32, uint32> delete_time_num_map = 1;
-		uint32 PBIKNJFLBCC = 2;
+		uint32 config_delay_week = 2;
 		uint32 config_count_down_time = 3;
 	}
 	
 	bool has_delete_config = 1;
 	oneof KOHLDAAGPPE {
-		CGLLDOGBCHF DFBKEFLEBID = 2;
-		AGGPDECMMIG JKGPFIDBGDP = 3;
-		GIAAHILNMBN JKNOEFNBAAG = 4;
+		CountDownDelete count_down_delete = 2;
+		DateTimeDelete date_delete = 3;
+		DelayWeekCountDownDelete delay_week_count_down_delete = 4;
 	}
 }

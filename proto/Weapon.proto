@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message CHDJMPLAMAF {
-	uint32 ABLPGNHCFGJ = 1;
-	uint32 FIGJLKEEPMF = 2;
-	string url = 3;
-	string OLGHAKKLJNM = 4;
+message Weapon {
+	uint32 level = 1;
+	uint32 exp = 2;
+	uint32 promote_level = 3;
+	map<uint32, uint32> affix_map = 4;
 }

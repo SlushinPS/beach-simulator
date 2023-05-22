@@ -15,12 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message IEDNAPEHNEN {
 	uint32 entity_id = 1;
 	uint32 pos = 2;
 	uint32 gadget_id = 3;
-	PBDDPMHLPJG FLDHOMPALBK = 4;
+	Vector FLDHOMPALBK = 4;
 	uint32 PHMCOINMOPH = 5;
-	PBDDPMHLPJG AMNIDPNNJLG = 6;
+	Vector AMNIDPNNJLG = 6;
 }

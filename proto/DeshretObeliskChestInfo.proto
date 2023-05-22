@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message DeshretObeliskChestInfo {
 	uint32 group_id = 6;
 	uint32 scene_id = 9;
 	uint32 config_id = 2;
-	PBDDPMHLPJG pos = 7;
+	Vector pos = 7;
 }

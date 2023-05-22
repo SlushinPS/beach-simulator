@@ -15,18 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ODLCGPLCCDF.proto";
+import "LocationInfo.proto";
 import "CNJMNIJCIAA.proto";
-import "MGKIFECKMDL.proto";
+import "CreatorInfo.proto";
 import "EAGOACENHEI.proto";
 import "FFGKNAHPKKF.proto";
 // CmdId: 4266
 message QuickUseWidgetReq {
 	bool GNNNCMLEGAB = 782;
 	oneof param {
-		ODLCGPLCCDF OFABIHJLICB = 1827;
+		LocationInfo location_info = 1827;
 		CNJMNIJCIAA EDAOJIJAJAH = 1598;
-		MGKIFECKMDL IBPOMDNKLIJ = 1489;
+		CreatorInfo IBPOMDNKLIJ = 1489;
 		EAGOACENHEI LCMFKCNBMNO = 767;
 		FFGKNAHPKKF EBKACAALGLM = 75;
 	}

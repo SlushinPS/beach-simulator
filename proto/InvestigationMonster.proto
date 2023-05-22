@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 import "WeeklyBossResinDiscountInfo.proto";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message InvestigationMonster {
 	enum LockState {
 		LockNone = 0;
@@ -38,6 +38,6 @@ message InvestigationMonster {
 	bool BMAKOAPPPIK = 14;
 	uint32 next_refresh_time = 10;
 	uint32 DCIOPCGIJML = 7;
-	PBDDPMHLPJG pos = 15;
+	Vector pos = 15;
 	uint32 group_id = 1266;
 }

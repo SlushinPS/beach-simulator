@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "ForwardType.proto";
 // CmdId: 333
 message EvtBulletMoveNotify {
-	PBDDPMHLPJG cur_pos = 14;
+	Vector cur_pos = 14;
 	uint32 entity_id = 2;
 	ForwardType forward_type = 13;
 }

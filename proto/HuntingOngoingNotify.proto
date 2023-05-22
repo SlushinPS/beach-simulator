@@ -15,14 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "HuntingPair.proto";
 // CmdId: 4348
 message HuntingOngoingNotify {
 	bool is_started = 1;
 	uint32 finish_clue_count = 9;
 	bool is_final = 8;
-	PBDDPMHLPJG next_position = 10;
+	Vector next_position = 10;
 	HuntingPair hunting_pair = 12;
 	uint32 fail_time = 4;
 }

@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 110
 message AddRandTaskInfoNotify {
-	PBDDPMHLPJG pos = 14;
+	Vector pos = 14;
 	uint32 rand_task_id = 5;
 }

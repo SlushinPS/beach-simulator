@@ -15,11 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
-message KEOGDMLAMBC {
-	PBDDPMHLPJG center = 1;
-	PBDDPMHLPJG LCNDIOJOHKP = 2;
-	PBDDPMHLPJG KDCMGAPBAEL = 3;
-	PBDDPMHLPJG PJKFLIHLFCB = 4;
-	PBDDPMHLPJG extents = 5;
+import "Reliquary.proto";
+import "Weapon.proto";
+message Equip {
+	bool is_locked = 3;
+	oneof detail {
+		Reliquary reliquary = 1;
+		Weapon weapon = 2;
+	}
 }

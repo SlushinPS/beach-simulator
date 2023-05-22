@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message MIDKDEJEEDA {
-	PBDDPMHLPJG pos = 1;
-	PBDDPMHLPJG rot = 7;
+	Vector pos = 1;
+	Vector rot = 7;
 }

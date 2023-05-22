@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message ICJEFJLIABP {
 	float damage = 5;
-	PBDDPMHLPJG NBBIKGEEIPA = 9;
+	Vector NBBIKGEEIPA = 9;
 }

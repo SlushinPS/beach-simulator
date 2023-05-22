@@ -15,8 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "OODCAOFHFPD.proto";
-import "KEOGDMLAMBC.proto";
+import "ShapeSphere.proto";
+import "ShapeBox.proto";
 // CmdId: 392
 message MassiveEntityElementOpBatchNotify {
 	uint32 MFCIIFKAPHE = 9;
@@ -27,7 +27,7 @@ message MassiveEntityElementOpBatchNotify {
 	float attack_element_durability = 10;
 	uint32 attacker_id = 7;
 	oneof check_shape {
-		OODCAOFHFPD LGCFNAEIIKO = 14;
-		KEOGDMLAMBC PNJLGDNMOMH = 5;
+		ShapeSphere shape_sphere = 14;
+		ShapeBox shape_box = 5;
 	}
 }

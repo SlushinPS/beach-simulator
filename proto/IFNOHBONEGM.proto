@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 import "FFELGFFLAAC.proto";
 // CmdId: 2397
 message IFNOHBONEGM {
@@ -25,11 +25,11 @@ message IFNOHBONEGM {
 		StatusPartial = 2;
 	}
 	
-	repeated PBDDPMHLPJG corners = 4;
+	repeated Vector corners = 4;
 	JNHPFDEDNEI query_status = 1;
 	int32 retcode = 10;
 	repeated FFELGFFLAAC JFDBEJLOCOO = 6;
 	int32 query_id = 12;
 	repeated FFELGFFLAAC ODMFFIDDPFB = 5;
-	repeated PBDDPMHLPJG ICEFFKBDGJI = 9;
+	repeated Vector ICEFFKBDGJI = 9;
 }

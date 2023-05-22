@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message DMABGAGCFAO {
 	uint32 open_time = 9;
 	bool DNHFHLENEOA = 7;
-	PBDDPMHLPJG center = 11;
+	Vector center = 11;
 	uint32 pos_id = 1;
 	bool is_open = 8;
 }

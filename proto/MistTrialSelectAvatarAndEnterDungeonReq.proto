@@ -19,8 +19,8 @@ syntax = "proto3";
 message MistTrialSelectAvatarAndEnterDungeonReq {
 	message SelectAvatarIndex {
 		oneof detail {
-			uint32 JLHKPAJEBEC = 4;
-			uint64 PNDBBMOGABG = 5;
+			uint32 mist_trial_avatar_id = 4;
+			uint64 formal_avatar_guid = 5;
 		}
 	}
 	

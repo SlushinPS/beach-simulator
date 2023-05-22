@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 831
 message CreateVehicleReq {
-	PBDDPMHLPJG pos = 12;
+	Vector pos = 12;
 	uint32 scene_point_id = 4;
-	PBDDPMHLPJG rot = 3;
+	Vector rot = 3;
 	uint32 vehicle_id = 1;
 }

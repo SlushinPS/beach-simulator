@@ -16,6 +16,6 @@
 
 syntax = "proto3";
 message MAELGEKPEAL {
-	uint32 BIHLFHIHLOM = 8;
+	uint32 main_prop_id = 8;
 	uint32 LHHMFDHLHJH = 5;
 }

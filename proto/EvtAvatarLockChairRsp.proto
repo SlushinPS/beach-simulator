@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 361
 message EvtAvatarLockChairRsp {
 	uint32 entity_id = 13;
 	int32 retcode = 15;
 	uint64 chair_id = 10;
-	PBDDPMHLPJG position = 7;
+	Vector position = 7;
 }

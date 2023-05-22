@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 // CmdId: 284
 message SceneAvatarStaminaStepRsp {
 	bool use_client_rot = 10;
-	PBDDPMHLPJG rot = 3;
+	Vector rot = 3;
 	int32 retcode = 13;
 }

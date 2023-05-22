@@ -15,9 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message OPDCPCFOLIE {
-	PBDDPMHLPJG rot = 8;
+	Vector rot = 8;
 	uint32 room_id = 6;
-	PBDDPMHLPJG pos = 13;
+	Vector pos = 13;
 }

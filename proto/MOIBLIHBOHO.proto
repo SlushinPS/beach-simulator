@@ -15,10 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message MOIBLIHBOHO {
-	PBDDPMHLPJG face_dir = 14;
-	PBDDPMHLPJG pos = 5;
+	Vector face_dir = 14;
+	Vector pos = 5;
 	uint32 entity_id = 2;
-	PBDDPMHLPJG velocity = 15;
+	Vector velocity = 15;
 }

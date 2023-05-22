@@ -17,7 +17,7 @@
 syntax = "proto3";
 message AbilityString {
 	oneof type {
-		string FAMLNLIKMEP = 1;
-		uint32 JBOMCLAJCJO = 2;
+		string str = 1;
+		uint32 hash = 2;
 	}
 }

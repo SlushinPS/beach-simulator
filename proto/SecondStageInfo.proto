@@ -15,7 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message KNKOFBCIECL {
-	uint32 left_time = 9;
-	bool is_success = 4;
+message SecondStageInfo {
+	uint32 capture_animal_num = 4;
+	uint32 total_num = 7;
+	map<uint32, uint32> animal_count_map = 12;
 }

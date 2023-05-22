@@ -15,11 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBDDPMHLPJG.proto";
+import "Vector.proto";
 message TreasureMapDetectorData {
 	uint32 region_id = 2;
-	PBDDPMHLPJG center_pos = 1;
+	Vector center_pos = 1;
 	uint32 radius = 11;
 	bool is_region_detected = 6;
-	repeated PBDDPMHLPJG spot_list = 5;
+	repeated Vector spot_list = 5;
 }
