@@ -1,0 +1,86 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+enum AbilityInvokeArgument {
+	AbilityInvokeArgument_AbilityNone = 0;
+	AbilityInvokeArgument_AbilityMetaModifierChange = 1;
+	AbilityInvokeArgument_AbilityMetaCommandModifierChangeRequest = 2;
+	AbilityInvokeArgument_AbilityMetaSpecialFloatArgument = 3;
+	AbilityInvokeArgument_AbilityMetaOverrideParam = 4;
+	AbilityInvokeArgument_AbilityMetaClearOverrideParam = 5;
+	AbilityInvokeArgument_AbilityMetaReinitOverridemap = 6;
+	AbilityInvokeArgument_AbilityMetaGlobalFloatValue = 7;
+	AbilityInvokeArgument_AbilityMetaClearGlobalFloatValue = 8;
+	AbilityInvokeArgument_AbilityMetaAbilityElementStrength = 9;
+	AbilityInvokeArgument_AbilityMetaAddOrGetAbilityAndTrigger = 10;
+	AbilityInvokeArgument_AbilityMetaSetKilledSetate = 11;
+	AbilityInvokeArgument_AbilityMetaSetAbilityTrigger = 12;
+	AbilityInvokeArgument_AbilityMetaAddNewAbility = 13;
+	AbilityInvokeArgument_AbilityMetaRemoveAbility = 14;
+	AbilityInvokeArgument_AbilityMetaSetModifierApplyEntity = 15;
+	AbilityInvokeArgument_AbilityMetaModifierDurabilityChange = 16;
+	AbilityInvokeArgument_AbilityMetaElementReactionVisual = 17;
+	AbilityInvokeArgument_AbilityMetaSetPoseParameter = 18;
+	AbilityInvokeArgument_AbilityMetaUpdateBaseReactionDamage = 19;
+	AbilityInvokeArgument_AbilityMetaTriggerElementReaction = 20;
+	AbilityInvokeArgument_AbilityMetaLoseHp = 21;
+	AbilityInvokeArgument_AbilityMetaDurabilityIsZero = 22;
+	AbilityInvokeArgument_AbilityActionTriggerAbility = 50;
+	AbilityInvokeArgument_AbilityActionSetCrashDamage = 51;
+	AbilityInvokeArgument_AbilityActionEffect = 52;
+	AbilityInvokeArgument_AbilityActionSummon = 53;
+	AbilityInvokeArgument_AbilityActionBlink = 54;
+	AbilityInvokeArgument_AbilityActionCreateGadget = 55;
+	AbilityInvokeArgument_AbilityActionApplyLevelModifier = 56;
+	AbilityInvokeArgument_AbilityActionGenerateElemBall = 57;
+	AbilityInvokeArgument_AbilityActionSetRandomOverrideMapValue = 58;
+	AbilityInvokeArgument_AbilityActionServerMonsterLog = 59;
+	AbilityInvokeArgument_AbilityActionCreateTile = 60;
+	AbilityInvokeArgument_AbilityActionDestroyTile = 61;
+	AbilityInvokeArgument_AbilityActionFireAfterImage = 62;
+	AbilityInvokeArgument_AbilityActionDeductStamina = 63;
+	AbilityInvokeArgument_AbilityActionHitEffect = 64;
+	AbilityInvokeArgument_AbilityActionSetBulletTrackTarget = 65;
+	AbilityInvokeArgument_AbilityActionFireworkEffect = 66;
+	AbilityInvokeArgument_AbilityMixinAvatarSteerByCamera = 100;
+	AbilityInvokeArgument_AbilityMixinMonsterDefend = 101;
+	AbilityInvokeArgument_AbilityMixinWindZone = 102;
+	AbilityInvokeArgument_AbilityMixinCostStamina = 103;
+	AbilityInvokeArgument_AbilityMixinEliteShield = 104;
+	AbilityInvokeArgument_AbilityMixinElementShield = 105;
+	AbilityInvokeArgument_AbilityMixinGlobalShield = 106;
+	AbilityInvokeArgument_AbilityMixinShieldBar = 107;
+	AbilityInvokeArgument_AbilityMixinWindSeedSpawner = 108;
+	AbilityInvokeArgument_AbilityMixinDoActionByElementReaction = 109;
+	AbilityInvokeArgument_AbilityMixinFieldEntityCountChange = 110;
+	AbilityInvokeArgument_AbilityMixinScenePropSync = 111;
+	AbilityInvokeArgument_AbilityMixinWidgetMpSupport = 112;
+	AbilityInvokeArgument_AbilityMixinDoActionBySelfModifierElementDurabilityRatio = 113;
+	AbilityInvokeArgument_AbilityMixinFireworksLauncher = 114;
+	AbilityInvokeArgument_AbilityMixinAttackResultCreateCount = 115;
+	AbilityInvokeArgument_AbilityMixinUgcTimeControl = 116;
+	AbilityInvokeArgument_AbilityMixinAvatarCombat = 117;
+	AbilityInvokeArgument_AbilityMixinDeathZoneRegionalPlayMixin = 118;
+	AbilityInvokeArgument_AbilityMixinUiInteract = 119;
+	AbilityInvokeArgument_AbilityMixinShootFromCamera = 120;
+	AbilityInvokeArgument_AbilityMixinEraseBrickActivity = 121;
+	AbilityInvokeArgument_AbilityMixinBreakout = 122;
+	AbilityInvokeArgument_AbilityMixinDamageLoan = 123;
+	AbilityInvokeArgument_AbilityMixinBroadcastGv = 124;
+	AbilityInvokeArgument_AbilityMixinReceiveGv = 125;
+	AbilityInvokeArgument_AbilityMixinEnergyCrystalTarget = 127;
+}

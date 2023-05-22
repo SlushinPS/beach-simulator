@@ -1,0 +1,201 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "ActivityWatcherInfo.proto";
+import "ActivityPushTipsData.proto";
+import "GJIPMDIPMGO.proto";
+import "GKNCGFLIHAF.proto";
+import "HHBPGNPOECK.proto";
+import "CNHGNLNNLKL.proto";
+import "IOHOBABPFDF.proto";
+import "NAIBJIHKMIK.proto";
+import "MKEIOCFNDGJ.proto";
+import "EJGGAFPNCNC.proto";
+import "GBNCPNIPIOC.proto";
+import "MFOFKGPNAFM.proto";
+import "ADEHLGOJCCD.proto";
+import "BAKHKCAKDEI.proto";
+import "EFAOCIPELNM.proto";
+import "HMIIGENHBNM.proto";
+import "GNCPDEBAPGF.proto";
+import "JHKGJMFENDI.proto";
+import "LMHEEEOPMJJ.proto";
+import "GAMAHBMCHGE.proto";
+import "PHNGEOHNGLH.proto";
+import "BOMIAHEPOKN.proto";
+import "LGMHCEDKEJH.proto";
+import "KKAEOLMAJBG.proto";
+import "DIBPFDJEBMC.proto";
+import "CFIHPDHBMCA.proto";
+import "OGOOALBIKDL.proto";
+import "MDCOJLLKODN.proto";
+import "NGGOFMMFPPM.proto";
+import "MAJAOJJADHK.proto";
+import "HICKPBHAGFM.proto";
+import "DANKOINBJBL.proto";
+import "BJIFBHFFOLH.proto";
+import "BKHJOGDIKDP.proto";
+import "BGOEADLCCNF.proto";
+import "LBGOIMEOFJG.proto";
+import "CPOACHLJDKL.proto";
+import "DPNFNNKEEOP.proto";
+import "BOOFCPHGDAK.proto";
+import "JJKBLBCBCEH.proto";
+import "EJAINFBCALP.proto";
+import "GEBFJGCMKNA.proto";
+import "ECPILCBJFEO.proto";
+import "BOFIFGCOAAB.proto";
+import "CJMCFPIKLJG.proto";
+import "EPLOANILOOP.proto";
+import "KMDDHMJGLKE.proto";
+import "GIHIIILNKGO.proto";
+import "BCDOENHEMIL.proto";
+import "FEKLEGPDNJI.proto";
+import "FABCDGBBNAB.proto";
+import "KFNOMHOMJBL.proto";
+import "GBMIHIPOEON.proto";
+import "PGHJFAEIOEL.proto";
+import "JPJHKNMPHCC.proto";
+import "EIMFDNMNPHA.proto";
+import "NAFAGCGIODM.proto";
+import "DMEICEBDNJD.proto";
+import "APBBCFJOEOD.proto";
+import "FNGDIKANJCP.proto";
+import "MIMDIDPCGII.proto";
+import "PKCJIAMPIJD.proto";
+import "JMPDMDFONLJ.proto";
+import "OHDPPODAGHJ.proto";
+import "CEFLLFIKKKH.proto";
+import "PHJLCCEGOOL.proto";
+import "GNIMFGCJKMP.proto";
+import "OFKBBPFDJKG.proto";
+import "HEOBEJGAFJO.proto";
+import "FJOECJDLCED.proto";
+import "EDPNCKEJJPN.proto";
+import "PBDBGJBADKF.proto";
+import "EDJJPNEEFNE.proto";
+import "OEKOABENGBG.proto";
+import "BEBGFDMPMHD.proto";
+import "MPCBEPPJBHA.proto";
+import "FFKMNCKOPHD.proto";
+import "LFDOHAHCGAN.proto";
+import "DPMOKIKIFAI.proto";
+message ActivityInfo {
+	uint32 FIMFLHDDIOO = 1;
+	uint32 end_time = 6;
+	uint32 begin_time = 7;
+	uint32 GPDLIMNCAFO = 1859;
+	uint32 first_day_start_time = 533;
+	bool ABEBGGLMKLC = 888;
+	bool OLJCCGBJIBP = 1369;
+	uint32 activity_id = 2;
+	repeated uint32 KELGJLADGFC = 726;
+	bool DCKDKEDDOID = 1478;
+	bool MCGKPOIKJAJ = 9;
+	repeated ActivityWatcherInfo watcher_info_list = 14;
+	repeated uint32 JDNLNEBPLDA = 13;
+	map<uint32, uint32> wish_gift_num_map = 1016;
+	uint32 cur_score = 1089;
+	bool is_finished = 15;
+	map<uint32, uint32> activity_coin_map = 992;
+	bool LODKNEKHGMF = 233;
+	repeated ActivityPushTipsData activity_push_tips_data_list = 1333;
+	repeated uint32 BEJOKOCLCKH = 5;
+	uint32 LBJNLLPBPNM = 925;
+	repeated uint32 MNLBNDEEJEG = 31;
+	uint32 schedule_id = 12;
+	bool MLHBGEBGHEB = 11;
+	oneof detail {
+		GJIPMDIPMGO FHHGEBOBBIE = 4;
+		GKNCGFLIHAF PCDLFNINNJO = 10;
+		HHBPGNPOECK NHFPEFDMNDO = 8;
+		CNHGNLNNLKL FBCIALFEKFI = 3;
+		IOHOBABPFDF OIELPNOAIEK = 1570;
+		NAIBJIHKMIK GFFBMGBJGBP = 344;
+		MKEIOCFNDGJ DGJJMLDLBCM = 326;
+		EJGGAFPNCNC CDBJHHGCDCJ = 1821;
+		GBNCPNIPIOC MGJEJCKDDLD = 650;
+		MFOFKGPNAFM DGAKOADEFOK = 1080;
+		ADEHLGOJCCD LDEMBFFCKOI = 81;
+		BAKHKCAKDEI BAOJFHCDDHF = 587;
+		EFAOCIPELNM HEPMDAHKIDG = 1257;
+		HMIIGENHBNM FDNINJPMNJJ = 827;
+		GNCPDEBAPGF KEKONDCBHMH = 1111;
+		JHKGJMFENDI MMLAKGFKAEH = 975;
+		LMHEEEOPMJJ MKPJDEKBLBB = 2045;
+		GAMAHBMCHGE FGJBCPBKKDP = 742;
+		PHNGEOHNGLH NNJFKHDPHJF = 1693;
+		BOMIAHEPOKN JMIEHFOALOC = 448;
+		LGMHCEDKEJH NCDAMBFGPCG = 1370;
+		KKAEOLMAJBG HIKCILFLIOA = 1400;
+		DIBPFDJEBMC BIKOAJDOBLL = 433;
+		CFIHPDHBMCA OPPGAGJCDCH = 166;
+		OGOOALBIKDL CIACGLMDMAE = 875;
+		MDCOJLLKODN HPGMPAAMJEC = 1460;
+		NGGOFMMFPPM CFAAKJDPJPP = 1433;
+		MAJAOJJADHK EMHHGBALHEJ = 1010;
+		HICKPBHAGFM GEDLBKEBBHP = 921;
+		DANKOINBJBL BKMPIHENAOL = 289;
+		BJIFBHFFOLH GGNOEDKMODD = 490;
+		BKHJOGDIKDP CNOEBALGEFE = 108;
+		BGOEADLCCNF BBDHJIFJDEO = 1721;
+		LBGOIMEOFJG MJHIJLNNIJG = 1432;
+		CPOACHLJDKL OPKBMLBBHJH = 275;
+		DPNFNNKEEOP PFKDNOJBHFJ = 1069;
+		BOOFCPHGDAK AFLOGKAFJAN = 22;
+		JJKBLBCBCEH CJHIAJGPKLC = 1809;
+		EJAINFBCALP MHHPLBFAHNE = 635;
+		GEBFJGCMKNA APFDOJJBAKK = 162;
+		ECPILCBJFEO CBAGBNIKMHF = 25;
+		BOFIFGCOAAB PKEIOEKEFMH = 1427;
+		CJMCFPIKLJG CCOKLAJDEHH = 2031;
+		EPLOANILOOP OGFILGBBGIL = 1971;
+		KMDDHMJGLKE OLFFCCDIFCK = 1463;
+		GIHIIILNKGO POADMLABKOA = 1869;
+		BCDOENHEMIL JPKOBBLCJPL = 1272;
+		FEKLEGPDNJI FJIHODLMGGF = 1148;
+		FABCDGBBNAB ALDHFFJHEOP = 1413;
+		KFNOMHOMJBL OHEHHEGHGKG = 708;
+		GBMIHIPOEON OKLNIJHPIMI = 1415;
+		PGHJFAEIOEL MINCHNFOIPJ = 1508;
+		JPJHKNMPHCC PMAAOMJAKHM = 1694;
+		EIMFDNMNPHA IJLOCOGFHPJ = 1232;
+		NAFAGCGIODM OCOBLCIGBIB = 315;
+		DMEICEBDNJD KALFDEEMEEC = 821;
+		APBBCFJOEOD IPMNNHNEOME = 1330;
+		FNGDIKANJCP ONMCJDJJBMJ = 1399;
+		MIMDIDPCGII LMJAEMGPCNP = 1549;
+		PKCJIAMPIJD KJFPKCHGLMB = 1548;
+		JMPDMDFONLJ KLJEAHEFPBC = 388;
+		OHDPPODAGHJ GIADHEKEMHD = 954;
+		CEFLLFIKKKH OJDLPFHGNJI = 2012;
+		PHJLCCEGOOL NNGLNLDHLOA = 1666;
+		GNIMFGCJKMP JKBADPDMABB = 574;
+		OFKBBPFDJKG BMNIEGKLFON = 937;
+		HEOBEJGAFJO IBGJJOEBLCB = 116;
+		FJOECJDLCED KOBDOAHKIIF = 1486;
+		EDPNCKEJJPN NDCHLBBHJNO = 662;
+		PBDBGJBADKF HNGAKKIAPAM = 790;
+		EDJJPNEEFNE ILADPDELOMB = 486;
+		OEKOABENGBG HBBHGBNMEDP = 1690;
+		BEBGFDMPMHD PCGCOKKPBEG = 1147;
+		MPCBEPPJBHA EOGBJAIIMGD = 1720;
+		FFKMNCKOPHD GPINLKNMFFK = 618;
+		LFDOHAHCGAN EIEBOHPGOHB = 1505;
+		DPMOKIKIFAI ABBKIICBKFG = 1349;
+	}
+}

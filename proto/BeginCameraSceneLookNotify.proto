@@ -1,0 +1,46 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "PBDDPMHLPJG.proto";
+// CmdId: 263
+message BeginCameraSceneLookNotify {
+	enum KeepRotType {
+		KeepRotX = 0;
+		KeepRotXy = 1;
+	}
+	
+	bool HOBICDLLLOF = 7;
+	float LOOLAMGAJFA = 613;
+	bool NJKPICGHKJI = 11;
+	uint32 DKMHMCFPNGN = 1484;
+	float CFOIOGNMDIK = 10;
+	repeated string other_params = 5;
+	bool JHFGGEBJCHI = 1965;
+	uint32 entity_id = 1456;
+	float CIKLEHINAGF = 4;
+	bool JJCBIOMFBNH = 1;
+	bool PPILENHAAJB = 8;
+	bool HLBKIBHNJCO = 15;
+	PBDDPMHLPJG CJNAAACNIGL = 3;
+	uint32 EJFEBPBDOJN = 1356;
+	KeepRotType keep_rot_type = 2;
+	bool KIHOMJJOKDH = 13;
+	PBDDPMHLPJG MCBKKMABEKK = 9;
+	float duration = 12;
+	bool MGDGBCPNEFO = 6;
+	float HMOMAJADGBN = 14;
+}

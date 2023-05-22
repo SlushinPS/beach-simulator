@@ -1,0 +1,28 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "TeamEnterSceneInfo.proto";
+import "MPLevelEntityInfo.proto";
+import "AvatarEnterSceneInfo.proto";
+// CmdId: 247
+message PlayerEnterSceneInfoNotify {
+	TeamEnterSceneInfo team_enter_info = 3;
+	MPLevelEntityInfo mp_level_entity_info = 15;
+	uint32 enter_scene_token = 12;
+	uint32 cur_avatar_entity_id = 14;
+	repeated AvatarEnterSceneInfo avatar_enter_info = 5;
+}

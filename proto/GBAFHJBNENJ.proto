@@ -1,0 +1,92 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "OOFKDFMGBHE.proto";
+import "PlatformInfo.proto";
+import "CMNFEFNBLLD.proto";
+import "LENNDLOGFIM.proto";
+import "OPEMEOGOHME.proto";
+import "HKILNLMDIGF.proto";
+import "EBCKEILKJOG.proto";
+import "MOKCLGJBLDD.proto";
+import "LHPOPGLKKEE.proto";
+import "INJJFHFANAD.proto";
+import "BMHFKGLDMII.proto";
+import "AELEICAJLLG.proto";
+import "AEGLPKDOHJN.proto";
+import "EIFECCBEIPL.proto";
+import "ADMOGMEBELJ.proto";
+import "OACEIOAILNE.proto";
+import "PDEOKHPGMIJ.proto";
+import "PKHMLMBDEPB.proto";
+import "DGNBNKHBONE.proto";
+import "AIJLDNNMBEG.proto";
+import "ODKKHMAMPOH.proto";
+import "BPBJHFCAEEA.proto";
+import "JNLEJBIEONJ.proto";
+import "DPOLIKKKKLA.proto";
+import "JGFICLGKFFD.proto";
+import "CDFJGPAHAAJ.proto";
+import "LGFNBNFIONC.proto";
+import "FNIIINAIIJJ.proto";
+message GBAFHJBNENJ {
+	uint32 gadget_id = 1;
+	uint32 group_id = 2;
+	uint32 config_id = 3;
+	uint32 owner_entity_id = 4;
+	OOFKDFMGBHE GHHPMONMIOL = 5;
+	uint32 gadget_state = 6;
+	uint32 JICMEIMPLOO = 7;
+	bool DDOOGNOMJDF = 8;
+	uint32 authority_peer_id = 9;
+	bool is_enable_interact = 10;
+	uint32 GCLKPDDMBKK = 11;
+	uint32 FPIEKINGGIP = 21;
+	uint32 AJHOCIPOMFO = 22;
+	PlatformInfo platform = 23;
+	repeated uint32 OMIFBFJEJFG = 24;
+	uint32 draft_id = 25;
+	uint32 DJMLKCCGAJC = 26;
+	CMNFEFNBLLD FPJNFEBJDJD = 100;
+	LENNDLOGFIM JBLHBAAECJE = 101;
+	OPEMEOGOHME BEBDBCCIBKJ = 102;
+	HKILNLMDIGF BMLOCKHPFAF = 103;
+	oneof MPPMMEHBCEO {
+		EBCKEILKJOG FIHLPNBKOFL = 12;
+		MOKCLGJBLDD LDOLCEIKGPM = 13;
+		LHPOPGLKKEE OKIGBNDIFLM = 14;
+		INJJFHFANAD OLMECBGFOOF = 15;
+		BMHFKGLDMII JKAGPPAFPCN = 17;
+		AELEICAJLLG HEEHBJHKLFN = 18;
+		AEGLPKDOHJN AMKGFJHHLGC = 19;
+		EIFECCBEIPL NHNIMIBAABN = 20;
+		ADMOGMEBELJ KEOGPGDGPLM = 41;
+		OACEIOAILNE DFCAHMEGKAI = 42;
+		PDEOKHPGMIJ BABMBFOCJMG = 43;
+		PKHMLMBDEPB NKFKJKHBHAF = 44;
+		DGNBNKHBONE CDFBPCABHEJ = 45;
+		AIJLDNNMBEG KHLFOLLNGPJ = 46;
+		ODKKHMAMPOH JDIGHCNKDPD = 47;
+		BPBJHFCAEEA ILKFGPPLKFM = 48;
+		JNLEJBIEONJ HOEEKCJEPNO = 59;
+		DPOLIKKKKLA FANBPMNBFAN = 60;
+		JGFICLGKFFD JMAKFGLGJGC = 61;
+		CDFJGPAHAAJ DAHLIPJDNPF = 62;
+		LGFNBNFIONC MFPOKGFDFLB = 63;
+		FNIIINAIIJJ LCAKNFJJOKB = 64;
+	}
+}

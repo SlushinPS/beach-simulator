@@ -1,0 +1,36 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "OIFDHDIINHH.proto";
+import "BattlePassUnlockStatus.proto";
+import "CMKPIEPINGG.proto";
+import "BattlePassRewardTag.proto";
+message BattlePassSchedule {
+	OIFDHDIINHH OJAFIIKBNDJ = 13;
+	bool ADICGPPCJMD = 12;
+	uint32 KCCLJPHKMDF = 6;
+	uint32 level = 5;
+	uint32 OBFPHCGIMLF = 14;
+	bool GENBLPEDLKG = 11;
+	BattlePassUnlockStatus unlock_status = 2;
+	uint32 schedule_id = 4;
+	uint32 begin_time = 1;
+	uint32 AAPGBBHNFHL = 15;
+	CMKPIEPINGG EDHMOGEOMKI = 7;
+	uint32 end_time = 3;
+	repeated BattlePassRewardTag reward_taken_list = 9;
+}

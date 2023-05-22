@@ -1,0 +1,38 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "EnterType.proto";
+import "PBDDPMHLPJG.proto";
+// CmdId: 275
+message PlayerEnterSceneNotify {
+	uint32 enter_scene_token = 4;
+	uint32 enter_reason = 1592;
+	uint32 dungeon_id = 6;
+	uint32 world_type = 113;
+	uint64 scene_begin_time = 13;
+	string scene_transaction = 453;
+	uint32 target_uid = 5;
+	uint32 world_level = 12;
+	uint32 prev_scene_id = 1;
+	bool is_first_login_enter_scene = 91;
+	EnterType type = 3;
+	uint32 scene_id = 15;
+	PBDDPMHLPJG pos = 8;
+	repeated uint32 scene_tag_id_list = 9;
+	bool is_skip_ui = 2;
+	PBDDPMHLPJG prev_pos = 14;
+}

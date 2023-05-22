@@ -1,0 +1,65 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "TrackingIOInfo.proto";
+import "AdjustTrackingInfo.proto";
+// CmdId: 102
+message PlayerLoginReq {
+	uint32 account_type = 35;
+	string PICJKDBKFEL = 405;
+	uint32 tag = 383;
+	string device_info = 14;
+	uint32 target_home_owner_uid = 1446;
+	uint32 sub_channel_id = 6;
+	string birthday = 995;
+	bytes environment_error_code = 1199;
+	uint32 target_uid = 12;
+	uint32 channel_id = 1569;
+	string JHCMOKKNHDH = 1202;
+	uint64 login_rand = 11;
+	bytes security_cmd_reply = 592;
+	uint32 OFBJDBPPFBB = 499;
+	string token = 15;
+	uint32 DPCBKHKCMFH = 726;
+	uint32 gm_uid = 889;
+	TrackingIOInfo tracking_io_info = 144;
+	uint32 platform_type = 8;
+	string device_uuid = 4;
+	string client_verison_hash = 533;
+	string client_version = 9;
+	uint32 reg_platform = 1174;
+	string account_uid = 7;
+	string EKGDNJGCMON = 1919;
+	bytes extra_bin_data = 457;
+	string online_id = 1855;
+	string system_version = 10;
+	string device_name = 5;
+	string OIILEDKOONG = 166;
+	uint32 PFGGPBJAEHB = 1863;
+	AdjustTrackingInfo adjust_tracking_info = 1003;
+	string checksum = 178;
+	bool is_transfer = 219;
+	uint32 client_data_version = 575;
+	string platform = 13;
+	bool is_editor = 1;
+	uint32 language_type = 3;
+	bool is_guest = 2;
+	string checksum_client_version = 1087;
+	string psn_id = 1335;
+	string country_code = 1696;
+	uint32 CDBPHMJGBBB = 1116;
+}

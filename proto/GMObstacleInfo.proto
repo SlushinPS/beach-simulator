@@ -1,0 +1,29 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "PBDDPMHLPJG.proto";
+import "Vector3Int.proto";
+import "ObstacleInfo.proto";
+import "DAKBAOLCLCB.proto";
+message GMObstacleInfo {
+	PBDDPMHLPJG center = 5;
+	Vector3Int extents = 3;
+	ObstacleInfo.ShapeType shape = 2;
+	int64 timestamp = 12;
+	DAKBAOLCLCB rotation = 11;
+	int32 obstacle_id = 4;
+}

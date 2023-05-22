@@ -1,0 +1,38 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "RoguelikeRuneRecord.proto";
+import "RogueCellInfo.proto";
+// CmdId: 8640
+message EnterRoguelikeDungeonNotify {
+	repeated uint32 explored_cell_list = 5;
+	uint32 ABAOJFBMJOM = 11;
+	uint32 dungeon_id = 2;
+	uint32 BBONAICKKDM = 13;
+	bool KEJOKMCAPPB = 12;
+	float bonus_resource_prop = 1;
+	repeated uint64 onstage_avatar_guid_list = 8;
+	repeated uint64 backstage_avatar_guid_list = 6;
+	uint32 BHLICLADDAD = 7;
+	uint32 DLKDIGDEGDL = 9;
+	repeated RoguelikeRuneRecord rune_record_list = 3;
+	uint32 stage_id = 15;
+	bool AIICCPALMNB = 1338;
+	uint32 NMIHADFFHAM = 411;
+	uint32 NPLPEPJLHNF = 1893;
+	map<uint32, RogueCellInfo> cell_info_map = 10;
+}

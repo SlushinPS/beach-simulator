@@ -1,0 +1,51 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "SceneWeaponInfo.proto";
+import "CNKCBENCCOC.proto";
+import "MonsterRoute.proto";
+import "EALFECBKMNC.proto";
+import "EMABGGFKFDB.proto";
+message PILOPKGAHBK {
+	uint32 monster_id = 1;
+	uint32 group_id = 2;
+	uint32 config_id = 3;
+	repeated SceneWeaponInfo LEOFMNGPDHB = 4;
+	uint32 authority_peer_id = 5;
+	repeated uint32 affix_list = 6;
+	bool FLPMKACADDN = 7;
+	uint32 owner_entity_id = 8;
+	uint32 MCFENAFAABJ = 9;
+	map<uint32, uint32> summon_tag_map = 10;
+	uint32 OOLFLLPOKFN = 11;
+	CNKCBENCCOC GHHPMONMIOL = 12;
+	uint32 block_id = 13;
+	uint32 FPIEKINGGIP = 14;
+	uint32 BLDJBKPLAIE = 15;
+	uint32 JCGILKGIJEC = 16;
+	uint32 attack_target_id = 17;
+	MonsterRoute monster_route = 18;
+	uint32 JCCINFOFNIN = 19;
+	uint32 EBNPPDBAEMO = 20;
+	uint32 KLGHBOACKDA = 21;
+	bool DDLBEPMNCIF = 22;
+	uint32 FNGMAPECIPI = 23;
+	oneof NOMLMBCABIN {
+		EALFECBKMNC OBAPAAKHBJI = 50;
+		EMABGGFKFDB GGOACAMBCJI = 51;
+	}
+}

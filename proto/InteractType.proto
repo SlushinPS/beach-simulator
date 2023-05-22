@@ -1,0 +1,36 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+enum InteractType {
+	InteractType_InteractNone = 0;
+	InteractType_InteractPickItem = 1;
+	InteractType_InteractGather = 2;
+	InteractType_InteractOpenChest = 3;
+	InteractType_InteractOpenStatue = 4;
+	InteractType_InteractConsum = 5;
+	InteractType_InteractMpPlayReward = 6;
+	InteractType_InteractView = 7;
+	InteractType_InteractGeneralReward = 8;
+	InteractType_InteractMiracleRing = 9;
+	InteractType_InteractFoundation = 10;
+	InteractType_InteractEchoShell = 11;
+	InteractType_InteractHomeGather = 12;
+	InteractType_InteractEnvAnimal = 13;
+	InteractType_InteractQuestGadget = 14;
+	InteractType_InteractUiInteract = 15;
+	InteractType_InteractDeshretObelisk = 16;
+}

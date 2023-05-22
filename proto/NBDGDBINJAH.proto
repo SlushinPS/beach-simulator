@@ -1,0 +1,49 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "ResVersionConfig.proto";
+message NBDGDBINJAH {
+	string JMCIINIOPIG = 1;
+	uint32 JCPCNMAFMBK = 2;
+	string ODFNENBIPHE = 3;
+	string area_type = 7;
+	string NDKHMGPGFKB = 8;
+	string CPFLJECMLHC = 9;
+	string AKBNOMPFCLA = 10;
+	string AGHIMJJPKHG = 11;
+	string IGEBEJNPKJH = 12;
+	string DKKMJMGGHOE = 13;
+	uint32 client_data_version = 14;
+	string EEHGFGDFDBL = 16;
+	uint32 client_silence_data_version = 18;
+	string KPCCBLNCGFG = 19;
+	string KLMFDAIKMMH = 20;
+	ResVersionConfig next_res_version_config = 22;
+	bytes secret_key = 23;
+	string BNFCNFJIOKA = 24;
+	string client_version_suffix = 26;
+	string client_silence_version_suffix = 27;
+	bool EHMBNGBCCHI = 28;
+	string IBPAAECIAIA = 29;
+	string HBLKJEILMMD = 30;
+	string IDDHJPJEEKI = 31;
+	string LOFJJLEJILO = 32;
+	string MKCKCIHJNHO = 33;
+	string next_resource_url = 34;
+	ResVersionConfig res_version_config = 35;
+	string game_biz = 36;
+}

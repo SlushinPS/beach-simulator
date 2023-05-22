@@ -1,0 +1,59 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "FeatureBlockInfo.proto";
+import "ShortAbilityHashPair.proto";
+import "ResVersionConfig.proto";
+import "BlockInfo.proto";
+// CmdId: 172
+message PlayerLoginRsp {
+	int32 retcode = 15;
+	string next_resource_url = 163;
+	int32 ability_hash_code = 14;
+	string client_version_suffix = 1903;
+	bool MBNHICHODLK = 7;
+	bytes HMHJKNGKBDN = 136;
+	string client_md5 = 715;
+	string game_biz = 10;
+	repeated FeatureBlockInfo feature_block_info_list = 114;
+	uint32 target_uid = 1;
+	string register_cps = 1149;
+	repeated ShortAbilityHashPair short_ability_hash_map = 130;
+	bool is_use_ability_hash = 11;
+	bool is_transfer = 705;
+	bool LNOKNOGHPOI = 902;
+	bool is_audit = 997;
+	ResVersionConfig next_res_version_config = 1912;
+	ResVersionConfig res_version_config = 915;
+	string client_silence_version_suffix = 702;
+	uint32 target_home_owner_uid = 1909;
+	string client_silence_md5 = 1123;
+	map<uint32, BlockInfo> block_info_map = 834;
+	bool is_sc_open = 1908;
+	map<string, int32> ability_hash_map = 8;
+	bool is_data_need_relogin = 252;
+	bool AMEPHJJIOFL = 1209;
+	uint64 login_rand = 9;
+	string birthday = 383;
+	double total_tick_time = 903;
+	string country_code = 1280;
+	uint32 client_data_version = 4;
+	bytes OCMGGJGCLEK = 3;
+	bool LKPBJJJPLIM = 13;
+	uint32 client_silence_data_version = 6;
+	uint32 player_data_version = 2;
+}

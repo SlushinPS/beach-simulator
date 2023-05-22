@@ -1,0 +1,37 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+import "ItemParam.proto";
+import "LABBALOFHKB.proto";
+import "KHBHKELMHNO.proto";
+import "EOIJDJGCEBA.proto";
+import "CKGOHJGMCCG.proto";
+// CmdId: 7359
+message MHAEEPPGNLN {
+	repeated uint32 NHFJDJCCNGK = 9;
+	bool is_win = 4;
+	uint32 CNJACNJIOLI = 6;
+	repeated ItemParam reward_item_list = 1;
+	uint32 IIHDIPEKHDD = 11;
+	repeated uint32 IHDNFKPDIEE = 14;
+	LABBALOFHKB EINNHJPNMNK = 12;
+	KHBHKELMHNO reason = 13;
+	oneof JJMHHOHBMNP {
+		EOIJDJGCEBA DODGJCLOEGH = 739;
+		CKGOHJGMCCG GKPBPPIGNKI = 482;
+	}
+}

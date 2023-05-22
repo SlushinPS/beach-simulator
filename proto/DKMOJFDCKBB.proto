@@ -1,0 +1,51 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+enum DKMOJFDCKBB {
+	DKMOJFDCKBB_ChangeHpNone = 0;
+	DKMOJFDCKBB_ChangeHpSubAvatar = 1;
+	DKMOJFDCKBB_ChangeHpSubMonster = 2;
+	DKMOJFDCKBB_ChangeHpSubGear = 3;
+	DKMOJFDCKBB_ChangeHpSubEnvir = 4;
+	DKMOJFDCKBB_ChangeHpSubFall = 5;
+	DKMOJFDCKBB_ChangeHpSubDrawn = 6;
+	DKMOJFDCKBB_ChangeHpSubAbyss = 7;
+	DKMOJFDCKBB_ChangeHpSubAbility = 8;
+	DKMOJFDCKBB_ChangeHpSubSummon = 9;
+	DKMOJFDCKBB_ChangeHpSubScript = 10;
+	DKMOJFDCKBB_ChangeHpSubGm = 11;
+	DKMOJFDCKBB_ChangeHpSubKillSelf = 12;
+	DKMOJFDCKBB_ChangeHpSubClimateCold = 13;
+	DKMOJFDCKBB_ChangeHpSubStormLightning = 14;
+	DKMOJFDCKBB_ChangeHpSubKillServerGadget = 15;
+	DKMOJFDCKBB_ChangeHpSubReplace = 16;
+	DKMOJFDCKBB_ChangeHpSubPlayerLeave = 17;
+	DKMOJFDCKBB_ChangeHpAttackByEnergy = 18;
+	DKMOJFDCKBB_ChangeHpAttackByRecycle = 19;
+	DKMOJFDCKBB_ChangeHpSubPlayerBack = 20;
+	DKMOJFDCKBB_ChangeHpSubUgc = 21;
+	DKMOJFDCKBB_ChangeHpByLua = 51;
+	DKMOJFDCKBB_ChangeHpAddAbility = 101;
+	DKMOJFDCKBB_ChangeHpAddItem = 102;
+	DKMOJFDCKBB_ChangeHpAddRevive = 103;
+	DKMOJFDCKBB_ChangeHpAddUpgrade = 104;
+	DKMOJFDCKBB_ChangeHpAddStatue = 105;
+	DKMOJFDCKBB_ChangeHpAddBackground = 106;
+	DKMOJFDCKBB_ChangeHpAddGm = 107;
+	DKMOJFDCKBB_ChangeHpAddTrialAvatarActivity = 108;
+	DKMOJFDCKBB_ChangeHpAddRouguelikeSpring = 109;
+}

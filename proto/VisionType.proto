@@ -1,0 +1,39 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+enum VisionType {
+	VisionType_VisionNone = 0;
+	VisionType_VisionMeet = 1;
+	VisionType_VisionReborn = 2;
+	VisionType_VisionReplace = 3;
+	VisionType_VisionWaypointReborn = 4;
+	VisionType_VisionMiss = 5;
+	VisionType_VisionDie = 6;
+	VisionType_VisionGatherEscape = 7;
+	VisionType_VisionRefresh = 8;
+	VisionType_VisionTransport = 9;
+	VisionType_VisionReplaceDie = 10;
+	VisionType_VisionReplaceNoNotify = 11;
+	VisionType_VisionBorn = 12;
+	VisionType_VisionPickup = 13;
+	VisionType_VisionRemove = 14;
+	VisionType_VisionChangeCostume = 15;
+	VisionType_VisionFishRefresh = 16;
+	VisionType_VisionFishBigShock = 17;
+	VisionType_VisionFishQteSucc = 18;
+	VisionType_VisionCaptureDisappear = 19;
+}

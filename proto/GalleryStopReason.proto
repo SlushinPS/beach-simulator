@@ -1,0 +1,35 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+enum GalleryStopReason {
+	GalleryStopReason_GalleryStopNone = 0;
+	GalleryStopReason_GalleryStopTimeup = 1;
+	GalleryStopReason_GalleryStopClientInterrupt = 2;
+	GalleryStopReason_GalleryStopLuaInterruptSuccess = 3;
+	GalleryStopReason_GalleryStopLuaInterruptFail = 4;
+	GalleryStopReason_GalleryStopOwnerLeaveScene = 5;
+	GalleryStopReason_GalleryStopPlayInitFailed = 6;
+	GalleryStopReason_GalleryStopOtherPlayerEnter = 7;
+	GalleryStopReason_GalleryStopAvatarDie = 8;
+	GalleryStopReason_GalleryStopFinished = 9;
+	GalleryStopReason_GalleryStopFungusAllDie = 10;
+	GalleryStopReason_GalleryStopLifeCountZero = 11;
+	GalleryStopReason_GalleryStopActivityClosed = 12;
+	GalleryStopReason_GalleryStopLeaveRegionFail = 13;
+	GalleryStopReason_GalleryStopHeartBloodUsedOut = 14;
+	GalleryStopReason_GalleryStopGuardianStoneDie = 15;
+}
