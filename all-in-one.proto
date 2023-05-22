@@ -7369,7 +7369,7 @@ message SceneTeamAvatar {
 	bool is_on_scene = 9;
 	repeated ServerBuff server_buff_list = 1;
 	SceneEntityInfo scene_entity_info = 3;
-	IPPGFCBJAGI scene_avatar_info = 8;
+	SceneAvatarInfo scene_avatar_info = 8;
 	AbilityControlBlock ability_control_block = 15;
 	uint32 scene_id = 4;
 	uint32 player_uid = 12;
@@ -22796,7 +22796,7 @@ message AvatarExcelInfo {
 	uint64 combat_config_hash = 5;
 }
 
-message IPPGFCBJAGI {
+message SceneAvatarInfo {
 	uint32 uid = 1;
 	uint32 avatar_id = 2;
 	uint64 guid = 3;
@@ -22834,7 +22834,7 @@ message EMABGGFKFDB {
 	float BOGEINCFLCP = 3;
 }
 
-message PILOPKGAHBK {
+message SceneMonsterInfo {
 	uint32 monster_id = 1;
 	uint32 group_id = 2;
 	uint32 config_id = 3;
@@ -22864,7 +22864,7 @@ message PILOPKGAHBK {
 	}
 }
 
-message AIBIFKIHIGF {
+message SceneNpcInfo {
 	uint32 npc_id = 1;
 	uint32 room_id = 2;
 	uint32 parent_quest_id = 3;
@@ -23102,7 +23102,7 @@ message OPEMEOGOHME {
 	uint32 level_id = 1;
 }
 
-message GBAFHJBNENJ {
+message SceneGadgetInfo {
 	uint32 gadget_id = 1;
 	uint32 group_id = 2;
 	uint32 config_id = 3;
@@ -23231,10 +23231,10 @@ message SceneEntityInfo {
 	repeated string tag_list = 22;
 	repeated ServerBuff server_buff_list = 23;
 	oneof entity {
-		IPPGFCBJAGI PHODELLALKH = 10;
-		PILOPKGAHBK OIGEBEODAPA = 11;
-		AIBIFKIHIGF KPJBNNJAJOO = 12;
-		GBAFHJBNENJ DICOPCGEFND = 13;
+		SceneAvatarInfo avatar = 10;
+		SceneMonsterInfo monster = 11;
+		SceneNpcInfo npc = 12;
+		SceneGadgetInfo gadget = 13;
 	}
 }
 
@@ -23261,7 +23261,7 @@ message CreateEntityInfo {
 		uint32 gadget_id = 3;
 		uint32 FCINCNIGMFJ = 4;
 	}
-	optional NCOOFLCLKIP DICOPCGEFND = 13;
+	optional NCOOFLCLKIP gadget = 13;
 }
 
 message TrialAvatarGrantRecord {

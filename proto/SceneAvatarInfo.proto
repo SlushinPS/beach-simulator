@@ -20,7 +20,7 @@ import "SceneReliquaryInfo.proto";
 import "ServerBuff.proto";
 import "IEDNAPEHNEN.proto";
 import "AvatarExcelInfo.proto";
-message IPPGFCBJAGI {
+message SceneAvatarInfo {
 	uint32 uid = 1;
 	uint32 avatar_id = 2;
 	uint64 guid = 3;

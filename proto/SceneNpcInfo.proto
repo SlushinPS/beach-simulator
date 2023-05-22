@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-message AIBIFKIHIGF {
+message SceneNpcInfo {
 	uint32 npc_id = 1;
 	uint32 room_id = 2;
 	uint32 parent_quest_id = 3;

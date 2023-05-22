@@ -18,7 +18,7 @@ syntax = "proto3";
 import "AbilitySyncStateInfo.proto";
 import "ServerBuff.proto";
 import "SceneEntityInfo.proto";
-import "IPPGFCBJAGI.proto";
+import "SceneAvatarInfo.proto";
 import "AbilityControlBlock.proto";
 import "AvatarInfo.proto";
 message SceneTeamAvatar {
@@ -29,7 +29,7 @@ message SceneTeamAvatar {
 	bool is_on_scene = 9;
 	repeated ServerBuff server_buff_list = 1;
 	SceneEntityInfo scene_entity_info = 3;
-	IPPGFCBJAGI scene_avatar_info = 8;
+	SceneAvatarInfo scene_avatar_info = 8;
 	AbilityControlBlock ability_control_block = 15;
 	uint32 scene_id = 4;
 	uint32 player_uid = 12;

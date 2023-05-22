@@ -43,7 +43,7 @@ import "JGFICLGKFFD.proto";
 import "CDFJGPAHAAJ.proto";
 import "LGFNBNFIONC.proto";
 import "FNIIINAIIJJ.proto";
-message GBAFHJBNENJ {
+message SceneGadgetInfo {
 	uint32 gadget_id = 1;
 	uint32 group_id = 2;
 	uint32 config_id = 3;

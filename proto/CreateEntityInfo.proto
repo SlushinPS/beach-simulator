@@ -30,5 +30,5 @@ message CreateEntityInfo {
 		uint32 gadget_id = 3;
 		uint32 FCINCNIGMFJ = 4;
 	}
-	optional NCOOFLCLKIP DICOPCGEFND = 13;
+	optional NCOOFLCLKIP gadget = 13;
 }

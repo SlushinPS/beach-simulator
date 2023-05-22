@@ -24,10 +24,10 @@ import "EntityClientData.proto";
 import "EntityEnvironmentInfo.proto";
 import "EntityAuthorityInfo.proto";
 import "ServerBuff.proto";
-import "IPPGFCBJAGI.proto";
-import "PILOPKGAHBK.proto";
-import "AIBIFKIHIGF.proto";
-import "GBAFHJBNENJ.proto";
+import "SceneAvatarInfo.proto";
+import "SceneMonsterInfo.proto";
+import "SceneNpcInfo.proto";
+import "SceneGadgetInfo.proto";
 message SceneEntityInfo {
 	ProtEntityType entity_type = 1;
 	uint32 entity_id = 2;
@@ -45,9 +45,9 @@ message SceneEntityInfo {
 	repeated string tag_list = 22;
 	repeated ServerBuff server_buff_list = 23;
 	oneof entity {
-		IPPGFCBJAGI PHODELLALKH = 10;
-		PILOPKGAHBK OIGEBEODAPA = 11;
-		AIBIFKIHIGF KPJBNNJAJOO = 12;
-		GBAFHJBNENJ DICOPCGEFND = 13;
+		SceneAvatarInfo avatar = 10;
+		SceneMonsterInfo monster = 11;
+		SceneNpcInfo npc = 12;
+		SceneGadgetInfo gadget = 13;
 	}
 }
