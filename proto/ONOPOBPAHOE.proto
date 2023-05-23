@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message ONOPOBPAHOE {
-	uint32 level = 1;
-	uint32 exp = 2;
-	uint32 promote_level = 3;
-	map<uint32, uint32> affix_map = 4;
+	uint32 JMEMMFLOCFN = 1;
+	uint32 JMPINOIGPNL = 2;
+	uint32 LPAKJBPHPEN = 3;
+	map<uint32, uint32> IJHKPGALEDA = 4;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "KIKAFOBMLKD.proto";
-import "LunaRiteHintPoint.proto";
+import "EOGOMPLBCGB.proto";
 message HICKPBHAGFM {
 	repeated KIKAFOBMLKD HAIHHOHPPEC = 9;
-	repeated LunaRiteHintPoint hint_point = 11;
+	repeated EOGOMPLBCGB GHLPLJHEKGF = 11;
 }

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message MMPEIBJBNMB {
-	uint64 client_game_time = 14;
-	uint64 server_game_time = 11;
+	uint64 ALHADDEKPKE = 14;
+	uint64 HDENGLICJIH = 11;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message HHDPBPHKCMD {
-	uint32 monster_id = 5;
+	uint32 DOMAEPIELOK = 5;
 	uint32 NPJBKLOHKGP = 15;
-	repeated uint32 affix_list = 10;
-	uint32 level = 9;
+	repeated uint32 GIPGAFBFIHM = 10;
+	uint32 JMEMMFLOCFN = 9;
 }

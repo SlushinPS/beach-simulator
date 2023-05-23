@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message HHKBKHDKCAG {
-	uint32 challenge_id = 5;
-	bool is_success = 10;
-	uint32 cur_progress = 12;
-	uint32 challenge_index = 4;
+	uint32 BCFCGJPJJBA = 5;
+	bool COHLOAHACKG = 10;
+	uint32 KJDOLGOFLKC = 12;
+	uint32 EKNBNPJHCJK = 4;
 }

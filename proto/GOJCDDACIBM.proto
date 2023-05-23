@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message GOJCDDACIBM {
-	uint32 challenge_max_score = 12;
-	uint32 challenge_score = 5;
-	uint32 challenge_id = 13;
+	uint32 DMMDHCMHCOH = 12;
+	uint32 IEMGOANPACH = 5;
+	uint32 BCFCGJPJJBA = 13;
 	bool GJJDKOLCPHN = 7;
-	bool is_success = 9;
+	bool COHLOAHACKG = 9;
 }

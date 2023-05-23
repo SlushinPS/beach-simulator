@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "MHACFHPGBFN.proto";
 message DGNBNKHBONE {
-	MHACFHPGBFN status = 1;
-	repeated uint32 uid_list = 2;
+	MHACFHPGBFN BMHAKCFBNAL = 1;
+	repeated uint32 HOEBIPGGLDG = 2;
 	uint32 BFOPKEGKEMA = 3;
 	uint32 DLPLOIONLMB = 4;
 }

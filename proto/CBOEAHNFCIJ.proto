@@ -1,0 +1,40 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+enum CBOEAHNFCIJ {
+	CBOEAHNFCIJ_CombatNone = 0;
+	CBOEAHNFCIJ_CombatEvtBeingHit = 1;
+	CBOEAHNFCIJ_CombatAnimatorStateChanged = 2;
+	CBOEAHNFCIJ_CombatFaceToDir = 3;
+	CBOEAHNFCIJ_CombatSetAttackTarget = 4;
+	CBOEAHNFCIJ_CombatRushMove = 5;
+	CBOEAHNFCIJ_CombatAnimatorParameterChanged = 6;
+	CBOEAHNFCIJ_EntityMove = 7;
+	CBOEAHNFCIJ_SyncEntityPosition = 8;
+	CBOEAHNFCIJ_CombatSteerMotionInfo = 9;
+	CBOEAHNFCIJ_CombatForceSetPosInfo = 10;
+	CBOEAHNFCIJ_CombatCompensatePosDiff = 11;
+	CBOEAHNFCIJ_CombatMonsterDoBlink = 12;
+	CBOEAHNFCIJ_CombatFixedRushMove = 13;
+	CBOEAHNFCIJ_CombatSyncTransform = 14;
+	CBOEAHNFCIJ_CombatLightCoreMove = 15;
+	CBOEAHNFCIJ_CombatBeingHealedNtf = 16;
+	CBOEAHNFCIJ_CombatSkillAnchorPositionNtf = 17;
+	CBOEAHNFCIJ_CombatGrapplingHookMove = 18;
+}

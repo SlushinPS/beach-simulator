@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message PAALDLMIFHJ {
-	uint32 element_type = 3;
-	uint32 equip_type = 5;
+	uint32 NIKINHLLMPK = 3;
+	uint32 BOGKAFFAMCE = 5;
 }

@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "NBDGDBINJAH.proto";
 import "BFFAMAJFAIO.proto";
 import "CHDJMPLAMAF.proto";
 message EBEJJGCKFNF {
-	int32 retcode = 1;
-	string msg = 2;
-	NBDGDBINJAH region_info = 3;
+	int32 POCANJMPGFB = 1;
+	string MLFHNMCIEKN = 2;
+	NBDGDBINJAH FJKBJKAALIE = 3;
 	bytes BDIMGGCLPBC = 11;
 	bytes MJLEDIMPNAD = 12;
 	bytes EMMMAACDNOL = 13;

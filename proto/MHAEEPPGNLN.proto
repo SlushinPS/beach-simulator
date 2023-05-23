@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ItemParam.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "JOLBKGJKDDN.proto";
 import "LABBALOFHKB.proto";
 import "KHBHKELMHNO.proto";
 import "EOIJDJGCEBA.proto";
@@ -23,13 +25,13 @@ import "CKGOHJGMCCG.proto";
 // CmdId: 7359
 message MHAEEPPGNLN {
 	repeated uint32 NHFJDJCCNGK = 9;
-	bool is_win = 4;
+	bool EJGHILEEJHO = 4;
 	uint32 CNJACNJIOLI = 6;
-	repeated ItemParam reward_item_list = 1;
+	repeated JOLBKGJKDDN BMIMPEJHOJH = 1;
 	uint32 IIHDIPEKHDD = 11;
 	repeated uint32 IHDNFKPDIEE = 14;
 	LABBALOFHKB EINNHJPNMNK = 12;
-	KHBHKELMHNO reason = 13;
+	KHBHKELMHNO HKIFPNECEIL = 13;
 	oneof JJMHHOHBMNP {
 		EOIJDJGCEBA DODGJCLOEGH = 739;
 		CKGOHJGMCCG GKPBPPIGNKI = 482;

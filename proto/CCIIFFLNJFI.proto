@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "FDLBFOHDKFI.proto";
 message CCIIFFLNJFI {
-	uint32 play_index = 15;
-	repeated FDLBFOHDKFI player_info_list = 11;
-	uint32 level_id = 2;
+	uint32 AICGHEOCCBO = 15;
+	repeated FDLBFOHDKFI GNMNJGDJPHM = 11;
+	uint32 EIHOLAKLAPE = 2;
 }

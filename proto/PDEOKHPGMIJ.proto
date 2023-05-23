@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ItemParam.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "JOLBKGJKDDN.proto";
 message PDEOKHPGMIJ {
-	uint32 resin = 1;
+	uint32 HOEHGBDHLMN = 1;
 	uint32 DAFDINCMBDP = 2;
 	repeated uint32 LKGBKCCIBIK = 3;
-	repeated uint32 qualify_uid_list = 4;
-	ItemParam KKIKDEJOMDI = 5;
+	repeated uint32 GKIDJPCPEMP = 4;
+	JOLBKGJKDDN KKIKDEJOMDI = 5;
 }

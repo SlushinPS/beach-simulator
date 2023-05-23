@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message PFFEBPCHBHP {
-	uint32 level_id = 6;
+	uint32 EIHOLAKLAPE = 6;
 	uint32 AOPALHOFMBG = 5;
-	uint32 cost_time = 2;
-	bool is_new_record = 11;
+	uint32 PLPKJPDHIGN = 2;
+	bool IOFBACLEMAG = 11;
 	uint32 MEPLPDONEKG = 8;
 	uint32 EOMMJKKHKEO = 13;
 }

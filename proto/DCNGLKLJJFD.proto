@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message DCNGLKLJJFD {
 	repeated uint32 AGBFMPPIIAA = 1;
-	uint32 num = 4;
+	uint32 OOGMNJDECAP = 4;
 	uint32 AFFBJDOBMGI = 2;
-	uint32 card_id = 7;
+	uint32 EPFEEDOHENM = 7;
 	repeated uint32 IBOFOMEBMJO = 3;
-	uint32 face_type = 10;
+	uint32 HGMOEDPPCID = 10;
 }

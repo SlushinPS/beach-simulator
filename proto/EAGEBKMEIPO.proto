@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message EAGEBKMEIPO {
-	uint32 level = 4;
-	uint32 id = 8;
+	uint32 JMEMMFLOCFN = 4;
+	uint32 PNCCOIAPNGG = 8;
 }

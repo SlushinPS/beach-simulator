@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message PIINAODJAGC {
 	repeated uint32 LKAJDEOAGOI = 12;
 	repeated uint32 EJDBDAIJFKN = 11;
-	uint32 uid = 13;
+	uint32 MNKGACNNOCF = 13;
 }

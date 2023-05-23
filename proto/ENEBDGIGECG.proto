@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "Uint32Pair.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "MKMEPCLAACG.proto";
 message ENEBDGIGECG {
-	uint32 card_id = 7;
-	repeated Uint32Pair FDGEGFKBPCJ = 15;
+	uint32 EPFEEDOHENM = 7;
+	repeated MKMEPCLAACG FDGEGFKBPCJ = 15;
 }

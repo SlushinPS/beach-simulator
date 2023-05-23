@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "OBHGPHDNFBI.proto";
 import "GLCDALAIONK.proto";
 message BIPGIAOICCJ {
 	repeated uint32 MDJKOPIHDEH = 4;
-	uint32 map_id = 14;
+	uint32 JLCHPHEGOPE = 14;
 	map<uint32, OBHGPHDNFBI> GPEDMEBOPIE = 9;
 	uint32 JCLJMHJIHAO = 3;
-	GLCDALAIONK stage_type = 12;
-	bool is_record_score = 1;
+	GLCDALAIONK IALFBNOOGOA = 12;
+	bool EDODDCBEIIE = 1;
 }

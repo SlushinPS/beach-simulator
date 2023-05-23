@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 9272
 message GIFCAAMOIHO {
-	bool is_accept = 15;
-	uint32 uid = 7;
+	bool CJOCLIAHJCP = 15;
+	uint32 MNKGACNNOCF = 7;
 }

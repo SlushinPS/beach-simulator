@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "LMDBIHEBAJM.proto";
 // CmdId: 7674
 message IDMBCPPJCFL {
 	uint32 JGLNLCACKFE = 10;
-	LMDBIHEBAJM op = 1;
+	LMDBIHEBAJM FBNDECNOFGO = 1;
 	uint32 CCDGLDLIBCK = 9;
 }

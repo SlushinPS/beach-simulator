@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message LHPOPGLKKEE {
-	repeated uint32 option_list = 1;
+	repeated uint32 MCKMOLCJDII = 1;
 	bool AODEELOPJND = 2;
 }

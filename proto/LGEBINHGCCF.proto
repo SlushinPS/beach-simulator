@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 7194
 message LGEBINHGCCF {
-	uint32 level_id = 14;
+	uint32 EIHOLAKLAPE = 14;
 	bool OBOEGMJPEPD = 7;
-	uint32 point_id = 8;
+	uint32 GKFMDEKJIOO = 8;
 	uint32 ICOICEHLGLM = 2;
-	uint32 element_type = 5;
-	uint32 avatar_id = 12;
+	uint32 NIKINHLLMPK = 5;
+	uint32 EONMHIEGMJN = 12;
 	bool CGFFICMKDLC = 11;
 }

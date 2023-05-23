@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "GalleryStartSource.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "PKDPAPFKIAK.proto";
 message DNKEAFFCEPM {
 	uint32 OLALFPAFBBN = 6;
 	uint32 OEKELOBNNCC = 14;
-	uint32 coin = 5;
+	uint32 LLPIPILKMJP = 5;
 	uint32 LKJANFJFEHF = 9;
-	uint32 point_id = 11;
-	GalleryStartSource start_source = 2;
+	uint32 GKFMDEKJIOO = 11;
+	PKDPAPFKIAK GJNOIGHFGAL = 2;
 }

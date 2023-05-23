@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message CCEEIMHAFHM {
-	uint32 progress = 3;
-	repeated uint32 progress_stage_list = 6;
-	string key = 10;
+	uint32 HIBFCFFOKMD = 3;
+	repeated uint32 AMFAJFCCPDA = 6;
+	string DDFOEEGANBB = 10;
 	uint32 KBDGMGOBKIB = 15;
 }

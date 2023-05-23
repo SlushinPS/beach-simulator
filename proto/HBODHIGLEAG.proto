@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message HBODHIGLEAG {
 	bool LEKOPIPHOGG = 6;
-	repeated uint32 card_list = 13;
+	repeated uint32 BADJOGNOOCK = 13;
 	repeated uint32 NKGADJFNOIF = 4;
-	string name = 15;
+	string DGJBCPKKKBG = 15;
 }

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "HomeGroupPlayerInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "IJHCHNPKNGD.proto";
 message JGNJFAPBOBJ {
-	uint32 timestamp = 11;
-	HomeGroupPlayerInfo player_info = 14;
-	uint32 hit_count = 12;
-	uint32 score = 1;
+	uint32 EIBCHCBAHHA = 11;
+	IJHCHNPKNGD DMPCMGCAPCA = 14;
+	uint32 NKFOMLJLDPH = 12;
+	uint32 KJNLKNAGBJO = 1;
 }

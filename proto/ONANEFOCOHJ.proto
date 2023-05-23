@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message ONANEFOCOHJ {
 	message LIDAMOCDKLI {
-		bool is_taken_reward = 3;
-		uint32 quest_id = 13;
-		uint32 request_id = 1;
+		bool HKPIKIMNDMI = 3;
+		uint32 NLKHDCDCDBL = 13;
+		uint32 IMBEJBKLLIN = 1;
 	}
 	
-	bool is_open = 6;
+	bool GDPHKFDFNDB = 6;
 	repeated LIDAMOCDKLI APGIIFEDGKB = 1;
 }

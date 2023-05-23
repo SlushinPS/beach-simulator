@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "OCLJEABAJPG.proto";
 import "AJNMMPHABOF.proto";
 import "GMMHDIAEPCD.proto";
@@ -22,7 +24,7 @@ import "MIMICJGDEHP.proto";
 import "LHHEKPONLCP.proto";
 import "FKDEAIKMCMG.proto";
 message MJLIMDBFNBB {
-	uint32 config_id = 7;
+	uint32 PHMAEMMCBME = 7;
 	oneof HAHOBKJDIKE {
 		OCLJEABAJPG JLMIMNBFNLK = 12;
 		AJNMMPHABOF FPKMALNJHNI = 14;

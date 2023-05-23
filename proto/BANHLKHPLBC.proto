@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message BANHLKHPLBC {
 	uint32 PGONNNCNIBP = 9;
-	uint32 progress = 5;
+	uint32 HIBFCFFOKMD = 5;
 }

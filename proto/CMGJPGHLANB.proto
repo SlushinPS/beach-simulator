@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ItemParam.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "JOLBKGJKDDN.proto";
 message CMGJPGHLANB {
-	repeated ItemParam AAEDHGODEKA = 6;
+	repeated JOLBKGJKDDN AAEDHGODEKA = 6;
 	repeated uint32 AILOBPFGCCP = 5;
 }

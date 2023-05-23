@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "CHLBOOLNDEN.proto";
-import "ChannellerSlabAssistInfo.proto";
+import "HKFJGOFLGNH.proto";
 message CAGONPCNIDL {
 	CHLBOOLNDEN DHANGLKKGHP = 6;
-	repeated ChannellerSlabAssistInfo assist_info_list = 5;
+	repeated HKFJGOFLGNH MDNMEENFMOG = 5;
 	CHLBOOLNDEN MGACNJIBBLL = 2;
-	repeated uint32 buff_id_list = 13;
+	repeated uint32 MFONMICEBAB = 13;
 }

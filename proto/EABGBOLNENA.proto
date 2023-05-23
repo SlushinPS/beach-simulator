@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "GAANOOHAIAD.proto";
 message EABGBOLNENA {
-	uint32 score = 15;
-	repeated GAANOOHAIAD buff_info_list = 14;
+	uint32 KJNLKNAGBJO = 15;
+	repeated GAANOOHAIAD FOPDHCEPMND = 14;
 }

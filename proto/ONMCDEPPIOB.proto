@@ -1,0 +1,50 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+import "GACNAKHGACG.proto";
+import "EPOBLGMCAPA.proto";
+import "BIPGIAOICCJ.proto";
+import "MHMGAMCCIBM.proto";
+import "GOMHKNNBAAD.proto";
+import "LDOHLKCMHAB.proto";
+import "DPELOIJNAMO.proto";
+import "CCIIFFLNJFI.proto";
+import "HDIMLANJONI.proto";
+import "PLJMDBLDDMM.proto";
+message ONMCDEPPIOB {
+	uint32 NKPNLHDAOCI = 14;
+	uint32 IALFBNOOGOA = 8;
+	uint32 BKFNDGLJJAJ = 1;
+	uint32 HBGDJNHNPIO = 11;
+	uint32 ICCGMEFAFEK = 9;
+	uint32 AICGHEOCCBO = 13;
+	uint32 FOIMDJNPKIJ = 4;
+	oneof BOKLHDADPIE {
+		GACNAKHGACG KGOFKFEBHPK = 1751;
+		EPOBLGMCAPA KEKONDCBHMH = 1630;
+		BIPGIAOICCJ NNJFKHDPHJF = 216;
+		MHMGAMCCIBM HPGMPAAMJEC = 849;
+		GOMHKNNBAAD NPJAEMGDGGK = 2011;
+		LDOHLKCMHAB KJFPKCHGLMB = 1538;
+		DPELOIJNAMO OJDLPFHGNJI = 903;
+		CCIIFFLNJFI GIADHEKEMHD = 1102;
+		HDIMLANJONI CPEJDJHDCMP = 1033;
+		PLJMDBLDDMM DFOCCMOOGNI = 2006;
+	}
+}

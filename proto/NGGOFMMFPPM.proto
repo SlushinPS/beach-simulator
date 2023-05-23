@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "OBIJGIMEDDH.proto";
 message NGGOFMMFPPM {
 	uint32 OIJKDLNGCBC = 2;
 	map<uint32, OBIJGIMEDDH> JAICDOKGCGN = 12;
-	uint32 difficulty_id = 10;
+	uint32 OJPPCGPDIDC = 10;
 }

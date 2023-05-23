@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "LOHEIDBGGDB.proto";
 import "KGAMICAMBKO.proto";
 import "IJOLMAFFKEK.proto";
 import "HEPFNIPELBP.proto";
 message FFHDGIBNIEC {
-	uint32 config_id = 5;
+	uint32 PHMAEMMCBME = 5;
 	oneof PJDDKCNECFP {
 		LOHEIDBGGDB GEBIJKLGCEM = 6;
 		KGAMICAMBKO ICNMDDEEGKI = 14;

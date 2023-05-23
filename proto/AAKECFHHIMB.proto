@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "GalleryStartSource.proto";
-import "IslandPartySailStage.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "PKDPAPFKIAK.proto";
+import "CMBIHEEBLBL.proto";
 message AAKECFHHIMB {
 	uint32 BEMFEEJFKNM = 14;
-	uint32 coin = 15;
-	GalleryStartSource start_source = 13;
+	uint32 LLPIPILKMJP = 15;
+	PKDPAPFKIAK GJNOIGHFGAL = 13;
 	uint32 MNLBFOPIFII = 8;
 	uint32 OGJOKABBBPG = 1;
-	IslandPartySailStage stage = 11;
+	CMBIHEEBLBL AJNDLHIDKGL = 11;
 	uint32 GIGKNLIJGED = 9;
 }

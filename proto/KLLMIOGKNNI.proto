@@ -1,0 +1,36 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+enum KLLMIOGKNNI {
+	KLLMIOGKNNI_ProtEntityNone = 0;
+	KLLMIOGKNNI_ProtEntityAvatar = 1;
+	KLLMIOGKNNI_ProtEntityMonster = 2;
+	KLLMIOGKNNI_ProtEntityNpc = 3;
+	KLLMIOGKNNI_ProtEntityGadget = 4;
+	KLLMIOGKNNI_ProtEntityRegion = 5;
+	KLLMIOGKNNI_ProtEntityWeapon = 6;
+	KLLMIOGKNNI_ProtEntityWeather = 7;
+	KLLMIOGKNNI_ProtEntityScene = 8;
+	KLLMIOGKNNI_ProtEntityTeam = 9;
+	KLLMIOGKNNI_ProtEntityMassiveEntity = 10;
+	KLLMIOGKNNI_ProtEntityMpLevel = 11;
+	KLLMIOGKNNI_ProtEntityPlayTeamEntity = 12;
+	KLLMIOGKNNI_ProtEntityEyePoint = 13;
+	KLLMIOGKNNI_ProtEntityMax = 14;
+}

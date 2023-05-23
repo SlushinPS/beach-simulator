@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message EJHDOLJOJMP {
 	uint32 MBBPLNNANOD = 11;
-	uint32 cost_points = 8;
-	uint32 level = 5;
-	uint32 building_id = 1;
+	uint32 NFKHLAJHKIB = 8;
+	uint32 JMEMMFLOCFN = 5;
+	uint32 AOHMMJHAEAA = 1;
 }

@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "KJEODHHMHDG.proto";
 import "BCDBPJIBPJM.proto";
 import "FMFCGDJGCIF.proto";
 message AIPAJAMGOMI {
-	uint32 stage_id = 2;
+	uint32 NDFCPKBOOBK = 2;
 	oneof NGIPMDAFPGH {
 		KJEODHHMHDG EBAGDMMGKKM = 8;
 		BCDBPJIBPJM KBKFPDLKDDJ = 14;

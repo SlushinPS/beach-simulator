@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 9196
 message MPGNFPDIGDJ {
-	uint64 dungeon_guid = 9;
-	bool is_add = 1;
+	uint64 KDCFPDCOEOB = 9;
+	bool NMOLLEEKICI = 1;
 }

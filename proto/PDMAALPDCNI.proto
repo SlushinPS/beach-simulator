@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4765
 message PDMAALPDCNI {
-	uint32 apply_uid = 9;
-	bool is_agreed = 10;
+	uint32 CAKPDEOKMPH = 9;
+	bool FIMEEAKHIFH = 10;
 }

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message ANHIGENPEPA {
-	uint32 open_time = 3;
+	uint32 LOOLOKIJHBJ = 3;
 	uint32 FJICFMCGMEO = 14;
 }

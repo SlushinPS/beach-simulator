@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "HomeGroupPlayerInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "IJHCHNPKNGD.proto";
 message PAALPLOAHON {
-	repeated HomeGroupPlayerInfo IEGKGFNFINF = 1;
-	uint32 timestamp = 2;
+	repeated IJHCHNPKNGD IEGKGFNFINF = 1;
+	uint32 EIBCHCBAHHA = 2;
 }

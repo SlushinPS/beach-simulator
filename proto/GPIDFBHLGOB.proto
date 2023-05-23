@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message GPIDFBHLGOB {
-	uint32 scene_point_id = 7;
-	uint32 id = 5;
-	uint32 level_id = 1;
+	uint32 IHDHANOHDPB = 7;
+	uint32 PNCCOIAPNGG = 5;
+	uint32 EIHOLAKLAPE = 1;
 }

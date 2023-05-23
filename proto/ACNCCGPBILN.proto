@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "HomeBlueprintSlotInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "HOMJCBCKHOK.proto";
 // CmdId: 4509
 message ACNCCGPBILN {
-	int32 retcode = 14;
-	HomeBlueprintSlotInfo slot_info = 15;
+	int32 POCANJMPGFB = 14;
+	HOMJCBCKHOK NHDIACLIEPA = 15;
 }

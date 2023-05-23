@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message JHKGJMFENDI {
-	uint32 region_search_id = 7;
+	uint32 PHIGMKPNKGA = 7;
 	map<uint32, uint32> HIEEKNNMJKP = 5;
-	uint32 mp_play_id = 13;
+	uint32 JLFKNIOHIIL = 13;
 }

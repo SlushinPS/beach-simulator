@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 9110
 message LGBINLFNLNK {
-	repeated uint32 buff_id_list = 11;
+	repeated uint32 MFONMICEBAB = 11;
 }

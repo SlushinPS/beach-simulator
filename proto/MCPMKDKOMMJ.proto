@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PPAEHFBIOPF.proto";
 // CmdId: 7592
 message MCPMKDKOMMJ {
 	repeated PPAEHFBIOPF DCJDIPLHEPD = 8;
 	bool GOLICFEIECE = 11;
-	uint32 next_refresh_time = 6;
+	uint32 NIBJDAIKFAH = 6;
 }

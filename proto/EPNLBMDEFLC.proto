@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 7449
 message EPNLBMDEFLC {
-	uint32 level_id = 10;
+	uint32 EIHOLAKLAPE = 10;
 	uint32 ICOICEHLGLM = 2;
 }

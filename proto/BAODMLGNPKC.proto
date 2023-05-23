@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message BAODMLGNPKC {
 	uint32 MJLGIAIJGCK = 7;
-	uint32 event_id = 9;
+	uint32 ICBAFNAPDLO = 9;
 	uint32 OHEOAOJGLMN = 2;
-	uint32 avatar_id = 1;
-	uint32 guid = 6;
+	uint32 EONMHIEGMJN = 1;
+	uint32 MEEFACEAADO = 6;
 }

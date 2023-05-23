@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "IIKMMGPBEMC.proto";
 // CmdId: 9278
 message HJBIANEJEBC {
-	repeated IIKMMGPBEMC avatar_info_list = 9;
+	repeated IIKMMGPBEMC GNONCEPOAJJ = 9;
 }

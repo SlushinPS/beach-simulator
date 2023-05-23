@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "Uint32Pair.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "MKMEPCLAACG.proto";
 message DLKEBIPAMFP {
-	repeated Uint32Pair FDGEGFKBPCJ = 1;
+	repeated MKMEPCLAACG FDGEGFKBPCJ = 1;
 	uint32 AABKCJEGDJE = 4;
 }

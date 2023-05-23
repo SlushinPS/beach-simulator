@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message LBDBMDFKMFC {
-	bool is_open = 10;
-	uint32 open_time = 2;
+	bool GDPHKFDFNDB = 10;
+	uint32 LOOLOKIJHBJ = 2;
 }

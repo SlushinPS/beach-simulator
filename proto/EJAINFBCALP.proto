@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "NGFDAJNNCKL.proto";
 import "FKOFDCNFGIN.proto";
 import "JHKDEDKDIJH.proto";
 message EJAINFBCALP {
 	repeated NGFDAJNNCKL LHIBOCIAMEH = 11;
 	repeated uint32 DPEMGOPDLEL = 6;
-	uint32 gain_crystal_exp = 9;
+	uint32 BIAMFMBJGFB = 9;
 	repeated FKOFDCNFGIN JPGDPCBGILD = 7;
 	repeated JHKDEDKDIJH BCANEABAFMP = 15;
 }

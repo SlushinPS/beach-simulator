@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 22353
 message DNNFFIBKAPI {
-	int32 gallery_id = 11;
-	int32 retcode = 2;
+	int32 FOKICFBGPAK = 11;
+	int32 POCANJMPGFB = 2;
 }

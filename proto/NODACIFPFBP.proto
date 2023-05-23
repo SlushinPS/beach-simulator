@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4165
 message NODACIFPFBP {
-	uint32 match_id = 11;
+	uint32 NIABHFIBAEH = 11;
 }

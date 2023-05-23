@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PEMPCNLGIJF.proto";
 // CmdId: 23731
 message AEGNJEKFGPI {
-	PEMPCNLGIJF reason = 6;
+	PEMPCNLGIJF HKIFPNECEIL = 6;
 }

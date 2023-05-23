@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message EAPLAEOEHNB {
-	uint32 stage_id = 3;
+	uint32 NDFCPKBOOBK = 3;
 	bool HDAFJKIDAEE = 10;
 	bool IEIHAAGBPIM = 13;
 }

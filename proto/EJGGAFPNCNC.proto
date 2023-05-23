@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "JCLHNCHPMHJ.proto";
 message EJGGAFPNCNC {
 	uint32 OKIIEHGNLHN = 12;
-	uint32 weapon_enhance_level = 5;
+	uint32 FPGPGMAHINF = 5;
 	bool LFKBGHFJJOO = 4;
 	uint32 HIANCJIKDOC = 8;
 	uint32 LAGIHKBMBKG = 1;

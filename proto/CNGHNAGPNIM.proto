@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message CNGHNAGPNIM {
-	uint32 avatar_id = 10;
-	uint32 costume_id = 8;
-	PBDDPMHLPJG spawn_pos = 4;
+	uint32 EONMHIEGMJN = 10;
+	uint32 HGDMANGMCDI = 8;
+	PBDDPMHLPJG HHMKLBOCPOL = 4;
 	PBDDPMHLPJG NHLNGOEOGMN = 7;
 }

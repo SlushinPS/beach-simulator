@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "ODLHFHHKAJL.proto";
 message GMILLBPNIFK {
-	bool is_open = 10;
+	bool GDPHKFDFNDB = 10;
 	repeated ODLHFHHKAJL IDOFBCIGADC = 4;
 	bool KEKIEAKDGDG = 15;
-	uint32 level_id = 5;
+	uint32 EIHOLAKLAPE = 5;
 }

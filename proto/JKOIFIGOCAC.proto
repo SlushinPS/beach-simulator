@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message JKOIFIGOCAC {
 	uint32 KIAPNPKIIDL = 4;
-	uint32 schedule_id = 6;
+	uint32 NFBELBMHMCP = 6;
 }

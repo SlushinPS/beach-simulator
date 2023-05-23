@@ -1,0 +1,35 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+enum PGCOKALJOJB {
+	PGCOKALJOJB_PropChangeNone = 0;
+	PGCOKALJOJB_PropChangeStatueRecover = 1;
+	PGCOKALJOJB_PropChangeEnergyBall = 2;
+	PGCOKALJOJB_PropChangeAbility = 3;
+	PGCOKALJOJB_PropChangeLevelup = 4;
+	PGCOKALJOJB_PropChangeItem = 5;
+	PGCOKALJOJB_PropChangeAvatarCard = 6;
+	PGCOKALJOJB_PropChangeCityLevelup = 7;
+	PGCOKALJOJB_PropChangeAvatarUpgrade = 8;
+	PGCOKALJOJB_PropChangeAvatarPromote = 9;
+	PGCOKALJOJB_PropChangePlayerAddExp = 10;
+	PGCOKALJOJB_PropChangeFinishQuest = 11;
+	PGCOKALJOJB_PropChangeGm = 12;
+	PGCOKALJOJB_PropChangeManualAdjustWorldLevel = 13;
+}

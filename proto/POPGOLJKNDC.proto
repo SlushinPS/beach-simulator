@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 9234
 message POPGOLJKNDC {
-	uint32 room_id = 7;
-	int32 retcode = 14;
-	uint64 dungeon_guid = 3;
-	bool is_add = 5;
+	uint32 PLOKKBJDIHI = 7;
+	int32 POCANJMPGFB = 14;
+	uint64 KDCFPDCOEOB = 3;
+	bool NMOLLEEKICI = 5;
 }

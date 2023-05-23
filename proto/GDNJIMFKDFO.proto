@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "CNHNIHMDAKN.proto";
 message GDNJIMFKDFO {
-	uint32 max_score = 10;
-	bool is_finished = 14;
-	repeated CNHNIHMDAKN team_info_list = 3;
-	uint32 stage_id = 15;
+	uint32 AJOKDKDIFKH = 10;
+	bool JEPFLHONCCL = 14;
+	repeated CNHNIHMDAKN IOLNGBLFMOL = 3;
+	uint32 NDFCPKBOOBK = 15;
 }

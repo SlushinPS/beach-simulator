@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "MGDEKEBNMGP.proto";
 message NJIBEBILPBB {
-	uint32 attack_target_id = 2;
+	uint32 IOODKBAEFJI = 2;
 	float PGONNJPJPAE = 5;
 	repeated MGDEKEBNMGP HCKKMBIFJLO = 4;
 	float PKNDIFOCMBA = 3;
@@ -26,7 +28,7 @@ message NJIBEBILPBB {
 	float EONBMPPKALM = 8;
 	uint32 NGAAKIJAGPB = 7;
 	uint32 FOKLOIKIMJE = 9;
-	uint32 entity_id = 11;
+	uint32 EHJPFMIFNHK = 11;
 	map<uint32, uint32> DKKKOLCCOEA = 1;
 	uint32 IMGLAGFMNMF = 6;
 }

@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "FCGKNGEPNDI.proto";
-import "ClientInputType.proto";
+import "DFMBCLCIGOD.proto";
 message PCNDNIOHPPA {
-	repeated FCGKNGEPNDI level_list = 6;
-	repeated ClientInputType NDKKHBCMBHE = 12;
+	repeated FCGKNGEPNDI KIADNGDCCOJ = 6;
+	repeated DFMBCLCIGOD NDKKHBCMBHE = 12;
 	repeated uint32 HNOOCKEDLLM = 15;
-	repeated ClientInputType NNFEAJFMMCO = 10;
+	repeated DFMBCLCIGOD NNFEAJFMMCO = 10;
 }

@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "NGNOANEIFJJ.proto";
 import "JADEFHANEBG.proto";
 message FEKLEGPDNJI {
 	repeated NGNOANEIFJJ BCANEABAFMP = 11;
-	JADEFHANEBG cur_progress = 6;
-	bool is_have_progress = 1;
+	JADEFHANEBG KJDOLGOFLKC = 6;
+	bool MPBCAJAPNCL = 1;
 	bool LFKBGHFJJOO = 8;
 }

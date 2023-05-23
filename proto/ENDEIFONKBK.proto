@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "MAELGEKPEAL.proto";
 message ENDEIFONKBK {
-	uint32 equip_type = 8;
-	uint32 element_type = 5;
+	uint32 BOGKAFFAMCE = 8;
+	uint32 NIKINHLLMPK = 5;
 	repeated MAELGEKPEAL KEBAEKOFBIF = 10;
 }

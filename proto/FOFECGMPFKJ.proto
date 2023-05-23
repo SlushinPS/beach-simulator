@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "NCIFINONGOL.proto";
 message FOFECGMPFKJ {
 	uint32 LHCDBPFNDBN = 5;
 	NCIFINONGOL NKCHMIEAPDK = 8;
 	uint32 HJPHDEJPCBP = 7;
-	uint32 face_type = 9;
-	uint32 card_id = 6;
+	uint32 HGMOEDPPCID = 9;
+	uint32 EPFEEDOHENM = 6;
 	uint32 AABKCJEGDJE = 4;
 	uint32 CDFFGLCKBDF = 11;
 }

@@ -15,35 +15,37 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ResVersionConfig.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "FJIHAIMDBMB.proto";
 message NBDGDBINJAH {
 	string JMCIINIOPIG = 1;
 	uint32 JCPCNMAFMBK = 2;
 	string ODFNENBIPHE = 3;
-	string area_type = 7;
+	string IENPNMMDEPG = 7;
 	string NDKHMGPGFKB = 8;
 	string CPFLJECMLHC = 9;
 	string AKBNOMPFCLA = 10;
 	string AGHIMJJPKHG = 11;
 	string IGEBEJNPKJH = 12;
 	string DKKMJMGGHOE = 13;
-	uint32 client_data_version = 14;
+	uint32 IKDOHJILIAP = 14;
 	string EEHGFGDFDBL = 16;
-	uint32 client_silence_data_version = 18;
+	uint32 FLCBCNHKBGM = 18;
 	string KPCCBLNCGFG = 19;
 	string KLMFDAIKMMH = 20;
-	ResVersionConfig next_res_version_config = 22;
-	bytes secret_key = 23;
+	FJIHAIMDBMB MDJMOMLBGIE = 22;
+	bytes JNIJDCAIDAC = 23;
 	string BNFCNFJIOKA = 24;
-	string client_version_suffix = 26;
-	string client_silence_version_suffix = 27;
+	string BDGAHFPBPHA = 26;
+	string EIBCHMBEACK = 27;
 	bool EHMBNGBCCHI = 28;
 	string IBPAAECIAIA = 29;
 	string HBLKJEILMMD = 30;
 	string IDDHJPJEEKI = 31;
 	string LOFJJLEJILO = 32;
 	string MKCKCIHJNHO = 33;
-	string next_resource_url = 34;
-	ResVersionConfig res_version_config = 35;
-	string game_biz = 36;
+	string OKPNNLILNFA = 34;
+	FJIHAIMDBMB KPDNOEPMPLA = 35;
+	string MAEPOGPBOMC = 36;
 }

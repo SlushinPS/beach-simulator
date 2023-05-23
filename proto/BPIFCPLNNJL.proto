@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PJFMFEFLOHD.proto";
 message BPIFCPLNNJL {
 	uint32 FJOJIIDFLIA = 14;
@@ -26,7 +28,7 @@ message BPIFCPLNNJL {
 	uint32 LJGCMBGGFKD = 4;
 	bool FAHLDMHFFCM = 1;
 	PJFMFEFLOHD EGDKHAIPICE = 3;
-	uint32 level_id = 8;
+	uint32 EIHOLAKLAPE = 8;
 	bool CHNFDGNAAFJ = 15;
 	bool NAAKHFLLPCA = 2;
 }

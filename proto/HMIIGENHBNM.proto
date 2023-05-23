@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "DEOAPDFEJGL.proto";
 message HMIIGENHBNM {
 	bool BFNIAHGCPPB = 8;
-	uint32 world_level = 4;
-	repeated DEOAPDFEJGL level_list = 12;
+	uint32 CFNGLGNIIJE = 4;
+	repeated DEOAPDFEJGL KIADNGDCCOJ = 12;
 	map<uint32, uint32> EDPLFCIAEMN = 1;
 }

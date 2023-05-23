@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "AbilityString.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "KHIKIFCBPKH.proto";
 message NGEKKGKDJED {
 	uint32 IJCCMBEMIFB = 1;
-	AbilityString NGPCOGHKPHO = 4;
+	KHIKIFCBPKH NGPCOGHKPHO = 4;
 	uint32 MLOBHBOLOFM = 15;
-	AbilityString ability_name = 3;
+	KHIKIFCBPKH LHIGOICBKFN = 3;
 }

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "AOAIBCIBMAF.proto";
 message GBNCPNIPIOC {
 	repeated uint32 ODOIPJIEJPC = 10;
 	repeated AOAIBCIBMAF MAKNHPDOOPK = 1;
 	uint32 DEBBJBGCNGP = 3;
-	uint32 cur_score = 4;
+	uint32 COGGLHKCAHB = 4;
 }

@@ -15,26 +15,28 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "KPDBJECAPML.proto";
-import "InBattleMechanicusCardInfo.proto";
+import "CJGELEFLGKA.proto";
 import "OJEGAOGCPNM.proto";
 import "PCNMPAGEACE.proto";
 message GACNAKHGACG {
 	uint32 GEDAAAEJPIB = 9;
 	repeated uint32 OOHNHLELAHI = 1837;
-	uint32 wait_seconds = 14;
-	repeated KPDBJECAPML player_list = 10;
-	repeated InBattleMechanicusCardInfo KBCMGFPFIHD = 11;
-	OJEGAOGCPNM stage = 13;
-	uint64 wait_begin_time_us = 7;
-	uint32 left_monster = 1;
+	uint32 HEDFGMJFDNI = 14;
+	repeated KPDBJECAPML IFKLDHDMKMG = 10;
+	repeated CJGELEFLGKA KBCMGFPFIHD = 11;
+	OJEGAOGCPNM AJNDLHIDKGL = 13;
+	uint64 HOEDHDFFFKE = 7;
+	uint32 ECAPNAIIOKL = 1;
 	uint32 PBCNEEOKIND = 15;
-	repeated PCNMPAGEACE monster_list = 6;
+	repeated PCNMPAGEACE NLHCIBLJFDI = 6;
 	uint32 GAEHMHEACKA = 12;
 	repeated uint32 IAJAOEFNJLC = 687;
-	repeated InBattleMechanicusCardInfo FLGNCLGFPBA = 8;
-	uint32 excaped_monster_num = 4;
+	repeated CJGELEFLGKA FLGNCLGFPBA = 8;
+	uint32 FFMPKNKCKNL = 4;
 	uint64 BOODOOOGDJG = 2;
 	uint64 NIAONLEDBDI = 3;
-	uint32 round = 5;
+	uint32 CIGCEBJKPAF = 5;
 }

@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "GNDNOIIAFFH.proto";
 import "KNDNJKFLHMA.proto";
 import "BNLGMOEKANO.proto";
 message GNHMEEEBHED {
-	uint32 minigame_id = 10;
-	bool is_open = 15;
-	uint32 open_time = 2;
+	uint32 OAAEMPFMNLH = 10;
+	bool GDPHKFDFNDB = 15;
+	uint32 LOOLOKIJHBJ = 2;
 	oneof EPAJAOHGODA {
 		GNDNOIIAFFH BKJMAPLAEMH = 6;
 		KNDNJKFLHMA NBGFDLKONPC = 4;

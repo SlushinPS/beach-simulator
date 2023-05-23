@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 24674
 message IBKBFBCLPNL {
-	uint32 end_time = 11;
+	uint32 JMDIBGGMEMK = 11;
 }

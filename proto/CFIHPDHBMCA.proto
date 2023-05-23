@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "KGPOJMNNEAG.proto";
 message CFIHPDHBMCA {
 	bool LFKBGHFJJOO = 4;
-	uint32 content_close_time = 14;
+	uint32 CFKHNEABNBA = 14;
 	repeated KGPOJMNNEAG PGAJDFBPHFJ = 11;
 }

@@ -15,27 +15,29 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "FHFAAHDDDOE.proto";
 import "DEKEKNMCKPB.proto";
 import "AFCLGCNDDBH.proto";
 import "GLNOHEBLMJP.proto";
 message EGEBOGIIBGB {
 	uint32 DMOHNMKLFAM = 15;
-	uint64 dungeon_guid = 11;
+	uint64 KDCFPDCOEOB = 11;
 	uint32 GAPDAJHGFCH = 1751;
-	string share_code = 8;
+	string LMKJDFPMJKF = 8;
 	FHFAAHDDDOE CMHPFJBGDPP = 5;
-	bool is_psn_platform = 489;
+	bool EBNANFPAOON = 489;
 	repeated DEKEKNMCKPB CIFEGFGLLLJ = 12;
 	bool JEBFECKKACK = 14;
-	uint32 dungeon_id = 7;
+	uint32 LKBPDEBOPBA = 7;
 	uint32 ILJHMEHDFOP = 1;
 	uint32 AKIIHLILELM = 9;
 	string PKGJBGDLKMI = 3;
-	repeated uint32 tag_list = 6;
+	repeated uint32 BMMKHJKPFGP = 6;
 	AFCLGCNDDBH PDCLLHGEKFO = 10;
 	bool LLFMFALNBBA = 2;
 	GLNOHEBLMJP EAILIEINLOO = 13;
-	uint32 first_publish_time = 4;
+	uint32 EABHIJBMONF = 4;
 	bool KLDCGCJAICP = 1188;
 }

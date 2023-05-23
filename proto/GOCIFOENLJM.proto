@@ -15,20 +15,22 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "RoguelikeRuneRecord.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "FJNMGCOBEDA.proto";
 import "PAFAMIEEDHL.proto";
 message GOCIFOENLJM {
-	repeated RoguelikeRuneRecord rune_record_list = 1;
+	repeated FJNMGCOBEDA ACLKBBMKGKF = 1;
 	uint32 GOGLIAMCCLH = 11;
 	uint32 ADJJNLIBJEM = 7;
 	bool IEEPAIDHGAC = 5;
 	uint32 BAGEJJCIMLP = 10;
-	uint32 stage_id = 9;
-	bool is_taken_reward = 2;
+	uint32 NDFCPKBOOBK = 9;
+	bool HKPIKIMNDMI = 2;
 	PAFAMIEEDHL NMDDGAPHKAO = 6;
-	bool is_passed = 4;
+	bool EMOMOJPLJEE = 4;
 	uint32 NMIHADFFHAM = 1506;
-	bool is_open = 8;
+	bool GDPHKFDFNDB = 8;
 	uint32 JPKILCGFLEH = 13;
 	bool BPFLFPBKNJK = 14;
 	uint32 ABAOJFBMJOM = 15;

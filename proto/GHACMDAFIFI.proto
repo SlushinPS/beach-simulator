@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "HDKMJIFHKHF.proto";
 message GHACMDAFIFI {
-	uint32 cost_time = 8;
+	uint32 PLPKJPDHIGN = 8;
 	repeated HDKMJIFHKHF FDMEMNOKNEF = 14;
-	uint32 energy = 7;
-	bool is_success = 5;
+	uint32 POBMLHFNADA = 7;
+	bool COHLOAHACKG = 5;
 	uint32 JFCCGCIAEJC = 6;
 }

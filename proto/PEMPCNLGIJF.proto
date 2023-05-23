@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 enum PEMPCNLGIJF {
 	PEMPCNLGIJF_EffigyChallengeV4RestartEndReasonNone = 0;
 	PEMPCNLGIJF_EffigyChallengeV4RestartEndReasonTimeout = 1;

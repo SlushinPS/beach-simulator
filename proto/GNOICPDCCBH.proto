@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message GNOICPDCCBH {
-	repeated uint32 watcher_id_list = 5;
-	uint32 group_id = 13;
+	repeated uint32 JEEEJDAIHCJ = 5;
+	uint32 NKPNLHDAOCI = 13;
 	uint32 AIFJJHBPCNK = 6;
-	uint32 start_time = 7;
+	uint32 IDKOJHKKGOF = 7;
 	bool NLCMNACJNDN = 9;
 }

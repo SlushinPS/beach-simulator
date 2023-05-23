@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "INKEDONPJCP.proto";
 import "MGPMPNMMBML.proto";
 message DPELOIJNAMO {
-	INKEDONPJCP stage_type = 3;
-	repeated MGPMPNMMBML battle_info_list = 2;
-	uint32 level_id = 1;
+	INKEDONPJCP IALFBNOOGOA = 3;
+	repeated MGPMPNMMBML MHBPIGIHGHM = 2;
+	uint32 EIHOLAKLAPE = 1;
 }

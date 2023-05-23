@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 21003
 message AAMMPKIGJHN {
-	bool is_unlock_next_level = 9;
-	uint64 ugc_guid = 2;
-	bool is_new_record = 3;
-	int32 retcode = 4;
-	uint32 music_basic_id = 6;
+	bool MCJGEDEELNC = 9;
+	uint64 EKCIKLJPCJO = 2;
+	bool IOFBACLEMAG = 3;
+	int32 POCANJMPGFB = 4;
+	uint32 AJBEMKLOCDP = 6;
 }

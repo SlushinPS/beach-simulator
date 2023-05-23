@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 7998
 message FNGHOONFNDP {
-	repeated uint32 card_list = 8;
-	string name = 7;
+	repeated uint32 BADJOGNOOCK = 8;
+	string DGJBCPKKKBG = 7;
 	uint32 BJIACMHBLCG = 10;
 	repeated uint32 NKGADJFNOIF = 4;
 }

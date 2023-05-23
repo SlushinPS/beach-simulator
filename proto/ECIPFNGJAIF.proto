@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message ECIPFNGJAIF {
 	message EKDJLLIPACM {
@@ -25,7 +27,7 @@ message ECIPFNGJAIF {
 	}
 	
 	message LEOLCCAAAPG {
-		uint32 entity_id = 1;
+		uint32 EHJPFMIFNHK = 1;
 	}
 	
 	oneof AFHEGFEIOIC {

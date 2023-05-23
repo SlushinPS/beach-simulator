@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 7536
 message CLOJNHDBJAP {
-	uint32 card_id = 4;
-	uint32 face_type = 1;
+	uint32 EPFEEDOHENM = 4;
+	uint32 HGMOEDPPCID = 1;
 }

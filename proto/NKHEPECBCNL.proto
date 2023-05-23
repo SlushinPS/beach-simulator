@@ -15,18 +15,20 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "Uint32Pair.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "MKMEPCLAACG.proto";
 import "LABBALOFHKB.proto";
 import "HPPFPGJGIPI.proto";
 message NKHEPECBCNL {
-	repeated Uint32Pair KNJBEHOBDIP = 13;
+	repeated MKMEPCLAACG KNJBEHOBDIP = 13;
 	uint32 IIHDIPEKHDD = 9;
 	uint32 CDFFGLCKBDF = 7;
 	LABBALOFHKB EINNHJPNMNK = 11;
-	bool is_invalid = 8;
-	uint32 id = 14;
+	bool PHMODMDOOMD = 8;
+	uint32 PNCCOIAPNGG = 14;
 	uint32 CNJACNJIOLI = 10;
 	fixed32 DIOLIABEBCK = 12;
 	repeated HPPFPGJGIPI MKLEGJLGFAP = 15;
-	fixed32 expire_time = 2;
+	fixed32 LHAGGLNEAAC = 2;
 }

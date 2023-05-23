@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "IIPPNNPPDEG.proto";
 // CmdId: 7626
 message BGMGOEHOLNL {
 	uint32 JPPPPCLLAMJ = 2;
-	int32 retcode = 12;
+	int32 POCANJMPGFB = 12;
 	IIPPNNPPDEG GPMCOCAOHEJ = 13;
-	uint32 schedule_id = 1;
+	uint32 NFBELBMHMCP = 1;
 }

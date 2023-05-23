@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message CHDJMPLAMAF {
 	uint32 ABLPGNHCFGJ = 1;
 	uint32 FIGJLKEEPMF = 2;
-	string url = 3;
+	string HKHIICDONIC = 3;
 	string OLGHAKKLJNM = 4;
 }

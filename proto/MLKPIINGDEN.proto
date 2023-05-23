@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "IKBFDMLBONN.proto";
 import "PEONGPLDDGK.proto";
 message MLKPIINGDEN {
 	uint32 CDFFGLCKBDF = 15;
 	repeated IKBFDMLBONN HCPPGLLPKGF = 5;
-	PEONGPLDDGK action_type = 8;
+	PEONGPLDDGK DIONOGOPLGM = 8;
 	uint32 BKEFNLEKDAB = 7;
 }

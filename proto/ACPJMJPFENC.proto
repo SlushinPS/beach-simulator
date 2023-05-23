@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ItemParam.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "JOLBKGJKDDN.proto";
 // CmdId: 2466
 message ACPJMJPFENC {
 	uint32 EBAOCBHAEAM = 1;
 	uint32 HIKAOLJKGPK = 2;
-	bool is_success = 4;
-	repeated uint32 finished_star_cond_list = 7;
-	repeated ItemParam reward_item_list = 10;
+	bool COHLOAHACKG = 4;
+	repeated uint32 EBCGJBENDCD = 7;
+	repeated JOLBKGJKDDN BMIMPEJHOJH = 10;
 }

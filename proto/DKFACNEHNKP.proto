@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "KGHCFBAHNBO.proto";
 // CmdId: 20492
 message DKFACNEHNKP {
-	int32 retcode = 4;
-	uint32 level_id = 5;
+	int32 POCANJMPGFB = 4;
+	uint32 EIHOLAKLAPE = 5;
 	repeated KGHCFBAHNBO FNHNAIFHHED = 3;
 }

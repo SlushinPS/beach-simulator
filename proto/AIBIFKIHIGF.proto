@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message AIBIFKIHIGF {
-	uint32 npc_id = 1;
-	uint32 room_id = 2;
-	uint32 parent_quest_id = 3;
-	uint32 block_id = 4;
+	uint32 PKNLCGNNBKJ = 1;
+	uint32 PLOKKBJDIHI = 2;
+	uint32 PMKALPDNFOD = 3;
+	uint32 MGOIKCBNBOC = 4;
 }

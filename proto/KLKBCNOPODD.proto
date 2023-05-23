@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message KLKBCNOPODD {
 	repeated uint32 GLDHDEKMEDF = 2;
-	uint32 id = 8;
+	uint32 PNCCOIAPNGG = 8;
 }

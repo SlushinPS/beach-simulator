@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "AEIMLNONEAP.proto";
 message CIOHOKKNJLI {
-	uint32 final_score = 12;
+	uint32 KANDBJOHAFO = 12;
 	uint32 NIOJEBKKOJL = 4;
-	bool is_new_record = 9;
+	bool IOFBACLEMAG = 9;
 	uint32 BPBEMFCPHME = 1;
-	AEIMLNONEAP reason = 14;
+	AEIMLNONEAP HKIFPNECEIL = 14;
 }

@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "JKLJHDFICPL.proto";
 // CmdId: 7358
 message PPGHMAMMLHN {
 	JKLJHDFICPL EKBIENPHMGN = 6;
-	uint32 level_id = 11;
-	uint32 config_id = 7;
-	int32 retcode = 13;
+	uint32 EIHOLAKLAPE = 11;
+	uint32 PHMAEMMCBME = 7;
+	int32 POCANJMPGFB = 13;
 }

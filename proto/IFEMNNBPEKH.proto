@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "CPCANCKIHLI.proto";
 message IFEMNNBPEKH {
 	uint32 CGLCBKBJAON = 5;
 	uint32 OPNCMCKMNDK = 1;
 	uint32 OIMKGFLOAJH = 3;
 	uint32 LAHAHLCDFEF = 2;
-	uint32 skill_id = 12;
+	uint32 DAPICEINOLF = 12;
 	uint32 FMOECIINHEA = 4;
 	repeated CPCANCKIHLI CMHNIJIGBIE = 7;
 }

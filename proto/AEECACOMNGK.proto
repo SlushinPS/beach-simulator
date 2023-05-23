@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message AEECACOMNGK {
-	uint32 used_time = 7;
-	uint32 param2 = 12;
-	uint32 param1 = 3;
-	uint32 param3 = 2;
+	uint32 LOEKHCCHLAN = 7;
+	uint32 PENEPJAKOIA = 12;
+	uint32 FEGOCENAPDL = 3;
+	uint32 HOLPANKFMJF = 2;
 }

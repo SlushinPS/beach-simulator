@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "NKNDNCFLAOI.proto";
 // CmdId: 7215
 message DJDNFEHEHMJ {
 	repeated NKNDNCFLAOI FJHKPGPFLNJ = 15;
-	int32 retcode = 10;
+	int32 POCANJMPGFB = 10;
 }

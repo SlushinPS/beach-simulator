@@ -15,18 +15,20 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "AsterProgressDetailInfo.proto";
-import "AsterLittleDetailInfo.proto";
-import "AsterLargeDetailInfo.proto";
-import "AsterMidDetailInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "MMEFLEOFLND.proto";
+import "LGDFNBJMBAB.proto";
+import "PKLHDBCCFOJ.proto";
+import "LCEADPMNHGH.proto";
 message NAIBJIHKMIK {
 	uint32 LOGKCPNAHLN = 6;
-	AsterProgressDetailInfo OGJNKKMDDAD = 11;
+	MMEFLEOFLND OGJNKKMDDAD = 11;
 	bool LFKBGHFJJOO = 5;
 	bool HHCLBPOHNNG = 4;
-	AsterLittleDetailInfo IBNIHJICAII = 3;
-	AsterLargeDetailInfo KLGBDKODDCF = 7;
-	AsterMidDetailInfo LBLPHGDABNH = 8;
-	uint32 content_close_time = 9;
+	LGDFNBJMBAB IBNIHJICAII = 3;
+	PKLHDBCCFOJ KLGBDKODDCF = 7;
+	LCEADPMNHGH LBLPHGDABNH = 8;
+	uint32 CFKHNEABNBA = 9;
 	uint32 CLLGEJKPJJD = 12;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message BENCNDAAMML {
 	bool ONLAHFLLMCE = 13;
-	uint32 uid = 14;
+	uint32 MNKGACNNOCF = 14;
 	bool HKMBJKMAFPE = 1;
 }

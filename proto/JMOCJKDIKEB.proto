@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "MGFAOBBLLAD.proto";
 import "HCIMIDPHFBF.proto";
 message JMOCJKDIKEB {
 	repeated MGFAOBBLLAD IIFJMJPNPHE = 3;
-	uint32 open_time = 14;
+	uint32 LOOLOKIJHBJ = 14;
 	HCIMIDPHFBF LMBGOJBEDNB = 2;
-	bool is_open = 15;
-	uint32 stage_id = 11;
+	bool GDPHKFDFNDB = 15;
+	uint32 NDFCPKBOOBK = 11;
 }

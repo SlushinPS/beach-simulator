@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "KNDPCBBNOPD.proto";
 message GOMHKNNBAAD {
 	uint32 EHNHMMKALJE = 6;
 	uint32 AELEAICMGCM = 15;
 	repeated uint32 HHBNEACLHFB = 7;
-	uint32 left_monsters = 1;
+	uint32 HBONNIFMBBD = 1;
 	KNDPCBBNOPD ENMHNMNAAFO = 9;
 }

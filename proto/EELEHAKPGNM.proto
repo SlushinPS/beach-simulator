@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message EELEHAKPGNM {
-	repeated uint32 affix_list = 7;
-	uint32 level = 1;
-	uint32 monster_id = 8;
+	repeated uint32 GIPGAFBFIHM = 7;
+	uint32 JMEMMFLOCFN = 1;
+	uint32 DOMAEPIELOK = 8;
 }

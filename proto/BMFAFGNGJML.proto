@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 22024
 message BMFAFGNGJML {
-	uint32 difficulty_level = 2;
+	uint32 AFAHCCICIFM = 2;
 	repeated uint32 CLMEGKHJEMF = 12;
-	uint32 level_id = 4;
+	uint32 EIHOLAKLAPE = 4;
 	repeated uint32 JBJBNAPFONO = 6;
 }

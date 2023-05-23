@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message OGILNLELDED {
 	uint32 PBKDCNDBKPF = 4;
-	uint32 total_num = 7;
+	uint32 EMCJBENKAIA = 7;
 	map<uint32, uint32> ADNCOHLPDAE = 12;
 }

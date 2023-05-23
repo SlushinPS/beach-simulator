@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "EJHDOLJOJMP.proto";
 message KPDBJECAPML {
 	uint32 CDJLBLCMANC = 6;
-	repeated EJHDOLJOJMP building_list = 12;
-	uint32 uid = 10;
+	repeated EJHDOLJOJMP OECHNLEHEHF = 12;
+	uint32 MNKGACNNOCF = 10;
 	uint32 EHNHMMKALJE = 9;
 	bool KKMILJBLLDF = 14;
 }

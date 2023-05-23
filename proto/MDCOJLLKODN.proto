@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message MDCOJLLKODN {
-	uint32 level = 7;
+	uint32 JMEMMFLOCFN = 7;
 	uint32 GNAGMGFBCNB = 13;
 	repeated uint32 NMLKIDHAGAF = 8;
 	uint32 IGJJJBJKLJO = 3;
 	bool JAEDBFKHBGA = 2;
 	bool LFKBGHFJJOO = 1;
-	uint32 exp = 9;
-	uint32 punish_over_time = 6;
-	uint32 content_close_time = 10;
+	uint32 JMPINOIGPNL = 9;
+	uint32 LAOLEEAIBKI = 6;
+	uint32 CFKHNEABNBA = 10;
 }

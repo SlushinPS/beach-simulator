@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message CMINCHKMEMO {
 	bool PGHMCFECGOI = 8;
 	float LPEKJKDJLFM = 3;
-	uint32 avatar_id = 12;
+	uint32 EONMHIEGMJN = 12;
 	string BKAIEKMDLPK = 13;
 	float PGBACFIFJHJ = 4;
 	float AOKPFFPCLFC = 6;

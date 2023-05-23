@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message OHPPDGFKJFD {
-	uint32 entity_id = 10;
-	PBDDPMHLPJG skill_anchor_position = 3;
+	uint32 EHJPFMIFNHK = 10;
+	PBDDPMHLPJG CKJBLGEIMNK = 3;
 }

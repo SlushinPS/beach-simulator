@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "BHHCINDOAGH.proto";
 message BOMIAHEPOKN {
-	uint32 content_close_time = 12;
+	uint32 CFKHNEABNBA = 12;
 	bool LFKBGHFJJOO = 13;
-	uint32 day_index = 4;
+	uint32 DOAONAFAGLH = 4;
 	uint32 ICHMFHHNBEB = 11;
 	repeated BHHCINDOAGH FHEBLMBNLGC = 14;
 	uint32 KBAAEPDCBKB = 10;

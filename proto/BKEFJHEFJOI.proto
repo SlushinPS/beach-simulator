@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ExhibitionDisplayInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "FALKBLEJAOC.proto";
 message BKEFJHEFJOI {
 	uint32 LMHOIIHADNN = 15;
-	bool is_success = 8;
-	repeated ExhibitionDisplayInfo score_list = 3;
+	bool COHLOAHACKG = 8;
+	repeated FALKBLEJAOC PNKEKDPJOLF = 3;
 	uint32 FKBKICFBBKL = 7;
 	uint32 NJPOIPJCMLM = 1;
-	uint64 scene_time_ms = 11;
+	uint64 OJNHGPACLIO = 11;
 	uint32 GIBPDCCMCKG = 14;
 }

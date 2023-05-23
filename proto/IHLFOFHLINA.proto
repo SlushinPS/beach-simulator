@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 import "OPNHIHEAIIK.proto";
 message IHLFOFHLINA {
-	PBDDPMHLPJG pos = 3;
-	uint32 furniture_id = 13;
+	PBDDPMHLPJG BOHMEDKFNLI = 3;
+	uint32 AHCJOGCEGGE = 13;
 	repeated OPNHIHEAIIK PLNDHOHDGHO = 9;
-	uint32 guid = 5;
-	PBDDPMHLPJG rot = 1;
+	uint32 MEEFACEAADO = 5;
+	PBDDPMHLPJG KJCJFAGDNFN = 1;
 }

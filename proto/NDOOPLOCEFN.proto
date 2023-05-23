@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "GMIOAJDAFAB.proto";
 import "EGEBOGIIBGB.proto";
 message NDOOPLOCEFN {
-	GMIOAJDAFAB enter_type = 13;
+	GMIOAJDAFAB AHHLAAGBOBH = 13;
 	EGEBOGIIBGB GBNECKKIJMJ = 4;
 }

@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message ADMOGMEBELJ {
-	uint32 resin = 1;
-	repeated uint32 qualify_uid_list = 2;
+	uint32 HOEHGBDHLMN = 1;
+	repeated uint32 GKIDJPCPEMP = 2;
 	repeated uint32 LKGBKCCIBIK = 3;
 	uint32 DAFDINCMBDP = 4;
 	uint32 LLDNMEIABPL = 5;
-	uint32 refresh_id = 6;
+	uint32 DMHBAABMPLA = 6;
 }

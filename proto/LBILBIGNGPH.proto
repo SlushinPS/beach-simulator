@@ -15,17 +15,19 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ExhibitionDisplayInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "FALKBLEJAOC.proto";
 import "IJGJGEAKINM.proto";
 // CmdId: 6554
 message LBILBIGNGPH {
 	repeated uint32 PIHLOBMLKHG = 10;
-	uint32 play_index = 1;
-	uint32 stage_type = 9;
-	uint32 begin_time = 2;
-	repeated ExhibitionDisplayInfo score_list = 15;
+	uint32 AICGHEOCCBO = 1;
+	uint32 IALFBNOOGOA = 9;
+	uint32 ICCGMEFAFEK = 2;
+	repeated FALKBLEJAOC PNKEKDPJOLF = 15;
 	bool OCNCGNHDFPD = 6;
-	uint32 duration = 14;
+	uint32 HBGDJNHNPIO = 14;
 	bool KKDIOLMFFBO = 11;
-	repeated IJGJGEAKINM settle_info_list = 8;
+	repeated IJGJGEAKINM PDPJACGAJFJ = 8;
 }

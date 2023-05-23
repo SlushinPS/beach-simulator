@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 7645
 message JCGBJLLGAEF {
 	enum DIBOBKFKGCD {
@@ -26,5 +28,5 @@ message JCGBJLLGAEF {
 		ReasonOpponentClientVersionNotLastest = 5;
 	}
 	
-	DIBOBKFKGCD reason = 15;
+	DIBOBKFKGCD HKIFPNECEIL = 15;
 }

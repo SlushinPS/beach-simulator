@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PHKJPHNBGHA.proto";
 // CmdId: 5598
 message JPNPHEAACKJ {
-	PHKJPHNBGHA progress = 11;
-	uint32 gallery_id = 14;
+	PHKJPHNBGHA HIBFCFFOKMD = 11;
+	uint32 FOKICFBGPAK = 14;
 }

@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ProfilePicture.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "ECNCPJCKFAE.proto";
 message HDKMJIFHKHF {
-	string online_id = 8;
-	uint32 uid = 9;
-	ProfilePicture profile_picture = 1;
-	string nick_name = 12;
-	int32 param = 14;
-	uint32 head_image = 2;
+	string CHMIDNJOGJA = 8;
+	uint32 MNKGACNNOCF = 9;
+	ECNCPJCKFAE PDJFACNOFPE = 1;
+	string DBOPPHGPHDI = 12;
+	int32 OJCJPADPKOM = 14;
+	uint32 HCNPDFOIHHC = 2;
 	uint32 BKFIFKGPGIP = 5;
 }

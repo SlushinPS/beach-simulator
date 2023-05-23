@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "JIPBLAHFAEJ.proto";
 message NKNDNCFLAOI {
 	repeated uint32 DCCOKNBFKAH = 9;
 	repeated JIPBLAHFAEJ HJNFEMAEKDB = 12;
 	uint32 KIAPNPKIIDL = 10;
-	uint32 schedule_id = 3;
+	uint32 NFBELBMHMCP = 3;
 }

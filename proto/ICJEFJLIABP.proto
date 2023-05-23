@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message ICJEFJLIABP {
-	float damage = 5;
+	float CAJDKCKKAIG = 5;
 	PBDDPMHLPJG NBBIKGEEIPA = 9;
 }

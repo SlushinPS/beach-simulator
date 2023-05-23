@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "AAALOFKKDHO.proto";
 message LBGOIMEOFJG {
 	map<uint32, AAALOFKKDHO> CEFNOIBPMBJ = 12;

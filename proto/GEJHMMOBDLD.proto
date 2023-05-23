@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message GEJHMMOBDLD {
-	uint32 index = 11;
+	uint32 EFHJEGBNEFK = 11;
 	fixed32 PFBIBNJOFJP = 9;
-	uint32 make_id = 12;
-	fixed32 begin_time = 5;
-	uint32 avatar_id = 4;
+	uint32 OLGJKGIBNNC = 12;
+	fixed32 ICCGMEFAFEK = 5;
+	uint32 EONMHIEGMJN = 4;
 	uint32 JPJGPPDANFI = 8;
 }

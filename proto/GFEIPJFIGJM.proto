@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 21199
 message GFEIPJFIGJM {
-	uint32 music_basic_id = 4;
-	uint64 ugc_guid = 8;
-	bool is_save_score = 12;
+	uint32 AJBEMKLOCDP = 4;
+	uint64 EKCIKLJPCJO = 8;
+	bool PBEPFPPKOAG = 12;
 }

@@ -1,0 +1,67 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+import "JOKGLALOCCK.proto";
+import "IEMLLFGMPCI.proto";
+// CmdId: 102
+message NFMLOOMMIKN {
+	uint32 FEFDIBNKNHP = 35;
+	string PICJKDBKFEL = 405;
+	uint32 DHDFGPOEJFN = 383;
+	string DFMDGAKDCLB = 14;
+	uint32 GIBCKPIFPHB = 1446;
+	uint32 ANFNOBCJBPF = 6;
+	string OEKPCINKGOK = 995;
+	bytes HHAGEADALHD = 1199;
+	uint32 CBOEEFEKJJA = 12;
+	uint32 ODPCCCCLIJF = 1569;
+	string JHCMOKKNHDH = 1202;
+	uint64 PLMFMHLGLAJ = 11;
+	bytes AJMBGLDHHMO = 592;
+	uint32 OFBJDBPPFBB = 499;
+	string KADJBIDIHJB = 15;
+	uint32 DPCBKHKCMFH = 726;
+	uint32 LNFEPMKDDKA = 889;
+	JOKGLALOCCK EFIAPHIBOIO = 144;
+	uint32 HOEMDGFJIDP = 8;
+	string HDAGLDIIBHL = 4;
+	string BBBFNFCBKKI = 533;
+	string NKFNKOCMJJA = 9;
+	uint32 BBJJDKCHIIM = 1174;
+	string KHLFJHIFJJP = 7;
+	string EKGDNJGCMON = 1919;
+	bytes AGCIHIBJMBI = 457;
+	string CHMIDNJOGJA = 1855;
+	string LBPDGDFEEKF = 10;
+	string EPNFLGDCHMF = 5;
+	string OIILEDKOONG = 166;
+	uint32 PFGGPBJAEHB = 1863;
+	IEMLLFGMPCI IEMKNMGKFAN = 1003;
+	string KDAHEMONAIH = 178;
+	bool AENJLEIPGLK = 219;
+	uint32 IKDOHJILIAP = 575;
+	string OHKOLJKCGGH = 13;
+	bool GIAMNNFLMFK = 1;
+	uint32 PONICAALEJO = 3;
+	bool CANHIKGBCNK = 2;
+	string MDFBBICBNEI = 1087;
+	string EAIPGNAKPGI = 1335;
+	string MCOEKKPFPAG = 1696;
+	uint32 CDBPHMJGBBB = 1116;
+}

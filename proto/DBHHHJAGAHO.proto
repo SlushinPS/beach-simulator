@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ExhibitionDisplayInfo.proto";
-import "OnlinePlayerInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "FALKBLEJAOC.proto";
+import "KFAGEFMEFCD.proto";
 message DBHHHJAGAHO {
-	repeated ExhibitionDisplayInfo card_list = 13;
-	OnlinePlayerInfo player_info = 3;
+	repeated FALKBLEJAOC BADJOGNOOCK = 13;
+	KFAGEFMEFCD DMPCMGCAPCA = 3;
 }

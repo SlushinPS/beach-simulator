@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message MEAPFOFCDHP {
-	uint32 kill_special_monster_count = 14;
-	uint32 score = 9;
-	uint32 clean_mud_count = 10;
-	uint32 kill_monster_count = 3;
+	uint32 KKHNEIEBEOJ = 14;
+	uint32 KJNLKNAGBJO = 9;
+	uint32 LIABHIFCEHE = 10;
+	uint32 CDCOINFKOBI = 3;
 }

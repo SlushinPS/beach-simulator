@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 23432
 message GEEEIDAMPNI {
-	uint32 config_id = 4;
+	uint32 PHMAEMMCBME = 4;
 	bytes DEMDAKOLMKB = 2;
 }

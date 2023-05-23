@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message IIPPNNPPDEG {
-	repeated uint32 card_list = 14;
+	repeated uint32 BADJOGNOOCK = 14;
 	repeated uint32 NKGADJFNOIF = 7;
 	uint32 FECDJIFFJAA = 1;
 }

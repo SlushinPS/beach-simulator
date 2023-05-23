@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "ABJNNNLHPNF.proto";
 import "GABNJIGBIHE.proto";
 import "CIIKACHFINK.proto";
@@ -32,7 +34,7 @@ message CEGEHEEFNLJ {
 	uint32 FBGAPEOICIF = 116;
 	map<uint32, ABJNNNLHPNF> IJHHLMCLDHJ = 1;
 	uint32 KBOPGKCKIGD = 7;
-	bool is_passed = 13;
+	bool EMOMOJPLJEE = 13;
 	ABJNNNLHPNF BNNBPOBNLCP = 14;
 	uint32 OAONMDNCAJG = 3;
 }

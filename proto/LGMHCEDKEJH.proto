@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "OJNCOEHJAKA.proto";
 import "NLIAPNIJAKO.proto";
 message LGMHCEDKEJH {
-	uint32 content_close_time = 5;
+	uint32 CFKHNEABNBA = 5;
 	OJNCOEHJAKA IBEEAEBGJKK = 11;
 	bool LFKBGHFJJOO = 15;
 	map<uint32, NLIAPNIJAKO> CEFNOIBPMBJ = 6;

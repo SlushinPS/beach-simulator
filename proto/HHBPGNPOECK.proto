@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "AGHLKHJDEHO.proto";
 message HHBPGNPOECK {
 	bool IIJMENEELBH = 11;
-	AGHLKHJDEHO status = 2;
+	AGHLKHJDEHO BMHAKCFBNAL = 2;
 	uint32 FBOFPLOGIIE = 7;
 	map<uint32, uint32> IFIEPEJMJEP = 9;
 	uint32 NFKHGKADJDB = 13;
-	uint32 day_reward_id = 14;
-	uint32 day_index = 6;
+	uint32 JDPJAPBNIEH = 14;
+	uint32 DOAONAFAGLH = 6;
 	uint32 OBIEHFEFBKF = 3;
 	uint32 EDJONPEAJLH = 1;
 	bool EAIIIPOOBKM = 15;

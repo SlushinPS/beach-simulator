@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "GCGSettleOption.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "CNJAAHMIHJF.proto";
 // CmdId: 7370
 message GDGMONKKMCC {
-	GCGSettleOption option = 2;
+	CNJAAHMIHJF LIFOIEHDFAJ = 2;
 }

@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "FEHHMKNBHOD.proto";
 import "OKJMFFNHFCA.proto";
 message DEKEKNMCKPB {
 	uint32 DNLFFKPKFLI = 7;
 	FEHHMKNBHOD FCOOBDBOHGH = 3;
-	uint32 room_id = 4;
+	uint32 PLOKKBJDIHI = 4;
 	OKJMFFNHFCA PKKLEKGFCPG = 2;
 }

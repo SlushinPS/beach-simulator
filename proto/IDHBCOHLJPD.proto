@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message IDHBCOHLJPD {
-	float radius = 2;
+	float DLFJFCKHNMG = 2;
 	float LAIJFCOCNHB = 13;
 }

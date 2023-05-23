@@ -1,0 +1,79 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+enum NCLOPCFKODI {
+	NCLOPCFKODI_MotionNone = 0;
+	NCLOPCFKODI_MotionReset = 1;
+	NCLOPCFKODI_MotionStandby = 2;
+	NCLOPCFKODI_MotionStandbyMove = 3;
+	NCLOPCFKODI_MotionWalk = 4;
+	NCLOPCFKODI_MotionRun = 5;
+	NCLOPCFKODI_MotionDash = 6;
+	NCLOPCFKODI_MotionClimb = 7;
+	NCLOPCFKODI_MotionClimbJump = 8;
+	NCLOPCFKODI_MotionStandbyToClimb = 9;
+	NCLOPCFKODI_MotionFight = 10;
+	NCLOPCFKODI_MotionJump = 11;
+	NCLOPCFKODI_MotionDrop = 12;
+	NCLOPCFKODI_MotionFly = 13;
+	NCLOPCFKODI_MotionSwimMove = 14;
+	NCLOPCFKODI_MotionSwimIdle = 15;
+	NCLOPCFKODI_MotionSwimDash = 16;
+	NCLOPCFKODI_MotionSwimJump = 17;
+	NCLOPCFKODI_MotionSlip = 18;
+	NCLOPCFKODI_MotionGoUpstairs = 19;
+	NCLOPCFKODI_MotionFallOnGround = 20;
+	NCLOPCFKODI_MotionJumpUpWallForStandby = 21;
+	NCLOPCFKODI_MotionJumpOffWall = 22;
+	NCLOPCFKODI_MotionPoweredFly = 23;
+	NCLOPCFKODI_MotionLadderIdle = 24;
+	NCLOPCFKODI_MotionLadderMove = 25;
+	NCLOPCFKODI_MotionLadderSlip = 26;
+	NCLOPCFKODI_MotionStandbyToLadder = 27;
+	NCLOPCFKODI_MotionLadderToStandby = 28;
+	NCLOPCFKODI_MotionDangerStandby = 29;
+	NCLOPCFKODI_MotionDangerStandbyMove = 30;
+	NCLOPCFKODI_MotionDangerWalk = 31;
+	NCLOPCFKODI_MotionDangerRun = 32;
+	NCLOPCFKODI_MotionDangerDash = 33;
+	NCLOPCFKODI_MotionCrouchIdle = 34;
+	NCLOPCFKODI_MotionCrouchMove = 35;
+	NCLOPCFKODI_MotionCrouchRoll = 36;
+	NCLOPCFKODI_MotionNotify = 37;
+	NCLOPCFKODI_MotionLandSpeed = 38;
+	NCLOPCFKODI_MotionMoveFailAck = 39;
+	NCLOPCFKODI_MotionWaterfall = 40;
+	NCLOPCFKODI_MotionDashBeforeShake = 41;
+	NCLOPCFKODI_MotionSitIdle = 42;
+	NCLOPCFKODI_MotionForceSetPos = 43;
+	NCLOPCFKODI_MotionQuestForceDrag = 44;
+	NCLOPCFKODI_MotionFollowRoute = 45;
+	NCLOPCFKODI_MotionSkiffBoarding = 46;
+	NCLOPCFKODI_MotionSkiffNormal = 47;
+	NCLOPCFKODI_MotionSkiffDash = 48;
+	NCLOPCFKODI_MotionSkiffPoweredDash = 49;
+	NCLOPCFKODI_MotionDestroyVehicle = 50;
+	NCLOPCFKODI_MotionFlyIdle = 51;
+	NCLOPCFKODI_MotionFlySlow = 52;
+	NCLOPCFKODI_MotionFlyFast = 53;
+	NCLOPCFKODI_MotionAimMove = 54;
+	NCLOPCFKODI_MotionAirCompensation = 55;
+	NCLOPCFKODI_MotionSorushNormal = 56;
+	NCLOPCFKODI_MotionNum = 57;
+}

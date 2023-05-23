@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message DMABGAGCFAO {
-	uint32 open_time = 9;
+	uint32 LOOLOKIJHBJ = 9;
 	bool DNHFHLENEOA = 7;
-	PBDDPMHLPJG center = 11;
-	uint32 pos_id = 1;
-	bool is_open = 8;
+	PBDDPMHLPJG OFHGEPMPKJJ = 11;
+	uint32 NNCKEGGBNMG = 1;
+	bool GDPHKFDFNDB = 8;
 }

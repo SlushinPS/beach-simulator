@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message INJJFHFANAD {
-	uint32 camp_id = 1;
-	uint32 camp_type = 2;
-	uint64 guid = 3;
-	uint32 owner_entity_id = 4;
-	uint32 target_entity_id = 5;
+	uint32 BOPAIHAAJNK = 1;
+	uint32 LIBOKDCGDDD = 2;
+	uint64 MEEFACEAADO = 3;
+	uint32 CGFNAGHCMPO = 4;
+	uint32 GOHOLAPJKBF = 5;
 	bool DNIPNGFLPAI = 6;
-	bool is_peer_id_from_player = 7;
-	repeated uint32 target_entity_id_list = 8;
-	repeated uint32 target_lock_point_index_list = 9;
+	bool KCGLICNECJI = 7;
+	repeated uint32 DBOEHLCLOIN = 8;
+	repeated uint32 OAMEEHNJBHI = 9;
 }

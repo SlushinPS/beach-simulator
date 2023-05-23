@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message HGEBLCIHPJP {
-	bool is_success = 3;
+	bool COHLOAHACKG = 3;
 	uint32 JOFFMKKBEAO = 7;
 	map<uint32, int32> PDKOBPJNNCB = 11;
 	uint32 OCCBGNEECEO = 15;
-	uint32 energy = 14;
+	uint32 POBMLHFNADA = 14;
 }

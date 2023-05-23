@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 20602
 message LGIKKFMHNEL {
-	uint32 level_id = 14;
-	bool is_success = 8;
-	uint32 score = 6;
+	uint32 EIHOLAKLAPE = 14;
+	bool COHLOAHACKG = 8;
+	uint32 KJNLKNAGBJO = 6;
 }

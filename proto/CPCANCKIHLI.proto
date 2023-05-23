@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message CPCANCKIHLI {
 	uint32 AABKCJEGDJE = 3;
-	uint32 skill_id = 9;
+	uint32 DAPICEINOLF = 9;
 }

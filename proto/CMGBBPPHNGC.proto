@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "MassivePropSyncInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "HNDJPPEKOPF.proto";
 message CMGBBPPHNGC {
 	bool DHNOALCOIEH = 9;
-	repeated MassivePropSyncInfo massive_prop_list = 2;
+	repeated HNDJPPEKOPF ICPAMPAOEIF = 2;
 	repeated int64 GCKKELKFOEO = 6;
 }

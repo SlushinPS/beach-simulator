@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "EOCCCEGKIIF.proto";
 message JICIBIJIHAB {
 	EOCCCEGKIIF EEAJBBJKENA = 3;
 	uint32 JIKMIGMOPFF = 4;
-	fixed32 end_time = 15;
-	repeated uint32 entity_id_list = 2;
+	fixed32 JMDIBGGMEMK = 15;
+	repeated uint32 FEGELMEPAJL = 2;
 	uint32 CDHOEKBMALE = 9;
 }

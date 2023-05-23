@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "LBDBMDFKMFC.proto";
 import "BCMINADPFCD.proto";
 message OGOOALBIKDL {
 	repeated LBDBMDFKMFC BCANEABAFMP = 13;
 	repeated BCMINADPFCD KLBIAJKEOKI = 11;
 	bool LFKBGHFJJOO = 8;
-	uint32 content_close_time = 3;
+	uint32 CFKHNEABNBA = 3;
 }

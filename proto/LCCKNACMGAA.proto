@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message LCCKNACMGAA {
-	uint32 rot = 7;
+	uint32 KJCJFAGDNFN = 7;
 	uint32 OMLCFGDNIGJ = 5;
 	float LEOFCKKNECC = 2;
 	float MFOPLBKGFKG = 1;

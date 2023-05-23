@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5546
 message DGANAHEHIAI {
-	uint32 gallery_id = 15;
-	uint32 target_id = 7;
+	uint32 FOKICFBGPAK = 15;
+	uint32 HMKGEKPIPAM = 7;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "UgcType.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "KKNEGGLBKML.proto";
 // CmdId: 6310
 message DNONIDCIBEK {
-	UgcType ugc_type = 12;
-	uint64 ugc_guid = 2;
+	KKNEGGLBKML KJPFJNHIAEL = 12;
+	uint64 EKCIKLJPCJO = 2;
 }

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "BreakoutAction.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "LAPCONCKKIG.proto";
 message ECCMFFEGGHB {
-	BreakoutAction JMGGMKBJPDM = 14;
+	LAPCONCKKIG JMGGMKBJPDM = 14;
 }

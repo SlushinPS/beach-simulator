@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "BENCNDAAMML.proto";
 // CmdId: 7093
 message DOLLCIEKMJI {
 	repeated BENCNDAAMML IMKDPIBBHHM = 8;
-	int32 retcode = 13;
+	int32 POCANJMPGFB = 13;
 }

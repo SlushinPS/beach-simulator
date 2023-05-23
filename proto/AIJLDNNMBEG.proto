@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "VehicleMember.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "LJCCNICECIC.proto";
 message AIJLDNNMBEG {
-	repeated VehicleMember FLGKKEPELKF = 1;
-	uint32 owner_uid = 2;
-	float cur_stamina = 3;
+	repeated LJCCNICECIC FLGKKEPELKF = 1;
+	uint32 LJGGPOEHPKI = 2;
+	float FJEOCIBKNEG = 3;
 }

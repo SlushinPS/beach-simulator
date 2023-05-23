@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message HCIMIDPHFBF {
-	uint32 reward_id = 3;
-	uint32 dungeon_id = 8;
-	bool is_done = 6;
+	uint32 DJJALOMOEOH = 3;
+	uint32 LKBPDEBOPBA = 8;
+	bool NEPLGIOPNLG = 6;
 }

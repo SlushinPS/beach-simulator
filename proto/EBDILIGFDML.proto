@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "OOAOCDJBACD.proto";
 message EBDILIGFDML {
 	repeated OOAOCDJBACD EPEJDFLFPDJ = 6;
 	uint32 DEBBJBGCNGP = 14;
 	repeated uint32 ODOIPJIEJPC = 1;
-	bool is_open = 9;
-	uint32 open_time = 8;
+	bool GDPHKFDFNDB = 9;
+	uint32 LOOLOKIJHBJ = 8;
 }

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message MOIBLIHBOHO {
-	PBDDPMHLPJG face_dir = 14;
-	PBDDPMHLPJG pos = 5;
-	uint32 entity_id = 2;
-	PBDDPMHLPJG velocity = 15;
+	PBDDPMHLPJG BOANAIFFPKJ = 14;
+	PBDDPMHLPJG BOHMEDKFNLI = 5;
+	uint32 EHJPFMIFNHK = 2;
+	PBDDPMHLPJG GFJHPLFFHMH = 15;
 }

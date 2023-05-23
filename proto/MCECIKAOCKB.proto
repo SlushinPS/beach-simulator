@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 21880
 message MCECIKAOCKB {
-	uint32 level_id = 1;
-	bool is_new_record = 10;
+	uint32 EIHOLAKLAPE = 1;
+	bool IOFBACLEMAG = 10;
 	bool FGHNJIAFJGP = 6;
-	uint32 score = 4;
-	bool is_succ = 9;
-	uint32 cost_time = 8;
+	uint32 KJNLKNAGBJO = 4;
+	bool BEJLKFDGPEN = 9;
+	uint32 PLPKJPDHIGN = 8;
 }

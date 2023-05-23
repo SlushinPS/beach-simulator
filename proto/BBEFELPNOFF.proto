@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "AFCLGCNDDBH.proto";
 // CmdId: 9231
 message BBEFELPNOFF {
-	uint32 dungeon_id = 14;
+	uint32 LKBPDEBOPBA = 14;
 	AFCLGCNDDBH PDCLLHGEKFO = 3;
 	uint32 DNLFFKPKFLI = 7;
 }

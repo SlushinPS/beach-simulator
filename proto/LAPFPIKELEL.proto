@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 23395
 message LAPFPIKELEL {
-	bool is_success = 4;
-	int32 reason = 7;
+	bool COHLOAHACKG = 4;
+	int32 HKIFPNECEIL = 7;
 }

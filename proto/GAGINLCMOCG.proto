@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message GAGINLCMOCG {
-	uint32 start_time = 10;
-	uint32 group_id = 12;
+	uint32 IDKOJHKKGOF = 10;
+	uint32 NKPNLHDAOCI = 12;
 	bool NLCMNACJNDN = 3;
 	uint32 AIFJJHBPCNK = 7;
-	repeated uint32 watcher_id_list = 8;
+	repeated uint32 JEEEJDAIHCJ = 8;
 }

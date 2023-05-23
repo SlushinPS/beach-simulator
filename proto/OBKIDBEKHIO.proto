@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 7705
 message OBKIDBEKHIO {
-	uint32 schedule_id = 9;
+	uint32 NFBELBMHMCP = 9;
 	uint32 BJIACMHBLCG = 7;
 }

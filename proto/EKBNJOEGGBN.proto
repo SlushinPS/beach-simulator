@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message EKBNJOEGGBN {
 	uint32 HCMMMMAIJCH = 8;
-	uint32 score = 3;
+	uint32 KJNLKNAGBJO = 3;
 	uint32 EKFKANEBDIF = 4;
 	uint32 JIEADFBLOOL = 15;
 }

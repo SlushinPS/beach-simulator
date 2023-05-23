@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "KLKBCNOPODD.proto";
 import "OANGFNFEPOH.proto";
 // CmdId: 7616
 message FKCLECCFIKJ {
 	repeated KLKBCNOPODD LCEDNLFKDOA = 4;
-	repeated OANGFNFEPOH level_list = 14;
+	repeated OANGFNFEPOH KIADNGDCCOJ = 14;
 	repeated uint32 MBCPJOGENEF = 8;
 }

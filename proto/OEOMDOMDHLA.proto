@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 7906
 message OEOMDOMDHLA {
 	uint32 OGOIIOABAGF = 4;
-	uint32 confirm_end_time = 6;
-	int32 retcode = 7;
-	uint32 punish_end_time = 2;
-	uint32 uid = 10;
+	uint32 FBOJGCOPFCL = 6;
+	int32 POCANJMPGFB = 7;
+	uint32 HFPGCGJLBFK = 2;
+	uint32 MNKGACNNOCF = 10;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "OOFKDFMGBHE.proto";
-import "PlatformInfo.proto";
+import "JIHNBDJFOFI.proto";
 import "CMNFEFNBLLD.proto";
 import "LENNDLOGFIM.proto";
 import "OPEMEOGOHME.proto";
@@ -44,22 +46,22 @@ import "CDFJGPAHAAJ.proto";
 import "LGFNBNFIONC.proto";
 import "FNIIINAIIJJ.proto";
 message GBAFHJBNENJ {
-	uint32 gadget_id = 1;
-	uint32 group_id = 2;
-	uint32 config_id = 3;
-	uint32 owner_entity_id = 4;
+	uint32 OLKFNJFEDEJ = 1;
+	uint32 NKPNLHDAOCI = 2;
+	uint32 PHMAEMMCBME = 3;
+	uint32 CGFNAGHCMPO = 4;
 	OOFKDFMGBHE GHHPMONMIOL = 5;
-	uint32 gadget_state = 6;
+	uint32 NDLJMPHALMF = 6;
 	uint32 JICMEIMPLOO = 7;
 	bool DDOOGNOMJDF = 8;
-	uint32 authority_peer_id = 9;
-	bool is_enable_interact = 10;
+	uint32 BGFENPKLNPH = 9;
+	bool DGHCKFCHKJL = 10;
 	uint32 GCLKPDDMBKK = 11;
 	uint32 FPIEKINGGIP = 21;
 	uint32 AJHOCIPOMFO = 22;
-	PlatformInfo platform = 23;
+	JIHNBDJFOFI OHKOLJKCGGH = 23;
 	repeated uint32 OMIFBFJEJFG = 24;
-	uint32 draft_id = 25;
+	uint32 IFGCFIOKBPM = 25;
 	uint32 DJMLKCCGAJC = 26;
 	CMNFEFNBLLD FPJNFEBJDJD = 100;
 	LENNDLOGFIM JBLHBAAECJE = 101;

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 7833
 message COOFLEALNCK {
 	uint32 PCBCAFKABCH = 4;
-	uint32 cur_schedule_id = 2;
+	uint32 KGIJONDGPGD = 2;
 	bool MKNIJCMMKOG = 15;
 }

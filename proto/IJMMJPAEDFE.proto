@@ -1,0 +1,38 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+enum IJMMJPAEDFE {
+	IJMMJPAEDFE_InteractNone = 0;
+	IJMMJPAEDFE_InteractPickItem = 1;
+	IJMMJPAEDFE_InteractGather = 2;
+	IJMMJPAEDFE_InteractOpenChest = 3;
+	IJMMJPAEDFE_InteractOpenStatue = 4;
+	IJMMJPAEDFE_InteractConsum = 5;
+	IJMMJPAEDFE_InteractMpPlayReward = 6;
+	IJMMJPAEDFE_InteractView = 7;
+	IJMMJPAEDFE_InteractGeneralReward = 8;
+	IJMMJPAEDFE_InteractMiracleRing = 9;
+	IJMMJPAEDFE_InteractFoundation = 10;
+	IJMMJPAEDFE_InteractEchoShell = 11;
+	IJMMJPAEDFE_InteractHomeGather = 12;
+	IJMMJPAEDFE_InteractEnvAnimal = 13;
+	IJMMJPAEDFE_InteractQuestGadget = 14;
+	IJMMJPAEDFE_InteractUiInteract = 15;
+	IJMMJPAEDFE_InteractDeshretObelisk = 16;
+}

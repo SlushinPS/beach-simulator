@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 9205
 message MCDMIOLAFBM {
 	bool LLFMFALNBBA = 11;
-	uint64 guid = 15;
+	uint64 MEEFACEAADO = 15;
 }

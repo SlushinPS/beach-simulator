@@ -15,22 +15,24 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 20051
 message LIJALJAOMEK {
-	uint64 ugc_guid = 3;
+	uint64 EKCIKLJPCJO = 3;
 	uint32 MDFJBIKMEEB = 7;
-	uint32 correct_hit = 11;
-	bool is_save_score = 13;
+	uint32 KGJHNCCHGMF = 11;
+	bool PBEPFPPKOAG = 13;
 	uint32 CNMBAENHICA = 455;
 	uint32 CMONEEOMEAI = 1557;
 	bool DDBODOCLEFG = 1761;
-	uint32 max_combo = 1;
+	uint32 NOPIFEFMHCL = 1;
 	uint32 CGECLHEBIOM = 1743;
-	uint32 combo = 5;
-	uint32 music_basic_id = 12;
+	uint32 LBCGHKBKPHE = 5;
+	uint32 AJBEMKLOCDP = 12;
 	repeated uint32 PBPNJBNGAOA = 9;
-	uint32 score = 10;
-	float speed = 830;
+	uint32 KJNLKNAGBJO = 10;
+	float CCELGKMIDAM = 830;
 	uint32 KILJMNLCPFO = 4;
 	repeated uint32 DKACHMHAAOK = 1978;
 	uint32 MKAJACKJCDE = 6;

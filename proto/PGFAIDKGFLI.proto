@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message PGFAIDKGFLI {
 	uint32 PDKOCGLFDPL = 11;
-	bool is_open = 3;
-	uint32 level_id = 1;
+	bool GDPHKFDFNDB = 3;
+	uint32 EIHOLAKLAPE = 1;
 }

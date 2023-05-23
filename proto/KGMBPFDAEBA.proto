@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 23237
 message KGMBPFDAEBA {
-	bool is_succ = 1;
-	bool is_new_record = 4;
-	uint32 level_id = 10;
-	uint32 difficulty_level = 13;
-	uint32 cost_time = 6;
+	bool BEJLKFDGPEN = 1;
+	bool IOFBACLEMAG = 4;
+	uint32 EIHOLAKLAPE = 10;
+	uint32 AFAHCCICIFM = 13;
+	uint32 PLPKJPDHIGN = 6;
 }

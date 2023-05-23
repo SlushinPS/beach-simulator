@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "TreasureMapRegionInfo.proto";
-import "TreasureMapBonusChallengeInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "MKBIKOOLFKM.proto";
+import "FDNBCOFJKJB.proto";
 message MFOFKGPNAFM {
-	uint32 currency_num = 15;
-	uint32 active_region_index = 10;
+	uint32 MALCKFHMICF = 15;
+	uint32 GCMJNKJODAF = 10;
 	uint32 EKNDOGPALFH = 9;
 	uint32 KBAAEPDCBKB = 4;
-	repeated TreasureMapRegionInfo OGJHAOMLPDA = 14;
-	repeated TreasureMapBonusChallengeInfo AKIHHFHFIMF = 2;
+	repeated MKBIKOOLFKM OGJHAOMLPDA = 14;
+	repeated FDNBCOFJKJB AKIHHFHFIMF = 2;
 	uint32 NIPDIFNPMBI = 12;
 	bool PFIMHNJEBCO = 11;
 	uint32 MOOBGBOMCFJ = 8;

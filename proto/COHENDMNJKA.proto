@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "CIIKACHFINK.proto";
 import "MNDCMMKBIBP.proto";
 message COHENDMNJKA {
 	map<uint32, CIIKACHFINK> LLHOBEBBBPB = 9;
-	MNDCMMKBIBP reason = 7;
+	MNDCMMKBIBP HKIFPNECEIL = 7;
 	map<uint32, CIIKACHFINK> EEBMPFLPBHM = 14;
 	int32 EJEGNODMPJC = 10;
 	uint32 CDFFGLCKBDF = 5;

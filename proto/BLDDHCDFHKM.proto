@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message BLDDHCDFHKM {
 	uint32 AELEAICMGCM = 12;
 	uint32 LIEGKDIANGC = 15;
-	uint64 scene_time_ms = 2;
-	bool is_perfect = 5;
+	uint64 OJNHGPACLIO = 2;
+	bool KOILBHNAPIN = 5;
 	bool LLJEKHIENPK = 14;
-	bool is_new_record = 1;
+	bool IOFBACLEMAG = 1;
 }

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message ODBBPNOOEOI {
 	uint32 NIHBLJOJEGF = 2;
 	uint32 CAJJKEBMMEJ = 14;
 	int32 GMECFFBALGO = 3;
-	uint32 trigger_entity_id = 1;
+	uint32 DLCMBGPCNPK = 1;
 	uint32 HKDIEFKEKHK = 4;
 }

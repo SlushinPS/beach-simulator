@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5593
 message OGMBGMEHLND {
 	uint32 EJIOHJGOLEJ = 10;
-	uint32 score = 6;
-	uint32 gallery_id = 12;
-	bool is_success = 11;
+	uint32 KJNLKNAGBJO = 6;
+	uint32 FOKICFBGPAK = 12;
+	bool COHLOAHACKG = 11;
 	bool LJNBDOEMNJE = 15;
 	uint32 MLJNLLEMPBJ = 1;
 	uint32 FIPKHPKDBJC = 3;

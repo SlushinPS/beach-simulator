@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "MaterialDeleteInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "LDGCGEKOPNP.proto";
 message KOKDLGLHBDK {
-	uint32 count = 1;
-	MaterialDeleteInfo delete_info = 2;
+	uint32 BCBKMENOEMM = 1;
+	LDGCGEKOPNP LLDILHEODPN = 2;
 }

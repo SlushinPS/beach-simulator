@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "WeeklyBossResinDiscountInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "EJPHPKAJEJB.proto";
 message EIFECCBEIPL {
-	uint32 monster_config_id = 1;
-	uint32 resin = 2;
+	uint32 CICDEEKHACP = 1;
+	uint32 HOEHGBDHLMN = 2;
 	repeated uint32 LKGBKCCIBIK = 3;
-	repeated uint32 qualify_uid_list = 4;
-	map<uint32, WeeklyBossResinDiscountInfo> ONJIADNDDMB = 5;
+	repeated uint32 GKIDJPCPEMP = 4;
+	map<uint32, EJPHPKAJEJB> ONJIADNDDMB = 5;
 }

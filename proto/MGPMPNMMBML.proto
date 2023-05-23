@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message MGPMPNMMBML {
-	string nickname = 13;
-	repeated uint32 avatar_id = 10;
-	repeated uint32 costume_id = 2;
-	bool is_ready = 4;
-	repeated uint32 skill_list = 15;
-	uint32 uid = 1;
-	bool is_changing = 5;
+	string PFFFGGOGACM = 13;
+	repeated uint32 EONMHIEGMJN = 10;
+	repeated uint32 HGDMANGMCDI = 2;
+	bool KIBJALPMGGP = 4;
+	repeated uint32 FIIJDNIJLCM = 15;
+	uint32 MNKGACNNOCF = 1;
+	bool EILANAOHCPO = 5;
 }

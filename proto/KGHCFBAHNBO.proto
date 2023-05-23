@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message KGHCFBAHNBO {
-	uint32 block_id = 1;
-	PBDDPMHLPJG rot = 7;
-	uint32 guid = 5;
-	PBDDPMHLPJG pos = 12;
+	uint32 MGOIKCBNBOC = 1;
+	PBDDPMHLPJG KJCJFAGDNFN = 7;
+	uint32 MEEFACEAADO = 5;
+	PBDDPMHLPJG BOHMEDKFNLI = 12;
 }

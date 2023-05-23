@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message CKIBKCAKBNI {
-	string product_id = 1;
-	string price_tier = 2;
+	string PHIHBABCKGJ = 1;
+	string HJCAPNPDFLF = 2;
 	uint32 LPMAKOEFNOC = 3;
 	uint32 HADCKCBAJKO = 4;
-	uint32 begin_time = 5;
-	uint32 end_time = 6;
+	uint32 ICCGMEFAFEK = 5;
+	uint32 JMDIBGGMEMK = 6;
 	uint32 OPONLNLPMCE = 7;
 }

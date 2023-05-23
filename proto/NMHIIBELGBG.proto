@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "HomeGroupPlayerInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "IJHCHNPKNGD.proto";
 message NMHIIBELGBG {
-	uint32 use_time = 15;
-	uint32 timestamp = 9;
-	HomeGroupPlayerInfo player_info = 14;
+	uint32 EMEKOBGKGAG = 15;
+	uint32 EIBCHCBAHHA = 9;
+	IJHCHNPKNGD DMPCMGCAPCA = 14;
 }

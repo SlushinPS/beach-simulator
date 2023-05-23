@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 21635
 message AFFAKDPDBCM {
-	uint32 cost_time = 15;
-	bool is_success = 12;
-	uint32 level_id = 2;
-	int32 retcode = 3;
+	uint32 PLPKJPDHIGN = 15;
+	bool COHLOAHACKG = 12;
+	uint32 EIHOLAKLAPE = 2;
+	int32 POCANJMPGFB = 3;
 }

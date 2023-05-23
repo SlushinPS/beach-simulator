@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "FFHDGIBNIEC.proto";
 import "MJLIMDBFNBB.proto";
 message OLPPDBHJNBI {
-	uint32 guid = 8;
+	uint32 MEEFACEAADO = 8;
 	repeated FFHDGIBNIEC MHKJEFCKLMP = 7;
-	repeated MJLIMDBFNBB action_list = 6;
+	repeated MJLIMDBFNBB GPIFNANHJFH = 6;
 }

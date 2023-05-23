@@ -1,0 +1,63 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+import "DBHHHJAGAHO.proto";
+import "CBCCEMJAHPB.proto";
+import "OJLOLCKMJNH.proto";
+import "ACPJMJPFENC.proto";
+import "ACMPPBHOFEN.proto";
+import "EBKOOMFFCIP.proto";
+import "GOJCDDACIBM.proto";
+import "BJJHJCJGLAJ.proto";
+import "KOGBOGMJFFA.proto";
+import "HFOHFIIKIBN.proto";
+import "CAMOHBCDHAL.proto";
+import "PPOLACNECHC.proto";
+import "ALFLMNNNMIO.proto";
+import "BIBIJELACGN.proto";
+import "CIOHOKKNJLI.proto";
+import "PFFEBPCHBHP.proto";
+// CmdId: 930
+message LOMPLBCCKGC {
+	repeated DBHHHJAGAHO NMHDAENELAL = 13;
+	uint32 EMEKOBGKGAG = 1;
+	map<uint32, CBCCEMJAHPB> POOOKPHEOEK = 11;
+	uint32 ENBINPGBMGM = 14;
+	repeated uint32 LMFCPILDJDN = 10;
+	map<uint32, OJLOLCKMJNH> FKMPGCAAIFE = 5;
+	bool COHLOAHACKG = 6;
+	uint32 MOFPCAFNCGG = 3;
+	uint32 OKNFCHLKKPL = 12;
+	uint32 LKBPDEBOPBA = 9;
+	oneof JCGKCGNNJAE {
+		ACPJMJPFENC CICNHDCJMCA = 956;
+		ACMPPBHOFEN MIIPNECDMOP = 989;
+		EBKOOMFFCIP AHNOLLCIFKH = 588;
+		GOJCDDACIBM LOMNNBEHDEG = 1402;
+		BJJHJCJGLAJ JHCDECMLHLB = 385;
+		KOGBOGMJFFA KJJFMEBIOFG = 1617;
+		HFOHFIIKIBN ODHIFIDNINF = 1110;
+		CAMOHBCDHAL HLOADBCOODI = 100;
+		PPOLACNECHC PLBBLHAFFEB = 1385;
+		ALFLMNNNMIO PCNDAHEOMKL = 1559;
+		BIBIJELACGN JPEPDDENOJK = 86;
+		CIOHOKKNJLI FAJJCCMHPGI = 903;
+		PFFEBPCHBHP PKPIJCPJGIO = 1637;
+	}
+}

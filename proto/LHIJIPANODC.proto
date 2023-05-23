@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message LHIJIPANODC {
-	uint32 difficulty = 3;
-	bool is_finish = 5;
+	uint32 GDDMFGCECIE = 3;
+	bool IELFHEDIBCL = 5;
 	uint32 EINCCGEPHDM = 6;
-	uint32 finish_time = 15;
+	uint32 ELBJCILPLFI = 15;
 }

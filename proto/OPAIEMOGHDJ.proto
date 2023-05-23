@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 24659
 message OPAIEMOGHDJ {
-	uint32 gallery_id = 13;
+	uint32 FOKICFBGPAK = 13;
 }

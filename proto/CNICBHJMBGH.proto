@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 7141
 message CNICBHJMBGH {
 	uint32 BJIACMHBLCG = 12;
-	int32 retcode = 9;
+	int32 POCANJMPGFB = 9;
 	uint32 FAMCCHNMJJM = 1;
 }

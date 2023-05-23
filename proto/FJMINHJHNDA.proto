@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message FJMINHJHNDA {
-	uint32 entity_id = 2;
+	uint32 EHJPFMIFNHK = 2;
 	PBDDPMHLPJG BAIDAEGLGAP = 5;
 	bool CEECBFGGDCJ = 15;
-	float speed = 1;
+	float CCELGKMIDAM = 1;
 	bool NAHILIAHHLI = 8;
 	repeated uint32 CMHIJMPDPAK = 4;
 	string FDIOFGHOHCP = 3;

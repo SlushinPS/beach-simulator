@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message NKMFIJPKMLM {
-	uint32 time_cost = 8;
-	uint32 cur_score = 3;
-	map<uint32, uint32> ball_catch_count_map = 9;
-	bool is_ground = 1;
-	uint32 uid = 4;
+	uint32 MAAPMJHHDNA = 8;
+	uint32 COGGLHKCAHB = 3;
+	map<uint32, uint32> DGHCGAHLBGO = 9;
+	bool HMKIFOHPJLN = 1;
+	uint32 MNKGACNNOCF = 4;
 }

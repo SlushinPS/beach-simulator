@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "CADBDHBFBPJ.proto";
 import "CADIFCLFOFF.proto";
 // CmdId: 9216
 message CAMHMGNGIOF {
-	CADBDHBFBPJ op_type = 15;
-	uint32 room_id = 11;
+	CADBDHBFBPJ HJKACPAJMLJ = 15;
+	uint32 PLOKKBJDIHI = 11;
 	CADIFCLFOFF OOENPKKDDDP = 8;
-	uint64 dungeon_guid = 1;
+	uint64 KDCFPDCOEOB = 1;
 }

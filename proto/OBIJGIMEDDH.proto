@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "SumoTeamData.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "JONCAGENEAF.proto";
 message OBIJGIMEDDH {
-	bool is_open = 1;
-	uint32 stage_id = 2;
-	repeated SumoTeamData team_list = 14;
-	uint32 open_time = 15;
-	uint32 max_score = 13;
+	bool GDPHKFDFNDB = 1;
+	uint32 NDFCPKBOOBK = 2;
+	repeated JONCAGENEAF EDKDLHFIFHK = 14;
+	uint32 LOOLOKIJHBJ = 15;
+	uint32 AJOKDKDIFKH = 13;
 }

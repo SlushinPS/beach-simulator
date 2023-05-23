@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message HDIMLANJONI {
-	repeated uint32 player_uid_list = 14;
+	repeated uint32 DPPNNMOLIGG = 14;
 	bool OCNCGNHDFPD = 5;
-	uint32 map_id = 13;
-	uint32 match_id = 4;
+	uint32 JLCHPHEGOPE = 13;
+	uint32 NIABHFIBAEH = 4;
 }

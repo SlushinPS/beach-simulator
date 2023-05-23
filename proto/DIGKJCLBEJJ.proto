@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 20238
 message DIGKJCLBEJJ {
-	uint32 difficulty = 4;
-	uint32 level_id = 13;
-	repeated uint64 avatar_guid_list = 11;
+	uint32 GDDMFGCECIE = 4;
+	uint32 EIHOLAKLAPE = 13;
+	repeated uint64 PEAKIABJMJO = 11;
 }

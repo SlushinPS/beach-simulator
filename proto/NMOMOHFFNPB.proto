@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "HHJFBBFKPIE.proto";
 import "MBJAJACPKIA.proto";
 message NMOMOHFFNPB {
 	HHJFBBFKPIE CCCKACDDMAO = 9;
-	uint32 uid = 2;
+	uint32 MNKGACNNOCF = 2;
 	repeated MBJAJACPKIA ONFHOBNNKPB = 1;
 	repeated MBJAJACPKIA GONGPLLFAKO = 11;
 }

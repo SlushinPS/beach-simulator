@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "OFOHJIEDJKD.proto";
 message KBHFMBICJNP {
 	OFOHJIEDJKD GHNPJGNABDO = 7;
-	fixed64 begin_time = 1;
+	fixed64 ICCGMEFAFEK = 1;
 	fixed64 DIOLIABEBCK = 3;
 	uint32 CDFFGLCKBDF = 4;
 }

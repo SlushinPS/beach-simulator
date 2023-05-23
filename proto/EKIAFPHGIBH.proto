@@ -1,0 +1,41 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+enum EKIAFPHGIBH {
+	EKIAFPHGIBH_VisionNone = 0;
+	EKIAFPHGIBH_VisionMeet = 1;
+	EKIAFPHGIBH_VisionReborn = 2;
+	EKIAFPHGIBH_VisionReplace = 3;
+	EKIAFPHGIBH_VisionWaypointReborn = 4;
+	EKIAFPHGIBH_VisionMiss = 5;
+	EKIAFPHGIBH_VisionDie = 6;
+	EKIAFPHGIBH_VisionGatherEscape = 7;
+	EKIAFPHGIBH_VisionRefresh = 8;
+	EKIAFPHGIBH_VisionTransport = 9;
+	EKIAFPHGIBH_VisionReplaceDie = 10;
+	EKIAFPHGIBH_VisionReplaceNoNotify = 11;
+	EKIAFPHGIBH_VisionBorn = 12;
+	EKIAFPHGIBH_VisionPickup = 13;
+	EKIAFPHGIBH_VisionRemove = 14;
+	EKIAFPHGIBH_VisionChangeCostume = 15;
+	EKIAFPHGIBH_VisionFishRefresh = 16;
+	EKIAFPHGIBH_VisionFishBigShock = 17;
+	EKIAFPHGIBH_VisionFishQteSucc = 18;
+	EKIAFPHGIBH_VisionCaptureDisappear = 19;
+}

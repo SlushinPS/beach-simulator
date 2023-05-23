@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message NLIAPNIJAKO {
-	uint32 stage_id = 12;
-	bool is_open = 2;
-	uint32 open_time = 8;
+	uint32 NDFCPKBOOBK = 12;
+	bool GDPHKFDFNDB = 2;
+	uint32 LOOLOKIJHBJ = 8;
 }

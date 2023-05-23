@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "IrodoriPoetryThemeData.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "DMGENCIFFLL.proto";
 message NGOPLHAHODO {
 	uint32 PLCHOMOMOEK = 14;
-	repeated IrodoriPoetryThemeData HFNAJGAJKHK = 3;
+	repeated DMGENCIFFLL HFNAJGAJKHK = 3;
 }

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "Uint32Pair.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "MKMEPCLAACG.proto";
 message BJHAAKKBECG {
-	repeated Uint32Pair KCNHGLKOPJO = 15;
+	repeated MKMEPCLAACG KCNHGLKOPJO = 15;
 }

@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "WinterCampStageInfo.proto";
-import "ItemParam.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "IBAACKMBMDC.proto";
+import "JOLBKGJKDDN.proto";
 import "EGJNNEHKJCO.proto";
 message CPOACHLJDKL {
-	WinterCampStageInfo battle_info = 10;
+	IBAACKMBMDC CJDJCEGBHKE = 10;
 	repeated uint32 GAFCOKIFJPB = 13;
 	repeated uint32 LEJCFBHFBFE = 11;
-	repeated ItemParam INGDFLLBDMA = 14;
+	repeated JOLBKGJKDDN INGDFLLBDMA = 14;
 	repeated EGJNNEHKJCO JNEPHOBDLPD = 2;
 	bool LFKBGHFJJOO = 6;
-	WinterCampStageInfo explore_info = 1;
+	IBAACKMBMDC KNLEJNHBAGH = 1;
 	repeated uint32 EMIIEPHGBHJ = 8;
 }

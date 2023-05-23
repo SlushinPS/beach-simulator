@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message BIBIJELACGN {
-	uint32 total_score = 1;
-	uint32 stage_id = 5;
-	repeated uint32 score_list = 2;
-	bool is_new_record = 9;
-	uint32 difficulty = 3;
+	uint32 DDDCLLHOBJP = 1;
+	uint32 NDFCPKBOOBK = 5;
+	repeated uint32 PNKEKDPJOLF = 2;
+	bool IOFBACLEMAG = 9;
+	uint32 GDDMFGCECIE = 3;
 }

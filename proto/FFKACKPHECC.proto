@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 24886
 message FFKACKPHECC {
-	uint32 stage_id = 4;
-	uint32 gallery_id = 5;
-	int32 retcode = 7;
+	uint32 NDFCPKBOOBK = 4;
+	uint32 FOKICFBGPAK = 5;
+	int32 POCANJMPGFB = 7;
 	uint32 HCGLEPLICNO = 2;
 }

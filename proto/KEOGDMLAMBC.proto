@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message KEOGDMLAMBC {
-	PBDDPMHLPJG center = 1;
+	PBDDPMHLPJG OFHGEPMPKJJ = 1;
 	PBDDPMHLPJG LCNDIOJOHKP = 2;
 	PBDDPMHLPJG KDCMGAPBAEL = 3;
 	PBDDPMHLPJG PJKFLIHLFCB = 4;
-	PBDDPMHLPJG extents = 5;
+	PBDDPMHLPJG IFIOPDFKCLJ = 5;
 }

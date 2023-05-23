@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "MNDCMMKBIBP.proto";
 message BPICLNJFDNB {
-	MNDCMMKBIBP reason = 4;
+	MNDCMMKBIBP HKIFPNECEIL = 4;
 	repeated uint32 PHDLGMLNDAB = 6;
 	uint32 CDFFGLCKBDF = 9;
 }

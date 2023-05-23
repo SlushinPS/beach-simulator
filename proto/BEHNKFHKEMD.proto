@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message BEHNKFHKEMD {
-	PBDDPMHLPJG pos = 4;
-	uint32 room_id = 7;
-	PBDDPMHLPJG rot = 15;
+	PBDDPMHLPJG BOHMEDKFNLI = 4;
+	uint32 PLOKKBJDIHI = 7;
+	PBDDPMHLPJG KJCJFAGDNFN = 15;
 }

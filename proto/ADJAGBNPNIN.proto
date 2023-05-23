@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "LBHNHAEEOCA.proto";
 import "FOPDMMNKCLB.proto";
 message ADJAGBNPNIN {
-	uint32 challenge_type = 12;
-	bool is_unlock = 7;
+	uint32 GDEIPKIHPMG = 12;
+	bool EFKGDLMBPHM = 7;
 	oneof ODHNJHMDPBJ {
 		LBHNHAEEOCA NMKCOOKNNBG = 8;
 		FOPDMMNKCLB IENLPLIJACJ = 14;

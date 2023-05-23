@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message NLEMHBCLPLJ {
-	uint32 material_id = 8;
+	uint32 JDLOCFNOAMJ = 8;
 	uint32 IMCGAFLIONH = 1;
 	uint32 NKCAAOLCMDK = 11;
 }

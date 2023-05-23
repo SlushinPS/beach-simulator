@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "CFNFNIIIKBL.proto";
 message DAMDDJCAMKK {
-	uint32 map_id = 11;
+	uint32 JLCHPHEGOPE = 11;
 	CFNFNIIIKBL IDHPGLINMIA = 7;
 	repeated uint32 AKCBMALODFG = 5;
 	uint32 AIFJJHBPCNK = 2;

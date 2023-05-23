@@ -15,17 +15,19 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ChessPlayerInfo.proto";
-import "ChessCardInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "KNHPPMPLPEA.proto";
+import "PFDHNKJENDB.proto";
 import "LCLOHAJKAEC.proto";
 message MHMGAMCCIBM {
-	map<uint32, ChessPlayerInfo> NNCGHCDCMBK = 5;
-	uint32 left_monsters = 2;
+	map<uint32, KNHPPMPLPEA> NNCGHCDCMBK = 5;
+	uint32 HBONNIFMBBD = 2;
 	uint32 DOENADBCCBJ = 1;
-	repeated ChessCardInfo selected_card_info_list = 14;
+	repeated PFDHNKJENDB BAJJGMOPEGE = 14;
 	uint32 PBCNEEOKIND = 15;
-	uint32 round = 8;
+	uint32 CIGCEBJKPAF = 8;
 	LCLOHAJKAEC ENMHNMNAAFO = 3;
-	uint32 excaped_monsters = 11;
+	uint32 BBDMLJEIJCC = 11;
 	repeated uint32 FHNAEGMMJGD = 6;
 }

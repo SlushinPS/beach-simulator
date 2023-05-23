@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message NLIDHPKHNHF {
-	uint32 route_id = 14;
-	bool is_open = 9;
-	bool is_finish = 15;
+	uint32 KMBCLEHEHLL = 14;
+	bool GDPHKFDFNDB = 9;
+	bool IELFHEDIBCL = 15;
 }

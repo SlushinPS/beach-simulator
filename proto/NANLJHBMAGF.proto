@@ -15,20 +15,22 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "HDNMEHLEAGE.proto";
 import "KKFENCAJMAP.proto";
-import "AbilityString.proto";
-import "AbilityAttachedModifier.proto";
+import "KHIKIFCBPKH.proto";
+import "KLMOHHKFHDB.proto";
 message NANLJHBMAGF {
 	repeated HDNMEHLEAGE GFHPDPLEEOO = 14;
 	KKFENCAJMAP JMGGMKBJPDM = 4;
-	uint32 apply_entity_id = 2;
+	uint32 FGJGJCBEAGG = 2;
 	bool GCLNFAOFKFG = 15;
 	bool CINMPFCDANJ = 8;
-	AbilityString parent_ability_name = 1;
-	uint32 server_buff_uid = 7;
-	AbilityString parent_ability_override = 10;
-	AbilityAttachedModifier attached_instanced_modifier = 3;
-	bool is_attached_parent_ability = 12;
-	int32 modifier_local_id = 5;
+	KHIKIFCBPKH IPENBFLLCAF = 1;
+	uint32 CMOCFOMGHMG = 7;
+	KHIKIFCBPKH PHKEMHGNNEB = 10;
+	KLMOHHKFHDB JIEFKAOGFMN = 3;
+	bool MHJGMNPBMKI = 12;
+	int32 PHLJGEMIICM = 5;
 }

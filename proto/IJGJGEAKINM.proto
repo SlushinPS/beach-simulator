@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ExhibitionDisplayInfo.proto";
-import "ProfilePicture.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "FALKBLEJAOC.proto";
+import "ECNCPJCKFAE.proto";
 message IJGJGEAKINM {
-	repeated ExhibitionDisplayInfo card_list = 8;
-	ProfilePicture profile_picture = 12;
-	string nickname = 10;
-	uint32 uid = 3;
-	string online_id = 1;
-	uint32 head_image = 13;
+	repeated FALKBLEJAOC BADJOGNOOCK = 8;
+	ECNCPJCKFAE PDJFACNOFPE = 12;
+	string PFFFGGOGACM = 10;
+	uint32 MNKGACNNOCF = 3;
+	string CHMIDNJOGJA = 1;
+	uint32 HCNPDFOIHHC = 13;
 }

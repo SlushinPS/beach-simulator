@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message ECODOBCMKIG {
-	int32 id = 1;
-	uint32 config_id = 2;
-	PBDDPMHLPJG center = 3;
-	PBDDPMHLPJG extents = 4;
+	int32 PNCCOIAPNGG = 1;
+	uint32 PHMAEMMCBME = 2;
+	PBDDPMHLPJG OFHGEPMPKJJ = 3;
+	PBDDPMHLPJG IFIOPDFKCLJ = 4;
 	PBDDPMHLPJG JNCLFBFEIJJ = 5;
-	PBDDPMHLPJG forward = 6;
+	PBDDPMHLPJG DBJFCNADJFL = 6;
 	PBDDPMHLPJG ODAMPABFHCD = 7;
 }

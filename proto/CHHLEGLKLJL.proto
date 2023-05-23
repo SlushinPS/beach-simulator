@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "HHKBKHDKCAG.proto";
 import "HPPKOKPKAHJ.proto";
 message CHHLEGLKLJL {
 	bool MEBGIEEMBND = 15;
-	uint32 time_cost = 5;
-	uint64 dungeon_guid = 3;
-	bool is_arrive_finish = 10;
+	uint32 MAAPMJHHDNA = 5;
+	uint64 KDCFPDCOEOB = 3;
+	bool FPLDDDAAKDK = 10;
 	uint32 MJOFNGJFMCC = 4;
 	bool DLPKBILBEEI = 14;
-	repeated HHKBKHDKCAG child_challenge_list = 2;
-	HPPKOKPKAHJ finish_type = 9;
+	repeated HHKBKHDKCAG HINJGPBIFIC = 2;
+	HPPKOKPKAHJ OBHAFKBOKOC = 9;
 }

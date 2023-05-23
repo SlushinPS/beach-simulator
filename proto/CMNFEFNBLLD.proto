@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "HFGJDLIJKIO.proto";
 message CMNFEFNBLLD {
-	uint32 play_type = 1;
-	uint32 duration = 2;
-	repeated uint32 progress_stage_list = 3;
+	uint32 FOIMDJNPKIJ = 1;
+	uint32 HBGDJNHNPIO = 2;
+	repeated uint32 AMFAJFCCPDA = 3;
 	uint32 DLNPHAEGPGN = 4;
-	uint32 start_time = 5;
-	uint32 progress = 6;
+	uint32 IDKOJHKKGOF = 5;
+	uint32 HIBFCFFOKMD = 6;
 	optional HFGJDLIJKIO PCDLFNINNJO = 21;
 }

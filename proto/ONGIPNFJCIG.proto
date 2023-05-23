@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "GGJENGOICLH.proto";
 import "EGEBOGIIBGB.proto";
 // CmdId: 9227
 message ONGIPNFJCIG {
 	uint32 LLACGLEPFHP = 3;
-	uint32 cur_score = 12;
+	uint32 COGGLHKCAHB = 12;
 	uint32 LGHKJCJKGHC = 13;
 	GGJENGOICLH CFLHOCPAFIA = 6;
-	uint32 enter_type = 8;
+	uint32 AHHLAAGBOBH = 8;
 	EGEBOGIIBGB GBNECKKIJMJ = 7;
 }

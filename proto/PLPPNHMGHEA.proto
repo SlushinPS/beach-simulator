@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "MultistageSettleWatcherInfo.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "IANDPKNDOJC.proto";
 message PLPPNHMGHEA {
-	repeated MultistageSettleWatcherInfo watcher_list = 2;
-	uint64 scene_time_ms = 9;
+	repeated IANDPKNDOJC KFDELHEMHEH = 2;
+	uint64 OJNHGPACLIO = 9;
 	uint32 JMNHFNAFLPC = 4;
 	uint32 MENGLHEFCHD = 10;
-	bool is_success = 8;
+	bool COHLOAHACKG = 8;
 	uint32 ECNAGNKHEPP = 6;
-	uint32 group_id = 7;
-	uint32 play_index = 12;
+	uint32 NKPNLHDAOCI = 7;
+	uint32 AICGHEOCCBO = 12;
 }

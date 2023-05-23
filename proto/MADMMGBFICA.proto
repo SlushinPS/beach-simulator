@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message MADMMGBFICA {
-	uint32 monster_count = 9;
+	uint32 BMCODCPLMOP = 9;
 	uint32 LGFDNIPKACN = 2;
 	uint32 OJGPBAGCGGE = 6;
 	uint32 NKPBJACDKHI = 7;

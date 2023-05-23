@@ -1,0 +1,55 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+import "PBAFNBPPAND.proto";
+import "LFGGJIKICHD.proto";
+import "PBDDPMHLPJG.proto";
+import "PIEGLPACNBP.proto";
+message BEFCMFBPFGN {
+	uint32 JAKHCJPHJLL = 1198;
+	uint32 OONEBGMOEAE = 82;
+	uint32 NNNBJOBCAAG = 1624;
+	uint32 FLFJCNLIKLN = 6;
+	float ADMGNLDFHNM = 2018;
+	uint32 IJKHPENHIBE = 1640;
+	int32 NMIHECOLFNF = 10;
+	PBAFNBPPAND JAHOFNMOLNP = 15;
+	uint32 JJJGHBCJODJ = 1178;
+	float KMGLDEFLMEC = 804;
+	bool IBPABJOFDON = 7;
+	uint32 NIKINHLLMPK = 8;
+	uint32 FMEOFJLGHEB = 1597;
+	uint32 HHLNNKNHNDI = 1235;
+	bool MMKKDLCEAMF = 78;
+	uint32 LOAGDOPBKHC = 1;
+	uint32 PFDPGNNKHIC = 158;
+	uint32 NMLMDCIJDNG = 13;
+	uint32 NCDFOFJPKHA = 4;
+	string EOFFFAGPOAM = 5;
+	float CAJDKCKKAIG = 11;
+	LFGGJIKICHD BDJAOEIOAAG = 2;
+	bool ANOIGIKGJLP = 1765;
+	uint32 DOAKEOLAJEM = 1772;
+	PBDDPMHLPJG CPMDAMKKJGE = 3;
+	uint32 MCDCPBKDBND = 316;
+	float KGLMAKCMPIH = 979;
+	PIEGLPACNBP OHHHIKNMAIP = 12;
+	bool EILCFJCPIPH = 309;
+	float HAEGEEJHOGG = 1660;
+}

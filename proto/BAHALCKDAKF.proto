@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message BAHALCKDAKF {
-	PBDDPMHLPJG rot = 11;
-	PBDDPMHLPJG pos = 15;
-	PBDDPMHLPJG move_dir = 10;
+	PBDDPMHLPJG KJCJFAGDNFN = 11;
+	PBDDPMHLPJG BOHMEDKFNLI = 15;
+	PBDDPMHLPJG BLAMCINPIOA = 10;
 }

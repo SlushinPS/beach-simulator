@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2005
 message ACMPPBHOFEN {
-	uint32 trial_avatar_index_id = 7;
+	uint32 NOEFGDLJMHM = 7;
 }

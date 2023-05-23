@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 21714
 message IPCHFMGPLPP {
-	uint32 check_root_id = 7;
-	bool is_succ = 11;
-	uint32 pos_id = 9;
+	uint32 MPLONPMEEOE = 7;
+	bool BEJLKFDGPEN = 11;
+	uint32 NNCKEGGBNMG = 9;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message BCDBPJIBPJM {
 	uint32 EJIFPPMOLPD = 7;
 	uint32 PBKDCNDBKPF = 13;
-	uint32 total_num = 15;
+	uint32 EMCJBENKAIA = 15;
 }

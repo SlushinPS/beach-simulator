@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5511
 message ADNMEPEENAN {
-	uint32 hit_count = 8;
-	bool is_success = 7;
-	uint32 gallery_id = 14;
+	uint32 NKFOMLJLDPH = 8;
+	bool COHLOAHACKG = 7;
+	uint32 FOKICFBGPAK = 14;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "LJJJCOKHKHF.proto";
 // CmdId: 23776
 message AEMOLFPMPII {
-	int32 retcode = 12;
+	int32 POCANJMPGFB = 12;
 	map<uint32, LJJJCOKHKHF> BBBCPJMDMNC = 7;
 }

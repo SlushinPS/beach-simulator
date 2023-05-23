@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "LunaRiteHintStatusType.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "GELHLMJFAGP.proto";
 message KIKAFOBMLKD {
-	repeated uint32 sacrifice_list = 12;
-	uint32 area_id = 3;
-	uint32 challenge_index = 6;
-	repeated uint32 sacrifice_reward_list = 13;
-	LunaRiteHintStatusType hint_status = 8;
+	repeated uint32 LIHJHLCEJML = 12;
+	uint32 AONJDJJGKCO = 3;
+	uint32 EKNBNPJHCJK = 6;
+	repeated uint32 PBGJOKLICCE = 13;
+	GELHLMJFAGP DKKLGGFKCMG = 8;
 }

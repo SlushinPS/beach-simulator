@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5559
 message FCHPKLCOHDI {
-	uint32 end_time = 7;
-	uint32 gallery_id = 1;
+	uint32 JMDIBGGMEMK = 7;
+	uint32 FOKICFBGPAK = 1;
 }

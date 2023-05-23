@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "OEHLKBGHEDC.proto";
 message ACKNNJIEGEK {
 	OEHLKBGHEDC NKAIIFJFCDL = 12;
-	uint32 level_id = 7;
+	uint32 EIHOLAKLAPE = 7;
 }

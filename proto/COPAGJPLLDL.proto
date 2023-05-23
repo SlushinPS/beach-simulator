@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message COPAGJPLLDL {
-	uint32 guid = 15;
-	uint32 config_id = 1;
-	PBDDPMHLPJG pos = 14;
-	PBDDPMHLPJG rot = 13;
+	uint32 MEEFACEAADO = 15;
+	uint32 PHMAEMMCBME = 1;
+	PBDDPMHLPJG BOHMEDKFNLI = 14;
+	PBDDPMHLPJG KJCJFAGDNFN = 13;
 }

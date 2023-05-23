@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "BODMEBNADPL.proto";
 message IGDHIBNDKBO {
-	int32 retcode = 1;
+	int32 POCANJMPGFB = 1;
 	repeated BODMEBNADPL OAPPFJOLBCK = 2;
 	bytes BDIMGGCLPBC = 5;
 	bytes OOAHMHFFBIO = 6;

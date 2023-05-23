@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "AbilityString.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "KHIKIFCBPKH.proto";
 message HDNMEHLEAGE {
-	float value = 4;
-	AbilityString key = 12;
+	float CFDFGFLOOJE = 4;
+	KHIKIFCBPKH DDFOEEGANBB = 12;
 }

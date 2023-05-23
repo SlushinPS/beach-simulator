@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "FungusTrainingProgressDetail.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "JHPJEKPHADI.proto";
 import "OFJJJIIPKIB.proto";
 import "KFHPBFMEBFB.proto";
 import "BMFELBMMIJF.proto";
 message MIMDIDPCGII {
 	repeated uint32 FPMMDPODEKI = 1;
 	repeated uint32 PMKKEACAAAK = 15;
-	repeated FungusTrainingProgressDetail FNMGIKBEHGF = 5;
+	repeated JHPJEKPHADI FNMGIKBEHGF = 5;
 	repeated OFJJJIIPKIB MKIIJEMNNDC = 4;
 	repeated KFHPBFMEBFB BHGLBKALKCH = 7;
 	repeated BMFELBMMIJF KLIGFHHHPEF = 2;

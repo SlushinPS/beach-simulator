@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message KDBGNEBONLF {
-	uint32 max_score = 5;
-	uint32 level_id = 4;
+	uint32 AJOKDKDIFKH = 5;
+	uint32 EIHOLAKLAPE = 4;
 	bool KJBAGJJLIID = 12;
-	repeated uint32 chosen_avatar_list = 11;
-	repeated uint32 chosen_skill_list = 15;
-	bool is_finish = 7;
+	repeated uint32 DACNFBHDLJC = 11;
+	repeated uint32 DNHEJHOMIMK = 15;
+	bool IELFHEDIBCL = 7;
 }

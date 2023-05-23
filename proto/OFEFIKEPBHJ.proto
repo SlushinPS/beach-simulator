@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message OFEFIKEPBHJ {
-	uint32 costume_id = 7;
-	uint32 avatar_id = 4;
+	uint32 HGDMANGMCDI = 7;
+	uint32 EONMHIEGMJN = 4;
 }

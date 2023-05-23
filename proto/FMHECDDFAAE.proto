@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "GPPFNJKCLPD.proto";
 message FMHECDDFAAE {
-	uint32 challenge_id = 10;
-	repeated uint32 avatar_id_list = 7;
+	uint32 BCFCGJPJJBA = 10;
+	repeated uint32 BPMDPCCICCJ = 7;
 	float JHEEBNHFPCO = 8;
 	uint32 JFGPJJKACCM = 11;
 	uint32 OONCDFLDGGB = 3;
-	uint32 start_time = 13;
+	uint32 IDKOJHKKGOF = 13;
 	uint32 AEJMBLPJEML = 15;
-	uint32 path_id = 2;
-	GPPFNJKCLPD state = 6;
+	uint32 BFGKPJKANFI = 2;
+	GPPFNJKCLPD GMKDHOMBHOE = 6;
 	uint32 HGNDDCKBPAB = 1;
 }

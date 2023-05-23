@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message JGFICLGKFFD {
-	uint32 cell_config_id = 1;
-	uint32 cell_type = 2;
+	uint32 DNJDALHFFEL = 1;
+	uint32 CJJEHLDMNJD = 2;
 	uint32 DNOKEBPNFOJ = 3;
-	uint32 cell_id = 4;
+	uint32 GJIPDDDLPLG = 4;
 }

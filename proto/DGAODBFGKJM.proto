@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "COPAGJPLLDL.proto";
 message DGAODBFGKJM {
-	COPAGJPLLDL basic_info = 1;
+	COPAGJPLLDL BOCLDHKEMJH = 1;
 	repeated uint32 IBIJOCBDBHJ = 5;
 	repeated uint32 BCIDMLBLFKA = 14;
 	repeated uint32 PNDENPFMHIC = 6;

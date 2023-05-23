@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "IPJPEPIILAJ.proto";
 import "FMHECDDFAAE.proto";
 message EFAOCIPELNM {
 	uint32 BLFCCFBELEE = 3;
 	uint32 FEBNKBBLIAH = 8;
-	uint32 content_close_time = 13;
+	uint32 CFKHNEABNBA = 13;
 	repeated IPJPEPIILAJ DCJDIPLHEPD = 15;
 	bool LFKBGHFJJOO = 6;
 	repeated FMHECDDFAAE NNFHLGOMGKO = 11;

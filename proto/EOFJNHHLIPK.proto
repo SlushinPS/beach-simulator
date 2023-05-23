@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "DCNGLKLJJFD.proto";
 import "NONPAKAOCNM.proto";
 // CmdId: 7427
 message EOFJNHHLIPK {
 	repeated uint32 CBEFDLFDCKE = 13;
-	repeated DCNGLKLJJFD card_list = 12;
+	repeated DCNGLKLJJFD BADJOGNOOCK = 12;
 	repeated uint32 NEAEKHKKHON = 9;
 	uint32 DDCHGBDGHNK = 3;
 	repeated NONPAKAOCNM GFAJLJIOCKO = 5;

@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
 message GBBGOGACLPL {
-	float region_radius = 3;
-	bool is_open = 15;
-	bool is_done = 9;
+	float FADJNDAFNLG = 3;
+	bool GDPHKFDFNDB = 15;
+	bool NEPLGIOPNLG = 9;
 	uint32 JKPOPKLFOAB = 2;
 	uint32 IFPIAGBFGGN = 12;
-	uint32 region_id = 14;
-	uint32 open_time = 1;
-	uint32 scene_id = 7;
-	PBDDPMHLPJG region_center_pos = 4;
+	uint32 BHGHLOLELCM = 14;
+	uint32 LOOLOKIJHBJ = 1;
+	uint32 LCCGKKNEMFP = 7;
+	PBDDPMHLPJG LBPNKCFKDDA = 4;
 	uint32 PNIGDNOPAGE = 8;
 }

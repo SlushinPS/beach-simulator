@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message AMBJIMENFCF {
-	uint32 level_id = 15;
+	uint32 EIHOLAKLAPE = 15;
 	repeated uint32 MPNCDMHBPAG = 2;
 	uint32 JCJLOPLLOGJ = 8;
 	repeated uint32 IJGJPOIEJLG = 6;

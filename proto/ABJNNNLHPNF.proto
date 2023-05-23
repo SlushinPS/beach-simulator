@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message ABJNNNLHPNF {
-	repeated uint32 card_list = 15;
+	repeated uint32 BADJOGNOOCK = 15;
 }

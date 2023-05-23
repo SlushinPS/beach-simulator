@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "MistTrialBestAvatar.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "EAJAANLKGMM.proto";
 message IIDDKHKAAON {
-	uint32 first_pass_time = 4;
-	uint32 open_time = 11;
-	bool is_open = 9;
-	repeated MistTrialBestAvatar best_avatar_list = 6;
-	MistTrialBestAvatar best_hit_avatar = 8;
-	uint32 level_id = 13;
+	uint32 KMLFPEADOGE = 4;
+	uint32 LOOLOKIJHBJ = 11;
+	bool GDPHKFDFNDB = 9;
+	repeated EAJAANLKGMM EEOHNAECNKD = 6;
+	EAJAANLKGMM HMMANKAEMNB = 8;
+	uint32 EIHOLAKLAPE = 13;
 }

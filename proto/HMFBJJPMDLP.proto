@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "DAMDDJCAMKK.proto";
 message HMFBJJPMDLP {
-	uint32 open_time = 6;
+	uint32 LOOLOKIJHBJ = 6;
 	DAMDDJCAMKK NHHDANFGLGN = 12;
-	uint32 level_id = 5;
+	uint32 EIHOLAKLAPE = 5;
 	DAMDDJCAMKK JKHHKGOCIBO = 11;
 }

@@ -15,31 +15,33 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "SceneWeaponInfo.proto";
-import "SceneReliquaryInfo.proto";
-import "ServerBuff.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "KOGLLGKJBFG.proto";
+import "FNNPFGFHKCK.proto";
+import "IKGPNFFPDOG.proto";
 import "IEDNAPEHNEN.proto";
-import "AvatarExcelInfo.proto";
+import "NNEHENIKCMK.proto";
 message IPPGFCBJAGI {
-	uint32 uid = 1;
-	uint32 avatar_id = 2;
-	uint64 guid = 3;
-	uint32 peer_id = 4;
+	uint32 MNKGACNNOCF = 1;
+	uint32 EONMHIEGMJN = 2;
+	uint64 MEEFACEAADO = 3;
+	uint32 IBOMFADBIHP = 4;
 	repeated uint32 OFBNJGPMILG = 5;
-	uint32 skill_depot_id = 6;
-	repeated uint32 talent_id_list = 7;
-	SceneWeaponInfo weapon = 8;
-	repeated SceneReliquaryInfo CGBCOOPOLLL = 9;
-	uint32 core_proud_skill_level = 11;
-	repeated uint32 inherent_proud_skill_list = 12;
-	map<uint32, uint32> skill_level_map = 13;
-	map<uint32, uint32> proud_skill_extra_level_map = 14;
-	repeated ServerBuff server_buff_list = 15;
-	repeated uint32 team_resonance_list = 16;
-	uint32 wearing_flycloak_id = 17;
-	uint32 born_time = 18;
-	uint32 costume_id = 19;
+	uint32 LEJCNPJBLBH = 6;
+	repeated uint32 CPPABEAILEF = 7;
+	KOGLLGKJBFG MBCLKBCKGJN = 8;
+	repeated FNNPFGFHKCK CGBCOOPOLLL = 9;
+	uint32 HNALLCDPDPB = 11;
+	repeated uint32 IEPPCECONNA = 12;
+	map<uint32, uint32> CPKKCOCHEMN = 13;
+	map<uint32, uint32> PPLJELMLDBE = 14;
+	repeated IKGPNFFPDOG FJNAHDOEHKL = 15;
+	repeated uint32 KJGJKBEPGLH = 16;
+	uint32 CMAFABHLOMD = 17;
+	uint32 IEBGNGIPDOH = 18;
+	uint32 HGDMANGMCDI = 19;
 	IEDNAPEHNEN GIHOBNEGCOO = 20;
-	AvatarExcelInfo excel_info = 21;
-	uint32 anim_hash = 22;
+	NNEHENIKCMK PBIEABPFHJF = 21;
+	uint32 NFAFJLCJAMO = 22;
 }

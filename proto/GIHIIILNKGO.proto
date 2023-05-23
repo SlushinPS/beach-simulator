@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "FFDCLPDKHDF.proto";
 message GIHIIILNKGO {
 	uint32 CJLNFDJIDGK = 12;
 	repeated FFDCLPDKHDF BKIBKDEKNDP = 14;
 	uint32 HJJBACEEMBL = 4;
 	map<uint32, uint32> LFILECPIGLA = 15;
-	map<uint32, uint32> robot_num_map = 3;
+	map<uint32, uint32> OHGFMOFLFPJ = 3;
 	repeated uint32 FFDEGOEIHOL = 2;
 }

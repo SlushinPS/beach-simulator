@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PotionStageData.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "NPKFDGPCMMK.proto";
 message DPNFNNKEEOP {
-	repeated PotionStageData BCANEABAFMP = 4;
+	repeated NPKFDGPCMMK BCANEABAFMP = 4;
 }

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message DGAPKAKNFKK {
-	float x = 1;
-	float y = 2;
+	float DMLHAIJFDDP = 1;
+	float JHNLFDDOAGL = 2;
 }

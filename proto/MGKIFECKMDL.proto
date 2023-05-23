@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "LACENMJJAHB.proto";
 import "ODLCGPLCCDF.proto";
 message MGKIFECKMDL {
-	LACENMJJAHB op_type = 13;
+	LACENMJJAHB HJKACPAJMLJ = 13;
 	ODLCGPLCCDF DAMKJLDNFFA = 8;
-	uint32 entity_id = 9;
+	uint32 EHJPFMIFNHK = 9;
 }

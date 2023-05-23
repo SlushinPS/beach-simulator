@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "GMIOAJDAFAB.proto";
 // CmdId: 9267
 message GHMKKFEIGMK {
-	GMIOAJDAFAB enter_type = 8;
-	uint64 dungeon_guid = 2;
-	uint32 dungeon_id = 10;
+	GMIOAJDAFAB AHHLAAGBOBH = 8;
+	uint64 KDCFPDCOEOB = 2;
+	uint32 LKBPDEBOPBA = 10;
 }

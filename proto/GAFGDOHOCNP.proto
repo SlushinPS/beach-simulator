@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message GAFGDOHOCNP {
 	int32 PFCCFJBPFKD = 12;
-	uint32 start_time = 11;
-	bool is_paused = 1;
+	uint32 IDKOJHKKGOF = 11;
+	bool HPCHBAPLLNI = 1;
 }

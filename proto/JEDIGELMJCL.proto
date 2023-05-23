@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4718
 message JEDIGELMJCL {
-	string share_code = 2;
+	string LMKJDFPMJKF = 2;
 }

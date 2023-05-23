@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "PBDDPMHLPJG.proto";
-import "HitColliderType.proto";
+import "GKJOKLCBGMO.proto";
 message LFGGJIKICHD {
 	float BODOCDABOGL = 2;
 	float LGPPCHOBNEF = 8;
 	PBDDPMHLPJG MFKBMBAFDGJ = 5;
-	int32 hit_box_index = 6;
+	int32 GNKKCNKPNOO = 6;
 	PBDDPMHLPJG NMKKCNFCFMF = 10;
-	HitColliderType hit_collider_type = 11;
+	GKJOKLCBGMO JNJHEDKFELF = 11;
 }

@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PlatformType.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "OBGLBKLIHPE.proto";
 // CmdId: 989
 message HDNBCGCMHGF {
 	message KODBLKCIHHK {
 		string PAHDCJBJNEK = 3;
-		repeated PlatformType KHNMKBHEHNA = 11;
-		repeated uint32 monster_id_list = 5;
+		repeated OBGLBKLIHPE KHNMKBHEHNA = 11;
+		repeated uint32 JKNFEPNNHME = 5;
 	}
 	
 	repeated KODBLKCIHHK IDIMKEAJLCM = 10;

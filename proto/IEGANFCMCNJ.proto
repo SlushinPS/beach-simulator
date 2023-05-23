@@ -1,0 +1,88 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
+enum IEGANFCMCNJ {
+	IEGANFCMCNJ_AbilityNone = 0;
+	IEGANFCMCNJ_AbilityMetaModifierChange = 1;
+	IEGANFCMCNJ_AbilityMetaCommandModifierChangeRequest = 2;
+	IEGANFCMCNJ_AbilityMetaSpecialFloatArgument = 3;
+	IEGANFCMCNJ_AbilityMetaOverrideParam = 4;
+	IEGANFCMCNJ_AbilityMetaClearOverrideParam = 5;
+	IEGANFCMCNJ_AbilityMetaReinitOverridemap = 6;
+	IEGANFCMCNJ_AbilityMetaGlobalFloatValue = 7;
+	IEGANFCMCNJ_AbilityMetaClearGlobalFloatValue = 8;
+	IEGANFCMCNJ_AbilityMetaAbilityElementStrength = 9;
+	IEGANFCMCNJ_AbilityMetaAddOrGetAbilityAndTrigger = 10;
+	IEGANFCMCNJ_AbilityMetaSetKilledSetate = 11;
+	IEGANFCMCNJ_AbilityMetaSetAbilityTrigger = 12;
+	IEGANFCMCNJ_AbilityMetaAddNewAbility = 13;
+	IEGANFCMCNJ_AbilityMetaRemoveAbility = 14;
+	IEGANFCMCNJ_AbilityMetaSetModifierApplyEntity = 15;
+	IEGANFCMCNJ_AbilityMetaModifierDurabilityChange = 16;
+	IEGANFCMCNJ_AbilityMetaElementReactionVisual = 17;
+	IEGANFCMCNJ_AbilityMetaSetPoseParameter = 18;
+	IEGANFCMCNJ_AbilityMetaUpdateBaseReactionDamage = 19;
+	IEGANFCMCNJ_AbilityMetaTriggerElementReaction = 20;
+	IEGANFCMCNJ_AbilityMetaLoseHp = 21;
+	IEGANFCMCNJ_AbilityMetaDurabilityIsZero = 22;
+	IEGANFCMCNJ_AbilityActionTriggerAbility = 50;
+	IEGANFCMCNJ_AbilityActionSetCrashDamage = 51;
+	IEGANFCMCNJ_AbilityActionEffect = 52;
+	IEGANFCMCNJ_AbilityActionSummon = 53;
+	IEGANFCMCNJ_AbilityActionBlink = 54;
+	IEGANFCMCNJ_AbilityActionCreateGadget = 55;
+	IEGANFCMCNJ_AbilityActionApplyLevelModifier = 56;
+	IEGANFCMCNJ_AbilityActionGenerateElemBall = 57;
+	IEGANFCMCNJ_AbilityActionSetRandomOverrideMapValue = 58;
+	IEGANFCMCNJ_AbilityActionServerMonsterLog = 59;
+	IEGANFCMCNJ_AbilityActionCreateTile = 60;
+	IEGANFCMCNJ_AbilityActionDestroyTile = 61;
+	IEGANFCMCNJ_AbilityActionFireAfterImage = 62;
+	IEGANFCMCNJ_AbilityActionDeductStamina = 63;
+	IEGANFCMCNJ_AbilityActionHitEffect = 64;
+	IEGANFCMCNJ_AbilityActionSetBulletTrackTarget = 65;
+	IEGANFCMCNJ_AbilityActionFireworkEffect = 66;
+	IEGANFCMCNJ_AbilityMixinAvatarSteerByCamera = 100;
+	IEGANFCMCNJ_AbilityMixinMonsterDefend = 101;
+	IEGANFCMCNJ_AbilityMixinWindZone = 102;
+	IEGANFCMCNJ_AbilityMixinCostStamina = 103;
+	IEGANFCMCNJ_AbilityMixinEliteShield = 104;
+	IEGANFCMCNJ_AbilityMixinElementShield = 105;
+	IEGANFCMCNJ_AbilityMixinGlobalShield = 106;
+	IEGANFCMCNJ_AbilityMixinShieldBar = 107;
+	IEGANFCMCNJ_AbilityMixinWindSeedSpawner = 108;
+	IEGANFCMCNJ_AbilityMixinDoActionByElementReaction = 109;
+	IEGANFCMCNJ_AbilityMixinFieldEntityCountChange = 110;
+	IEGANFCMCNJ_AbilityMixinScenePropSync = 111;
+	IEGANFCMCNJ_AbilityMixinWidgetMpSupport = 112;
+	IEGANFCMCNJ_AbilityMixinDoActionBySelfModifierElementDurabilityRatio = 113;
+	IEGANFCMCNJ_AbilityMixinFireworksLauncher = 114;
+	IEGANFCMCNJ_AbilityMixinAttackResultCreateCount = 115;
+	IEGANFCMCNJ_AbilityMixinUgcTimeControl = 116;
+	IEGANFCMCNJ_AbilityMixinAvatarCombat = 117;
+	IEGANFCMCNJ_AbilityMixinDeathZoneRegionalPlayMixin = 118;
+	IEGANFCMCNJ_AbilityMixinUiInteract = 119;
+	IEGANFCMCNJ_AbilityMixinShootFromCamera = 120;
+	IEGANFCMCNJ_AbilityMixinEraseBrickActivity = 121;
+	IEGANFCMCNJ_AbilityMixinBreakout = 122;
+	IEGANFCMCNJ_AbilityMixinDamageLoan = 123;
+	IEGANFCMCNJ_AbilityMixinBroadcastGv = 124;
+	IEGANFCMCNJ_AbilityMixinReceiveGv = 125;
+	IEGANFCMCNJ_AbilityMixinEnergyCrystalTarget = 127;
+}

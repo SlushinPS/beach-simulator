@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4590
 message NPKFGKHDGLI {
-	bool is_agreed = 13;
-	uint32 apply_uid = 14;
-	int32 retcode = 7;
+	bool FIMEEAKHIFH = 13;
+	uint32 CAKPDEOKMPH = 14;
+	int32 POCANJMPGFB = 7;
 }

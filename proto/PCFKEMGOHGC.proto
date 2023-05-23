@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 import "GMIOAJDAFAB.proto";
 // CmdId: 9203
 message PCFKEMGOHGC {
-	GMIOAJDAFAB enter_type = 7;
-	int32 retcode = 11;
+	GMIOAJDAFAB AHHLAAGBOBH = 7;
+	int32 POCANJMPGFB = 11;
 }

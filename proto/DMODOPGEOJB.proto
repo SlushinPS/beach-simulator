@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message DMODOPGEOJB {
-	uint32 cur_score = 14;
-	uint32 combo_disable_time = 13;
-	uint32 combo = 1;
-	uint32 uid = 15;
+	uint32 COGGLHKCAHB = 14;
+	uint32 HKILOMLIFBA = 13;
+	uint32 LBCGHKBKPHE = 1;
+	uint32 MNKGACNNOCF = 15;
 }

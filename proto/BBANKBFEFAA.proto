@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ItemParam.proto";
+
+option java_package = "emu.grasscutter.net.proto";
+import "JOLBKGJKDDN.proto";
 message BBANKBFEFAA {
 	message NGEFDJMEEDL {
-		repeated ItemParam PDGBKGDPCEF = 1;
-		repeated ItemParam OGMINMOADBB = 2;
+		repeated JOLBKGJKDDN PDGBKGDPCEF = 1;
+		repeated JOLBKGJKDDN OGMINMOADBB = 2;
 	}
 	
-	string product_id = 1;
-	string price_tier = 2;
+	string PHIHBABCKGJ = 1;
+	string HJCAPNPDFLF = 2;
 	uint32 CCHKKIKFLKB = 3;
 	uint32 AHMBPFPAPJE = 4;
 	uint32 PFLPFGOIINB = 5;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message HDECMAKMBCC {
-	uint32 total_score = 6;
+	uint32 DDDCLLHOBJP = 6;
 	uint32 ABMJOAIFEEA = 13;
 }

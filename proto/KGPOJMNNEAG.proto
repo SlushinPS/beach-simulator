@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+
+option java_package = "emu.grasscutter.net.proto";
 message KGPOJMNNEAG {
-	uint32 open_time = 9;
-	uint32 chapter_id = 11;
+	uint32 LOOLOKIJHBJ = 9;
+	uint32 KBNDADAAEPA = 11;
 	uint32 AIFJJHBPCNK = 10;
 }
