@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8475
+// Obf: OEDOIFNBBFB
 message RogueDungeonPlayerCellChangeNotify {
 	uint32 cell_id = 6;
 	uint32 old_cell_id = 12;

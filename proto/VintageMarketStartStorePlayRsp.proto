@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 21534
+// Obf: EOJPDJPAPHI
 message VintageMarketStartStorePlayRsp {
 	int32 retcode = 2;
 	uint32 store_round = 5;
-	uint32 IDNADGCBNNF = 14;
-	uint32 OKLFEMHMEPM = 15;
+	uint32 DOBPHKELDMI = 14;
+	uint32 DPCAMJBDBNC = 15;
 }

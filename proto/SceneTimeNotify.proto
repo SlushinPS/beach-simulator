@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 245
+// Obf: JJACCGBIANL
 message SceneTimeNotify {
 	uint32 scene_id = 7;
 	uint64 scene_time = 5;

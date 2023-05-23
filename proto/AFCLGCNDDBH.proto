@@ -15,16 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LKCJKONCEDO.proto";
 message AFCLGCNDDBH {
-	uint32 ONNAEDFDEBF = 14;
-	uint32 MDPMJADANLD = 4;
-	uint32 ONJNOEBJLHH = 3;
-	LKCJKONCEDO BLFOKJOHAHM = 7;
+	uint32 CIAJCGKICOP = 14;
+	uint32 HNMFMCAMKAB = 4;
+	uint32 IPBIDJOGIIA = 3;
+	LKCJKONCEDO OHCEPJLFJCE = 7;
 	uint32 target_score = 15;
-	uint32 EJNMEDKNMDA = 12;
-	uint32 KPECIJJOLDH = 1;
-	repeated uint32 INPDIDMMFCD = 2;
-	repeated uint32 OEDICBDBPKB = 8;
-	bool KFJFJBFGAOC = 6;
+	uint32 OHPDNBDDBBG = 12;
+	uint32 JGALLAMOEDL = 1;
+	repeated uint32 HHMMEBCFNMN = 2;
+	repeated uint32 KLCCADMLNHJ = 8;
+	bool AOKAKNMHIBJ = 6;
 }

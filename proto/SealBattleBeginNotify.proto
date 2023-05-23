@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SealBattleType.proto";
 // CmdId: 260
+// Obf: BHDHBJGAEDG
 message SealBattleBeginNotify {
-	uint32 NFLDCGILICB = 13;
+	uint32 COBODMBALLN = 13;
 	SealBattleType battle_type = 3;
-	uint32 LELCJNDKDNL = 1;
+	uint32 NEBJNBBMOKB = 1;
 	uint32 seal_entity_id = 10;
 }

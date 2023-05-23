@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AranaraCollectionState.proto";
+// Obf: ANMLMDHANJA
 message AranaraCollectionSuite {
 	uint32 collection_type = 10;
 	map<uint32, AranaraCollectionState> collection_id_state_map = 4;

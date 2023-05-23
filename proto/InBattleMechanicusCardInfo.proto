@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "InBattleMechanicusCardChallengeState.proto";
+// Obf: CJGELEFLGKA
 message InBattleMechanicusCardInfo {
 	uint32 cost_points = 2;
-	uint32 DBOKAECKLPO = 11;
+	uint32 AHFPNNHBDCF = 11;
 	uint32 card_id = 7;
-	uint32 AFNPKMBFMOI = 3;
+	uint32 LFEEOJFGEGO = 3;
 	InBattleMechanicusCardChallengeState challenge_state = 1;
-	uint32 MEIMMLPELCI = 10;
+	uint32 CMNHNJMLOGN = 10;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "CCIIFFLNJFI.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "CoinCollectStageInfo.proto";
 // CmdId: 6455
+// Obf: LALGGEHKIAE
 message CoinCollectPrepareStageNotify {
-	CCIIFFLNJFI coin_collect_info = 7;
+	CoinCollectStageInfo coin_collect_info = 7;
 }

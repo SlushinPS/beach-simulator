@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "StoreType.proto";
 // CmdId: 696
+// Obf: DCOJNBIAKNK
 message StoreWeightLimitNotify {
 	uint32 weight_limit = 7;
 	uint32 material_count_limit = 5;

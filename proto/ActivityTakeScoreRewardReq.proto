@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8041
+// Obf: HLKHDKGNDPO
 message ActivityTakeScoreRewardReq {
 	uint32 reward_config_id = 12;
 	uint32 activity_id = 9;

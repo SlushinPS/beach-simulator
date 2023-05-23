@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: COGCCGNJACN
 enum EventTriggerType {
-	EventTriggerType_EventTriggerNone = 0;
-	EventTriggerType_EventTriggerEnterForce = 1;
+	EVENT_TRIGGER_NONE = 0;
+	EVENT_TRIGGER_ENTER_FORCE = 1;
 }

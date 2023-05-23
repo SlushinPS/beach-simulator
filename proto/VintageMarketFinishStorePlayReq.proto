@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "VintageMarketStoreOpInfo.proto";
 // CmdId: 21794
+// Obf: LEIHCOLOOLO
 message VintageMarketFinishStorePlayReq {
 	uint32 store_round = 13;
 	repeated VintageMarketStoreOpInfo store_op_list = 2;

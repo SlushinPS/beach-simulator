@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: CLABPDKNMDH
 enum StoreType {
-	StoreType_StoreNone = 0;
-	StoreType_StorePack = 1;
-	StoreType_StoreDepot = 2;
+	STORE_TYPE_NONE = 0;
+	STORE_TYPE_PACK = 1;
+	STORE_TYPE_DEPOT = 2;
 }

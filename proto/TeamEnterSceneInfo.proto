@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AbilitySyncStateInfo.proto";
 import "AbilityControlBlock.proto";
+// Obf: CIPMBEDPLNL
 message TeamEnterSceneInfo {
 	uint32 team_entity_id = 6;
 	AbilitySyncStateInfo team_ability_info = 10;

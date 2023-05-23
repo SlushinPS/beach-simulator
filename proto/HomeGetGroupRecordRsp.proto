@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HomeGroupRecord.proto";
 // CmdId: 4798
+// Obf: GBLINHCLCKG
 message HomeGetGroupRecordRsp {
 	uint32 record_type = 5;
 	int32 retcode = 10;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 336
+// Obf: FLLMEHMJIDK
 message MonsterAlertChangeNotify {
 	repeated uint32 monster_entity_list = 12;
 	uint32 avatar_entity_id = 3;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2758
+// Obf: GGBBBJMFPKE
 message OpenBlossomCircleCampGuideNotify {
 	repeated uint32 circle_camp_id_list = 10;
 	uint32 refresh_id = 5;

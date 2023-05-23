@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4205
+// Obf: PHKFECLEDJN
 message SetCodexPushtipsReadReq {
-	uint32 PFFCFHDPKGI = 12;
-	uint32 FKEILGJNBPK = 15;
+	uint32 GMMHIHAOJIM = 12;
+	uint32 HFJNAAGCKFJ = 15;
 }

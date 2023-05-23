@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: KKNEGGLBKML
 enum UgcType {
-	UgcType_None = 0;
-	UgcType_MusicGame = 1;
+	UGC_TYPE_NONE = 0;
+	UGC_TYPE_MUSIC_GAME = 1;
 }

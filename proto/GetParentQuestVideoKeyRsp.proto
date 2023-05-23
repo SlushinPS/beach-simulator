@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 418
+// Obf: NJKJOLKFGGK
 message GetParentQuestVideoKeyRsp {
 	uint64 video_key = 7;
 	uint32 parent_quest_id = 13;

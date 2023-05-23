@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CustomDungeonSetting.proto";
 import "CustomDungeonRoom.proto";
+// Obf: CJMOPGOKAOI
 message CustomDungeon {
 	CustomDungeonSetting setting = 6;
 	uint32 dungeon_id = 1;

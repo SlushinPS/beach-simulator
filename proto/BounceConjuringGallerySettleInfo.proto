@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "OnlinePlayerInfo.proto";
 import "ExhibitionDisplayInfo.proto";
+// Obf: PCBLEBIILAN
 message BounceConjuringGallerySettleInfo {
-	uint32 GPFCKFADFOF = 6;
+	uint32 JFHBNFOLDIJ = 6;
 	OnlinePlayerInfo player_info = 2;
 	float damage = 12;
-	uint32 BKKAPHHDMLI = 7;
-	uint32 CKIBOBCLBKH = 4;
+	uint32 FDBJPHKOJNP = 7;
+	uint32 DENKIECJPBM = 4;
 	repeated ExhibitionDisplayInfo card_list = 14;
-	uint32 BKLEMAOHCBP = 15;
+	uint32 KIEIAGOGEIE = 15;
 	uint32 score = 5;
 	map<uint32, uint32> gadget_count_map = 11;
 }

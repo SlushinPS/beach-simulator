@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "QuestVarOp.proto";
 // CmdId: 438
+// Obf: JDNJONIOMEA
 message QuestUpdateQuestVarReq {
 	uint32 parent_quest_var_seq = 11;
 	uint32 parent_quest_id = 1;

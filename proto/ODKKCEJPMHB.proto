@@ -15,8 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PMLBGEEJJHJ.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "GCGGameBriefData.proto";
 // CmdId: 7635
 message ODKKCEJPMHB {
-	PMLBGEEJJHJ CFMGEJGGEDG = 11;
+	GCGGameBriefData PMOCGLCPCOB = 11;
 }

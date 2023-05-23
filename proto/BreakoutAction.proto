@@ -15,14 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BreakoutVector2.proto";
+// Obf: LAPCONCKKIG
 message BreakoutAction {
+	// Obf: LBKMLLJIKHB
 	enum BreakoutActionType {
-		ActionTypeNone = 0;
-		ActionTypeLaunchBall = 1;
-		ActionTypeDestroyBall = 2;
-		ActionTypeFallingObject = 3;
-		ActionTypeMissile = 4;
+		ACTION_TYPE_NONE = 0;
+		ACTION_TYPE_LAUNCH_BALL = 1;
+		ACTION_TYPE_DESTROY_BALL = 2;
+		ACTION_TYPE_FALLING_OBJECT = 3;
+		ACTION_TYPE_MISSILE = 4;
 	}
 	
 	BreakoutActionType action_type = 1;
@@ -42,5 +45,5 @@ message BreakoutAction {
 	BreakoutVector2 extra_ball_dir = 15;
 	uint32 extra_ball_index = 16;
 	int32 offset = 17;
-	uint64 ANLINOMCGEE = 18;
+	uint64 HPPJKHIDMIF = 18;
 }

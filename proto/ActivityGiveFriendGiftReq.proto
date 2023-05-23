@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8439
+// Obf: KHBFIFNHJDJ
 message ActivityGiveFriendGiftReq {
 	uint32 schedule_id = 13;
 	map<uint32, uint32> gift_num_map = 1;

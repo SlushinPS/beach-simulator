@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "MPEONKDACFL.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HomeLimitedShopInfo.proto";
 // CmdId: 4852
+// Obf: PGHENMOIDIC
 message HomeLimitedShopInfoNotify {
-	MPEONKDACFL KAEJGDGFINE = 7;
+	HomeLimitedShopInfo shop_info = 7;
 }

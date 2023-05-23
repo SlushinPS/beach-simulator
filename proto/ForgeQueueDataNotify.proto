@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ForgeQueueData.proto";
 // CmdId: 646
+// Obf: IHBNKIMJDCB
 message ForgeQueueDataNotify {
 	map<uint32, ForgeQueueData> forge_queue_map = 15;
 	repeated uint32 removed_forge_queue_list = 14;

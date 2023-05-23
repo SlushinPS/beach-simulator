@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: ODJEENMANEG
 enum BargainResultType {
-	BargainResultType_BargainCompleteSucc = 0;
-	BargainResultType_BargainSingleFail = 1;
-	BargainResultType_BargainCompleteFail = 2;
+	BARGAIN_COMPLETE_SUCC = 0;
+	BARGAIN_SINGLE_FAIL = 1;
+	BARGAIN_COMPLETE_FAIL = 2;
 }

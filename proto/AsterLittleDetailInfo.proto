@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AsterLittleStageState.proto";
+// Obf: LGDFNBJMBAB
 message AsterLittleDetailInfo {
 	uint32 stage_id = 9;
 	AsterLittleStageState stage_state = 7;

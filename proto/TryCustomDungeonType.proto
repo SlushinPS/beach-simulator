@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: PDNHHHHPBOK
 enum TryCustomDungeonType {
-	TryCustomDungeonType_TryCustomDungeonNone = 0;
-	TryCustomDungeonType_TryCustomDungeonRoom = 1;
-	TryCustomDungeonType_TryCustomDungeonAll = 2;
-	TryCustomDungeonType_TryCustomDungeonOfficialPlay = 3;
+	TRY_CUSTOM_DUNGEON_NONE = 0;
+	TRY_CUSTOM_DUNGEON_ROOM = 1;
+	TRY_CUSTOM_DUNGEON_ALL = 2;
+	TRY_CUSTOM_DUNGEON_OFFICIAL_PLAY = 3;
 }

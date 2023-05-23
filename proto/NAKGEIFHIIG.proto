@@ -15,13 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "KEGBPAFAOCE.proto";
 import "JKOIFIGOCAC.proto";
 import "FCHFBEOPIMF.proto";
 // CmdId: 7051
 message NAKGEIFHIIG {
-	KEGBPAFAOCE CCNJIJFELKE = 13;
-	JKOIFIGOCAC NEMKPGCLLKI = 2;
-	FCHFBEOPIMF PEFNNDBNPIE = 1;
+	KEGBPAFAOCE ICKPJBGPANH = 13;
+	JKOIFIGOCAC LKCODIHIBPL = 2;
+	FCHFBEOPIMF detail_info = 1;
 	int32 retcode = 6;
 }

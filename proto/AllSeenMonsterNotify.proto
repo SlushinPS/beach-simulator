@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 262
+// Obf: NKJIDFEHLEN
 message AllSeenMonsterNotify {
 	repeated uint32 monster_id_list = 2;
 }

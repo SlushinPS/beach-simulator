@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FireworksLaunchSchemeData.proto";
 // CmdId: 6007
+// Obf: PHEIBOINJNF
 message FireworksLaunchDataNotify {
 	uint32 last_use_scheme_id = 7;
 	repeated FireworksLaunchSchemeData scheme_data_list = 10;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BargainResultType.proto";
 // CmdId: 476
+// Obf: LDAHLOOJGPD
 message BargainOfferPriceRsp {
 	int32 cur_mood = 6;
 	int32 retcode = 5;

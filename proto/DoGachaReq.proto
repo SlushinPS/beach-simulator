@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1502
+// Obf: HHMFFFGMBJP
 message DoGachaReq {
-	uint32 LBJFOJCMMLH = 15;
-	uint32 CGGBDHHMEDP = 9;
-	string gacha_tag = 14;
-	uint32 GDJJLJNLOIO = 12;
-	uint32 FCLILAONANJ = 1;
+	uint32 gachaRandom = 15;
+	uint32 gachaScheduleId = 9;
+	string gachaTag = 14;
+	uint32 gachaType = 12;
+	uint32 gachaTimes = 1;
 }

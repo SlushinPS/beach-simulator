@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AsterMidCampInfo.proto";
+// Obf: LCEADPMNHGH
 message AsterMidDetailInfo {
 	bool is_open = 9;
 	uint32 collect_count = 4;

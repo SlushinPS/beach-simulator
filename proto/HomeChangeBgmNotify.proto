@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4479
+// Obf: HIMMOIJJPGB
 message HomeChangeBgmNotify {
 	uint32 bgm_id = 15;
 }

@@ -15,13 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AFCLGCNDDBH.proto";
 import "OMJBALCDKJK.proto";
 // CmdId: 9207
 message MBOJPKHDJNC {
-	AFCLGCNDDBH PDCLLHGEKFO = 13;
+	AFCLGCNDDBH BPPDFFHHANO = 13;
 	uint64 guid = 15;
 	repeated OMJBALCDKJK room_list = 12;
 	bool is_update_setting = 1;
-	bool HDEOKJJJHCM = 7;
+	bool NJCOJPBANAI = 7;
 }

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
+// Obf: CEKLMKGAAMM
 message VehicleLocationInfo {
-	float HPKGDHPIAMA = 10;
-	float GBJAFCNFHEB = 1;
+	float BPINFNMHLLL = 10;
+	float DCCJBGLMDOC = 1;
 	repeated uint32 uid_list = 12;
 	uint32 entity_id = 7;
 	uint32 owner_uid = 9;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "InvestigationMonster.proto";
 // CmdId: 1924
+// Obf: MIPONPDFIHM
 message InvestigationMonsterUpdateNotify {
 	InvestigationMonster investigation_monster = 7;
 }

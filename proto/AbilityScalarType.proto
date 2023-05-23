@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: EBCOKIIELIE
 enum AbilityScalarType {
-	AbilityScalarType_Unknow = 0;
-	AbilityScalarType_Float = 1;
-	AbilityScalarType_Int = 2;
-	AbilityScalarType_Bool = 3;
-	AbilityScalarType_Trigger = 4;
-	AbilityScalarType_string = 5;
-	AbilityScalarType_Uint = 6;
+	ABILITY_SCALAR_TYPE_UNKNOW = 0;
+	ABILITY_SCALAR_TYPE_FLOAT = 1;
+	ABILITY_SCALAR_TYPE_INT = 2;
+	ABILITY_SCALAR_TYPE_BOOL = 3;
+	ABILITY_SCALAR_TYPE_TRIGGER = 4;
+	ABILITY_SCALAR_TYPE_STRING = 5;
+	ABILITY_SCALAR_TYPE_UINT = 6;
 }

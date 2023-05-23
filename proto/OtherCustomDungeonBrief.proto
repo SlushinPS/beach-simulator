@@ -15,20 +15,22 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CustomDungeonSocial.proto";
 import "CustomDungeonSetting.proto";
 import "CustomDungeonAbstract.proto";
 import "SocialDetail.proto";
+// Obf: HMOAEGIHIGA
 message OtherCustomDungeonBrief {
 	CustomDungeonSocial social = 2;
 	CustomDungeonSetting setting = 13;
-	bool MEBGIEEMBND = 14;
+	bool HKNCBLBMNBC = 14;
 	uint64 dungeon_guid = 9;
 	uint32 battle_min_cost_time = 5;
 	repeated uint32 tag_list = 15;
 	CustomDungeonAbstract abstract = 10;
 	bool is_psn_platform = 3;
 	uint32 dungeon_id = 1;
-	bool ODDKOBODKEG = 11;
+	bool BILNJJLBHIC = 11;
 	SocialDetail creator_detail = 4;
 }

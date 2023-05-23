@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: FGDIKNPBEMG
 enum ResinCostType {
-	ResinCostType_None = 0;
-	ResinCostType_Normal = 1;
-	ResinCostType_Condense = 2;
-	ResinCostType_ReunionPrivilege = 3;
-	ResinCostType_OpActivity = 4;
-	ResinCostType_Material = 5;
+	RESIN_COST_TYPE_NONE = 0;
+	RESIN_COST_TYPE_NORMAL = 1;
+	RESIN_COST_TYPE_CONDENSE = 2;
+	RESIN_COST_TYPE_REUNION_PRIVILEGE = 3;
+	RESIN_COST_TYPE_OP_ACTIVITY = 4;
+	RESIN_COST_TYPE_MATERIAL = 5;
 }

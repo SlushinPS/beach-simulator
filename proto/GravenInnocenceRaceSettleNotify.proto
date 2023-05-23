@@ -15,17 +15,19 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "GalleryStopReason.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HDDANIDHCMI.proto";
 // CmdId: 24356
+// Obf: MIKKPOKHFPA
 message GravenInnocenceRaceSettleNotify {
 	bool is_new_record = 3;
-	uint32 HEBCNDABLGJ = 12;
-	uint32 JOOONBNKAGD = 1;
+	uint32 OHFJJJNAIKN = 12;
+	uint32 EFDEFAPICPP = 1;
 	uint32 score = 14;
 	uint32 gallery_id = 4;
 	bool is_success = 8;
-	uint32 CMAMFEDIMEO = 10;
-	GalleryStopReason reason = 6;
+	uint32 NHGEAMPJEEM = 10;
+	HDDANIDHCMI reason = 6;
 	uint32 level_id = 15;
-	uint32 HFLFGGKDNFG = 11;
+	uint32 CKGDCGAGEDA = 11;
 }

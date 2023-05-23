@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: ECHELFAJJKI
 message CustomDungeonAbstract {
 	map<uint32, uint32> brick_statistics_map = 5;
 	uint32 first_publish_time = 10;
-	uint32 FGEKEJIJEOD = 8;
+	uint32 HKDPKCOMKPK = 8;
 	uint32 last_publish_time = 2;
-	uint32 AGHANPFDNPL = 12;
+	uint32 MJAOONEPHPL = 12;
 }

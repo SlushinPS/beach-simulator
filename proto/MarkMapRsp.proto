@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MapMarkPoint.proto";
 // CmdId: 3239
+// Obf: CHEHBLCPPJH
 message MarkMapRsp {
 	repeated MapMarkPoint mark_list = 12;
 	int32 retcode = 3;

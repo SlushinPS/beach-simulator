@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8037
+// Obf: CLDNIDNBGAH
 message RogueHealAvatarsRsp {
 	int32 retcode = 11;
 	uint32 dungeon_id = 5;

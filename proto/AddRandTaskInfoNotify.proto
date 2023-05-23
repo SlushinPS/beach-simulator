@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 110
+// Obf: HPHBIEGDFGM
 message AddRandTaskInfoNotify {
 	Vector pos = 14;
 	uint32 rand_task_id = 5;

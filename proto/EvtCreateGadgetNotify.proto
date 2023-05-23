@@ -15,27 +15,29 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ForwardType.proto";
 import "Vector.proto";
 // CmdId: 355
+// Obf: DGNDHHIGNBD
 message EvtCreateGadgetNotify {
 	uint32 camp_id = 11;
 	uint64 guid = 13;
-	uint32 IPAOHBBDHBN = 9;
+	uint32 DNAKOOADMLE = 9;
 	repeated uint32 target_lock_point_index_list = 1869;
-	bool BFHPDEMNGJO = 12;
+	bool OFEAKOJIKCA = 12;
 	uint32 entity_id = 10;
 	ForwardType forward_type = 4;
-	bool NHMFDGLCHPK = 174;
-	Vector KFOPAKLLJHL = 1;
+	bool is_async_load = 174;
+	Vector InitPos = 1;
 	uint32 owner_entity_id = 8;
 	uint32 room_id = 3;
-	uint32 AJHOCIPOMFO = 2;
+	uint32 prop_owner_entity_id = 2;
 	uint32 target_entity_id = 7;
 	bool is_peer_id_from_player = 172;
 	uint32 config_id = 15;
 	uint32 camp_type = 5;
-	Vector APIDFLDIKJP = 14;
-	bool CPEAMBJJDAP = 6;
+	Vector InitEulerAngles = 14;
+	bool KJLIAJBFMKL = 6;
 	repeated uint32 target_entity_id_list = 418;
 }

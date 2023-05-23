@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AbilityInvokeEntryHead.proto";
 import "AbilityInvokeArgument.proto";
 import "ForwardType.proto";
+// Obf: ELGIBELOGKF
 message AbilityInvokeEntry {
 	uint32 event_id = 8;
 	uint32 entity_id = 10;

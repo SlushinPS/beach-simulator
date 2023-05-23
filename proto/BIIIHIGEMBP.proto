@@ -15,17 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "FOFMOHPPKPO.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "QueryFilter.proto";
 import "Vector.proto";
 import "Vector3Int.proto";
 // CmdId: 2317
 message BIIIHIGEMBP {
-	FOFMOHPPKPO DNENHNOGAJN = 2;
+	QueryFilter filter = 2;
 	uint32 scene_id = 4;
 	Vector destination_pos = 1;
 	int32 query_id = 12;
 	int32 uid = 5;
-	Vector3Int CDJMADILEBN = 13;
+	Vector3Int OCDLHELPCKN = 13;
 	Vector source_pos = 9;
-	Vector3Int FMALKPNLFIE = 15;
+	Vector3Int COBIGJHHLJJ = 15;
 }

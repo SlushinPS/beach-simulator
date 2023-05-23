@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4671
+// Obf: ICMOFCCCLIN
 message TakeFurnitureMakeReq {
 	uint32 make_id = 12;
 	bool is_fast_finish = 8;

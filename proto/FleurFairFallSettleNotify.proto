@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FleurFairFallSettleInfo.proto";
 // CmdId: 2112
+// Obf: GNBFNMEAMNF
 message FleurFairFallSettleNotify {
 	uint32 minigame_id = 8;
 	map<uint32, FleurFairFallSettleInfo> settle_info_map = 13;

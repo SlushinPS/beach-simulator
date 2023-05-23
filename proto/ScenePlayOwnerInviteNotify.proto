@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4398
+// Obf: CDGILLOLAKA
 message ScenePlayOwnerInviteNotify {
 	uint32 invite_cd = 1;
 	uint32 play_id = 2;

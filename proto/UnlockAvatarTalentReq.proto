@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1075
+// Obf: DOFKMGNPCOO
 message UnlockAvatarTalentReq {
 	uint64 avatar_guid = 9;
 	uint32 talent_id = 7;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerWorldSceneInfo.proto";
 // CmdId: 3422
+// Obf: BJMKMMHILOB
 message PlayerWorldSceneInfoListNotify {
 	repeated PlayerWorldSceneInfo info_list = 12;
 }

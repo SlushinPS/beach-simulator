@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HomePlantFieldData.proto";
 // CmdId: 4678
+// Obf: CLKKIJEGJMK
 message HomePlantFieldNotify {
 	HomePlantFieldData field = 4;
 }

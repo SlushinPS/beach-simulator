@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ToTheMoonObstacleInfo.proto";
 // CmdId: 6148
+// Obf: GOGGGOPKCDG
 message ToTheMoonAddObstacleReq {
 	ToTheMoonObstacleInfo obstacle = 4;
 	int32 query_id = 11;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SalvagePreventSettleInfo.proto";
 // CmdId: 8307
+// Obf: GMJFKKGHKNG
 message SalvagePreventSettleNotify {
 	uint32 gallery_id = 10;
 	SalvagePreventSettleInfo settle_info = 15;

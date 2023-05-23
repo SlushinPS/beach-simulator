@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CustomDungeon.proto";
 import "EnterCustomDungeonType.proto";
 // CmdId: 6208
+// Obf: LJEKKIJMALI
 message EnterCustomDungeonRsp {
 	int32 retcode = 7;
 	CustomDungeon custom_dungeon = 3;

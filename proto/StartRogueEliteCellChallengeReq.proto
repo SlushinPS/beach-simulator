@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RogueEliteCellDifficultyType.proto";
 // CmdId: 8527
+// Obf: OPLFHELDAHO
 message StartRogueEliteCellChallengeReq {
 	uint32 dungeon_id = 7;
 	uint32 cell_id = 10;

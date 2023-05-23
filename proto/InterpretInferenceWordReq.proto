@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 410
+// Obf: PLBKCHMFCKC
 message InterpretInferenceWordReq {
 	uint32 word_id = 9;
 	uint32 page_id = 3;

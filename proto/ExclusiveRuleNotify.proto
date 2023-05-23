@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ExclusiveRuleInfo.proto";
 // CmdId: 113
+// Obf: KOPBCIIODNP
 message ExclusiveRuleNotify {
 	repeated ExclusiveRuleInfo rule_info_list = 14;
 }

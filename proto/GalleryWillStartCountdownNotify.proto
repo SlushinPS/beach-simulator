@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "GalleryStartSource.proto";
 // CmdId: 5526
+// Obf: HPLCPGGJMBC
 message GalleryWillStartCountdownNotify {
 	uint32 end_time = 4;
 	uint32 gallery_id = 3;

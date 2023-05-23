@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MapMarkTipsType.proto";
+// Obf: GADPFBOGKOD
 message MapMarkTipsInfo {
 	MapMarkTipsType tips_type = 1;
 	repeated uint32 point_id_list = 2;

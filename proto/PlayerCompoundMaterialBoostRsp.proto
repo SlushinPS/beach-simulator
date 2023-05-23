@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CompoundQueueData.proto";
 import "CompoundBoostTakeStatusType.proto";
 import "ItemParam.proto";
 // CmdId: 173
+// Obf: OECDPFKACOM
 message PlayerCompoundMaterialBoostRsp {
-	repeated CompoundQueueData compound_que_data_list = 2;
+	repeated CompoundQueueData compoundQueueDataList = 2;
 	CompoundBoostTakeStatusType take_status = 3;
 	int32 retcode = 14;
 	repeated ItemParam take_item_list = 13;

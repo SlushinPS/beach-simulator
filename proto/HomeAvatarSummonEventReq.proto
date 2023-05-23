@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4777
+// Obf: LKHMJDHGINB
 message HomeAvatarSummonEventReq {
 	uint32 guid = 1;
 	uint32 suit_id = 7;

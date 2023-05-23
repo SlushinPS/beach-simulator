@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerDieType.proto";
 // CmdId: 994
+// Obf: JMLIFMDIDOM
 message DungeonPlayerDieReq {
 	uint32 dungeon_id = 9;
 	PlayerDieType die_type = 7;

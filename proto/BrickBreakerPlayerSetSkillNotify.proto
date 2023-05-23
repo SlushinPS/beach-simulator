@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5382
+// Obf: MKKAOFDLIPM
 message BrickBreakerPlayerSetSkillNotify {
 	uint32 uid = 10;
 	repeated uint32 skill_id_list = 13;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
+// Obf: IBAACKMBMDC
 message WinterCampStageInfo {
 	uint32 open_time = 7;
 	Vector pos = 4;

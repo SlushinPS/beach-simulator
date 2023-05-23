@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Item.proto";
 import "StoreType.proto";
 // CmdId: 602
+// Obf: MEIPEBBLOAK
 message StoreItemChangeNotify {
 	repeated Item item_list = 4;
 	StoreType store_type = 7;

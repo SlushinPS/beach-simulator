@@ -1,0 +1,45 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "VintageMarketDealInfo.proto";
+import "VintageMarketStoreInfo.proto";
+// Obf: PDENNFLJELI
+message VintageMarketInfo {
+	map<uint32, bool> bargain_info_map = 11;
+	repeated uint32 MEEJFKENNMP = 13;
+	uint32 CLPNPHDFNBH = 6;
+	bool ALAECLHNADI = 10;
+	repeated uint32 BPOFBDLJFPK = 949;
+	bool LNEAMNHFFMO = 7;
+	repeated uint32 JABDNKAFNLP = 9;
+	uint32 FFOKDDBKLOA = 5;
+	bool IIPEEFDNMDK = 425;
+	repeated uint32 LBLKBOHLCOK = 12;
+	bool ODNMKMIFAOB = 8;
+	bool HBGKGPCPKKI = 4;
+	uint32 BKNOJOEHIMI = 142;
+	uint32 KNEDMCJKLNI = 1042;
+	repeated uint32 unlock_strategy_list = 1;
+	VintageMarketDealInfo deal_info = 14;
+	uint32 store_round = 2;
+	repeated VintageMarketStoreInfo open_store_list = 15;
+	bool OELIEEFPHHF = 1856;
+	bool OPEBDIBANJC = 1190;
+	bool OAFFFOFDCEH = 3;
+	uint32 CPJECBCDIAF = 162;
+}

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 import "InterOpType.proto";
 // CmdId: 5225
+// Obf: BNJDIEFADNA
 message MiracleRingDeliverItemReq {
 	uint32 gadget_id = 11;
 	uint32 gadget_entity_id = 4;

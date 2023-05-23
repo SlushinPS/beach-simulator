@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2018
+// Obf: ELKCIDGPCNM
 message SeaLampTakePhaseRewardReq {
 	uint32 phase_id = 13;
 	uint32 activity_id = 15;

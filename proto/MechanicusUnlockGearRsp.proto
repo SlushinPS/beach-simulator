@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 3935
+// Obf: DPLJMGGADAP
 message MechanicusUnlockGearRsp {
 	int32 retcode = 5;
 	uint32 gear_id = 3;

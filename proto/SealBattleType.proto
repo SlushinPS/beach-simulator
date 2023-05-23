@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: AFBFPFBHEAO
 enum SealBattleType {
-	SealBattleType_SealBattleKeepAlive = 0;
-	SealBattleType_SealBattleKillMonster = 1;
-	SealBattleType_SealBattleEnergyCharge = 2;
+	SEAL_BATTLE_KEEP_ALIVE = 0;
+	SEAL_BATTLE_KILL_MONSTER = 1;
+	SEAL_BATTLE_ENERGY_CHARGE = 2;
 }

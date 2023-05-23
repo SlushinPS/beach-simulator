@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: MJDHHOAILGG
 enum RecordUsage {
-	RecordUsage_UgcRecordUsageNone = 0;
-	RecordUsage_UgcRecordUsageImport = 1;
-	RecordUsage_UgcRecordUsagePlay = 2;
-	RecordUsage_UgcRecordUsageTrial = 3;
-	RecordUsage_UgcRecordUsageCompare = 4;
+	UGC_RECORD_USAGE_NONE = 0;
+	UGC_RECORD_USAGE_IMPORT = 1;
+	UGC_RECORD_USAGE_PLAY = 2;
+	UGC_RECORD_USAGE_TRIAL = 3;
+	UGC_RECORD_USAGE_COMPARE = 4;
 }

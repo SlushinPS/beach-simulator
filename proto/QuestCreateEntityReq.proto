@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CreateEntityInfo.proto";
 // CmdId: 430
+// Obf: BBJKMAIOOLD
 message QuestCreateEntityReq {
 	bool is_rewind = 12;
 	uint32 quest_id = 15;

@@ -15,20 +15,22 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: KLLMIOGKNNI
 enum ProtEntityType {
-	ProtEntityType_ProtEntityNone = 0;
-	ProtEntityType_ProtEntityAvatar = 1;
-	ProtEntityType_ProtEntityMonster = 2;
-	ProtEntityType_ProtEntityNpc = 3;
-	ProtEntityType_ProtEntityGadget = 4;
-	ProtEntityType_ProtEntityRegion = 5;
-	ProtEntityType_ProtEntityWeapon = 6;
-	ProtEntityType_ProtEntityWeather = 7;
-	ProtEntityType_ProtEntityScene = 8;
-	ProtEntityType_ProtEntityTeam = 9;
-	ProtEntityType_ProtEntityMassiveEntity = 10;
-	ProtEntityType_ProtEntityMpLevel = 11;
-	ProtEntityType_ProtEntityPlayTeamEntity = 12;
-	ProtEntityType_ProtEntityEyePoint = 13;
-	ProtEntityType_ProtEntityMax = 14;
+	PROT_ENTITY_TYPE_NONE = 0;
+	PROT_ENTITY_TYPE_AVATAR = 1;
+	PROT_ENTITY_TYPE_MONSTER = 2;
+	PROT_ENTITY_TYPE_NPC = 3;
+	PROT_ENTITY_TYPE_GADGET = 4;
+	PROT_ENTITY_TYPE_REGION = 5;
+	PROT_ENTITY_TYPE_WEAPON = 6;
+	PROT_ENTITY_TYPE_WEATHER = 7;
+	PROT_ENTITY_TYPE_SCENE = 8;
+	PROT_ENTITY_TYPE_TEAM = 9;
+	PROT_ENTITY_TYPE_MASSIVE_ENTITY = 10;
+	PROT_ENTITY_TYPE_MP_LEVEL = 11;
+	PROT_ENTITY_TYPE_PLAY_TEAM_ENTITY = 12;
+	PROT_ENTITY_TYPE_EYE_POINT = 13;
+	PROT_ENTITY_TYPE_MAX = 14;
 }

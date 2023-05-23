@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MatchReason.proto";
 // CmdId: 4163
+// Obf: BKBJGKENNBI
 message PlayerGCGMatchDismissNotify {
 	repeated uint32 uid_list = 11;
 	uint32 match_id = 12;

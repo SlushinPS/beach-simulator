@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: NEIEMOHMLEA
 enum WIDGET_EXTRA_CD_TYPE {
-	WIDGET_EXTRA_CD_TYPE_None = 0;
-	WIDGET_EXTRA_CD_TYPE_ESkillShared = 1;
+	WIDGET_EXTRA_CD_TYPE_NONE = 0;
+	WIDGET_EXTRA_CD_TYPE_E_SKILL_SHARED = 1;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ADMOGMEBELJ.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "BlossomChestInfo.proto";
 // CmdId: 835
+// Obf: JPJFICLJICJ
 message BlossomChestInfoNotify {
 	uint32 entity_id = 11;
-	ADMOGMEBELJ blossom_chest_info = 14;
+	BlossomChestInfo blossom_chest_info = 14;
 }

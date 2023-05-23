@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: ODFOOJKNHIL
 message HomeModuleComfortInfo {
 	repeated uint32 world_scene_block_comfort_value_list = 11;
 	uint32 module_id = 15;

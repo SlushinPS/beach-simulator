@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "DungeonEnterPosInfo.proto";
 // CmdId: 902
+// Obf: EECBNNIALIE
 message PlayerEnterDungeonReq {
 	uint32 dungeon_id = 15;
 	uint32 point_id = 13;

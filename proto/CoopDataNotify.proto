@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CoopChapter.proto";
 // CmdId: 1975
+// Obf: MJGBMHPLNKH
 message CoopDataNotify {
 	uint32 cur_coop_point = 13;
 	bool is_have_progress = 10;

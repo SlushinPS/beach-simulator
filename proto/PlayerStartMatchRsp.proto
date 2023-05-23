@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MatchType.proto";
 // CmdId: 4158
+// Obf: EPIGPKHDAID
 message PlayerStartMatchRsp {
 	uint32 mp_play_id = 15;
 	uint32 mechanicus_difficult_level = 4;

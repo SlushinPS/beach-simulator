@@ -15,6 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PAIKOEOJBGI.proto";
 import "PLKCIBEIPJL.proto";
 import "MFNFGKNAIEH.proto";
@@ -22,10 +23,10 @@ import "DAAFMOLJHKM.proto";
 import "OLPPDBHJNBI.proto";
 import "DGAODBFGKJM.proto";
 message DONOOJBPJAD {
-	repeated PAIKOEOJBGI ACGCKJOFBNE = 1;
+	repeated PAIKOEOJBGI DJGDHHABEFK = 1;
 	repeated PLKCIBEIPJL monster_list = 7;
-	repeated MFNFGKNAIEH IENPCIOFOMG = 11;
-	repeated DAAFMOLJHKM CNBMOLLPFLE = 3;
-	repeated OLPPDBHJNBI AGJNOHLMOAM = 10;
-	repeated DGAODBFGKJM LIABELFIDPC = 14;
+	repeated MFNFGKNAIEH BCCLJFICKII = 11;
+	repeated DAAFMOLJHKM GPFHOAAALNK = 3;
+	repeated OLPPDBHJNBI EOFBEPOHBEN = 10;
+	repeated DGAODBFGKJM IKEBFKHDMPO = 14;
 }

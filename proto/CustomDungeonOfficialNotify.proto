@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "TryCustomDungeonType.proto";
 import "EnterCustomDungeonType.proto";
 // CmdId: 6224
+// Obf: DKNJJMOMFDM
 message CustomDungeonOfficialNotify {
 	TryCustomDungeonType try_type = 14;
 	repeated uint32 official_black_coin_list = 8;

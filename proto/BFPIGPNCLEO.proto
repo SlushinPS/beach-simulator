@@ -15,12 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 7956
 message BFPIGPNCLEO {
 	enum FOHCKABEJMH {
-		GcgHintNone = 0;
-		GcgHintGameNotFound = 1;
+		HPKGGDFBHPI_GcgHintNone = 0;
+		HPKGGDFBHPI_GcgHintGameNotFound = 1;
 	}
 	
-	FOHCKABEJMH OFHCCGGNJAG = 14;
+	FOHCKABEJMH MGMLPIHGFDE = 14;
 }

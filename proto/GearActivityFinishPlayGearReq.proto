@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "GearColumnInfo.proto";
 // CmdId: 20732
+// Obf: CBILABMBFLK
 message GearActivityFinishPlayGearReq {
 	bool use_clue = 1;
 	repeated GearColumnInfo gear_column_info_list = 3;

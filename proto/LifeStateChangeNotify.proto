@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerDieType.proto";
 import "ServerBuff.proto";
 // CmdId: 1296
+// Obf: HPNGCLIJJKP
 message LifeStateChangeNotify {
 	uint32 life_state = 3;
 	PlayerDieType die_type = 12;

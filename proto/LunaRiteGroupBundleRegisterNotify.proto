@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8352
+// Obf: NFFHIKAAEDK
 message LunaRiteGroupBundleRegisterNotify {
 	uint32 group_link_bundle_id = 5;
 }

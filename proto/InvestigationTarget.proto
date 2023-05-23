@@ -15,12 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: OBIKILBIEGP
 message InvestigationTarget {
+	// Obf: HBKLOLAACJJ
 	enum State {
-		Invalid = 0;
-		InProgress = 1;
-		Complete = 2;
-		RewardTaken = 3;
+		INVALID = 0;
+		IN_PROGRESS = 1;
+		COMPLETE = 2;
+		REWARD_TAKEN = 3;
 	}
 	
 	uint32 investigation_id = 5;

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: FNCFKHNAFFN
 message GearColumnInfo {
 	uint32 gear_id = 12;
-	bool IDDLPDMOJGJ = 4;
-	bool DBCJPDIGFAO = 9;
-	uint32 ENBLGFPLDJK = 11;
-	uint32 LLBFPAKBPMJ = 13;
+	bool BOCJOBKGFII = 4;
+	bool JAPPFAKHOBL = 9;
+	uint32 NNEKELPHBAE = 11;
+	uint32 EGFFBAGNHFJ = 13;
 }

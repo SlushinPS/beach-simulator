@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AvatarRenameInfo.proto";
 import "AvatarTeam.proto";
 import "AvatarInfo.proto";
 // CmdId: 1768
+// Obf: IACLEPKJMNB
 message AvatarDataNotify {
 	repeated uint32 owned_costume_list = 10;
 	repeated uint32 backup_avatar_team_order_list = 6;

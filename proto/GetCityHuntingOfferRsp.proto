@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HuntingOfferData.proto";
 import "HuntingPair.proto";
 // CmdId: 4321
+// Obf: PEOADBLKKFM
 message GetCityHuntingOfferRsp {
 	uint32 next_refresh_time = 6;
 	uint32 cur_week_finished_count = 3;

@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8301
+// Obf: NCJKMIJMNOG
 message LanternRiteEndFireworksReformRsp {
-	bool CONCKMKGCCM = 3;
-	bool EEKPCKAHGBJ = 13;
-	bool KKIOCICHKDA = 15;
+	bool GHNMLHGPOOE = 3;
+	bool LBCHAOJNILB = 13;
+	bool APCMMCILEOJ = 15;
 	bool is_new_record = 8;
 	uint32 challenge_id = 12;
 	uint32 stage_id = 9;
 	uint32 final_score = 14;
-	bool OCOOILOLAKL = 10;
+	bool is_full_score = 10;
 	int32 retcode = 5;
 }

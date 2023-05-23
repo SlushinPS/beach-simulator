@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: KGMFIEKKAPP
 enum DraftInviteFailReason {
-	DraftInviteFailReason_DraftFailUnknown = 0;
-	DraftInviteFailReason_DraftActivityNotOpen = 1;
-	DraftInviteFailReason_DraftActivityPlayNotOpen = 2;
-	DraftInviteFailReason_DraftSceneNotMeet = 3;
-	DraftInviteFailReason_DraftWorldNotMeet = 4;
-	DraftInviteFailReason_DraftPlayLimitNotMeet = 5;
+	DRAFT_FAIL_UNKNOWN = 0;
+	DRAFT_ACTIVITY_NOT_OPEN = 1;
+	DRAFT_ACTIVITY_PLAY_NOT_OPEN = 2;
+	DRAFT_SCENE_NOT_MEET = 3;
+	DRAFT_WORLD_NOT_MEET = 4;
+	DRAFT_PLAY_LIMIT_NOT_MEET = 5;
 }

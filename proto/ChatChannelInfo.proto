@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DJFFNNEHCFM
 message ChatChannelInfo {
 	bool is_shield = 7;
 	uint32 channel_id = 8;

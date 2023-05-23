@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5505
+// Obf: DOCFGGMOMBN
 message WindFieldGalleryInfoNotify {
-	uint32 NIOJEBKKOJL = 15;
-	uint32 GCKKOLFADFI = 14;
-	uint32 CAKIIEDJJOK = 7;
-	uint32 HDNOHOPGABD = 3;
-	uint32 BPBEMFCPHME = 6;
-	uint32 JMCJFPPHJBB = 5;
-	uint32 OGFDOIEGOFH = 12;
-	uint32 HAPANGAIEGG = 2;
+	uint32 CGLDHPKMAGO = 15;
+	uint32 JGDMJDMFAAE = 14;
+	uint32 FAKKJNHNFIO = 7;
+	uint32 DHFCIMPBFGA = 3;
+	uint32 AFJNAIOEMJG = 6;
+	uint32 JBMNGNMJHME = 5;
+	uint32 CNLIBIEBLKC = 12;
+	uint32 MAAGMCEBIDE = 2;
 }

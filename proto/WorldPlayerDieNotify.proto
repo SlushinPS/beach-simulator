@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerDieType.proto";
 // CmdId: 214
+// Obf: BNHIPBPNGMA
 message WorldPlayerDieNotify {
 	PlayerDieType die_type = 14;
 	uint32 murderer_entity_id = 9;

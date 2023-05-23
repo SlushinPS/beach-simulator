@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FungusTrainingProgressDetail.proto";
 // CmdId: 20216
+// Obf: CNHNONOIOKN
 message FungusFighterRuntimeDataNotify {
 	FungusTrainingProgressDetail progress_detail = 5;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "InstableSprayAvatarInfo.proto";
 // CmdId: 22671
+// Obf: KLJFPCMKFNN
 message InstableSprayEnterDungeonReq {
 	uint32 difficulty = 6;
 	repeated InstableSprayAvatarInfo avatar_info_list = 3;

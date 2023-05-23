@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RegionalPlayVar.proto";
 // CmdId: 6278
+// Obf: DCJGGGDJFDC
 message RegionalPlayInfoNotify {
-	bool GFOHEEHEIBH = 15;
+	bool IMILCAENOIO = 15;
 	string play_name = 9;
 	uint32 play_type = 11;
-	bool ABBGIFPFFDO = 13;
+	bool KDMLEACLKKL = 13;
 	repeated RegionalPlayVar var_list = 3;
 }

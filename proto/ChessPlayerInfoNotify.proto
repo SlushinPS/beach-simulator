@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ChessPlayerInfo.proto";
 // CmdId: 5378
+// Obf: JLLOEPFCBHO
 message ChessPlayerInfoNotify {
 	ChessPlayerInfo player_info = 13;
 }

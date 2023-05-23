@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: EACMIGMMBCA
 enum MaterialDeleteReturnType {
-	MaterialDeleteReturnType_MaterialDeleteReturnBag = 0;
-	MaterialDeleteReturnType_MaterialDeleteReturnSeed = 1;
+	MATERIAL_DELETE_RETURN_BAG = 0;
+	MATERIAL_DELETE_RETURN_SEED = 1;
 }

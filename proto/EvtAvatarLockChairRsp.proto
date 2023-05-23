@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 361
+// Obf: NEEFPFEAJBA
 message EvtAvatarLockChairRsp {
 	uint32 entity_id = 13;
 	int32 retcode = 15;

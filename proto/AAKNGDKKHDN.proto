@@ -15,12 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 24258
 message AAKNGDKKHDN {
 	uint32 difficulty = 3;
 	uint32 score = 9;
-	uint32 LKKNBAPEIOE = 12;
+	uint32 MOGDMPFMGLN = 12;
 	bool is_new_record = 2;
 	bool is_success = 10;
-	uint32 DOOKJGCLOEL = 13;
+	uint32 DNKNMEGHIIJ = 13;
 }

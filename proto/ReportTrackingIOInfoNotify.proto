@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4125
+// Obf: MDAOJDPNCPC
 message ReportTrackingIOInfoNotify {
-	string CECOEGINKBN = 1;
-	string MPHHEJIKHPF = 15;
-	string CBNNONJDMOM = 14;
-	string LOOADIODGII = 6;
-	string MKHJCEANNKC = 9;
+	string ADHIHLMGAAA = 1;
+	string BEBOGAEBAGG = 15;
+	string OAKADAODLLM = 14;
+	string PHKLBMJLABP = 6;
+	string BBMJLHFKKDB = 9;
 }

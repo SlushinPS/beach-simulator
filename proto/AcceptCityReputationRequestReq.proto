@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2835
+// Obf: CIJLDKDCPEO
 message AcceptCityReputationRequestReq {
 	uint32 city_id = 12;
 	uint32 request_id = 9;

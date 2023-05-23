@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 24404
+// Obf: FNOHLKCCFJK
 message FungusCultivateReq {
 	uint32 cultivate_id = 8;
 	uint32 time = 2;
-	uint32 FOPMJJBEOFN = 10;
-	uint32 INDILLDNDBO = 15;
-	uint32 NPOCGMLCFDH = 5;
-	uint32 GFADHNIPNND = 11;
-	uint32 PKJGGGKCCCD = 7;
-	uint32 PMKBNELBNHA = 12;
+	uint32 OKFNJNAKHKF = 10;
+	uint32 HHOHEFDDBLG = 15;
+	uint32 COEDEMAFPMM = 5;
+	uint32 BMOLOBMLFCK = 11;
+	uint32 KHDKLIJEJEG = 7;
+	uint32 CNGHBGNKCMP = 12;
 }

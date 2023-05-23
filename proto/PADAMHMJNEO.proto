@@ -15,8 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "KENBIHKLOOO.proto";
 // CmdId: 9115
 message PADAMHMJNEO {
-	repeated KENBIHKLOOO CKPDPDILBMF = 5;
+	repeated KENBIHKLOOO JOFJPNHHPDK = 5;
 }

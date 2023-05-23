@@ -15,7 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 21966
 message GCDPKLPCACG {
-	repeated uint32 CMGCFHGGGLI = 1;
+	repeated uint32 IJIJDKGKLDL = 1;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "KEJFFCAKLNH.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HomeResource.proto";
 // CmdId: 4707
+// Obf: DBNLECALCBO
 message HomeResourceTakeHomeCoinRsp {
 	int32 retcode = 7;
-	KEJFFCAKLNH IBHAMPGHJNH = 8;
+	HomeResource home_coin = 8;
 }

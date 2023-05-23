@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1629
+// Obf: FEBHFJCIKEH
 message AvatarUpgradeReq {
 	uint64 avatar_guid = 12;
 	uint32 count = 1;

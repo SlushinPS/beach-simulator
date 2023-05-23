@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-import "IDHBCOHLJPD.proto";
-import "MGDFIKKDIGG.proto";
+import "CylinderRegionSize.proto";
+import "PolygonRegionSize.proto";
 // CmdId: 3125
 message HAFFINEEMDH {
 	uint32 group_id = 11;
@@ -25,9 +26,9 @@ message HAFFINEEMDH {
 	Vector pos = 10;
 	uint32 config_id = 14;
 	oneof EFOLIOJOIFD {
-		float GOBLLLKMBMG = 1992;
-		Vector FLIFDHKOLBP = 1282;
-		IDHBCOHLJPD HKNJDPCFAHN = 1201;
-		MGDFIKKDIGG IHELEKOBPIP = 818;
+		float sphere_radius = 1992;
+		Vector cubic_size = 1282;
+		CylinderRegionSize cylinder_size = 1201;
+		PolygonRegionSize polygon_size = 818;
 	}
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SumoTeamData.proto";
 // CmdId: 8991
+// Obf: FGEEBJFJPAE
 message SumoSaveTeamReq {
 	uint32 activity_id = 6;
 	uint32 difficulty_id = 9;

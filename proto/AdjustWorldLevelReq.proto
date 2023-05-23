@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 190
+// Obf: LOENDAOINPF
 message AdjustWorldLevelReq {
-	uint32 LBJADGBBMEG = 14;
-	uint32 GFOJPGEKBPC = 9;
+	uint32 ACFMMFELEHP = 14;
+	uint32 OLDCBGGJLDH = 9;
 }

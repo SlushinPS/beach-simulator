@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "IADPAEJBNNG.proto";
 import "Vector.proto";
+// Obf: NJAGHNCNFMN
 message GroupLinkBundle {
 	uint32 radius = 8;
-	IADPAEJBNNG FOLGBEBIFCG = 3;
+	IADPAEJBNNG LLFLMBEKAOF = 3;
 	Vector center = 13;
-	bool is_show_mark = 9;
+	bool LDMGLAGNIHP = 9;
 	uint32 bundle_id = 7;
 	uint32 scene_id = 2;
 	bool is_activated = 4;

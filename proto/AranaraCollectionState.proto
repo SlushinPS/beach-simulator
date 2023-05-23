@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: FDKHADPBJAD
 enum AranaraCollectionState {
-	AranaraCollectionState_None = 0;
-	AranaraCollectionState_Collectable = 1;
-	AranaraCollectionState_Collected = 2;
-	AranaraCollectionState_Finished = 3;
+	ARANARA_COLLECTION_STATE_NONE = 0;
+	ARANARA_COLLECTION_STATE_COLLECTABLE = 1;
+	ARANARA_COLLECTION_STATE_COLLECTED = 2;
+	ARANARA_COLLECTION_STATE_FINISHED = 3;
 }

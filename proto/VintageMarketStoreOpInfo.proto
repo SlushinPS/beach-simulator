@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: AENBLMGMBJA
 message VintageMarketStoreOpInfo {
 	uint32 store_id = 7;
-	uint32 MMJHMIIODPK = 13;
+	uint32 PNJLPGJNOGG = 13;
 	repeated uint32 strategy_list = 2;
-	uint32 CJNDHIKNDMA = 4;
+	uint32 BKNOJOEHIMI = 4;
 	repeated uint32 add_attr_list = 15;
 }

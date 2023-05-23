@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "EMCGODKILLM.proto";
 message LFCNIPBBEAG {
 	repeated EMCGODKILLM player_info_list = 4;
-	uint32 FMLLFGAFJNP = 13;
-	uint32 EGLOEAMFNKK = 2;
+	uint32 AEHLNFANBDK = 13;
+	uint32 NPPGJHEJAGO = 2;
 }

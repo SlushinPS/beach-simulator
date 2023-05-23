@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LKIOJIHFIGD.proto";
 message CAFOEDMDFON {
-	repeated LKIOJIHFIGD KAEPHCOGHLD = 12;
-	repeated uint32 OPAAFGIIKME = 9;
-	uint32 AABKCJEGDJE = 5;
+	repeated LKIOJIHFIGD JJAECPCFDCG = 12;
+	repeated uint32 KMNLAHGKFDL = 9;
+	uint32 card_guid = 5;
 }

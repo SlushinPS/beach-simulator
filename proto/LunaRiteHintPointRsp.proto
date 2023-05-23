@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LunaRiteHintStatusType.proto";
 import "LunaRiteHintPoint.proto";
 // CmdId: 8827
+// Obf: NKCOOONNCIL
 message LunaRiteHintPointRsp {
 	LunaRiteHintStatusType hint_status = 2;
 	int32 retcode = 1;

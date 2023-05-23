@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ScenePlayBattleSettleRewardInfo.proto";
 import "ScenePlayBattleSettlePlayerInfo.proto";
 // CmdId: 4371
+// Obf: IAFOMGBNGAF
 message ScenePlayBattleResultNotify {
 	uint32 play_type = 2;
 	bool is_win = 5;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "WidgetSlotTag.proto";
+// Obf: BEOHCOKHPFF
 message WidgetSlotData {
 	WidgetSlotTag tag = 1;
 	uint32 material_id = 15;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HuntingPair.proto";
 import "HuntingOfferState.proto";
+// Obf: GPGADPDCPPM
 message HuntingOfferData {
 	HuntingPair hunting_pair = 9;
 	HuntingOfferState state = 4;

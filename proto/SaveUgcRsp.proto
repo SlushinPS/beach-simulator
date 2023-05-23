@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "UgcType.proto";
 // CmdId: 6307
+// Obf: OBFGGENIOKA
 message SaveUgcRsp {
 	int32 retcode = 7;
 	uint64 ugc_guid = 4;
-	bool GFPBIEMJCNN = 11;
+	bool JGOOBHBPNBO = 11;
 	UgcType ugc_type = 9;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BonusActivityInfo.proto";
 // CmdId: 2516
+// Obf: PGJOMLEKOII
 message GetBonusActivityRewardRsp {
 	BonusActivityInfo bonus_activity_info_list = 4;
 	int32 retcode = 9;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 848
+// Obf: KLCNPHMJEMD
 message SelectWorktopOptionRsp {
 	uint32 option_id = 13;
 	int32 retcode = 6;

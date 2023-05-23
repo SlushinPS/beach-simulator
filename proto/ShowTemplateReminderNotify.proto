@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 3042
+// Obf: DONIKBKDFCA
 message ShowTemplateReminderNotify {
-	bool KHOCIDCKAEA = 9;
-	bool EFNHHIECJKI = 15;
+	bool GODGJLAMODL = 9;
+	bool EJAADDKFGFE = 15;
 	uint32 template_reminder_id = 4;
 	repeated int32 param_list = 5;
 	repeated uint32 param_uid_list = 12;

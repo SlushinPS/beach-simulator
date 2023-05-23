@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 // CmdId: 615
+// Obf: CFEFEGAOMBF
 message CalcWeaponUpgradeReturnItemsReq {
 	uint64 target_weapon_guid = 6;
 	repeated uint64 food_weapon_guid_list = 13;

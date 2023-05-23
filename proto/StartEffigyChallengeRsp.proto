@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2101
+// Obf: KKHLNFOOACD
 message StartEffigyChallengeRsp {
 	repeated uint32 condition_id_list = 8;
 	int32 retcode = 9;

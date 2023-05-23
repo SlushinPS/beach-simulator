@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 301
+// Obf: ACBFHNJFPHI
 message ReportFightAntiCheatNotify {
-	uint32 HNDNHDFEHEJ = 11;
-	uint32 HAPDIJNIJAJ = 14;
+	uint32 EPMDIKMDJIK = 11;
+	uint32 GOMNCHPHBHB = 14;
 }

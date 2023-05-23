@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerHomeCompInfo.proto";
 // CmdId: 4769
+// Obf: CBGMFLDFHFN
 message PlayerHomeCompInfoNotify {
 	PlayerHomeCompInfo comp_info = 14;
 }

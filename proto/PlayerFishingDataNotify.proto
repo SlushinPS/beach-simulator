@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5843
+// Obf: PAODNIBLDNN
 message PlayerFishingDataNotify {
 	uint32 last_fish_rod_id = 9;
 }

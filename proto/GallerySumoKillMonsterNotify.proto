@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5528
+// Obf: OKKIHBPCIBI
 message GallerySumoKillMonsterNotify {
 	uint32 gallery_id = 1;
 	uint32 score = 5;
-	uint32 DOOKJGCLOEL = 3;
-	uint32 ECANGJNEHOH = 15;
+	uint32 DNKNMEGHIIJ = 3;
+	uint32 GNJHGMHMBDK = 15;
 }

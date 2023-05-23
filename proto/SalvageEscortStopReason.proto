@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: GOPAHHOIEBG
 enum SalvageEscortStopReason {
-	SalvageEscortStopReason_SalvageEscortStopNone = 0;
-	SalvageEscortStopReason_SalvageEscortStopSuccess = 1;
-	SalvageEscortStopReason_SalvageEscortStopDump = 2;
-	SalvageEscortStopReason_SalvageEscortStopTime = 3;
-	SalvageEscortStopReason_SalvageEscortStopInterrupt = 4;
-	SalvageEscortStopReason_SalvageEscortStopLeave = 5;
-	SalvageEscortStopReason_SalvageEscortStopFull = 6;
+	SALVAGE_ESCORT_STOP_NONE = 0;
+	SALVAGE_ESCORT_STOP_SUCCESS = 1;
+	SALVAGE_ESCORT_STOP_DUMP = 2;
+	SALVAGE_ESCORT_STOP_TIME = 3;
+	SALVAGE_ESCORT_STOP_INTERRUPT = 4;
+	SALVAGE_ESCORT_STOP_LEAVE = 5;
+	SALVAGE_ESCORT_STOP_FULL = 6;
 }

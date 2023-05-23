@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "GPMIBFPGAML.proto";
 message IIKMMGPBEMC {
-	uint32 AOPOBEPBPDB = 10;
+	uint32 OPGAHHAKNMG = 10;
 	GPMIBFPGAML avatar_type = 2;
 	uint32 costume_id = 6;
 }

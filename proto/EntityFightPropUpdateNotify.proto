@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1272
+// Obf: GMLJGKMJLLK
 message EntityFightPropUpdateNotify {
 	uint32 entity_id = 9;
 	map<uint32, float> fight_prop_map = 15;

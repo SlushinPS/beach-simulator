@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
+// Obf: LMFILKMHFDJ
 message WinterCampAcceptItemResultInfo {
-	repeated ItemParam JIBPNDLPCGH = 10;
+	repeated ItemParam MEMJEIJFBHN = 10;
 	uint32 uid = 2;
-	repeated ItemParam DKAFEBPODKI = 6;
+	repeated ItemParam OOOIGNDHNNO = 6;
 }

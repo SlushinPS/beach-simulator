@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: NDNEODLPIPC
 message RegionalPlayVar {
-	float JGPCLOGKDOM = 8;
-	float COEHOFANOAD = 6;
+	float JNLLFMIHDAL = 8;
+	float LAKGMEOKBKJ = 6;
 	uint32 type = 14;
 	float value = 5;
 }

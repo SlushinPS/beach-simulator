@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 993
+// Obf: BFBJLHKGKLE
 message DungeonCandidateTeamReplyInviteRsp {
 	bool is_trans_point = 7;
 	int32 retcode = 13;

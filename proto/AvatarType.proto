@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: GEAOCPFMLEP
 enum AvatarType {
-	AvatarType_None = 0;
-	AvatarType_Formal = 1;
-	AvatarType_Trial = 2;
-	AvatarType_Mirror = 3;
+	AVATAR_TYPE_NONE = 0;
+	AVATAR_TYPE_FORMAL = 1;
+	AVATAR_TYPE_TRIAL = 2;
+	AVATAR_TYPE_MIRROR = 3;
 }

@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: KDKBIDBGDKF
 message ExpeditionAssistInfo {
 	string online_id = 2;
 	uint32 costume_id = 15;

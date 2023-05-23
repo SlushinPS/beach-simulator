@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8548
+// Obf: APEPMBHLAHM
 message DoRoguelikeDungeonCardGachaRsp {
 	int32 retcode = 10;
 	repeated uint32 card_list = 5;

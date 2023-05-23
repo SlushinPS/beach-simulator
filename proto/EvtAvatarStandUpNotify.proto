@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 349
+// Obf: AMIICFPACPC
 message EvtAvatarStandUpNotify {
-	int32 POAABJGFNED = 12;
+	int32 direction = 12;
 	uint32 entity_id = 6;
-	int32 HCJEMBIFDHD = 10;
+	int32 performId = 10;
 	uint64 chair_id = 14;
 }

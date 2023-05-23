@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: GPGOKLPGBAG
 enum ForwardType {
-	ForwardType_ForwardLocal = 0;
-	ForwardType_ForwardToAll = 1;
-	ForwardType_ForwardToAllExceptCur = 2;
-	ForwardType_ForwardToHost = 3;
-	ForwardType_ForwardToAllGuest = 4;
-	ForwardType_ForwardToPeer = 5;
-	ForwardType_ForwardToPeers = 6;
-	ForwardType_ForwardOnlyServer = 7;
-	ForwardType_ForwardToAllExistExceptCur = 8;
+	FORWARD_TYPE_LOCAL = 0;
+	FORWARD_TYPE_TO_ALL = 1;
+	FORWARD_TYPE_TO_ALL_EXCEPT_CUR = 2;
+	FORWARD_TYPE_TO_HOST = 3;
+	FORWARD_TYPE_TO_ALL_GUEST = 4;
+	FORWARD_TYPE_TO_PEER = 5;
+	FORWARD_TYPE_TO_PEERS = 6;
+	FORWARD_TYPE_ONLY_SERVER = 7;
+	FORWARD_TYPE_TO_ALL_EXIST_EXCEPT_CUR = 8;
 }

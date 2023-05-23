@@ -15,10 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 9281
 message PLGEOANAALP {
-	uint32 PEOFPHJKJOA = 15;
-	uint32 BAOIIPDAHLP = 4;
-	uint32 BLKJGPLIABJ = 10;
-	uint32 OIBMEGDKEMP = 3;
+	uint32 BDBPBAKJEFF = 15;
+	uint32 DBLOGELAGLG = 4;
+	uint32 OMPFNOOMEOI = 10;
+	uint32 ANNFGCKCLBM = 3;
 }

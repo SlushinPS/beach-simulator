@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4656
+// Obf: AJILEMFFCIP
 message HomeChangeEditModeReq {
 	bool is_enter_edit_mode = 11;
 }

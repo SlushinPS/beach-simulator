@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlatformInfo.proto";
 // CmdId: 201
+// Obf: BGNOPBLONBJ
 message PlatformChangeRouteNotify {
 	uint32 entity_id = 8;
 	PlatformInfo platform = 6;

@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2821
+// Obf: FOCHOIHCBHJ
 message GetCityReputationMapInfoRsp {
-	bool CHEHAPKCHIJ = 10;
+	bool NNJLDLAOPIE = 10;
 	int32 retcode = 4;
-	repeated uint32 JLGKOLNKEPN = 15;
-	repeated uint32 IMGDAODOOEM = 14;
-	bool AOPNHHCJCPJ = 8;
+	repeated uint32 BNOMCHCNPFP = 15;
+	repeated uint32 JCBEMEPIHGH = 14;
+	bool JGAFDIAMBKO = 8;
 }

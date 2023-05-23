@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "NBMLPCGCIEG.proto";
 // CmdId: 24999
 message EFPBLINNFML {
 	uint32 round = 9;
-	NBMLPCGCIEG JLJLIPPNFJF = 2;
+	NBMLPCGCIEG CKALODBAPLN = 2;
 }

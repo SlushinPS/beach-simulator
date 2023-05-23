@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LuaShellType.proto";
 // CmdId: 115
+// Obf: LPFCBHBJBLP
 message PlayerLuaShellNotify {
 	bytes lua_shell = 7;
 	LuaShellType shell_type = 13;

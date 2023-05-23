@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: PHCNFEJOOEJ
 enum ChallengeFinishType {
-	ChallengeFinishType_None = 0;
-	ChallengeFinishType_Fail = 1;
-	ChallengeFinishType_Succ = 2;
-	ChallengeFinishType_Pause = 3;
+	CHALLENGE_FINISH_TYPE_NONE = 0;
+	CHALLENGE_FINISH_TYPE_FAIL = 1;
+	CHALLENGE_FINISH_TYPE_SUCC = 2;
+	CHALLENGE_FINISH_TYPE_PAUSE = 3;
 }

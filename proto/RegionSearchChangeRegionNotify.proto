@@ -15,12 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5608
+// Obf: CDLAMFJEDMC
 message RegionSearchChangeRegionNotify {
+	// Obf: AKAADCCHEGG
 	enum RegionEvent {
-		None = 0;
-		Enter = 1;
-		Leave = 2;
+		REGION_EVENT_NONE = 0;
+		REGION_EVENT_ENTER = 1;
+		REGION_EVENT_LEAVE = 2;
 	}
 	
 	RegionEvent event = 4;

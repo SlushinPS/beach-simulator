@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: HHJFBBFKPIE
 enum DungeonCandidateTeamPlayerState {
-	DungeonCandidateTeamPlayerState_Idle = 0;
-	DungeonCandidateTeamPlayerState_ChangingAvatar = 1;
-	DungeonCandidateTeamPlayerState_Ready = 2;
+	DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_IDLE = 0;
+	DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_CHANGING_AVATAR = 1;
+	DUNGEON_CANDIDATE_TEAM_PLAYER_STATE_READY = 2;
 }

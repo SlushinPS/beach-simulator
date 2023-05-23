@@ -15,24 +15,26 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8397
+// Obf: PLCOHKGFGLK
 message MusicGameSettleReq {
-	uint32 MKAJACKJCDE = 3;
-	bool EOGBJKAHKNA = 1878;
-	repeated uint32 PBPNJBNGAOA = 1;
+	uint32 JHFIMHMILJG = 3;
+	bool ONEIFPCDHFM = 1878;
+	repeated uint32 FEHHLANOBJP = 1;
 	uint32 correct_hit = 8;
-	uint32 MDFJBIKMEEB = 10;
-	uint32 CGECLHEBIOM = 1831;
+	uint32 OBBNAPAKNCM = 10;
+	uint32 OOIOKGHACML = 1831;
 	uint32 max_combo = 12;
-	uint32 CNMBAENHICA = 626;
+	uint32 CCIAKNJMMBI = 626;
 	uint32 music_basic_id = 15;
 	uint32 score = 11;
-	uint32 CMONEEOMEAI = 2026;
+	uint32 GDFLBOFAANF = 2026;
 	bool is_save_score = 7;
-	uint32 KILJMNLCPFO = 6;
+	uint32 POEMOFFOAEN = 6;
 	float speed = 963;
-	bool DDBODOCLEFG = 961;
+	bool LFLFFIKPDAA = 961;
 	uint32 combo = 2;
-	repeated uint32 DKACHMHAAOK = 814;
+	repeated uint32 PECJLBDKHCO = 814;
 	uint64 ugc_guid = 13;
 }

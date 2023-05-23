@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 6301
+// Obf: BDKJKLBIEHJ
 message UgcNotify {
-	bool OPCPPJKILLK = 4;
-	bool FJKGJMNMJKN = 3;
-	bool GNGFJLKGEFG = 6;
-	bool OIHPBOFKBAE = 13;
+	bool LMICNFHFLFF = 4;
+	bool PNILOAIHDHO = 3;
+	bool IGIJBHLPGJD = 6;
+	bool FHPMJMNGPMO = 13;
 }

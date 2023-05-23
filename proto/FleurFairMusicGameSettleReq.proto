@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2180
+// Obf: GKEIMINCNJL
 message FleurFairMusicGameSettleReq {
 	uint32 correct_hit = 7;
 	uint32 combo = 3;

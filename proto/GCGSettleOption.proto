@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: CNJAAHMIHJF
 enum GCGSettleOption {
-	GCGSettleOption_GcgSettleOptNone = 0;
-	GCGSettleOption_GcgSettleOptExit = 1;
-	GCGSettleOption_GcgSettleOptContinue = 2;
-	GCGSettleOption_GcgSettleOptRestart = 3;
+	GCG_SETTLE_OPT_NONE = 0;
+	GCG_SETTLE_OPT_EXIT = 1;
+	GCG_SETTLE_OPT_CONTINUE = 2;
+	GCG_SETTLE_OPT_RESTART = 3;
 }

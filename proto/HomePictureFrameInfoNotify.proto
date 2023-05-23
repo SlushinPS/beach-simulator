@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HomePictureFrameInfo.proto";
 // CmdId: 4728
+// Obf: DAPLCMGCNEN
 message HomePictureFrameInfoNotify {
 	repeated HomePictureFrameInfo picture_frame_info_list = 8;
 }

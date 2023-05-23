@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DGDCCMHODEN
 enum FishEscapeReason {
-	FishEscapeReason_FisnEscapeNone = 0;
-	FishEscapeReason_FishEscapeShocked = 1;
-	FishEscapeReason_FishEscapeUnhook = 2;
+	FISN_ESCAPE_NONE = 0;
+	FISH_ESCAPE_SHOCKED = 1;
+	FISH_ESCAPE_UNHOOK = 2;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MatchType.proto";
 import "OnlinePlayerInfo.proto";
 // CmdId: 4198
+// Obf: AFEENHPABLG
 message PlayerApplyEnterMpAfterMatchAgreedNotify {
 	MatchType match_type = 5;
 	OnlinePlayerInfo src_player_info = 1;

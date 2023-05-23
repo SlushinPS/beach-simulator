@@ -15,11 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 374
+// Obf: HHEIBNCGICK
 message LuaSetOptionNotify {
+	// Obf: OMFLJFLOMGA
 	enum LuaOptionType {
-		LuaOptionNone = 0;
-		LuaOptionPlayerInput = 1;
+		LUA_OPTION_NONE = 0;
+		LUA_OPTION_PLAYER_INPUT = 1;
 	}
 	
 	string lua_set_param = 13;

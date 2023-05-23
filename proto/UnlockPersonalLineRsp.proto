@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 411
+// Obf: BEPAEGMNOLD
 message UnlockPersonalLineRsp {
 	uint32 personal_line_id = 10;
 	int32 retcode = 11;
 	oneof param {
-		uint32 PFONMIFJKNB = 3;
-		uint32 LOKAHBIPGED = 7;
+		uint32 level = 3;
+		uint32 chapter_id = 7;
 	}
 }

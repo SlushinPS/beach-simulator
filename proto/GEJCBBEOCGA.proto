@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 9180
 message GEJCBBEOCGA {
-	uint32 ENBINPGBMGM = 10;
+	uint32 result = 10;
 	uint64 guid = 11;
-	bool DJBLFGMOHNC = 7;
+	bool HMEABIJPPJL = 7;
 }

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: NOCKAENAGBE
 enum InterOpType {
-	InterOpType_InterOpFinish = 0;
-	InterOpType_InterOpStart = 1;
+	INTER_OP_TYPE_FINISH = 0;
+	INTER_OP_TYPE_START = 1;
 }

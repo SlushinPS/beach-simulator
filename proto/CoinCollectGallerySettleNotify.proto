@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5542
+// Obf: CPJGALGBPHB
 message CoinCollectGallerySettleNotify {
 	bool is_new_record = 1;
-	uint32 DGPNNDMIBIJ = 13;
+	uint32 FOAFDGFNCFL = 13;
 	uint32 multistage_play_index = 8;
-	uint32 FJMEAJKIKBJ = 12;
-	uint32 MFEEOHOGBFJ = 3;
+	uint32 HCDKJFMNMAM = 12;
+	uint32 NIOOACIEABD = 3;
 	uint32 level_id = 14;
 }

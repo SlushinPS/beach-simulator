@@ -15,18 +15,21 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 155
+// Obf: JBEHHNGMGNF
 message PlayerLogoutReq {
+	// Obf: EENPAHDJOEO
 	enum Reason {
-		Disconnect = 0;
-		ClientReq = 1;
-		Timeout = 2;
-		AdminReq = 3;
-		ServerClose = 4;
-		GmClear = 5;
-		PlayerTransfer = 6;
-		ClientChecksumInvalid = 7;
-		MuipMoveSaveWait = 8;
+		DISCONNECT = 0;
+		CLIENT_REQ = 1;
+		TIMEOUT = 2;
+		ADMIN_REQ = 3;
+		SERVER_CLOSE = 4;
+		GM_CLEAR = 5;
+		PLAYER_TRANSFER = 6;
+		CLIENT_CHECKSUM_INVALID = 7;
+		REASON_MUIP_MOVE_SAVE_WAIT = 8;
 	}
 	
 	Reason reason = 9;

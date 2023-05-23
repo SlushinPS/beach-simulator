@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: MDNDNFJFKDJ
 enum FoundationOpType {
-	FoundationOpType_FoundationOpNone = 0;
-	FoundationOpType_FoundationOpBuild = 1;
-	FoundationOpType_FoundationOpDemolition = 2;
-	FoundationOpType_FoundationOpRebuild = 3;
-	FoundationOpType_FoundationOpRotate = 4;
-	FoundationOpType_FoundationOpLock = 5;
-	FoundationOpType_FoundationOpUnlock = 6;
+	FOUNDATION_OP_NONE = 0;
+	FOUNDATION_OP_BUILD = 1;
+	FOUNDATION_OP_DEMOLITION = 2;
+	FOUNDATION_OP_REBUILD = 3;
+	FOUNDATION_OP_ROTATE = 4;
+	FOUNDATION_OP_LOCK = 5;
+	FOUNDATION_OP_UNLOCK = 6;
 }

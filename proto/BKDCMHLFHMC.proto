@@ -15,7 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MLMOJDGCFBN.proto";
 message BKDCMHLFHMC {
-	repeated MLMOJDGCFBN CEDKJLDCLNH = 14;
+	repeated MLMOJDGCFBN stage_info_list = 14;
 }

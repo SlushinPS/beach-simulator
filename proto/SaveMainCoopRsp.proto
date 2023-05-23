@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1971
+// Obf: GJFGMJPHEDC
 message SaveMainCoopRsp {
 	repeated uint32 save_point_id_list = 13;
 	uint32 id = 8;

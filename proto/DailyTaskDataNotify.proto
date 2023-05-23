@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 156
+// Obf: LKFOLMKGHDK
 message DailyTaskDataNotify {
 	uint32 finished_num = 6;
 	uint32 score_reward_id = 9;

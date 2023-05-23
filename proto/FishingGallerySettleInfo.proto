@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "JHJEIKMHHHJ.proto";
-import "EIEEEEGCDEJ.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "FishingScore.proto";
+import "FishInfo.proto";
+// Obf: CNIMOCNKNIA
 message FishingGallerySettleInfo {
-	repeated JHJEIKMHHHJ ECIFHEKPKIP = 6;
-	map<uint32, EIEEEEGCDEJ> BALGDMGMCJJ = 10;
+	repeated FishingScore fishing_score_list = 6;
+	map<uint32, FishInfo> fish_map = 10;
 }

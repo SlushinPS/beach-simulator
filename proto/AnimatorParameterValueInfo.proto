@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: OJKLMOMAPKN
 message AnimatorParameterValueInfo {
 	uint32 para_type = 1;
 	oneof paraVal {
-		int32 KCLCBKOKNJA = 2;
-		float POHJNJOIHMK = 3;
-		bool GJGKGDPJJMM = 4;
+		int32 int_val = 2;
+		float float_val = 3;
+		bool bool_val = 4;
 	}
 }

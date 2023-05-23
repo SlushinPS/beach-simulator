@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "IJBPEPPLINK.proto";
 // CmdId: 9171
 message CLGOJCOBIJJ {
 	string share_code = 11;
-	IJBPEPPLINK MLKDACPOIJC = 4;
+	IJBPEPPLINK KIEKKNKGMIF = 4;
 }

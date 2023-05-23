@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MotionInfo.proto";
+// Obf: DGBPMOADLDG
 message EntityMoveInfo {
 	uint32 entity_id = 1;
 	MotionInfo motion_info = 2;

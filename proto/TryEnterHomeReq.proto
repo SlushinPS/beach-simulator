@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4565
+// Obf: DGPBLIIAEOL
 message TryEnterHomeReq {
-	bool LPBDGIDFAGD = 12;
+	bool is_transfer_to_safe_point = 12;
 	uint32 target_point = 8;
 	uint32 target_uid = 11;
-	bool GFPCLFLDKJF = 14;
+	bool GGBOCPDIIKL = 14;
 }

@@ -15,13 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 123
+// Obf: HICNNLNDPJA
 message RemoveRandTaskInfoNotify {
+	// Obf: LLHKGJHDLDD
 	enum FinishReason {
-		Default = 0;
-		Clear = 1;
-		Distance = 2;
-		Finish = 3;
+		DEFAULT = 0;
+		CLEAR = 1;
+		DISTANCE = 2;
+		FINISH = 3;
 	}
 	
 	FinishReason reason = 2;

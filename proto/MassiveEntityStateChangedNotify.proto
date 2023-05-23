@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MassiveEntityState.proto";
 // CmdId: 363
+// Obf: IKOPAAIHMDG
 message MassiveEntityStateChangedNotify {
 	repeated MassiveEntityState massive_entity_state_list = 11;
 }

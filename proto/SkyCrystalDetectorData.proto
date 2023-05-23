@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
+// Obf: HDIPMHHKDFC
 message SkyCrystalDetectorData {
 	bool is_hint_valid = 6;
 	Vector hint_center_pos = 3;

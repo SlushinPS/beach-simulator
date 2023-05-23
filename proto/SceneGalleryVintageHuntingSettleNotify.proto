@@ -15,19 +15,21 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "FirstStageInfo.proto";
-import "SecondStageInfo.proto";
-import "ThirdStageInfo.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "VintageHuntingFirstStageSettleInfo.proto";
+import "VintageHuntingSecondStageSettleInfo.proto";
+import "VintageHuntingThirdStageSettleInfo.proto";
 // CmdId: 24282
+// Obf: PJLPILDHFJO
 message SceneGalleryVintageHuntingSettleNotify {
-	uint32 BDKLLHMMNJB = 7;
-	uint32 LHEMEPJGIMH = 1;
+	uint32 MDKJMHIIMKE = 7;
+	uint32 JDEMIFFOFCA = 1;
 	bool is_new_record = 10;
 	uint32 stage_id = 4;
 	bool has_new_watcher = 8;
 	oneof info {
-		FirstStageInfo first_stage_info = 2;
-		SecondStageInfo second_stage_info = 3;
-		ThirdStageInfo third_stage_info = 12;
+		VintageHuntingFirstStageSettleInfo first_stage_info = 2;
+		VintageHuntingSecondStageSettleInfo second_stage_info = 3;
+		VintageHuntingThirdStageSettleInfo third_stage_info = 12;
 	}
 }

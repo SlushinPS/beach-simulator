@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MatchType.proto";
 // CmdId: 4187
+// Obf: DGJJMDGELPO
 message PlayerMatchInfoNotify {
-	uint32 CMGJHMLEDPC = 5;
+	uint32 KIHAMDBFGCA = 5;
 	uint32 dungeon_id = 15;
 	uint32 host_uid = 11;
-	uint32 EKGKPEMIFCL = 9;
+	uint32 OCONGOHBDIO = 9;
 	uint32 mechanicus_difficult_level = 12;
 	uint32 mp_play_id = 10;
 	repeated uint32 match_param_list = 1;

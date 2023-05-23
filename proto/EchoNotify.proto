@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 33
+// Obf: MMAHJNEDNJF
 message EchoNotify {
 	string content = 12;
 	uint32 seq_id = 5;

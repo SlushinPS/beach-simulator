@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "IrodoriMasterGallerySettleInfo.proto";
 // CmdId: 8052
+// Obf: APEKJHLJEAD
 message IrodoriMasterGallerySettleNotify {
 	uint32 gallery_id = 4;
 	IrodoriMasterGallerySettleInfo settle_info = 3;

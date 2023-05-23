@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 24881
+// Obf: PIBIDKICNIP
 message RestartCoinCollectPlaySingleModeRsp {
 	int32 retcode = 4;
 	uint32 level_id = 15;

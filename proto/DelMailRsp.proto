@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1458
+// Obf: KPGMOMOANOE
 message DelMailRsp {
 	int32 retcode = 15;
 	repeated uint32 mail_id_list = 5;

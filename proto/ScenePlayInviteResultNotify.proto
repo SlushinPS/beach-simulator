@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4380
+// Obf: FGEHOACJMFH
 message ScenePlayInviteResultNotify {
 	uint32 play_id = 4;
 	bool is_all_argee = 9;

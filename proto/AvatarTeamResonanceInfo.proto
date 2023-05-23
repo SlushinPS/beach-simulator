@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: NIENBIDGPFK
 message AvatarTeamResonanceInfo {
-	repeated uint32 DHFEFDALIJA = 14;
-	repeated uint32 KAJJKLGMIME = 1;
+	repeated uint32 add_team_resonance_id_list = 14;
+	repeated uint32 del_team_resonance_id_list = 1;
 	uint64 avatar_guid = 12;
 	uint32 entity_id = 8;
 }

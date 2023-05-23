@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 48
+// Obf: IDDOIEHMKEF
 message PingRsp {
 	uint32 client_time = 15;
 	int32 retcode = 14;

@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 import "GachaTransferItem.proto";
+// Obf: FPBHAFGFLPA
 message GachaItem {
-	bool NAPAGEKOGDL = 15;
+	bool is_gacha_item_new = 15;
 	ItemParam gacha_item = 4;
-	bool PNMDBHHOMNJ = 3;
+	bool is_flash_card = 3;
 	repeated ItemParam token_item_list = 8;
 	repeated GachaTransferItem transfer_items = 14;
 }

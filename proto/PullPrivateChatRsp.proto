@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ChatInfo.proto";
 // CmdId: 5008
+// Obf: IFGLPJOKPOE
 message PullPrivateChatRsp {
 	repeated ChatInfo chat_info = 12;
 	int32 retcode = 2;

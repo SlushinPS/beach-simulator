@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 // CmdId: 668
+// Obf: GJGGNFCKMIB
 message WeaponUpgradeRsp {
-	uint32 OFLILJCNMMJ = 2;
+	uint32 old_level = 2;
 	uint64 target_weapon_guid = 4;
-	uint32 ABAOJFBMJOM = 15;
+	uint32 cur_level = 15;
 	int32 retcode = 5;
 	repeated ItemParam item_param_list = 14;
 }

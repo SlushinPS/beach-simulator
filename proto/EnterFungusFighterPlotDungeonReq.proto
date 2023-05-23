@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 20605
+// Obf: BALNOBEPNBK
 message EnterFungusFighterPlotDungeonReq {
 	uint32 dungeon_id = 1;
 	repeated uint32 fungus_id_list = 2;

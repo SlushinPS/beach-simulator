@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CustomDungeonBlock.proto";
 // CmdId: 6221
+// Obf: EBIIFMEFIBM
 message SaveCustomDungeonRoomRsp {
 	repeated CustomDungeonBlock error_block_list = 2;
 	int32 retcode = 9;

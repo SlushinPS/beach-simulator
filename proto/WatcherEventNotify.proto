@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2202
+// Obf: NGLGIKOANHB
 message WatcherEventNotify {
 	uint32 watcher_id = 13;
 	uint32 add_progress = 2;

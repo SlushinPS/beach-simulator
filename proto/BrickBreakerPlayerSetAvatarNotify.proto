@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5351
+// Obf: JELKPPJLOCE
 message BrickBreakerPlayerSetAvatarNotify {
 	uint32 uid = 7;
 	repeated uint32 avatar_id_list = 8;

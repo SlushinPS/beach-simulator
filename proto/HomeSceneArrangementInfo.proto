@@ -15,20 +15,22 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "LLCNMEPLEBL.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HomeFurnitureData.proto";
 import "Vector.proto";
-import "NJLAEMBOJCO.proto";
+import "HomeBlockArrangementInfo.proto";
+// Obf: OPEJIIPLGJN
 message HomeSceneArrangementInfo {
-	repeated LLCNMEPLEBL IOICLAIFPBI = 12;
+	repeated HomeFurnitureData Unk3300_CMBCIBBCMOK = 12;
 	Vector born_pos = 4;
-	repeated NJLAEMBOJCO HIDBPEENDDF = 15;
-	Vector OHINJNMDOKG = 3;
+	repeated HomeBlockArrangementInfo block_arrangement_info_list = 15;
+	Vector djinn_pos = 3;
 	uint32 scene_id = 14;
-	LLCNMEPLEBL ONKCHLBPBOL = 6;
-	repeated LLCNMEPLEBL GNEAJHKIOHH = 5;
+	HomeFurnitureData main_house = 6;
+	repeated HomeFurnitureData Unk3300_EOHAHHFDAPI = 5;
 	bool is_set_born_pos = 2;
 	uint32 bgm_id = 10;
-	uint32 OFLGOKGLHGK = 1;
-	Vector IGEALDAOJBK = 13;
-	uint32 LMBLMBEDNON = 11;
+	uint32 tmp_version = 1;
+	Vector born_rot = 13;
+	uint32 comfort_value = 11;
 }

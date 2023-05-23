@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 5810
+// Obf: EABNBHCMNAD
 message FishAttractNotify {
 	uint32 uid = 10;
 	Vector pos = 3;

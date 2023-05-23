@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1435
+// Obf: OOLIOKGGLBO
 message GetAuthkeyReq {
 	string auth_appid = 5;
-	uint32 JFDLFKAODPH = 13;
-	uint32 EELPBJCNICD = 15;
+	uint32 MLKKOEBHEEI = 13;
+	uint32 GALOPIFDMON = 15;
 }

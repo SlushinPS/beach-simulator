@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1657
+// Obf: LKDCCAAPAMM
 message RefreshBackgroundAvatarRsp {
 	map<uint64, uint32> hp_full_time_map = 1;
 	int32 retcode = 3;

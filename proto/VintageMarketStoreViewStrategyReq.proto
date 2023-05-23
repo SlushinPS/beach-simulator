@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 21521
+// Obf: FMKDOMIHJDP
 message VintageMarketStoreViewStrategyReq {
 	uint32 strategy_id = 2;
 	repeated uint32 strategy_list = 13;

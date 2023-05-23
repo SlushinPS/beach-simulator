@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 846
+// Obf: HPGAIHKJJJI
 message NightCrowGadgetObservationMatchReq {
 	uint32 target_gadget_state = 13;
 	uint32 gadget_entity_id = 14;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ActivityScheduleInfo.proto";
 // CmdId: 2103
+// Obf: JCDDALBCEJN
 message GetActivityScheduleRsp {
 	uint32 remain_fly_sea_lamp_num = 3;
 	int32 retcode = 1;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ReunionBriefInfo.proto";
 // CmdId: 5093
+// Obf: MGGGJJNIDDA
 message ReunionActivateNotify {
 	bool is_activate = 5;
 	ReunionBriefInfo reunion_brief_info = 14;

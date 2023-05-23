@@ -15,18 +15,19 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
 import "LABBALOFHKB.proto";
-import "HPPFPGJGIPI.proto";
+import "GCGPlayerBriefData.proto";
 message NKHEPECBCNL {
-	repeated Uint32Pair KNJBEHOBDIP = 13;
-	uint32 IIHDIPEKHDD = 9;
-	uint32 CDFFGLCKBDF = 7;
-	LABBALOFHKB EINNHJPNMNK = 11;
+	repeated Uint32Pair DADKNKLLDAM = 13;
+	uint32 OPGBGHPHELB = 9;
+	uint32 controller_id = 7;
+	LABBALOFHKB LNPHMHEEEOL = 11;
 	bool is_invalid = 8;
 	uint32 id = 14;
-	uint32 CNJACNJIOLI = 10;
-	fixed32 DIOLIABEBCK = 12;
-	repeated HPPFPGJGIPI MKLEGJLGFAP = 15;
+	uint32 win_controller_id = 10;
+	fixed32 NBEKAHFIEAF = 12;
+	repeated GCGPlayerBriefData player_brief_list = 15;
 	fixed32 expire_time = 2;
 }

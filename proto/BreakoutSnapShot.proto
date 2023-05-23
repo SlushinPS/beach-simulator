@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BreakoutPhysicalObject.proto";
 import "BreakoutAction.proto";
 import "BreakoutSpawnPoint.proto";
 import "BreakoutElementReactionCounter.proto";
 import "BreakoutSyncConnectUidInfo.proto";
+// Obf: DHLCLOHBMIO
 message BreakoutSnapShot {
 	uint64 client_game_time = 1;
 	uint64 server_game_time = 2;

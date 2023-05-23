@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8023
+// Obf: BJNFKHJIODM
 message CommonPlayerTipsNotify {
 	uint32 notify_type = 14;
 	repeated string text_map_id_list = 15;

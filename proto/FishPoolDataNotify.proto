@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5815
+// Obf: IBGNCOIBEFF
 message FishPoolDataNotify {
 	uint32 entity_id = 3;
 	uint32 today_fish_num = 1;

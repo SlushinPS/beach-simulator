@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4883
+// Obf: KPCDPDDENMD
 message HomeAvatarTalkReq {
 	uint32 talk_id = 2;
 	uint32 avatar_id = 9;

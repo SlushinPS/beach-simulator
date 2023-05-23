@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1087
+// Obf: KPNGCHNCIEN
 message ProudSkillUpgradeReq {
 	uint32 proud_skill_id = 3;
 	uint32 old_proud_skill_level = 5;

@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "BBANKBFEFAA.proto";
-import "CKIBKCAKBNI.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "ShopCardProduct.proto";
+import "ShopConcertProduct.proto";
 import "PlayProduct.proto";
-import "CLIPCGJEBBP.proto";
+import "ShopMcoinProduct.proto";
 // CmdId: 4128
+// Obf: JAINGPIJIBM
 message RechargeReq {
-	BBANKBFEFAA CPIAIEAHCDN = 11;
-	CKIBKCAKBNI FFFEBCPFHGG = 7;
+	ShopCardProduct card_product = 11;
+	ShopConcertProduct concert_product = 7;
 	PlayProduct play_product = 9;
-	CLIPCGJEBBP KLBFELKCAMG = 15;
+	ShopMcoinProduct mcoin_product = 15;
 }

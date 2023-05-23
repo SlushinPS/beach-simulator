@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 114
+// Obf: DFEPFLOHFBD
 message PlayerCompoundMaterialBoostReq {
-	uint32 OILJPEAIKGI = 12;
-	uint32 MEALACEMCPE = 11;
+	uint32 HDPLMDCFPAF = 12;
+	uint32 MBEFPCNDEII = 11;
 	bool is_boost_all = 9;
-	uint32 BPCKNKJOJDO = 7;
+	uint32 MHMAGJKPDIO = 7;
 }

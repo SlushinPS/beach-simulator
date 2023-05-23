@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2075
+// Obf: ILKDHAHONPJ
 message StartArenaChallengeLevelRsp {
-	uint32 DIOOMHFKCAL = 13;
+	uint32 DBPEAEAANPG = 13;
 	uint32 gadget_entity_id = 11;
 	int32 retcode = 15;
-	uint32 DNFFNHODIOA = 2;
+	uint32 PEPMDOACJNL = 2;
 }

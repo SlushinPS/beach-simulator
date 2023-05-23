@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "EntityRendererChangedInfo.proto";
 import "ForwardType.proto";
 // CmdId: 307
+// Obf: OGKFHAJNEOJ
 message EvtEntityRenderersChangedNotify {
 	EntityRendererChangedInfo renderer_changed_info = 14;
 	uint32 entity_id = 2;

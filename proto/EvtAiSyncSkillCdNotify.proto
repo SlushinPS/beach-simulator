@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AiSkillCdInfo.proto";
 // CmdId: 346
+// Obf: IIEAPNAFCGB
 message EvtAiSyncSkillCdNotify {
 	map<uint32, AiSkillCdInfo> ai_cd_map = 6;
 }

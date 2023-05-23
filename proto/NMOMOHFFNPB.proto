@@ -15,11 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "HHJFBBFKPIE.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "DungeonCandidateTeamPlayerState.proto";
 import "MBJAJACPKIA.proto";
 message NMOMOHFFNPB {
-	HHJFBBFKPIE CCCKACDDMAO = 9;
+	DungeonCandidateTeamPlayerState OMMKENHCBLH = 9;
 	uint32 uid = 2;
-	repeated MBJAJACPKIA ONFHOBNNKPB = 1;
-	repeated MBJAJACPKIA GONGPLLFAKO = 11;
+	repeated MBJAJACPKIA FPJFJBIBHNE = 1;
+	repeated MBJAJACPKIA JHMBANGCKHK = 11;
 }

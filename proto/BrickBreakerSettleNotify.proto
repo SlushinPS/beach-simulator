@@ -15,14 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
 // CmdId: 21157
+// Obf: IHELNMAAFMI
 message BrickBreakerSettleNotify {
+	// Obf: FNHLFJPMOFA
 	enum SettleReason {
-		TimeOut = 0;
-		SettlePlayEnd = 1;
-		SettlePlayerQuit = 2;
-		SettleLifeCount = 3;
+		SETTLE_REASON_TIME_OUT = 0;
+		SETTLE_PLAY_END = 1;
+		SETTLE_PLAYER_QUIT = 2;
+		SETTLE_LIFE_COUNT = 3;
 	}
 	
 	repeated Uint32Pair update_skill_list = 11;

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 234
+// Obf: APMKFJDAHPO
 message GetScenePointReq {
 	uint32 belong_uid = 9;
 	uint32 scene_id = 13;
-	bool LKPBJJJPLIM = 11;
+	bool GPMHJGJLAFH = 11;
 }

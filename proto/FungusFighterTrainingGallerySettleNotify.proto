@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "GalleryStopReason.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HDDANIDHCMI.proto";
 // CmdId: 21415
+// Obf: IDNBMGBLFBN
 message FungusFighterTrainingGallerySettleNotify {
-	uint32 CGBECFMLEJN = 7;
+	uint32 IFFNAGCEBFK = 7;
 	bool is_new_record = 13;
-	uint32 IPHJOBKPOPO = 11;
+	uint32 NBGHHOBNBAP = 11;
 	uint32 total_used_time = 3;
-	uint32 OCIGLHEMGDH = 6;
+	uint32 PCHOHDFFEIH = 6;
 	bool is_final_settle = 15;
-	GalleryStopReason reason = 8;
+	HDDANIDHCMI reason = 8;
 	uint32 final_score = 14;
 }

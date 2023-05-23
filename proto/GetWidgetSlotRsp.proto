@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "WidgetSlotData.proto";
 // CmdId: 4283
+// Obf: DBKCDELCFFK
 message GetWidgetSlotRsp {
 	repeated WidgetSlotData slot_list = 5;
 	int32 retcode = 7;

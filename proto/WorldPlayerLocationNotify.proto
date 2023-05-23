@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerWorldLocationInfo.proto";
 import "PlayerLocationInfo.proto";
 // CmdId: 256
+// Obf: CFNJLMJCOIP
 message WorldPlayerLocationNotify {
 	repeated PlayerWorldLocationInfo player_world_loc_list = 7;
 	repeated PlayerLocationInfo player_loc_list = 9;

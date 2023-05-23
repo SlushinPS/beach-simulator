@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ExpeditionAssistInfo.proto";
 // CmdId: 2115
+// Obf: OJLMACKHDHF
 message GetExpeditionAssistInfoListRsp {
 	int32 retcode = 10;
 	repeated ExpeditionAssistInfo assist_info_list = 13;

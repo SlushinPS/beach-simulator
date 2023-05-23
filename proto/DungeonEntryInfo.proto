@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "WeeklyBossResinDiscountInfo.proto";
+// Obf: FCEKHDABEJM
 message DungeonEntryInfo {
-	uint32 DPHKKFGLCMM = 13;
+	uint32 FFJHKNBBFMF = 13;
 	uint32 dungeon_id = 9;
-	uint32 DCIOPCGIJML = 5;
+	uint32 max_boss_chest_num = 5;
 	bool is_passed = 12;
-	uint32 LCDOJEBBDJP = 11;
+	uint32 ODGFEEPJAJA = 11;
 	uint32 next_refresh_time = 10;
 	WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 3;
 	uint32 start_time = 4;

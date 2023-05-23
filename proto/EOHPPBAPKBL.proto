@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "NBMLPCGCIEG.proto";
 // CmdId: 21606
 message EOHPPBAPKBL {
-	bool KPPCJAODFFA = 14;
-	NBMLPCGCIEG JLJLIPPNFJF = 10;
+	bool GOJMDPHMAKB = 14;
+	NBMLPCGCIEG CKALODBAPLN = 10;
 }

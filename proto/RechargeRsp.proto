@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4108
+// Obf: PICIJDFCGNC
 message RechargeRsp {
 	int32 retcode = 7;
 	string product_id = 13;

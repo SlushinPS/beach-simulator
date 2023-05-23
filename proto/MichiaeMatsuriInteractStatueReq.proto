@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8736
+// Obf: BEHEDEIECCE
 message MichiaeMatsuriInteractStatueReq {
 	uint32 statue_entity_id = 12;
 }

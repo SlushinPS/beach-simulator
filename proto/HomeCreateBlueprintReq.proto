@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HomeSceneArrangementInfo.proto";
 // CmdId: 4859
+// Obf: FMCPMEENHNB
 message HomeCreateBlueprintReq {
 	string server_share_code = 15;
 	uint32 slot_id = 10;

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 315
+// Obf: OMODMHOJJCL
 message EvtBeingHealedNotify {
-	float OLIOGGAFKNF = 15;
+	float BCPCBNJPKML = 15;
 	uint32 source_id = 13;
-	float IKFMCGGGJLO = 5;
+	float INLMLKPPDPI = 5;
 	uint32 target_id = 1;
 }

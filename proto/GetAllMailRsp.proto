@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MailData.proto";
 // CmdId: 1464
+// Obf: JJJMNCKNNLO
 message GetAllMailRsp {
 	bool is_truncated = 9;
 	int32 retcode = 7;

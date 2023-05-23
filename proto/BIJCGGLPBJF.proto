@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "OMJBALCDKJK.proto";
 // CmdId: 9104
 message BIJCGGLPBJF {
 	uint64 guid = 2;
-	OMJBALCDKJK GFMEOFNBPOK = 8;
+	OMJBALCDKJK JGOLDOIMPOL = 8;
 }

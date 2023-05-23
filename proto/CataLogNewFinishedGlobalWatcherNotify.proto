@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CataLogGlobalWatcherFinishedData.proto";
 // CmdId: 6398
+// Obf: CLNPKHGIJHJ
 message CataLogNewFinishedGlobalWatcherNotify {
 	repeated CataLogGlobalWatcherFinishedData new_finished_global_watcher_data_list = 9;
 }

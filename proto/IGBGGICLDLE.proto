@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 message IGBGGICLDLE {
-	float CJFBPAGKHHB = 5;
+	float JPLABPDDDAA = 5;
 	uint32 element_type = 8;
-	uint32 BCEHPHAPFDE = 10;
-	float AOKPFFPCLFC = 7;
+	uint32 OEEFMKOMJBK = 10;
+	float HNGHMNBGHLG = 7;
 }

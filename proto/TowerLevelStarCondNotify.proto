@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "TowerLevelStarCondData.proto";
 // CmdId: 2443
+// Obf: BMILIEDEACF
 message TowerLevelStarCondNotify {
 	uint32 level_index = 3;
 	repeated TowerLevelStarCondData cond_data_list = 6;

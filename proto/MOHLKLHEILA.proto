@@ -15,19 +15,20 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4476
 message MOHLKLHEILA {
 	enum EKIJDKLDPFI {
-		PlayerJudge = 0;
-		PlayerEnterOptionRefuse = 1;
-		PlayerEnterOptionDirect = 2;
-		SystemJudge = 3;
-		HostInMatch = 4;
-		PsPlayerNotAcceptOthers = 5;
-		OpenStateNotOpen = 6;
-		HostInEditMode = 7;
-		PriorCheck = 8;
-		PlayerOffline = 9;
+		MAHLBDMPLJA_PlayerJudge = 0;
+		MAHLBDMPLJA_PlayerEnterOptionRefuse = 1;
+		MAHLBDMPLJA_PlayerEnterOptionDirect = 2;
+		MAHLBDMPLJA_SystemJudge = 3;
+		MAHLBDMPLJA_HostInMatch = 4;
+		MAHLBDMPLJA_PsPlayerNotAcceptOthers = 5;
+		MAHLBDMPLJA_OpenStateNotOpen = 6;
+		MAHLBDMPLJA_HostInEditMode = 7;
+		MAHLBDMPLJA_PriorCheck = 8;
+		MAHLBDMPLJA_PlayerOffline = 9;
 	}
 	
 	EKIJDKLDPFI reason = 1;

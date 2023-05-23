@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2848
+// Obf: LNAPPLPMLHC
 message TakeCityReputationParentQuestReq {
 	uint32 city_id = 14;
 	repeated uint32 parent_quest_list = 10;

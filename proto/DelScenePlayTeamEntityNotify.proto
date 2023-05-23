@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 3480
+// Obf: MOBMGHNHAAC
 message DelScenePlayTeamEntityNotify {
 	uint32 scene_id = 3;
 	repeated uint32 del_entity_id_list = 15;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FoundationOpType.proto";
 // CmdId: 816
+// Obf: HPKMHKOFJHC
 message FoundationReq {
 	uint32 point_config_id = 8;
 	uint32 building_id = 1;

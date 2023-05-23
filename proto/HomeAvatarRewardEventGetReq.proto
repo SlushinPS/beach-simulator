@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4768
+// Obf: KNHDNOEJIFF
 message HomeAvatarRewardEventGetReq {
 	uint32 event_id = 3;
 	uint32 avatar_id = 7;

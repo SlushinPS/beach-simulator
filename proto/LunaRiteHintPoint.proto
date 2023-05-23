@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "LunaRiteHintPointType.proto";
+// Obf: EOGOMPLBCGB
 message LunaRiteHintPoint {
 	uint32 area_id = 1;
 	Vector pos = 15;

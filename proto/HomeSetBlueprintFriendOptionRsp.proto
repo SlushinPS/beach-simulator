@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4539
+// Obf: GEIHHOCOPFD
 message HomeSetBlueprintFriendOptionRsp {
 	int32 retcode = 5;
-	bool ELPJODGNIJC = 7;
-	bool is_allow_friend_copy = 8;
+	bool CNDJLHPOOBO = 7;
+	bool KMDEOGAINNP = 8;
 }

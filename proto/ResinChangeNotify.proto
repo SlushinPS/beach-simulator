@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 612
+// Obf: GNHJPFEHCEB
 message ResinChangeNotify {
-	uint32 KHIELNKPIBK = 1;
-	uint32 HHEPCMBGMEE = 11;
+	uint32 curBuyCount = 1;
+	uint32 nextAddTimestamp = 11;
 	uint32 cur_value = 8;
 }

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 112
+// Obf: KHDJGGHLMMJ
 message PlayerSetLanguageReq {
 	uint32 language_type = 8;
 }

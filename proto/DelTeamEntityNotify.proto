@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 369
+// Obf: IBMDDFGACLA
 message DelTeamEntityNotify {
 	repeated uint32 del_entity_id_list = 13;
 	uint32 scene_id = 4;

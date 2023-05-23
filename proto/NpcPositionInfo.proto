@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
+// Obf: AIOMPABPEOJ
 message NpcPositionInfo {
 	uint32 npc_id = 1;
 	Vector pos = 2;

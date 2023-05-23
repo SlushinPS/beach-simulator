@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ScenePlayerInfo.proto";
 // CmdId: 253
+// Obf: ADOEGJHHOPF
 message ScenePlayerInfoNotify {
 	repeated ScenePlayerInfo player_info_list = 8;
 }

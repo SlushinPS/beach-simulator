@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CityInfo.proto";
 // CmdId: 224
+// Obf: KAKHAKLHMDF
 message GetSceneAreaRsp {
 	repeated CityInfo city_info_list = 3;
 	int32 retcode = 9;

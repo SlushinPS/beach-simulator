@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DFMBCLCIGOD
 enum ClientInputType {
-	ClientInputType_ClientInputNone = 0;
-	ClientInputType_ClientInputKeybordMouse = 1;
-	ClientInputType_ClientInputGamepad = 2;
-	ClientInputType_ClientInputTouchPanel = 3;
+	CLIENT_INPUT_NONE = 0;
+	CLIENT_INPUT_KEYBORD_MOUSE = 1;
+	CLIENT_INPUT_GAMEPAD = 2;
+	CLIENT_INPUT_TOUCH_PANEL = 3;
 }

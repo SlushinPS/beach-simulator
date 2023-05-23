@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-import "NCOOFLCLKIP.proto";
+import "CreateGadgetInfo.proto";
+// Obf: MLAIAFGGNLF
 message CreateEntityInfo {
 	uint32 level = 5;
 	Vector pos = 6;
@@ -26,9 +28,9 @@ message CreateEntityInfo {
 	uint32 client_unique_id = 12;
 	oneof entity {
 		uint32 monster_id = 1;
-		uint32 FDMLMFHFFMH = 2;
+		uint32 npc_id = 2;
 		uint32 gadget_id = 3;
-		uint32 FCINCNIGMFJ = 4;
+		uint32 item_id = 4;
 	}
-	optional NCOOFLCLKIP gadget = 13;
+	optional CreateGadgetInfo gadget = 13;
 }

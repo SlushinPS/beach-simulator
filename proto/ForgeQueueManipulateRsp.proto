@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ForgeQueueManipulateType.proto";
 import "ItemParam.proto";
 // CmdId: 649
+// Obf: DDDGJIMOHAN
 message ForgeQueueManipulateRsp {
 	ForgeQueueManipulateType manipulate_type = 10;
-	repeated ItemParam KHPGAILPPFO = 1;
+	repeated ItemParam extra_output_item_list = 1;
 	int32 retcode = 5;
-	repeated ItemParam MJGLNEAILIA = 9;
-	repeated ItemParam LBMNIILGGKJ = 14;
+	repeated ItemParam return_item_list = 9;
+	repeated ItemParam output_item_list = 14;
 }

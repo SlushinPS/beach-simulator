@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2134
+// Obf: KMCHADDNELL
 message DragonSpineCoinChangeNotify {
 	uint32 schedule_id = 9;
-	uint32 HIANCJIKDOC = 3;
-	uint32 LAGIHKBMBKG = 2;
-	uint32 NIOGIFBOAJL = 14;
+	uint32 EFJOFMJNHEM = 3;
+	uint32 BFHMDKOEJPC = 2;
+	uint32 LNHGDOBIBFH = 14;
 }

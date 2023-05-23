@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2002
+// Obf: DHONHJMPNPH
 message FlightActivitySettleNotify {
 	uint32 total_num = 5;
 	uint32 group_id = 4;
 	bool is_new_record = 2;
-	uint32 PFCBKPPHKIF = 6;
-	uint32 IFHOOCIPPDG = 3;
+	uint32 DBIHJAJCNBC = 6;
+	uint32 PCEABJGNLBB = 3;
 	bool is_success = 12;
 	uint32 score = 7;
 	uint32 left_time = 9;

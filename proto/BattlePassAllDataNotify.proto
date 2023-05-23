@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BattlePassSchedule.proto";
 import "BattlePassMission.proto";
 // CmdId: 2628
+// Obf: PKMIHDNNEJI
 message BattlePassAllDataNotify {
 	BattlePassSchedule cur_schedule = 8;
 	repeated BattlePassMission mission_list = 7;

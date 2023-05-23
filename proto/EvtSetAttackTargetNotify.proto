@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "EvtSetAttackTargetInfo.proto";
 import "ForwardType.proto";
 // CmdId: 330
+// Obf: FPMNNPLLLEO
 message EvtSetAttackTargetNotify {
 	EvtSetAttackTargetInfo evt_set_attack_target_info = 2;
 	ForwardType forward_type = 9;

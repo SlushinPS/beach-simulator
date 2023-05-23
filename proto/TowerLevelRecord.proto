@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: EPLOECPIEFN
 message TowerLevelRecord {
 	repeated uint32 satisfied_cond_list = 3;
 	uint32 level_id = 9;

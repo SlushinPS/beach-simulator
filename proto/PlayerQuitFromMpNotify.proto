@@ -15,20 +15,23 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1825
+// Obf: AGDDFBNIPBI
 message PlayerQuitFromMpNotify {
+	// Obf: MINHGLMIAHJ
 	enum QuitReason {
-		Invalid = 0;
-		HostNoOtherPlayer = 1;
-		KickByHost = 2;
-		BackToMyWorld = 3;
-		KickByHostLogout = 4;
-		KickByHostBlock = 5;
-		BeBlocked = 6;
-		KickByHostEnterHome = 7;
-		HostSceneInvalid = 8;
-		KickByPlay = 9;
-		KickByIslandPartyGalleryStartFailed = 10;
+		INVALID = 0;
+		HOST_NO_OTHER_PLAYER = 1;
+		KICK_BY_HOST = 2;
+		BACK_TO_MY_WORLD = 3;
+		KICK_BY_HOST_LOGOUT = 4;
+		KICK_BY_HOST_BLOCK = 5;
+		BE_BLOCKED = 6;
+		KICK_BY_HOST_ENTER_HOME = 7;
+		HOST_SCENE_INVALID = 8;
+		KICK_BY_PLAY = 9;
+		KICK_BY_ISLAND_PARTY_GALLERY_START_FAILED = 10;
 	}
 	
 	QuitReason reason = 11;

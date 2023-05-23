@@ -15,10 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LKCJKONCEDO.proto";
 message KENBIHKLOOO {
 	uint64 dungeon_guid = 9;
-	LKCJKONCEDO BLFOKJOHAHM = 11;
+	LKCJKONCEDO OHCEPJLFJCE = 11;
 	uint32 version = 13;
 	uint32 score = 4;
 	uint32 used_time = 10;

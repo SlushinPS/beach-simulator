@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: FHEGOCNGNBI
 enum DungeonCandidateTeamDismissReason {
-	DungeonCandidateTeamDismissReason_DungeonCandidateTpdrNormal = 0;
-	DungeonCandidateTeamDismissReason_DungeonCandidateTpdrDie = 1;
-	DungeonCandidateTeamDismissReason_DungeonCandidateTpdrDisconnect = 2;
+	DUNGEON_CANDIDATE_TPDR_NORMAL = 0;
+	DUNGEON_CANDIDATE_TPDR_DIE = 1;
+	DUNGEON_CANDIDATE_TPDR_DISCONNECT = 2;
 }

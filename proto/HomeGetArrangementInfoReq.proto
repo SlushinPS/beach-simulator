@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4796
+// Obf: IHHPAABMMLL
 message HomeGetArrangementInfoReq {
 	repeated uint32 scene_id_list = 7;
 }

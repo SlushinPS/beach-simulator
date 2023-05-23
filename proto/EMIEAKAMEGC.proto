@@ -15,7 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CCPLHHKMDPJ.proto";
 message EMIEAKAMEGC {
-	repeated CCPLHHKMDPJ JIIJHJACJML = 13;
+	repeated CCPLHHKMDPJ level_info_list = 13;
 }

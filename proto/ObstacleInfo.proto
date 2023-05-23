@@ -15,18 +15,21 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-import "DAKBAOLCLCB.proto";
+import "MathQuaternion.proto";
 import "Vector3Int.proto";
+// Obf: IIEGGGIMBHP
 message ObstacleInfo {
+	// Obf: ICJGJHAOCFL
 	enum ShapeType {
-		ObstacleShapeCapsule = 0;
-		ObstacleShapeBox = 1;
+		OBSTACLE_SHAPE_CAPSULE = 0;
+		OBSTACLE_SHAPE_BOX = 1;
 	}
 	
 	int32 obstacle_id = 4;
 	Vector center = 6;
-	DAKBAOLCLCB rotation = 2;
+	MathQuaternion rotation = 2;
 	ShapeType shape = 11;
 	Vector3Int extents = 13;
 }

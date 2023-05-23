@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8187
+// Obf: JDNNCJAMPJO
 message UpgradeRoguelikeShikigamiReq {
-	uint32 CIEPKFIFCIH = 3;
-	uint32 OHAHOFPGGAE = 11;
+	uint32 OOHLIPJCHNE = 3;
+	uint32 HLODNDIEIJG = 11;
 }

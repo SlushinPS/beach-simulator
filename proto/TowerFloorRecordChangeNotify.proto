@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "TowerFloorRecord.proto";
 // CmdId: 2496
+// Obf: MAFKENDBENG
 message TowerFloorRecordChangeNotify {
 	repeated TowerFloorRecord tower_floor_record_list = 10;
 	bool is_finished_entrance_floor = 5;

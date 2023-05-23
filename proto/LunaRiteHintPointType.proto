@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: CHIOFLNBPOE
 enum LunaRiteHintPointType {
-	LunaRiteHintPointType_LunaRiteHintTypeNone = 0;
-	LunaRiteHintPointType_LunaRiteHintTypeRune = 1;
-	LunaRiteHintPointType_LunaRiteHintTypeChest = 2;
+	LUNA_RITE_HINT_TYPE_NONE = 0;
+	LUNA_RITE_HINT_TYPE_RUNE = 1;
+	LUNA_RITE_HINT_TYPE_CHEST = 2;
 }

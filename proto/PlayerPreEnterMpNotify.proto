@@ -15,12 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1807
+// Obf: EAFHIKNPPDH
 message PlayerPreEnterMpNotify {
+	// Obf: CCMIBIDPENC
 	enum State {
-		Invalid = 0;
-		Start = 1;
-		Timeout = 2;
+		INVALID = 0;
+		START = 1;
+		TIMEOUT = 2;
 	}
 	
 	uint32 uid = 9;

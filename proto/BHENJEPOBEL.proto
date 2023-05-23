@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FCHFBEOPIMF.proto";
 // CmdId: 7859
 message BHENJEPOBEL {
-	FCHFBEOPIMF BCGOLJCGIKK = 3;
+	FCHFBEOPIMF DAJBJLAPDPF = 3;
 	int32 retcode = 6;
 }

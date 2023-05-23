@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SumoDungeonTeam.proto";
 // CmdId: 8412
+// Obf: NIBHIEKCOGK
 message SumoEnterDungeonNotify {
 	uint32 stage_id = 7;
-	uint32 KNKGMFAGKOK = 8;
+	uint32 BDAFDFKPJAE = 8;
 	repeated SumoDungeonTeam dungeon_team_list = 13;
-	uint32 AHFGAGFDMDG = 1;
+	uint32 DHAAEJHLHNB = 1;
 	uint32 activity_id = 9;
-	uint32 FAPOJCLCAFI = 4;
+	uint32 PHBHNGMAEKN = 4;
 }

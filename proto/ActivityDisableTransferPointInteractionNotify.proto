@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
 // CmdId: 8212
+// Obf: KODDECOKPBA
 message ActivityDisableTransferPointInteractionNotify {
 	bool is_disable = 8;
 	Uint32Pair scene_point_pair = 2;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 // CmdId: 688
+// Obf: PCCDPKOLOBP
 message WeaponUpgradeReq {
 	uint64 target_weapon_guid = 10;
 	repeated uint64 food_weapon_guid_list = 5;

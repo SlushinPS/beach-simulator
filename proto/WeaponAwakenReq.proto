@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 666
+// Obf: ODIJEFHHODN
 message WeaponAwakenReq {
 	map<uint32, uint32> affix_level_map = 11;
 	uint64 item_guid = 2;

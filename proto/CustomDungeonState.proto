@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: NNKLFCELDGG
 enum CustomDungeonState {
-	CustomDungeonState_Edit = 0;
-	CustomDungeonState_SelfPass = 1;
-	CustomDungeonState_Published = 2;
+	CUSTOM_DUNGEON_STATE_EDIT = 0;
+	CUSTOM_DUNGEON_STATE_SELF_PASS = 1;
+	CUSTOM_DUNGEON_STATE_PUBLISHED = 2;
 }

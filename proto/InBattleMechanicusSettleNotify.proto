@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MultistageSettleWatcherInfo.proto";
 // CmdId: 5316
+// Obf: IEIEFJMCFDB
 message InBattleMechanicusSettleNotify {
 	repeated MultistageSettleWatcherInfo watcher_list = 15;
-	uint32 MENGLHEFCHD = 8;
+	uint32 MHCDNHLEGJJ = 8;
 	uint32 play_index = 1;
 	uint32 group_id = 5;
-	uint32 ECNAGNKHEPP = 13;
+	uint32 JJEKHBDPANH = 13;
 	bool is_success = 6;
-	uint32 JMNHFNAFLPC = 14;
+	uint32 DLDGAGDLKEO = 14;
 	uint64 scene_time_ms = 2;
 }

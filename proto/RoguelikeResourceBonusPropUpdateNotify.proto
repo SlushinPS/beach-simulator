@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8700
+// Obf: FPDJKFMIFHI
 message RoguelikeResourceBonusPropUpdateNotify {
 	float bonus_resource_prop = 2;
 }

@@ -15,10 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "NMOMOHFFNPB.proto";
 import "NBMLPCGCIEG.proto";
 // CmdId: 21861
 message MLOFOEIDFAN {
 	repeated NMOMOHFFNPB player_info_list = 11;
-	NBMLPCGCIEG JLJLIPPNFJF = 1;
+	NBMLPCGCIEG CKALODBAPLN = 1;
 }

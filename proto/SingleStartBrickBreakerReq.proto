@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 23458
+// Obf: FMNFIFAKILE
 message SingleStartBrickBreakerReq {
 	bool is_dungeon = 14;
 	uint32 level_id = 6;

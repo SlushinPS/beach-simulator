@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CrystalLinkBuffInfo.proto";
 import "CrystalLinkAvatarInfo.proto";
+// Obf: EPPFIDECGAF
 message CrystalLinkTeamInfo {
 	repeated CrystalLinkBuffInfo buff_info_list = 9;
 	repeated CrystalLinkAvatarInfo avatar_info_list = 14;

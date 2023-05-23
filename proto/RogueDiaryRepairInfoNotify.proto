@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RogueDiaryAvatar.proto";
 import "RogueDiaryRoomInfo.proto";
 // CmdId: 8872
+// Obf: GBHAOHPJBCN
 message RogueDiaryRepairInfoNotify {
 	uint32 stage_id = 12;
 	repeated RogueDiaryAvatar avatar_list = 2;

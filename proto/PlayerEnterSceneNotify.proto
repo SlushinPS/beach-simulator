@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "EnterType.proto";
 import "Vector.proto";
 // CmdId: 275
+// Obf: BKECKGFKLNP
 message PlayerEnterSceneNotify {
 	uint32 enter_scene_token = 4;
 	uint32 enter_reason = 1592;

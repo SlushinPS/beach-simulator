@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2038
+// Obf: EJCDOOPMCED
 message ExpeditionStartReq {
 	uint32 path_id = 7;
-	uint32 HGNDDCKBPAB = 2;
+	uint32 MFNGJOCIAPE = 2;
 	repeated uint32 avatar_id_list = 6;
-	uint32 AEJMBLPJEML = 12;
+	uint32 FLHKBCEIKLE = 12;
 }

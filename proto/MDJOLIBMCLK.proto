@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 9194
 message MDJOLIBMCLK {
 	uint64 guid = 15;
-	bool LLFMFALNBBA = 13;
+	bool DNOFGBKGANP = 13;
 	int32 retcode = 11;
 }

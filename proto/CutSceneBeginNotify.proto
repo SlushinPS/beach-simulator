@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CutSceneExtraParam.proto";
 // CmdId: 285
+// Obf: PNGBGNKECJP
 message CutSceneBeginNotify {
 	repeated CutSceneExtraParam extra_param_list = 9;
 	uint32 cutscene_id = 13;

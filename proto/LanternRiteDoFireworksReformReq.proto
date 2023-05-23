@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8167
+// Obf: GNPJNCOKGLL
 message LanternRiteDoFireworksReformReq {
 	uint32 factor_id = 10;
 	uint32 challenge_id = 13;

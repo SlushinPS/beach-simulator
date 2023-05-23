@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: KAJOBPDKGLN
 enum AreaPlayType {
-	AreaPlayType_AreaPlayNone = 0;
-	AreaPlayType_AreaPlayClimate = 1;
-	AreaPlayType_AreaPlayRegionalPlay = 2;
+	AREA_PLAY_NONE = 0;
+	AREA_PLAY_CLIMATE = 1;
+	AREA_PLAY_REGIONAL_PLAY = 2;
 }

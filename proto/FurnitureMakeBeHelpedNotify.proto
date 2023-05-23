@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FurnitureMakeSlot.proto";
 import "FurnitureMakeBeHelpedData.proto";
 // CmdId: 4457
+// Obf: HIDEAJGPAMG
 message FurnitureMakeBeHelpedNotify {
 	FurnitureMakeSlot furniture_make_slot = 2;
 	FurnitureMakeBeHelpedData furniture_make_helped_data = 10;

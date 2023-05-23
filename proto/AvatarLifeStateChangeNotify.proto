@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerDieType.proto";
 import "ServerBuff.proto";
 // CmdId: 1235
+// Obf: GNABNGDFLJM
 message AvatarLifeStateChangeNotify {
 	PlayerDieType die_type = 11;
 	string attack_tag = 4;

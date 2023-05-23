@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "WIDGET_EXTRA_CD_TYPE.proto";
 import "WidgetCoolDownData.proto";
 // CmdId: 6018
+// Obf: ECEDMOBDGMI
 message WidgetUpdateExtraCDRsp {
 	int32 retcode = 5;
 	WIDGET_EXTRA_CD_TYPE extra_cd_type = 6;

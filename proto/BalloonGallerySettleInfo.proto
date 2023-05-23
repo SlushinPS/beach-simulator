@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "GalleryStopReason.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HDDANIDHCMI.proto";
+// Obf: ONLKNMDGDMB
 message BalloonGallerySettleInfo {
 	uint32 hit_count = 6;
-	GalleryStopReason reason = 5;
+	HDDANIDHCMI reason = 5;
 	uint32 owner_uid = 12;
 	uint32 score = 11;
 }

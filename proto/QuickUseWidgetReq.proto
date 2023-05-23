@@ -15,19 +15,21 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "LocationInfo.proto";
-import "CNJMNIJCIAA.proto";
-import "CreatorInfo.proto";
-import "EAGOACENHEI.proto";
-import "FFGKNAHPKKF.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "WidgetCreateLocationInfo.proto";
+import "WidgetCameraInfo.proto";
+import "WidgetCreatorInfo.proto";
+import "WidgetThunderBirdFeatherInfo.proto";
+import "WidgetSorushInfo.proto";
 // CmdId: 4266
+// Obf: LFNGOLHIBCA
 message QuickUseWidgetReq {
-	bool GNNNCMLEGAB = 782;
+	bool MDCPHIOENOJ = 782;
 	oneof param {
-		LocationInfo location_info = 1827;
-		CNJMNIJCIAA EDAOJIJAJAH = 1598;
-		CreatorInfo IBPOMDNKLIJ = 1489;
-		EAGOACENHEI LCMFKCNBMNO = 767;
-		FFGKNAHPKKF EBKACAALGLM = 75;
+		WidgetCreateLocationInfo location_info = 1827;
+		WidgetCameraInfo camera_info = 1598;
+		WidgetCreatorInfo creator_info = 1489;
+		WidgetThunderBirdFeatherInfo thunder_bird_feather_info = 767;
+		WidgetSorushInfo sorush_info = 75;
 	}
 }

@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: CBDNLHOCBPN
 message LanternRiteFireworksReformFactorInfo {
 	uint32 factor_id = 5;
 	uint32 factor_value = 3;

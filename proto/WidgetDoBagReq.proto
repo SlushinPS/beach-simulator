@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "LocationInfo.proto";
-import "CreatorInfo.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "WidgetCreateLocationInfo.proto";
+import "WidgetCreatorInfo.proto";
 // CmdId: 4295
+// Obf: JFBFFLAEENK
 message WidgetDoBagReq {
 	uint32 material_id = 10;
 	oneof op_info {
-		LocationInfo location_info = 1329;
-		CreatorInfo widget_creator_info = 1593;
+		WidgetCreateLocationInfo location_info = 1329;
+		WidgetCreatorInfo widget_creator_info = 1593;
 	}
 }

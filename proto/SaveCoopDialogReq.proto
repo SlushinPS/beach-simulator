@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1988
+// Obf: PIEJIMKNEBJ
 message SaveCoopDialogReq {
-	uint32 GBEJIOLEJGM = 9;
-	uint32 EELHMPBGEGP = 3;
+	uint32 OHGJGOFMHNP = 9;
+	uint32 IMOEGKJCNNL = 3;
 }

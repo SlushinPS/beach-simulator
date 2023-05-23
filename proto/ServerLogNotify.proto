@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "EBGEGNIBCPC.proto";
-import "BFFGPEJFDOI.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "ServerLogType.proto";
+import "ServerLogLevel.proto";
 // CmdId: 84
+// Obf: PAIOIAPJEEM
 message ServerLogNotify {
-	EBGEGNIBCPC IPBCAGJCELD = 1;
+	ServerLogType FHJIOJOGJHJ = 1;
 	string server_log = 4;
-	BFFGPEJFDOI FEKLFDJCLLN = 9;
+	ServerLogLevel DBILBLAGLPC = 9;
 }

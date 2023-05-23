@@ -15,6 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 message LKIOJIHFIGD {
-	repeated uint32 HCDIICFBABJ = 2;
+	repeated uint32 card_guid_list = 2;
 }

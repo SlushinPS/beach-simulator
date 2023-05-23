@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ActivityPushTipsData.proto";
 // CmdId: 8720
+// Obf: JDFBCDFOPFK
 message ActivityPushTipsInfoNotify {
 	uint32 activity_id = 5;
 	repeated ActivityPushTipsData activity_push_tips_data_list = 9;

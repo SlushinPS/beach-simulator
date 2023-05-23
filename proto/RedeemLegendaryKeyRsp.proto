@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 459
+// Obf: GNDIOCKBMPI
 message RedeemLegendaryKeyRsp {
 	uint32 legendary_key_count = 3;
 	int32 retcode = 11;

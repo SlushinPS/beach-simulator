@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1989
+// Obf: MEDHHGAKCNK
 message FinishMainCoopRsp {
 	int32 retcode = 9;
 	uint32 ending_save_point_id = 7;

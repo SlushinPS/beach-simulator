@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
+// Obf: GFDJGBEEOPJ
 message ActivityRecvGiftData {
 	string nickname = 2;
 	map<uint32, uint32> gift_num_map = 12;

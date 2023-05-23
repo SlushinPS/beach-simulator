@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SceneTeamAvatar.proto";
 // CmdId: 1652
+// Obf: BNPIBIMJIEG
 message SceneTeamUpdateNotify {
 	repeated SceneTeamAvatar scene_team_avatar_list = 8;
 	bool is_in_mp = 13;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SalvageEscortSettleInfo.proto";
 // CmdId: 8693
+// Obf: NEHPEIKIILH
 message SalvageEscortSettleNotify {
 	SalvageEscortSettleInfo settle_info = 6;
 	uint32 gallery_id = 13;

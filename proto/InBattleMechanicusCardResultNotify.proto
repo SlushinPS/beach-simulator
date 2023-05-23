@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "InBattleMechanicusCardInfo.proto";
 // CmdId: 5334
+// Obf: IHGGDCPCLJF
 message InBattleMechanicusCardResultNotify {
 	uint64 wait_begin_time_us = 8;
 	repeated InBattleMechanicusCardInfo card_list = 13;

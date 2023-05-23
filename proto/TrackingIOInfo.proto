@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: JOKGLALOCCK
 message TrackingIOInfo {
-	string LOOADIODGII = 8;
-	string FNFKBHDGPCG = 15;
-	string ADPAEPKMKAM = 4;
-	string CECOEGINKBN = 9;
-	string MPHHEJIKHPF = 10;
-	string MKHJCEANNKC = 7;
-	string CBNNONJDMOM = 14;
+	string PHKLBMJLABP = 8;
+	string MCPANGKOECL = 15;
+	string OFKJCJFIHDA = 4;
+	string ADHIHLMGAAA = 9;
+	string BEBOGAEBAGG = 10;
+	string BBMJLHFKKDB = 7;
+	string OAKADAODLLM = 14;
 }

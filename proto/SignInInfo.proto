@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SignInData.proto";
+// Obf: OGJPOGIAMNC
 message SignInInfo {
 	repeated SignInData signin_data_list = 3;
 	repeated uint32 reward_day_list = 1;
 	uint32 config_id = 6;
-	uint32 HCPGCHPMPNF = 9;
-	uint32 CDIENKBJNKF = 15;
+	uint32 CPFCNAEHCLC = 9;
+	uint32 ALFPAAEHDIA = 15;
 	uint32 end_time = 13;
 	uint32 schedule_id = 12;
 	uint32 begin_time = 10;

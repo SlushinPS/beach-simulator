@@ -15,12 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: JGBCFAMHKCP
 message PBNavMeshPoly {
+	// Obf: NENAAAKMHPN
 	enum EdgeType {
-		Inner = 0;
-		TileBound = 1;
-		TileBoundUnconnect = 2;
-		TileBoundOveride = 3;
+		INNER = 0;
+		TILE_BOUND = 1;
+		TILE_BOUND_UNCONNECT = 2;
+		TILE_BOUND_OVERIDE = 3;
 	}
 	
 	repeated int32 vects = 2;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8008
+// Obf: PPBCCHFPIHM
 message IrodoriMasterStartGalleryReq {
 	uint32 level_id = 10;
 	uint32 difficulty = 15;

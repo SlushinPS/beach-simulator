@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 678
+// Obf: JFJDDJBLOLF
 message CombineFormulaDataNotify {
 	bool is_locked = 15;
 	uint32 combine_id = 10;

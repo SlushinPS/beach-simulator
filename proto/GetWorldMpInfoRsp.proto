@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 3316
+// Obf: ODKECHBHNEL
 message GetWorldMpInfoRsp {
 	bool is_in_mp_mode = 2;
 	uint32 quit_mp_valid_time = 4;

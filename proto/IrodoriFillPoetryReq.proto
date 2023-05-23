@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8719
+// Obf: AIDOENDNIEB
 message IrodoriFillPoetryReq {
-	uint32 LNOKHOKNAHP = 11;
-	uint32 FFMIFIMKBKI = 10;
+	uint32 MKOEOLDGOOO = 11;
+	uint32 MOFMBBIKDAN = 10;
 }

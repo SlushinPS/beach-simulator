@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DMHCHCJJAKN
 enum DungeonEntryBlockReason {
-	DungeonEntryBlockReason_DungeonEntryReasonNone = 0;
-	DungeonEntryBlockReason_DungeonEntryReasonLevel = 1;
-	DungeonEntryBlockReason_DungeonEntryReasonQuest = 2;
-	DungeonEntryBlockReason_DungeonEntryReasonMuliple = 3;
+	DUNGEON_ENTRY_REASON_NONE = 0;
+	DUNGEON_ENTRY_REASON_LEVEL = 1;
+	DUNGEON_ENTRY_REASON_QUEST = 2;
+	DUNGEON_ENTRY_REASON_MULIPLE = 3;
 }

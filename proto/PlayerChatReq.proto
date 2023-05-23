@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ChatInfo.proto";
 // CmdId: 3359
+// Obf: DBOADNLHMAK
 message PlayerChatReq {
 	ChatInfo chat_info = 13;
 	uint32 channel_id = 7;

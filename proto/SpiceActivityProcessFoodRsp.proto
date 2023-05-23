@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 // CmdId: 8171
+// Obf: HMEPPOKOJLI
 message SpiceActivityProcessFoodRsp {
 	repeated ItemParam normal_food_list = 13;
 	repeated ItemParam special_food_list = 6;

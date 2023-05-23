@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
+// Obf: DHHCMOFDKOL
 message WinterCampFriendWishData {
 	ProfilePicture profile_picture = 7;
 	repeated uint32 item_id_list = 13;

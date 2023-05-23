@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: BGEPDKGLCMN
 message TowerLevelStarCondData {
-	uint32 OOLICJPIIOB = 15;
-	uint32 LODABBNJIIL = 7;
-	bool JGJPFOAEFEN = 4;
-	bool ICCHLPHNHGN = 11;
+	uint32 star_cond_index = 15;
+	uint32 cond_value = 7;
+	bool HHFLBKFMCIH = 4;
+	bool DJEMLDOFGLI = 11;
 }

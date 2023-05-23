@@ -15,13 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 215
+// Obf: KHIOGGMDHJI
 message ScenePlayerSoundNotify {
+	// Obf: EOKADOBMPII
 	enum PlaySoundType {
-		PlaySoundNone = 0;
-		PlaySoundStart = 1;
-		PlaySoundStop = 2;
+		PLAY_SOUND_NONE = 0;
+		PLAY_SOUND_START = 1;
+		PLAY_SOUND_STOP = 2;
 	}
 	
 	string sound_name = 1;

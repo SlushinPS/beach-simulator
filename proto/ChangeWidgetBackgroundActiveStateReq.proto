@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 6050
+// Obf: DFCKMNCENAC
 message ChangeWidgetBackgroundActiveStateReq {
 	bool is_active = 14;
 	uint32 material_id = 4;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CrystalLinkTeamInfo.proto";
 // CmdId: 8605
+// Obf: EGLCACABKBJ
 message CrystalLinkEnterDungeonRsp {
 	uint32 level_id = 4;
 	repeated CrystalLinkTeamInfo team_info_list = 2;

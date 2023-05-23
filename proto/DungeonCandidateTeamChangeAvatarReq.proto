@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 949
+// Obf: HPEDCFMBMIO
 message DungeonCandidateTeamChangeAvatarReq {
 	repeated uint64 avatar_guid_list = 9;
 }

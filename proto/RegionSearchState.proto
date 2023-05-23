@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: JEONFIOIHJC
 enum RegionSearchState {
-	RegionSearchState_RegionSearchNone = 0;
-	RegionSearchState_RegionSearchUnstarted = 1;
-	RegionSearchState_RegionSearchStarted = 2;
-	RegionSearchState_RegionSearchWaitReward = 3;
-	RegionSearchState_RegionSearchFinished = 4;
+	REGION_SEARCH_NONE = 0;
+	REGION_SEARCH_UNSTARTED = 1;
+	REGION_SEARCH_STARTED = 2;
+	REGION_SEARCH_WAIT_REWARD = 3;
+	REGION_SEARCH_FINISHED = 4;
 }

@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "EMAIJJNIDOE.proto";
-import "EACNKHKNNDA.proto";
-import "ECODOBCMKIG.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "MassiveWaterInfo.proto";
+import "MassiveGrassInfo.proto";
+import "MassiveBoxInfo.proto";
+// Obf: PGGLLCJFJEP
 message ClientMassiveEntity {
 	uint32 entity_type = 1;
 	uint32 config_id = 2;
 	int64 obj_id = 3;
 	oneof entity_info {
-		EMAIJJNIDOE GEJDKMNJBLL = 4;
-		EACNKHKNNDA LGDAODKFJIM = 5;
-		ECODOBCMKIG KHNCGNHMFJA = 6;
+		MassiveWaterInfo water_info = 4;
+		MassiveGrassInfo grass_info = 5;
+		MassiveBoxInfo box_info = 6;
 	}
 }

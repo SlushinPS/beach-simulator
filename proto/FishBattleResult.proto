@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: GDPFLPOCOJE
 enum FishBattleResult {
-	FishBattleResult_None = 0;
-	FishBattleResult_Succ = 1;
-	FishBattleResult_Fail = 2;
-	FishBattleResult_Timeout = 3;
-	FishBattleResult_Cancel = 4;
-	FishBattleResult_Exit = 5;
+	FISH_BATTLE_RESULT_NONE = 0;
+	FISH_BATTLE_RESULT_SUCC = 1;
+	FISH_BATTLE_RESULT_FAIL = 2;
+	FISH_BATTLE_RESULT_TIMEOUT = 3;
+	FISH_BATTLE_RESULT_CANCEL = 4;
+	FISH_BATTLE_RESULT_EXIT = 5;
 }

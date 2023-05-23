@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: IDINDPJAHOO
 message CompoundQueueData {
 	uint32 compound_id = 8;
-	uint32 BHBNECKBAJI = 15;
-	uint32 EAFGMHDECMH = 9;
-	uint32 FKBPCOLLBBO = 12;
+	uint32 waitCount = 15;
+	uint32 outputCount = 9;
+	uint32 outputTime = 12;
 }

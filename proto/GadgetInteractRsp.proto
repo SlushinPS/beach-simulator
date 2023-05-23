@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "InterOpType.proto";
 import "InteractType.proto";
 // CmdId: 896
+// Obf: AMEKLAACLLA
 message GadgetInteractRsp {
 	InterOpType op_type = 8;
 	InteractType interact_type = 11;

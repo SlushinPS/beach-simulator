@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5387
+// Obf: NCNAMKCLMCD
 message InBattleMechanicusPickCardRsp {
 	uint32 group_id = 14;
 	uint32 play_index = 13;

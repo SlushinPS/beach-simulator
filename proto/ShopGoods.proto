@@ -15,26 +15,28 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
+// Obf: PIILCEEKMMC
 message ShopGoods {
 	uint32 begin_time = 14;
-	uint32 DHOCJDJPHAN = 1474;
+	uint32 APOECIACFPK = 1474;
 	repeated ItemParam cost_item_list = 10;
-	uint32 LHIOMLCBEJK = 8;
-	uint32 FLIFCLMIFPO = 1508;
-	uint32 GNECNHEPOAC = 12;
-	uint32 BGNKMEAPJFF = 11;
-	uint32 GFHLGMPMGHI = 13;
-	uint32 OLPODBBGJIM = 7;
-	uint32 PIPBDFIFPLL = 256;
+	uint32 max_level = 8;
+	uint32 AEBBIJALJCB = 1508;
+	uint32 scoin = 12;
+	uint32 hcoin = 11;
+	uint32 min_level = 13;
+	uint32 bought_num = 7;
+	uint32 KINAPHHFNPA = 256;
 	uint32 next_refresh_time = 1;
-	uint32 FABMGLGGDFB = 3;
+	uint32 buy_limit = 3;
 	ItemParam goods_item = 6;
-	uint32 NEDCNABGOHL = 1819;
-	uint32 DHDJOCLCILA = 15;
-	uint32 LDMGEPEFIFD = 9;
+	uint32 secondary_sheet_id = 1819;
+	uint32 KAPLOLJDEON = 15;
+	uint32 goods_id = 9;
 	uint32 end_time = 4;
-	repeated uint32 pre_goods_id_list = 5;
-	uint32 CJGPLNAMDBD = 772;
-	uint32 LGBJPIDMKKA = 2;
+	repeated uint32 preGoodsIdList = 5;
+	uint32 IAEPIAMFCPF = 772;
+	uint32 mcoin = 2;
 }

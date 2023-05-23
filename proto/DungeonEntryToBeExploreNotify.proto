@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 3398
+// Obf: GCJHDKBBIEO
 message DungeonEntryToBeExploreNotify {
-	uint32 JFHJAMFECCL = 13;
-	uint32 GNBGNEFEDGL = 14;
+	uint32 dungeon_entry_config_id = 13;
+	uint32 OEODHMHLAMF = 14;
 	uint32 scene_id = 2;
 }

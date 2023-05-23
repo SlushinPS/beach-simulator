@@ -15,8 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BHCOPHHAFLC.proto";
 message HKPDJEJCAKJ {
-	uint32 HCCNCLDLGEI = 9;
-	repeated BHCOPHHAFLC DPFBMEOPEMN = 8;
+	uint32 MIJOLEIOPOO = 9;
+	repeated BHCOPHHAFLC BLGLIPNJAAI = 8;
 }

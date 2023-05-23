@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "DFPKDLNGDGK.proto";
 message DPMOKIKIFAI {
-	bool GMDHJMCDLHM = 14;
-	repeated DFPKDLNGDGK BGACOJHHMKJ = 11;
-	bool AMJEKOAHBOD = 6;
+	bool LHKHBFDMHIJ = 14;
+	repeated DFPKDLNGDGK HFKPAJLOKAM = 11;
+	bool EJFPGMBDIJL = 6;
 }

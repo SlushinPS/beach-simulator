@@ -15,11 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 message LGDPLHFPCJE {
-	Vector BAIDAEGLGAP = 15;
-	float CJJNKKPNKHF = 13;
+	Vector target_pos = 15;
+	float IIMDFODNMKO = 13;
 	float speed = 9;
-	float GBOPPJFMPJE = 5;
+	float JHLLECOJMGE = 5;
 	uint32 entity_id = 4;
 }

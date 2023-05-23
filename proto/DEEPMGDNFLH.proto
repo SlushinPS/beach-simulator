@@ -15,11 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 message DEEPMGDNFLH {
-	float LPEKJKDJLFM = 4;
-	float CJFBPAGKHHB = 11;
-	bool KNFNABFHGEH = 7;
-	uint32 DMGLLNHBDPN = 14;
-	float AOKPFFPCLFC = 10;
-	uint32 BCEHPHAPFDE = 15;
+	float JNEKCJANDGG = 4;
+	float JPLABPDDDAA = 11;
+	bool LACELNHKONE = 7;
+	uint32 EEPFLJEMMLD = 14;
+	float HNGHMNBGHLG = 10;
+	uint32 OEEFMKOMJBK = 15;
 }

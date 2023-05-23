@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "BAODMLGNPKC.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HomeAvatarRewardEventInfo.proto";
 // CmdId: 4829
+// Obf: CDGNCIMIHNJ
 message HomeAvatarRewardEventNotify {
-	BAODMLGNPKC PJPGIODCIAE = 15;
-	repeated BAODMLGNPKC MDDNIHIFOLE = 9;
+	HomeAvatarRewardEventInfo reward_event = 15;
+	repeated HomeAvatarRewardEventInfo pending_list = 9;
 	bool is_event_trigger = 10;
 }

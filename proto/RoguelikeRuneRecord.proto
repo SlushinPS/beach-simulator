@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: FJNMGCOBEDA
 message RoguelikeRuneRecord {
-	uint32 FCHBKCKBPFM = 7;
+	uint32 AMDENNHDBNO = 7;
 	uint32 rune_id = 9;
-	uint32 EEPEIHJHJPI = 4;
+	uint32 FCDJENECOPL = 4;
 }

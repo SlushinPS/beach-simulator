@@ -15,28 +15,33 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 1130
+// Obf: MOKHOJLFPPI
 message WindSeedClientNotify {
-	message GEAHCBGKECM {
+	// Obf: GEAHCBGKECM
+	message RefreshNotify {
 		uint32 refresh_num = 9;
 	}
 	
-	message JONENPANFIF {
+	// Obf: JONENPANFIF
+	message AddWindBulletNotify {
 		Vector seed_pos = 3;
-		uint32 refresh_notify = 15;
-		uint32 EDCOKIMMMEJ = 13;
+		uint32 FCPFBPBHHLA = 15;
+		uint32 LFGEDEIMJNM = 13;
 	}
 	
-	message GPMJILMANBH {
+	// Obf: GPMJILMANBH
+	message AreaNotify {
 		uint32 area_type = 15;
 		bytes area_code = 1;
 		uint32 area_id = 6;
 	}
 	
-	oneof OKLJEHPIDKD {
-		GEAHCBGKECM NDLNMANKFML = 2;
-		JONENPANFIF DAAADAJDOAE = 3;
-		GPMJILMANBH GPHHALDDHOC = 11;
+	oneof notify {
+		RefreshNotify refresh_notify = 2;
+		AddWindBulletNotify add_wind_bullet_notify = 3;
+		AreaNotify area_notify = 11;
 	}
 }

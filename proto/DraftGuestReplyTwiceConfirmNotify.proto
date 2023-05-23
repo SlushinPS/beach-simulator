@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5434
+// Obf: GODFJAPAHNI
 message DraftGuestReplyTwiceConfirmNotify {
 	uint32 guest_uid = 11;
 	uint32 draft_id = 12;

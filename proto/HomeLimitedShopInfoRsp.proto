@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "MPEONKDACFL.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HomeLimitedShopInfo.proto";
 // CmdId: 4800
+// Obf: HFGOGKHLBEI
 message HomeLimitedShopInfoRsp {
-	MPEONKDACFL KAEJGDGFINE = 9;
+	HomeLimitedShopInfo shop_info = 9;
 	int32 retcode = 5;
 }

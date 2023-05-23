@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 268
+// Obf: BCNGDFENAPI
 message SceneTransToPointRsp {
 	uint32 point_id = 12;
 	uint32 scene_id = 13;

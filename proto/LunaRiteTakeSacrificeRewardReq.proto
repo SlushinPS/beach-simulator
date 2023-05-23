@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8871
+// Obf: PKOIKAJJFCM
 message LunaRiteTakeSacrificeRewardReq {
 	uint32 area_id = 6;
 	uint32 index = 15;

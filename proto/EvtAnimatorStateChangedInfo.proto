@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
+// Obf: AKDFHOEIHII
 message EvtAnimatorStateChangedInfo {
-	uint32 BILMMKGKBOK = 7;
-	uint32 ADDBLOMJJIA = 8;
-	bool BDNLIAKCHJM = 12;
+	uint32 NLMICFIEANI = 7;
+	uint32 BCKFGDDJMBJ = 8;
+	bool CMLCMCKNCAH = 12;
 	int32 face_angle_compact = 4;
 	Vector pos = 6;
 	uint32 entity_id = 10;
 	float fade_duration = 1;
-	bool MFBMIOOAJIF = 11;
-	uint32 JMAPFKCJJNO = 9;
+	bool JNIONCMCEAO = 11;
+	uint32 HDHIBLLIPAO = 9;
 }

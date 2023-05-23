@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8519
+// Obf: KCPHLNBFJBL
 message ChannellerSlabLoopDungeonSelectConditionReq {
 	uint32 dungeon_index = 1;
 	repeated uint32 condition_id_list = 13;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 3231
+// Obf: AMDBCBAKMFJ
 message CheckGroupReplacedRsp {
 	repeated uint32 replaced_group_id_list = 1;
 	int32 retcode = 8;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ClientInputType.proto";
 // CmdId: 8047
+// Obf: EFOOEAAJELB
 message ViewLanternProjectionTipsReq {
 	ClientInputType input_type = 6;
 	bool is_input_tips = 13;

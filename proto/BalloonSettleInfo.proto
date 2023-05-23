@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "OnlinePlayerInfo.proto";
+// Obf: IGDMOAMDHKD
 message BalloonSettleInfo {
 	uint32 final_score = 3;
 	uint32 shoot_count = 1;

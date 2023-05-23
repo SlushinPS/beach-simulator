@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PotionLevelData.proto";
+// Obf: NPKFDGPCMMK
 message PotionStageData {
 	repeated PotionLevelData level_list = 3;
-	repeated uint32 GMMEBJBOABB = 7;
+	repeated uint32 OPPNDAHKFHF = 7;
 	bool is_open = 9;
 	uint32 stage_id = 14;
-	repeated uint32 CFIGLHDOAGJ = 8;
+	repeated uint32 OCBJDGFPCEP = 8;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1999
+// Obf: EOMMFCFDBDN
 message SaveCoopDialogRsp {
-	uint32 GBEJIOLEJGM = 12;
-	uint32 EELHMPBGEGP = 2;
+	uint32 OHGJGOFMHNP = 12;
+	uint32 IMOEGKJCNNL = 2;
 	int32 retcode = 7;
 }

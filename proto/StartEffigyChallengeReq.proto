@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2158
+// Obf: EKPECPKIHLI
 message StartEffigyChallengeReq {
 	uint32 challenge_id = 2;
 	uint32 point_id = 6;

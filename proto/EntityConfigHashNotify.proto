@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "LMHKLMDCLAK.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "EntityConfigHashEntry.proto";
 // CmdId: 3104
+// Obf: FOBAMKHAKCA
 message EntityConfigHashNotify {
-	repeated LMHKLMDCLAK LIKGKMCNMLH = 8;
-	repeated LMHKLMDCLAK GJIABGMAGFM = 3;
-	repeated LMHKLMDCLAK EEOFCJFPOLD = 9;
+	repeated EntityConfigHashEntry CKKJPAICDJG = 8;
+	repeated EntityConfigHashEntry HNOOHPABCKC = 3;
+	repeated EntityConfigHashEntry ANBBPLNOHMH = 9;
 }

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1670
+// Obf: FPPJFDJHMAA
 message ChangeTeamNameRsp {
 	string team_name = 4;
 	int32 team_id = 12;

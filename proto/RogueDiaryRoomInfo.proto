@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
+// Obf: AHLFNKPJHEC
 message RogueDiaryRoomInfo {
 	repeated Uint32Pair monster_list = 14;
 	uint32 config_id = 15;

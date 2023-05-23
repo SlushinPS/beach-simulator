@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: BBPFDAGPFLE
 enum MpSettingType {
-	MpSettingType_MpSettingNoEnter = 0;
-	MpSettingType_MpSettingEnterFreely = 1;
-	MpSettingType_MpSettingEnterAfterApply = 2;
+	MP_SETTING_TYPE_NO_ENTER = 0;
+	MP_SETTING_TYPE_ENTER_FREELY = 1;
+	MP_SETTING_TYPE_ENTER_AFTER_APPLY = 2;
 }

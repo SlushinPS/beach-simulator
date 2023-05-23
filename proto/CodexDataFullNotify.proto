@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CodexTypeData.proto";
 // CmdId: 4207
+// Obf: PHDPIAHJJAB
 message CodexDataFullNotify {
 	repeated uint32 recent_viewed_pushtips_list = 7;
-	uint32 IDMAOKCCEGN = 9;
-	uint32 EEBDJBPEDIL = 2;
+	uint32 BGFNNPAOPML = 9;
+	uint32 IAIMLAPJCIN = 2;
 	repeated CodexTypeData type_data_list = 11;
 }

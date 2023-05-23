@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4053
+// Obf: IDGPDGMKBCL
 message UpdatePlayerShowAvatarListReq {
 	bool is_show_avatar = 3;
 	repeated uint32 show_avatar_id_list = 12;

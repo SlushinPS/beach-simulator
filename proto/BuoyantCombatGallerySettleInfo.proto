@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: FJGALELPDMO
 message BuoyantCombatGallerySettleInfo {
-	uint32 JPLPEAIKOGD = 14;
+	uint32 ELGOJFFKMHP = 14;
 	uint32 gallery_id = 6;
 	uint32 final_score = 15;
 	uint32 gallery_level = 8;
 	uint32 kill_monster_count = 1;
-	uint32 DLAIHFKDHPN = 10;
+	uint32 HMLAFOEKOMC = 10;
 	uint32 kill_special_monster_count = 4;
 }

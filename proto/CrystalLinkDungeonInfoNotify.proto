@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CrystalLinkDungeonAvatarInfo.proto";
 import "CrystalLinkBuffInfo.proto";
 // CmdId: 8163
+// Obf: OJFNDOKLFDL
 message CrystalLinkDungeonInfoNotify {
 	repeated CrystalLinkDungeonAvatarInfo dungeon_avatar_info_list = 3;
 	uint32 difficulty_id = 1;

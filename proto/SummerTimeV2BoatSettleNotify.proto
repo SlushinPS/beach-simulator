@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SummerTimeV2BoatGallerySettleInfo.proto";
 // CmdId: 8884
+// Obf: OHGHLADJNIO
 message SummerTimeV2BoatSettleNotify {
 	uint32 stage_id = 6;
 	bool is_new_record = 14;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SceneRouteChangeInfo.proto";
 // CmdId: 297
+// Obf: MCHDAMBCLPA
 message SceneRouteChangeNotify {
 	uint32 scene_id = 8;
 	repeated SceneRouteChangeInfo route_list = 9;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PropValue.proto";
 // CmdId: 1275
+// Obf: EPCKEHMDLNG
 message EntityPropNotify {
 	map<uint32, PropValue> prop_map = 5;
 	uint32 entity_id = 2;

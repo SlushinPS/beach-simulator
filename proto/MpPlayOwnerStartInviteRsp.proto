@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1813
+// Obf: EPNIBNCAMOE
 message MpPlayOwnerStartInviteRsp {
 	int32 retcode = 11;
 	uint32 mp_play_id = 13;

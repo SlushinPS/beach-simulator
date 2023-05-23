@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerOfferingData.proto";
 import "ItemParam.proto";
 // CmdId: 2916
+// Obf: FFBABGPKOMG
 message PlayerOfferingRsp {
 	PlayerOfferingData offering_data = 13;
 	int32 retcode = 2;

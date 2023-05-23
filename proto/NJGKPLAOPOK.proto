@@ -15,13 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ANAEEOOIDJJ.proto";
 import "LLOOADCMMPP.proto";
 // CmdId: 9210
 message NJGKPLAOPOK {
-	repeated ANAEEOOIDJJ JPOGANEMDII = 11;
-	uint32 IBAGAMDPCCK = 15;
-	LLOOADCMMPP JAPGFNAHFLO = 4;
+	repeated ANAEEOOIDJJ ALIKJHIECLN = 11;
+	uint32 JNIHNFJHDGD = 15;
+	LLOOADCMMPP LNCDJCIKOGC = 4;
 	int32 retcode = 7;
 	uint32 group_id = 12;
 }

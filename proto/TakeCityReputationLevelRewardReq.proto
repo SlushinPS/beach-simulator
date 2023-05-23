@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2802
+// Obf: NGCLFIIDAJC
 message TakeCityReputationLevelRewardReq {
 	uint32 level = 9;
 	uint32 city_id = 5;

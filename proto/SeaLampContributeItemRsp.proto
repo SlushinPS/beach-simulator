@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2154
+// Obf: MBKMPAKHNKB
 message SeaLampContributeItemRsp {
 	int32 retcode = 5;
-	uint32 PALEBIMELHA = 6;
-	uint32 JJDPHHMPCAN = 12;
+	uint32 BIMKNDECJAI = 6;
+	uint32 AHINNHBBILH = 12;
 	uint32 add_progress = 10;
 }

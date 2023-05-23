@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1487
+// Obf: OKFMABBCJMI
 message GetAuthkeyRsp {
 	string auth_appid = 13;
 	string authkey = 6;
-	uint32 EELPBJCNICD = 4;
+	uint32 GALOPIFDMON = 4;
 	int32 retcode = 7;
 	string game_biz = 8;
-	uint32 JFDLFKAODPH = 2;
+	uint32 MLKKOEBHEEI = 2;
 }

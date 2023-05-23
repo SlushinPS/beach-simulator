@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AreaPlayType.proto";
 // CmdId: 3153
+// Obf: OCJMKKKGBIK
 message AreaPlayInfoNotify {
 	uint32 detail_play_type = 3;
 	AreaPlayType area_play_type = 1;

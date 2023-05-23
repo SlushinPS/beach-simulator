@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CoopReward.proto";
 // CmdId: 1966
+// Obf: CKLPHKLCLJF
 message CoopRewardUpdateNotify {
 	repeated CoopReward reward_list = 8;
 }

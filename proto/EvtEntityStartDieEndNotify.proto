@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ForwardType.proto";
 // CmdId: 394
+// Obf: HHMDLGGKANE
 message EvtEntityStartDieEndNotify {
 	bool immediately = 14;
 	ForwardType forward_type = 7;

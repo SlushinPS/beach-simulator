@@ -15,15 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "OHKIJDMONKC.proto";
 import "NIBFGODLJIC.proto";
 import "GAFGDOHOCNP.proto";
 import "KIMACFMCKGE.proto";
 message CLFPDJOHKIE {
 	uint32 target_score = 6;
-	repeated uint32 DGIMPELHPMP = 1;
+	repeated uint32 IKCPBDMEBKL = 1;
 	string name = 14;
-	uint32 LCIAEFNBNPO = 7;
+	uint32 FFDFJMPHMEE = 7;
 	OHKIJDMONKC type = 2;
 	oneof OBJGMAHHNKP {
 		NIBFGODLJIC LMIILJMOMMP = 1766;

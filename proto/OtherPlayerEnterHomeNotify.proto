@@ -15,12 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4898
+// Obf: LCKJDLDLAPK
 message OtherPlayerEnterHomeNotify {
+	// Obf: GPPGDINGBIA
 	enum Reason {
-		Invalid = 0;
-		Enter = 1;
-		Leave = 2;
+		INVALID = 0;
+		ENTER = 1;
+		LEAVE = 2;
 	}
 	
 	string nickname = 14;

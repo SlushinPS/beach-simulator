@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: MMEFLEOFLND
 message AsterProgressDetailInfo {
 	uint32 count = 12;
 	uint32 last_auto_add_time = 1;

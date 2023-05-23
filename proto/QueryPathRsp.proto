@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 2396
+// Obf: MMGFDHKGJPM
 message QueryPathRsp {
-	enum PathStatusType {
-		StatusFail = 0;
-		StatusSucc = 1;
-		StatusPartial = 2;
+	enum PEFGMLDKCDG {
+		AMHEPLPEHOG_StatusFail = 0;
+		AMHEPLPEHOG_StatusSucc = 1;
+		AMHEPLPEHOG_StatusPartial = 2;
 	}
 	
-	PathStatusType query_status = 2;
+	PEFGMLDKCDG query_status = 2;
 	int32 retcode = 3;
 	repeated Vector corners = 10;
 	int32 query_id = 8;

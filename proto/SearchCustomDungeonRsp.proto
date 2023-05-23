@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "OtherCustomDungeonBrief.proto";
 // CmdId: 6217
+// Obf: PGNLLNEDOBN
 message SearchCustomDungeonRsp {
 	int32 retcode = 2;
 	OtherCustomDungeonBrief custom_dungeon_brief = 8;

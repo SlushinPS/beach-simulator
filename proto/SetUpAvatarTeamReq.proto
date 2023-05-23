@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1666
+// Obf: LHAACJBAOOB
 message SetUpAvatarTeamReq {
 	uint64 cur_avatar_guid = 13;
 	uint32 team_id = 14;

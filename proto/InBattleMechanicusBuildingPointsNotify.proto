@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5358
+// Obf: LDIBMHPMNLK
 message InBattleMechanicusBuildingPointsNotify {
 	map<uint32, uint32> player_building_points_map = 1;
 }

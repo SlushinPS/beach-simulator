@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: BFNGHFNKELO
 enum AuditState {
-	AuditState_AuditNone = 0;
-	AuditState_AuditWaiting = 1;
-	AuditState_AuditFailed = 2;
+	AUDIT_NONE = 0;
+	AUDIT_WAITING = 1;
+	AUDIT_FAILED = 2;
 }

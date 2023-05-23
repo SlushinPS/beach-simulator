@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "Vector3Int.proto";
 import "ObstacleInfo.proto";
-import "DAKBAOLCLCB.proto";
+import "MathQuaternion.proto";
+// Obf: MPFGIOBIHIL
 message GMObstacleInfo {
 	Vector center = 5;
 	Vector3Int extents = 3;
 	ObstacleInfo.ShapeType shape = 2;
 	int64 timestamp = 12;
-	DAKBAOLCLCB rotation = 11;
+	MathQuaternion rotation = 11;
 	int32 obstacle_id = 4;
 }

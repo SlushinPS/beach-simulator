@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "OnlinePlayerInfo.proto";
+// Obf: MGECEHKAGEC
 message FallSettleInfo {
-	uint32 HFLFGGKDNFG = 1;
+	uint32 CKGDCGAGEDA = 1;
 	OnlinePlayerInfo player_info = 14;
 	map<uint32, uint32> flower_ring_catch_count_map = 3;
-	uint32 LCCCEMPMGKK = 10;
+	uint32 DPKNKMLKICC = 10;
 	uint32 uid = 9;
 	uint32 final_score = 5;
 }

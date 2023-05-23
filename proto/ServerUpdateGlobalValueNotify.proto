@@ -15,12 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1121
+// Obf: MABCFNPGLCK
 message ServerUpdateGlobalValueNotify {
+	// Obf: LEJABMEJPPG
 	enum UpdateType {
-		Invalue = 0;
-		Add = 1;
-		Set = 2;
+		INVALUE = 0;
+		ADD = 1;
+		SET = 2;
 	}
 	
 	float delta = 15;

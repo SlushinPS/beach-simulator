@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "TryCustomDungeonType.proto";
 import "EnterCustomDungeonType.proto";
 import "CustomDungeon.proto";
 // CmdId: 6246
+// Obf: IKHFPGDOIAF
 message CustomDungeonRecoverNotify {
 	TryCustomDungeonType try_type = 6;
 	EnterCustomDungeonType enter_type = 3;

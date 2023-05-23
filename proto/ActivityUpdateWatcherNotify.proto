@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ActivityWatcherInfo.proto";
 // CmdId: 2007
+// Obf: JCOLCLFIFCO
 message ActivityUpdateWatcherNotify {
 	uint32 activity_id = 14;
 	ActivityWatcherInfo watcher_info = 9;

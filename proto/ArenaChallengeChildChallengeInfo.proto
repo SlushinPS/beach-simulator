@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: LJFPICECLON
 message ArenaChallengeChildChallengeInfo {
 	bool is_success = 9;
 	uint32 challenge_type = 12;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "IslandPartySailStage.proto";
 // CmdId: 5524
+// Obf: LIFCKNMIDIJ
 message IslandPartySailInfoNotify {
 	uint32 coin = 11;
 	uint32 progress = 2;

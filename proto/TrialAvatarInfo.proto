@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Item.proto";
 import "TrialAvatarGrantRecord.proto";
+// Obf: LHKLGLMFEOF
 message TrialAvatarInfo {
 	uint32 trial_avatar_id = 1;
 	repeated Item trial_equip_list = 2;

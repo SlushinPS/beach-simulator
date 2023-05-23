@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4121
+// Obf: JJGBMKJCINL
 message CardProductRewardNotify {
-	uint32 BGNKMEAPJFF = 11;
+	uint32 hcoin = 11;
 	string product_id = 8;
-	uint32 IBDGFJJBMFD = 10;
+	uint32 remain_days = 10;
 }

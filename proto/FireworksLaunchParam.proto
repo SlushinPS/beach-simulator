@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FireworksLaunchParamType.proto";
+// Obf: FDCKBNPMGFO
 message FireworksLaunchParam {
 	int32 value = 11;
 	FireworksLaunchParamType type = 2;

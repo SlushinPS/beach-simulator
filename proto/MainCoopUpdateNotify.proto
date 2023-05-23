@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MainCoop.proto";
 // CmdId: 1958
+// Obf: MDAANJJCHLP
 message MainCoopUpdateNotify {
 	repeated MainCoop main_coop_list = 12;
 }

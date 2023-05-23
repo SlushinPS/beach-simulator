@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ChessNormalCardInfo.proto";
+// Obf: KNHPPMPLPEA
 message ChessPlayerInfo {
 	uint32 uid = 11;
-	uint32 LHDPAPJPAMN = 2;
-	uint32 EKGNFEKKCJJ = 4;
-	uint32 FNHDMBLHEEL = 12;
-	uint32 EHNHMMKALJE = 5;
+	uint32 GJDGAIKBFCC = 2;
+	uint32 FDJKOOOOHEL = 4;
+	uint32 MJEJBIPNFDL = 12;
+	uint32 DHOCBFFKAEN = 5;
 	repeated ChessNormalCardInfo candidate_card_info_list = 13;
-	uint32 IPDNEDLPDDL = 6;
+	uint32 NKJJHNGOBMK = 6;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8105
+// Obf: HIBIPBLJMJL
 message RoguelikeEffectViewReq {
-	repeated uint32 OLADJGLKNCN = 14;
-	repeated uint32 BKPBABMIFCO = 6;
+	repeated uint32 BJBPCJDCIDI = 14;
+	repeated uint32 NEPOEDIHJJH = 6;
 }

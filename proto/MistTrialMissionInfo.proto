@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: ONEPDLPNJHC
 message MistTrialMissionInfo {
 	uint32 watcher_list_id = 9;
 	uint32 param = 12;

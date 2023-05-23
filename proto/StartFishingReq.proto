@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5837
+// Obf: EOCEPNHLLAF
 message StartFishingReq {
 	uint32 rod_entity_id = 15;
 	uint32 fish_pool_id = 1;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HomeSceneArrangementInfo.proto";
 // CmdId: 4513
+// Obf: EENHBJDKAPC
 message HomePreviewBlueprintRsp {
 	string share_code = 3;
 	HomeSceneArrangementInfo scene_arrangement_info = 13;

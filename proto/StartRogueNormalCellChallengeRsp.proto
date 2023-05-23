@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8143
+// Obf: HNIGMIMDMJK
 message StartRogueNormalCellChallengeRsp {
 	uint32 dungeon_id = 10;
 	uint32 cell_id = 12;

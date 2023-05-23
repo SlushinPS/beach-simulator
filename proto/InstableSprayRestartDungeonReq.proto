@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "InstableSprayAvatarInfo.proto";
 // CmdId: 21065
+// Obf: BDALIKKNEGP
 message InstableSprayRestartDungeonReq {
 	repeated InstableSprayAvatarInfo avatar_info_list = 3;
 }

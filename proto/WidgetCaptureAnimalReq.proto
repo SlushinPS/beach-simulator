@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 4254
+// Obf: KAPDJKILCIJ
 message WidgetCaptureAnimalReq {
 	uint32 material_id = 4;
 	Vector pos = 7;

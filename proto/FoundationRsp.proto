@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FoundationOpType.proto";
 // CmdId: 828
+// Obf: OHCEEEEGPBL
 message FoundationRsp {
 	int32 retcode = 8;
 	uint32 point_config_id = 10;

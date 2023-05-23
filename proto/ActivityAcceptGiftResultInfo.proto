@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: EJKDFCMJLEE
 message ActivityAcceptGiftResultInfo {
-	map<uint32, uint32> HAHCMBBFHNF = 1;
-	map<uint32, uint32> MOGGEMIKEDA = 5;
+	map<uint32, uint32> BLNMJKEKMKN = 1;
+	map<uint32, uint32> DCNCHKBMNOA = 5;
 	uint32 uid = 14;
 }

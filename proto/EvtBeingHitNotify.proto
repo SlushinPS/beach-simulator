@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "EvtBeingHitInfo.proto";
 import "ForwardType.proto";
 // CmdId: 375
+// Obf: PPNOMHAOEOJ
 message EvtBeingHitNotify {
 	EvtBeingHitInfo being_hit_info = 10;
 	ForwardType forward_type = 9;

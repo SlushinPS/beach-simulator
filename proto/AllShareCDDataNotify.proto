@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ShareCDInfo.proto";
 // CmdId: 9075
+// Obf: EBEACBANELN
 message AllShareCDDataNotify {
 	map<uint32, ShareCDInfo> share_cd_info_map = 11;
 }

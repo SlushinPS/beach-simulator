@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: BLGBHLOPHLA
 enum CodexType {
-	CodexType_CodexNone = 0;
-	CodexType_CodexQuest = 1;
-	CodexType_CodexWeapon = 2;
-	CodexType_CodexAnimal = 3;
-	CodexType_CodexMaterial = 4;
-	CodexType_CodexBooks = 5;
-	CodexType_CodexPushtips = 6;
-	CodexType_CodexView = 7;
-	CodexType_CodexReliquary = 8;
+	CODEX_NONE = 0;
+	CODEX_QUEST = 1;
+	CODEX_WEAPON = 2;
+	CODEX_ANIMAL = 3;
+	CODEX_MATERIAL = 4;
+	CODEX_BOOKS = 5;
+	CODEX_PUSHTIPS = 6;
+	CODEX_VIEW = 7;
+	CODEX_RELIQUARY = 8;
 }

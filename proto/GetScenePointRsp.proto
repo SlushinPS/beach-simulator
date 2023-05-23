@@ -15,19 +15,21 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 294
+// Obf: OKEJNDKCNKG
 message GetScenePointRsp {
-	repeated uint32 HELLCPBJJIN = 12;
-	bool LKPBJJJPLIM = 2;
+	repeated uint32 unhide_point_list = 12;
+	bool GPMHJGJLAFH = 2;
 	repeated uint32 unlocked_point_list = 3;
-	repeated uint32 CKMOGENNPDC = 10;
+	repeated uint32 toBeExploreDungeonEntryList = 10;
 	uint32 scene_id = 5;
 	repeated uint32 hide_point_list = 4;
-	repeated uint32 KHJAPHPNFNP = 8;
-	repeated uint32 EFIGIONBIPJ = 15;
+	repeated uint32 locked_point_list = 8;
+	repeated uint32 groupUnlimitPointList = 15;
 	uint32 belong_uid = 11;
-	repeated uint32 GDPHCIKAKPA = 1;
+	repeated uint32 notInteractDungeonEntryList = 1;
 	int32 retcode = 7;
-	repeated uint32 NOJDBOBLNGK = 6;
-	repeated uint32 EMFAIMIOIDJ = 14;
+	repeated uint32 notExploredDungeonEntryList = 6;
+	repeated uint32 unlockAreaList = 14;
 }

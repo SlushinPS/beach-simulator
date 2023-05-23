@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "ForwardType.proto";
 // CmdId: 333
+// Obf: LFKAAHFDIKE
 message EvtBulletMoveNotify {
 	Vector cur_pos = 14;
 	uint32 entity_id = 2;

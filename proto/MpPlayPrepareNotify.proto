@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1847
+// Obf: BLKFBDLFGNI
 message MpPlayPrepareNotify {
 	uint32 mp_play_id = 2;
 	uint32 prepare_end_time = 8;

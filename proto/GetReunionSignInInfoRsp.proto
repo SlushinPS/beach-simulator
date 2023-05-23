@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ReunionSignInInfo.proto";
 // CmdId: 5089
+// Obf: DFELNPBAODE
 message GetReunionSignInInfoRsp {
 	int32 retcode = 8;
 	ReunionSignInInfo sign_in_info = 5;

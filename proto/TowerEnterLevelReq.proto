@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2484
+// Obf: GMHIHFGPOBF
 message TowerEnterLevelReq {
 	uint32 enter_point_id = 10;
 }

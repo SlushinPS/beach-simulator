@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2079
+// Obf: GEGLGDKPHPC
 message SeaLampTakePhaseRewardRsp {
 	uint32 phase_id = 14;
 	int32 retcode = 10;

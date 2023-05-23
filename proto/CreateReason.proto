@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: HOMOAMKNEFJ
 enum CreateReason {
-	CreateReason_CreateNone = 0;
-	CreateReason_CreateQuest = 1;
-	CreateReason_CreateEnergy = 2;
+	CREATE_NONE = 0;
+	CREATE_QUEST = 1;
+	CREATE_ENERGY = 2;
 }

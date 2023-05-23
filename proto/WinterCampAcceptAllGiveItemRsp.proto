@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "WinterCampAcceptItemResultInfo.proto";
 // CmdId: 8328
+// Obf: LPKOFENPJCK
 message WinterCampAcceptAllGiveItemRsp {
 	repeated WinterCampAcceptItemResultInfo accept_item_result_info = 12;
 	int32 retcode = 10;

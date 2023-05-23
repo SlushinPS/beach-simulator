@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2475
+// Obf: JGALMNICNFO
 message TowerBriefDataNotify {
-	uint32 GOLLHAHLHHE = 6;
-	uint32 JMNAGDKADLE = 9;
+	uint32 KKHFBLDICMJ = 6;
+	uint32 next_schedule_change_time = 9;
 	bool is_finished_entrance_floor = 3;
-	uint32 HBFEPDGJGCN = 5;
-	uint32 ALMPLCJCPND = 14;
-	uint32 AMLPGICBFDN = 2;
-	uint32 LCPNNGLLBKB = 7;
+	uint32 schedule_start_time = 5;
+	uint32 tower_schedule_id = 14;
+	uint32 BCHDECHFOAA = 2;
+	uint32 HECMGJCDAOA = 7;
 }

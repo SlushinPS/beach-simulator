@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 238
+// Obf: GPHGADDHCKH
 message ScenePointUnlockNotify {
 	uint32 scene_id = 7;
-	repeated uint32 HELLCPBJJIN = 13;
+	repeated uint32 unhide_point_list = 13;
 	repeated uint32 hide_point_list = 11;
-	repeated uint32 KHJAPHPNFNP = 1;
+	repeated uint32 locked_point_list = 1;
 	repeated uint32 point_list = 3;
 }

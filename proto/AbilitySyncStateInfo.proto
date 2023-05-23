@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AbilityScalarValueEntry.proto";
 import "AbilityAppliedAbility.proto";
 import "AbilityAppliedModifier.proto";
 import "AbilityMixinRecoverInfo.proto";
+// Obf: LKMIECILJCL
 message AbilitySyncStateInfo {
 	bool is_inited = 1;
 	repeated AbilityScalarValueEntry dynamic_value_map = 2;

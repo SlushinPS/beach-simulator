@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: LICFNNPLLLA
 enum AvatarExpeditionState {
-	AvatarExpeditionState_AvatarExpeditionNone = 0;
-	AvatarExpeditionState_AvatarExpeditionDoing = 1;
-	AvatarExpeditionState_AvatarExpeditionFinishWaitReward = 2;
-	AvatarExpeditionState_AvatarExpeditionCallbackWaitReward = 3;
-	AvatarExpeditionState_AvatarExpeditionLocked = 4;
+	AVATAR_EXPEDITION_NONE = 0;
+	AVATAR_EXPEDITION_DOING = 1;
+	AVATAR_EXPEDITION_FINISH_WAIT_REWARD = 2;
+	AVATAR_EXPEDITION_CALLBACK_WAIT_REWARD = 3;
+	AVATAR_EXPEDITION_LOCKED = 4;
 }

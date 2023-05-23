@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AranaraCollectionState.proto";
 // CmdId: 6358
+// Obf: IPOMAKMJOGD
 message AddAranaraCollectionNotify {
-	AranaraCollectionState MNAKCMGFJOO = 7;
+	AranaraCollectionState GOLJHHICAGJ = 7;
 	uint32 collection_id = 9;
 	uint32 collection_type = 12;
-	AranaraCollectionState LJAAGDKJBKA = 4;
+	AranaraCollectionState OMHMCJAFCJH = 4;
 }

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "GalleryStopReason.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HDDANIDHCMI.proto";
+// Obf: LDCPEKILGPP
 message IrodoriMasterGallerySettleInfo {
 	uint32 difficult = 11;
-	GalleryStopReason reason = 13;
+	HDDANIDHCMI reason = 13;
 	uint32 level_id = 5;
 	uint32 finish_time = 8;
 	bool is_finish = 4;

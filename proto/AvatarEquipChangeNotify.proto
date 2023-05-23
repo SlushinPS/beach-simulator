@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SceneReliquaryInfo.proto";
 import "SceneWeaponInfo.proto";
 // CmdId: 638
+// Obf: FFELKMJCIEF
 message AvatarEquipChangeNotify {
 	uint32 equip_type = 7;
 	uint64 avatar_guid = 14;

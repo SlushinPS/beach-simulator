@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 23874
+// Obf: KNHJNEILKAJ
 message MuqadasPotionDungeonSettleNotify {
 	bool is_success = 15;
 	bool is_new_record = 7;

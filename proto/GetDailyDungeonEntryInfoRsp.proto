@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "DailyDungeonEntryInfo.proto";
 // CmdId: 953
+// Obf: JEGFBFNIAON
 message GetDailyDungeonEntryInfoRsp {
 	int32 retcode = 13;
 	repeated DailyDungeonEntryInfo daily_dungeon_info_list = 5;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 // CmdId: 2073
+// Obf: AKAJLIAPOFD
 message ActivityTakeWatcherRewardBatchRsp {
 	repeated uint32 watcher_id_list = 2;
 	uint32 activity_id = 11;

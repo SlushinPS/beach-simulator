@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: PCLIMGCBHME
 enum EnterCustomDungeonType {
-	EnterCustomDungeonType_EnterCustomDungeonNone = 0;
-	EnterCustomDungeonType_EnterCustomDungeonEdit = 1;
-	EnterCustomDungeonType_EnterCustomDungeonPlay = 2;
-	EnterCustomDungeonType_EnterCustomDungeonOfficial = 3;
+	ENTER_CUSTOM_DUNGEON_NONE = 0;
+	ENTER_CUSTOM_DUNGEON_EDIT = 1;
+	ENTER_CUSTOM_DUNGEON_PLAY = 2;
+	ENTER_CUSTOM_DUNGEON_OFFICIAL = 3;
 }

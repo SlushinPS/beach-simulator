@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: IGGAOLBKDMP
 enum FireworksLaunchParamType {
-	FireworksLaunchParamType_FireworksLaunchParamNone = 0;
-	FireworksLaunchParamType_FireworksLaunchParamRepeat = 1;
-	FireworksLaunchParamType_FireworksLaunchParamInteval = 2;
-	FireworksLaunchParamType_FireworksLaunchParamDelay = 3;
-	FireworksLaunchParamType_FireworksLaunchParamRoundInteval = 4;
-	FireworksLaunchParamType_FireworksLaunchParamMax = 5;
+	FIREWORKS_LAUNCH_PARAM_NONE = 0;
+	FIREWORKS_LAUNCH_PARAM_REPEAT = 1;
+	FIREWORKS_LAUNCH_PARAM_INTEVAL = 2;
+	FIREWORKS_LAUNCH_PARAM_DELAY = 3;
+	FIREWORKS_LAUNCH_PARAM_ROUND_INTEVAL = 4;
+	FIREWORKS_LAUNCH_PARAM_MAX = 5;
 }

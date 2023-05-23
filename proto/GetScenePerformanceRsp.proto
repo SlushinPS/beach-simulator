@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 3082
+// Obf: BIMLDBJFABH
 message GetScenePerformanceRsp {
 	int32 retcode = 13;
-	uint32 DOBONAIKDNE = 12;
-	uint32 APNPGDEPOCK = 6;
-	uint32 MPGCIFCPEOI = 10;
-	uint32 IJKKNMFGCMK = 3;
-	uint32 ACEBGFDPEEG = 14;
+	uint32 JHINOOICAJM = 12;
+	uint32 HGJLDHOJLJJ = 6;
+	uint32 PGFLPDCCPMF = 10;
+	uint32 BHKAFKKOANC = 3;
+	uint32 NNEDOHGOGML = 14;
 	Vector pos = 8;
-	uint32 ANPCFGIBHAP = 1;
-	uint32 NCPDHILBAHL = 5;
+	uint32 OEJLPKPBOIO = 1;
+	uint32 BPNLPLOGNKB = 5;
 }

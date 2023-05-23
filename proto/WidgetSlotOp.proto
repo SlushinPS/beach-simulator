@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DAADDKFJJAH
 enum WidgetSlotOp {
-	WidgetSlotOp_Attach = 0;
-	WidgetSlotOp_Detach = 1;
+	WIDGET_SLOT_OP_ATTACH = 0;
+	WIDGET_SLOT_OP_DETACH = 1;
 }

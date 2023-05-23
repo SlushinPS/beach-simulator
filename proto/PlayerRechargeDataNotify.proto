@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ProductPriceTier.proto";
 // CmdId: 4126
+// Obf: LCEGDLFPCEE
 message PlayerRechargeDataNotify {
 	uint32 card_product_remain_days = 15;
 	repeated ProductPriceTier product_price_tier_list = 10;

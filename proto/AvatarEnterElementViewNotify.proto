@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 303
+// Obf: EDAPCAJPOLC
 message AvatarEnterElementViewNotify {
 	bool is_triggerd = 2;
 	uint32 avatar_entity_id = 12;

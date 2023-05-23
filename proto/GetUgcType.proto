@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: JMLGMJCMHIG
 enum GetUgcType {
-	GetUgcType_GetUgcNone = 0;
-	GetUgcType_Mine = 1;
-	GetUgcType_Publish = 2;
+	GET_UGC_NONE = 0;
+	GET_UGC_TYPE_MINE = 1;
+	GET_UGC_TYPE_PUBLISH = 2;
 }

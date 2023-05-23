@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "DigMarkPoint.proto";
 // CmdId: 8623
+// Obf: ONGOKKLCBEL
 message DigActivityMarkPointChangeNotify {
 	repeated DigMarkPoint dig_mark_point_list = 2;
 }

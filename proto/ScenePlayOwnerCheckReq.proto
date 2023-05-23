@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4446
+// Obf: NACNFJNMLLO
 message ScenePlayOwnerCheckReq {
 	bool is_skip_match = 6;
 	uint32 play_id = 14;

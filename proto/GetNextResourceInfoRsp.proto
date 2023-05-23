@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ResVersionConfig.proto";
 // CmdId: 179
+// Obf: ILLOKGLNCKH
 message GetNextResourceInfoRsp {
 	string next_resource_url = 11;
 	int32 retcode = 5;
-	ResVersionConfig res_version_config = 2;
+	ResVersionConfig next_res_version_config = 2;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PropValue.proto";
 // CmdId: 134
+// Obf: GPOOEKBEBCI
 message SetPlayerPropReq {
 	repeated PropValue prop_list = 15;
 }

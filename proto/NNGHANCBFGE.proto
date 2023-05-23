@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 message NNGHANCBFGE {
-	Vector FOIOAHHLCPL = 5;
-	Vector BAIDAEGLGAP = 12;
+	Vector MHMGJKOFDBE = 5;
+	Vector target_pos = 12;
 	uint32 entity_id = 4;
 }

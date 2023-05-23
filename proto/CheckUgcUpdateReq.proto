@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "UgcType.proto";
 // CmdId: 6303
+// Obf: MCMPDMKLJFP
 message CheckUgcUpdateReq {
 	UgcType ugc_type = 4;
 }

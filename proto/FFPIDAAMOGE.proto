@@ -15,11 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "GMIOAJDAFAB.proto";
 import "GGJENGOICLH.proto";
 // CmdId: 9214
 message FFPIDAAMOGE {
 	int32 retcode = 4;
 	GMIOAJDAFAB enter_type = 7;
-	GGJENGOICLH CFLHOCPAFIA = 13;
+	GGJENGOICLH CECPEAKGCFO = 13;
 }

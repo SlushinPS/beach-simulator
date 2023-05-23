@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PropChangeReason.proto";
 // CmdId: 1287
+// Obf: AEMDBFPBGMN
 message AvatarPropChangeReasonNotify {
 	PropChangeReason reason = 9;
 	uint32 prop_type = 4;

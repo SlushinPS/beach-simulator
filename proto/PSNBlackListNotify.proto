@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FriendBrief.proto";
 // CmdId: 4097
+// Obf: IOGEPKICHPK
 message PSNBlackListNotify {
 	repeated FriendBrief psn_blacklist = 14;
 }

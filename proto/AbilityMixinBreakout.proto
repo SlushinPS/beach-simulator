@@ -1,0 +1,46 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+import "BreakoutSyncCreateConnect.proto";
+import "BreakoutSyncPing.proto";
+import "BreakoutSyncFinishGame.proto";
+import "BreakoutSyncSnapShot.proto";
+import "BreakoutSyncAction.proto";
+// Obf: PKJJKBLLIGJ
+message AbilityMixinBreakout {
+	// Obf: IJFMHDDKKMJ
+	enum SyncType {
+		SYNC_TYPE_NONE = 0;
+		SYNC_TYPE_CREATE_CONNECT = 1;
+		SYNC_TYPE_START_GAME = 2;
+		SYNC_TYPE_PING = 3;
+		SYNC_TYPE_FINISH_GAME = 4;
+		SYNC_TYPE_SNAP_SHOT = 5;
+		SYNC_TYPE_ACTION = 6;
+	}
+	
+	int32 retcode = 2;
+	SyncType sync_type = 4;
+	oneof sync {
+		BreakoutSyncCreateConnect sync_create_connect = 6;
+		BreakoutSyncPing sync_ping = 9;
+		BreakoutSyncFinishGame sync_finish_game = 13;
+		BreakoutSyncSnapShot sync_snap_shot = 5;
+		BreakoutSyncAction sync_action = 15;
+	}
+}

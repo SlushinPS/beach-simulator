@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MatchPlayerInfo.proto";
+// Obf: EIEABGDIEBP
 message GCGMatchInfo {
 	repeated MatchPlayerInfo player_list = 9;
 }

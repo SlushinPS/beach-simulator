@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5448
+// Obf: MDJEKMALCPP
 message DraftGuestReplyInviteReq {
 	uint32 draft_id = 14;
 	bool is_agree = 7;

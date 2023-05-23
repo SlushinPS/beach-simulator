@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "BJJHJCJGLAJ.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "RoguelikeDungeonSettleInfo.proto";
 // CmdId: 8304
+// Obf: PEGCOHGPKHP
 message RoguelikeGiveUpRsp {
 	int32 retcode = 2;
 	uint32 stage_id = 15;
-	optional BJJHJCJGLAJ AGPAAPDHAMH = 10;
+	optional RoguelikeDungeonSettleInfo settle_info = 10;
 }

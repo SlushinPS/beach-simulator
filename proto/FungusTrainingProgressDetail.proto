@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "JAIAMJEOAGD.proto";
-import "KAHNKMNMPFM.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "FungusFighterMonsterDetail.proto";
+import "FungusTrainingPoolPreviewDetail.proto";
+// Obf: JHPJEKPHADI
 message FungusTrainingProgressDetail {
 	uint32 dungeon_id = 5;
-	repeated uint32 OEEPKBHILJJ = 8;
-	repeated JAIAMJEOAGD OAHJFEMKJIG = 2;
+	repeated uint32 MLFMGPGFGKG = 8;
+	repeated FungusFighterMonsterDetail monster_detail_list = 2;
 	uint32 total_used_time = 10;
-	repeated uint32 DGKKMBCNHHG = 3;
+	repeated uint32 KCIJHMAKOGD = 3;
 	uint32 cur_round = 15;
-	repeated KAHNKMNMPFM LKBMMNKHILP = 6;
+	repeated FungusTrainingPoolPreviewDetail monster_pool_preview_list = 6;
 }

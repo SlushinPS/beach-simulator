@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RoguelikeRuneRecord.proto";
 // CmdId: 8615
+// Obf: LCHKGPJIKIF
 message RoguelikeRuneRecordUpdateNotify {
 	repeated RoguelikeRuneRecord rune_record_list = 7;
 }

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8387
+// Obf: AKJFPPFFNPK
 message EnterChessDungeonReq {
 	uint32 map_id = 4;
 }

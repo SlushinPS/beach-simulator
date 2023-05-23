@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4725
+// Obf: MFJDJBOBBMM
 message HomeModuleSeenRsp {
 	repeated uint32 seen_module_id_list = 14;
 	int32 retcode = 9;

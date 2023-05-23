@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ForwardType.proto";
 // CmdId: 398
+// Obf: JDGIBNIHLFJ
 message AnimatorForceSetAirMoveNotify {
 	ForwardType forward_type = 4;
 	uint32 entity_id = 8;

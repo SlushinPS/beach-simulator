@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8219
+// Obf: GIHGOLLOJHB
 message SumoSwitchTeamReq {
 	uint32 activity_id = 5;
 	uint32 stage_id = 13;

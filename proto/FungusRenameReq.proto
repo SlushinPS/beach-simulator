@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 20104
+// Obf: AIGBCOCJCGN
 message FungusRenameReq {
 	uint32 name_id = 7;
 	uint32 fungus_id = 3;

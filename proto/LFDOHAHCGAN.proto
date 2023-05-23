@@ -15,8 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "IKKIFILAFFM.proto";
 message LFDOHAHCGAN {
-	bool OEINNPJCMNG = 2;
-	repeated IKKIFILAFFM DHDDEMGFNJM = 13;
+	bool OPMAAOEHBPB = 2;
+	repeated IKKIFILAFFM level_data_list = 13;
 }

@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: LMMFMJFGNBP
 message GivingRecord {
 	bool is_gadget_giving = 13;
 	bool is_finished = 11;

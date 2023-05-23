@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerDieOption.proto";
 // CmdId: 964
+// Obf: HCEPCKPHFJM
 message DungeonDieOptionReq {
 	PlayerDieOption die_option = 8;
 	bool is_quit_immediately = 4;

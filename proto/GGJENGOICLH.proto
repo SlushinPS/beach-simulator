@@ -15,11 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AFCLGCNDDBH.proto";
 import "OMJBALCDKJK.proto";
 message GGJENGOICLH {
 	uint32 dungeon_id = 10;
-	AFCLGCNDDBH PDCLLHGEKFO = 15;
+	AFCLGCNDDBH BPPDFFHHANO = 15;
 	repeated OMJBALCDKJK room_list = 2;
 	uint64 dungeon_guid = 4;
 }

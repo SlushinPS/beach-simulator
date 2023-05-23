@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "AJLLMEBCFIB.proto";
-import "CIOJFBLABCG.proto";
-import "PAALDLMIFHJ.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "GameplayRecommendationSkillRequest.proto";
+import "GameplayRecommendationReliquaryRequest.proto";
+import "GameplayRecommendationElementReliquaryRequest.proto";
 // CmdId: 195
+// Obf: FKEKHPFJAOP
 message GetGameplayRecommendationReq {
 	uint32 avatar_id = 8;
 	oneof detail {
-		AJLLMEBCFIB INDLEACJPLF = 195;
-		CIOJFBLABCG FKFPJMKIPMM = 293;
-		PAALDLMIFHJ HKLLCPCEDCM = 1333;
+		GameplayRecommendationSkillRequest skill_request = 195;
+		GameplayRecommendationReliquaryRequest reliquary_request = 293;
+		GameplayRecommendationElementReliquaryRequest element_reliquary_request = 1333;
 	}
 }

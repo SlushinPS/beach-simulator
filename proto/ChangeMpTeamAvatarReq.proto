@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1626
+// Obf: ANGFHDEMEFI
 message ChangeMpTeamAvatarReq {
 	repeated uint64 avatar_guid_list = 10;
 	uint64 cur_avatar_guid = 7;

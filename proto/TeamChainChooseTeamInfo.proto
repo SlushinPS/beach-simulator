@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "TeamChainChooseAvatarInfo.proto";
+// Obf: PIOKEJIFFEO
 message TeamChainChooseTeamInfo {
 	repeated TeamChainChooseAvatarInfo avatar_info_list = 10;
 	repeated uint32 skill_no_list = 14;

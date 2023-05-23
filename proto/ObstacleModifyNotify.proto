@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ObstacleInfo.proto";
 // CmdId: 2302
+// Obf: JJMONLNMKPP
 message ObstacleModifyNotify {
 	repeated int32 remove_obstacle_ids = 1;
 	repeated ObstacleInfo add_obstacles = 5;

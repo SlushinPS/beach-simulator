@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "WidgetSlotTag.proto";
 import "WidgetSlotOp.proto";
 // CmdId: 4300
+// Obf: JJDOFKPCAFB
 message SetWidgetSlotReq {
 	uint32 material_id = 8;
 	repeated WidgetSlotTag tag_list = 6;

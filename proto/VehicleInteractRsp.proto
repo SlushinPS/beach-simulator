@@ -15,17 +15,19 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "VehicleMember.proto";
 import "VehicleInteractType.proto";
 // CmdId: 824
+// Obf: BGCJBJNDCDB
 message VehicleInteractRsp {
-	Vector AMNIDPNNJLG = 14;
+	Vector KPLLINDPCBJ = 14;
 	VehicleMember member = 3;
 	uint32 entity_id = 9;
-	uint32 PHMCOINMOPH = 15;
+	uint32 IDLLLBLACAE = 15;
 	VehicleInteractType interact_type = 7;
 	int32 retcode = 11;
 	uint32 gadget_id = 13;
-	Vector FLDHOMPALBK = 10;
+	Vector MBJJPEGEDME = 10;
 }

@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: EEBMHDBBEEH
 message MassivePropParam {
 	int32 type = 1;
 	repeated uint32 reaction_info_list = 2;

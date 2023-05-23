@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 21226
+// Obf: BDPMEMMMNDD
 message FungusFighterPlotInfoNotify {
 	repeated uint32 fungus_id_list = 7;
 	uint32 dungeon_id = 12;

@@ -15,8 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 message GCEGEJJDGFK {
 	fixed64 begin_time = 8;
-	uint32 CDFFGLCKBDF = 1;
-	fixed64 DIOLIABEBCK = 10;
+	uint32 controller_id = 1;
+	fixed64 NBEKAHFIEAF = 10;
 }

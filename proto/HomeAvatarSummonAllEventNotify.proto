@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HomeAvatarSummonEventInfo.proto";
 // CmdId: 4512
+// Obf: LHAAFGICCMJ
 message HomeAvatarSummonAllEventNotify {
 	repeated HomeAvatarSummonEventInfo summon_event_list = 15;
 }

@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Birthday.proto";
 import "FriendOnlineState.proto";
 import "SocialShowAvatarInfo.proto";
 import "FriendEnterHomeOption.proto";
 import "ProfilePicture.proto";
+// Obf: JEKKBLBDEFP
 message SocialDetail {
 	uint32 uid = 1;
 	string nickname = 2;

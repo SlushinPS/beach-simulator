@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1912
+// Obf: FJBCDLIHGKJ
 message MarkTargetInvestigationMonsterNotify {
 	uint32 monster_id = 3;
 	uint32 group_id = 7;

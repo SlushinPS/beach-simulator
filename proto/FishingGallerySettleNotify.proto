@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FishingGallerySettleInfo.proto";
 // CmdId: 8269
+// Obf: OEIEGAIJMIA
 message FishingGallerySettleNotify {
 	uint32 level_id = 6;
 	uint32 gallery_id = 4;

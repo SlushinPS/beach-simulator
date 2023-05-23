@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 836
+// Obf: HLMNMEGJJAO
 message ProjectorOptionReq {
 	enum OPFNDCJBDLI {
-		ProjectorOpNone = 0;
-		ProjectorOpCreate = 1;
-		ProjectorOpDestroy = 2;
+		DOENKMNEPFO_PROJECTOR_OP_NONE = 0;
+		DOENKMNEPFO_PROJECTOR_OP_CREATE = 1;
+		DOENKMNEPFO_PROJECTOR_OP_DESTROY = 2;
 	}
 	
 	uint32 op_type = 5;

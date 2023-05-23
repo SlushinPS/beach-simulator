@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PbNavMeshStatsInfo.proto";
 // CmdId: 2374
+// Obf: PLPMACOCIMJ
 message NavMeshStatsNotify {
 	repeated PbNavMeshStatsInfo infos = 9;
 }

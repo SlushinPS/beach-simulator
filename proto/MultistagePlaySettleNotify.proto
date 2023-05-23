@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PLPPNHMGHEA.proto";
-import "BKEFJHEFJOI.proto";
-import "BLDDHCDFHKM.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "InBattleMechanicusSettleInfo.proto";
+import "InBattleChessSettleInfo.proto";
+import "InBattleIrodoriChessSettleInfo.proto";
 // CmdId: 5308
+// Obf: AOCBAJLHDMN
 message MultistagePlaySettleNotify {
 	uint32 play_index = 1;
 	uint32 group_id = 4;
 	oneof detail {
-		PLPPNHMGHEA MKAJPBNMHBG = 2025;
-		BKEFJHEFJOI KADJKCPKHFB = 934;
-		BLDDHCDFHKM MHOOMGOAICF = 1372;
+		InBattleMechanicusSettleInfo mechanicus_settle_info = 2025;
+		InBattleChessSettleInfo chess_settle_info = 934;
+		InBattleIrodoriChessSettleInfo irodori_chess_settle_info = 1372;
 	}
 }

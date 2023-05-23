@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CityInfo.proto";
 // CmdId: 217
+// Obf: CAPLOJCDPDE
 message LevelupCityRsp {
 	uint32 area_id = 2;
 	uint32 scene_id = 6;

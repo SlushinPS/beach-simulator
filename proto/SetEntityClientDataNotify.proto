@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "EntityClientData.proto";
 // CmdId: 3172
+// Obf: IADECFHIJAH
 message SetEntityClientDataNotify {
 	uint32 entity_id = 11;
 	EntityClientData entity_client_data = 6;

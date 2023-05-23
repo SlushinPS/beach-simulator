@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: KGJFEPEIOKM
 enum RogueDiaryAvatarDisableStatus {
-	RogueDiaryAvatarDisableStatus_RogueDiaryAvatarDisableNone = 0;
-	RogueDiaryAvatarDisableStatus_RogueDiaryAvatarDisableDeath = 1;
-	RogueDiaryAvatarDisableStatus_RogueDiaryAvatarDisableTired = 2;
-	RogueDiaryAvatarDisableStatus_RogueDiaryAvatarDisableDuplicated = 3;
+	ROGUE_DIARY_AVATAR_DISABLE_NONE = 0;
+	ROGUE_DIARY_AVATAR_DISABLE_DEATH = 1;
+	ROGUE_DIARY_AVATAR_DISABLE_TIRED = 2;
+	ROGUE_DIARY_AVATAR_DISABLE_DUPLICATED = 3;
 }

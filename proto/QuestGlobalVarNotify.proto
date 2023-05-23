@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "QuestGlobalVar.proto";
 // CmdId: 403
+// Obf: BICAFJINAPH
 message QuestGlobalVarNotify {
 	repeated QuestGlobalVar var_list = 12;
 }

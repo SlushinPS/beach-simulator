@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ShopGoods.proto";
 // CmdId: 772
+// Obf: IBEBDIGLBGI
 message BuyGoodsRsp {
 	uint32 shop_type = 6;
 	repeated ShopGoods goods_list = 10;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: PKDPAPFKIAK
 enum GalleryStartSource {
-	GalleryStartSource_GalleryStartByNone = 0;
-	GalleryStartSource_GalleryStartByMatch = 1;
-	GalleryStartSource_GalleryStartByDraft = 2;
+	GALLERY_START_BY_NONE = 0;
+	GALLERY_START_BY_MATCH = 1;
+	GALLERY_START_BY_DRAFT = 2;
 }

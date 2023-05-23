@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ForgeQueueManipulateType.proto";
 // CmdId: 671
+// Obf: EKPELHPHLBH
 message ForgeQueueManipulateReq {
 	ForgeQueueManipulateType manipulate_type = 15;
 	uint32 forge_queue_id = 1;

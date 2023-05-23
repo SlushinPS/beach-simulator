@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2183
+// Obf: LFOJLGMFNNF
 message BlessingScanRsp {
-	uint32 MBDEAHGKBIP = 1;
-	uint32 EBFPLCOHCBN = 14;
+	uint32 FHNDIAGJKDD = 1;
+	uint32 FPHKONHPKMM = 14;
 	int32 retcode = 3;
 }

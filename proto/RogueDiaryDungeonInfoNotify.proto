@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RogueDiaryRoomInfo.proto";
 // CmdId: 8535
+// Obf: EGAJOHLBGFN
 message RogueDiaryDungeonInfoNotify {
 	uint32 cur_round = 13;
-	repeated uint32 DNOLONKNBPL = 6;
+	repeated uint32 ONGACECOCCB = 6;
 	uint32 coin = 15;
 	uint32 cur_room = 5;
 	repeated RogueDiaryRoomInfo room_list = 11;
@@ -27,5 +29,5 @@ message RogueDiaryDungeonInfoNotify {
 	uint32 difficulty = 9;
 	uint32 time = 2;
 	uint32 stage_id = 1;
-	repeated uint32 AFNHAGHFCBL = 14;
+	repeated uint32 MFAODDDELCH = 14;
 }

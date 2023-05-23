@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DNOJNFKPDBO
 message InfernceWordInfo {
-	bool NHBJGFKJLPG = 6;
+	bool FLEJAGNGBBA = 6;
 	uint32 word_id = 4;
-	bool DLJEIBFOICE = 11;
-	bool JHPDNACEAFH = 12;
+	bool PIHNBNJCOIM = 11;
+	bool FKHGLHPBMPH = 12;
 	uint32 unlock_by_word_id = 10;
 }

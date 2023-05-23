@@ -15,18 +15,21 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: MACHHBHOKFD
 message BattlePassMission {
+	// Obf: GFAOOELANLH
 	enum MissionStatus {
-		MissionInvalid = 0;
-		MissionUnfinished = 1;
-		MissionFinished = 2;
-		MissionPointTaken = 3;
+		MISSION_STATUS_INVALID = 0;
+		MISSION_STATUS_UNFINISHED = 1;
+		MISSION_STATUS_FINISHED = 2;
+		MISSION_STATUS_POINT_TAKEN = 3;
 	}
 	
-	uint32 IIHDIBDAFKF = 11;
+	uint32 mission_type = 11;
 	uint32 cur_progress = 4;
 	uint32 mission_id = 13;
 	MissionStatus mission_status = 2;
-	uint32 DPBEGPKANII = 14;
+	uint32 reward_battle_pass_point = 14;
 	uint32 total_progress = 12;
 }

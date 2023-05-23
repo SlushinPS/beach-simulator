@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 674
+// Obf: DIBDGGGENIF
 message McoinExchangeHcoinReq {
-	uint32 JBIAMGLMFKE = 15;
-	uint32 BGNKMEAPJFF = 13;
+	uint32 mcoin_cost = 15;
+	uint32 hcoin = 13;
 }

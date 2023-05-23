@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: OJLOLCKMJNH
 message StrengthenPointData {
-	uint32 JGMKNJPHFDI = 1;
-	uint32 PLMNNJLCBPP = 8;
+	uint32 MJENJDAGDJI = 1;
+	uint32 NINKDFMACII = 8;
 }

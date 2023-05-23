@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 265
+// Obf: IJJNFABHPDK
 message SetSceneWeatherAreaReq {
 	map<uint32, string> weather_value_map = 3;
 	uint32 weather_gadget_id = 5;

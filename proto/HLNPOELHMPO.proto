@@ -15,7 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "NJIBEBILPBB.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "AISnapshotEntityData.proto";
 message HLNPOELHMPO {
-	repeated NJIBEBILPBB NOEADPNMPEF = 3;
+	repeated AISnapshotEntityData ACFKMPMENHK = 3;
 }

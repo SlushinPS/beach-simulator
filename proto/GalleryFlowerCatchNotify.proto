@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5587
+// Obf: MBCMMEGJJGO
 message GalleryFlowerCatchNotify {
 	uint32 gallery_id = 14;
 	uint32 add_score = 4;

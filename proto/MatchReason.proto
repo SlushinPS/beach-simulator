@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: JGMEMCCGCDN
 enum MatchReason {
-	MatchReason_MatchNone = 0;
-	MatchReason_MatchFinish = 1;
-	MatchReason_MatchPlayerCancel = 2;
-	MatchReason_MatchTimeout = 3;
-	MatchReason_MatchPlayerConfirm = 4;
-	MatchReason_MatchFailed = 5;
-	MatchReason_MatchSystemError = 6;
-	MatchReason_MatchInterrupted = 7;
-	MatchReason_MatchMpUnavailable = 8;
-	MatchReason_MatchConfirmTimeout = 9;
+	MATCH_NONE = 0;
+	MATCH_FINISH = 1;
+	MATCH_PLAYER_CANCEL = 2;
+	MATCH_TIMEOUT = 3;
+	MATCH_PLAYER_CONFIRM = 4;
+	MATCH_FAILED = 5;
+	MATCH_SYSTEM_ERROR = 6;
+	MATCH_INTERRUPTED = 7;
+	MATCH_MP_UNAVAILABLE = 8;
+	MATCH_CONFIRM_TIMEOUT = 9;
 }

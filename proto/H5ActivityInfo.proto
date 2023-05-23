@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: NJDJNOHKGHG
 message H5ActivityInfo {
-	uint32 ONMHFGOHKFH = 4;
+	uint32 HPLJKGAJNOA = 4;
 	bool is_entrance_open = 5;
-	uint32 EFBOPDLJLLD = 12;
+	uint32 PAIONNJCHAG = 12;
 	uint32 begin_time = 11;
 	uint32 content_close_time = 14;
 	string prefab_path = 8;

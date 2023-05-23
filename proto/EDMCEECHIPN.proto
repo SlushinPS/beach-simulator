@@ -15,8 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 7424
 message EDMCEECHIPN {
-	repeated uint32 ACDMCGEHCNF = 2;
+	repeated uint32 DHCMGPFOEON = 2;
 	int32 retcode = 15;
 }

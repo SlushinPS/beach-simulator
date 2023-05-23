@@ -15,18 +15,20 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "ONANEFOCOHJ.proto";
-import "FANGELMMMLL.proto";
-import "OGNIGMMAPNI.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "CityReputationRequestInfo.proto";
+import "CityReputationHuntInfo.proto";
+import "CityReputationQuestInfo.proto";
 import "CityReputationExploreInfo.proto";
+// Obf: CHEMJNBDGCK
 message CityReputationInfo {
 	uint32 next_refresh_time = 9;
 	uint32 exp = 13;
 	repeated uint32 taken_level_reward_list = 1;
-	ONANEFOCOHJ PDAHPBCLEND = 4;
-	FANGELMMMLL EJKGNIOBHLE = 2;
+	CityReputationRequestInfo request_info = 4;
+	CityReputationHuntInfo hunt_info = 2;
 	uint32 level = 3;
 	uint32 total_accept_request_num = 6;
-	OGNIGMMAPNI JLCAEKHABFG = 15;
+	CityReputationQuestInfo quest_info = 15;
 	CityReputationExploreInfo explore_info = 14;
 }

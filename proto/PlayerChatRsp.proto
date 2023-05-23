@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 3369
+// Obf: IABIBNLADIM
 message PlayerChatRsp {
 	uint32 chat_forbidden_endtime = 7;
 	int32 retcode = 5;

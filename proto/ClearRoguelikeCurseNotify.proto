@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8799
+// Obf: AKLJCHADNHD
 message ClearRoguelikeCurseNotify {
 	map<uint32, uint32> clear_curse_map = 7;
-	bool ABNPCMLJMLH = 14;
+	bool JDHDCMALHJM = 14;
 	uint32 card_id = 3;
-	bool DHNOALCOIEH = 9;
+	bool is_clear_all = 9;
 }

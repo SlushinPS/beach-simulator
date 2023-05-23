@@ -15,14 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MapMarkPoint.proto";
 // CmdId: 3389
+// Obf: MFHPKHNAIBA
 message MarkMapReq {
+	// Obf: PLJOBIBHMNF
 	enum Operation {
-		Add = 0;
-		Mod = 1;
-		Del = 2;
-		Get = 3;
+		OPERATION_ADD = 0;
+		OPERATION_MOD = 1;
+		OPERATION_DEL = 2;
+		OPERATION_GET = 3;
 	}
 	
 	MapMarkPoint old = 5;

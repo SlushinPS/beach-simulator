@@ -15,6 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 message HEPFNIPELBP {
-	uint32 NPJNCABLJID = 9;
+	uint32 OJMDKDFBOAM = 9;
 }

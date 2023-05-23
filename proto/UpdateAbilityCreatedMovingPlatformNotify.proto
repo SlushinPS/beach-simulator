@@ -15,12 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 894
+// Obf: BDLHLHEIKLM
 message UpdateAbilityCreatedMovingPlatformNotify {
+	// Obf: GIGDLMCLDGC
 	enum OpType {
-		OpNone = 0;
-		OpActivate = 1;
-		OpDeactivate = 2;
+		OP_TYPE_NONE = 0;
+		OP_TYPE_ACTIVATE = 1;
+		OP_TYPE_DEACTIVATE = 2;
 	}
 	
 	OpType op_type = 1;

@@ -15,23 +15,25 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-import "IDHBCOHLJPD.proto";
-import "MGDFIKKDIGG.proto";
+import "CylinderRegionSize.proto";
+import "PolygonRegionSize.proto";
 // CmdId: 3327
+// Obf: NAIIGNAOFCC
 message PlayerEyePointStateNotify {
 	int32 fix_lod_level = 12;
-	bool NDIODOEPMMP = 15;
-	uint32 CBHNCDEMNGF = 2;
-	bool AHOJPGCJFHK = 14;
-	uint32 NCNOKJEPIBL = 1;
-	uint32 GLKODFFOGEM = 4;
+	bool JHPIEDBDGGB = 15;
+	uint32 ALEEOKDNOEE = 2;
+	bool KNOFPFLJPFA = 14;
+	uint32 IMKAAEABEPB = 1;
+	uint32 PACCIPICIEK = 4;
 	Vector eye_point_pos = 9;
-	uint32 HBHGHKMILKA = 6;
+	uint32 AKIAFBHPMDI = 6;
 	oneof region_size {
-		float GOBLLLKMBMG = 1935;
-		Vector FLIFDHKOLBP = 181;
-		IDHBCOHLJPD HKNJDPCFAHN = 976;
-		MGDFIKKDIGG IHELEKOBPIP = 1589;
+		float sphere_radius = 1935;
+		Vector cubic_size = 181;
+		CylinderRegionSize cylinder_size = 976;
+		PolygonRegionSize polygon_size = 1589;
 	}
 }

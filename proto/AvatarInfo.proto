@@ -15,6 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PropValue.proto";
 import "TrialAvatarInfo.proto";
 import "AvatarSkillInfo.proto";
@@ -23,6 +24,7 @@ import "AvatarExpeditionState.proto";
 import "AvatarEquipAffixInfo.proto";
 import "AvatarExcelInfo.proto";
 import "OOOHGLFDFCI.proto";
+// Obf: PLKMIPEBLOO
 message AvatarInfo {
 	uint32 avatar_id = 1;
 	uint64 guid = 2;
@@ -50,5 +52,5 @@ message AvatarInfo {
 	uint32 costume_id = 25;
 	AvatarExcelInfo excel_info = 26;
 	uint32 anim_hash = 27;
-	OOOHGLFDFCI HAHFIJDCNJH = 28;
+	OOOHGLFDFCI BAPGEFOMGBH = 28;
 }

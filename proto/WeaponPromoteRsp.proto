@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 633
+// Obf: GBBFEEHGFJE
 message WeaponPromoteRsp {
 	int32 retcode = 15;
 	uint64 target_weapon_guid = 2;
-	uint32 CPOHCMOFHJP = 14;
-	uint32 KCLHNLFGFPB = 5;
+	uint32 old_promote_level = 14;
+	uint32 cur_promote_level = 5;
 }

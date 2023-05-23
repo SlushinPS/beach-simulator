@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RogueDiaryAvatar.proto";
 // CmdId: 8237
+// Obf: GGKMPOBBBGL
 message RogueFinishRepairReq {
 	repeated uint32 chosen_card_list = 8;
 	repeated RogueDiaryAvatar chosen_avatar_list = 11;

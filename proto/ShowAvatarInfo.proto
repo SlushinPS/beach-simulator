@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PropValue.proto";
 import "ShowEquip.proto";
 import "AvatarFetterInfo.proto";
 import "AvatarExcelInfo.proto";
+// Obf: LBFIEJKILCO
 message ShowAvatarInfo {
 	uint32 avatar_id = 1;
 	map<uint32, PropValue> prop_map = 2;

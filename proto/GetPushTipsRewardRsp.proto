@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2226
+// Obf: EGJKEGOLKPL
 message GetPushTipsRewardRsp {
 	int32 retcode = 9;
 	repeated uint32 push_tips_id_list = 1;

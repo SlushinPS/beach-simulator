@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BalloonGallerySettleInfo.proto";
 // CmdId: 4474
+// Obf: OFDPODBNLKD
 message HomeBalloonGallerySettleNotify {
 	uint32 rank = 12;
 	bool is_new_record = 5;

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MaterialDeleteReturnType.proto";
 // CmdId: 623
+// Obf: JKLIILONGOM
 message MaterialDeleteReturnNotify {
-	map<uint32, uint32> KGPKJGDFDGH = 4;
+	map<uint32, uint32> GMKEMPBHDOA = 4;
 	MaterialDeleteReturnType type = 6;
-	map<uint32, uint32> NKNIMCDIDEB = 10;
+	map<uint32, uint32> CMLDFHFNPHG = 10;
 }

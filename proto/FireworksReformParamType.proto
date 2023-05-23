@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: HPKCINCADAL
 enum FireworksReformParamType {
-	FireworksReformParamType_FireworksReformParamNone = 0;
-	FireworksReformParamType_FireworksReformParamColor = 1;
-	FireworksReformParamType_FireworksReformParamHeight = 2;
-	FireworksReformParamType_FireworksReformParamSize = 3;
-	FireworksReformParamType_FireworksReformParamDensity = 4;
-	FireworksReformParamType_FireworksReformParamRotation = 5;
+	FIREWORKS_REFORM_PARAM_NONE = 0;
+	FIREWORKS_REFORM_PARAM_COLOR = 1;
+	FIREWORKS_REFORM_PARAM_HEIGHT = 2;
+	FIREWORKS_REFORM_PARAM_SIZE = 3;
+	FIREWORKS_REFORM_PARAM_DENSITY = 4;
+	FIREWORKS_REFORM_PARAM_ROTATION = 5;
 }

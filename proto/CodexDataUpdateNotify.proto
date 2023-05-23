@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CodexType.proto";
 // CmdId: 4206
+// Obf: AMEDMFGHJKL
 message CodexDataUpdateNotify {
 	CodexType type = 7;
 	uint32 id = 4;

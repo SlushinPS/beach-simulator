@@ -15,18 +15,20 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HitColliderType.proto";
 import "Vector.proto";
 import "ForwardType.proto";
 // CmdId: 321
+// Obf: AGCEHPNLCLN
 message EvtBulletHitNotify {
 	uint32 forward_peer = 9;
 	HitColliderType hit_collider_type = 12;
-	Vector NGMPNDHIDME = 7;
+	Vector IKLAJLIJHPL = 7;
 	uint32 entity_id = 10;
 	ForwardType forward_type = 8;
-	uint32 EJBDDBOFGCC = 3;
-	Vector NMKKCNFCFMF = 11;
-	uint32 LHIECGAAENL = 4;
+	uint32 IKCAFAGALFA = 3;
+	Vector hit_point = 11;
+	uint32 DAPDLJGIEOI = 4;
 	int32 hit_box_index = 6;
 }

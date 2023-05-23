@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4578
+// Obf: LNJFLEBKHEP
 message HomePlantSeedReq {
 	repeated uint32 seed_id_list = 7;
 	uint32 field_guid = 6;

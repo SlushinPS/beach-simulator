@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 342
+// Obf: IPLIBPLHDPF
 message TriggerCreateGadgetToEquipPartNotify {
 	uint32 entity_id = 15;
 	uint32 gadget_entity_id = 3;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5239
+// Obf: MMEDNFIFFFC
 message MiracleRingDropResultNotify {
-	int32 EPIJBPPAGOI = 8;
-	uint32 FFBIEGACJEP = 1;
+	int32 CGEEAAHAOPL = 8;
+	uint32 BJHONLLCDPC = 1;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AvatarExpeditionInfo.proto";
 import "ItemParam.proto";
 // CmdId: 1763
+// Obf: OGJINPEMNDO
 message AvatarExpeditionGetRewardRsp {
 	int32 retcode = 7;
 	map<uint64, AvatarExpeditionInfo> expedition_info_map = 8;

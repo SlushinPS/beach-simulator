@@ -15,8 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LNCJHILJOBA.proto";
 // CmdId: 5099
 message AEEOMPENNEA {
-	LNCJHILJOBA JHDPHMFLDOL = 3;
+	LNCJHILJOBA CJCLFENNOGD = 3;
 }

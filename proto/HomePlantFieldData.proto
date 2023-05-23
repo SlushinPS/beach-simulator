@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "JICIBIJIHAB.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HomePlantSubFieldData.proto";
 import "Vector.proto";
+// Obf: APNHPMCHKJE
 message HomePlantFieldData {
-	repeated JICIBIJIHAB PLNDHOHDGHO = 14;
+	repeated HomePlantSubFieldData sub_field_list = 14;
 	uint32 field_guid = 10;
 	uint32 scene_id = 1;
 	Vector spawn_pos = 11;

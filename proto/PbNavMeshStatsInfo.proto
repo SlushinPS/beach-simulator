@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: MOELDGBGLLB
 message PbNavMeshStatsInfo {
-	int32 EOGHOJEPLON = 5;
-	int32 BLGOCCDCEPF = 10;
-	int32 EMEMEOPJNOJ = 3;
-	int32 OCDLKKLDECG = 14;
+	int32 HDAAEDFOOOI = 5;
+	int32 ECNPOEJHPCI = 10;
+	int32 FJGDCFHBCLI = 3;
+	int32 GNLELCLHHDK = 14;
 }

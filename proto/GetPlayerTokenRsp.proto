@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "StopServer.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "StopServerInfo.proto";
 // CmdId: 196
+// Obf: LACJKFEIOGO
 message GetPlayerTokenRsp {
-	bool HCPBAACPGBJ = 343;
+	bool MPBPEOPDLOE = 343;
 	bytes security_cmd_buffer = 10;
-	bool EAEFJELFOLA = 960;
+	bool IHPKEJKFANM = 960;
 	string birthday = 2027;
-	StopServer stop_server = 647;
+	StopServerInfo stop_server = 647;
 	uint32 channel_id = 362;
 	bytes extra_bin_data = 3;
 	uint32 gm_uid = 11;
@@ -38,11 +40,11 @@ message GetPlayerTokenRsp {
 	uint32 platform_type = 6;
 	uint32 key_id = 1327;
 	uint32 reg_platform = 797;
-	uint32 KCNGGLAKFDA = 285;
+	uint32 cloudClientIp = 285;
 	uint32 uid = 5;
 	uint32 account_type = 766;
 	bool is_proficient_player = 8;
-	uint32 IOLNEOHFDDM = 13;
+	uint32 blackUidEndTime = 13;
 	int32 retcode = 1;
 	bool is_guest = 14;
 	string secret_key = 9;

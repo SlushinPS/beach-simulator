@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4622
+// Obf: EMJHJCPGCPI
 message UnlockedFurnitureSuiteDataNotify {
 	repeated uint32 furniture_suite_id_list = 9;
 	bool is_all = 1;

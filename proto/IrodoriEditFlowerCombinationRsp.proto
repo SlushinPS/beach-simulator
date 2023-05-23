@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8620
+// Obf: CGLBNIHCHCG
 message IrodoriEditFlowerCombinationRsp {
-	bool PAJDKMGJNHA = 3;
+	bool HKJABNODJMO = 3;
 	int32 retcode = 9;
-	bool FIKOJJFAFLB = 13;
+	bool EJIEJONDCCP = 13;
 }

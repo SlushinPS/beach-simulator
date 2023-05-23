@@ -15,18 +15,21 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: APEMHACONJN
 message MainCoop {
+	// Obf: AJFHHEDBGFO
 	enum Status {
-		Invalid = 0;
-		Running = 1;
-		Finished = 2;
+		INVALID = 0;
+		RUNNING = 1;
+		FINISHED = 2;
 	}
 	
 	Status status = 12;
 	uint32 self_confidence = 2;
-	map<uint32, int32> GEENDBEHNKN = 10;
+	map<uint32, int32> PCCKFLCCIGB = 10;
 	map<uint32, uint32> seen_ending_map = 15;
 	uint32 id = 14;
-	map<uint32, int32> IDAFBCHJIFA = 1;
+	map<uint32, int32> LJEBGEFGOAL = 1;
 	repeated uint32 save_point_id_list = 9;
 }

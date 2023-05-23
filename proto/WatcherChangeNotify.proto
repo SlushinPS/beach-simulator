@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2296
+// Obf: BJBFEMJBFOA
 message WatcherChangeNotify {
-	repeated uint32 AHPINMBHMDL = 9;
-	repeated uint32 IDBICAEHMLI = 12;
+	repeated uint32 LJOHAPLDDIA = 9;
+	repeated uint32 NEHBGOHNHLJ = 12;
 }

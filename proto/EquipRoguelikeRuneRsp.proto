@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8073
+// Obf: OBOCNKCMNLL
 message EquipRoguelikeRuneRsp {
 	int32 retcode = 3;
 	repeated uint32 rune_list = 5;

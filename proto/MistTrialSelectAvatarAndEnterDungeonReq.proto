@@ -15,10 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8665
+// Obf: CFLPMAIKDFA
 message MistTrialSelectAvatarAndEnterDungeonReq {
+	// Obf: FGPIFIDBMKL
 	message SelectAvatarIndex {
-		oneof detail {
+		oneof LMDJFNHPDIK {
 			uint32 mist_trial_avatar_id = 4;
 			uint64 formal_avatar_guid = 5;
 		}

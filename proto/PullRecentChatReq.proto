@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4985
+// Obf: AGIBPLMCLFN
 message PullRecentChatReq {
-	uint32 MGNHCHJBMAH = 7;
-	uint32 KKIEADODDCN = 3;
+	uint32 begin_sequence = 7;
+	uint32 pull_num = 3;
 }

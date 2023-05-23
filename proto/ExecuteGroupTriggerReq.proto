@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 292
+// Obf: BDCAJCDPPNP
 message ExecuteGroupTriggerReq {
 	int32 param1 = 2;
 	int32 param2 = 3;

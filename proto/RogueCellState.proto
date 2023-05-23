@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: EBBGLLMHKCK
 enum RogueCellState {
-	RogueCellState_RogueCellNone = 0;
-	RogueCellState_RogueCellBattle = 1;
-	RogueCellState_RogueCellSuccess = 2;
-	RogueCellState_RogueCellFinish = 3;
-	RogueCellState_RogueCellTakenChest = 4;
+	ROGUE_CELL_NONE = 0;
+	ROGUE_CELL_BATTLE = 1;
+	ROGUE_CELL_SUCCESS = 2;
+	ROGUE_CELL_FINISH = 3;
+	ROGUE_CELL_TAKEN_CHEST = 4;
 }

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8575
+// Obf: NHMGBMLKABK
 message PhotoActivityFinishReq {
 	uint32 check_root_id = 9;
 	uint32 pos_id = 2;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "H5ActivityInfo.proto";
 // CmdId: 5678
+// Obf: NNENDLPLIHI
 message GetAllH5ActivityInfoRsp {
 	int32 retcode = 6;
 	repeated H5ActivityInfo h5_activity_info_list = 1;

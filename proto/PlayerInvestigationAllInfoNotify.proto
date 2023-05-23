@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Investigation.proto";
 import "InvestigationTarget.proto";
 // CmdId: 1919
+// Obf: CHGDBPOCDKC
 message PlayerInvestigationAllInfoNotify {
 	repeated Investigation investigation_list = 11;
 	repeated InvestigationTarget investigation_target_list = 12;

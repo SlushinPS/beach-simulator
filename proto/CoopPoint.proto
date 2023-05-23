@@ -15,11 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: COOPFICDPBH
 message CoopPoint {
+	// Obf: EPLCHMLHLBA
 	enum State {
-		Unstarted = 0;
-		Started = 1;
-		Finished = 2;
+		STATE_UNSTARTED = 0;
+		STATE_STARTED = 1;
+		STATE_FINISHED = 2;
 	}
 	
 	uint32 self_confidence = 9;

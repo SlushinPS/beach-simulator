@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RegionSearchInfo.proto";
 // CmdId: 5628
+// Obf: FMNKPPHEHAE
 message RegionSearchNotify {
 	repeated RegionSearchInfo region_search_list = 8;
 	uint32 uid = 12;

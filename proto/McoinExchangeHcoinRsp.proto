@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 617
+// Obf: KFGCMIDKGMC
 message McoinExchangeHcoinRsp {
-	uint32 BGNKMEAPJFF = 1;
-	uint32 JBIAMGLMFKE = 5;
+	uint32 hcoin = 1;
+	uint32 mcoin_cost = 5;
 	int32 retcode = 11;
 }

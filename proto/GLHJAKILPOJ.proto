@@ -15,7 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BHCOPHHAFLC.proto";
 message GLHJAKILPOJ {
-	repeated BHCOPHHAFLC NNGEGIBFICG = 14;
+	repeated BHCOPHHAFLC EGBNAKFMKHN = 14;
 }

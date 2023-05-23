@@ -15,21 +15,22 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "FFELGFFLAAC.proto";
 // CmdId: 2397
 message IFNOHBONEGM {
 	enum JNHPFDEDNEI {
-		StatusFail = 0;
-		StatusSucc = 1;
-		StatusPartial = 2;
+		HMNKHDMCEKN_StatusFail = 0;
+		HMNKHDMCEKN_StatusSucc = 1;
+		HMNKHDMCEKN_StatusPartial = 2;
 	}
 	
 	repeated Vector corners = 4;
 	JNHPFDEDNEI query_status = 1;
 	int32 retcode = 10;
-	repeated FFELGFFLAAC JFDBEJLOCOO = 6;
+	repeated FFELGFFLAAC MFJENPLIKPF = 6;
 	int32 query_id = 12;
-	repeated FFELGFFLAAC ODMFFIDDPFB = 5;
-	repeated Vector ICEFFKBDGJI = 9;
+	repeated FFELGFFLAAC DKPKIMPJIOD = 5;
+	repeated Vector FOPNKJMGKBI = 9;
 }

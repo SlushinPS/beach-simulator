@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4577
+// Obf: NENKFONOFIM
 message HomeAvatarCostumeChangeNotify {
 	uint32 avatar_id = 7;
 	uint32 costume_id = 2;

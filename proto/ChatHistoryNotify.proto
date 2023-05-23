@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ChatInfo.proto";
 // CmdId: 3186
+// Obf: MEILMNEMNHA
 message ChatHistoryNotify {
 	repeated ChatInfo chat_info = 12;
 	uint32 channel_id = 9;

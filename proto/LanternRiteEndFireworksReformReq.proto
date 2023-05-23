@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8200
+// Obf: KAEMIBMDHHE
 message LanternRiteEndFireworksReformReq {
 	uint32 stage_id = 7;
 	uint32 challenge_id = 5;

@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "GalleryStopReason.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HDDANIDHCMI.proto";
+// Obf: IOFOPNAPOLG
 message LuminanceStoneChallengeGallerySettleInfo {
 	uint32 clean_mud_count = 6;
 	uint32 gallery_id = 12;
-	GalleryStopReason reason = 3;
+	HDDANIDHCMI reason = 3;
 	uint32 final_score = 14;
 	uint32 kill_monster_count = 9;
 	uint32 kill_special_monster_count = 5;

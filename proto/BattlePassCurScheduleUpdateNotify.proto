@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BattlePassSchedule.proto";
 // CmdId: 2621
+// Obf: JNGCODHNGLG
 message BattlePassCurScheduleUpdateNotify {
 	bool have_cur_schedule = 10;
 	BattlePassSchedule cur_schedule = 14;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 858
+// Obf: HEGBGAGGCJC
 message BossChestActivateNotify {
 	uint32 entity_id = 1;
 	repeated uint32 qualify_uid_list = 8;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "IrodoriPoetryThemeData.proto";
 // CmdId: 8974
+// Obf: EGHJOBIEFBH
 message IrodoriScanEntityRsp {
 	IrodoriPoetryThemeData theme_data = 4;
 	bool is_get_inspiration = 9;

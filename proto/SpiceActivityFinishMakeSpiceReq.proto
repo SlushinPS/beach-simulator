@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8660
+// Obf: KANEKLPBDMO
 message SpiceActivityFinishMakeSpiceReq {
 	bool is_success = 3;
 	repeated uint32 left_material_id_list = 7;

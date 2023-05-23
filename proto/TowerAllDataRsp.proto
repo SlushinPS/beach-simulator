@@ -15,26 +15,28 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "TowerFloorRecord.proto";
-import "PLCFJBMLEGG.proto";
+import "TowerMonthlyBrief.proto";
 import "TowerCurLevelRecord.proto";
 // CmdId: 2487
+// Obf: JHFGICEJJLA
 message TowerAllDataRsp {
-	uint32 HBFEPDGJGCN = 159;
-	uint32 ILFJLCGPGLA = 12;
-	uint32 ALLDMEBKFCO = 4;
-	map<uint32, uint32> JDILOKMIFPJ = 1;
+	uint32 schedule_start_time = 159;
+	uint32 NALKMJPEKCD = 12;
+	uint32 MIFBIGEDCJH = 4;
+	map<uint32, uint32> floor_open_time_map = 1;
 	repeated TowerFloorRecord tower_floor_record_list = 11;
-	uint32 JMNAGDKADLE = 3;
+	uint32 next_schedule_change_time = 3;
 	bool is_first_interact = 2;
 	bool is_finished_entrance_floor = 10;
-	PLCFJBMLEGG OGJDPHKBCFN = 5;
+	TowerMonthlyBrief last_schedule_monthly_brief = 5;
 	int32 retcode = 14;
-	PLCFJBMLEGG HJEIEFODMPP = 741;
-	uint32 ENEEIFJLOMA = 13;
+	TowerMonthlyBrief monthly_brief = 741;
+	uint32 MIGOLAOAOOK = 13;
 	TowerCurLevelRecord cur_level_record = 15;
-	uint32 AMHHLHILDPJ = 8;
-	map<uint32, uint32> EENMBKDIFBA = 7;
-	uint32 BDLGPDGDDOO = 6;
-	uint32 ALMPLCJCPND = 9;
+	uint32 EDFFKEPDKBN = 8;
+	map<uint32, uint32> HDJMDHAPMME = 7;
+	uint32 DMCKKIKKMLB = 6;
+	uint32 tower_schedule_id = 9;
 }

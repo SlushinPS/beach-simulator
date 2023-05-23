@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1021
+// Obf: KHCOMHBCLEP
 message AvatarSkillUpgradeRsp {
 	int32 retcode = 8;
 	uint64 avatar_guid = 6;
-	uint32 ABAOJFBMJOM = 12;
-	uint32 LFLIDDHHJBP = 3;
-	uint32 OFLILJCNMMJ = 5;
+	uint32 cur_level = 12;
+	uint32 avatar_skill_id = 3;
+	uint32 old_level = 5;
 }

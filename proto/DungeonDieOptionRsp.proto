@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerDieOption.proto";
 // CmdId: 921
+// Obf: HHBNADAJJIL
 message DungeonDieOptionRsp {
 	int32 retcode = 14;
 	PlayerDieOption die_option = 13;

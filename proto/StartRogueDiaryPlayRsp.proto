@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RogueDiaryAvatar.proto";
 // CmdId: 8460
+// Obf: EOLEDCMNJMF
 message StartRogueDiaryPlayRsp {
 	repeated RogueDiaryAvatar trial_avatar_list = 2;
 	int32 retcode = 7;

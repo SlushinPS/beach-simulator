@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5237
+// Obf: CLFKEFGCILG
 message MiracleRingDataNotify {
-	uint32 MPCCGFMGOLG = 13;
-	uint32 FFBIEGACJEP = 14;
-	uint32 IAGNHEKGGFN = 12;
+	uint32 KDGLBECOKBF = 13;
+	uint32 BJHONLLCDPC = 14;
+	uint32 OIPCCHGBDJE = 12;
 	bool is_gadget_created = 3;
 	uint32 gadget_entity_id = 15;
 }

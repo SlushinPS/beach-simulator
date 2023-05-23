@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: GMCPLJCPMGC
 enum WidgetSlotTag {
-	WidgetSlotTag_WidgetSlotQuickUse = 0;
-	WidgetSlotTag_WidgetSlotAttachAvatar = 1;
+	WIDGET_SLOT_TAG_QUICK_USE = 0;
+	WIDGET_SLOT_TAG_ATTACH_AVATAR = 1;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "DynamicNodes.proto";
 // CmdId: 6158
+// Obf: AKDNADGCGBL
 message ToTheMoonAddObstacleRsp {
 	int32 query_id = 5;
 	int32 retcode = 11;

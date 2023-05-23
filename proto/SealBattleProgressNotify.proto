@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 278
+// Obf: PJCDAGGHPHH
 message SealBattleProgressNotify {
 	uint32 progress = 7;
 	uint32 end_time = 2;
-	uint32 LELCJNDKDNL = 14;
+	uint32 NEBJNBBMOKB = 14;
 	uint32 seal_entity_id = 8;
-	uint32 PAKGCJKJEIN = 12;
+	uint32 MCMKKEIHOKO = 12;
 }

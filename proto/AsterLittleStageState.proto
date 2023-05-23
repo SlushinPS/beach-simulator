@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: KBCJBKKNMMJ
 enum AsterLittleStageState {
-	AsterLittleStageState_AsterLittleStageNone = 0;
-	AsterLittleStageState_AsterLittleStageUnstarted = 1;
-	AsterLittleStageState_AsterLittleStageStarted = 2;
-	AsterLittleStageState_AsterLittleStageFinished = 3;
+	ASTER_LITTLE_STAGE_NONE = 0;
+	ASTER_LITTLE_STAGE_UNSTARTED = 1;
+	ASTER_LITTLE_STAGE_STARTED = 2;
+	ASTER_LITTLE_STAGE_FINISHED = 3;
 }

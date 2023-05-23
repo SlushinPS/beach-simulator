@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 968
+// Obf: LGGFHHBFBIL
 message ChallengeDataNotify {
 	uint32 challenge_index = 10;
 	uint32 param_index = 6;

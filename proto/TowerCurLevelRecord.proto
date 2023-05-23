@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "TowerTeam.proto";
+// Obf: MKOKJFHLIGK
 message TowerCurLevelRecord {
 	repeated TowerTeam tower_team_list = 11;
 	repeated uint32 buff_id_list = 2;
 	bool is_upper_part = 12;
-	uint32 AJEDEMMPCJO = 9;
+	uint32 cur_floor_id = 9;
 	bool is_empty = 3;
-	uint32 FPMKIKEDDLE = 1;
+	uint32 cur_level_index = 1;
 }

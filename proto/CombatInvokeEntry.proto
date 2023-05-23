@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ForwardType.proto";
 import "CombatTypeArgument.proto";
+// Obf: GFIELFENIEL
 message CombatInvokeEntry {
 	bytes combat_data = 6;
 	ForwardType forward_type = 5;

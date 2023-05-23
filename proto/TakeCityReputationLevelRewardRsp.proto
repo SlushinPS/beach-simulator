@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 // CmdId: 2872
+// Obf: MPFHCMOBCFD
 message TakeCityReputationLevelRewardRsp {
 	uint32 level = 3;
 	repeated ItemParam item_list = 7;

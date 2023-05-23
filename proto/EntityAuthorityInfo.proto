@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AbilitySyncStateInfo.proto";
 import "EntityRendererChangedInfo.proto";
 import "SceneEntityAiInfo.proto";
 import "Vector.proto";
 import "AnimatorParameterValueInfoPair.proto";
 import "EntityClientExtraInfo.proto";
+// Obf: MMDHAIOHCBJ
 message EntityAuthorityInfo {
 	AbilitySyncStateInfo ability_info = 1;
 	EntityRendererChangedInfo renderer_changed_info = 2;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
+// Obf: NJDELGNKEFM
 message TreasureMapDetectorData {
 	uint32 region_id = 2;
 	Vector center_pos = 1;

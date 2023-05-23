@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
 // CmdId: 2178
+// Obf: GEKIGGBPDNC
 message ActivityCondStateChangeNotify {
 	repeated uint32 activated_sale_id_list = 13;
-	repeated uint32 BEJOKOCLCKH = 7;
+	repeated uint32 expire_cond_list = 7;
 	uint32 activity_id = 10;
 	repeated Uint32Pair disable_transfer_point_interaction_list = 4;
-	repeated uint32 JDNLNEBPLDA = 5;
+	repeated uint32 meet_cond_list = 5;
 	uint32 schedule_id = 6;
 }

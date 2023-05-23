@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 992
+// Obf: BCOAFDKBHEB
 message DungeonRestartInviteNotify {
 	uint32 point_id = 8;
 	uint32 cd = 4;

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 492
+// Obf: CBHHGBOAJPA
 message AssociateInferenceWordRsp {
 	uint32 page_id = 3;
 	int32 retcode = 10;
-	uint32 EMFLKGCLPNF = 15;
-	uint32 MMEJELFKIAI = 7;
+	uint32 JNLFGLHFBBC = 15;
+	uint32 PPMLICNJGAD = 7;
 }

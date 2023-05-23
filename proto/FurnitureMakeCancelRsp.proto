@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FurnitureMakeSlot.proto";
 // CmdId: 4835
+// Obf: FPKCHGPLJIJ
 message FurnitureMakeCancelRsp {
 	uint32 make_id = 12;
 	FurnitureMakeSlot furniture_make_slot = 6;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RogueDiaryAvatarDisableStatus.proto";
 import "ActivityDungeonAvatar.proto";
+// Obf: GAOKGMAAAOF
 message RogueDiaryAvatar {
 	uint32 tired_round = 1;
 	uint32 level = 6;

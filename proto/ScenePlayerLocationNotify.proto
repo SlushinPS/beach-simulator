@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerLocationInfo.proto";
 import "VehicleLocationInfo.proto";
 // CmdId: 221
+// Obf: BDEAGHFPELD
 message ScenePlayerLocationNotify {
 	repeated PlayerLocationInfo player_loc_list = 6;
 	repeated VehicleLocationInfo vehicle_loc_list = 9;

@@ -15,16 +15,19 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4605
+// Obf: NMHILDHPJFE
 message PlayerQuitFromHomeNotify {
+	// Obf: KPNJEBFIPEO
 	enum QuitReason {
-		Invalid = 0;
-		KickByHost = 1;
-		BackToMyWorld = 2;
-		HomeBlocked = 3;
-		HomeInEditMode = 4;
-		ByMuip = 5;
-		CurModuleClosed = 6;
+		INVALID = 0;
+		KICK_BY_HOST = 1;
+		BACK_TO_MY_WORLD = 2;
+		HOME_BLOCKED = 3;
+		HOME_IN_EDIT_MODE = 4;
+		BY_MUIP = 5;
+		CUR_MODULE_CLOSED = 6;
 	}
 	
 	QuitReason reason = 13;

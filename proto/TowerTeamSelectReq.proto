@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "TowerTeam.proto";
 // CmdId: 2448
+// Obf: EAILCMAJAMH
 message TowerTeamSelectReq {
 	repeated TowerTeam tower_team_list = 2;
 	uint32 floor_id = 6;

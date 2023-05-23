@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 23124
+// Obf: MFJJOHIPMMC
 message VintageMarketFinishStorePlayRsp {
 	uint32 store_round = 2;
-	repeated uint32 MFGNNDCEADP = 4;
-	uint32 HDBHCGKJJFJ = 15;
-	uint32 AFGIDDCKCJP = 9;
-	repeated uint32 MBPJKCLPEIE = 8;
-	repeated uint32 EENBAPAPCAE = 10;
+	repeated uint32 ANCAJOMMFCH = 4;
+	uint32 DOKMLEHIOEC = 15;
+	uint32 IIHEIILJCOF = 9;
+	repeated uint32 LMJAOBFADPK = 8;
+	repeated uint32 HLECFMJDPKN = 10;
 	map<uint32, uint32> store_income_map = 1;
-	uint32 DHMMLMJEFFJ = 14;
+	uint32 GNABNHELILJ = 14;
 	int32 retcode = 7;
-	uint32 CKIDBBCIMBP = 13;
+	uint32 KIEEJLCCNIE = 13;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ActivityAcceptGiftResultInfo.proto";
 // CmdId: 8947
+// Obf: NGOENBHPBMD
 message ActivityAcceptAllGiveGiftRsp {
 	repeated ActivityAcceptGiftResultInfo accept_gift_result_info_list = 4;
 	uint32 schedule_id = 13;

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "DPOLIKKKKLA.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "CustomGadgetTreeInfo.proto";
 // CmdId: 8104
+// Obf: HKKNDLNFJAH
 message PlantFlowerEditFlowerCombinationReq {
 	uint32 entity_id = 6;
-	DPOLIKKKKLA flower_combination_info = 13;
+	CustomGadgetTreeInfo flower_combination_info = 13;
 	uint32 schedule_id = 4;
 }

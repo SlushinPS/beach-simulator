@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 259
+// Obf: LEHIOMGFCLO
 message GetAreaExplorePointReq {
 	repeated uint32 area_id_list = 6;
 }

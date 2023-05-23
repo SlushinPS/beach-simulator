@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HomeBlueprintSlotInfo.proto";
 // CmdId: 4855
+// Obf: PGIEJDMDOCG
 message HomeCreateBlueprintRsp {
 	HomeBlueprintSlotInfo slot_info = 15;
 	int32 retcode = 5;

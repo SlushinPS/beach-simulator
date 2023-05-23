@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
 // CmdId: 975
+// Obf: AJKOHJOADJG
 message DungeonEntryInfoReq {
 	repeated Uint32Pair scene_point_id_list = 2;
 	uint32 scene_id = 10;

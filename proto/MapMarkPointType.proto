@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DBNNAIEGABK
 enum MapMarkPointType {
-	MapMarkPointType_Npc = 0;
-	MapMarkPointType_Quest = 1;
-	MapMarkPointType_Special = 2;
-	MapMarkPointType_Mine = 3;
-	MapMarkPointType_Collection = 4;
-	MapMarkPointType_Monster = 5;
-	MapMarkPointType_FishPool = 6;
+	MAP_MARK_POINT_TYPE_NPC = 0;
+	MAP_MARK_POINT_TYPE_QUEST = 1;
+	MAP_MARK_POINT_TYPE_SPECIAL = 2;
+	MAP_MARK_POINT_TYPE_MINE = 3;
+	MAP_MARK_POINT_TYPE_COLLECTION = 4;
+	MAP_MARK_POINT_TYPE_MONSTER = 5;
+	MAP_MARK_POINT_TYPE_FISH_POOL = 6;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Route.proto";
 // CmdId: 3166
+// Obf: BOHDJDBDKHO
 message AvatarFollowRouteNotify {
 	Route route = 4;
 	uint32 template_id = 13;

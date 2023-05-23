@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PotionAvatarInfo.proto";
 // CmdId: 8252
+// Obf: CKFAMHGNPMK
 message PotionEnterDungeonReq {
 	repeated uint32 buff_id_list = 3;
 	uint32 mode_id = 2;

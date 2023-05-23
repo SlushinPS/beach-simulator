@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "WorldRoutineInfo.proto";
+// Obf: LAHMCGNKJKL
 message WorldRoutineTypeInfo {
 	repeated WorldRoutineInfo world_routine_info_list = 5;
 	uint32 next_refresh_time = 4;

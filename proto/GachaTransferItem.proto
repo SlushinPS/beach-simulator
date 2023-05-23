@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
+// Obf: KDBPCHGCLDM
 message GachaTransferItem {
 	ItemParam item = 1;
 	bool is_transfer_item_new = 12;

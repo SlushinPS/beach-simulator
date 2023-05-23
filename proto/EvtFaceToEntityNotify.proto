@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ForwardType.proto";
 // CmdId: 358
+// Obf: EFLEDIMNPED
 message EvtFaceToEntityNotify {
 	uint32 face_entity_id = 7;
 	ForwardType forward_type = 3;

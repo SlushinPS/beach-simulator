@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 428
+// Obf: DFKPLKPAEJP
 message QuestProgressUpdateNotify {
 	uint32 quest_id = 11;
 	repeated uint32 finish_progress_list = 1;

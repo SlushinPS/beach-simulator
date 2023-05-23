@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "DDGMCLMGAEB.proto";
-import "PLCFJBMLEGG.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "TowerMonthlyCombatRecord.proto";
+import "TowerMonthlyBrief.proto";
+// Obf: EGHIMFAFPDO
 message TowerMonthlyDetail {
-	DDGMCLMGAEB GNNBGGCJEGL = 8;
-	PLCFJBMLEGG OGJDPHKBCFN = 12;
+	TowerMonthlyCombatRecord monthly_combat_record = 8;
+	TowerMonthlyBrief last_schedule_monthly_brief = 12;
 }

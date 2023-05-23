@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4998
+// Obf: IKHNPDPBFIG
 message PullPrivateChatReq {
 	uint32 target_uid = 12;
-	uint32 MAOLHGABAAF = 8;
-	uint32 KKIEADODDCN = 11;
+	uint32 from_sequence = 8;
+	uint32 pull_num = 11;
 }

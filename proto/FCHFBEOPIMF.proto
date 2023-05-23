@@ -15,16 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HBODHIGLEAG.proto";
 message FCHFBEOPIMF {
-	uint32 HKKMNEJJELL = 15;
-	repeated uint32 NKGADJFNOIF = 12;
-	uint32 AFIEPOGOMEC = 2;
-	uint32 AJPBFGFIFPE = 4;
-	uint32 JLKAOJOPMML = 3;
-	uint32 KIAPNPKIIDL = 11;
+	uint32 NHINFPNBLIC = 15;
+	repeated uint32 LAMMFAEALFK = 12;
+	uint32 NADGHKFBDNH = 2;
+	uint32 KCCBFIHNCMB = 4;
+	uint32 ODDNIBJNAJH = 3;
+	uint32 IIDKAEEDPPF = 11;
 	uint32 schedule_id = 7;
-	HBODHIGLEAG AHPGONHNFMP = 8;
-	uint32 IJDAOOKAMPD = 1;
-	bool MKNIJCMMKOG = 6;
+	HBODHIGLEAG KGOCPHHPNNP = 8;
+	uint32 NJCCFBPCAPG = 1;
+	bool AEEFHDHCBNH = 6;
 }

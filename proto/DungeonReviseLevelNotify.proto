@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 915
+// Obf: DPHJKPDLJME
 message DungeonReviseLevelNotify {
-	uint32 CAHDJEIFEBJ = 2;
+	uint32 LPEGNBKLNPD = 2;
 	uint32 dungeon_id = 11;
-	uint32 GHIKNKHKBLL = 10;
+	uint32 MAGJOJOBHEK = 10;
 }

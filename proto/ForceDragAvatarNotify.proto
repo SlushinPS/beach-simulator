@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MotionInfo.proto";
 // CmdId: 3041
+// Obf: DMJCEGMGLPO
 message ForceDragAvatarNotify {
 	bool is_first_valid = 5;
 	uint32 entity_id = 9;
-	uint64 MNKMHCBMKJF = 6;
-	uint64 MDHEGNIPPCF = 10;
+	uint64 LFMPHLPNICH = 6;
+	uint64 GCPALFFBPPJ = 10;
 	MotionInfo motion_info = 1;
 	uint32 scene_time = 12;
 }

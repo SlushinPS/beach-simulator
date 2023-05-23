@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AnchorPointData.proto";
 // CmdId: 4278
+// Obf: DJJCABFFFAL
 message AnchorPointDataNotify {
 	uint32 next_usable_time = 6;
 	repeated AnchorPointData anchor_point_list = 14;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SumoTeamData.proto";
 // CmdId: 8398
+// Obf: GKFBEOGAOME
 message SumoSelectTeamAndEnterDungeonRsp {
 	repeated SumoTeamData team_list = 13;
 	uint32 activity_id = 9;

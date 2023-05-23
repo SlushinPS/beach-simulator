@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1609
+// Obf: FNOGALIBLFO
 message DelBackupAvatarTeamReq {
 	uint32 backup_avatar_team_id = 12;
 }

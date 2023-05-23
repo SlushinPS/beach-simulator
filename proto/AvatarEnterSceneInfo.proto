@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ServerBuff.proto";
 import "AbilitySyncStateInfo.proto";
+// Obf: BIMCKGCPDOF
 message AvatarEnterSceneInfo {
 	repeated ServerBuff server_buff_list = 7;
 	AbilitySyncStateInfo avatar_ability_info = 1;

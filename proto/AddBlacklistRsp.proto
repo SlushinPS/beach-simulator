@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FriendBrief.proto";
 // CmdId: 4005
+// Obf: HJIPHKBMIEL
 message AddBlacklistRsp {
 	FriendBrief target_friend_brief = 9;
 	int32 retcode = 10;

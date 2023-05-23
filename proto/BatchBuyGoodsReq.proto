@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BuyGoodsParam.proto";
 // CmdId: 787
+// Obf: FFMEADKDEAL
 message BatchBuyGoodsReq {
 	uint32 shop_type = 10;
 	repeated BuyGoodsParam buy_goods_list = 5;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5808
+// Obf: JNAKALJCBCJ
 message EnterFishingRsp {
 	uint32 fish_pool_id = 3;
 	int32 retcode = 10;

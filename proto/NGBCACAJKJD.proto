@@ -15,8 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 9252
 message NGBCACAJKJD {
-	repeated uint64 DMEBGELKOID = 10;
+	repeated uint64 CLNIDIKKFDP = 10;
 	uint64 cur_avatar_guid = 4;
 }

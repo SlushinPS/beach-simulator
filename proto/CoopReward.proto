@@ -15,11 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: BINNDDAEFHM
 message CoopReward {
+	// Obf: POAEGMCBHPM
 	enum State {
-		Unlock = 0;
-		Lock = 1;
-		Taken = 2;
+		STATE_UNLOCK = 0;
+		STATE_LOCK = 1;
+		STATE_TAKEN = 2;
 	}
 	
 	uint32 id = 8;

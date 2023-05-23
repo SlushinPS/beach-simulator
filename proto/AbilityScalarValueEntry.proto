@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AbilityString.proto";
 import "AbilityScalarType.proto";
+// Obf: ELHFFNHJCPD
 message AbilityScalarValueEntry {
 	AbilityString key = 1;
 	AbilityScalarType value_type = 2;

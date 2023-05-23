@@ -15,8 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ANAEEOOIDJJ.proto";
 // CmdId: 9187
 message ABLHNPJOCEC {
-	repeated ANAEEOOIDJJ LJEHEKKGODL = 12;
+	repeated ANAEEOOIDJJ AIGMBCCNEEO = 12;
 }

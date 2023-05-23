@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FurnitureMakeBeHelpedData.proto";
 import "FurnitureMakeMakeInfo.proto";
 import "FurnitureMakeSlot.proto";
 import "FurnitureMakeHelpData.proto";
 // CmdId: 4616
+// Obf: PLCFIGAOPOG
 message FurnitureMakeRsp {
 	int32 retcode = 5;
 	repeated FurnitureMakeBeHelpedData helped_data_list = 1;

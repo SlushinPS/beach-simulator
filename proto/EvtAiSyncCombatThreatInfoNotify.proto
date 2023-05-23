@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AiThreatInfo.proto";
 // CmdId: 377
+// Obf: HCMBENCEGEP
 message EvtAiSyncCombatThreatInfoNotify {
 	map<uint32, AiThreatInfo> combat_threat_info_map = 14;
 }

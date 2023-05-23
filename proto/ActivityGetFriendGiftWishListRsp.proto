@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ActivityFriendGiftWishData.proto";
 // CmdId: 8682
+// Obf: OPACLPPNNFM
 message ActivityGetFriendGiftWishListRsp {
 	uint32 schedule_id = 5;
 	repeated ActivityFriendGiftWishData friend_gift_wish_list = 3;

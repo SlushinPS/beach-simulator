@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 9248
 message EMPCLMJBHKF {
 	repeated uint32 tag_list = 14;
-	bool LLFMFALNBBA = 9;
+	bool DNOFGBKGANP = 9;
 	uint64 guid = 5;
 }

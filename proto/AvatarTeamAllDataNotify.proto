@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AvatarTeam.proto";
 // CmdId: 1702
+// Obf: FEKFDJEAMMK
 message AvatarTeamAllDataNotify {
 	map<uint32, AvatarTeam> avatar_team_map = 4;
 	repeated uint32 backup_avatar_team_order_list = 1;

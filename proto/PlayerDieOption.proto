@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DOMJGLDFCKC
 enum PlayerDieOption {
-	PlayerDieOption_DieOptNone = 0;
-	PlayerDieOption_DieOptReplay = 1;
-	PlayerDieOption_DieOptCancel = 2;
-	PlayerDieOption_DieOptRevive = 3;
+	DIE_OPT_NONE = 0;
+	DIE_OPT_REPLAY = 1;
+	DIE_OPT_CANCEL = 2;
+	DIE_OPT_REVIVE = 3;
 }

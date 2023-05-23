@@ -15,8 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 23247
 message GCDGOKAMHHE {
 	uint32 level_id = 4;
-	uint32 PCHCDPKNDEM = 2;
+	uint32 DGGIBKBJLJD = 2;
 }

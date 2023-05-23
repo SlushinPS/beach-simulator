@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "WIDGET_EXTRA_CD_TYPE.proto";
 // CmdId: 5977
+// Obf: AEGIILILAJA
 message WidgetUpdateExtraCDReq {
 	uint32 cd_group = 10;
 	uint32 material_id = 13;

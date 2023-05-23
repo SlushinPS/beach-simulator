@@ -15,21 +15,23 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "OBEGIEJOPKH.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "ChapterState.proto";
 // CmdId: 416
+// Obf: CLNHLPJKIHO
 message ChapterStateNotify {
 	message NNBEJPGCIMD {
-		bool ELEILJHBMPJ = 8;
-		uint32 HACEFPOMGGG = 1;
+		bool is_limit = 8;
+		uint32 configNeedPlayerLevel = 1;
 	}
 	
 	message HDPCHNPCKLP {
-		uint32 MGPHHJJKLEJ = 4;
-		bool ELEILJHBMPJ = 7;
+		uint32 configNeedBeginTime = 4;
+		bool is_limit = 7;
 	}
 	
 	uint32 chapter_id = 9;
-	HDPCHNPCKLP PBMFCLIBDKM = 13;
-	NNBEJPGCIMD GOBGLJNJFPI = 1;
-	OBEGIEJOPKH KFNAPELKEBL = 14;
+	HDPCHNPCKLP need_begin_time = 13;
+	NNBEJPGCIMD need_player_level = 1;
+	ChapterState chapter_state = 14;
 }

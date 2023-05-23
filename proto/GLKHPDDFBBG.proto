@@ -15,11 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "NKHEPECBCNL.proto";
 // CmdId: 7197
 message GLKHPDDFBBG {
-	repeated NKHEPECBCNL OIAMBMAJBKI = 2;
-	repeated uint32 LBFAKIIMJIP = 12;
-	repeated uint32 DAANPDOIOMM = 1;
+	repeated NKHEPECBCNL MFHEBFOOJPA = 2;
+	repeated uint32 GMHKHJAFLOD = 12;
+	repeated uint32 MBAOAOLMNAO = 1;
 	int32 retcode = 7;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HuntingPair.proto";
 import "Vector.proto";
 // CmdId: 4325
+// Obf: IMJOCNPLONH
 message HuntingStartNotify {
 	HuntingPair hunting_pair = 5;
 	Vector clue_position = 14;

@@ -15,15 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MatchType.proto";
 // CmdId: 4153
+// Obf: JFBDENGHLJN
 message PlayerMatchAgreedResultNotify {
+	// Obf: EGGMLHKLMHE
 	enum Reason {
-		Succ = 0;
-		TargetSceneCannotEnter = 1;
-		SelfMpUnavailable = 2;
-		OtherDataVersionNotLatest = 3;
-		DataVersionNotLatest = 4;
+		SUCC = 0;
+		TARGET_SCENE_CANNOT_ENTER = 1;
+		SELF_MP_UNAVAILABLE = 2;
+		OTHER_DATA_VERSION_NOT_LATEST = 3;
+		DATA_VERSION_NOT_LATEST = 4;
 	}
 	
 	Reason reason = 7;

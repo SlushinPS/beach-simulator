@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PEEDNDFPNGH.proto";
-import "DDGDNMGNCHP.proto";
-import "ENDEIFONKBK.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "GameplayRecommendationSkillResponse.proto";
+import "GameplayRecommendationReliquaryResponse.proto";
+import "GameplayRecommendationElementReliquaryResponse.proto";
 // CmdId: 150
+// Obf: MJABCIDLGDE
 message GetGameplayRecommendationRsp {
 	uint32 avatar_id = 4;
 	int32 retcode = 15;
 	oneof detail {
-		PEEDNDFPNGH HOPOPPHIPJL = 516;
-		DDGDNMGNCHP OOLEBEADKFM = 731;
-		ENDEIFONKBK NIEPKAFBAMH = 1452;
+		GameplayRecommendationSkillResponse skill_response = 516;
+		GameplayRecommendationReliquaryResponse reliquary_response = 731;
+		GameplayRecommendationElementReliquaryResponse element_reliquary_response = 1452;
 	}
 }

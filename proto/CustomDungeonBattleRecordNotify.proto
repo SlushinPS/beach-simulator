@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 6206
+// Obf: PCKJHFGCBJH
 message CustomDungeonBattleRecordNotify {
 	uint64 dungeon_guid = 14;
 	uint32 min_cost_time = 10;

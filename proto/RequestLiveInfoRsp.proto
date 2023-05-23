@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 820
+// Obf: CLLFLMHOGKP
 message RequestLiveInfoRsp {
 	uint32 live_id = 8;
-	string LFKFNMCKMKA = 9;
+	string PAFOMEAMGAE = 9;
 	int32 retcode = 15;
-	string ECMCPKKFEMP = 5;
+	string BNPEFIPPCML = 5;
 }

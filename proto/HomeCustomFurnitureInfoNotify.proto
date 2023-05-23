@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HomeCustomFurnitureInfo.proto";
 // CmdId: 4603
+// Obf: CNGCFPJKOJB
 message HomeCustomFurnitureInfoNotify {
 	map<uint32, uint32> used_sub_furniture_count_map = 15;
 	repeated uint32 delete_custom_furniture_list = 12;

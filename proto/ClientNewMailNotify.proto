@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1430
+// Obf: BEBABNFCJIO
 message ClientNewMailNotify {
-	uint32 OCMPBAEIDOC = 2;
-	uint32 FBBDFOFJCPM = 6;
-	bool AABECKMMEAC = 14;
+	uint32 CDIKCAIGHAE = 2;
+	uint32 KJEEEDPFMFE = 6;
+	bool IGMALOKLIPP = 14;
 }

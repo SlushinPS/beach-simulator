@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 2392
+// Obf: KAGKJLCDJLG
 message GMShowNavMeshReq {
 	int32 uid = 14;
 	Vector center = 9;
-	Vector NNOGFPEOELF = 11;
+	Vector JAPOGDGLJCJ = 11;
 }

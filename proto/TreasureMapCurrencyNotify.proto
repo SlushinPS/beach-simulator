@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2060
+// Obf: KLFPMMBEBEB
 message TreasureMapCurrencyNotify {
 	uint32 currency_num = 2;
 }

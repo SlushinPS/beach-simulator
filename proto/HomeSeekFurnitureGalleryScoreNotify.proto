@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HomeSeekFurnitureOneRecord.proto";
-import "GalleryStopReason.proto";
+import "HDDANIDHCMI.proto";
 // CmdId: 4749
+// Obf: MDCJGGFAKAN
 message HomeSeekFurnitureGalleryScoreNotify {
 	HomeSeekFurnitureOneRecord record = 8;
-	GalleryStopReason reason = 9;
+	HDDANIDHCMI reason = 9;
 	uint32 gallery_id = 6;
 }

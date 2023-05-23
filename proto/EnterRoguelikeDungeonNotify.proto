@@ -15,24 +15,26 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RoguelikeRuneRecord.proto";
 import "RogueCellInfo.proto";
 // CmdId: 8640
+// Obf: PGBKCEDCEGI
 message EnterRoguelikeDungeonNotify {
 	repeated uint32 explored_cell_list = 5;
-	uint32 ABAOJFBMJOM = 11;
+	uint32 cur_level = 11;
 	uint32 dungeon_id = 2;
-	uint32 BBONAICKKDM = 13;
-	bool KEJOKMCAPPB = 12;
+	uint32 LNEJIPCIGOO = 13;
+	bool JHLPIOFEDAD = 12;
 	float bonus_resource_prop = 1;
 	repeated uint64 onstage_avatar_guid_list = 8;
 	repeated uint64 backstage_avatar_guid_list = 6;
-	uint32 BHLICLADDAD = 7;
-	uint32 DLKDIGDEGDL = 9;
+	uint32 KIBFJILCILM = 7;
+	uint32 GHDDAGDGNPG = 9;
 	repeated RoguelikeRuneRecord rune_record_list = 3;
 	uint32 stage_id = 15;
-	bool AIICCPALMNB = 1338;
-	uint32 NMIHADFFHAM = 411;
-	uint32 NPLPEPJLHNF = 1893;
+	bool GFBOHLKFHPI = 1338;
+	uint32 OFFGNAKCEPJ = 411;
+	uint32 GPEONPALIFA = 1893;
 	map<uint32, RogueCellInfo> cell_info_map = 10;
 }

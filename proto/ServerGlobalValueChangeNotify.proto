@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1134
+// Obf: IDCHIBLPNFI
 message ServerGlobalValueChangeNotify {
 	uint32 entity_id = 6;
 	uint32 key_hash = 3;

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "DPOLIKKKKLA.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "CustomGadgetTreeInfo.proto";
 // CmdId: 842
+// Obf: JCECAPKAIAG
 message GadgetCustomTreeInfoNotify {
-	DPOLIKKKKLA custom_gadget_tree_info = 4;
+	CustomGadgetTreeInfo custom_gadget_tree_info = 4;
 	uint32 gadget_entity_id = 2;
 }

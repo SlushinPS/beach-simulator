@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 131
+// Obf: NMDDJJCDOPG
 message OpenStateUpdateNotify {
 	map<uint32, uint32> open_state_map = 1;
 }

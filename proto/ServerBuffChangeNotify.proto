@@ -15,12 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ServerBuff.proto";
 // CmdId: 323
+// Obf: LACOIJCBPHJ
 message ServerBuffChangeNotify {
+	// Obf: OKJGNGFMJGH
 	enum ServerBuffChangeType {
-		AddServerBuff = 0;
-		DelServerBuff = 1;
+		SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF = 0;
+		SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF = 1;
 	}
 	
 	repeated ServerBuff server_buff_list = 5;

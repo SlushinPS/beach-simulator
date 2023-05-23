@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2049
+// Obf: OKAMLPHOFID
 message ExpeditionStartRsp {
 	int32 retcode = 3;
-	uint32 AEJMBLPJEML = 9;
+	uint32 FLHKBCEIKLE = 9;
 	repeated uint32 avatar_id_list = 8;
-	uint32 HGNDDCKBPAB = 6;
+	uint32 MFNGJOCIAPE = 6;
 	uint32 path_id = 1;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: CEAPGMBAHFJ
 enum FriendEnterHomeOption {
-	FriendEnterHomeOption_NeedConfirm = 0;
-	FriendEnterHomeOption_Refuse = 1;
-	FriendEnterHomeOption_Direct = 2;
+	FRIEND_ENTER_HOME_OPTION_NEED_CONFIRM = 0;
+	FRIEND_ENTER_HOME_OPTION_REFUSE = 1;
+	FRIEND_ENTER_HOME_OPTION_DIRECT = 2;
 }

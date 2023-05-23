@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: HIFDGGNOKNC
 message Vector3Int {
 	int32 x = 1;
 	int32 y = 2;

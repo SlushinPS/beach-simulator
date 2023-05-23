@@ -15,20 +15,22 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ReunionPrivilegeInfo.proto";
 import "LNCJHILJOBA.proto";
+// Obf: BEMBBGJJLHH
 message ReunionBriefInfo {
 	uint32 first_day_start_time = 9;
 	uint32 finish_time = 15;
 	uint32 start_time = 14;
-	bool COIKEJKIBFF = 4;
+	bool PHFGHHKNPCJ = 4;
 	uint32 sign_in_config_id = 2;
 	ReunionPrivilegeInfo privilege_info = 7;
-	uint32 first_gift_reward_id = 8;
+	uint32 OCNMNFKHAEH = 8;
 	string version = 10;
-	repeated LNCJHILJOBA MNLGJMAAMKH = 6;
+	repeated LNCJHILJOBA HJNFOKADAEN = 6;
 	uint32 privilege_id = 3;
-	bool BKCLMIPBOEB = 5;
+	bool CJKNNLMFNAH = 5;
 	uint32 mission_id = 11;
-	bool DMEEPDALHAJ = 13;
+	bool JFFIEEJGKBG = 13;
 }

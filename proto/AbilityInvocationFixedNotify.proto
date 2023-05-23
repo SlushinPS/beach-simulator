@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AbilityInvokeEntry.proto";
 // CmdId: 1175
+// Obf: BPBEBFMHGNL
 message AbilityInvocationFixedNotify {
-	AbilityInvokeEntry GHCGHBKJGBK = 13;
-	AbilityInvokeEntry OFNDMJPIPMB = 2;
-	AbilityInvokeEntry PLFGBMKBEJI = 12;
-	AbilityInvokeEntry BGNJKBCJBBF = 11;
-	AbilityInvokeEntry MKDGEDJJPNE = 15;
-	AbilityInvokeEntry JJBEJHNPBHF = 3;
+	AbilityInvokeEntry DLABNBJEFGF = 13;
+	AbilityInvokeEntry PIBKJHBGEHJ = 2;
+	AbilityInvokeEntry EINJCADCDFP = 12;
+	AbilityInvokeEntry DDLBMHEONMO = 11;
+	AbilityInvokeEntry KHNKKDJIDIF = 15;
+	AbilityInvokeEntry LGLHDKBGJDB = 3;
 }

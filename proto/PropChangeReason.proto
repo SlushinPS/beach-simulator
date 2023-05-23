@@ -15,19 +15,21 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: PGCOKALJOJB
 enum PropChangeReason {
-	PropChangeReason_PropChangeNone = 0;
-	PropChangeReason_PropChangeStatueRecover = 1;
-	PropChangeReason_PropChangeEnergyBall = 2;
-	PropChangeReason_PropChangeAbility = 3;
-	PropChangeReason_PropChangeLevelup = 4;
-	PropChangeReason_PropChangeItem = 5;
-	PropChangeReason_PropChangeAvatarCard = 6;
-	PropChangeReason_PropChangeCityLevelup = 7;
-	PropChangeReason_PropChangeAvatarUpgrade = 8;
-	PropChangeReason_PropChangeAvatarPromote = 9;
-	PropChangeReason_PropChangePlayerAddExp = 10;
-	PropChangeReason_PropChangeFinishQuest = 11;
-	PropChangeReason_PropChangeGm = 12;
-	PropChangeReason_PropChangeManualAdjustWorldLevel = 13;
+	PROP_CHANGE_REASON_NONE = 0;
+	PROP_CHANGE_REASON_STATUE_RECOVER = 1;
+	PROP_CHANGE_REASON_ENERGY_BALL = 2;
+	PROP_CHANGE_REASON_ABILITY = 3;
+	PROP_CHANGE_REASON_LEVELUP = 4;
+	PROP_CHANGE_REASON_ITEM = 5;
+	PROP_CHANGE_REASON_AVATAR_CARD = 6;
+	PROP_CHANGE_REASON_CITY_LEVELUP = 7;
+	PROP_CHANGE_REASON_AVATAR_UPGRADE = 8;
+	PROP_CHANGE_REASON_AVATAR_PROMOTE = 9;
+	PROP_CHANGE_REASON_PLAYER_ADD_EXP = 10;
+	PROP_CHANGE_REASON_FINISH_QUEST = 11;
+	PROP_CHANGE_REASON_GM = 12;
+	PROP_CHANGE_REASON_MANUAL_ADJUST_WORLD_LEVEL = 13;
 }

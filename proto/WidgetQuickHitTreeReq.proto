@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HitTreeInfo.proto";
 // CmdId: 3415
+// Obf: AIBJEFDNHIE
 message WidgetQuickHitTreeReq {
 	repeated HitTreeInfo hit_tree_info_list = 1;
 }

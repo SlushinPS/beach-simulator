@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HuntingPair.proto";
 import "Vector.proto";
 // CmdId: 4323
+// Obf: HCLMOEJPDHJ
 message HuntingRevealFinalNotify {
 	HuntingPair hunting_pair = 13;
 	uint32 finished_group_id = 5;

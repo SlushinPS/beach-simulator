@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 642
+// Obf: KGCIHOMNDOG
 message DropHintNotify {
 	repeated uint32 item_id_list = 10;
 	Vector position = 7;

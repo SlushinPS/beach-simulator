@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
+// Obf: BABKLIDHCGJ
 message PlantFlowerFriendFlowerWishData {
 	uint32 uid = 1;
 	string nickname = 3;

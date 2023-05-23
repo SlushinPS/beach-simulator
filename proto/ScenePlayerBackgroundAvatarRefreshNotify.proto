@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SceneEntityInfo.proto";
 import "VisionType.proto";
 // CmdId: 3293
+// Obf: CPLHMKMEOPO
 message ScenePlayerBackgroundAvatarRefreshNotify {
 	uint32 param = 13;
 	repeated SceneEntityInfo entity_list = 6;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4720
+// Obf: LHIGOHOBNNI
 message HomePlantWeedReq {
 	uint32 index = 15;
 	uint32 field_guid = 3;

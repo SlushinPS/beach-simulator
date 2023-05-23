@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4056
+// Obf: HBEKAMKKEKB
 message UpdatePlayerShowAvatarListRsp {
 	repeated uint32 show_avatar_id_list = 3;
 	bool is_show_avatar = 13;

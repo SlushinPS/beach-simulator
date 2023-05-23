@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2118
+// Obf: DKNNFAMBGMH
 message SeaLampTakeContributionRewardReq {
 	uint32 config_id = 13;
 	uint32 activity_id = 3;

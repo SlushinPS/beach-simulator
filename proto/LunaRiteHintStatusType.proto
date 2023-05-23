@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: GELHLMJFAGP
 enum LunaRiteHintStatusType {
-	LunaRiteHintStatusType_LunaRiteHintStatusDefault = 0;
-	LunaRiteHintStatusType_LunaRiteHintStatusNoCount = 1;
-	LunaRiteHintStatusType_LunaRiteHintStatusFinish = 2;
+	LUNA_RITE_HINT_STATUS_DEFAULT = 0;
+	LUNA_RITE_HINT_STATUS_NO_COUNT = 1;
+	LUNA_RITE_HINT_STATUS_FINISH = 2;
 }

@@ -15,17 +15,20 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 3498
+// Obf: JDBEKOOGEOP
 message BeginCameraSceneLookWithTemplateNotify {
+	// Obf: MEFIHAJOIGJ
 	enum FollowType {
-		InitFollowPos = 0;
-		SetFollowPos = 1;
-		SetAbsFollowPos = 2;
+		FOLLOW_TYPE_INIT_FOLLOW_POS = 0;
+		FOLLOW_TYPE_SET_FOLLOW_POS = 1;
+		FOLLOW_TYPE_SET_ABS_FOLLOW_POS = 2;
 	}
 	
-	Vector CJNAAACNIGL = 13;
-	Vector MCBKKMABEKK = 15;
+	Vector LKECKPKNOIP = 13;
+	Vector OKIEEACHAID = 15;
 	FollowType follow_type = 5;
 	uint32 template_id = 10;
 	uint32 entity_id = 3;

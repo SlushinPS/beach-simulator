@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: KOJNFAKDGFL
 message ReunionPrivilegeInfo {
-	uint32 AMFAFBDMDOO = 6;
-	uint32 HDMLCPFAJPL = 12;
+	uint32 EDBAKLDPAAD = 6;
+	uint32 NJGIJJIJGCJ = 12;
 	uint32 privilege_id = 9;
 }

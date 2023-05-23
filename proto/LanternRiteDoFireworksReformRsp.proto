@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LanternRiteFireworksReformFactorInfo.proto";
 // CmdId: 8256
+// Obf: DPEEGFLDCAM
 message LanternRiteDoFireworksReformRsp {
-	uint32 LKILFDDDJMC = 10;
+	uint32 JGLNDBHIAPK = 10;
 	bool is_lucky = 6;
-	uint32 OMBOALEMHHF = 11;
+	uint32 MBEGNNPJAPL = 11;
 	int32 retcode = 5;
-	uint32 IIILFHHJFHC = 3;
-	uint32 NELDFIEAIBI = 15;
+	uint32 DKBBJDIMJPB = 3;
+	uint32 FCGOPINPKBP = 15;
 	uint32 challenge_id = 14;
 	repeated LanternRiteFireworksReformFactorInfo factor_info_list = 2;
 	uint32 stage_id = 12;

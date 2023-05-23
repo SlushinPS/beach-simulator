@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ParentQuest.proto";
 // CmdId: 472
+// Obf: ABDJGNCFLAJ
 message FinishedParentQuestNotify {
 	repeated ParentQuest parent_quest_list = 8;
 }

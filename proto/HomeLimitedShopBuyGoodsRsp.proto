@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HomeLimitedShopGoods.proto";
 // CmdId: 4703
+// Obf: ANKOBLDAIFN
 message HomeLimitedShopBuyGoodsRsp {
 	uint32 buy_count = 5;
 	int32 retcode = 9;

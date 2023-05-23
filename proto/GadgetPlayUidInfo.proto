@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
+// Obf: IOGPELBDBOE
 message GadgetPlayUidInfo {
 	ProfilePicture profile_picture = 6;
 	string online_id = 9;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "EquipParam.proto";
 import "MaterialDeleteInfo.proto";
+// Obf: MBAJGGFCGGC
 message MailItem {
 	EquipParam equip_param = 1;
 	MaterialDeleteInfo delete_info = 2;

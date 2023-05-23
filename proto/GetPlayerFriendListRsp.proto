@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FriendBrief.proto";
 // CmdId: 4096
+// Obf: LGFNGPBLDEI
 message GetPlayerFriendListRsp {
 	int32 retcode = 2;
 	repeated FriendBrief friend_list = 3;

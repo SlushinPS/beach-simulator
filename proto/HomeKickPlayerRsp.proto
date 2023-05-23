@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4665
+// Obf: IDENJPLKJKG
 message HomeKickPlayerRsp {
 	int32 retcode = 10;
 	uint32 target_uid = 14;

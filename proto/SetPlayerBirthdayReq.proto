@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Birthday.proto";
 // CmdId: 4021
+// Obf: HFNNKNIKDGD
 message SetPlayerBirthdayReq {
 	Birthday birthday = 8;
 }

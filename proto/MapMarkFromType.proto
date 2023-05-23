@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: PNMEOLJPFCC
 enum MapMarkFromType {
-	MapMarkFromType_Noe = 0;
-	MapMarkFromType_Monster = 1;
-	MapMarkFromType_Quest = 2;
+	MAP_MARK_FROM_TYPE_NONE = 0;
+	MAP_MARK_FROM_TYPE_MONSTER = 1;
+	MAP_MARK_FROM_TYPE_QUEST = 2;
 }

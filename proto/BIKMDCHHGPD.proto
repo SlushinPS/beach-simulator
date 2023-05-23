@@ -15,16 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LABBALOFHKB.proto";
 import "OnlinePlayerInfo.proto";
 import "NBIEKBPFODB.proto";
 // CmdId: 7201
 message BIKMDCHHGPD {
-	uint32 IIHDIPEKHDD = 5;
-	uint32 BNFKLKIBMMI = 3;
-	repeated uint32 ILCHNKBEGIG = 12;
-	LABBALOFHKB EINNHJPNMNK = 11;
+	uint32 OPGBGHPHELB = 5;
+	uint32 NDHPNMJJGHE = 3;
+	repeated uint32 KIIPBHAMDEJ = 12;
+	LABBALOFHKB LNPHMHEEEOL = 11;
 	repeated OnlinePlayerInfo player_info_list = 9;
-	NBIEKBPFODB ECNGEAIKNON = 1;
+	NBIEKBPFODB DGFIHPJJGEF = 1;
 	uint32 match_id = 2;
 }

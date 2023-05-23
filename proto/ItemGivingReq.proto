@@ -15,12 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 // CmdId: 197
+// Obf: DFPNDCEELAF
 message ItemGivingReq {
+	// Obf: MAEJHBECLNL
 	enum ItemGivingType {
-		Quest = 0;
-		Gadget = 1;
+		QUEST = 0;
+		GADGET = 1;
 	}
 	
 	map<uint64, uint32> item_guid_count_map = 6;

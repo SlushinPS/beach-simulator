@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 596
+// Obf: OAFFPIJPBBM
 message NpcTalkRsp {
 	uint32 entity_id = 15;
 	uint32 cur_talk_id = 1;

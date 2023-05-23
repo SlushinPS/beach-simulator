@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: GIJOJHBPCLK
 enum BattlePassUnlockStatus {
-	BattlePassUnlockStatus_BattlePassUnlockInvalid = 0;
-	BattlePassUnlockStatus_BattlePassUnlockFree = 1;
-	BattlePassUnlockStatus_BattlePassUnlockPaid = 2;
+	BATTLE_PASS_UNLOCK_STATUS_INVALID = 0;
+	BATTLE_PASS_UNLOCK_STATUS_FREE = 1;
+	BATTLE_PASS_UNLOCK_STATUS_PAID = 2;
 }

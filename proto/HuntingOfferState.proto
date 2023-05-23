@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: NAEFMCHLNCK
 enum HuntingOfferState {
-	HuntingOfferState_None = 0;
-	HuntingOfferState_Started = 1;
-	HuntingOfferState_Unstarted = 2;
-	HuntingOfferState_Succ = 3;
+	HUNTING_OFFER_STATE_NONE = 0;
+	HUNTING_OFFER_STATE_STARTED = 1;
+	HUNTING_OFFER_STATE_UNSTARTED = 2;
+	HUNTING_OFFER_STATE_SUCC = 3;
 }

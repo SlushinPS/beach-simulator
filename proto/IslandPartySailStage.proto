@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: CMBIHEEBLBL
 enum IslandPartySailStage {
-	IslandPartySailStage_None = 0;
-	IslandPartySailStage_Sail = 1;
-	IslandPartySailStage_Battle = 2;
+	ISLAND_PARTY_SAIL_STAGE_NONE = 0;
+	ISLAND_PARTY_SAIL_STAGE_SAIL = 1;
+	ISLAND_PARTY_SAIL_STAGE_BATTLE = 2;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "TeamEntityInfo.proto";
 // CmdId: 318
+// Obf: CDDMEPKMFHF
 message SyncTeamEntityNotify {
 	repeated TeamEntityInfo team_entity_info_list = 2;
 	uint32 scene_id = 13;

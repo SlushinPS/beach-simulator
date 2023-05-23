@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LunchBoxData.proto";
 // CmdId: 4273
+// Obf: MKLJPIPDEHJ
 message SetUpLunchBoxWidgetRsp {
 	LunchBoxData lunch_box_data = 2;
 	int32 retcode = 9;

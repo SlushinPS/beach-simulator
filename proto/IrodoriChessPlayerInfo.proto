@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: MGCABBFFCLE
 message IrodoriChessPlayerInfo {
 	uint32 uid = 7;
-	uint32 AELEAICMGCM = 2;
-	uint32 EHNHMMKALJE = 3;
+	uint32 GPBHPHDEJLI = 2;
+	uint32 DHOCBFFKAEN = 3;
 }

@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: LPPGEMGIIIC
 message LockedPersonallineData {
-	enum LockReason {
-		Level = 0;
-		Quest = 1;
+	enum JEMKDFPLHKI {
+		JEMKDFPLHKI_Level = 0;
+		JEMKDFPLHKI_Quest = 1;
 	}
 	
 	message MKKLIJOGAKA {
@@ -26,11 +28,11 @@ message LockedPersonallineData {
 		uint32 chapter_id = 3;
 	}
 	
-	LockReason lock_reason = 13;
+	JEMKDFPLHKI lock_reason = 13;
 	uint32 personal_line_id = 14;
-	oneof MNHOBCJCBKK {
-		uint32 LOKAHBIPGED = 6;
-		uint32 PFONMIFJKNB = 7;
+	oneof param {
+		uint32 chapter_id = 6;
+		uint32 level = 7;
 		MKKLIJOGAKA LIDHDAOKHIH = 1;
 	}
 }

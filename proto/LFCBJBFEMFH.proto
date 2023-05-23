@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LGADMDJLBFE.proto";
 // CmdId: 9300
 message LFCBJBFEMFH {
-	repeated LGADMDJLBFE OONPDFBGKKC = 8;
-	repeated uint64 FEGDLONMIJB = 11;
+	repeated LGADMDJLBFE JDJPDHIAGBI = 8;
+	repeated uint64 OMHEOLKDNLF = 11;
 }

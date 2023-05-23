@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "TeamEnterSceneInfo.proto";
 import "MPLevelEntityInfo.proto";
 import "AvatarEnterSceneInfo.proto";
 // CmdId: 247
+// Obf: BLEGICCMNNO
 message PlayerEnterSceneInfoNotify {
 	TeamEnterSceneInfo team_enter_info = 3;
 	MPLevelEntityInfo mp_level_entity_info = 15;

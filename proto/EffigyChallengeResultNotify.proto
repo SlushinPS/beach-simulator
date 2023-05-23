@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2013
+// Obf: MMECOIDHKCA
 message EffigyChallengeResultNotify {
 	bool is_success = 5;
 	uint32 challenge_id = 11;

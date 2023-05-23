@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "DungeonCandidateTeamPlayerState.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "OPFKHJONHJP.proto";
+import "DJLNIFEEMAO.proto";
 import "DungeonCandidateTeamAvatar.proto";
-import "NDOOPLOCEFN.proto";
 // CmdId: 976
+// Obf: IBKBHOKAELF
 message DungeonCandidateTeamInfoNotify {
 	uint32 match_type = 14;
-	map<uint32, DungeonCandidateTeamPlayerState> player_state_map = 13;
+	map<uint32, OPFKHJONHJP> NAJLKDJGGFJ = 13;
 	uint32 dungeon_id = 1;
-	repeated DungeonCandidateTeamAvatar avatar_list = 2;
+	repeated DJLNIFEEMAO avatar_list = 2;
 	repeated uint32 ready_player_uid = 7;
-	optional NDOOPLOCEFN IKHDGADLIJL = 1395;
+	optional DungeonCandidateTeamAvatar IKHDGADLIJL = 1395;
 }

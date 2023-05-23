@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FriendBrief.proto";
 // CmdId: 4042
+// Obf: CFHBPFPNIIA
 message GetRecentMpPlayerListRsp {
 	int32 retcode = 3;
 	repeated FriendBrief recent_mp_player_brief_list = 1;

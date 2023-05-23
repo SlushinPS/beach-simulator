@@ -15,39 +15,41 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "PBAFNBPPAND.proto";
-import "LFGGJIKICHD.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "AttackHitEffectResult.proto";
+import "HitCollision.proto";
 import "Vector.proto";
 import "AbilityIdentifier.proto";
+// Obf: BEFCMFBPFGN
 message AttackResult {
-	uint32 JAKHCJPHJLL = 1198;
-	uint32 OONEBGMOEAE = 82;
-	uint32 NNNBJOBCAAG = 1624;
-	uint32 FLFJCNLIKLN = 6;
-	float ADMGNLDFHNM = 2018;
-	uint32 IJKHPENHIBE = 1640;
+	uint32 GNHFHCDDDBA = 1198;
+	uint32 BHAPFDKHNPD = 82;
+	uint32 PJJEEPKBHIM = 1624;
+	uint32 KDBNEJKOKDB = 6;
+	float HKDJFJDCKBI = 2018;
+	uint32 LADOHMHIICA = 1640;
 	int32 hit_retreat_angle_compat = 10;
-	PBAFNBPPAND JAHOFNMOLNP = 15;
-	uint32 JJJGHBCJODJ = 1178;
-	float KMGLDEFLMEC = 804;
-	bool IBPABJOFDON = 7;
+	AttackHitEffectResult hit_eff_result = 15;
+	uint32 HAGEIJIIBAE = 1178;
+	float GGPOMBNHHCA = 804;
+	bool KBKKCNLMPHE = 7;
 	uint32 element_type = 8;
-	uint32 FMEOFJLGHEB = 1597;
-	uint32 HHLNNKNHNDI = 1235;
-	bool MMKKDLCEAMF = 78;
-	uint32 LOAGDOPBKHC = 1;
-	uint32 PFDPGNNKHIC = 158;
+	uint32 CNCOJEJPNAH = 1597;
+	uint32 KDBJJLGHGBD = 1235;
+	bool IFHLFNMODNC = 78;
+	uint32 BIIDCDNCFPH = 1;
+	uint32 AFPDNEPONHN = 158;
 	uint32 attacker_id = 13;
 	uint32 defense_id = 4;
 	string anim_event_id = 5;
 	float damage = 11;
-	LFGGJIKICHD BDJAOEIOAAG = 2;
-	bool ANOIGIKGJLP = 1765;
-	uint32 DOAKEOLAJEM = 1772;
+	HitCollision hit_collision = 2;
+	bool PFEKJJINPCE = 1765;
+	uint32 BNONIMILAAH = 1772;
 	Vector resolved_dir = 3;
-	uint32 MCDCPBKDBND = 316;
-	float KGLMAKCMPIH = 979;
+	uint32 OJPOIAJBPCN = 316;
+	float EAGHFGPNGHD = 979;
 	AbilityIdentifier ability_identifier = 12;
-	bool EILCFJCPIPH = 309;
-	float HAEGEEJHOGG = 1660;
+	bool GMKBKKOFIPN = 309;
+	float CBBCOOIFNCP = 1660;
 }

@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 28
+// Obf: PJKHCJKGNNF
 message GetOnlinePlayerInfoReq {
 	bool is_online_id = 9;
 	oneof player_id {
 		uint32 target_uid = 11;
-		string FPIEFBFEOLH = 15;
-		string NMLMGEPFMMF = 10;
+		string online_id = 15;
+		string psn_id = 10;
 	}
 }

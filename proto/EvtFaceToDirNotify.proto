@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ForwardType.proto";
 import "EvtFaceToDirInfo.proto";
 // CmdId: 335
+// Obf: FHJEHIKEJMC
 message EvtFaceToDirNotify {
 	ForwardType forward_type = 6;
 	EvtFaceToDirInfo evt_face_to_dir_info = 11;

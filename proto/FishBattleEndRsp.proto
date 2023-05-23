@@ -15,22 +15,25 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 import "FishBattleResult.proto";
 // CmdId: 5842
+// Obf: HMIGHNHCFGK
 message FishBattleEndRsp {
+	// Obf: PGBJLBLAHGB
 	enum FishNoRewardReason {
-		FishNoRewardNone = 0;
-		FishNoRewardActivityLimit = 1;
-		FishNoRewardBagLimit = 2;
-		FishNoRewardPoolLimit = 3;
+		FISH_NO_REWARD_NONE = 0;
+		FISH_NO_REWARD_ACTIVITY_LIMIT = 1;
+		FISH_NO_REWARD_BAG_LIMIT = 2;
+		FISH_NO_REWARD_POOL_LIMIT = 3;
 	}
 	
-	repeated ItemParam NKNMFCPHEFF = 14;
+	repeated ItemParam LBPLLDKBLEA = 14;
 	FishNoRewardReason no_reward_reason = 10;
 	bool is_got_reward = 12;
 	int32 retcode = 4;
 	FishBattleResult battle_result = 5;
-	repeated ItemParam FEKGKNDHIDH = 13;
+	repeated ItemParam ODDGKMGMOGO = 13;
 	repeated ItemParam reward_item_list = 1;
 }

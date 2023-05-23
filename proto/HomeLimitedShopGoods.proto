@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
+// Obf: ABKIHDDHCBB
 message HomeLimitedShopGoods {
 	ItemParam goods_item = 4;
 	repeated ItemParam cost_item_list = 2;
-	uint32 LDMGEPEFIFD = 3;
-	uint32 OLPODBBGJIM = 8;
-	uint32 DHDJOCLCILA = 10;
-	uint32 FABMGLGGDFB = 11;
+	uint32 goods_id = 3;
+	uint32 bought_num = 8;
+	uint32 KAPLOLJDEON = 10;
+	uint32 buy_limit = 11;
 }

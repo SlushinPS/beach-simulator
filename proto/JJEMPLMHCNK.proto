@@ -15,13 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LGADMDJLBFE.proto";
 import "IJBPEPPLINK.proto";
 import "EGEBOGIIBGB.proto";
 // CmdId: 9131
 message JJEMPLMHCNK {
-	repeated LGADMDJLBFE OONPDFBGKKC = 7;
-	IJBPEPPLINK MLKDACPOIJC = 2;
+	repeated LGADMDJLBFE JDJPDHIAGBI = 7;
+	IJBPEPPLINK KIEKKNKGMIF = 2;
 	repeated EGEBOGIIBGB brief_list = 6;
 	int32 retcode = 12;
 }

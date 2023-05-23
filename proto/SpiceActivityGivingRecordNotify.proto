@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8649
+// Obf: GOJOEACCDEA
 message SpiceActivityGivingRecordNotify {
 	uint32 avatar_id = 15;
-	uint32 CKMLAIEAIJE = 4;
-	uint32 LLLHPIFONEN = 6;
+	uint32 BDGNIOMACMP = 4;
+	uint32 KIFHDNINMHD = 6;
 }

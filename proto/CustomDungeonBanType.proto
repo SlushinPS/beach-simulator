@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: NHMOLNFKMJL
 enum CustomDungeonBanType {
-	CustomDungeonBanType_None = 0;
-	CustomDungeonBanType_Layout = 1;
+	CUSTOM_DUNGEON_BAN_TYPE_NONE = 0;
+	CUSTOM_DUNGEON_BAN_TYPE_LAYOUT = 1;
 }

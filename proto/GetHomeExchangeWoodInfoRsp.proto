@@ -15,15 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4693
+// Obf: PIEBLPJEMHK
 message GetHomeExchangeWoodInfoRsp {
-	message NICFGMIONJE {
-		uint32 GOPECBICDDM = 4;
+	// Obf: NICFGMIONJE
+	message HomeExchangeWoodInfo {
+		uint32 OADAPMHIAIG = 4;
 		uint32 wood_id = 12;
 		fixed32 next_refresh_time = 7;
-		uint32 PIBCHKLPHJJ = 3;
+		uint32 DKKLDFNFCCG = 3;
 	}
 	
 	int32 retcode = 12;
-	repeated NICFGMIONJE MMAOHKBPJFG = 8;
+	repeated HomeExchangeWoodInfo wood_info_list = 8;
 }

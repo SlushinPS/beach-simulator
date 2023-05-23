@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AbilitySyncStateInfo.proto";
+// Obf: OABINEMNKPI
 message TeamEntityInfo {
 	uint32 team_entity_id = 8;
 	AbilitySyncStateInfo team_ability_info = 5;

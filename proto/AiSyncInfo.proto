@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: LDLPBJOIHEO
 message AiSyncInfo {
 	uint32 entity_id = 2;
-	bool NNNPDBCGPDN = 7;
-	bool ANGKNOLPLFJ = 8;
+	bool is_self_killing = 7;
+	bool has_path_to_target = 8;
 }

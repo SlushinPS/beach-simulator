@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "DungeonEntryPointInfo.proto";
 import "DungeonEntryInfo.proto";
 // CmdId: 996
+// Obf: FEABLOCKDAP
 message DungeonEntryInfoRsp {
 	repeated DungeonEntryPointInfo dungeon_entry_point_list = 15;
 	uint32 point_id = 5;

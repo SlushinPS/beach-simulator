@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: IODOKNGPEHE
 message PlantFlowerAcceptFlowerResultInfo {
 	uint32 uid = 14;
-	map<uint32, uint32> LHDOJILIGGC = 15;
-	map<uint32, uint32> GKJPLDLHEOE = 2;
+	map<uint32, uint32> CAIDLCELFLB = 15;
+	map<uint32, uint32> EBBCPNKLENP = 2;
 }

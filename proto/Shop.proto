@@ -15,17 +15,19 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "BBANKBFEFAA.proto";
-import "CLIPCGJEBBP.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "ShopCardProduct.proto";
+import "ShopMcoinProduct.proto";
 import "ShopGoods.proto";
-import "CKIBKCAKBNI.proto";
+import "ShopConcertProduct.proto";
+// Obf: JBIFADEKOFE
 message Shop {
 	uint32 next_refresh_time = 2;
-	repeated BBANKBFEFAA KIGFMBMMIBP = 1;
+	repeated ShopCardProduct card_product_list = 1;
 	uint32 shop_type = 5;
-	repeated CLIPCGJEBBP PHHBIDDLLLB = 14;
+	repeated ShopMcoinProduct mcoin_product_list = 14;
 	uint32 city_id = 8;
 	repeated ShopGoods goods_list = 7;
 	uint32 city_reputation_level = 10;
-	repeated CKIBKCAKBNI DODBGAGDNDK = 6;
+	repeated ShopConcertProduct concert_product_list = 6;
 }

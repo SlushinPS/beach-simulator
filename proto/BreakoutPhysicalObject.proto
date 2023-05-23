@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BreakoutVector2.proto";
 import "BreakoutPhysicalObjectModifier.proto";
 import "BreakoutBrickInfo.proto";
+// Obf: LKHNDFCFOPP
 message BreakoutPhysicalObject {
 	uint32 id = 1;
 	uint32 index = 2;

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: CMICPFOKJFN
 enum GalleryStageType {
-	GalleryStageType_GalleryNone = 0;
-	GalleryStageType_GalleryPrestart = 1;
-	GalleryStageType_GalleryStart = 2;
+	GALLERY_NONE = 0;
+	GALLERY_PRESTART = 1;
+	GALLERY_START = 2;
 }

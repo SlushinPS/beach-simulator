@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 8915
+// Obf: ALNDGDHHIHD
 message SummerTimeFloatSignalUpdateNotify {
 	bool is_transfer_anchor = 14;
 	Vector position = 10;

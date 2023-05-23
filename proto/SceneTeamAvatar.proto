@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AbilitySyncStateInfo.proto";
 import "ServerBuff.proto";
 import "SceneEntityInfo.proto";
 import "SceneAvatarInfo.proto";
 import "AbilityControlBlock.proto";
 import "AvatarInfo.proto";
+// Obf: GHFNMPHGENH
 message SceneTeamAvatar {
 	uint32 weapon_entity_id = 5;
 	AbilitySyncStateInfo avatar_ability_info = 2;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4516
+// Obf: LBEGABLDMMD
 message SetFriendEnterHomeOptionRsp {
 	int32 retcode = 9;
 }

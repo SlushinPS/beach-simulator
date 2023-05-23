@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PropValue.proto";
 // CmdId: 135
+// Obf: KHJPIMNFILK
 message PlayerDataNotify {
 	uint64 server_time = 5;
 	string nick_name = 8;

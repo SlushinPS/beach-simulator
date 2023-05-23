@@ -15,15 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
+// Obf: MKBIKOOLFKM
 message TreasureMapRegionInfo {
-	uint32 JAIOGCBIKEC = 6;
+	uint32 HHEFCPDDMAH = 6;
 	Vector region_center_pos = 9;
 	uint32 region_id = 14;
-	uint32 OANABNBFBPI = 15;
-	bool EHPGJNDPBIC = 12;
+	uint32 MFILLAMOAHJ = 15;
+	bool ALKEKFFIMPL = 12;
 	uint32 start_time = 5;
-	bool CKIEBBJBOKP = 3;
+	bool IACKAEJAPLO = 3;
 	uint32 scene_id = 8;
 	uint32 region_radius = 4;
 }

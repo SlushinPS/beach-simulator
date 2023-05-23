@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemHint.proto";
 import "Vector.proto";
 // CmdId: 655
+// Obf: FOCMGEBMEOH
 message ItemAddHintNotify {
-	bool DOKPNFNGLOK = 7;
-	bool PPHJOFNMMAJ = 5;
+	bool GCNFBOCLHPE = 7;
+	bool PJLFNPEEBNP = 5;
 	repeated ItemHint overflow_transformed_item_list = 1;
 	repeated ItemHint item_list = 13;
 	uint32 quest_id = 15;
 	Vector position = 8;
-	bool IBCJJEBBKJE = 9;
+	bool MMHKDGBFKAC = 9;
 	uint32 reason = 4;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ChatChannelInfo.proto";
 // CmdId: 4971
+// Obf: COGHPLNCFKB
 message ChatChannelDataNotify {
 	repeated ChatChannelInfo channel_info_list = 12;
 	repeated uint32 channel_list = 9;

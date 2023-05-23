@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5588
+// Obf: CBJBKNGAOCB
 message GalleryCrystalLinkBuffInfoNotify {
 	uint32 buff_id = 3;
 	bool is_buff_valid = 7;

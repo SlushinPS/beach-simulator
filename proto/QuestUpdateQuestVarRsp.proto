@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 488
+// Obf: DDAOEAHEAEK
 message QuestUpdateQuestVarRsp {
 	uint32 parent_quest_var_seq = 12;
 	uint32 parent_quest_id = 5;

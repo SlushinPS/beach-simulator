@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlantFlowerAcceptFlowerResultInfo.proto";
 // CmdId: 8540
+// Obf: BAEPNNFHONN
 message PlantFlowerAcceptGiveFlowerRsp {
 	PlantFlowerAcceptFlowerResultInfo accept_flower_result_info = 6;
 	int32 retcode = 14;

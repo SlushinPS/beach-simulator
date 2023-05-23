@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "WorldRoutineInfo.proto";
 // CmdId: 3521
+// Obf: EMCGADPBAGG
 message WorldRoutineChangeNotify {
 	WorldRoutineInfo routine_info = 3;
 	uint32 routine_type = 5;

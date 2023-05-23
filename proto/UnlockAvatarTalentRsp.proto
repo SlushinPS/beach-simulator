@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1096
+// Obf: MHPHLLEMCMH
 message UnlockAvatarTalentRsp {
 	uint32 talent_id = 14;
 	uint64 avatar_guid = 4;

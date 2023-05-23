@@ -15,14 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8842
+// Obf: LCAIEFKIJOP
 message WinterCampTriathlonSettleNotify {
 	bool is_new_record = 12;
-	uint32 HFLFGGKDNFG = 6;
+	uint32 CKGDCGAGEDA = 6;
 	uint32 gallery_id = 9;
 	bool is_success = 7;
-	uint32 OMBOHLCIBKD = 5;
+	uint32 GFFHOIMFLJL = 5;
 	uint32 score = 14;
-	uint32 LINNFHNDOEG = 3;
-	uint32 GOKLKCOCEAK = 11;
+	uint32 IMLFPJIHFGP = 3;
+	uint32 NMIODMOOFBF = 11;
 }

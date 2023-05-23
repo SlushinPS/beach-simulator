@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 208
+// Obf: ONIHBLDIDNE
 message ClientScriptEventNotify {
 	uint32 event_type = 9;
 	uint32 source_entity_id = 12;

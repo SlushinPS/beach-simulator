@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MistTrialBestAvatar.proto";
 // CmdId: 8153
+// Obf: ICIKIBNLBCG
 message MistTrialSettleNotify {
 	uint32 dungeon_scene_id = 3;
-	map<uint32, uint32> AFBGMEGJDON = 6;
+	map<uint32, uint32> ECFLBCKABPE = 6;
 	repeated MistTrialBestAvatar best_avatar_list = 5;
 	MistTrialBestAvatar best_hit_avatar = 10;
-	map<uint32, uint32> BJKNNBBJFNA = 1;
+	map<uint32, uint32> MLPGIMJCPBJ = 1;
 	uint32 first_pass_time = 13;
 }

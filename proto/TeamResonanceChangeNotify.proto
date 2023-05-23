@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AvatarTeamResonanceInfo.proto";
 // CmdId: 1028
+// Obf: OBBKOMNOEJA
 message TeamResonanceChangeNotify {
 	repeated AvatarTeamResonanceInfo info_list = 9;
 }

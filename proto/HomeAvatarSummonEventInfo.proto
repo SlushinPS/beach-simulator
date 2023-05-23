@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: PCJALOMGBGH
 message HomeAvatarSummonEventInfo {
 	uint32 event_id = 10;
-	uint32 MJLGIAIJGCK = 15;
+	uint32 LHAPBMODLNM = 15;
 	uint32 suit_id = 2;
 	uint32 avatar_id = 7;
 	uint32 guid = 5;
-	uint32 JHKOAELHBEO = 9;
+	uint32 DGEELJHENOD = 9;
 }

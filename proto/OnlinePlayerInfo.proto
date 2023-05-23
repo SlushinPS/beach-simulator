@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MpSettingType.proto";
 import "ProfilePicture.proto";
+// Obf: KFAGEFMEFCD
 message OnlinePlayerInfo {
 	uint32 uid = 1;
 	string nickname = 2;

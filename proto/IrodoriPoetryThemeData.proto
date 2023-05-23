@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DMGENCIFFLL
 message IrodoriPoetryThemeData {
 	uint32 progress = 11;
-	uint32 FFMIFIMKBKI = 8;
-	uint32 PAKGCJKJEIN = 14;
-	uint32 EDGBBLNHGHC = 15;
-	uint32 BKOHCNPIBCI = 3;
-	repeated uint32 DPHLOJBGODG = 13;
-	repeated uint32 PKFLKBHFEHC = 9;
+	uint32 MOFMBBIKDAN = 8;
+	uint32 MCMKKEIHOKO = 14;
+	uint32 EDGJDLHHJHC = 15;
+	uint32 CLJLOCICDLB = 3;
+	repeated uint32 HCACAKPBLND = 13;
+	repeated uint32 BKFJDAGCAIM = 9;
 }

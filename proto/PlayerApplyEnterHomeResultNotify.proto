@@ -15,18 +15,21 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4694
+// Obf: IKAOKIFHNFH
 message PlayerApplyEnterHomeResultNotify {
+	// Obf: AFNGLAAINEF
 	enum Reason {
-		PlayerJudge = 0;
-		PlayerEnterOptionRefuse = 1;
-		PlayerEnterOptionDirect = 2;
-		SystemJudge = 3;
-		HostInMatch = 4;
-		PsPlayerNotAcceptOthers = 5;
-		OpenStateNotOpen = 6;
-		HostInEditMode = 7;
-		PriorCheck = 8;
+		PLAYER_JUDGE = 0;
+		PLAYER_ENTER_OPTION_REFUSE = 1;
+		PLAYER_ENTER_OPTION_DIRECT = 2;
+		SYSTEM_JUDGE = 3;
+		HOST_IN_MATCH = 4;
+		PS_PLAYER_NOT_ACCEPT_OTHERS = 5;
+		OPEN_STATE_NOT_OPEN = 6;
+		HOST_IN_EDIT_MODE = 7;
+		PRIOR_CHECK = 8;
 	}
 	
 	bool is_agreed = 8;

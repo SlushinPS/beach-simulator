@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1002
+// Obf: EHAHCGECFJH
 message AvatarUnlockTalentNotify {
 	uint32 talent_id = 7;
 	uint32 skill_depot_id = 15;

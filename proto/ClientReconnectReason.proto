@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DAFLDPNBLMC
 enum ClientReconnectReason {
-	ClientReconnectReason_ClientReconnnectNone = 0;
-	ClientReconnectReason_ClientReconnnectQuitMp = 1;
+	CLIENT_RECONNNECT_NONE = 0;
+	CLIENT_RECONNNECT_QUIT_MP = 1;
 }

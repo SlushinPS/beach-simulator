@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 22310
+// Obf: LEGFNPGKKMC
 message FungusFighterTrainingSelectFungusReq {
 	repeated uint32 fight_fungus_id_list = 15;
 	repeated uint32 backup_fungus_id_list = 3;

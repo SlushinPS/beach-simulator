@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CompoundQueueData.proto";
 // CmdId: 193
+// Obf: HONBDBKHOKJ
 message GetCompoundDataRsp {
-	repeated CompoundQueueData compound_que_data_list = 9;
+	repeated CompoundQueueData compoundQueueDataList = 9;
 	int32 retcode = 1;
-	repeated uint32 unlock_compound_list = 6;
+	repeated uint32 unlockCompoundList = 6;
 }

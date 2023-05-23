@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: FCFOOHDOGCJ
 enum SalvagePreventStopReason {
-	SalvagePreventStopReason_SalvagePreventStopNone = 0;
-	SalvagePreventStopReason_SalvagePreventStopSuccess = 1;
-	SalvagePreventStopReason_SalvagePreventStopArrival = 2;
-	SalvagePreventStopReason_SalvagePreventStopInterrupt = 3;
-	SalvagePreventStopReason_SalvagePreventStopLeave = 4;
-	SalvagePreventStopReason_SalvagePreventStopFull = 5;
-	SalvagePreventStopReason_SalvagePreventStopAway = 6;
+	SALVAGE_PREVENT_STOP_NONE = 0;
+	SALVAGE_PREVENT_STOP_SUCCESS = 1;
+	SALVAGE_PREVENT_STOP_ARRIVAL = 2;
+	SALVAGE_PREVENT_STOP_INTERRUPT = 3;
+	SALVAGE_PREVENT_STOP_LEAVE = 4;
+	SALVAGE_PREVENT_STOP_FULL = 5;
+	SALVAGE_PREVENT_STOP_AWAY = 6;
 }

@@ -15,15 +15,16 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "COPAGJPLLDL.proto";
 import "GLHJAKILPOJ.proto";
 import "HKPDJEJCAKJ.proto";
 message DAAFMOLJHKM {
 	COPAGJPLLDL basic_info = 6;
-	bool HDKOIGJPJHG = 7;
-	uint32 PGKCLAEGMJK = 11;
+	bool KIOFMGFOCON = 7;
+	uint32 CHCGCFIINIC = 11;
 	oneof DPLIJPDANIA {
 		GLHJAKILPOJ NGALMBKCLIB = 3;
-		HKPDJEJCAKJ KNABPJAJILJ = 1;
+		HKPDJEJCAKJ shop_info = 1;
 	}
 }

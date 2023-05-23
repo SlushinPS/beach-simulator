@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4460
+// Obf: FFFNGAHIEOK
 message HomeTransferReq {
 	uint32 guid = 8;
-	bool LPBDGIDFAGD = 9;
-	bool GFPCLFLDKJF = 13;
+	bool is_transfer_to_safe_point = 9;
+	bool GGBOCPDIIKL = 13;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FurnitureMakeHelpData.proto";
 // CmdId: 4581
+// Obf: HBPNHOHAOOC
 message FurnitureMakeHelpRsp {
 	int32 retcode = 8;
 	repeated FurnitureMakeHelpData help_data_list = 6;

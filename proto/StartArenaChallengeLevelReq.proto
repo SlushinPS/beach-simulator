@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 2173
+// Obf: IGLPNGCGAHF
 message StartArenaChallengeLevelReq {
-	uint32 DNFFNHODIOA = 3;
+	uint32 PEPMDOACJNL = 3;
 	uint32 gadget_entity_id = 1;
-	uint32 DIOOMHFKCAL = 4;
+	uint32 DBPEAEAANPG = 4;
 }

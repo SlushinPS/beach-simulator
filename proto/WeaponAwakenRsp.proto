@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 643
+// Obf: EBKEOGAFFJH
 message WeaponAwakenRsp {
 	uint32 target_weapon_awaken_level = 3;
-	map<uint32, uint32> PNEKDCKDEGG = 6;
-	map<uint32, uint32> GBFNKCIBMPJ = 15;
+	map<uint32, uint32> cur_affix_level_map = 6;
+	map<uint32, uint32> old_affix_level_map = 15;
 	int32 retcode = 12;
 	uint64 target_weapon_guid = 14;
 	uint64 avatar_guid = 8;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 101
+// Obf: CAJPAGGCEHI
 message PlayerCookArgsRsp {
 	int32 retcode = 6;
 	float qte_range_ratio = 10;

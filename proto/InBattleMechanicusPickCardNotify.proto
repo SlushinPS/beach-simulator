@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5330
+// Obf: EENCNPNMJIE
 message InBattleMechanicusPickCardNotify {
 	uint32 player_uid = 6;
 	uint32 play_index = 3;

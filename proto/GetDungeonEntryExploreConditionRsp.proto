@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "DungeonEntryCond.proto";
 // CmdId: 3140
+// Obf: CDKGGIJGPCN
 message GetDungeonEntryExploreConditionRsp {
 	DungeonEntryCond dungeon_entry_cond = 6;
 	int32 retcode = 7;

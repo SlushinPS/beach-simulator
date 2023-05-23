@@ -15,10 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "AvatarInfo.proto";
-import "IIKMMGPBEMC.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "GMIOAJDAFAB.proto";
+import "EGEBOGIIBGB.proto";
+// Obf: NDOOPLOCEFN
 message DungeonCandidateTeamAvatar {
-	AvatarInfo avatar_info = 3;
-	uint32 player_uid = 10;
-	optional IIKMMGPBEMC FMPENOILMND = 1105;
+	GMIOAJDAFAB enter_type = 13;
+	EGEBOGIIBGB DHNMGNOLFKJ = 4;
 }

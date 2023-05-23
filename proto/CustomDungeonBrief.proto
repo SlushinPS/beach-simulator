@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CustomDungeonState.proto";
 import "CustomDungeonSetting.proto";
 import "CustomDungeonSocial.proto";
 import "CustomDungeonAbstract.proto";
+// Obf: FEMNGDDNOOD
 message CustomDungeonBrief {
 	uint64 dungeon_guid = 7;
 	CustomDungeonState state = 3;

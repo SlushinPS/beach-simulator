@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4208
+// Obf: PMNPCHBJJAP
 message QueryCodexMonsterBeKilledNumReq {
 	repeated uint32 codex_id_list = 2;
 }

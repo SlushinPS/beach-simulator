@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 587
+// Obf: HGMAGCCBOGC
 message FinishedTalkIdListNotify {
 	repeated uint32 finished_talk_id_list = 1;
 }

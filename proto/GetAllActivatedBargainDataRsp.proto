@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BargainSnapshot.proto";
 // CmdId: 466
+// Obf: DBNBIOIIKIB
 message GetAllActivatedBargainDataRsp {
 	int32 retcode = 15;
 	repeated BargainSnapshot snapshot_list = 12;

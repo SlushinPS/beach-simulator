@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: KBJDBGIEOHI
 enum CompoundBoostTakeStatusType {
-	CompoundBoostTakeStatusType_CompoundBoostTakeStatusNone = 0;
-	CompoundBoostTakeStatusType_CompoundBoostTakeStatusBoostOnly = 1;
-	CompoundBoostTakeStatusType_CompoundBoostTakeStatusBoostAndTake = 2;
-	CompoundBoostTakeStatusType_CompoundBoostTakeStatusBagFull = 3;
+	COMPOUND_BOOST_TAKE_STATUS_NONE = 0;
+	COMPOUND_BOOST_TAKE_STATUS_BOOST_ONLY = 1;
+	COMPOUND_BOOST_TAKE_STATUS_BOOST_AND_TAKE = 2;
+	COMPOUND_BOOST_TAKE_STATUS_BAG_FULL = 3;
 }

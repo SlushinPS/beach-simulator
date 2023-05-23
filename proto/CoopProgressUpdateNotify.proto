@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1965
+// Obf: DLIGPFKPBJK
 message CoopProgressUpdateNotify {
 	uint32 cur_coop_point = 8;
 	bool is_have_progress = 9;

@@ -15,16 +15,17 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "LCCKNACMGAA.proto";
 import "LJKDBILCDCB.proto";
 // CmdId: 24908
 message AEFBJDINKAJ {
-	uint32 JHJNNKDGJFF = 3;
-	uint32 EJELKFCOPKN = 7;
+	uint32 LGOHGFDGMGO = 3;
+	uint32 IBGHNDBACGP = 7;
 	uint32 cost_time = 12;
-	uint32 GNOOKHHCCOA = 15;
+	uint32 AKADDABPGDE = 15;
 	uint32 level_id = 8;
 	bool is_success = 11;
-	repeated LCCKNACMGAA BDBJLFOGMMP = 13;
-	repeated LJKDBILCDCB FDIAAAKHAPG = 5;
+	repeated LCCKNACMGAA KCBGCANCBNA = 13;
+	repeated LJKDBILCDCB HNKFGHEJMJO = 5;
 }

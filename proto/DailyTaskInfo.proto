@@ -15,6 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DCPMGKODFKH
 message DailyTaskInfo {
 	uint32 daily_task_id = 9;
 	uint32 progress = 11;

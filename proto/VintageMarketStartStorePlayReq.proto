@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 24449
+// Obf: CLACJNIMEFP
 message VintageMarketStartStorePlayReq {
 	uint32 store_round = 4;
 }

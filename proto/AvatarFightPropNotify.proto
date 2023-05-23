@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 1255
+// Obf: PGOGFGMAJFD
 message AvatarFightPropNotify {
 	map<uint32, float> fight_prop_map = 2;
 	uint64 avatar_guid = 12;

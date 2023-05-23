@@ -15,13 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "UgcType.proto";
-import "CFFGCLHLGPN.proto";
-import "OMNDDJHEJKO.proto";
+import "UgcMusicRecord.proto";
+import "UgcMusicBriefInfo.proto";
 // CmdId: 6325
+// Obf: OLCCDLNIBJO
 message SaveUgcReq {
 	uint32 schedule_id = 5;
 	UgcType ugc_type = 8;
-	optional CFFGCLHLGPN EECNEAMNAJA = 6;
-	optional OMNDDJHEJKO OOIAHADJKIK = 1004;
+	optional UgcMusicRecord music_record = 6;
+	optional UgcMusicBriefInfo music_brief_info = 1004;
 }

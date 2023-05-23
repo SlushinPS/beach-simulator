@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 // CmdId: 4137
+// Obf: EDJHIHJGLHP
 message OrderFinishNotify {
 	uint32 add_mcoin = 14;
 	string product_id = 4;

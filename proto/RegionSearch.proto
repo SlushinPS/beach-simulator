@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RegionSearchState.proto";
+// Obf: JPDFHCAIBHD
 message RegionSearch {
 	uint32 progress = 1;
 	RegionSearchState state = 14;

@@ -15,20 +15,22 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: OBGLBKLIHPE
 enum PlatformType {
-	PlatformType_Editor = 0;
-	PlatformType_Ios = 1;
-	PlatformType_Android = 2;
-	PlatformType_Pc = 3;
-	PlatformType_Ps4 = 4;
-	PlatformType_Server = 5;
-	PlatformType_CloudAndroid = 6;
-	PlatformType_CloudIos = 7;
-	PlatformType_Ps5 = 8;
-	PlatformType_CloudWeb = 9;
-	PlatformType_CloudTv = 10;
-	PlatformType_CloudMac = 11;
-	PlatformType_CloudPc = 12;
-	PlatformType_CloudThirdPartyMobile = 13;
-	PlatformType_CloudThirdPartyPc = 14;
+	PLATFORM_TYPE_EDITOR = 0;
+	PLATFORM_TYPE_IOS = 1;
+	PLATFORM_TYPE_ANDROID = 2;
+	PLATFORM_TYPE_PC = 3;
+	PLATFORM_TYPE_PS4 = 4;
+	PLATFORM_TYPE_SERVER = 5;
+	PLATFORM_TYPE_CLOUD_ANDROID = 6;
+	PLATFORM_TYPE_CLOUD_IOS = 7;
+	PLATFORM_TYPE_PS5 = 8;
+	PLATFORM_TYPE_CLOUD_WEB = 9;
+	PLATFORM_TYPE_CLOUD_TV = 10;
+	PLATFORM_TYPE_CLOUD_MAC = 11;
+	PLATFORM_TYPE_CLOUD_PC = 12;
+	PLATFORM_TYPE_CLOUD_THIRD_PARTY_MOBILE = 13;
+	PLATFORM_TYPE_CLOUD_THIRD_PARTY_PC = 14;
 }

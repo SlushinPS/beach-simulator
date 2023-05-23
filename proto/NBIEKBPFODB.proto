@@ -15,12 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PIINAODJAGC.proto";
 message NBIEKBPFODB {
-	uint32 FNFKKJHEOLE = 5;
-	uint32 NFNCAIMBBDE = 8;
-	repeated uint32 ACDMCGEHCNF = 6;
+	uint32 HABECPAHOGI = 5;
+	uint32 EIOJAKIDLJI = 8;
+	repeated uint32 DHCMGPFOEON = 6;
 	uint32 round = 7;
-	repeated PIINAODJAGC CODLGFECPNE = 2;
+	repeated PIINAODJAGC EFHBHDPAKLC = 2;
 	fixed32 expire_time = 15;
 }

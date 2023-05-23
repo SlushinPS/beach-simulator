@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8225
+// Obf: JCKMKHACOPM
 message BlitzRushParkourRestartReq {
 	uint32 group_id = 1;
 	uint32 schedule_id = 6;

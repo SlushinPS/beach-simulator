@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "FlowerStartParam.proto";
-import "ElectroherculesStartParam.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "GalleryFlowerStartParam.proto";
+import "NGIFMHFCFAC.proto";
 // CmdId: 5575
+// Obf: JONMKDCLLLB
 message GalleryStartNotify {
 	uint32 owner_uid = 5;
 	uint32 player_count = 12;
@@ -25,7 +27,7 @@ message GalleryStartNotify {
 	uint32 end_time = 2;
 	uint32 gallery_id = 3;
 	oneof detail {
-		FlowerStartParam flower_start_param = 14;
-		ElectroherculesStartParam electrohercules_start_param = 9;
+		GalleryFlowerStartParam flower_start_param = 14;
+		NGIFMHFCFAC electrohercules_start_param = 9;
 	}
 }

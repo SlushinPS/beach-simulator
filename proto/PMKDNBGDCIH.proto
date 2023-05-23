@@ -15,7 +15,8 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 message PMKDNBGDCIH {
 	uint32 level_id = 13;
-	uint32 PDKOCGLFDPL = 12;
+	uint32 min_finish_time = 12;
 }

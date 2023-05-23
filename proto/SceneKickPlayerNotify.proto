@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 232
+// Obf: FPFJFLPEPDP
 message SceneKickPlayerNotify {
 	uint32 target_uid = 3;
 	uint32 kicker_uid = 8;

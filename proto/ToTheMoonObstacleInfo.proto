@@ -15,16 +15,19 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "DAKBAOLCLCB.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "MathQuaternion.proto";
 import "Vector.proto";
+// Obf: ANKBKPGDBDF
 message ToTheMoonObstacleInfo {
+	// Obf: LGLLHBPIPJM
 	enum ShapeType {
-		ObstacleShapeCapsule = 0;
-		ObstacleShapeBox = 1;
+		OBSTACLE_SHAPE_CAPSULE = 0;
+		OBSTACLE_SHAPE_BOX = 1;
 	}
 	
 	ShapeType type = 15;
-	DAKBAOLCLCB rotation = 14;
+	MathQuaternion rotation = 14;
 	int32 handle_id = 12;
 	Vector center = 9;
 	Vector half_extents = 13;

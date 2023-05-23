@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 935
+// Obf: JAMLIJIPNJJ
 message DungeonWayPointActivateReq {
 	uint32 way_point_id = 14;
 }

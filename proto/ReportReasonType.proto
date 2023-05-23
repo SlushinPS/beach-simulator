@@ -15,12 +15,14 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: KNLGCAFBAOA
 enum ReportReasonType {
-	ReportReasonType_ReportReasonNone = 0;
-	ReportReasonType_ReportReasonDeceptiveAds = 1;
-	ReportReasonType_ReportReasonAbusing = 2;
-	ReportReasonType_ReportReasonCheat = 3;
-	ReportReasonType_ReportReasonPolitical = 4;
-	ReportReasonType_ReportReasonOther = 5;
-	ReportReasonType_ReportReasonHome = 6;
+	REPORT_REASON_NONE = 0;
+	REPORT_REASON_DECEPTIVE_ADS = 1;
+	REPORT_REASON_ABUSING = 2;
+	REPORT_REASON_CHEAT = 3;
+	REPORT_REASON_POLITICAL = 4;
+	REPORT_REASON_OTHER = 5;
+	REPORT_REASON_HOME = 6;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: OEHKPJCBOEA
 enum LuaShellType {
-	LuaShellType_LuashellNone = 0;
-	LuaShellType_LuashellNormal = 1;
-	LuaShellType_LuashellSecurity = 2;
-	LuaShellType_LuashellShellCode = 3;
+	LUASHELL_NONE = 0;
+	LUASHELL_NORMAL = 1;
+	LUASHELL_SECURITY = 2;
+	LUASHELL_SHELL_CODE = 3;
 }

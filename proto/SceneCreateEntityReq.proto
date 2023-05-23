@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CreateEntityInfo.proto";
 import "CreateReason.proto";
 // CmdId: 220
+// Obf: BBMIAMJBHKA
 message SceneCreateEntityReq {
 	CreateEntityInfo entity = 3;
 	bool is_destroy_when_disconnect = 8;

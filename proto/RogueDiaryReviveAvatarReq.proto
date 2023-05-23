@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "RogueDiaryAvatar.proto";
 // CmdId: 8838
+// Obf: JJKONECIGHG
 message RogueDiaryReviveAvatarReq {
 	RogueDiaryAvatar revive_avatar = 5;
 }

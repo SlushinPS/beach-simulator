@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 24968
+// Obf: ELIGGGIBOGD
 message VintageMarketNpcEventFinishNotify {
-	uint32 HMDCICNOPLF = 13;
+	uint32 LGCEBJNOBAM = 13;
 	repeated uint32 unlock_strategy_list = 10;
-	uint32 DCHDGPCIFMC = 4;
+	uint32 LJIOMIABKJC = 4;
 }

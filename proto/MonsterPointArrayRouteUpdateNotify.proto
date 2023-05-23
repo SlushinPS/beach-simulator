@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MonsterRoute.proto";
 // CmdId: 3064
+// Obf: DACNMFEKIII
 message MonsterPointArrayRouteUpdateNotify {
 	uint32 entity_id = 4;
 	MonsterRoute monster_route = 8;

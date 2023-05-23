@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "VintageMarketStoreOpInfo.proto";
 // CmdId: 24268
+// Obf: GCPPKPNMMMO
 message VintageMarketStoreChooseStrategyReq {
 	repeated uint32 strategy_list = 4;
 	repeated VintageMarketStoreOpInfo store_op_list = 9;

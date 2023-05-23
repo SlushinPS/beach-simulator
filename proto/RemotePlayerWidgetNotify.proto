@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerWidgetInfo.proto";
 // CmdId: 6079
+// Obf: KOCBPLMMIMF
 message RemotePlayerWidgetNotify {
 	repeated PlayerWidgetInfo player_widget_info_list = 2;
 }

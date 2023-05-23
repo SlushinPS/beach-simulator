@@ -15,17 +15,19 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: JFDPPEKABPL
 enum EnterType {
-	EnterType_EnterNone = 0;
-	EnterType_EnterSelf = 1;
-	EnterType_EnterGoto = 2;
-	EnterType_EnterJump = 3;
-	EnterType_EnterOther = 4;
-	EnterType_EnterBack = 5;
-	EnterType_EnterDungeon = 6;
-	EnterType_EnterDungeonReplay = 7;
-	EnterType_EnterGotoByPortal = 8;
-	EnterType_EnterSelfHome = 9;
-	EnterType_EnterOtherHome = 10;
-	EnterType_EnterGotoRecreate = 11;
+	ENTER_TYPE_NONE = 0;
+	ENTER_TYPE_SELF = 1;
+	ENTER_TYPE_GOTO = 2;
+	ENTER_TYPE_JUMP = 3;
+	ENTER_TYPE_OTHER = 4;
+	ENTER_TYPE_BACK = 5;
+	ENTER_TYPE_DUNGEON = 6;
+	ENTER_TYPE_DUNGEON_REPLAY = 7;
+	ENTER_TYPE_GOTO_BY_PORTAL = 8;
+	ENTER_TYPE_SELF_HOME = 9;
+	ENTER_TYPE_OTHER_HOME = 10;
+	ENTER_TYPE_GOTO_RECREATE = 11;
 }

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DPIHCPLMCID
 enum MailCollectState {
-	MailCollectState_MailCollectibleUnkonw = 0;
-	MailCollectState_MailNotCollectible = 1;
-	MailCollectState_MailCollectibleUncollected = 2;
-	MailCollectState_MailCollectibleCollected = 3;
+	MAIL_COLLECT_STATE_COLLECTIBLE_UNKNOWN = 0;
+	MAIL_COLLECT_STATE_NOT_COLLECTIBLE = 1;
+	MAIL_COLLECT_STATE_COLLECTIBLE_UNCOLLECTED = 2;
+	MAIL_COLLECT_STATE_COLLECTIBLE_COLLECTED = 3;
 }

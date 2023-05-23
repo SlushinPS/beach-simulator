@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "GEJHMMOBDLD.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "FurnitureMakeData.proto";
+// Obf: KGCBBAEMLLI
 message FurnitureMakeSlot {
-	repeated GEJHMMOBDLD EHMJJJHJGJA = 15;
+	repeated FurnitureMakeData furniture_make_data_list = 15;
 }

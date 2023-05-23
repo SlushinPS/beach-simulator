@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BuildingInfo.proto";
 // CmdId: 5379
+// Obf: JHJPOPCAKBH
 message GlobalBuildingInfoNotify {
 	uint32 max_num = 4;
 	uint32 current_num = 6;

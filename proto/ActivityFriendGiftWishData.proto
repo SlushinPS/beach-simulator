@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
+// Obf: EPMJNGDMKOC
 message ActivityFriendGiftWishData {
 	string remark_name = 12;
 	ProfilePicture profile_picture = 8;

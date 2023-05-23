@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BargainSnapshot.proto";
 // CmdId: 424
+// Obf: HKLGDGKMLIM
 message BargainStartNotify {
 	uint32 bargain_id = 3;
 	BargainSnapshot snapshot = 8;

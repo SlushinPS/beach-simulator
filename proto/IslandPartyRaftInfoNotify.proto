@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 5533
+// Obf: JLILGIFPJGD
 message IslandPartyRaftInfoNotify {
 	uint32 point_id = 10;
-	uint32 LKJANFJFEHF = 13;
+	uint32 PAOCIBHJAHO = 13;
 	uint32 coin = 9;
-	uint32 OLALFPAFBBN = 7;
+	uint32 MPEGPHEPACG = 7;
 }

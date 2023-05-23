@@ -15,9 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "GGJENGOICLH.proto";
 // CmdId: 9118
 message OCCBIKFCMGK {
-	GGJENGOICLH CFLHOCPAFIA = 15;
-	repeated uint32 IKCLJGPNMMM = 4;
+	GGJENGOICLH CECPEAKGCFO = 15;
+	repeated uint32 LDDAEIABIEC = 4;
 }

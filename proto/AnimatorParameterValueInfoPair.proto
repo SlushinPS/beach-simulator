@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "AnimatorParameterValueInfo.proto";
+// Obf: HDPEDMCMNHN
 message AnimatorParameterValueInfoPair {
 	int32 name_id = 1;
 	AnimatorParameterValueInfo animator_para = 2;

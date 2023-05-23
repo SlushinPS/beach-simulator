@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 575
+// Obf: AHMDGGDKIJC
 message NpcTalkReq {
 	uint32 npc_entity_id = 2;
 	uint32 talk_id = 14;

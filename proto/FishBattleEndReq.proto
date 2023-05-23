@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "FishBattleResult.proto";
 // CmdId: 5801
+// Obf: ANHKGPOJDEF
 message FishBattleEndReq {
 	uint32 max_bonus_time = 12;
 	FishBattleResult battle_result = 9;

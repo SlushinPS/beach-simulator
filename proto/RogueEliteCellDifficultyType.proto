@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: JGPBHHPGMHC
 enum RogueEliteCellDifficultyType {
-	RogueEliteCellDifficultyType_RogueEliteNormal = 0;
-	RogueEliteCellDifficultyType_RogueEliteHard = 1;
+	ROGUE_ELITE_NORMAL = 0;
+	ROGUE_ELITE_HARD = 1;
 }

@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "AAIKFOGFMOJ.proto";
-import "DLMFMBIBKDD.proto";
-import "KDGCIAPGPDH.proto";
-import "CJFKKMCHPKG.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "HomeRacingRecord.proto";
+import "HomeBalloonRecord.proto";
+import "HomeStakeRecord.proto";
+import "HomeSeekFurnitureAllRecord.proto";
+// Obf: BDLOJCGKBBH
 message HomeGroupRecord {
 	uint32 group_id = 13;
 	oneof detail {
-		AAIKFOGFMOJ JOMOOAHHGLM = 1583;
-		DLMFMBIBKDD FFHHPACLGNN = 1466;
-		KDGCIAPGPDH MJMGLJNFNKF = 1887;
-		CJFKKMCHPKG INJDAIAJDOF = 696;
+		HomeRacingRecord racing_gallery_info = 1583;
+		HomeBalloonRecord balloon_gallery_info = 1466;
+		HomeStakeRecord stake_play_info = 1887;
+		HomeSeekFurnitureAllRecord seek_furniture_gallery_info = 696;
 	}
 }

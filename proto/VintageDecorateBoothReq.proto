@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "DPOLIKKKKLA.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "CustomGadgetTreeInfo.proto";
 // CmdId: 24321
+// Obf: DHGHMOFNLHJ
 message VintageDecorateBoothReq {
-	DPOLIKKKKLA combination_info = 3;
+	CustomGadgetTreeInfo combination_info = 3;
 	uint32 entity_id = 10;
 }

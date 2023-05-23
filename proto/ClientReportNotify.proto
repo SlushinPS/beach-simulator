@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 94
+// Obf: JPGJCONIBGC
 message ClientReportNotify {
-	string EEDNGFLJDEP = 13;
-	string DECKNJGEGCP = 7;
+	string FKBNBKFNBDK = 13;
+	string HGDGHCLHDMG = 7;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "SumoTeamData.proto";
 // CmdId: 8326
+// Obf: EOBIHPJLCPA
 message SumoSelectTeamAndEnterDungeonReq {
 	repeated SumoTeamData team_list = 6;
 	uint32 difficulty_id = 14;

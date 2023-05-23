@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4762
+// Obf: KOMBHGLOIOI
 message TryEnterHomeRsp {
 	uint32 target_uid = 11;
 	repeated uint32 param_list = 6;

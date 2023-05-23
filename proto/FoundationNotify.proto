@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "DGNBNKHBONE.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "FoundationInfo.proto";
 // CmdId: 838
+// Obf: MLGJDILLNOB
 message FoundationNotify {
-	DGNBNKHBONE info = 2;
+	FoundationInfo info = 2;
 	uint32 gadget_entity_id = 5;
 }

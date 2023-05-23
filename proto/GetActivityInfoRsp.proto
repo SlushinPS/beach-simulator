@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
 import "ActivityInfo.proto";
 // CmdId: 2114
+// Obf: KKDDDKHPGJP
 message GetActivityInfoRsp {
 	repeated Uint32Pair disable_transfer_point_interaction_list = 9;
 	int32 retcode = 7;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PlayerLocationInfo.proto";
+// Obf: GLMHEOCDHBH
 message PlayerWorldLocationInfo {
 	PlayerLocationInfo player_loc = 2;
 	uint32 scene_id = 7;

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DBGOMKHBAHD
 enum TransmitReason {
-	TransmitReason_TransmitNone = 0;
-	TransmitReason_TransmitQuest = 1;
+	TRANSMIT_NONE = 0;
+	TRANSMIT_QUEST = 1;
 }

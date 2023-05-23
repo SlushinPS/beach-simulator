@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: EGHGIMHDENL
 message ChallengeRecord {
-	uint32 MBGMNCPLIOF = 13;
+	uint32 NHCAFELKGEN = 13;
 	uint32 challenge_id = 14;
 	uint32 challenge_index = 15;
-	uint32 MKOADFDNPIL = 5;
+	uint32 currentValue = 5;
 }

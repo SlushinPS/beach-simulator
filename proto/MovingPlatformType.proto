@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: EKIOLBCKCAO
 enum MovingPlatformType {
-	MovingPlatformType_MovingPlatformNone = 0;
-	MovingPlatformType_MovingPlatformUseConfig = 1;
-	MovingPlatformType_MovingPlatformAbility = 2;
-	MovingPlatformType_MovingPlatformRoute = 3;
+	MOVING_PLATFORM_TYPE_NONE = 0;
+	MOVING_PLATFORM_TYPE_USE_CONFIG = 1;
+	MOVING_PLATFORM_TYPE_ABILITY = 2;
+	MOVING_PLATFORM_TYPE_ROUTE = 3;
 }

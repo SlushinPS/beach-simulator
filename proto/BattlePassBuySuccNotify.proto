@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 // CmdId: 2635
+// Obf: JCFLLLAJOAJ
 message BattlePassBuySuccNotify {
 	uint32 schedule_id = 8;
-	uint32 FAEHDDDHOBB = 3;
+	uint32 KIAHMPEBJDL = 3;
 	repeated ItemParam item_list = 2;
-	uint32 KDIOJCKGFIF = 11;
+	uint32 IEGIKGOKEID = 11;
 }

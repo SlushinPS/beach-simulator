@@ -15,10 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-import "CIIKACHFINK.proto";
+option java_package = "emu.grasscutter.net.proto";
+import "GCGDiceSideType.proto";
 // CmdId: 7015
 message JKEOIDCJIIP {
-	repeated uint32 KIPJADHJAMJ = 8;
-	repeated uint32 FBFGLNIGECO = 6;
-	repeated CIIKACHFINK JCNGIBHCCOL = 15;
+	repeated uint32 BGDDGFCMNAG = 8;
+	repeated uint32 MNKAFMGHHMH = 6;
+	repeated GCGDiceSideType dice_side_list = 15;
 }

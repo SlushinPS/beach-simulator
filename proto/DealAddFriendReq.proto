@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "DealAddFriendResultType.proto";
 // CmdId: 4058
+// Obf: PIAFDFFMOBK
 message DealAddFriendReq {
 	uint32 target_uid = 15;
 	DealAddFriendResultType deal_add_friend_result = 4;

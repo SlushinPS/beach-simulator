@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 22016
+// Obf: JPBFJMKGFIG
 message LanV3ShadowFinishLevelRsp {
 	int32 retcode = 3;
 }

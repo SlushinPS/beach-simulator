@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "BounceConjuringGallerySettleInfo.proto";
 // CmdId: 8291
+// Obf: MLAFHDNKJEB
 message BounceConjuringSettleNotify {
 	uint32 total_score = 15;
 	uint32 chapter_id = 5;

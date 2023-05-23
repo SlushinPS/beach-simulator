@@ -15,16 +15,18 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 // CmdId: 698
+// Obf: BKHCHIAKGAO
 message CombineRsp {
 	uint32 combine_id = 3;
 	uint64 avatar_guid = 9;
 	uint32 combine_count = 7;
-	repeated ItemParam CCDJJEPAMFD = 10;
+	repeated ItemParam totalExtraItemList = 10;
 	repeated ItemParam cost_item_list = 1;
-	repeated ItemParam DLBKKABFFJD = 11;
+	repeated ItemParam result_item_list = 11;
 	int32 retcode = 13;
-	repeated ItemParam GLEDPHGAPNG = 4;
-	repeated ItemParam PDFDKNACDOH = 8;
+	repeated ItemParam totalRandomItemList = 4;
+	repeated ItemParam total_return_item_list = 8;
 }

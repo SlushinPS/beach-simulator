@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "MassivePropParam.proto";
+// Obf: HNDJPPEKOPF
 message MassivePropSyncInfo {
 	int64 id = 1;
 	repeated MassivePropParam prop_list = 2;

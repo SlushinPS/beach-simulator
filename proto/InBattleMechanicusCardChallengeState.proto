@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: FHPDBJDFEJF
 enum InBattleMechanicusCardChallengeState {
-	InBattleMechanicusCardChallengeState_InBattleMechanicusCardChallengeNone = 0;
-	InBattleMechanicusCardChallengeState_InBattleMechanicusCardChallengeOnGoing = 1;
-	InBattleMechanicusCardChallengeState_InBattleMechanicusCardChallengeFail = 2;
-	InBattleMechanicusCardChallengeState_InBattleMechanicusCardChallengeSuccess = 3;
+	IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE = 0;
+	IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING = 1;
+	IN_BATTLE_MECHANICUS_CARD_CHALLENGE_FAIL = 2;
+	IN_BATTLE_MECHANICUS_CARD_CHALLENGE_SUCCESS = 3;
 }

@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
+// Obf: KEOGDMLAMBC
 message ShapeBox {
 	Vector center = 1;
 	Vector axis0 = 2;

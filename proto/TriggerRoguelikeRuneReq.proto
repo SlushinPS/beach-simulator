@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 8661
+// Obf: EMJGMMMOINA
 message TriggerRoguelikeRuneReq {
 	uint32 rune_id = 4;
 }

@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "GroupLinkBundle.proto";
 // CmdId: 5778
+// Obf: JMLCPNBJIEM
 message GroupLinkAllNotify {
 	repeated GroupLinkBundle bundle_list = 7;
 }

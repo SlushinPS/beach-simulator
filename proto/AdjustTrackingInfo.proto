@@ -15,11 +15,13 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: IEMLLFGMPCI
 message AdjustTrackingInfo {
-	string EJFLMNNJJAK = 6;
-	string OEHKOOLEJPI = 5;
-	string OPMJBGJMAKN = 2;
-	string FINPNCIHIGE = 9;
-	string NOEINBFGKKM = 11;
-	string AFCJKOMEDMK = 15;
+	string LKKFJNDEIAB = 6;
+	string DLKIMODBMME = 5;
+	string JEKNGABCEOG = 2;
+	string BBLFIMANGAD = 9;
+	string AJCKEINKHMB = 11;
+	string PACALGLDIGB = 15;
 }

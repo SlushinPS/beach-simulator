@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 // CmdId: 4414
+// Obf: DMLMFFCPOKO
 message ScenePlayBattleInterruptNotify {
 	uint32 interrupt_state = 3;
 	uint32 play_type = 10;

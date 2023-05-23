@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CustomDungeonBrief.proto";
 import "CustomDungeonBanInfo.proto";
 // CmdId: 6236
+// Obf: MIMFOAIFLLF
 message GetCustomDungeonRsp {
 	int32 retcode = 5;
 	repeated CustomDungeonBrief brief_list = 8;

@@ -15,9 +15,11 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: DKFEAEEPKME
 enum DungeonCandidateTeamPlayerLeaveReason {
-	DungeonCandidateTeamPlayerLeaveReason_DungeonCandidateTplrNormal = 0;
-	DungeonCandidateTeamPlayerLeaveReason_DungeonCandidateTplrDie = 1;
-	DungeonCandidateTeamPlayerLeaveReason_DungeonCandidateTplrBeKick = 2;
-	DungeonCandidateTeamPlayerLeaveReason_DungeonCandidateDisconnect = 3;
+	DUNGEON_CANDIDATE_TPLR_NORMAL = 0;
+	DUNGEON_CANDIDATE_TPLR_DIE = 1;
+	DUNGEON_CANDIDATE_TPLR_BE_KICK = 2;
+	DUNGEON_CANDIDATE_DISCONNECT = 3;
 }

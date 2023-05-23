@@ -15,32 +15,34 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "GachaUpInfo.proto";
+// Obf: HNNEGNIHGED
 message GachaInfo {
-	uint32 KEOMGILDLOA = 13;
-	string GOLGDKJHIAI = 3;
+	uint32 gachaTimesLimit = 13;
+	string gachaPrefabPath = 3;
 	bool is_new_wish = 901;
-	string KHHEOENGIBM = 1378;
-	uint32 IKLFIICMICP = 218;
-	uint32 EFMOKLGHKAD = 7;
-	repeated uint32 PJAOIJALELL = 21;
-	string HKCAHBKHDFD = 1;
-	uint32 LAOEEBDFPNM = 1818;
-	uint32 GGOPICBLJKH = 1593;
-	string PEPPMAOGMGK = 1379;
+	string titleTextmap = 1378;
+	uint32 wishMaxProgress = 218;
+	uint32 leftGachaTimes = 7;
+	repeated uint32 displayUp4ItemList = 21;
+	string gachaProbUrl = 1;
+	uint32 curScheduleDailyGachaTimes = 1818;
+	uint32 tenCostItemId = 1593;
+	string gachaRecordUrlOversea = 1379;
 	uint32 schedule_id = 10;
-	uint32 OLIDDEIGCML = 1219;
-	string NJEFFLDIMNB = 5;
-	uint32 BJIFCDDMDCO = 4;
-	uint32 ELPIPAGGELH = 15;
+	uint32 wishProgress = 1219;
+	string gachaPreviewPrefabPath = 5;
+	uint32 tenCostItemNum = 4;
+	uint32 gachaSortId = 15;
 	repeated GachaUpInfo gacha_up_info_list = 1530;
 	uint32 end_time = 9;
-	uint32 PAJBJMHIOOI = 8;
-	uint32 EKGIFLOFGMK = 2;
-	uint32 GDJJLJNLOIO = 6;
+	uint32 wishItemId = 8;
+	uint32 costItemId = 2;
+	uint32 gachaType = 6;
 	uint32 begin_time = 12;
-	repeated uint32 MABGAEHJFNL = 1273;
-	string HEEMJMFHKCN = 11;
-	string BNEIJJIHHDN = 1326;
-	uint32 GAPLFNMABFG = 14;
+	repeated uint32 displayUp5ItemList = 1273;
+	string gachaRecordUrl = 11;
+	string gachaProbUrlOversea = 1326;
+	uint32 costItemNum = 14;
 }

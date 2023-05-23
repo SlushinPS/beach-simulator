@@ -15,12 +15,15 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 // CmdId: 1138
+// Obf: FHFCIHCBFCH
 message PerformOperationNotify {
+	// Obf: NNFFFOHDDHO
 	enum OperateType {
-		None = 0;
-		Effect = 1;
+		OPERATE_TYPE_NONE = 0;
+		OPERATE_TYPE_EFFECT = 1;
 	}
 	
 	Vector rot = 5;

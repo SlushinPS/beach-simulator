@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "ShowAvatarInfo.proto";
 // CmdId: 4018
+// Obf: IMDEPFBGBPM
 message GetFriendShowAvatarInfoRsp {
 	uint32 uid = 13;
 	repeated ShowAvatarInfo show_avatar_info_list = 10;

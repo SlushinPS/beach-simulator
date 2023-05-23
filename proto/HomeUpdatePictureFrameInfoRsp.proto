@@ -15,8 +15,10 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "HomePictureFrameInfo.proto";
 // CmdId: 4886
+// Obf: NHMHOHMOOEH
 message HomeUpdatePictureFrameInfoRsp {
 	int32 retcode = 15;
 	HomePictureFrameInfo picture_frame_info = 4;

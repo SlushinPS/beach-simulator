@@ -15,7 +15,9 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "CustomDungeonBanType.proto";
+// Obf: ENKNOGJDHFK
 message CustomDungeonBanInfo {
 	uint64 dungeon_guid = 6;
 	uint32 expire_time = 14;

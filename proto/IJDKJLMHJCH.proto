@@ -15,20 +15,21 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "PBPBKLMAEFA.proto";
 // CmdId: 9251
 message IJDKJLMHJCH {
 	uint32 total_score = 10;
-	bool JEBFECKKACK = 11;
-	bool PGBNEPBFBHK = 13;
-	uint32 CHLMNKJBKKI = 4;
-	bool GEIBKDNMOFJ = 1;
-	uint32 KEFEOGBFJND = 8;
-	bool GLMNIDLCDHH = 5;
-	repeated PBPBKLMAEFA CEKLKGJPBPG = 12;
-	bool LIIEDNACOAP = 3;
+	bool DFFHACPAKKN = 11;
+	bool MIINMHPOOAF = 13;
+	uint32 DEJLBDLKHFE = 4;
+	bool JCHLHCKKFHN = 1;
+	uint32 IGLIKBNBPLG = 8;
+	bool DOKMLMFBBAH = 5;
+	repeated PBPBKLMAEFA NJDBPAMNEHN = 12;
+	bool JHAPPHCDIED = 3;
 	uint32 used_time = 2;
 	uint32 enter_type = 15;
-	uint32 FCPFDBEOMDL = 9;
-	bool DLPKBILBEEI = 6;
+	uint32 IJCDJLHLLJI = 9;
+	bool OBIPMOKDBMH = 6;
 }

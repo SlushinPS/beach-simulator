@@ -15,22 +15,24 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// Obf: IJMMJPAEDFE
 enum InteractType {
-	InteractType_InteractNone = 0;
-	InteractType_InteractPickItem = 1;
-	InteractType_InteractGather = 2;
-	InteractType_InteractOpenChest = 3;
-	InteractType_InteractOpenStatue = 4;
-	InteractType_InteractConsum = 5;
-	InteractType_InteractMpPlayReward = 6;
-	InteractType_InteractView = 7;
-	InteractType_InteractGeneralReward = 8;
-	InteractType_InteractMiracleRing = 9;
-	InteractType_InteractFoundation = 10;
-	InteractType_InteractEchoShell = 11;
-	InteractType_InteractHomeGather = 12;
-	InteractType_InteractEnvAnimal = 13;
-	InteractType_InteractQuestGadget = 14;
-	InteractType_InteractUiInteract = 15;
-	InteractType_InteractDeshretObelisk = 16;
+	INTERACT_TYPE_NONE = 0;
+	INTERACT_TYPE_PICK_ITEM = 1;
+	INTERACT_TYPE_GATHER = 2;
+	INTERACT_TYPE_OPEN_CHEST = 3;
+	INTERACT_TYPE_OPEN_STATUE = 4;
+	INTERACT_TYPE_CONSUM = 5;
+	INTERACT_TYPE_MP_PLAY_REWARD = 6;
+	INTERACT_TYPE_VIEW = 7;
+	INTERACT_TYPE_GENERAL_REWARD = 8;
+	INTERACT_TYPE_MIRACLE_RING = 9;
+	INTERACT_TYPE_FOUNDATION = 10;
+	INTERACT_TYPE_ECHO_SHELL = 11;
+	INTERACT_TYPE_HOME_GATHER = 12;
+	INTERACT_TYPE_ENV_ANIMAL = 13;
+	INTERACT_TYPE_QUEST_GADGET = 14;
+	INTERACT_TYPE_UI_INTERACT = 15;
+	INTERACT_TYPE_DESHRET_OBELISK = 16;
 }

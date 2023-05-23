@@ -15,10 +15,12 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
 import "GCGMatchInfo.proto";
 import "MatchType.proto";
 import "GeneralMatchInfo.proto";
 // CmdId: 4175
+// Obf: NNALIHFBBCP
 message PlayerMatchSuccNotify {
 	GCGMatchInfo gcg_match_info = 4;
 	MatchType match_type = 10;
