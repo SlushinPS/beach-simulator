@@ -15,7 +15,7 @@
 // along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 syntax = "proto3";
-option go_package = "/gen";
+option java_package = "emu.grasscutter.net.proto";
 import "WidgetExtraCdType.proto";
 // CmdId: 5977
 // Obf: AEGIILILAJA
