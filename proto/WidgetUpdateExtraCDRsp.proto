@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "WIDGET_EXTRA_CD_TYPE.proto";
+import "WidgetExtraCdType.proto";
 import "WidgetCoolDownData.proto";
 // CmdId: 6018
 // Obf: ECEDMOBDGMI
 message WidgetUpdateExtraCDRsp {
 	int32 retcode = 5;
-	WIDGET_EXTRA_CD_TYPE extra_cd_type = 6;
+	WidgetExtraCdType extra_cd_type = 6;
 	uint32 cd_group = 12;
 	uint32 material_id = 14;
 	WidgetCoolDownData cool_data = 8;

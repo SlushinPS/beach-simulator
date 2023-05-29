@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 // Obf: NEIEMOHMLEA
-enum WIDGET_EXTRA_CD_TYPE {
+enum WidgetExtraCdType {
 	WIDGET_EXTRA_CD_TYPE_NONE = 0;
 	WIDGET_EXTRA_CD_TYPE_E_SKILL_SHARED = 1;
 }
