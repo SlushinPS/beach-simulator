@@ -33,10 +33,10 @@ message DoGachaRsp {
 	uint32 leftGachaTimes = 6;
 	uint32 gachaTimes = 10;
 	uint32 tenCostItemNum = 1;
-	uint32 tenCostItemId = 2;
+	uint32 wishItemId = 2;
 	uint32 costItemNum = 5;
 	bool KIHLEFLGKAD = 888;
-	uint32 wishItemId = 7;
+	uint32 tenCostItemId = 7;
 	uint32 costItemId = 9;
 	bool PLBFOACGPII = 125;
 }

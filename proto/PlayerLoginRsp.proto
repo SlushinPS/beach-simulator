@@ -28,7 +28,7 @@ message PlayerLoginRsp {
 	int32 ability_hash_code = 14;
 	string client_version_suffix = 1903;
 	bool NENMBLFJAMC = 7;
-	bytes playerData = 136;
+	bytes sc_info = 136;
 	string client_md5 = 715;
 	string game_biz = 10;
 	repeated FeatureBlockInfo feature_block_info_list = 114;
@@ -54,7 +54,7 @@ message PlayerLoginRsp {
 	double total_tick_time = 903;
 	string country_code = 1280;
 	uint32 client_data_version = 4;
-	bytes scInfo = 3;
+	bytes player_data = 3;
 	bool GPMHJGJLAFH = 13;
 	uint32 client_silence_data_version = 6;
 	uint32 player_data_version = 2;

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "WidgetCameraInfo.proto";
+import "FGNNOLDBLNO.proto";
 // CmdId: 5979
 message DMAJIHFJDNC {
-	WidgetCameraInfo MHDAHEDKPMG = 15;
+	FGNNOLDBLNO MHDAHEDKPMG = 15;
 }

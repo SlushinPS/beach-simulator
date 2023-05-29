@@ -19,5 +19,5 @@ option java_package = "emu.grasscutter.net.proto";
 import "LanV3BoatMultiPlayerData.proto";
 // Obf: OGJDCOJNONF
 message SceneGalleryBoatMultiInfo {
-	repeated LanV3BoatMultiPlayerData scInfo = 12;
+	repeated LanV3BoatMultiPlayerData player_data = 12;
 }

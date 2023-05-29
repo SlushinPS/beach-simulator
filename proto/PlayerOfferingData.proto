@@ -16,8 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GEFPJNAPGJK
+import "OfferingPariDetailData.proto";
+// Obf: MHPIGIIPLIC
 message PlayerOfferingData {
-	uint32 IGHMDGHKADF = 8;
-	bool CJNBGNOIIJL = 4;
+	map<uint32, uint32> EOLCDPBPNGG = 8;
+	bool is_first_interact = 10;
+	uint32 offering_id = 5;
+	uint32 level = 9;
+	repeated uint32 taken_level_reward_list = 12;
+	bool HJLIDMNHDFD = 3;
+	optional OfferingPariDetailData offering_pari_detail_data = 1695;
 }

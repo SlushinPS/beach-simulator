@@ -18,9 +18,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 // Obf: LPPGEMGIIIC
 message LockedPersonallineData {
-	enum JEMKDFPLHKI {
-		JEMKDFPLHKI_Level = 0;
-		JEMKDFPLHKI_Quest = 1;
+	// Obf: JEMKDFPLHKI
+	enum LockReason {
+		LEVEL = 0;
+		QUEST = 1;
 	}
 	
 	message MKKLIJOGAKA {
@@ -28,7 +29,7 @@ message LockedPersonallineData {
 		uint32 chapter_id = 3;
 	}
 	
-	JEMKDFPLHKI lock_reason = 13;
+	LockReason lock_reason = 13;
 	uint32 personal_line_id = 14;
 	oneof param {
 		uint32 chapter_id = 6;

@@ -19,10 +19,10 @@ option java_package = "emu.grasscutter.net.proto";
 // Obf: PDINDMONLDB
 message ForgeQueueData {
 	uint32 avatar_id = 14;
-	uint32 unfinish_count = 15;
-	uint32 next_finish_timestamp = 13;
-	uint32 finish_count = 4;
+	uint32 finish_count = 15;
+	uint32 total_finish_timestamp = 13;
+	uint32 queue_id = 4;
 	uint32 forge_id = 1;
-	uint32 total_finish_timestamp = 8;
-	uint32 queue_id = 9;
+	uint32 next_finish_timestamp = 8;
+	uint32 unfinish_count = 9;
 }

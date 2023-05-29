@@ -21,7 +21,7 @@ option java_package = "emu.grasscutter.net.proto";
 message GachaWishRsp {
 	int32 retcode = 9;
 	uint32 gachaType = 10;
-	uint32 tenCostItemId = 1;
+	uint32 wishItemId = 1;
 	uint32 wishMaxProgress = 13;
 	uint32 wishProgress = 2;
 	uint32 gachaScheduleId = 4;

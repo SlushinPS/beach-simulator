@@ -21,7 +21,7 @@ option java_package = "emu.grasscutter.net.proto";
 message MistTrialSelectAvatarAndEnterDungeonReq {
 	// Obf: FGPIFIDBMKL
 	message SelectAvatarIndex {
-		oneof LMDJFNHPDIK {
+		oneof detail {
 			uint32 mist_trial_avatar_id = 4;
 			uint64 formal_avatar_guid = 5;
 		}

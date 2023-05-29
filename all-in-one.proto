@@ -2337,7 +2337,7 @@ message MistTrialActivityDetailInfo {
 message MistTrialSelectAvatarAndEnterDungeonReq {
 	// Obf: FGPIFIDBMKL
 	message SelectAvatarIndex {
-		oneof LMDJFNHPDIK {
+		oneof detail {
 			uint32 mist_trial_avatar_id = 4;
 			uint64 formal_avatar_guid = 5;
 		}
@@ -11167,7 +11167,7 @@ message GachaInfo {
 	repeated uint32 displayUp4ItemList = 21;
 	string gachaProbUrl = 1;
 	uint32 curScheduleDailyGachaTimes = 1818;
-	uint32 tenCostItemId = 1593;
+	uint32 wishItemId = 1593;
 	string gachaRecordUrlOversea = 1379;
 	uint32 schedule_id = 10;
 	uint32 wishProgress = 1219;
@@ -11176,7 +11176,7 @@ message GachaInfo {
 	uint32 gachaSortId = 15;
 	repeated GachaUpInfo gacha_up_info_list = 1530;
 	uint32 end_time = 9;
-	uint32 wishItemId = 8;
+	uint32 tenCostItemId = 8;
 	uint32 costItemId = 2;
 	uint32 gachaType = 6;
 	uint32 begin_time = 12;
@@ -11238,10 +11238,10 @@ message DoGachaRsp {
 	uint32 leftGachaTimes = 6;
 	uint32 gachaTimes = 10;
 	uint32 tenCostItemNum = 1;
-	uint32 tenCostItemId = 2;
+	uint32 wishItemId = 2;
 	uint32 costItemNum = 5;
 	bool KIHLEFLGKAD = 888;
-	uint32 wishItemId = 7;
+	uint32 tenCostItemId = 7;
 	uint32 costItemId = 9;
 	bool PLBFOACGPII = 125;
 }
@@ -11259,7 +11259,7 @@ message GachaWishReq {
 message GachaWishRsp {
 	int32 retcode = 9;
 	uint32 gachaType = 10;
-	uint32 tenCostItemId = 1;
+	uint32 wishItemId = 1;
 	uint32 wishMaxProgress = 13;
 	uint32 wishProgress = 2;
 	uint32 gachaScheduleId = 4;
@@ -11972,7 +11972,7 @@ message LanV3BoatMultiPlayerData {
 
 // Obf: OGJDCOJNONF
 message SceneGalleryBoatMultiInfo {
-	repeated LanV3BoatMultiPlayerData scInfo = 12;
+	repeated LanV3BoatMultiPlayerData player_data = 12;
 }
 
 // Obf: DOFBIHDDOHI
@@ -15615,14 +15615,12 @@ message HomeSearchBlueprintRsp {
 }
 
 // CmdId: 4718
-// Obf: JEDIGELMJCL
-message HomeSaveArrangementNoChangeReq {
+message JEDIGELMJCL {
 	string share_code = 2;
 }
 
 // CmdId: 4509
-// Obf: ACNCCGPBILN
-message HomeSaveArrangementNoChangeRsp {
+message ACNCCGPBILN {
 	int32 retcode = 14;
 	HomeBlueprintSlotInfo slot_info = 15;
 }
@@ -16227,12 +16225,12 @@ message CombineRsp {
 // Obf: PDINDMONLDB
 message ForgeQueueData {
 	uint32 avatar_id = 14;
-	uint32 unfinish_count = 15;
-	uint32 next_finish_timestamp = 13;
-	uint32 finish_count = 4;
+	uint32 finish_count = 15;
+	uint32 total_finish_timestamp = 13;
+	uint32 queue_id = 4;
 	uint32 forge_id = 1;
-	uint32 total_finish_timestamp = 8;
-	uint32 queue_id = 9;
+	uint32 next_finish_timestamp = 8;
+	uint32 unfinish_count = 9;
 }
 
 // CmdId: 646
@@ -18246,11 +18244,11 @@ message PlayerOfferingData {
 	uint32 level = 9;
 	repeated uint32 taken_level_reward_list = 12;
 	bool HJLIDMNHDFD = 3;
-	optional PlayerOfferingData offering_pari_detail_data = 1695;
+	optional OfferingPariDetailData offering_pari_detail_data = 1695;
 }
 
 // Obf: GEFPJNAPGJK
-message PlayerOfferingData {
+message OfferingPariDetailData {
 	uint32 IGHMDGHKADF = 8;
 	bool CJNBGNOIIJL = 4;
 }
@@ -18720,7 +18718,7 @@ message PlayerLoginRsp {
 	int32 ability_hash_code = 14;
 	string client_version_suffix = 1903;
 	bool NENMBLFJAMC = 7;
-	bytes playerData = 136;
+	bytes sc_info = 136;
 	string client_md5 = 715;
 	string game_biz = 10;
 	repeated FeatureBlockInfo feature_block_info_list = 114;
@@ -18746,7 +18744,7 @@ message PlayerLoginRsp {
 	double total_tick_time = 903;
 	string country_code = 1280;
 	uint32 client_data_version = 4;
-	bytes scInfo = 3;
+	bytes player_data = 3;
 	bool GPMHJGJLAFH = 13;
 	uint32 client_silence_data_version = 6;
 	uint32 player_data_version = 2;
@@ -19737,19 +19735,21 @@ message QuestDestroyEntityRsp {
 // CmdId: 416
 // Obf: CLNHLPJKIHO
 message ChapterStateNotify {
-	message NNBEJPGCIMD {
+	// Obf: NNBEJPGCIMD
+	message NeedPlayerLevel {
 		bool is_limit = 8;
 		uint32 configNeedPlayerLevel = 1;
 	}
 	
-	message HDPCHNPCKLP {
+	// Obf: HDPCHNPCKLP
+	message NeedBeginTime {
 		uint32 configNeedBeginTime = 4;
 		bool is_limit = 7;
 	}
 	
 	uint32 chapter_id = 9;
-	HDPCHNPCKLP need_begin_time = 13;
-	NNBEJPGCIMD need_player_level = 1;
+	NeedBeginTime need_begin_time = 13;
+	NeedPlayerLevel need_player_level = 1;
 	ChapterState chapter_state = 14;
 }
 
@@ -19913,9 +19913,10 @@ message PersonalLineAllDataReq {
 
 // Obf: LPPGEMGIIIC
 message LockedPersonallineData {
-	enum JEMKDFPLHKI {
-		JEMKDFPLHKI_Level = 0;
-		JEMKDFPLHKI_Quest = 1;
+	// Obf: JEMKDFPLHKI
+	enum LockReason {
+		LEVEL = 0;
+		QUEST = 1;
 	}
 	
 	message MKKLIJOGAKA {
@@ -19923,7 +19924,7 @@ message LockedPersonallineData {
 		uint32 chapter_id = 3;
 	}
 	
-	JEMKDFPLHKI lock_reason = 13;
+	LockReason lock_reason = 13;
 	uint32 personal_line_id = 14;
 	oneof param {
 		uint32 chapter_id = 6;
@@ -24864,8 +24865,7 @@ message WeatherWizardData {
 	uint32 shield_value = 5;
 }
 
-// Obf: FGNNOLDBLNO
-message WidgetCameraInfo {
+message FGNNOLDBLNO {
 	bool NKHNKOHCCHJ = 1;
 }
 
@@ -25028,7 +25028,7 @@ message AllWidgetDataNotify {
 	repeated WidgetCoolDownData HLEHGMDGPDC = 8;
 	repeated uint32 ENNIJLCIBGH = 1276;
 	repeated uint32 background_active_widget_list = 3;
-	WidgetCameraInfo MHDAHEDKPMG = 2;
+	FGNNOLDBLNO MHDAHEDKPMG = 2;
 	repeated OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 12;
 }
 
@@ -25149,14 +25149,14 @@ message WidgetCaptureAnimalRsp {
 message WidgetUpdateExtraCDReq {
 	uint32 cd_group = 10;
 	uint32 material_id = 13;
-	WIDGET_EXTRA_CD_TYPE extra_cd_type = 7;
+	WidgetExtraCdType extra_cd_type = 7;
 }
 
 // CmdId: 6018
 // Obf: ECEDMOBDGMI
 message WidgetUpdateExtraCDRsp {
 	int32 retcode = 5;
-	WIDGET_EXTRA_CD_TYPE extra_cd_type = 6;
+	WidgetExtraCdType extra_cd_type = 6;
 	uint32 cd_group = 12;
 	uint32 material_id = 14;
 	WidgetCoolDownData cool_data = 8;
@@ -25264,7 +25264,7 @@ message WidgetWeatherWizardDataNotify {
 
 // CmdId: 5979
 message DMAJIHFJDNC {
-	WidgetCameraInfo MHDAHEDKPMG = 15;
+	FGNNOLDBLNO MHDAHEDKPMG = 15;
 }
 
 // CmdId: 5905
@@ -27945,7 +27945,7 @@ enum WidgetCreatorOpType {
 }
 
 // Obf: NEIEMOHMLEA
-enum WIDGET_EXTRA_CD_TYPE {
+enum WidgetExtraCdType {
 	WIDGET_EXTRA_CD_TYPE_NONE = 0;
 	WIDGET_EXTRA_CD_TYPE_E_SKILL_SHARED = 1;
 }
