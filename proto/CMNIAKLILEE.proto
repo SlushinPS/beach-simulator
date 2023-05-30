@@ -16,6 +16,6 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-message CMNIAKLILEE {
-	float JNEKCJANDGG = 15;
+message AbilityMixinEliteShield {
+	float sub_shield = 15;
 }

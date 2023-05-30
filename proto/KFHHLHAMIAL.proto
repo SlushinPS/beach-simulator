@@ -16,6 +16,6 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-message KFHHLHAMIAL {
+message AbilityActionServerMonsterLog {
 	repeated int32 param_list = 4;
 }

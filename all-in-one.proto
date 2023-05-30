@@ -129,11 +129,11 @@ message OJBJDBHKLNE {
 
 // Obf: ODBBPNOOEOI
 message AbilityMetaTriggerElementReaction {
-	uint32 ADHLKLLFLPD = 2;
-	uint32 GJFGOBCICLP = 14;
+	uint32 element_reactor_type = 2;
+	uint32 element_reaction_type = 14;
 	int32 hit_index = 3;
 	uint32 trigger_entity_id = 1;
-	uint32 ECHFGCGHGEG = 4;
+	uint32 element_source_type = 4;
 }
 
 message LEGBJIABCMN {
@@ -147,9 +147,9 @@ message AbilityMetaSetPoseParameter {
 
 // Obf: NGEKKGKDJED
 message AbilityMetaUpdateBaseReactionDamage {
-	uint32 DMENLAMJJEM = 1;
-	AbilityString LDEOKEHFACJ = 4;
-	uint32 HLMJBJGKLKD = 15;
+	uint32 reaction_type = 1;
+	AbilityString global_value_key = 4;
+	uint32 source_caster_id = 15;
 	AbilityString ability_name = 3;
 }
 
@@ -199,7 +199,7 @@ message NPDLPJGBLME {
 	float MIEIPCBMANJ = 7;
 }
 
-message KFHHLHAMIAL {
+message AbilityActionServerMonsterLog {
 	repeated int32 param_list = 4;
 }
 
@@ -255,33 +255,34 @@ message GPKKGDNIAIB {
 	bool KLAGFFLCLCM = 4;
 }
 
-message CMNIAKLILEE {
-	float JNEKCJANDGG = 15;
+// Obfuscated: AbilityMixinEliteShield
+message AbilityMixinEliteShield {
+	float sub_shield = 15;
 }
 
-message DEEPMGDNFLH {
-	float JNEKCJANDGG = 4;
-	float JPLABPDDDAA = 11;
-	bool LACELNHKONE = 7;
-	uint32 EEPFLJEMMLD = 14;
-	float HNGHMNBGHLG = 10;
-	uint32 OEEFMKOMJBK = 15;
+message AbilityMixinElementShield {
+	float sub_shield = 4;
+	float max_shield = 11;
+	bool is_shield_broken = 7;
+	uint32 absorb_type = 14;
+	float shield = 10;
+	uint32 player_num = 15;
 }
 
-message CMINCHKMEMO {
-	bool DLFJNEEBLOG = 8;
-	float JNEKCJANDGG = 3;
+message AbilityMixinGlobalShield {
+	bool is_create_effect = 8;
+	float sub_shield = 3;
 	uint32 avatar_id = 12;
-	string DENNPCBBNFD = 13;
-	float ABJCKKIJDJH = 4;
-	float HNGHMNBGHLG = 6;
+	string shield_effect_name = 13;
+	float height_offset = 4;
+	float shield = 6;
 }
 
-message IGBGGICLDLE {
-	float JPLABPDDDAA = 5;
+message AbilityMixinShieldBar {
+	float max_shield = 5;
 	uint32 element_type = 8;
-	uint32 OEEFMKOMJBK = 10;
-	float HNGHMNBGHLG = 7;
+	uint32 player_num = 10;
+	float shield = 7;
 }
 
 // Obf: ECIPFNGJAIF
@@ -330,7 +331,7 @@ message PGBNGHFPGED {
 	float NDFGGJOOPBE = 9;
 }
 
-message PIJBPIFLPAE {
+message AbilityMixinFireworksLauncher {
 	uint32 HNGKHBALOLP = 6;
 	uint32 phase = 13;
 	uint32 BIHDGIPJMGC = 12;
@@ -10355,8 +10356,8 @@ message AbilityIdentifier {
 	uint32 instanced_modifier_id = 11;
 	int32 local_id = 2;
 	bool is_serverbuff_modifier = 14;
-	uint32 PLEOONAACJI = 1;
-	uint32 DJPMGPMOPIN = 15;
+	uint32 modifier_owner_id = 1;
+	uint32 ability_caster_id = 15;
 	uint32 instanced_ability_id = 9;
 }
 
@@ -10364,7 +10365,7 @@ message AbilityIdentifier {
 message AttackResult {
 	uint32 GNHFHCDDDBA = 1198;
 	uint32 BHAPFDKHNPD = 82;
-	uint32 PJJEEPKBHIM = 1624;
+	uint32 hashed_anim_event_id = 1624;
 	uint32 KDBNEJKOKDB = 6;
 	float HKDJFJDCKBI = 2018;
 	uint32 LADOHMHIICA = 1640;
@@ -10372,10 +10373,10 @@ message AttackResult {
 	AttackHitEffectResult hit_eff_result = 15;
 	uint32 HAGEIJIIBAE = 1178;
 	float GGPOMBNHHCA = 804;
-	bool KBKKCNLMPHE = 7;
+	bool is_crit = 7;
 	uint32 element_type = 8;
-	uint32 CNCOJEJPNAH = 1597;
-	uint32 KDBJJLGHGBD = 1235;
+	uint32 is_crit = 1597;
+	uint32 amplify_reaction_type = 1235;
 	bool IFHLFNMODNC = 78;
 	uint32 BIIDCDNCFPH = 1;
 	uint32 AFPDNEPONHN = 158;
@@ -10385,13 +10386,13 @@ message AttackResult {
 	float damage = 11;
 	HitCollision hit_collision = 2;
 	bool PFEKJJINPCE = 1765;
-	uint32 BNONIMILAAH = 1772;
+	uint32 addhurt_reaction_type = 1772;
 	Vector resolved_dir = 3;
 	uint32 OJPOIAJBPCN = 316;
-	float EAGHFGPNGHD = 979;
+	float element_durability_attenuation = 979;
 	AbilityIdentifier ability_identifier = 12;
 	bool GMKBKKOFIPN = 309;
-	float CBBCOOIFNCP = 1660;
+	float damage_shield = 1660;
 }
 
 // Obf: FAABEIHJGBK
@@ -10557,7 +10558,7 @@ message AJDKBLNNCOI {
 	Vector CBGCJPMPMKB = 5;
 }
 
-message LGDPLHFPCJE {
+message EvtLightCoreMove {
 	Vector target_pos = 15;
 	float IIMDFODNMKO = 13;
 	float speed = 9;
@@ -23324,7 +23325,7 @@ message AISnapshotEntityData {
 	uint32 FCPDGFADJGP = 6;
 }
 
-message HLNPOELHMPO {
+message AISnapshotInfo {
 	repeated AISnapshotEntityData ACFKMPMENHK = 3;
 }
 

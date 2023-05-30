@@ -19,8 +19,8 @@ option java_package = "emu.grasscutter.net.proto";
 import "AbilityString.proto";
 // Obf: NGEKKGKDJED
 message AbilityMetaUpdateBaseReactionDamage {
-	uint32 DMENLAMJJEM = 1;
-	AbilityString LDEOKEHFACJ = 4;
-	uint32 HLMJBJGKLKD = 15;
+	uint32 reaction_type = 1;
+	AbilityString global_value_key = 4;
+	uint32 source_caster_id = 15;
 	AbilityString ability_name = 3;
 }

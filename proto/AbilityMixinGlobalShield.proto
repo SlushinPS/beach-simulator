@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-message CMINCHKMEMO {
-	bool DLFJNEEBLOG = 8;
-	float JNEKCJANDGG = 3;
+message AbilityMixinGlobalShield {
+	bool is_create_effect = 8;
+	float sub_shield = 3;
 	uint32 avatar_id = 12;
-	string DENNPCBBNFD = 13;
-	float ABJCKKIJDJH = 4;
-	float HNGHMNBGHLG = 6;
+	string shield_effect_name = 13;
+	float height_offset = 4;
+	float shield = 6;
 }

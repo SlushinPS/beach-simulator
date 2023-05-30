@@ -17,6 +17,6 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AISnapshotEntityData.proto";
-message HLNPOELHMPO {
+message AISnapshotInfo {
 	repeated AISnapshotEntityData ACFKMPMENHK = 3;
 }

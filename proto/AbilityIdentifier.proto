@@ -21,7 +21,7 @@ message AbilityIdentifier {
 	uint32 instanced_modifier_id = 11;
 	int32 local_id = 2;
 	bool is_serverbuff_modifier = 14;
-	uint32 PLEOONAACJI = 1;
-	uint32 DJPMGPMOPIN = 15;
+	uint32 modifier_owner_id = 1;
+	uint32 ability_caster_id = 15;
 	uint32 instanced_ability_id = 9;
 }

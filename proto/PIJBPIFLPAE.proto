@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-message PIJBPIFLPAE {
+message AbilityMixinFireworksLauncher {
 	uint32 HNGKHBALOLP = 6;
 	uint32 phase = 13;
 	uint32 BIHDGIPJMGC = 12;

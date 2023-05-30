@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-message IGBGGICLDLE {
-	float JPLABPDDDAA = 5;
+message AbilityMixinShieldBar {
+	float max_shield = 5;
 	uint32 element_type = 8;
-	uint32 OEEFMKOMJBK = 10;
-	float HNGHMNBGHLG = 7;
+	uint32 player_num = 10;
+	float shield = 7;
 }

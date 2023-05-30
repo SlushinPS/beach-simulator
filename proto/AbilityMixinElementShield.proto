@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-message DEEPMGDNFLH {
-	float JNEKCJANDGG = 4;
-	float JPLABPDDDAA = 11;
-	bool LACELNHKONE = 7;
-	uint32 EEPFLJEMMLD = 14;
-	float HNGHMNBGHLG = 10;
-	uint32 OEEFMKOMJBK = 15;
+message AbilityMixinElementShield {
+	float sub_shield = 4;
+	float max_shield = 11;
+	bool is_shield_broken = 7;
+	uint32 absorb_type = 14;
+	float shield = 10;
+	uint32 player_num = 15;
 }

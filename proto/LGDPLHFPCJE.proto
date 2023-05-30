@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-message LGDPLHFPCJE {
+message EvtLightCoreMove {
 	Vector target_pos = 15;
 	float IIMDFODNMKO = 13;
 	float speed = 9;
