@@ -255,7 +255,6 @@ message GPKKGDNIAIB {
 	bool KLAGFFLCLCM = 4;
 }
 
-// Obfuscated: AbilityMixinEliteShield
 message AbilityMixinEliteShield {
 	float sub_shield = 15;
 }
