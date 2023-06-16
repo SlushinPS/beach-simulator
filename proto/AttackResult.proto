@@ -34,7 +34,7 @@ message AttackResult {
 	float GGPOMBNHHCA = 804;
 	bool is_crit = 7;
 	uint32 element_type = 8;
-	bool attack_timestamp_ms = 1597;
+	uint32 attack_timestamp_ms = 1597;
 	uint32 amplify_reaction_type = 1235;
 	bool IFHLFNMODNC = 78;
 	uint32 BIIDCDNCFPH = 1;
