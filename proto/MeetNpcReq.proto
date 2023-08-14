@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 558
-// Obf: JPJOIOMFOBI
+// CmdId: 25501
+// Obf: LACPJBOMAAM
 message MeetNpcReq {
-	uint32 npc_id = 14;
+	uint32 npc_id = 4;
 }

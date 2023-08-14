@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CEIJNOGDKID
+// Obf: MGMDCJEEMPF
 message MaterialInfo {
-	uint32 count = 13;
-	uint64 guid = 2;
+	uint64 guid = 6;
+	uint32 count = 4;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomePictureFrameInfo.proto";
-// CmdId: 4569
-// Obf: DFKKKGLCFLG
+// CmdId: 5532
+// Obf: BNDPJBMPDKK
 message HomeUpdatePictureFrameInfoReq {
-	HomePictureFrameInfo picture_frame_info = 4;
+	HomePictureFrameInfo picture_frame_info = 2;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5063
-// Obf: NJMHNPHGKBN
+// CmdId: 28864
+// Obf: CCOAMGKAFMI
 message ReunionSettleNotify {
 }

@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeSeekFurnitureOneRecord.proto";
-// Obf: CJFKKMCHPKG
+// Obf: MKKMMPLDODC
 message HomeSeekFurnitureAllRecord {
-	repeated HomeSeekFurnitureOneRecord record_list = 4;
+	repeated HomeSeekFurnitureOneRecord record_list = 11;
 }

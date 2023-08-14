@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HuntingPair.proto";
-// CmdId: 4339
-// Obf: INLJEJMBAAD
+// CmdId: 26705
+// Obf: BGHOFJJBJJI
 message GetHuntingOfferRewardRsp {
-	HuntingPair hunting_pair = 1;
-	int32 retcode = 13;
-	uint32 city_id = 15;
+	int32 retcode = 2;
+	uint32 city_id = 9;
+	HuntingPair hunting_pair = 15;
 }

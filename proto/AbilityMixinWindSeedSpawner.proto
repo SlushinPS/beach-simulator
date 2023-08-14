@@ -17,25 +17,25 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: ECIPFNGJAIF
+// Obf: GODBLNPFIIG
 message AbilityMixinWindSeedSpawner {
-	// Obf: EKDJLLIPACM
+	// Obf: KOLEALFBLKF
 	message AddSignal {
 	}
 	
-	// Obf: FLOPFNIHOIO
+	// Obf: PKIEIPCDKJN
 	message RefreshSeed {
-		repeated Vector pos_list = 1;
+		repeated Vector pos_list = 9;
 	}
 	
-	// Obf: LEOLCCAAAPG
+	// Obf: CMGICLJOGAM
 	message CatchSeed {
-		uint32 entity_id = 1;
+		uint32 entity_id = 9;
 	}
 	
 	oneof cmd {
-		AddSignal add_signal = 13;
-		RefreshSeed refresh_seed = 11;
-		CatchSeed catch_seed = 4;
+		AddSignal add_signal = 2;
+		RefreshSeed refresh_seed = 8;
+		CatchSeed catch_seed = 15;
 	}
 }

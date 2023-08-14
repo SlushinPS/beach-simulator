@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 146
-// Obf: EIJPLGLEGGJ
+// CmdId: 28960
+// Obf: EBCIEMBFFMG
 message TakeCompoundOutputRsp {
-	repeated ItemParam item_list = 9;
-	int32 retcode = 10;
+	int32 retcode = 3;
+	repeated ItemParam item_list = 4;
 }

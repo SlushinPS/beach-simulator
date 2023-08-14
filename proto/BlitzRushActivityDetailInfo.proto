@@ -18,10 +18,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BlitzRushStage.proto";
 import "ParkourLevelInfo.proto";
-// Obf: OGOOALBIKDL
+// Obf: KBIJLFOPMMA
 message BlitzRushActivityDetailInfo {
-	repeated BlitzRushStage stage_list = 13;
-	repeated ParkourLevelInfo parkour_level_info_list = 11;
-	bool is_content_closed = 8;
-	uint32 content_close_time = 3;
+	repeated BlitzRushStage stage_list = 12;
+	repeated ParkourLevelInfo parkour_level_info_list = 13;
+	uint32 content_close_time = 1;
+	bool is_content_closed = 15;
 }

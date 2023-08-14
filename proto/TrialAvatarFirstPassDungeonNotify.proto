@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2005
-// Obf: ACMPPBHOFEN
+// CmdId: 6009
+// Obf: FMDPKNJCNHO
 message TrialAvatarFirstPassDungeonNotify {
-	uint32 trial_avatar_index_id = 7;
+	uint32 trial_avatar_index_id = 6;
 }

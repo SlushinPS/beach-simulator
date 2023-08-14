@@ -18,12 +18,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 import "FurnitureMakeSlot.proto";
-// CmdId: 4887
-// Obf: DKOFNELGLPK
+// CmdId: 6814
+// Obf: JHIOLDPMBAC
 message TakeFurnitureMakeRsp {
-	repeated ItemParam return_item_list = 10;
-	int32 retcode = 5;
-	repeated ItemParam output_item_list = 8;
-	uint32 make_id = 7;
-	FurnitureMakeSlot furniture_make_slot = 14;
+	repeated ItemParam return_item_list = 4;
+	FurnitureMakeSlot furniture_make_slot = 3;
+	repeated ItemParam output_item_list = 6;
+	uint32 make_id = 13;
+	int32 retcode = 7;
 }

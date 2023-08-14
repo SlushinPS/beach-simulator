@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4261
-// Obf: KDHEBBJEAPJ
+// CmdId: 5280
+// Obf: GLLODFLDCPE
 message WidgetUseAttachAbilityGroupChangeNotify {
-	bool is_attach = 8;
+	bool is_attach = 1;
 	uint32 material_id = 3;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4069
-// Obf: FPJKFKPKJOL
+// CmdId: 25424
+// Obf: OBEFEMPNKNB
 message UpdatePlayerShowNameCardListReq {
-	repeated uint32 show_name_card_id_list = 4;
+	repeated uint32 show_name_card_id_list = 14;
 }

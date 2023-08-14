@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "VintageCampChallengeLevelData.proto";
-// Obf: GIEMAGHCMDC
+// Obf: HDDJJFIPJAJ
 message VintageCampChallengeStageData {
-	bool is_finish = 4;
-	bool is_open = 10;
-	uint32 open_time = 12;
-	uint32 CAHPAJPMHIN = 11;
-	uint32 stage_id = 6;
-	map<uint32, VintageCampChallengeLevelData> camp_level_map = 15;
+	uint32 open_time = 2;
+	bool is_finish = 7;
+	uint32 stage_id = 9;
+	map<uint32, VintageCampChallengeLevelData> camp_level_map = 12;
+	uint32 BBDDIHJJNPL = 4;
+	bool is_open = 3;
 }

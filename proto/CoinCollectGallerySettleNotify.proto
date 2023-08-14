@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5542
-// Obf: CPJGALGBPHB
+// CmdId: 1488
+// Obf: PFFNALAEMAI
 message CoinCollectGallerySettleNotify {
-	bool is_new_record = 1;
-	uint32 FOAFDGFNCFL = 13;
-	uint32 multistage_play_index = 8;
-	uint32 HCDKJFMNMAM = 12;
-	uint32 NIOOACIEABD = 3;
-	uint32 level_id = 14;
+	uint32 DKPANNIJPEN = 5;
+	bool is_new_record = 10;
+	uint32 PPHPNNOGALH = 6;
+	uint32 multistage_play_index = 13;
+	uint32 LAJGLFDJOFN = 4;
+	uint32 level_id = 3;
 }

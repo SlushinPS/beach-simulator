@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8828
-// Obf: LNJBNJPOIOP
+// CmdId: 7327
+// Obf: OEBOBHPHPGI
 message MusicGameSettleRsp {
-	int32 retcode = 7;
-	bool is_new_record = 14;
-	uint64 ugc_guid = 12;
-	bool is_unlock_next_level = 11;
-	uint32 music_basic_id = 9;
+	uint64 ugc_guid = 9;
+	int32 retcode = 12;
+	uint32 music_basic_id = 7;
+	bool is_unlock_next_level = 3;
+	bool is_new_record = 6;
 }

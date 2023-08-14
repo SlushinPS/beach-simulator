@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21458
-// Obf: DDJBPDICNCB
+// CmdId: 25829
+// Obf: BEHDPBFFPMC
 message SingleRestartBrickBreakerReq {
-	bool is_dungeon = 5;
-	uint32 level_id = 15;
+	bool is_dungeon = 8;
+	uint32 level_id = 11;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4680
-// Obf: PFNGMNNGOPH
+// CmdId: 2656
+// Obf: NBIOMKJGIHP
 message HomePlantWeedRsp {
-	int32 retcode = 13;
+	int32 retcode = 9;
 }

@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MGPMPNMMBML
+// Obf: DAFDADCAPFG
 message BrickBreakerPlayerBattleInfo {
-	string nickname = 13;
-	repeated uint32 avatar_id = 10;
-	repeated uint32 costume_id = 2;
-	bool is_ready = 4;
-	repeated uint32 skill_list = 15;
-	uint32 uid = 1;
+	string nickname = 2;
+	repeated uint32 skill_list = 9;
 	bool is_changing = 5;
+	uint32 uid = 10;
+	repeated uint32 avatar_id = 7;
+	repeated uint32 costume_id = 13;
+	bool is_ready = 15;
 }

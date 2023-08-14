@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GNIOPBMHDHB
+// Obf: EIJGIMEOODA
 enum GCGSkillHpChangeType {
 	GCG_SKILL_HP_CHANGE_NONE = 0;
 	GCG_SKILL_HP_CHANGE_DAMAGE = 1;

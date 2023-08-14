@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1128
-// Obf: MPFJCFHIFJD
+// CmdId: 2142
+// Obf: JLGEPALKDBL
 message ClientRemoveCombatEndModifierNotify {
-	repeated uint32 combat_end_type_list = 7;
+	repeated uint32 combat_end_type_list = 6;
 }

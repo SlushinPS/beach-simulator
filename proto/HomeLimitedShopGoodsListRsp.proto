@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeLimitedShop.proto";
-// CmdId: 4541
-// Obf: GACCCJLAOOD
+// CmdId: 21781
+// Obf: FNAMPDDEIFI
 message HomeLimitedShopGoodsListRsp {
-	int32 retcode = 13;
-	HomeLimitedShop shop = 6;
+	HomeLimitedShop shop = 3;
+	int32 retcode = 10;
 }

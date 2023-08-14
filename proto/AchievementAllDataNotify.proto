@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Achievement.proto";
-// CmdId: 2678
-// Obf: JGJDJMAOIMP
+// CmdId: 27422
+// Obf: BMJFIOKJEMJ
 message AchievementAllDataNotify {
-	repeated uint32 reward_taken_goal_id_list = 10;
-	repeated Achievement achievement_list = 4;
+	repeated uint32 reward_taken_goal_id_list = 4;
+	repeated Achievement achievement_list = 9;
 }

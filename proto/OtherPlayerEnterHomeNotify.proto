@@ -16,16 +16,16 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4898
-// Obf: LCKJDLDLAPK
+// CmdId: 25817
+// Obf: MGNDPKIPKGO
 message OtherPlayerEnterHomeNotify {
-	// Obf: GPPGDINGBIA
+	// Obf: CMPPPMNICGG
 	enum Reason {
 		INVALID = 0;
 		ENTER = 1;
 		LEAVE = 2;
 	}
 	
-	string nickname = 14;
-	Reason reason = 12;
+	string nickname = 13;
+	Reason reason = 14;
 }

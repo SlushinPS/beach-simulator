@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8743
-// Obf: OPBDFLFEELK
+// CmdId: 8491
+// Obf: BKNKOICDBJG
 message SumoRestartDungeonRsp {
-	int32 retcode = 6;
-	uint32 dungeon_id = 13;
-	uint32 point_id = 14;
+	int32 retcode = 1;
+	uint32 point_id = 3;
+	uint32 dungeon_id = 15;
 }

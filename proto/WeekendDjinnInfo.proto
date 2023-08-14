@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: ILCMJCOHIKF
+// Obf: PDPLPNHEJPH
 message WeekendDjinnInfo {
-	Vector rot = 14;
-	Vector pos = 13;
+	Vector pos = 4;
+	Vector rot = 1;
 }

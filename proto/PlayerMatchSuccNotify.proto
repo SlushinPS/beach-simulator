@@ -16,18 +16,18 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
+import "GeneralMatchInfo.proto";
 import "GCGMatchInfo.proto";
 import "MatchType.proto";
-import "GeneralMatchInfo.proto";
-// CmdId: 4175
-// Obf: NNALIHFBBCP
+// CmdId: 29434
+// Obf: JLBLCFHLPLB
 message PlayerMatchSuccNotify {
-	GCGMatchInfo gcg_match_info = 4;
-	MatchType match_type = 10;
-	GeneralMatchInfo general_match_info = 2;
-	uint32 mp_play_id = 11;
-	uint32 mechanicus_difficult_level = 13;
-	uint32 dungeon_id = 15;
+	GeneralMatchInfo general_match_info = 3;
+	uint32 mp_play_id = 2;
+	GCGMatchInfo gcg_match_info = 11;
+	uint32 mechanicus_difficult_level = 6;
 	uint32 confirm_end_time = 14;
-	uint32 host_uid = 8;
+	uint32 dungeon_id = 4;
+	uint32 host_uid = 13;
+	MatchType match_type = 5;
 }

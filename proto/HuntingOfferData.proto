@@ -18,9 +18,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HuntingPair.proto";
 import "HuntingOfferState.proto";
-// Obf: GPGADPDCPPM
+// Obf: DHGAICOLFFI
 message HuntingOfferData {
-	HuntingPair hunting_pair = 9;
-	HuntingOfferState state = 4;
-	uint32 city_id = 8;
+	HuntingPair hunting_pair = 3;
+	HuntingOfferState state = 11;
+	uint32 city_id = 15;
 }

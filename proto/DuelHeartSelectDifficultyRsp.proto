@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22000
-// Obf: NMMACPCDEGE
+// CmdId: 7396
+// Obf: LLENFJGHGDB
 message DuelHeartSelectDifficultyRsp {
-	int32 retcode = 11;
+	int32 retcode = 12;
 }

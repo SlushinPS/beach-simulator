@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5310
-// Obf: GFLMJBMGIPF
+// CmdId: 27442
+// Obf: PBAMJDOBGEK
 message HideAndSeekPlayerSetAvatarNotify {
-	uint32 avatar_id = 6;
-	uint32 costume_id = 14;
-	uint32 uid = 3;
+	uint32 uid = 11;
+	uint32 costume_id = 2;
+	uint32 avatar_id = 4;
 }

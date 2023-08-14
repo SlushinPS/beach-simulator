@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8771
-// Obf: ONDACBGBMBH
+// CmdId: 27081
+// Obf: GIOABFNFFNB
 message RogueDiaryDungeonSettleNotify {
-	bool is_finish = 3;
-	uint32 explore_time = 11;
-	uint32 cur_round = 15;
+	uint32 explore_time = 13;
+	bool is_finish = 11;
+	uint32 cur_round = 8;
 }

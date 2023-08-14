@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1649
-// Obf: NBINNKHJLNA
+// CmdId: 7930
+// Obf: GDMKNCBFCEH
 message AddBackupAvatarTeamRsp {
-	int32 retcode = 5;
+	int32 retcode = 3;
 }

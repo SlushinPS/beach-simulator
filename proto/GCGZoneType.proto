@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NCIFINONGOL
+// Obf: BENDDOOFHHP
 enum GCGZoneType {
 	GCG_ZONE_INVALID = 0;
 	GCG_ZONE_DECK = 1;

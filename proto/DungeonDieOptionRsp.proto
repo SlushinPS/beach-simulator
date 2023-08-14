@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlayerDieOption.proto";
-// CmdId: 921
-// Obf: HHBNADAJJIL
+// CmdId: 28454
+// Obf: JBMMJNEGEKF
 message DungeonDieOptionRsp {
-	int32 retcode = 14;
-	PlayerDieOption die_option = 13;
-	uint32 revive_count = 9;
+	uint32 revive_count = 5;
+	int32 retcode = 10;
+	PlayerDieOption die_option = 1;
 }

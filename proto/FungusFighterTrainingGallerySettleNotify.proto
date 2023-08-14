@@ -16,16 +16,16 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "HDDANIDHCMI.proto";
-// CmdId: 21415
-// Obf: IDNBMGBLFBN
+import "KDHIAEFLGFM.proto";
+// CmdId: 9469
+// Obf: HDPOABIMFDJ
 message FungusFighterTrainingGallerySettleNotify {
-	uint32 IFFNAGCEBFK = 7;
-	bool is_new_record = 13;
-	uint32 NBGHHOBNBAP = 11;
-	uint32 total_used_time = 3;
-	uint32 PCHOHDFFEIH = 6;
-	bool is_final_settle = 15;
-	HDDANIDHCMI reason = 8;
-	uint32 final_score = 14;
+	uint32 ABILOHCLAHL = 13;
+	uint32 total_used_time = 1;
+	KDHIAEFLGFM reason = 4;
+	bool is_final_settle = 5;
+	uint32 FDFLGEDCHBF = 9;
+	uint32 NGNIJKMMOPP = 14;
+	uint32 final_score = 8;
+	bool is_new_record = 2;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NNEHENIKCMK
+// Obf: HGHGOIMIAMF
 message AvatarExcelInfo {
 	uint64 prefab_path_hash = 1;
 	uint64 prefab_path_remote_hash = 2;

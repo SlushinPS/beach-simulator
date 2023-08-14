@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23458
-// Obf: FMNFIFAKILE
+// CmdId: 22511
+// Obf: OCKMFLIFFMN
 message SingleStartBrickBreakerReq {
-	bool is_dungeon = 14;
-	uint32 level_id = 6;
+	uint32 level_id = 12;
+	bool is_dungeon = 7;
+	repeated uint32 chosen_skill_list = 5;
 	repeated uint32 chosen_avatar_list = 10;
-	repeated uint32 chosen_skill_list = 2;
 }

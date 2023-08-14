@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4080
-// Obf: OEMJDMOKIGJ
+// CmdId: 21934
+// Obf: PDLEAFOICGK
 message UpdatePS4BlockListReq {
-	repeated string psn_id_list = 9;
+	repeated string psn_id_list = 2;
 }

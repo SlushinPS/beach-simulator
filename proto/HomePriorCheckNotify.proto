@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4568
-// Obf: KMHIFHPLAHH
+// CmdId: 1456
+// Obf: HBLLMABHFIK
 message HomePriorCheckNotify {
-	fixed32 end_time = 9;
+	fixed32 end_time = 2;
 }

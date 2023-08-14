@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SumoDungeonTeam.proto";
-// CmdId: 8940
-// Obf: JIGFKOGOJNJ
+// CmdId: 28038
+// Obf: KECJPLAKBOK
 message SumoSwitchTeamRsp {
-	uint32 activity_id = 15;
-	int32 retcode = 3;
-	repeated SumoDungeonTeam dungeon_team_list = 1;
-	uint32 BDAFDFKPJAE = 10;
-	uint32 PHBHNGMAEKN = 12;
-	uint32 stage_id = 9;
+	int32 retcode = 9;
+	repeated SumoDungeonTeam dungeon_team_list = 14;
+	uint32 KLNJLIIECPD = 13;
+	uint32 activity_id = 1;
+	uint32 stage_id = 6;
+	uint32 GNDNKOIMJEL = 2;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "OpActivityInfo.proto";
-// CmdId: 5196
-// Obf: BJPNHBHGANM
+// CmdId: 24674
+// Obf: BKHJGDMECGI
 message GetOpActivityInfoRsp {
-	repeated OpActivityInfo op_activity_info_list = 2;
-	int32 retcode = 9;
+	repeated OpActivityInfo op_activity_info_list = 14;
+	int32 retcode = 12;
 }

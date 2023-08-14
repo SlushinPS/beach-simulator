@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GEGDNIBJGAJ
+// Obf: AFKIPMINMAC
 message GCGTCTavernChallengeData {
-	uint32 character_id = 3;
-	repeated uint32 unlock_level_id_list = 7;
+	uint32 character_id = 8;
+	repeated uint32 unlock_level_id_list = 11;
 }

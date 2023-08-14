@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AsterLittleStageState.proto";
-// Obf: LGDFNBJMBAB
+// Obf: DEILJKMFKIN
 message AsterLittleDetailInfo {
-	uint32 stage_id = 9;
+	uint32 stage_begin_time = 10;
+	bool is_open = 9;
+	uint32 begin_time = 8;
 	AsterLittleStageState stage_state = 7;
-	uint32 stage_begin_time = 14;
-	uint32 begin_time = 4;
-	bool is_open = 5;
+	uint32 stage_id = 11;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1691
-// Obf: LONEJHBMOFM
+// CmdId: 751
+// Obf: POPPHGOPGHG
 message AvatarExpeditionStartReq {
-	uint32 hour_time = 11;
+	uint64 avatar_guid = 13;
+	uint32 hour_time = 12;
 	uint32 exp_id = 6;
-	uint64 avatar_guid = 3;
 }

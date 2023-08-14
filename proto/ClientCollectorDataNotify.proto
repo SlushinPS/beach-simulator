@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ClientCollectorData.proto";
-// CmdId: 4285
-// Obf: DPLPEHGIGIF
+// CmdId: 20387
+// Obf: AALGEEOECHK
 message ClientCollectorDataNotify {
-	repeated ClientCollectorData client_collector_data_list = 4;
+	repeated ClientCollectorData client_collector_data_list = 15;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DEOAPDFEJGL
+// Obf: EABLJPHMFFJ
 message ArenaChallengeMonsterLevel {
-	uint32 DBPEAEAANPG = 11;
-	uint32 PEPMDOACJNL = 13;
+	uint32 CCKGKFMEKKL = 7;
+	uint32 OAHPACPBKJM = 9;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4181
-// Obf: JGAHMLNHPLE
+// CmdId: 8368
+// Obf: CMGBPGFCJDL
 message PlayerGetForceQuitBanInfoRsp {
-	int32 retcode = 11;
 	uint32 match_id = 6;
-	uint32 expire_time = 4;
+	int32 retcode = 12;
+	uint32 expire_time = 3;
 }

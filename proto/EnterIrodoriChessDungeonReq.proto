@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8573
-// Obf: HOEALLEMNAF
+// CmdId: 2229
+// Obf: LOBFOLMLJGH
 message EnterIrodoriChessDungeonReq {
-	bool is_hard_map = 8;
-	uint32 level_id = 6;
+	bool is_hard_map = 4;
+	uint32 level_id = 15;
 }

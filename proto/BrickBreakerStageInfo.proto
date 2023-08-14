@@ -18,9 +18,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BrickBreakerStageType.proto";
 import "BrickBreakerPlayerBattleInfo.proto";
-// Obf: DPELOIJNAMO
+// Obf: OFGDGKOBJKO
 message BrickBreakerStageInfo {
-	BrickBreakerStageType stage_type = 3;
-	repeated BrickBreakerPlayerBattleInfo battle_info_list = 2;
-	uint32 level_id = 1;
+	BrickBreakerStageType stage_type = 15;
+	repeated BrickBreakerPlayerBattleInfo battle_info_list = 8;
+	uint32 level_id = 13;
 }

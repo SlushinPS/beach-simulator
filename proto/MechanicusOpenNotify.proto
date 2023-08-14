@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3955
-// Obf: EBIPBACCALI
+// CmdId: 27627
+// Obf: ODMKJCMNDBL
 message MechanicusOpenNotify {
-	uint32 mechanicus_id = 7;
+	uint32 mechanicus_id = 10;
 }

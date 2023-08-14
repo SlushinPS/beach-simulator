@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24245
-// Obf: IPMNBOLLJOE
+// CmdId: 20635
+// Obf: PHHDEKJIPAM
 message GravenInnocencePhotoFinishRsp {
-	uint32 param = 15;
+	uint32 param = 3;
+	int32 retcode = 8;
 	uint32 object_id = 11;
-	int32 retcode = 7;
 }

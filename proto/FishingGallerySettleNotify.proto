@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FishingGallerySettleInfo.proto";
-// CmdId: 8269
-// Obf: OEIEGAIJMIA
+// CmdId: 3899
+// Obf: BDKGFCKCFMB
 message FishingGallerySettleNotify {
-	uint32 level_id = 6;
-	uint32 gallery_id = 4;
-	FishingGallerySettleInfo settle_info = 3;
+	FishingGallerySettleInfo settle_info = 13;
+	uint32 gallery_id = 12;
+	uint32 level_id = 2;
 }

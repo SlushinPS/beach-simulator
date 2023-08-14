@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
+import "GCGReason.proto";
 import "GCGDiceSideType.proto";
-import "MNDCMMKBIBP.proto";
-// Obf: COHENDMNJKA
+// Obf: DIHCMOBJACH
 message GCGMsgAddDice {
-	map<uint32, GCGDiceSideType> JMNNIEOBKHA = 9;
-	MNDCMMKBIBP reason = 7;
-	map<uint32, GCGDiceSideType> AEDGLBEONFO = 14;
-	int32 change_count = 10;
-	uint32 controller_id = 5;
+	int32 change_count = 6;
+	GCGReason reason = 5;
+	map<uint32, GCGDiceSideType> ACBEOEAMOEF = 3;
+	map<uint32, GCGDiceSideType> HLOGPOGEMKE = 10;
+	uint32 controller_id = 7;
 }

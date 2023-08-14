@@ -17,11 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ArenaChallengeChildChallengeInfo.proto";
-// CmdId: 2044
-// Obf: HIOPICEMBAE
+// CmdId: 20843
+// Obf: KPFJDEAJFFJ
 message ArenaChallengeFinishNotify {
-	repeated ArenaChallengeChildChallengeInfo child_challenge_list = 11;
-	uint32 DBPEAEAANPG = 9;
-	bool is_success = 2;
-	uint32 PEPMDOACJNL = 13;
+	bool is_success = 15;
+	uint32 finish_time = 13;
+	uint32 CCKGKFMEKKL = 9;
+	repeated ArenaChallengeChildChallengeInfo child_challenge_list = 7;
+	bool GEDHGMKJHBB = 8;
+	uint32 OAHPACPBKJM = 10;
 }

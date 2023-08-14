@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChatChannelInfo.proto";
-// CmdId: 5014
-// Obf: DHKHIHOGGGK
+// CmdId: 28285
+// Obf: FCEBEKGCPLB
 message ChatChannelUpdateNotify {
-	bool is_create = 11;
-	uint32 channel_id = 6;
-	ChatChannelInfo channel_info = 12;
+	uint32 channel_id = 1;
+	ChatChannelInfo channel_info = 9;
+	bool is_create = 15;
 }

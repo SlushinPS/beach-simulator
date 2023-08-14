@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DealAddFriendResultType.proto";
-// CmdId: 4058
-// Obf: PIAFDFFMOBK
+// CmdId: 25212
+// Obf: FAIFBJNFCAG
 message DealAddFriendReq {
-	uint32 target_uid = 15;
-	DealAddFriendResultType deal_add_friend_result = 4;
+	DealAddFriendResultType deal_add_friend_result = 11;
+	uint32 target_uid = 1;
 }

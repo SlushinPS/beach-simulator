@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GMCDBNJBEHA
+// Obf: NJLHPPKOGDB
 enum PlayerDieType {
 	PLAYER_DIE_TYPE_NONE = 0;
 	PLAYER_DIE_TYPE_KILL_BY_MONSTER = 1;

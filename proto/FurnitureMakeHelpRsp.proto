@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FurnitureMakeHelpData.proto";
-// CmdId: 4581
-// Obf: HBPNHOHAOOC
+// CmdId: 27261
+// Obf: GDJGEPDLKJE
 message FurnitureMakeHelpRsp {
-	int32 retcode = 8;
-	repeated FurnitureMakeHelpData help_data_list = 6;
+	repeated FurnitureMakeHelpData help_data_list = 10;
+	int32 retcode = 6;
 }

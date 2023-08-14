@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4055
-// Obf: DFDLEHDMCMD
+// CmdId: 9257
+// Obf: DHLNDCPMCPG
 message AskAddFriendReq {
-	uint32 target_uid = 1;
+	uint32 target_uid = 8;
 }

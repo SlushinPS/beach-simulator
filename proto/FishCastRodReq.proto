@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 5826
-// Obf: ANCJEMILKFH
+// CmdId: 21697
+// Obf: PEFPPFGIIFA
 message FishCastRodReq {
-	Vector pos = 12;
-	uint32 ACGBHEIDKAI = 8;
-	uint32 KEMMCONNAMD = 3;
-	uint32 rod_entity_id = 11;
+	uint32 NFOCOLMMGPL = 9;
+	uint32 BGEFEMICKNP = 11;
+	uint32 rod_entity_id = 14;
+	Vector pos = 1;
 }

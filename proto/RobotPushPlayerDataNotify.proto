@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 34
-// Obf: NMAMMHHNPKN
+// CmdId: 23031
+// Obf: HCMPFHKCCGE
 message RobotPushPlayerDataNotify {
-	bytes bin = 8;
+	bytes bin = 15;
 }

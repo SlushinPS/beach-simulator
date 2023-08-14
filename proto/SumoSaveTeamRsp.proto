@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SumoTeamData.proto";
-// CmdId: 8514
-// Obf: BDGFEGOMLPA
+// CmdId: 24118
+// Obf: ELNBOHDIACJ
 message SumoSaveTeamRsp {
-	uint32 difficulty_id = 7;
-	uint32 activity_id = 1;
-	int32 retcode = 3;
-	uint32 stage_id = 15;
-	repeated SumoTeamData team_list = 13;
+	repeated SumoTeamData team_list = 12;
+	uint32 difficulty_id = 3;
+	uint32 activity_id = 5;
+	int32 retcode = 2;
+	uint32 stage_id = 6;
 }

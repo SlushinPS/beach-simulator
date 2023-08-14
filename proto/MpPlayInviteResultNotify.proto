@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1817
-// Obf: IFFDIKELBNI
+// CmdId: 23666
+// Obf: LIPDOBOAING
 message MpPlayInviteResultNotify {
-	uint32 mp_play_id = 14;
-	bool all_argee = 4;
+	bool all_argee = 3;
+	uint32 mp_play_id = 15;
 }

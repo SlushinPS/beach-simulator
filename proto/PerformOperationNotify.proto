@@ -17,18 +17,18 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 1138
-// Obf: FHFCIHCBFCH
+// CmdId: 373
+// Obf: JGGAHIIMHDF
 message PerformOperationNotify {
-	// Obf: NNFFFOHDDHO
+	// Obf: NMEKLIBHDMO
 	enum OperateType {
 		OPERATE_TYPE_NONE = 0;
 		OPERATE_TYPE_EFFECT = 1;
 	}
 	
-	Vector rot = 5;
-	OperateType operate_type = 6;
-	Vector pos = 4;
-	uint32 entity_id = 2;
-	uint32 index = 14;
+	Vector pos = 14;
+	Vector rot = 11;
+	uint32 index = 3;
+	OperateType operate_type = 15;
+	uint32 entity_id = 4;
 }

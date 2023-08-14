@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5356
-// Obf: CICAMCIEDLN
+// CmdId: 24183
+// Obf: NJKMNHCIGEJ
 message HideAndSeekSetReadyReq {
 }

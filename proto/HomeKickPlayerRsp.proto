@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4665
-// Obf: IDENJPLKJKG
+// CmdId: 1719
+// Obf: PEDCPFBACNG
 message HomeKickPlayerRsp {
-	int32 retcode = 10;
-	uint32 target_uid = 14;
-	bool is_kick_all = 4;
+	bool is_kick_all = 10;
+	uint32 target_uid = 9;
+	int32 retcode = 8;
 }

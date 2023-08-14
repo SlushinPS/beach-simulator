@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGPlayerGCGState.proto";
-// CmdId: 7093
-// Obf: DOLLCIEKMJI
+// CmdId: 4765
+// Obf: CEGAFCONLKC
 message GCGWorldPlayerGCGStateRsp {
-	repeated GCGPlayerGCGState player_state = 8;
-	int32 retcode = 13;
+	int32 retcode = 3;
+	repeated GCGPlayerGCGState player_state = 2;
 }

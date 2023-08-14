@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeCustomFurnitureInfo.proto";
-// CmdId: 4737
-// Obf: EBLKLLLFGNH
+// CmdId: 27340
+// Obf: NJACGFFNJGN
 message HomeEditCustomFurnitureReq {
-	HomeCustomFurnitureInfo custom_furniture_info = 3;
+	HomeCustomFurnitureInfo custom_furniture_info = 14;
 }

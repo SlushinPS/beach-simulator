@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 295
-// Obf: KFCNCIDMOJO
+// CmdId: 26264
+// Obf: DPAIPJGEIND
 message SeeMonsterRsp {
-	int32 retcode = 15;
+	int32 retcode = 2;
 }

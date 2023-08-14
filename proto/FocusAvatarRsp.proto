@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1791
-// Obf: AKAJPCFFMFK
+// CmdId: 7821
+// Obf: LPEJMOGHCHH
 message FocusAvatarRsp {
-	int32 retcode = 5;
-	bool is_focus = 6;
-	uint64 avatar_guid = 2;
+	uint64 avatar_guid = 5;
+	int32 retcode = 1;
+	bool is_focus = 15;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MBPEIAOFFNP
+// Obf: COLPNJDOIDM
 message BonusOpActivityInfo {
-	uint32 left_bonus_count = 11;
+	uint32 left_bonus_count = 12;
 }

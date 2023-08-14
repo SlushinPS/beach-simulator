@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7665
-// Obf: IJPKGNKGLLB
+// CmdId: 2039
+// Obf: PEHBIAOIPHD
 message GCGGameMaxNotify {
 }

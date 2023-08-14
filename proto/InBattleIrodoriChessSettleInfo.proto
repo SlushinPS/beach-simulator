@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BLDDHCDFHKM
+// Obf: MOMBFEIPFCD
 message InBattleIrodoriChessSettleInfo {
-	uint32 GPBHPHDEJLI = 12;
-	uint32 HBMBMJPFLCP = 15;
-	uint64 scene_time_ms = 2;
-	bool is_perfect = 5;
-	bool is_activity_end = 14;
-	bool is_new_record = 1;
+	bool is_new_record = 7;
+	uint64 scene_time_ms = 15;
+	uint32 BPPCDLMFKCP = 12;
+	bool is_perfect = 2;
+	uint32 KDPNBLFJKND = 10;
+	bool is_activity_end = 5;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2255
-// Obf: LFDFBNBJKAG
+// CmdId: 1677
+// Obf: DMNNIEIAJJD
 message WatcherEventStageNotify {
-	uint32 add_progress = 5;
-	uint32 stage = 10;
-	uint32 watcher_id = 2;
+	uint32 add_progress = 11;
+	uint32 stage = 12;
+	uint32 watcher_id = 5;
 }

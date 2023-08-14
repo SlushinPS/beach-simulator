@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PFOAMFGJEIF
+// Obf: OJCJONLPBME
 message CoopCg {
-	bool is_unlock = 15;
-	uint32 id = 2;
+	uint32 id = 5;
+	bool is_unlock = 6;
 }

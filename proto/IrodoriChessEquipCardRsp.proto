@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8089
-// Obf: KJHAENANFKD
+// CmdId: 27067
+// Obf: LPIONGNBDIC
 message IrodoriChessEquipCardRsp {
-	int32 retcode = 10;
-	bool is_hard_map = 12;
-	uint32 level_id = 1;
-	uint32 card_id = 4;
+	uint32 level_id = 15;
+	bool is_hard_map = 2;
+	int32 retcode = 8;
+	uint32 card_id = 5;
 }

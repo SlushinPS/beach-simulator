@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CustomDungeonBlock.proto";
-// Obf: DGHOPJKNHOD
+// Obf: MMBJOBCADNI
 message CustomDungeonRoom {
-	repeated CustomDungeonBlock block_list = 3;
-	uint32 room_id = 4;
+	repeated CustomDungeonBlock block_list = 13;
+	uint32 room_id = 12;
 }

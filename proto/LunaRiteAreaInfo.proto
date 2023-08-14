@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "LunaRiteHintStatusType.proto";
-// Obf: KIKAFOBMLKD
+// Obf: MKHIINJPJME
 message LunaRiteAreaInfo {
-	repeated uint32 sacrifice_list = 12;
-	uint32 area_id = 3;
-	uint32 challenge_index = 6;
-	repeated uint32 sacrifice_reward_list = 13;
-	LunaRiteHintStatusType hint_status = 8;
+	repeated uint32 sacrifice_reward_list = 9;
+	repeated uint32 sacrifice_list = 6;
+	uint32 area_id = 4;
+	uint32 challenge_index = 15;
+	LunaRiteHintStatusType hint_status = 3;
 }

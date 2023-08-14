@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AsterLittleDetailInfo.proto";
-// CmdId: 2104
-// Obf: OJJEODCNPNG
+// CmdId: 25815
+// Obf: HHOJCLGOFJC
 message AsterLittleInfoNotify {
-	AsterLittleDetailInfo info = 4;
+	AsterLittleDetailInfo info = 14;
 }

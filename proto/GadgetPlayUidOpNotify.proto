@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 864
-// Obf: KDHMGLPNCNI
+// CmdId: 23635
+// Obf: LFJJDLDCHOP
 message GadgetPlayUidOpNotify {
-	repeated uint32 uid_list = 8;
-	uint32 op = 7;
-	uint32 play_type = 3;
-	uint32 entity_id = 9;
-	string param_str = 2;
-	repeated uint32 param_list = 10;
+	string param_str = 13;
+	repeated uint32 uid_list = 9;
+	repeated uint32 param_list = 6;
+	uint32 op = 5;
+	uint32 entity_id = 15;
+	uint32 play_type = 2;
 }

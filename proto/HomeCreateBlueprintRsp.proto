@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeBlueprintSlotInfo.proto";
-// CmdId: 4855
-// Obf: PGIEJDMDOCG
+// CmdId: 22980
+// Obf: GCFFCBBEIJI
 message HomeCreateBlueprintRsp {
-	HomeBlueprintSlotInfo slot_info = 15;
-	int32 retcode = 5;
+	HomeBlueprintSlotInfo slot_info = 4;
+	int32 retcode = 9;
 }

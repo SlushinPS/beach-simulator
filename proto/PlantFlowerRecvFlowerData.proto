@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// Obf: ILCCGEFKMGM
+// Obf: DBONDPIEKGL
 message PlantFlowerRecvFlowerData {
-	string nickname = 15;
-	ProfilePicture profile_picture = 8;
-	uint32 uid = 11;
-	map<uint32, uint32> flower_num_map = 4;
+	string nickname = 1;
+	uint32 uid = 13;
+	ProfilePicture profile_picture = 4;
+	map<uint32, uint32> flower_num_map = 15;
 }

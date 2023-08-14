@@ -17,10 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: LBCKOMFKMPF
+// Obf: PGLBOHGBPJH
 message DeshretObeliskChestInfo {
-	uint32 group_id = 6;
-	uint32 scene_id = 9;
-	uint32 config_id = 2;
-	Vector pos = 7;
+	Vector pos = 3;
+	uint32 HJMMAOMEHOL = 15;
+	uint32 scene_id = 8;
+	uint32 config_id = 1;
+	uint32 group_id = 10;
 }

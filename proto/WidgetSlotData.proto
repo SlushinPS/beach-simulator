@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "WidgetSlotTag.proto";
-// Obf: BEOHCOKHPFF
+// Obf: BMPCNILFGEJ
 message WidgetSlotData {
-	WidgetSlotTag tag = 1;
+	WidgetSlotTag tag = 11;
+	bool is_active = 7;
 	uint32 material_id = 15;
-	bool is_active = 6;
-	uint32 cd_over_time = 2;
+	uint32 cd_over_time = 12;
 }

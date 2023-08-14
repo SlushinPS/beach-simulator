@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BANHLKHPLBC
+// Obf: HHAFHACABKN
 message SceneGalleryTreasureSeelieInfo {
-	uint32 goal = 9;
-	uint32 progress = 5;
+	uint32 goal = 7;
+	uint32 progress = 9;
 }

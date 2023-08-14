@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 831
-// Obf: MBCKGODOAMI
+// CmdId: 29875
+// Obf: FJIDLNFEHBG
 message CreateVehicleReq {
-	Vector pos = 12;
 	uint32 scene_point_id = 4;
-	Vector rot = 3;
-	uint32 vehicle_id = 1;
+	Vector pos = 10;
+	uint32 vehicle_id = 11;
+	Vector rot = 5;
 }

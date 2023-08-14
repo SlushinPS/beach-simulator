@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20591
-// Obf: IANIJNOAGBH
+// CmdId: 21038
+// Obf: MOBJEOLKNCA
 message LanV3BoatGameStartSingleReq {
 }

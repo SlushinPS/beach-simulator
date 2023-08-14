@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "WidgetSlotData.proto";
-// CmdId: 4268
-// Obf: IPJHCDMFGBB
+// CmdId: 22991
+// Obf: NNEPBELAGJA
 message WidgetActiveChangeNotify {
-	repeated WidgetSlotData widget_data_list = 1;
+	repeated WidgetSlotData widget_data_list = 8;
 }

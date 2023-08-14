@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MJJIHNCKJAL
+// Obf: NFKLEIMGKJD
 message BreakoutPhysicalObjectModifier {
 	uint32 type = 1;
 	uint32 id = 2;

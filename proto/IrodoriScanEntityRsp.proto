@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "IrodoriPoetryThemeData.proto";
-// CmdId: 8974
-// Obf: EGHJOBIEFBH
+// CmdId: 9957
+// Obf: KFCDKGLFNFG
 message IrodoriScanEntityRsp {
-	IrodoriPoetryThemeData theme_data = 4;
-	bool is_get_inspiration = 9;
-	int32 retcode = 11;
+	bool is_get_inspiration = 11;
+	int32 retcode = 10;
+	IrodoriPoetryThemeData theme_data = 5;
 }

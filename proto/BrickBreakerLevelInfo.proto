@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KDBGNEBONLF
+// Obf: PMBMMHHDJOH
 message BrickBreakerLevelInfo {
-	uint32 max_score = 5;
-	uint32 level_id = 4;
-	bool BHFCMBEMGIN = 12;
-	repeated uint32 chosen_avatar_list = 11;
-	repeated uint32 chosen_skill_list = 15;
-	bool is_finish = 7;
+	uint32 level_id = 3;
+	repeated uint32 chosen_avatar_list = 1;
+	repeated uint32 chosen_skill_list = 13;
+	uint32 max_score = 12;
+	bool is_finish = 11;
+	bool JNFKFCEMOFM = 8;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OIFDHDIINHH
+// Obf: JDHFCEDALOK
 message BattlePassCycle {
-	uint32 begin_time = 14;
-	uint32 cycle_idx = 7;
-	uint32 end_time = 8;
+	uint32 cycle_idx = 15;
+	uint32 begin_time = 2;
+	uint32 end_time = 12;
 }

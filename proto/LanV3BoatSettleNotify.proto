@@ -16,18 +16,18 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "ExhibitionDisplayInfo.proto";
 import "LanV3BoatSettleInfo.proto";
-// CmdId: 6554
-// Obf: LBILBIGNGPH
+import "ExhibitionDisplayInfo.proto";
+// CmdId: 27166
+// Obf: HMONBEDKAPN
 message LanV3BoatSettleNotify {
-	repeated uint32 winner_uid_list = 10;
-	uint32 play_index = 1;
-	uint32 stage_type = 9;
-	uint32 begin_time = 2;
-	repeated ExhibitionDisplayInfo score_list = 15;
-	bool is_single = 6;
-	uint32 duration = 14;
-	bool FIABGADCHAH = 11;
-	repeated LanV3BoatSettleInfo settle_info_list = 8;
+	uint32 play_index = 8;
+	repeated LanV3BoatSettleInfo settle_info_list = 10;
+	bool is_single = 1;
+	repeated uint32 winner_uid_list = 7;
+	uint32 begin_time = 6;
+	uint32 stage_type = 13;
+	uint32 duration = 2;
+	repeated ExhibitionDisplayInfo score_list = 3;
+	bool IPELDMIMABF = 14;
 }

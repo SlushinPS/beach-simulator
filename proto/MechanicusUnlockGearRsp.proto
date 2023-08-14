@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3935
-// Obf: DPLJMGGADAP
+// CmdId: 27878
+// Obf: NMNHNKJEAJC
 message MechanicusUnlockGearRsp {
-	int32 retcode = 5;
-	uint32 gear_id = 3;
-	uint32 mechanicus_id = 12;
+	uint32 mechanicus_id = 10;
+	uint32 gear_id = 15;
+	int32 retcode = 9;
 }

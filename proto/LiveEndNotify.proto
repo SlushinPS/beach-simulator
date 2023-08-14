@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 843
-// Obf: GPPFLJNEPCF
+// CmdId: 24015
+// Obf: OEBAJKCJBNJ
 message LiveEndNotify {
-	uint32 live_id = 7;
+	uint32 live_id = 5;
 }

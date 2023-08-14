@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8349
-// Obf: MALPBDIDFOB
+// CmdId: 8823
+// Obf: EKEPBDJDBIJ
 message RefreshRogueDiaryCardReq {
-	repeated uint32 refresh_card_list = 2;
+	repeated uint32 refresh_card_list = 12;
 }

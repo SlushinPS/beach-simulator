@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MailData.proto";
-// CmdId: 1494
-// Obf: OJLGHJJCEKK
+// CmdId: 5536
+// Obf: DCHBLDEKBCN
 message GetAllMailResultNotify {
-	int32 retcode = 7;
-	uint32 packet_be_sent_num = 15;
-	string transaction = 5;
-	repeated MailData mail_list = 3;
-	bool is_collected = 4;
-	uint32 packet_num = 1;
+	bool is_collected = 5;
+	repeated MailData mail_list = 11;
+	uint32 packet_num = 13;
+	string transaction = 10;
+	uint32 packet_be_sent_num = 14;
+	int32 retcode = 15;
 }

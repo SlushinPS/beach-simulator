@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3975
-// Obf: HLKAJKMCKHA
+// CmdId: 6012
+// Obf: LAMDLLMLMJE
 message GetMechanicusInfoReq {
 }

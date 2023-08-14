@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DraftInviteFailReason.proto";
-// Obf: DIIJHBOFECP
+// Obf: FOCNLAMKCBI
 message DraftInviteFailInfo {
-	uint32 uid = 4;
-	DraftInviteFailReason reason = 7;
+	DraftInviteFailReason reason = 10;
+	uint32 uid = 14;
 }

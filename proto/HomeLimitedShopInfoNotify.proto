@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeLimitedShopInfo.proto";
-// CmdId: 4852
-// Obf: PGHENMOIDIC
+// CmdId: 25226
+// Obf: EBOCOJNBEAO
 message HomeLimitedShopInfoNotify {
-	HomeLimitedShopInfo shop_info = 7;
+	HomeLimitedShopInfo shop_info = 14;
 }

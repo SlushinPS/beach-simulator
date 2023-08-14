@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5528
-// Obf: OKKIHBPCIBI
+// CmdId: 25732
+// Obf: OFPELODABHJ
 message GallerySumoKillMonsterNotify {
 	uint32 gallery_id = 1;
-	uint32 score = 5;
-	uint32 DNKNMEGHIIJ = 3;
-	uint32 GNJHGMHMBDK = 15;
+	uint32 ENBKLKPPLHL = 14;
+	uint32 DEJJPIOCJDD = 3;
+	uint32 score = 7;
 }

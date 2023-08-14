@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BreakoutVector2.proto";
-// Obf: LAPCONCKKIG
+// Obf: JBHHKOPAEFB
 message BreakoutAction {
-	// Obf: LBKMLLJIKHB
+	// Obf: BGLHJHMLHAI
 	enum BreakoutActionType {
 		ACTION_TYPE_NONE = 0;
 		ACTION_TYPE_LAUNCH_BALL = 1;
@@ -45,5 +45,5 @@ message BreakoutAction {
 	BreakoutVector2 extra_ball_dir = 15;
 	uint32 extra_ball_index = 16;
 	int32 offset = 17;
-	uint64 HPPJKHIDMIF = 18;
+	uint64 FCCNGNCIFAI = 18;
 }

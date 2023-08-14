@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7014
-// Obf: JLKGIJBKOEI
+// CmdId: 8459
+// Obf: GIPIDCAKMDB
 message GCGLevelChallengeDeleteNotify {
-	repeated uint32 level_id_list = 9;
+	repeated uint32 level_id_list = 7;
 }

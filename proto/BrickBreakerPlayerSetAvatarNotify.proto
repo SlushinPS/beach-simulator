@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5351
-// Obf: JELKPPJLOCE
+// CmdId: 3292
+// Obf: CMPPLEJFGBK
 message BrickBreakerPlayerSetAvatarNotify {
 	uint32 uid = 7;
-	repeated uint32 avatar_id_list = 8;
-	repeated uint32 costume_id_list = 1;
+	repeated uint32 costume_id_list = 9;
+	repeated uint32 avatar_id_list = 2;
 }

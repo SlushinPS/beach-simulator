@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 155
-// Obf: JBEHHNGMGNF
+// CmdId: 5347
+// Obf: JLDKOJCCCAM
 message PlayerLogoutReq {
-	// Obf: EENPAHDJOEO
+	// Obf: HGHJNAABBAM
 	enum Reason {
 		DISCONNECT = 0;
 		CLIENT_REQ = 1;
@@ -32,5 +32,5 @@ message PlayerLogoutReq {
 		REASON_MUIP_MOVE_SAVE_WAIT = 8;
 	}
 	
-	Reason reason = 9;
+	Reason reason = 14;
 }

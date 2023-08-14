@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 244
-// Obf: OMCALLBHENC
+// CmdId: 27395
+// Obf: IBPJOCMNCDM
 message JoinPlayerSceneReq {
-	uint32 target_uid = 2;
+	uint32 target_uid = 3;
 }

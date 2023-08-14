@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4617
-// Obf: KIKDNFFNKBM
+// CmdId: 20101
+// Obf: CMPHGAMCBGN
 message PlayerApplyEnterHomeResultReq {
-	uint32 apply_uid = 13;
-	bool is_agreed = 15;
+	bool is_agreed = 13;
+	uint32 apply_uid = 1;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2151
-// Obf: NKDLBPJOKIC
+// CmdId: 6421
+// Obf: IFNKOMOKHDM
 message SeaLampPopularityNotify {
-	uint32 popularity = 4;
+	uint32 popularity = 6;
 }

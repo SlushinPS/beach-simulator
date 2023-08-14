@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "HDDANIDHCMI.proto";
-// Obf: LDCPEKILGPP
+import "KDHIAEFLGFM.proto";
+// Obf: BEAECNNBMFH
 message IrodoriMasterGallerySettleInfo {
-	uint32 difficult = 11;
-	HDDANIDHCMI reason = 13;
-	uint32 level_id = 5;
+	KDHIAEFLGFM reason = 5;
+	uint32 difficult = 3;
+	bool is_finish = 13;
+	uint32 level_id = 7;
 	uint32 finish_time = 8;
-	bool is_finish = 4;
 }

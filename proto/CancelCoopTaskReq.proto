@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1981
-// Obf: EIPFNDDNKKL
+// CmdId: 27925
+// Obf: EGFKMLLMKGB
 message CancelCoopTaskReq {
-	uint32 chapter_id = 10;
+	uint32 chapter_id = 9;
 }

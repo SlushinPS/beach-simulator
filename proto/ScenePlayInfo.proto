@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PILPOJPDJBA
+// Obf: MGHLAJDMHHO
 message ScenePlayInfo {
+	uint32 play_id = 1;
+	uint32 play_type = 3;
 	uint32 entry_id = 14;
-	uint32 play_id = 2;
-	bool is_open = 10;
-	uint32 play_type = 8;
+	bool is_open = 5;
 }

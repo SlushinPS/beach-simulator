@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OHLHMAEDCHF
+// Obf: HEKOMNEEHCO
 message SceneGalleryCoinCollectInfo {
-	uint32 FOAFDGFNCFL = 12;
-	uint32 HCDKJFMNMAM = 5;
+	uint32 DKPANNIJPEN = 8;
+	uint32 LAJGLFDJOFN = 1;
 }

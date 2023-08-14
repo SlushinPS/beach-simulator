@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeBalloonGalleryRecord.proto";
-// Obf: DLMFMBIBKDD
+// Obf: DKHFCAMLEIE
 message HomeBalloonRecord {
-	repeated HomeBalloonGalleryRecord record_list = 9;
+	repeated HomeBalloonGalleryRecord record_list = 7;
 }

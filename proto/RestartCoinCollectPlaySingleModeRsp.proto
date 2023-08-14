@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24881
-// Obf: PIBIDKICNIP
+// CmdId: 1628
+// Obf: MLPLJOEGFGN
 message RestartCoinCollectPlaySingleModeRsp {
-	int32 retcode = 4;
-	uint32 level_id = 15;
+	int32 retcode = 9;
+	uint32 level_id = 7;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: INKKKGHKLAN
+// Obf: NNODCOEDNIP
 message GCGLimitsInfo {
-	uint32 EDNJLNEFJGA = 11;
-	uint32 PNKLDHDMEOP = 9;
+	uint32 ALDCMICHPPK = 11;
+	uint32 IHELMLLKKJB = 7;
 }

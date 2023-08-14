@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7467
-// Obf: NGGCCHMAKHA
+// CmdId: 8113
+// Obf: DNMKFELFKPN
 message GCGInviteGuestBattleReq {
-	uint32 OANEDGGOLIL = 14;
-	uint32 uid = 4;
+	uint32 GCKJBMKBJEF = 9;
+	uint32 uid = 8;
 }

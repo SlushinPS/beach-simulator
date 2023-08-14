@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 96
-// Obf: KLMHABFENEP
+// CmdId: 25907
+// Obf: FEKNHGPBNMM
 message GmTalkReq {
-	string msg = 5;
+	string msg = 12;
 }

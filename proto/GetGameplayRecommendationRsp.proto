@@ -19,14 +19,14 @@ option java_package = "emu.grasscutter.net.proto";
 import "GameplayRecommendationSkillResponse.proto";
 import "GameplayRecommendationReliquaryResponse.proto";
 import "GameplayRecommendationElementReliquaryResponse.proto";
-// CmdId: 150
-// Obf: MJABCIDLGDE
+// CmdId: 23992
+// Obf: HLFFKKKGBMN
 message GetGameplayRecommendationRsp {
-	uint32 avatar_id = 4;
-	int32 retcode = 15;
+	uint32 avatar_id = 11;
+	int32 retcode = 14;
 	oneof detail {
-		GameplayRecommendationSkillResponse skill_response = 516;
-		GameplayRecommendationReliquaryResponse reliquary_response = 731;
-		GameplayRecommendationElementReliquaryResponse element_reliquary_response = 1452;
+		GameplayRecommendationSkillResponse skill_response = 1712;
+		GameplayRecommendationReliquaryResponse reliquary_response = 255;
+		GameplayRecommendationElementReliquaryResponse element_reliquary_response = 500;
 	}
 }

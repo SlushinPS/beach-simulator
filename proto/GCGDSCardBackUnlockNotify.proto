@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7873
-// Obf: JJOMMBPKJCM
+// CmdId: 27702
+// Obf: NECNIDOCACF
 message GCGDSCardBackUnlockNotify {
-	uint32 card_back_id = 11;
+	uint32 card_back_id = 7;
 }

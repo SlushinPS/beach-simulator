@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EJALGEOEIMH
+// Obf: LIBOAIMMBLM
 message AnnounceData {
-	bool is_center_system_last_5_every_minutes = 14;
-	uint32 end_time = 10;
-	uint32 count_down_frequency = 1;
-	string count_down_text = 7;
-	uint32 center_system_frequency = 8;
-	string center_system_text = 15;
-	uint32 config_id = 9;
+	string count_down_text = 3;
+	bool is_center_system_last_5_every_minutes = 7;
+	uint32 count_down_frequency = 2;
+	uint32 center_system_frequency = 14;
+	uint32 end_time = 5;
 	string dungeon_confirm_text = 11;
-	uint32 begin_time = 3;
+	uint32 config_id = 12;
+	string center_system_text = 1;
+	uint32 begin_time = 10;
 }

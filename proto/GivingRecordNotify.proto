@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GivingRecord.proto";
-// CmdId: 174
-// Obf: HMNBBCGJFMC
+// CmdId: 7258
+// Obf: DPEHMENOLIB
 message GivingRecordNotify {
-	repeated GivingRecord giving_record_list = 9;
+	repeated GivingRecord giving_record_list = 4;
 }

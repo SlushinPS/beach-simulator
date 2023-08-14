@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AnimatorParameterValueInfoPair.proto";
-// Obf: FOHAAJOMMPL
+// Obf: AFDPLNIIALH
 message AbilityMetaSetPoseParameter {
-	AnimatorParameterValueInfoPair value = 15;
+	AnimatorParameterValueInfoPair value = 1;
 }

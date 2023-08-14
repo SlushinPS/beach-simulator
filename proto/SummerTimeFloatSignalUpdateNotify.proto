@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 8915
-// Obf: ALNDGDHHIHD
+// CmdId: 22089
+// Obf: GELOEGAEKOH
 message SummerTimeFloatSignalUpdateNotify {
-	bool is_transfer_anchor = 14;
-	Vector position = 10;
-	uint32 float_signal_id = 7;
+	bool is_transfer_anchor = 10;
+	uint32 float_signal_id = 14;
+	Vector position = 12;
 }

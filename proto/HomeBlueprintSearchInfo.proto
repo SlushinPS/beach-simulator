@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JMHOAMLOICA
+// Obf: ODIFLGOGOJN
 message HomeBlueprintSearchInfo {
-	uint32 module_id = 15;
-	uint32 block_id = 14;
-	string share_code = 5;
-	uint32 scene_id = 7;
+	uint32 module_id = 8;
+	string share_code = 14;
+	uint32 scene_id = 6;
+	uint32 block_id = 1;
 }

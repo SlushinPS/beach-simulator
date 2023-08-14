@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ArenaChallengeMonsterLevel.proto";
-// Obf: HMIIGENHBNM
+// Obf: ILEFEPACMPG
 message ArenaChallengeActivityDetailInfo {
-	bool is_finish_any_level = 8;
-	uint32 world_level = 4;
-	repeated ArenaChallengeMonsterLevel level_list = 12;
-	map<uint32, uint32> level_open_time_map = 1;
+	repeated ArenaChallengeMonsterLevel level_list = 11;
+	uint32 world_level = 10;
+	map<uint32, uint32> level_open_time_map = 2;
+	bool is_finish_any_level = 9;
 }

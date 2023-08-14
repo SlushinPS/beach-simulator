@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGOperation.proto";
-// CmdId: 7674
-// Obf: IDMBCPPJCFL
+// CmdId: 7248
+// Obf: NNJMIPJOLBE
 message GCGOperationReq {
-	uint32 op_seq = 10;
-	GCGOperation op = 1;
-	uint32 BEGGNKBEOKA = 9;
+	uint32 PBGAPCDFIMA = 10;
+	GCGOperation op = 4;
+	uint32 op_seq = 1;
 }

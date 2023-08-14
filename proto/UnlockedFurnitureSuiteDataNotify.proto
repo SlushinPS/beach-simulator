@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4622
-// Obf: EMJHJCPGCPI
+// CmdId: 21457
+// Obf: NECOKLDNPCH
 message UnlockedFurnitureSuiteDataNotify {
-	repeated uint32 furniture_suite_id_list = 9;
-	bool is_all = 1;
+	repeated uint32 furniture_suite_id_list = 8;
+	bool is_all = 7;
 }

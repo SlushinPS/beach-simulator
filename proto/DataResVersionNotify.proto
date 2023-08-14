@@ -17,23 +17,23 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ResVersionConfig.proto";
-// CmdId: 153
-// Obf: FBFJPHHEKEN
+// CmdId: 4819
+// Obf: LICDGGFHBKO
 message DataResVersionNotify {
-	// Obf: CDFDALCLADK
+	// Obf: KHCAEHFNOBI
 	enum DataResVersionOpType {
 		OP_TYPE_NONE = 0;
 		OP_TYPE_RELOGIN = 1;
 		OP_TYPE_MP_RELOGIN = 2;
 	}
 	
-	string client_md5 = 3;
+	string client_version_suffix = 9;
+	ResVersionConfig res_version_config = 2;
+	string client_md5 = 5;
 	bool is_data_need_relogin = 11;
-	uint32 client_data_version = 12;
 	string client_silence_version_suffix = 6;
 	DataResVersionOpType op_type = 14;
-	string client_version_suffix = 5;
-	string client_silence_md5 = 7;
 	uint32 client_silence_data_version = 4;
-	ResVersionConfig res_version_config = 1;
+	uint32 client_data_version = 3;
+	string client_silence_md5 = 12;
 }

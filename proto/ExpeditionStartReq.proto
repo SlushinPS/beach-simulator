@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2038
-// Obf: EJCDOOPMCED
+// CmdId: 24051
+// Obf: OLLOHGNNJOI
 message ExpeditionStartReq {
-	uint32 path_id = 7;
-	uint32 MFNGJOCIAPE = 2;
-	repeated uint32 avatar_id_list = 6;
-	uint32 FLHKBCEIKLE = 12;
+	repeated uint32 avatar_id_list = 3;
+	uint32 DDCIILLJCLH = 13;
+	uint32 EPLFCNHCJOD = 11;
+	uint32 path_id = 9;
 }

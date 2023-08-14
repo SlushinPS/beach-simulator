@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "CreateEntityInfo.proto";
 import "CreateReason.proto";
-// CmdId: 220
-// Obf: BBMIAMJBHKA
+import "CreateEntityInfo.proto";
+// CmdId: 28428
+// Obf: PPLJDAJJGGB
 message SceneCreateEntityReq {
-	CreateEntityInfo entity = 3;
-	bool is_destroy_when_disconnect = 8;
-	CreateReason reason = 11;
+	CreateReason reason = 2;
+	CreateEntityInfo entity = 11;
+	bool is_destroy_when_disconnect = 13;
 }

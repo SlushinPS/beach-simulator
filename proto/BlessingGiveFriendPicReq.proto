@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2012
-// Obf: BPIMGPFHBOC
+// CmdId: 22587
+// Obf: HMELCEMLBOE
 message BlessingGiveFriendPicReq {
-	uint32 uid = 1;
-	uint32 pic_id = 11;
+	uint32 pic_id = 10;
+	uint32 uid = 5;
 }

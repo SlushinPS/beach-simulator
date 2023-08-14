@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlaceInfo.proto";
-// Obf: PPEGAHDIJFM
+// Obf: MOPFLELCLBI
 message SceneGalleryHandballInfo {
-	PlaceInfo ball_place_info = 11;
-	bool is_have_ball = 3;
+	PlaceInfo ball_place_info = 9;
+	bool is_have_ball = 11;
 }

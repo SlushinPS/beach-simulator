@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 748
-// Obf: EDIILLPGAHM
+// CmdId: 1087
+// Obf: PJGBDGNCIEN
 message GetShopmallDataRsp {
-	int32 retcode = 2;
-	repeated uint32 shop_type_list = 3;
+	int32 retcode = 11;
+	repeated uint32 shop_type_list = 7;
 }

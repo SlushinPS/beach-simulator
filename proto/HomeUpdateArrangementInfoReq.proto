@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeSceneArrangementInfo.proto";
-// CmdId: 4871
-// Obf: AHPNGIHKNPH
+// CmdId: 4976
+// Obf: LBFIBLCPDEL
 message HomeUpdateArrangementInfoReq {
-	HomeSceneArrangementInfo scene_arrangement_info = 6;
+	HomeSceneArrangementInfo scene_arrangement_info = 15;
 }

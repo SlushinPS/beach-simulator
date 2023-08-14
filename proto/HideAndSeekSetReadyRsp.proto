@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5363
-// Obf: JCGJMBPDNMG
+// CmdId: 27329
+// Obf: JAKFAKOFAIC
 message HideAndSeekSetReadyRsp {
-	int32 retcode = 13;
+	int32 retcode = 11;
 }

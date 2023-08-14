@@ -19,7 +19,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "BreakoutVector2.proto";
 import "BreakoutPhysicalObjectModifier.proto";
 import "BreakoutBrickInfo.proto";
-// Obf: LKHNDFCFOPP
+// Obf: NFMHCAILCIF
 message BreakoutPhysicalObject {
 	uint32 id = 1;
 	uint32 index = 2;

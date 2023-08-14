@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8519
-// Obf: KCPHLNBFJBL
+// CmdId: 21734
+// Obf: CEDOPBNELNA
 message ChannellerSlabLoopDungeonSelectConditionReq {
-	uint32 dungeon_index = 1;
-	repeated uint32 condition_id_list = 13;
-	uint32 difficulty_id = 5;
+	uint32 dungeon_index = 2;
+	repeated uint32 condition_id_list = 7;
+	uint32 difficulty_id = 11;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8410
-// Obf: DBJBJBFPKHH
+// CmdId: 25296
+// Obf: MPGHKGLKBBJ
 message PhotoActivityFinishRsp {
-	uint32 pos_id = 2;
-	int32 retcode = 5;
+	int32 retcode = 6;
+	uint32 pos_id = 13;
 }

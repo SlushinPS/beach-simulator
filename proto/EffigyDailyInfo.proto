@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: AOAIBCIBMAF
+// Obf: FHBCPCLHPNI
 message EffigyDailyInfo {
-	uint32 day_index = 13;
-	uint32 PGANOOFALKA = 10;
-	uint32 challenge_max_score = 5;
-	uint32 IDEMGOMLJNO = 3;
-	uint32 challenge_id = 2;
-	uint32 begin_time = 9;
-	bool is_first_pass_reward_taken = 12;
+	uint32 BOJLBFLOAPN = 6;
+	uint32 challenge_id = 8;
+	uint32 KDLLALBPPLE = 5;
+	uint32 challenge_max_score = 15;
+	uint32 begin_time = 1;
+	bool is_first_pass_reward_taken = 11;
+	uint32 day_index = 9;
 }

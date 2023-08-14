@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
-// Obf: AHLFNKPJHEC
+// Obf: KOLIJBLPOLE
 message RogueDiaryRoomInfo {
-	repeated Uint32Pair monster_list = 14;
+	bool is_boss = 9;
 	uint32 config_id = 15;
-	bool is_boss = 1;
+	repeated Uint32Pair monster_list = 3;
 }

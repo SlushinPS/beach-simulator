@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ReunionPrivilegeInfo.proto";
-// CmdId: 5065
-// Obf: EEAINPIBIJJ
+// CmdId: 25522
+// Obf: JBHFBBDEGGI
 message ReunionPrivilegeChangeNotify {
-	ReunionPrivilegeInfo privilege_info = 10;
+	ReunionPrivilegeInfo privilege_info = 8;
 }

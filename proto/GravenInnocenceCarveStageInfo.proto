@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DCLHODJLHDM
+// Obf: HLIANKOLINB
 message GravenInnocenceCarveStageInfo {
-	bool is_open = 7;
+	bool is_open = 3;
 	uint32 stage_id = 14;
 }

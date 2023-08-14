@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LMHKLMDCLAK
+// Obf: EBABANMDGDJ
 message EntityConfigHashEntry {
-	uint32 job_id = 9;
-	uint32 entity_id = 10;
-	int32 hash_value = 2;
+	uint32 entity_id = 13;
+	uint32 job_id = 3;
+	int32 hash_value = 6;
 }

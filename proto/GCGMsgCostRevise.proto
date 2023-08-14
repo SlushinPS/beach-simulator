@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGCostReviseInfo.proto";
-// Obf: EKOLLOLAGLB
+// Obf: PNMMBIJFGHP
 message GCGMsgCostRevise {
-	uint32 controller_id = 15;
-	GCGCostReviseInfo cost_revise = 3;
+	GCGCostReviseInfo cost_revise = 8;
+	uint32 controller_id = 12;
 }

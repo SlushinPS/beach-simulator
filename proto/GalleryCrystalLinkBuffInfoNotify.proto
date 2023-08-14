@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5588
-// Obf: CBJBKNGAOCB
+// CmdId: 22914
+// Obf: MMMDDLLNLJL
 message GalleryCrystalLinkBuffInfoNotify {
-	uint32 buff_id = 3;
-	bool is_buff_valid = 7;
-	uint32 gallery_id = 10;
+	uint32 gallery_id = 7;
+	uint32 buff_id = 12;
+	bool is_buff_valid = 6;
 }

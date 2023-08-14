@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1825
-// Obf: AGDDFBNIPBI
+// CmdId: 20263
+// Obf: GLMDBNHLIBM
 message PlayerQuitFromMpNotify {
-	// Obf: MINHGLMIAHJ
+	// Obf: KGFEJILGMPN
 	enum QuitReason {
 		INVALID = 0;
 		HOST_NO_OTHER_PLAYER = 1;
@@ -34,5 +34,5 @@ message PlayerQuitFromMpNotify {
 		KICK_BY_ISLAND_PARTY_GALLERY_START_FAILED = 10;
 	}
 	
-	QuitReason reason = 11;
+	QuitReason reason = 8;
 }

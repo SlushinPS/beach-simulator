@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2406
-// Obf: NBNMBEACMAD
+// CmdId: 22082
+// Obf: IJLOHKDGPCG
 message TowerSurrenderReq {
 }

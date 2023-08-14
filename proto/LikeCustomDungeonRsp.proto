@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6244
-// Obf: LEGOFIBACPK
+// CmdId: 9496
+// Obf: MAPFMIHPLIA
 message LikeCustomDungeonRsp {
-	int32 retcode = 5;
+	int32 retcode = 7;
 }

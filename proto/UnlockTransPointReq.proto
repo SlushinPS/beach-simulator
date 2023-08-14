@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3230
-// Obf: PDOBCLEDKAB
+// CmdId: 27465
+// Obf: GHELOHKEPBF
 message UnlockTransPointReq {
-	uint32 scene_id = 1;
-	uint32 point_id = 9;
+	uint32 point_id = 13;
+	uint32 scene_id = 11;
 }

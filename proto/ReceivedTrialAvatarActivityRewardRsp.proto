@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2116
-// Obf: DMKBHLAHADO
+// CmdId: 9311
+// Obf: MHBGIHPNPPL
 message ReceivedTrialAvatarActivityRewardRsp {
-	uint32 activity_id = 5;
-	int32 retcode = 1;
-	uint32 trial_avatar_index_id = 8;
+	int32 retcode = 8;
+	uint32 trial_avatar_index_id = 2;
+	uint32 activity_id = 1;
 }

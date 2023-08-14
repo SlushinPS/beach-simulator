@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FlightDailyRecord.proto";
-// Obf: MKEIOCFNDGJ
+// Obf: PDOHHNCBKGB
 message FlightActivityDetailInfo {
-	uint32 AHKMMEEKNKE = 4;
-	repeated FlightDailyRecord daily_record_list = 12;
-	uint32 BPGGGEFPDBM = 5;
+	uint32 LNGOLLDBIEC = 11;
+	uint32 MPJCDHBBHMM = 4;
+	repeated FlightDailyRecord daily_record_list = 10;
 }

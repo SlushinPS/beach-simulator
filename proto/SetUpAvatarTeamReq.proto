@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1666
-// Obf: LHAACJBAOOB
+// CmdId: 5889
+// Obf: ADMCJJMPKGL
 message SetUpAvatarTeamReq {
+	repeated uint64 avatar_team_guid_list = 12;
 	uint64 cur_avatar_guid = 13;
-	uint32 team_id = 14;
-	repeated uint64 avatar_team_guid_list = 11;
+	uint32 team_id = 3;
 }

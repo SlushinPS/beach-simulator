@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OFEFIKEPBHJ
+// Obf: GMDIKBODOGN
 message CoinCollectTeamAvatarInfo {
-	uint32 costume_id = 7;
-	uint32 avatar_id = 4;
+	uint32 costume_id = 15;
+	uint32 avatar_id = 3;
 }

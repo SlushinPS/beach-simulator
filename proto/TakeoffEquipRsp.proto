@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 628
-// Obf: LJFIEAFMABI
+// CmdId: 24431
+// Obf: IPGHDPELLAL
 message TakeoffEquipRsp {
-	int32 retcode = 10;
-	uint32 slot = 1;
 	uint64 avatar_guid = 13;
+	uint32 slot = 12;
+	int32 retcode = 15;
 }

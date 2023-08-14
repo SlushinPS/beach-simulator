@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeLimitedShopGoods.proto";
-// CmdId: 4456
-// Obf: EPNDDOIGOBH
+// CmdId: 838
+// Obf: DBEFBPDLHBA
 message HomeLimitedShopBuyGoodsReq {
-	HomeLimitedShopGoods goods = 10;
-	uint32 buy_count = 12;
+	HomeLimitedShopGoods goods = 5;
+	uint32 buy_count = 8;
 }

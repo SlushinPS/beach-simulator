@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// CmdId: 4038
-// Obf: FFBCPLJOOKJ
+// CmdId: 20979
+// Obf: PAGKCLAMNDJ
 message SetPlayerHeadImageRsp {
 	int32 retcode = 8;
-	ProfilePicture profile_picture = 11;
-	uint32 avatar_id = 5;
+	uint32 avatar_id = 13;
+	ProfilePicture profile_picture = 6;
 }

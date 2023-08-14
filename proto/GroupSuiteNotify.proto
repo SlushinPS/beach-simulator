@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3284
-// Obf: PICEJIDPMOD
+// CmdId: 6257
+// Obf: EANOCGOKDIN
 message GroupSuiteNotify {
-	map<uint32, uint32> group_map = 15;
+	map<uint32, uint32> group_map = 10;
 }

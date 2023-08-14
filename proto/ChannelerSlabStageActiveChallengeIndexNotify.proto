@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8068
-// Obf: EJPMHEMFJON
+// CmdId: 25106
+// Obf: HILKCPIOHOJ
 message ChannelerSlabStageActiveChallengeIndexNotify {
-	uint32 stage_id = 3;
-	uint32 challenge_index = 7;
-	uint32 active_camp_index = 4;
+	uint32 challenge_index = 10;
+	uint32 stage_id = 1;
+	uint32 active_camp_index = 9;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JAODNDBPGJA
+// Obf: PLELJEGMEOD
 message AbilityEmbryo {
 	uint32 ability_id = 1;
 	fixed32 ability_name_hash = 2;

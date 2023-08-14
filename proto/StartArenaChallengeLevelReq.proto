@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2173
-// Obf: IGLPNGCGAHF
+// CmdId: 7114
+// Obf: PMNJLIJOOBF
 message StartArenaChallengeLevelReq {
-	uint32 PEPMDOACJNL = 3;
-	uint32 gadget_entity_id = 1;
-	uint32 DBPEAEAANPG = 4;
+	uint32 OAHPACPBKJM = 12;
+	uint32 gadget_entity_id = 6;
+	uint32 CCKGKFMEKKL = 9;
 }

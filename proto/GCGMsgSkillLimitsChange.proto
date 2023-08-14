@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGCardSkillLimitsInfo.proto";
-// Obf: HEDOCLCABBL
+// Obf: NGJOHGDKMCJ
 message GCGMsgSkillLimitsChange {
-	repeated GCGCardSkillLimitsInfo card_limits_change_map = 5;
+	repeated GCGCardSkillLimitsInfo card_limits_change_map = 8;
 }

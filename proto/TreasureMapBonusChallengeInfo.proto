@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FDNBCOFJKJB
+// Obf: DNIFECLOOPI
 message TreasureMapBonusChallengeInfo {
-	bool is_done = 1;
-	uint32 solution_id = 14;
 	bool is_active = 6;
-	uint32 config_id = 11;
-	map<uint32, bool> fragment_map = 5;
+	uint32 config_id = 5;
+	map<uint32, bool> fragment_map = 1;
+	uint32 solution_id = 9;
+	bool is_done = 10;
 }

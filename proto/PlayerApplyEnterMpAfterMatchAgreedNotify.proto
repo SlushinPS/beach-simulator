@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "MatchType.proto";
 import "OnlinePlayerInfo.proto";
-// CmdId: 4198
-// Obf: AFEENHPABLG
+import "MatchType.proto";
+// CmdId: 9475
+// Obf: DHNJCDLKIOF
 message PlayerApplyEnterMpAfterMatchAgreedNotify {
-	MatchType match_type = 5;
-	OnlinePlayerInfo src_player_info = 1;
 	uint32 matchserver_id = 15;
+	OnlinePlayerInfo src_player_info = 14;
+	MatchType match_type = 2;
 }

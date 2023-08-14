@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7807
-// Obf: IIMEOILCLMG
+// CmdId: 3410
+// Obf: BHNLDJOCKJJ
 message GCGHeartBeatNotify {
-	uint32 server_seq = 4;
+	uint32 server_seq = 7;
 }

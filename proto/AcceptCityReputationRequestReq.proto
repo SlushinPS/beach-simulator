@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2835
-// Obf: CIJLDKDCPEO
+// CmdId: 6832
+// Obf: IDPFBCKMKLE
 message AcceptCityReputationRequestReq {
-	uint32 city_id = 12;
-	uint32 request_id = 9;
+	uint32 city_id = 5;
+	uint32 request_id = 10;
 }

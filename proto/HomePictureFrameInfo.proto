@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MLIJNFGLGLP
+// Obf: DCLOEDNCIHD
 message HomePictureFrameInfo {
-	uint32 picture_id = 14;
-	uint32 guid = 3;
+	uint32 guid = 7;
+	uint32 picture_id = 15;
 }

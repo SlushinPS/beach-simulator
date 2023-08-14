@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "HDDANIDHCMI.proto";
-// Obf: IOFOPNAPOLG
+import "KDHIAEFLGFM.proto";
+// Obf: EEDJGOJFOOO
 message LuminanceStoneChallengeGallerySettleInfo {
-	uint32 clean_mud_count = 6;
-	uint32 gallery_id = 12;
-	HDDANIDHCMI reason = 3;
-	uint32 final_score = 14;
-	uint32 kill_monster_count = 9;
-	uint32 kill_special_monster_count = 5;
+	uint32 gallery_id = 8;
+	uint32 final_score = 1;
+	uint32 kill_special_monster_count = 9;
+	KDHIAEFLGFM reason = 11;
+	uint32 kill_monster_count = 14;
+	uint32 clean_mud_count = 2;
 }

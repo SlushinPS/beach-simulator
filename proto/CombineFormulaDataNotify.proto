@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 678
-// Obf: JFJDDJBLOLF
+// CmdId: 25832
+// Obf: CCMFELEODNK
 message CombineFormulaDataNotify {
-	bool is_locked = 15;
-	uint32 combine_id = 10;
+	uint32 combine_id = 14;
+	bool is_locked = 7;
 }

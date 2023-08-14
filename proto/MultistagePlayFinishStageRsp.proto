@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5394
-// Obf: NAIKBPACBNE
+// CmdId: 672
+// Obf: CNDIMMCCOEC
 message MultistagePlayFinishStageRsp {
-	uint32 group_id = 4;
-	int32 retcode = 12;
-	uint32 play_index = 11;
+	int32 retcode = 6;
+	uint32 play_index = 9;
+	uint32 group_id = 3;
 }

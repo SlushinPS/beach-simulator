@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KBJDBGIEOHI
+// Obf: BPPJNIAJACJ
 enum CompoundBoostTakeStatusType {
 	COMPOUND_BOOST_TAKE_STATUS_NONE = 0;
 	COMPOUND_BOOST_TAKE_STATUS_BOOST_ONLY = 1;

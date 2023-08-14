@@ -17,14 +17,14 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ReunionWatcherInfo.proto";
-// Obf: CMNINFHBEON
+// Obf: NOGCOGMPAGJ
 message ReunionMissionInfo {
-	uint32 mission_id = 1;
-	repeated ReunionWatcherInfo watcher_list = 3;
-	bool is_taken_reward = 12;
-	uint32 next_refresh_time = 11;
-	repeated ReunionWatcherInfo cur_day_watcher_list = 10;
 	bool is_finished = 7;
-	uint32 cur_score = 13;
-	repeated bool is_taken_reward_list = 8;
+	uint32 mission_id = 15;
+	bool is_taken_reward = 8;
+	uint32 next_refresh_time = 4;
+	repeated ReunionWatcherInfo watcher_list = 10;
+	repeated bool is_taken_reward_list = 6;
+	repeated ReunionWatcherInfo cur_day_watcher_list = 1;
+	uint32 cur_score = 12;
 }

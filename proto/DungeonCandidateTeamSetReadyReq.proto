@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 911
-// Obf: BIKCPAKMPPO
+// CmdId: 23358
+// Obf: DOCBKNBOMEH
 message DungeonCandidateTeamSetReadyReq {
-	bool is_ready = 9;
+	bool is_ready = 11;
 }

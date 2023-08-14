@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1839
-// Obf: CFJHBMMFNBA
+// CmdId: 6395
+// Obf: JGFCKHJPDFA
 message PlayerApplyEnterMpResultRsp {
-	bool is_agreed = 15;
-	uint32 param = 7;
-	int32 retcode = 9;
-	uint32 apply_uid = 8;
+	uint32 apply_uid = 3;
+	int32 retcode = 12;
+	uint32 param = 11;
+	bool is_agreed = 7;
 }

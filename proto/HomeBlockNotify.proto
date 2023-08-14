@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4506
-// Obf: MDNHCNLMFGF
+// CmdId: 20667
+// Obf: IGGBNCBJKJL
 message HomeBlockNotify {
 	uint32 end_time = 1;
 }

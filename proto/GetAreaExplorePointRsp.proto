@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 293
-// Obf: INHAJBBIIFM
+// CmdId: 27637
+// Obf: OLAMIDKPCCE
 message GetAreaExplorePointRsp {
-	int32 retcode = 13;
-	repeated uint32 explore_point_list = 11;
-	repeated uint32 area_id_list = 3;
+	repeated uint32 explore_point_list = 10;
+	repeated uint32 area_id_list = 1;
+	int32 retcode = 9;
 }

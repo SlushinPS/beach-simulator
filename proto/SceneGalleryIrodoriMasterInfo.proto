@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PDNHGDDELOL
+// Obf: ILOFFNEAFNL
 message SceneGalleryIrodoriMasterInfo {
-	uint32 difficulty = 10;
-	bool is_cg_viewed = 12;
-	uint32 level_id = 11;
+	uint32 level_id = 6;
+	uint32 difficulty = 11;
+	bool is_cg_viewed = 10;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8890
-// Obf: HAFGLPPKHDP
+// CmdId: 20823
+// Obf: IJHLBFKIACH
 message WinterCampTakeExploreRewardReq {
-	uint32 id = 5;
+	uint32 id = 3;
 }

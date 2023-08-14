@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: APKAKNPHEFP
+// Obf: OAHPDJFJHLB
 message BlossomScheduleInfo {
-	uint32 state = 12;
-	uint32 round = 13;
-	uint32 progress = 5;
-	uint32 circle_camp_id = 15;
-	uint32 finish_progress = 4;
-	uint32 refresh_id = 7;
+	uint32 finish_progress = 1;
+	uint32 round = 15;
+	uint32 state = 2;
+	uint32 refresh_id = 5;
+	uint32 circle_camp_id = 13;
+	uint32 progress = 14;
 }

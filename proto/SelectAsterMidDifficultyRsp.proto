@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2010
-// Obf: JJJFHAJLFGF
+// CmdId: 23097
+// Obf: PCNKGFBDAGK
 message SelectAsterMidDifficultyRsp {
-	uint32 difficulty_id = 13;
-	int32 retcode = 6;
-	uint32 gadget_entity_id = 4;
-	uint32 schedule_id = 3;
+	uint32 gadget_entity_id = 10;
+	int32 retcode = 8;
+	uint32 schedule_id = 9;
+	uint32 difficulty_id = 6;
 }

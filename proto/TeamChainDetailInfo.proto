@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TeamChainStageData.proto";
-// Obf: OFKBBPFDJKG
+// Obf: JNEHLOAEHFC
 message TeamChainDetailInfo {
-	bool is_token_costume_reward = 11;
-	repeated TeamChainStageData stage_data_list = 5;
+	bool is_token_costume_reward = 1;
+	repeated TeamChainStageData stage_data_list = 6;
 }

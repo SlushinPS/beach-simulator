@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3007
-// Obf: MLFDDGCBNJD
+// CmdId: 1624
+// Obf: JICAOKFIGGL
 message WidgetQuickHitTreeRsp {
-	int32 retcode = 15;
+	int32 retcode = 10;
 }

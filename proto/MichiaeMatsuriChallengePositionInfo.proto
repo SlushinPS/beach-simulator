@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: FKOFDCNFGIN
+// Obf: FHGHMCBCBEC
 message MichiaeMatsuriChallengePositionInfo {
-	uint32 group_id = 11;
-	Vector pos = 3;
-	uint32 gadget_id = 12;
+	uint32 gadget_id = 14;
+	Vector pos = 11;
+	uint32 group_id = 13;
 }

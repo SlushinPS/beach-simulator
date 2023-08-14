@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ActivityShopSheetInfo.proto";
-// CmdId: 735
-// Obf: LIFMPPDHPGF
+// CmdId: 4109
+// Obf: BKLEPCCPFFB
 message GetActivityShopSheetInfoRsp {
-	uint32 shop_type = 8;
-	int32 retcode = 11;
-	repeated ActivityShopSheetInfo sheet_info_list = 1;
+	repeated ActivityShopSheetInfo sheet_info_list = 5;
+	uint32 shop_type = 1;
+	int32 retcode = 6;
 }

@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// Obf: DHHCMOFDKOL
+// Obf: CKEMBCJCJDM
 message WinterCampFriendWishData {
-	ProfilePicture profile_picture = 7;
-	repeated uint32 item_id_list = 13;
-	uint32 uid = 12;
-	string nickname = 14;
+	ProfilePicture profile_picture = 6;
+	repeated uint32 item_id_list = 5;
+	uint32 uid = 13;
+	string nickname = 15;
 }

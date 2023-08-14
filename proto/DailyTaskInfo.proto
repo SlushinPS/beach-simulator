@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DCPMGKODFKH
+// Obf: IIIDCAPCJOI
 message DailyTaskInfo {
-	uint32 daily_task_id = 9;
-	uint32 progress = 11;
-	uint32 finish_progress = 6;
-	bool is_finished = 1;
-	uint32 reward_id = 12;
+	bool is_finished = 13;
+	uint32 progress = 8;
+	uint32 daily_task_id = 12;
+	uint32 finish_progress = 11;
+	uint32 reward_id = 10;
 }

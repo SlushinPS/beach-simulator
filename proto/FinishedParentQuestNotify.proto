@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ParentQuest.proto";
-// CmdId: 472
-// Obf: ABDJGNCFLAJ
+// CmdId: 27820
+// Obf: EPOAAKIMMFB
 message FinishedParentQuestNotify {
-	repeated ParentQuest parent_quest_list = 8;
+	repeated ParentQuest parent_quest_list = 6;
 }

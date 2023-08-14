@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlayerRoutineInfo.proto";
-// CmdId: 3528
-// Obf: EMEJDIDJBJJ
+// CmdId: 29752
+// Obf: DLKAPGGBEGE
 message PlayerRoutineDataNotify {
-	repeated PlayerRoutineInfo routine_info_list = 3;
+	repeated PlayerRoutineInfo routine_info_list = 4;
 }

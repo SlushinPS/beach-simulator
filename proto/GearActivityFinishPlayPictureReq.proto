@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20570
-// Obf: NNFMMIKGEHA
+// CmdId: 3879
+// Obf: FNIIPFEOEDB
 message GearActivityFinishPlayPictureReq {
-	bool is_success = 4;
+	bool is_success = 5;
 }

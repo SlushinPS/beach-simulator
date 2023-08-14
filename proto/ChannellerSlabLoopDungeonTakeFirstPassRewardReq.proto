@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8140
-// Obf: GBCAPJBLGOP
+// CmdId: 8860
+// Obf: IDPPLHLICBA
 message ChannellerSlabLoopDungeonTakeFirstPassRewardReq {
-	uint32 dungeon_index = 1;
+	uint32 dungeon_index = 12;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GCFNFGACEOP
+// Obf: KBNIDGMCKMD
 message TrialAvatarGrantRecord {
 	uint32 grant_reason = 1;
 	uint32 from_parent_quest_id = 2;

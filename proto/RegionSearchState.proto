@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JEONFIOIHJC
+// Obf: PNAKDNOMNOP
 enum RegionSearchState {
 	REGION_SEARCH_NONE = 0;
 	REGION_SEARCH_UNSTARTED = 1;

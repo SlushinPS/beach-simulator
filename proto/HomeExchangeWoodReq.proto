@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4648
-// Obf: PPFBLNPIJCM
+// CmdId: 20572
+// Obf: IIECGONCCKO
 message HomeExchangeWoodReq {
+	uint32 wood_id = 8;
 	map<uint32, uint32> material_count_map = 6;
-	uint32 wood_id = 10;
 }

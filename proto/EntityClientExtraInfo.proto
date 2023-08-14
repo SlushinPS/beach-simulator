@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: COEAEBKAFKD
+// Obf: LCJDLMMKJCK
 message EntityClientExtraInfo {
 	Vector skill_anchor_position = 1;
 }

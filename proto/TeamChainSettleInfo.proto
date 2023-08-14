@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BIBIJELACGN
+// Obf: LLNMBEJEOMH
 message TeamChainSettleInfo {
-	uint32 total_score = 1;
-	uint32 stage_id = 5;
-	repeated uint32 score_list = 2;
+	repeated uint32 score_list = 3;
+	uint32 difficulty = 15;
+	uint32 total_score = 6;
 	bool is_new_record = 9;
-	uint32 difficulty = 3;
+	uint32 stage_id = 10;
 }

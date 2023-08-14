@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24425
-// Obf: MIKINMGKEBB
+// CmdId: 26195
+// Obf: DBAJDJIELIB
 message VintageMarketStoreViewStrategyRsp {
-	repeated uint32 strategy_list = 11;
-	uint32 strategy_id = 6;
-	int32 retcode = 15;
+	int32 retcode = 5;
+	uint32 strategy_id = 11;
+	repeated uint32 strategy_list = 4;
 }

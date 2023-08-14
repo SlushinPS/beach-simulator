@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AvatarInfo.proto";
-// CmdId: 1758
-// Obf: FPOFHEKPNPK
+// CmdId: 7458
+// Obf: MLOIBCFBPKN
 message AvatarAddNotify {
-	bool is_in_team = 9;
-	AvatarInfo avatar = 3;
+	bool is_in_team = 12;
+	AvatarInfo avatar = 14;
 }

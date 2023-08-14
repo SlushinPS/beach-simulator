@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BINJAMDAACF
+// Obf: MCDPPKMOEJJ
 message PlayerRTTInfo {
-	uint32 uid = 11;
-	uint32 rtt = 1;
+	uint32 rtt = 2;
+	uint32 uid = 1;
 }

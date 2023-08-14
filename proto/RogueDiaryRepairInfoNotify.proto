@@ -18,15 +18,15 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RogueDiaryAvatar.proto";
 import "RogueDiaryRoomInfo.proto";
-// CmdId: 8872
-// Obf: GBHAOHPJBCN
+// CmdId: 9164
+// Obf: HGMNHLNGEBG
 message RogueDiaryRepairInfoNotify {
-	uint32 stage_id = 12;
-	repeated RogueDiaryAvatar avatar_list = 2;
-	repeated RogueDiaryRoomInfo room_list = 9;
+	repeated RogueDiaryAvatar trial_avatar_list = 10;
+	repeated uint32 chosen_card_list = 14;
+	uint32 stage_id = 9;
+	repeated RogueDiaryRoomInfo room_list = 13;
+	repeated uint32 select_card_list = 5;
 	repeated uint32 rand_card_list = 1;
-	repeated uint32 select_card_list = 6;
-	repeated RogueDiaryAvatar select_avatar_list = 13;
-	repeated uint32 chosen_card_list = 5;
-	repeated RogueDiaryAvatar trial_avatar_list = 3;
+	repeated RogueDiaryAvatar select_avatar_list = 11;
+	repeated RogueDiaryAvatar avatar_list = 7;
 }

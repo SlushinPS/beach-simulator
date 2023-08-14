@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4560
-// Obf: LALMMCFMMNA
+// CmdId: 1089
+// Obf: DPKKONFHIHC
 message HomeNewUnlockedBgmIdListNotify {
-	repeated uint32 new_unlocked_bgm_id_list = 14;
+	repeated uint32 new_unlocked_bgm_id_list = 6;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4193
-// Obf: OOLHGCICMMO
+// CmdId: 5393
+// Obf: DJNJMMIGELG
 message PlayerGCGMatchConfirmNotify {
-	bool is_agree = 6;
-	uint32 uid = 8;
-	uint32 match_id = 10;
+	uint32 uid = 14;
+	uint32 match_id = 7;
+	bool is_agree = 4;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2068
-// Obf: KKODGFOHEBE
+// CmdId: 8615
+// Obf: DGNFHHHNOAJ
 message ReceivedTrialAvatarActivityRewardReq {
 	uint32 trial_avatar_index_id = 7;
 }

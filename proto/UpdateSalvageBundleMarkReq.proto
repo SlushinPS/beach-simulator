@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8244
-// Obf: JGCICOBMJOI
+// CmdId: 20695
+// Obf: JCFJMOGFDFD
 message UpdateSalvageBundleMarkReq {
-	uint32 challenge_type = 9;
-	uint32 stage_id = 14;
+	uint32 challenge_type = 2;
+	uint32 stage_id = 1;
 }

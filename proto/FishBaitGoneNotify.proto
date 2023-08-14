@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5813
-// Obf: PHODOIPNOCK
+// CmdId: 3285
+// Obf: LAPCILJDCDH
 message FishBaitGoneNotify {
-	uint32 uid = 1;
+	uint32 uid = 7;
 }

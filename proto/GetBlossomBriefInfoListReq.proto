@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2775
-// Obf: EPFOLEJKHOP
+// CmdId: 29592
+// Obf: PIHIGCAKDMM
 message GetBlossomBriefInfoListReq {
-	repeated uint32 city_id_list = 12;
+	repeated uint32 city_id_list = 11;
 }

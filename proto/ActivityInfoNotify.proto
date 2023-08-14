@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ActivityInfo.proto";
-// CmdId: 2086
-// Obf: LBHPBHMPCND
+// CmdId: 1246
+// Obf: JADBHEGBGIO
 message ActivityInfoNotify {
-	ActivityInfo activity_info = 2;
+	ActivityInfo activity_info = 3;
 }

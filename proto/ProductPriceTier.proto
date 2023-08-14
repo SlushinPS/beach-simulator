@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EPPOGIBBGIB
+// Obf: NHOOLIOIMLH
 message ProductPriceTier {
-	string product_id = 7;
-	string price_tier = 8;
+	string product_id = 5;
+	string price_tier = 4;
 }

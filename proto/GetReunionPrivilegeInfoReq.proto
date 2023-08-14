@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5081
-// Obf: JAJBNECFOPB
+// CmdId: 29305
+// Obf: FFFELNHNAFJ
 message GetReunionPrivilegeInfoReq {
-	uint32 privilege_id = 11;
+	uint32 privilege_id = 8;
 }

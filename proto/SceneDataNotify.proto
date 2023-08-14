@@ -16,9 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3321
-// Obf: MJLAFBFKGHD
+import "NHFPBBLCHKH.proto";
+// CmdId: 29478
+// Obf: MLCGOMLCFMI
 message SceneDataNotify {
-	repeated uint32 scene_tag_id_list = 3;
-	repeated string level_config_name_list = 4;
+	NHFPBBLCHKH DCGPONECHMM = 13;
+	repeated uint32 scene_tag_id_list = 12;
+	repeated string level_config_name_list = 2;
 }

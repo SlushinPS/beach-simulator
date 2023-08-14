@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EGHGIMHDENL
+// Obf: EENKPMILDBO
 message ChallengeRecord {
-	uint32 NHCAFELKGEN = 13;
-	uint32 challenge_id = 14;
-	uint32 challenge_index = 15;
-	uint32 currentValue = 5;
+	uint32 DBFALDONGOJ = 7;
+	uint32 challenge_index = 12;
+	uint32 challenge_id = 4;
+	uint32 currentValue = 14;
 }

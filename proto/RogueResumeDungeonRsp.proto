@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8267
-// Obf: KDFHHIIKDMI
+// CmdId: 22999
+// Obf: NKOFBBIPBFM
 message RogueResumeDungeonRsp {
-	uint32 stage_id = 12;
-	int32 retcode = 6;
+	int32 retcode = 3;
+	uint32 stage_id = 2;
 }

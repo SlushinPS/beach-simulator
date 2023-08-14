@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "AEIMLNONEAP.proto";
-// Obf: CIOHOKKNJLI
+import "FKMJAPDCONH.proto";
+// Obf: EIBDAICPDMP
 message PacmanSettleInfo {
-	uint32 final_score = 12;
-	uint32 CGLDHPKMAGO = 4;
-	bool is_new_record = 9;
-	uint32 AFJNAIOEMJG = 1;
-	AEIMLNONEAP reason = 14;
+	uint32 final_score = 8;
+	uint32 GIMCFEIADKI = 6;
+	bool is_new_record = 3;
+	uint32 NHFGIBDCPGC = 4;
+	FKMJAPDCONH reason = 5;
 }

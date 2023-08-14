@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SceneGalleryInfo.proto";
-// CmdId: 5535
-// Obf: OGDNKLICJJG
+// CmdId: 7472
+// Obf: BPOMFPBCOIL
 message GetAllSceneGalleryInfoRsp {
-	repeated SceneGalleryInfo gallery_info_list = 4;
-	int32 retcode = 12;
+	int32 retcode = 10;
+	repeated SceneGalleryInfo gallery_info_list = 6;
 }

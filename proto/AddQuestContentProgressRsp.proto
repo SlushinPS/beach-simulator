@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 458
-// Obf: LHMBHBPCAIL
+// CmdId: 5514
+// Obf: FGGNCOHIPDL
 message AddQuestContentProgressRsp {
-	uint32 content_type = 2;
-	int32 retcode = 10;
+	int32 retcode = 12;
+	uint32 content_type = 10;
 }

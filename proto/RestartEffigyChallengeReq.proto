@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2199
-// Obf: PENIPBMIHCP
+// CmdId: 8574
+// Obf: ALOIGODPJPJ
 message RestartEffigyChallengeReq {
 }

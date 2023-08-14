@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NOGLNAGCMIJ
+// Obf: NAMNJCDLHGI
 message TowerTeam {
-	uint32 tower_team_id = 13;
-	repeated uint64 avatar_guid_list = 9;
+	uint32 tower_team_id = 5;
+	repeated uint64 avatar_guid_list = 3;
 }

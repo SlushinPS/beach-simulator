@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BlossomScheduleInfo.proto";
-// CmdId: 2755
-// Obf: ODEKGEDHGLM
+// CmdId: 7500
+// Obf: JJJEOLDJBON
 message WorldOwnerBlossomScheduleInfoNotify {
-	BlossomScheduleInfo schedule_info = 1;
+	BlossomScheduleInfo schedule_info = 11;
 }

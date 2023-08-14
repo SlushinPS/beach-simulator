@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7906
-// Obf: OEOMDOMDHLA
+// CmdId: 3695
+// Obf: CFGDHNDJLBE
 message GCGInviteGuestBattleRsp {
-	uint32 OANEDGGOLIL = 4;
-	uint32 confirm_end_time = 6;
-	int32 retcode = 7;
-	uint32 punish_end_time = 2;
-	uint32 uid = 10;
+	uint32 punish_end_time = 1;
+	int32 retcode = 3;
+	uint32 uid = 6;
+	uint32 GCKJBMKBJEF = 9;
+	uint32 confirm_end_time = 15;
 }

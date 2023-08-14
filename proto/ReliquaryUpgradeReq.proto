@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 624
-// Obf: MIDKMENDNAF
+// CmdId: 1702
+// Obf: BNGPJOABGAC
 message ReliquaryUpgradeReq {
-	uint64 target_reliquary_guid = 7;
-	repeated uint64 food_reliquary_guid_list = 11;
-	repeated ItemParam item_param_list = 6;
+	repeated ItemParam item_param_list = 15;
+	repeated uint64 food_reliquary_guid_list = 2;
+	uint64 target_reliquary_guid = 4;
 }

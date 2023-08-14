@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MPBCMDGDHHA
+// Obf: NGJPKLPJAGG
 message JigsawPictureData {
-	bool is_open = 8;
-	uint32 HKLBAPAMEOK = 14;
-	uint32 APNDNCIJLKB = 15;
-	bool is_finished = 1;
+	bool is_finished = 7;
+	uint32 MMGJJBELBHF = 11;
+	uint32 EEMGKJOCHHK = 6;
+	bool is_open = 2;
 }

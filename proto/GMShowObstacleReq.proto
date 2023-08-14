@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2323
-// Obf: PMCGAFLHICE
+// CmdId: 2365
+// Obf: AIEICOGPIKC
 message GMShowObstacleReq {
-	int32 uid = 2;
+	int32 uid = 10;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AvatarExpeditionInfo.proto";
-// CmdId: 1660
-// Obf: PIBEOOOINOF
+// CmdId: 26803
+// Obf: FCCLNDJAANA
 message AvatarExpeditionDataNotify {
-	map<uint64, AvatarExpeditionInfo> expedition_info_map = 6;
+	map<uint64, AvatarExpeditionInfo> expedition_info_map = 4;
 }

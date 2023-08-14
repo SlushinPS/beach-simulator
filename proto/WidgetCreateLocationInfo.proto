@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: ODLCGPLCCDF
+// Obf: EABFEFDDFEJ
 message WidgetCreateLocationInfo {
-	Vector pos = 15;
-	Vector rot = 8;
+	Vector rot = 3;
+	Vector pos = 6;
 }

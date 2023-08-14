@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 233
-// Obf: HJJMIDADBAP
+// CmdId: 25175
+// Obf: LABAJDKACOG
 message GetSceneAreaReq {
-	uint32 belong_uid = 11;
-	uint32 scene_id = 6;
+	uint32 scene_id = 13;
+	uint32 belong_uid = 9;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5239
-// Obf: MMEDNFIFFFC
+// CmdId: 7312
+// Obf: CIFAJMLOOIJ
 message MiracleRingDropResultNotify {
-	int32 CGEEAAHAOPL = 8;
-	uint32 BJHONLLCDPC = 1;
+	uint32 FJNJHHGGFKG = 15;
+	int32 BKFAGMHHFDD = 7;
 }

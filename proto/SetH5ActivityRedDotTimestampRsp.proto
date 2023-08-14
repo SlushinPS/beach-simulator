@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5676
-// Obf: ENJMOBCPNCM
+// CmdId: 22816
+// Obf: KMNNFEJJCAK
 message SetH5ActivityRedDotTimestampRsp {
 	int32 retcode = 3;
 }

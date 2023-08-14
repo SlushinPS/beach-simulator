@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3479
-// Obf: OFPCCAELGHL
+// CmdId: 28414
+// Obf: APCMNECPKCJ
 message ShowCommonTipsNotify {
-	uint32 close_time = 14;
-	string title = 15;
-	string content = 12;
+	string title = 13;
+	uint32 close_time = 1;
+	string content = 7;
 }

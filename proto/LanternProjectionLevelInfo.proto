@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FCGKNGEPNDI
+// Obf: DGDLGMGFEHM
 message LanternProjectionLevelInfo {
-	bool BHFCMBEMGIN = 2;
-	uint32 id = 1;
-	bool is_finished = 13;
-	bool OEBMEKDJDIO = 5;
-	uint32 min_finish_time = 10;
+	uint32 id = 2;
+	bool is_finished = 14;
+	bool JNFKFCEMOFM = 7;
+	bool FBKKFKGPLPP = 5;
+	uint32 min_finish_time = 6;
 }

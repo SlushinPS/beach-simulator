@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GearColumnInfo.proto";
-// CmdId: 20732
-// Obf: CBILABMBFLK
+// CmdId: 22818
+// Obf: FAJMKMOAHNH
 message GearActivityFinishPlayGearReq {
-	bool use_clue = 1;
-	repeated GearColumnInfo gear_column_info_list = 3;
-	bool is_success = 10;
-	uint32 level_id = 8;
+	bool use_clue = 13;
+	bool is_success = 15;
+	uint32 level_id = 6;
+	repeated GearColumnInfo gear_column_info_list = 2;
 }

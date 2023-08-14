@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// Obf: HDJKAINGGJN
+// Obf: LKDLHNOBDFB
 message GCGControllerShowInfo {
-	string online_id = 4;
-	string nick_name = 2;
-	uint32 controller_id = 12;
-	string psn_id = 1;
-	ProfilePicture profile_picture = 10;
+	string nick_name = 12;
+	ProfilePicture profile_picture = 4;
+	string online_id = 15;
+	uint32 controller_id = 14;
+	string psn_id = 3;
 }

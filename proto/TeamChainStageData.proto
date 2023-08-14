@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MEBOCEIKION
+// Obf: FMDEBOLBHEC
 message TeamChainStageData {
-	uint32 best_score = 3;
-	bool is_open = 10;
-	uint32 stage_id = 7;
+	bool is_open = 5;
+	uint32 stage_id = 9;
+	uint32 best_score = 1;
 }

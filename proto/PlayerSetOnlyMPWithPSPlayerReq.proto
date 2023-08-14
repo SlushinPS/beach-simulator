@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1803
-// Obf: KCJCIPDIJBO
+// CmdId: 5396
+// Obf: ICJLLDFGDNB
 message PlayerSetOnlyMPWithPSPlayerReq {
-	bool is_only = 10;
+	bool is_only = 11;
 }

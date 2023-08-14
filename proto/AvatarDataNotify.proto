@@ -16,19 +16,19 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "AvatarRenameInfo.proto";
-import "AvatarTeam.proto";
 import "AvatarInfo.proto";
-// CmdId: 1768
-// Obf: IACLEPKJMNB
+import "AvatarTeam.proto";
+import "AvatarRenameInfo.proto";
+// CmdId: 29811
+// Obf: OGCGDDPPLMI
 message AvatarDataNotify {
-	repeated uint32 owned_costume_list = 10;
-	repeated uint32 backup_avatar_team_order_list = 6;
-	repeated AvatarRenameInfo avatar_rename_list = 7;
+	repeated AvatarInfo avatar_list = 3;
+	uint32 cur_avatar_team_id = 2;
+	repeated uint32 owned_costume_list = 5;
+	repeated uint32 owned_flycloak_list = 14;
+	repeated uint64 temp_avatar_guid_list = 1;
+	uint64 choose_avatar_guid = 15;
 	map<uint32, AvatarTeam> avatar_team_map = 13;
-	uint64 choose_avatar_guid = 8;
-	repeated uint32 owned_flycloak_list = 1;
-	repeated AvatarInfo avatar_list = 14;
-	uint32 cur_avatar_team_id = 9;
-	repeated uint64 temp_avatar_guid_list = 12;
+	repeated AvatarRenameInfo avatar_rename_list = 11;
+	repeated uint32 backup_avatar_team_order_list = 7;
 }

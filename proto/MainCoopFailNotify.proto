@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1955
-// Obf: AKEBOMFKDLE
+// CmdId: 2503
+// Obf: IEMIIPKOOLI
 message MainCoopFailNotify {
-	string textmap_id = 12;
-	uint32 chapter_id = 5;
+	string textmap_id = 14;
+	uint32 chapter_id = 11;
 }

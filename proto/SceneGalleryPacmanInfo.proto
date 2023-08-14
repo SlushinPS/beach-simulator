@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DOFBIHDDOHI
+// Obf: JNDKJNKIOLA
 message SceneGalleryPacmanInfo {
-	uint32 start_time = 2;
-	uint32 cur_score = 11;
-	uint32 CGLDHPKMAGO = 8;
-	uint32 AFJNAIOEMJG = 15;
+	uint32 start_time = 3;
+	uint32 NHFGIBDCPGC = 11;
+	uint32 cur_score = 15;
+	uint32 GIMCFEIADKI = 14;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7970
-// Obf: IKCDLHONJEL
+// CmdId: 27463
+// Obf: JJKPENMIJDF
 message GCGResourceStateNotify {
-	bool is_complete = 13;
+	bool is_complete = 3;
 }

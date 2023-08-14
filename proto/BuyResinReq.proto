@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 669
-// Obf: DLBNPMLGDHF
+// CmdId: 9368
+// Obf: CJKAMIJPOHL
 message BuyResinReq {
 }

@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: NJDELGNKEFM
+// Obf: DJEPGGNFHDL
 message TreasureMapDetectorData {
-	uint32 region_id = 2;
-	Vector center_pos = 1;
-	uint32 radius = 11;
-	bool is_region_detected = 6;
-	repeated Vector spot_list = 5;
+	Vector center_pos = 3;
+	bool is_region_detected = 11;
+	uint32 radius = 10;
+	repeated Vector spot_list = 9;
+	uint32 region_id = 4;
 }

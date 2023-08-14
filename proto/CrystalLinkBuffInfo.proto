@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PHGJADJONIC
+// Obf: JHCGNCCGBFI
 message CrystalLinkBuffInfo {
-	uint32 DBKGEODHPNC = 7;
-	uint32 OECGHFDFIII = 2;
+	uint32 FJLJNEAMGHL = 12;
+	uint32 JIBBBGMJKBF = 6;
 }

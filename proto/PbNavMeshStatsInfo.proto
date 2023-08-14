@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MOELDGBGLLB
+// Obf: FCCJMOOLKKB
 message PbNavMeshStatsInfo {
-	int32 HDAAEDFOOOI = 5;
-	int32 ECNPOEJHPCI = 10;
-	int32 FJGDCFHBCLI = 3;
-	int32 GNLELCLHHDK = 14;
+	int32 CHFIALNCEIP = 15;
+	int32 AGNHGNPIGEK = 9;
+	int32 CIHNJIPBEOG = 6;
+	int32 EDCEJJGNHBP = 13;
 }

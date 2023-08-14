@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6050
-// Obf: DFCKMNCENAC
+// CmdId: 23423
+// Obf: FNALFPHPGIE
 message ChangeWidgetBackgroundActiveStateReq {
-	bool is_active = 14;
-	uint32 material_id = 4;
+	uint32 material_id = 5;
+	bool is_active = 9;
 }

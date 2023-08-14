@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TowerTeam.proto";
-// CmdId: 2448
-// Obf: EAILCMAJAMH
+// CmdId: 2100
+// Obf: FOIIKKPGFAG
 message TowerTeamSelectReq {
-	repeated TowerTeam tower_team_list = 2;
-	uint32 floor_id = 6;
+	repeated TowerTeam tower_team_list = 15;
+	uint32 floor_id = 1;
 }

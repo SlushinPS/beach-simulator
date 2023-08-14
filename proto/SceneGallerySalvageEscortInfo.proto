@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MADMMGBFICA
+// Obf: PDCHCJHBJII
 message SceneGallerySalvageEscortInfo {
-	uint32 monster_count = 9;
-	uint32 AICDHMHHJDK = 2;
-	uint32 PJDEJHODAMK = 6;
-	uint32 NNJJFIKDPEB = 7;
+	uint32 OIIIBGMCKAE = 7;
+	uint32 monster_count = 5;
+	uint32 MEJHMNFHDED = 14;
+	uint32 NKDAHKKLFMC = 15;
 }

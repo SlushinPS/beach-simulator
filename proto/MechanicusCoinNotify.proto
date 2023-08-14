@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3972
-// Obf: ADMIDFBBDJF
+// CmdId: 6477
+// Obf: ADOHDEMJCMJ
 message MechanicusCoinNotify {
-	uint32 mechanicus_id = 10;
-	uint32 coin = 14;
+	uint32 coin = 4;
+	uint32 mechanicus_id = 12;
 }

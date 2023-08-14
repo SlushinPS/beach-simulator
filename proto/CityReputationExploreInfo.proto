@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KPKDHEPKNKF
+// Obf: LMGKLDPAHJD
 message CityReputationExploreInfo {
-	uint32 explore_percent = 11;
-	bool is_open = 13;
-	repeated uint32 taken_explore_reward_list = 6;
+	uint32 explore_percent = 13;
+	repeated uint32 taken_explore_reward_list = 14;
+	bool is_open = 10;
 }

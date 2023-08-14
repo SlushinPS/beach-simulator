@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1823
-// Obf: IBMNHOCANEB
+// CmdId: 26251
+// Obf: IEIHGELBNKF
 message GetPlayerMpModeAvailabilityReq {
 }

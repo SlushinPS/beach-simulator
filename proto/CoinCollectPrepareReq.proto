@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20940
-// Obf: GGNKGLLPGMP
+// CmdId: 21763
+// Obf: MCJPOLDLGHL
 message CoinCollectPrepareReq {
 }

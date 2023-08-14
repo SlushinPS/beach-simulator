@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1636
-// Obf: INPIDILEGCG
+// CmdId: 26656
+// Obf: OIHEDACFGPL
 message FocusAvatarReq {
-	bool is_focus = 14;
-	uint64 avatar_guid = 9;
+	bool is_focus = 5;
+	uint64 avatar_guid = 2;
 }

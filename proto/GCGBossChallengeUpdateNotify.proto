@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGBossChallengeData.proto";
-// CmdId: 7099
-// Obf: BNGAGMGNFAF
+// CmdId: 5240
+// Obf: JNBKJEOGHBG
 message GCGBossChallengeUpdateNotify {
-	GCGBossChallengeData boss_challenge = 8;
+	GCGBossChallengeData boss_challenge = 14;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PGFAIDKGFLI
+// Obf: NHFAMBJKCNF
 message SeaLampV3ShadowLevelInfo {
-	uint32 min_finish_time = 11;
-	bool is_open = 3;
-	uint32 level_id = 1;
+	bool is_open = 2;
+	uint32 level_id = 10;
+	uint32 min_finish_time = 4;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5906
-// Obf: BBBJMMDHKLK
+// CmdId: 1073
+// Obf: NOBMFNDGPOB
 message ChangeWidgetBackgroundActiveStateRsp {
-	int32 retcode = 9;
-	uint32 material_id = 4;
+	int32 retcode = 3;
+	uint32 material_id = 10;
 }

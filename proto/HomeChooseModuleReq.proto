@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4892
-// Obf: NFBBCLFPKFM
+// CmdId: 29914
+// Obf: AGDOOFPMMBE
 message HomeChooseModuleReq {
-	uint32 module_id = 12;
+	uint32 module_id = 15;
 }

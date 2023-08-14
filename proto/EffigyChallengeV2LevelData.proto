@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MNPIDOGLIAN
+// Obf: CAFLDJBAKMC
 message EffigyChallengeV2LevelData {
-	uint32 AFLGHGHAOMC = 4;
-	bool is_level_open = 5;
-	uint32 level_id = 10;
-	uint32 DBHOBFBBONG = 9;
-	uint32 NIIPDHJEGDE = 7;
-	uint32 PJIHHFHLOGM = 6;
+	uint32 PPMPMJHEJHJ = 15;
+	uint32 LAICFKMFKEH = 6;
+	uint32 GGBMJHIMBDP = 3;
+	uint32 NPLPFHEKCIH = 14;
+	uint32 level_id = 12;
+	bool is_level_open = 11;
 }

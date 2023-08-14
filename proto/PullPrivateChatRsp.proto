@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChatInfo.proto";
-// CmdId: 5008
-// Obf: IFGLPJOKPOE
+// CmdId: 4681
+// Obf: GAFCFLJEJKF
 message PullPrivateChatRsp {
-	repeated ChatInfo chat_info = 12;
-	int32 retcode = 2;
+	int32 retcode = 14;
+	repeated ChatInfo chat_info = 2;
 }

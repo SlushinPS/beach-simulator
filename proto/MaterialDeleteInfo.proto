@@ -16,20 +16,20 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LDGCGEKOPNP
+// Obf: FNECFKCJNOG
 message MaterialDeleteInfo {
-	// Obf: CGLLDOGBCHF
+	// Obf: OKEMONGEMOM
 	message CountDownDelete {
 		map<uint32, uint32> delete_time_num_map = 1;
 		uint32 config_count_down_time = 2;
 	}
 	
-	// Obf: AGGPDECMMIG
+	// Obf: FBKLFJIOOPN
 	message DateTimeDelete {
 		uint32 delete_time = 1;
 	}
 	
-	// Obf: GIAAHILNMBN
+	// Obf: HMLHBMKPHCA
 	message DelayWeekCountDownDelete {
 		map<uint32, uint32> delete_time_num_map = 1;
 		uint32 config_delay_week = 2;

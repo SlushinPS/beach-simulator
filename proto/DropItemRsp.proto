@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "StoreType.proto";
-// CmdId: 684
-// Obf: EKDEIKGMKHK
+// CmdId: 25342
+// Obf: BFNMHPECFGC
 message DropItemRsp {
-	StoreType store_type = 12;
-	uint64 guid = 1;
-	int32 retcode = 2;
+	StoreType store_type = 6;
+	uint64 guid = 12;
+	int32 retcode = 9;
 }

@@ -16,18 +16,18 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "AbilityInvokeEntryHead.proto";
 import "AbilityInvokeArgument.proto";
 import "ForwardType.proto";
-// Obf: ELGIBELOGKF
+import "AbilityInvokeEntryHead.proto";
+// Obf: BNCFAGLEKAM
 message AbilityInvokeEntry {
-	uint32 event_id = 8;
-	uint32 entity_id = 10;
-	AbilityInvokeEntryHead head = 14;
-	bool is_ignore_auth = 2;
-	uint32 forward_peer = 3;
-	AbilityInvokeArgument argument_type = 1;
-	ForwardType forward_type = 11;
-	bytes ability_data = 12;
-	double total_tick_time = 4;
+	AbilityInvokeArgument argument_type = 7;
+	bytes ability_data = 2;
+	uint32 entity_id = 9;
+	ForwardType forward_type = 14;
+	double total_tick_time = 5;
+	uint32 forward_peer = 12;
+	uint32 event_id = 1;
+	bool is_ignore_auth = 13;
+	AbilityInvokeEntryHead head = 8;
 }

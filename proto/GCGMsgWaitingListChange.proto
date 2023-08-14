@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: IHNCGPECAJK
+// Obf: DGGGBHEDJPK
 message GCGMsgWaitingListChange {
-	uint32 cur_index = 4;
-	uint32 controller_id = 8;
+	uint32 cur_index = 14;
+	uint32 controller_id = 1;
 }

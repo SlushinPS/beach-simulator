@@ -16,17 +16,17 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1807
-// Obf: EAFHIKNPPDH
+// CmdId: 23905
+// Obf: ONELCJDDCIP
 message PlayerPreEnterMpNotify {
-	// Obf: CCMIBIDPENC
+	// Obf: CIAEAJLPCDG
 	enum State {
 		INVALID = 0;
 		START = 1;
 		TIMEOUT = 2;
 	}
 	
-	uint32 uid = 9;
-	string nickname = 7;
-	State state = 4;
+	State state = 11;
+	string nickname = 10;
+	uint32 uid = 5;
 }

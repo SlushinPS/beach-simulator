@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SumoDungeonTeam.proto";
-// CmdId: 8412
-// Obf: NIBHIEKCOGK
+// CmdId: 9445
+// Obf: KIPPHIMNLKM
 message SumoEnterDungeonNotify {
-	uint32 stage_id = 7;
-	uint32 BDAFDFKPJAE = 8;
-	repeated SumoDungeonTeam dungeon_team_list = 13;
-	uint32 DHAAEJHLHNB = 1;
-	uint32 activity_id = 9;
-	uint32 PHBHNGMAEKN = 4;
+	uint32 activity_id = 7;
+	uint32 KLNJLIIECPD = 9;
+	uint32 JCMAPNDMPHD = 3;
+	repeated SumoDungeonTeam dungeon_team_list = 8;
+	uint32 stage_id = 1;
+	uint32 GNDNKOIMJEL = 14;
 }

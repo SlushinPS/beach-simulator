@@ -20,7 +20,7 @@ import "AbilityScalarValueEntry.proto";
 import "AbilityAppliedAbility.proto";
 import "AbilityAppliedModifier.proto";
 import "AbilityMixinRecoverInfo.proto";
-// Obf: LKMIECILJCL
+// Obf: JDIFMANDKLC
 message AbilitySyncStateInfo {
 	bool is_inited = 1;
 	repeated AbilityScalarValueEntry dynamic_value_map = 2;

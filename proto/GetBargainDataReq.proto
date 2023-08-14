@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 420
-// Obf: MBJNLNIMJAK
+// CmdId: 7358
+// Obf: FPNNGBLHLDM
 message GetBargainDataReq {
-	uint32 bargain_id = 5;
+	uint32 bargain_id = 13;
 }

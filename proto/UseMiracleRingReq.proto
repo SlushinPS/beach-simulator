@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 5228
-// Obf: FIKHBHJPDDH
+// CmdId: 20849
+// Obf: ODOACALHKOA
 message UseMiracleRingReq {
-	Vector rot = 1;
-	uint32 miracle_ring_op_type = 13;
 	Vector pos = 15;
+	uint32 miracle_ring_op_type = 3;
+	Vector rot = 13;
 }

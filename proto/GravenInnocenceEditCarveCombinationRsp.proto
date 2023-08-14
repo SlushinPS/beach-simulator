@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22896
-// Obf: HHEHOOAGELB
+// CmdId: 28250
+// Obf: CNMLCFLLFDB
 message GravenInnocenceEditCarveCombinationRsp {
-	int32 retcode = 12;
+	int32 retcode = 6;
 }

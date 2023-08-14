@@ -17,16 +17,16 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "WinterCampStageInfo.proto";
-import "ItemParam.proto";
 import "WinterCampRaceStageInfo.proto";
-// Obf: CPOACHLJDKL
+import "ItemParam.proto";
+// Obf: APLIILFFKBH
 message WinterCampActivityDetailInfo {
 	WinterCampStageInfo battle_info = 10;
-	repeated uint32 NIAGCOKBHAF = 13;
-	repeated uint32 LBHKJHGNONI = 11;
-	repeated ItemParam used_item_list = 14;
-	repeated WinterCampRaceStageInfo race_info_list = 2;
-	bool is_content_closed = 6;
-	WinterCampStageInfo explore_info = 1;
-	repeated uint32 ECMPMKDFEND = 8;
+	repeated WinterCampRaceStageInfo race_info_list = 11;
+	WinterCampStageInfo explore_info = 12;
+	repeated ItemParam used_item_list = 13;
+	bool is_content_closed = 7;
+	repeated uint32 FHECIOABEBK = 6;
+	repeated uint32 CKKODMFPEKP = 4;
+	repeated uint32 NJCEPGDFJGF = 3;
 }

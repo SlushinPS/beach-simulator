@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JHKGJMFENDI
+// Obf: EFCKPOMOPED
 message WaterSpiritActivityDetailInfo {
-	uint32 region_search_id = 7;
-	map<uint32, uint32> search_time_map = 5;
-	uint32 mp_play_id = 13;
+	map<uint32, uint32> search_time_map = 7;
+	uint32 mp_play_id = 4;
+	uint32 region_search_id = 5;
 }

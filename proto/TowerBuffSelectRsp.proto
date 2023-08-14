@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2434
-// Obf: BKPCODJPJNO
+// CmdId: 23137
+// Obf: OKBNGKKGHIG
 message TowerBuffSelectRsp {
-	int32 retcode = 1;
 	uint32 tower_buff_id = 5;
+	int32 retcode = 10;
 }

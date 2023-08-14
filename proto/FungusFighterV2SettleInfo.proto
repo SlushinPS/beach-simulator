@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PFFEBPCHBHP
+// Obf: DEIBBCOKCBE
 message FungusFighterV2SettleInfo {
+	uint32 GOJKOCDIMEO = 11;
 	uint32 level_id = 6;
-	uint32 EEJCKKKEBOK = 5;
-	uint32 cost_time = 2;
-	bool is_new_record = 11;
-	uint32 KDCKPCGPNNG = 8;
-	uint32 BKEAHJGOMEB = 13;
+	uint32 OGOLIHBAJDL = 3;
+	bool is_new_record = 8;
+	uint32 cost_time = 13;
+	uint32 IBJOJJBHKCF = 15;
 }

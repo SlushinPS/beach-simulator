@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SalvagePreventSettleInfo.proto";
-// CmdId: 8307
-// Obf: GMJFKKGHKNG
+// CmdId: 24588
+// Obf: JLEFKHKDMLC
 message SalvagePreventSettleNotify {
-	uint32 gallery_id = 10;
-	SalvagePreventSettleInfo settle_info = 15;
+	SalvagePreventSettleInfo settle_info = 8;
+	uint32 gallery_id = 12;
 }

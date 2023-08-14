@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ECHELFAJJKI
+// Obf: COOBJPMDGBL
 message CustomDungeonAbstract {
-	map<uint32, uint32> brick_statistics_map = 5;
-	uint32 first_publish_time = 10;
-	uint32 HKDPKCOMKPK = 8;
-	uint32 last_publish_time = 2;
-	uint32 MJAOONEPHPL = 12;
+	uint32 PKEOPFJBBJP = 8;
+	uint32 first_publish_time = 6;
+	map<uint32, uint32> brick_statistics_map = 15;
+	uint32 JAEAFPJJFHE = 1;
+	uint32 last_publish_time = 10;
 }

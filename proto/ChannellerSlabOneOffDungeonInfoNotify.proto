@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8300
-// Obf: NJLODJMOIPI
+// CmdId: 8662
+// Obf: EFHKPFAIHEJ
 message ChannellerSlabOneOffDungeonInfoNotify {
-	repeated uint32 scheme_buff_id_list = 13;
+	repeated uint32 scheme_buff_id_list = 12;
 }

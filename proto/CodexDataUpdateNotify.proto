@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CodexType.proto";
-// CmdId: 4206
-// Obf: AMEDMFGHJKL
+// CmdId: 6551
+// Obf: NOPKDGNAPIK
 message CodexDataUpdateNotify {
-	CodexType type = 7;
-	uint32 id = 4;
-	uint32 weapon_max_promote_level = 1;
+	uint32 weapon_max_promote_level = 3;
+	CodexType type = 5;
+	uint32 id = 2;
 }

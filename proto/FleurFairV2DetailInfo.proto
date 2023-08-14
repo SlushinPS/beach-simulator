@@ -19,9 +19,9 @@ option java_package = "emu.grasscutter.net.proto";
 import "FleurFairV2PacmanInfo.proto";
 import "FleurFairV2MusicGameInfo.proto";
 import "FleurFairV2PhotoInfo.proto";
-// Obf: EDPNCKEJJPN
+// Obf: PFIMHNGIKNA
 message FleurFairV2DetailInfo {
-	FleurFairV2PacmanInfo pacman_info = 7;
+	FleurFairV2PacmanInfo pacman_info = 9;
 	FleurFairV2MusicGameInfo music_game_info = 4;
-	FleurFairV2PhotoInfo photo_info = 14;
+	FleurFairV2PhotoInfo photo_info = 10;
 }

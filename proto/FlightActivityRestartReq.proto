@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2149
-// Obf: MKGAAGMAIDL
+// CmdId: 25206
+// Obf: NGCKDMEDDHO
 message FlightActivityRestartReq {
-	uint32 group_id = 5;
 	uint32 schedule_id = 1;
+	uint32 group_id = 10;
 }

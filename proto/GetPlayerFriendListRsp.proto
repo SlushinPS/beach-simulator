@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FriendBrief.proto";
-// CmdId: 4096
-// Obf: LGFNGPBLDEI
+// CmdId: 20997
+// Obf: GBPKOGFAIJA
 message GetPlayerFriendListRsp {
-	int32 retcode = 2;
-	repeated FriendBrief friend_list = 3;
-	repeated FriendBrief ask_friend_list = 4;
+	int32 retcode = 6;
+	repeated FriendBrief friend_list = 15;
+	repeated FriendBrief ask_friend_list = 2;
 }

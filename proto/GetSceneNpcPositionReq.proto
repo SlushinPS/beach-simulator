@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 572
-// Obf: BJLGMOBMIPP
+// CmdId: 24678
+// Obf: IGIIAPAAIJH
 message GetSceneNpcPositionReq {
-	repeated uint32 npc_id_list = 1;
 	uint32 scene_id = 3;
+	repeated uint32 npc_id_list = 10;
 }

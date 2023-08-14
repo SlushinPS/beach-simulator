@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ReunionBriefInfo.proto";
-// CmdId: 5058
-// Obf: JNNBNMEOPHI
+// CmdId: 26597
+// Obf: LMFOLHLFGLB
 message ReunionBriefInfoRsp {
-	int32 retcode = 4;
-	bool is_activate = 15;
-	ReunionBriefInfo reunion_brief_info = 9;
+	int32 retcode = 6;
+	bool is_activate = 2;
+	ReunionBriefInfo reunion_brief_info = 3;
 }

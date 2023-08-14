@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21478
-// Obf: COJIMDIKHLP
+// CmdId: 4572
+// Obf: DKHMKIJPFDC
 message FungusFighterUseBackupFungusRsp {
-	int32 retcode = 11;
+	int32 retcode = 1;
 }

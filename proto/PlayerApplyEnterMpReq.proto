@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1808
-// Obf: HODBBPLJLCP
+// CmdId: 9629
+// Obf: HLANGOHBOGO
 message PlayerApplyEnterMpReq {
-	uint32 target_uid = 6;
+	uint32 target_uid = 4;
 }

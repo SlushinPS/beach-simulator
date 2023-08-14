@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "Uint32Pair.proto";
 import "ActivityInfo.proto";
-// CmdId: 2114
-// Obf: KKDDDKHPGJP
+import "Uint32Pair.proto";
+// CmdId: 7972
+// Obf: KFLFLAMEHIJ
 message GetActivityInfoRsp {
-	repeated Uint32Pair disable_transfer_point_interaction_list = 9;
-	int32 retcode = 7;
-	repeated uint32 activated_sale_id_list = 12;
-	repeated ActivityInfo activity_info_list = 4;
+	repeated ActivityInfo activity_info_list = 2;
+	repeated uint32 activated_sale_id_list = 9;
+	int32 retcode = 4;
+	repeated Uint32Pair disable_transfer_point_interaction_list = 12;
 }

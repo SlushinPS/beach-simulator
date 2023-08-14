@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BuildingInfo.proto";
-// CmdId: 5379
-// Obf: JHJPOPCAKBH
+// CmdId: 3344
+// Obf: KGCFGIGOKLC
 message GlobalBuildingInfoNotify {
-	uint32 max_num = 4;
-	uint32 current_num = 6;
-	repeated BuildingInfo building_list = 9;
+	uint32 current_num = 1;
+	uint32 max_num = 5;
+	repeated BuildingInfo building_list = 7;
 }

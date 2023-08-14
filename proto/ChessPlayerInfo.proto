@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChessNormalCardInfo.proto";
-// Obf: KNHPPMPLPEA
+// Obf: ICHCPKNEMAG
 message ChessPlayerInfo {
-	uint32 uid = 11;
-	uint32 GJDGAIKBFCC = 2;
-	uint32 FDJKOOOOHEL = 4;
-	uint32 MJEJBIPNFDL = 12;
-	uint32 DHOCBFFKAEN = 5;
-	repeated ChessNormalCardInfo candidate_card_info_list = 13;
-	uint32 NKJJHNGOBMK = 6;
+	repeated ChessNormalCardInfo candidate_card_info_list = 14;
+	uint32 MGDADNILJFJ = 9;
+	uint32 HGCCPJLOCAG = 11;
+	uint32 LGMMADNLNMK = 12;
+	uint32 MCKCBMGHHGA = 5;
+	uint32 uid = 13;
+	uint32 ALNKBIFEJHG = 3;
 }

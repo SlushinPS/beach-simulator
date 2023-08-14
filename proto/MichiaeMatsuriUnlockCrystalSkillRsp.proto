@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8847
-// Obf: PNJOBMNDGME
+// CmdId: 22931
+// Obf: KBBFBHOLEPP
 message MichiaeMatsuriUnlockCrystalSkillRsp {
-	int32 retcode = 7;
-	uint32 crystal_skill_id = 9;
+	uint32 crystal_skill_id = 5;
+	int32 retcode = 6;
 }

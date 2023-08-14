@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 493
-// Obf: LDPHCGEKALF
+// CmdId: 1085
+// Obf: JHKJAJEABJK
 message UnlockPersonalLineReq {
-	uint32 personal_line_id = 5;
+	uint32 personal_line_id = 12;
 }

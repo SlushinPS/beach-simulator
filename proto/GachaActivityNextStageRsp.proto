@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8132
-// Obf: MACPFCADDCC
+// CmdId: 9626
+// Obf: GIIAEBEDFJB
 message GachaActivityNextStageRsp {
+	int32 retcode = 11;
 	uint32 stage_id = 7;
-	int32 retcode = 2;
 }

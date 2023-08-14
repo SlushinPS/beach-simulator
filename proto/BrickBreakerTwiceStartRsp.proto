@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24115
-// Obf: COEDOJKNFGC
+// CmdId: 25873
+// Obf: LAEOMIMHKCI
 message BrickBreakerTwiceStartRsp {
-	int32 retcode = 6;
+	int32 retcode = 8;
 }

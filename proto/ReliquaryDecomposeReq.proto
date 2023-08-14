@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 699
-// Obf: GEFNBINBKDE
+// CmdId: 2906
+// Obf: BEGHJCKOHCA
 message ReliquaryDecomposeReq {
-	uint32 target_count = 8;
-	uint32 config_id = 10;
-	repeated uint64 guid_list = 1;
+	uint32 target_count = 15;
+	uint32 config_id = 1;
+	repeated uint64 guid_list = 8;
 }

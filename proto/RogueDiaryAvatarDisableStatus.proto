@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KGJFEPEIOKM
+// Obf: LPHEHBBIBOG
 enum RogueDiaryAvatarDisableStatus {
 	ROGUE_DIARY_AVATAR_DISABLE_NONE = 0;
 	ROGUE_DIARY_AVATAR_DISABLE_DEATH = 1;

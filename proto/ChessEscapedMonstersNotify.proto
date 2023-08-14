@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5347
-// Obf: DPLFFMINHNN
+// CmdId: 6806
+// Obf: GEJHHLEANJM
 message ChessEscapedMonstersNotify {
-	uint32 excaped_monsters = 15;
+	uint32 excaped_monsters = 8;
 }

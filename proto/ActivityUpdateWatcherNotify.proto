@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ActivityWatcherInfo.proto";
-// CmdId: 2007
-// Obf: JCOLCLFIFCO
+// CmdId: 20400
+// Obf: AIJCCDDEFAD
 message ActivityUpdateWatcherNotify {
-	uint32 activity_id = 14;
-	ActivityWatcherInfo watcher_info = 9;
+	ActivityWatcherInfo watcher_info = 6;
+	uint32 activity_id = 10;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2464
-// Obf: LPPGHFCGFBD
+// CmdId: 26115
+// Obf: KHHHPNPIIGJ
 message TowerEnterLevelRsp {
-	int32 retcode = 6;
 	uint32 level_index = 9;
-	uint32 floor_id = 13;
-	repeated uint32 tower_buff_id_list = 1;
+	repeated uint32 tower_buff_id_list = 12;
+	int32 retcode = 4;
+	uint32 floor_id = 11;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EPOBLGMCAPA
+// Obf: DCGPGHLOFFI
 message InBattleFleurFairInfo {
-	uint32 CHEAJDKKPDB = 4;
-	repeated uint32 DCFOAPKHMAK = 9;
-	uint32 KMGIKOOKPOB = 8;
-	uint32 LPOCDLNJLBH = 1;
-	repeated uint32 DNCLCJMNNLK = 5;
+	repeated uint32 FLKGLKPOEDP = 10;
+	uint32 IAMBDCLBBNB = 11;
+	repeated uint32 GBFDDCJFLGO = 8;
+	uint32 MLBGMECACGJ = 12;
+	uint32 NEGAECFDEBD = 6;
 }

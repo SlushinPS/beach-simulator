@@ -16,16 +16,16 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "PlayerDieType.proto";
 import "ServerBuff.proto";
-// CmdId: 1235
-// Obf: GNABNGDFLJM
+import "PlayerDieType.proto";
+// CmdId: 22381
+// Obf: ANPPCHBBAGA
 message AvatarLifeStateChangeNotify {
-	PlayerDieType die_type = 11;
-	string attack_tag = 4;
-	uint32 source_entity_id = 9;
-	uint64 avatar_guid = 13;
-	uint32 move_reliable_seq = 12;
-	repeated ServerBuff server_buff_list = 5;
-	uint32 life_state = 2;
+	uint32 move_reliable_seq = 5;
+	string attack_tag = 10;
+	uint32 source_entity_id = 1;
+	uint64 avatar_guid = 15;
+	repeated ServerBuff server_buff_list = 6;
+	PlayerDieType die_type = 7;
+	uint32 life_state = 12;
 }

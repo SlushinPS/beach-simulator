@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3384
-// Obf: MECHFNPLHAE
+// CmdId: 4502
+// Obf: EGFIKLKBLHK
 message LevelTagDataNotify {
-	repeated uint32 level_tag_id_list = 13;
+	repeated uint32 level_tag_id_list = 3;
 }

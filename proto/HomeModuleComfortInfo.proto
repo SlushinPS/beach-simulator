@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ODFOOJKNHIL
+// Obf: GCMBDAFNLEG
 message HomeModuleComfortInfo {
-	repeated uint32 world_scene_block_comfort_value_list = 11;
-	uint32 module_id = 15;
-	uint32 room_scene_comfort_value = 6;
+	uint32 room_scene_comfort_value = 2;
+	repeated uint32 world_scene_block_comfort_value_list = 10;
+	uint32 module_id = 3;
 }

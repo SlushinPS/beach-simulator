@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2121
-// Obf: DEOLCPIFEIB
+// CmdId: 25684
+// Obf: EFLJAKJJPKG
 message TrialAvatarInDungeonIndexNotify {
-	uint32 trial_avatar_index_id = 4;
+	uint32 trial_avatar_index_id = 3;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8857
-// Obf: KHIFEJGDNCL
+// CmdId: 6647
+// Obf: MJLIMFJEGHO
 message MichiaeMatsuriStartDarkChallengeReq {
-	uint32 worktop_entity_id = 9;
+	uint32 worktop_entity_id = 3;
 }

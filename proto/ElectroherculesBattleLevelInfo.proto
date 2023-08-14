@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HNOJMOGEKCA
+// Obf: FHJLJHALMBK
 message ElectroherculesBattleLevelInfo {
-	uint32 min_finish_time = 15;
-	uint32 level_id = 13;
-	bool is_finish = 3;
+	uint32 min_finish_time = 10;
+	bool is_finish = 8;
+	uint32 level_id = 12;
 }

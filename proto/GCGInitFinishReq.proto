@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7642
-// Obf: AAFNJHFALBA
+// CmdId: 25601
+// Obf: JNBMOBCMHKK
 message GCGInitFinishReq {
 }

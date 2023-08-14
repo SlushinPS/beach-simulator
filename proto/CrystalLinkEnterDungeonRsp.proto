@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CrystalLinkTeamInfo.proto";
-// CmdId: 8605
-// Obf: EGLCACABKBJ
+// CmdId: 1502
+// Obf: KGEDIHLMBNN
 message CrystalLinkEnterDungeonRsp {
-	uint32 level_id = 4;
-	repeated CrystalLinkTeamInfo team_info_list = 2;
-	int32 retcode = 5;
-	uint32 difficulty_id = 7;
+	repeated CrystalLinkTeamInfo team_info_list = 5;
+	uint32 difficulty_id = 14;
+	int32 retcode = 2;
+	uint32 level_id = 11;
 }

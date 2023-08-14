@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2074
-// Obf: DEEECCABGIE
+// CmdId: 7159
+// Obf: KOMEHDLAFCI
 message SelectEffigyChallengeConditionReq {
-	uint32 difficulty_id = 11;
-	uint32 challenge_id = 6;
-	repeated uint32 condition_id_list = 2;
+	repeated uint32 condition_id_list = 5;
+	uint32 challenge_id = 15;
+	uint32 difficulty_id = 7;
 }

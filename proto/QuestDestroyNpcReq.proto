@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 406
-// Obf: HCHIKGMAOBA
+// CmdId: 26568
+// Obf: GLNOOFDFGEC
 message QuestDestroyNpcReq {
-	uint32 parent_quest_id = 8;
-	uint32 npc_id = 10;
+	uint32 npc_id = 14;
+	uint32 parent_quest_id = 15;
 }

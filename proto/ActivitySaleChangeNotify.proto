@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2071
-// Obf: FBKFCGEADIG
+// CmdId: 7366
+// Obf: PEBIAODKCLI
 message ActivitySaleChangeNotify {
+	bool is_close = 1;
 	uint32 sale_id = 15;
-	bool is_close = 3;
 }

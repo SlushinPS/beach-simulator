@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BalloonGallerySettleInfo.proto";
-// CmdId: 4474
-// Obf: OFDPODBNLKD
+// CmdId: 5349
+// Obf: FDHBBFONJDA
 message HomeBalloonGallerySettleNotify {
-	uint32 rank = 12;
-	bool is_new_record = 5;
-	uint32 gallery_id = 9;
-	BalloonGallerySettleInfo settle_info = 4;
+	uint32 rank = 5;
+	bool is_new_record = 15;
+	uint32 gallery_id = 2;
+	BalloonGallerySettleInfo settle_info = 3;
 }

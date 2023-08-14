@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 299
-// Obf: IDPLILJFIAF
+// CmdId: 27200
+// Obf: IBIKNKAPMNJ
 message SceneKickPlayerRsp {
-	int32 retcode = 14;
-	uint32 target_uid = 13;
+	uint32 target_uid = 4;
+	int32 retcode = 1;
 }

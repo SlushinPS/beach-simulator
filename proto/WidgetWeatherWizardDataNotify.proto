@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6051
-// Obf: IKMBFMLNKGD
+// CmdId: 24231
+// Obf: MHPMDPBILNB
 message WidgetWeatherWizardDataNotify {
-	uint32 shield_value = 15;
+	uint32 shield_value = 14;
 }

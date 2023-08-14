@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "OnlinePlayerInfo.proto";
-// CmdId: 4495
-// Obf: LPGJIFPNDHN
+// CmdId: 26047
+// Obf: HKFIJOMFLOA
 message PlayerApplyEnterHomeNotify {
 	OnlinePlayerInfo src_player_info = 2;
-	uint32 src_app_id = 15;
+	uint32 src_app_id = 12;
 }

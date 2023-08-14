@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CAMOHBCDHAL
+// Obf: GALINJEGEGO
 message InstableSprayDungeonSettleInfo {
-	uint32 level_id = 11;
-	uint32 difficulty = 6;
-	uint32 stage_id = 1;
-	bool is_new_record = 10;
-	uint32 round = 4;
-	repeated uint32 score_list = 8;
+	bool is_new_record = 15;
+	uint32 difficulty = 8;
+	uint32 stage_id = 5;
+	uint32 round = 13;
+	uint32 level_id = 4;
+	repeated uint32 score_list = 7;
 }

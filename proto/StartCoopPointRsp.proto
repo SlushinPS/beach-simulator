@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MainCoop.proto";
-// CmdId: 1985
-// Obf: GKAMIECDLLJ
+// CmdId: 1231
+// Obf: LHBINHPHFKM
 message StartCoopPointRsp {
-	bool is_start = 12;
-	uint32 coop_point = 6;
-	int32 retcode = 10;
-	MainCoop start_main_coop = 9;
+	MainCoop start_main_coop = 1;
+	uint32 coop_point = 2;
+	int32 retcode = 14;
+	bool is_start = 6;
 }

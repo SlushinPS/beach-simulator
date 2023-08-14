@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7803
-// Obf: FDJHIDDJHEO
+// CmdId: 9258
+// Obf: NLKPMJMGJHG
 message GCGInviteBattleNotify {
-	uint32 confirm_end_time = 14;
-	uint32 OANEDGGOLIL = 9;
+	uint32 GCKJBMKBJEF = 5;
+	uint32 confirm_end_time = 1;
 }

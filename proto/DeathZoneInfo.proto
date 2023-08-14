@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JIHOPPHABOC
+// Obf: BHEIDECNLJB
 message DeathZoneInfo {
-	uint32 id = 9;
-	bool is_open = 13;
+	bool is_open = 14;
+	uint32 id = 10;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 423
-// Obf: JIGIJIPJONA
+// CmdId: 6937
+// Obf: LKHOMEMLBDJ
 message InterpretInferenceWordRsp {
-	int32 retcode = 7;
-	uint32 page_id = 1;
-	uint32 word_id = 3;
+	uint32 word_id = 1;
+	int32 retcode = 10;
+	uint32 page_id = 6;
 }

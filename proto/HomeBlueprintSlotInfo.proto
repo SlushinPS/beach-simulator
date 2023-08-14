@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HOMJCBCKHOK
+// Obf: AAAADHDHBLA
 message HomeBlueprintSlotInfo {
-	bool is_allow_copy = 10;
-	uint32 module_id = 11;
-	uint32 block_id = 9;
-	uint32 slot_id = 13;
-	uint32 create_time = 1;
-	string share_code = 7;
-	bool NCBFPACJLNB = 3;
-	uint32 scene_id = 12;
+	uint32 scene_id = 1;
+	uint32 module_id = 6;
+	uint32 slot_id = 2;
+	uint32 block_id = 8;
+	bool JGNOGOODOKE = 7;
+	bool is_allow_copy = 4;
+	string share_code = 13;
+	uint32 create_time = 5;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 94
-// Obf: JPGJCONIBGC
+// CmdId: 29196
+// Obf: FNLJHKJGODK
 message ClientReportNotify {
-	string FKBNBKFNBDK = 13;
-	string HGDGHCLHDMG = 7;
+	string report_type = 3;
+	string report_value = 12;
 }

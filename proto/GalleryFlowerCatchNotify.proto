@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5587
-// Obf: MBCMMEGJJGO
+// CmdId: 22395
+// Obf: GJHHJONMLMD
 message GalleryFlowerCatchNotify {
-	uint32 gallery_id = 14;
-	uint32 add_score = 4;
-	uint32 cur_score = 12;
+	uint32 cur_score = 1;
+	uint32 gallery_id = 3;
+	uint32 add_score = 8;
 }

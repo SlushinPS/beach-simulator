@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 826
-// Obf: CBAOIGJMEBL
+// CmdId: 4423
+// Obf: MHBJNBNNNCI
 message RequestLiveInfoReq {
-	uint32 live_id = 8;
+	uint32 live_id = 6;
 }

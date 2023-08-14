@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 240
-// Obf: OPMJPGCGNGC
+// CmdId: 570
+// Obf: FAMNMDPHAAG
 message SealBattleEndNotify {
-	uint32 seal_entity_id = 11;
-	bool is_win = 7;
+	uint32 seal_entity_id = 7;
+	bool is_win = 13;
 }

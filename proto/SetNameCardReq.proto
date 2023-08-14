@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4024
-// Obf: NCJBONDLOML
+// CmdId: 3853
+// Obf: KBHCHCMMILM
 message SetNameCardReq {
-	uint32 name_card_id = 7;
+	uint32 name_card_id = 15;
 }

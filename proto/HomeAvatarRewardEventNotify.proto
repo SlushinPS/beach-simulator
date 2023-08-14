@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeAvatarRewardEventInfo.proto";
-// CmdId: 4829
-// Obf: CDGNCIMIHNJ
+// CmdId: 2640
+// Obf: DCCPJJPIGAB
 message HomeAvatarRewardEventNotify {
-	HomeAvatarRewardEventInfo reward_event = 15;
-	repeated HomeAvatarRewardEventInfo pending_list = 9;
-	bool is_event_trigger = 10;
+	HomeAvatarRewardEventInfo reward_event = 4;
+	repeated HomeAvatarRewardEventInfo pending_list = 12;
+	bool is_event_trigger = 7;
 }

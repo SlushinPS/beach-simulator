@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Reward.proto";
-// CmdId: 636
-// Obf: HDNFGCJEGDM
+// CmdId: 24643
+// Obf: IOHKNKAECHJ
 message GrantRewardNotify {
 	Reward reward = 8;
 }

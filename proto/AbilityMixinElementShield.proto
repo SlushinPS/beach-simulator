@@ -16,11 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
+// Obf: HLPPHMDAIKF
 message AbilityMixinElementShield {
-	float sub_shield = 4;
-	float max_shield = 11;
-	bool is_shield_broken = 7;
-	uint32 absorb_type = 14;
-	float shield = 10;
-	uint32 player_num = 15;
+	bool is_shield_broken = 5;
+	float FIEFKGHCBBO = 4;
+	float AFHOPKKJCJF = 9;
+	uint32 GCAEMIGCBAK = 7;
+	float FFMBPIKIJAP = 3;
+	uint32 player_num = 6;
 }

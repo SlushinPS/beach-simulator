@@ -19,12 +19,12 @@ option java_package = "emu.grasscutter.net.proto";
 import "VintageHuntingFirstStageInfo.proto";
 import "VintageHuntingSecondStageInfo.proto";
 import "VintageHuntingThirdStageInfo.proto";
-// Obf: AIPAJAMGOMI
+// Obf: JIGMMCFELNI
 message SceneGalleryVintageHuntingInfo {
-	uint32 stage_id = 2;
+	uint32 stage_id = 11;
 	oneof info {
-		VintageHuntingFirstStageInfo first_stage_info = 8;
-		VintageHuntingSecondStageInfo second_stage_info = 14;
+		VintageHuntingFirstStageInfo first_stage_info = 10;
+		VintageHuntingSecondStageInfo second_stage_info = 3;
 		VintageHuntingThirdStageInfo third_stage_info = 6;
 	}
 }

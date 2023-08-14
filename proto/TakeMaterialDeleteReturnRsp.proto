@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 692
-// Obf: NFIPDJLJCOG
+// CmdId: 26975
+// Obf: ELAKENHBFBM
 message TakeMaterialDeleteReturnRsp {
-	int32 retcode = 7;
+	int32 retcode = 1;
 }

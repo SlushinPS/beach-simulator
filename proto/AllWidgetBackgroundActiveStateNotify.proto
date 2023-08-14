@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5919
-// Obf: FKBFBIIJEKP
+// CmdId: 4761
+// Obf: ODFAPHCPGKP
 message AllWidgetBackgroundActiveStateNotify {
-	repeated uint32 background_active_widget_list = 11;
+	repeated uint32 background_active_widget_list = 5;
 }

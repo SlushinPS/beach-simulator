@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RacingGallerySettleInfo.proto";
-// CmdId: 4545
-// Obf: ONOLLPOPKFC
+// CmdId: 20371
+// Obf: DNKELDJBGIG
 message HomeRacingGallerySettleNotify {
+	uint32 rank = 5;
+	bool is_new_record = 3;
 	RacingGallerySettleInfo settle_info = 13;
-	uint32 rank = 3;
-	uint32 gallery_id = 8;
-	bool is_new_record = 9;
+	uint32 gallery_id = 14;
 }

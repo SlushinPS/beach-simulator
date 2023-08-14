@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 806
-// Obf: NODFAFCKOHE
+// CmdId: 1565
+// Obf: KGKLDLKDPCM
 message GadgetChainLevelChangeNotify {
-	map<uint32, uint32> gadget_chain_level_map = 8;
+	map<uint32, uint32> gadget_chain_level_map = 15;
 }

@@ -16,28 +16,28 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "ForwardType.proto";
 import "Vector.proto";
-// CmdId: 355
-// Obf: DGNDHHIGNBD
+import "ForwardType.proto";
+// CmdId: 22195
+// Obf: LGEDOOIENKG
 message EvtCreateGadgetNotify {
-	uint32 camp_id = 11;
-	uint64 guid = 13;
-	uint32 DNAKOOADMLE = 9;
-	repeated uint32 target_lock_point_index_list = 1869;
-	bool OFEAKOJIKCA = 12;
-	uint32 entity_id = 10;
-	ForwardType forward_type = 4;
-	bool is_async_load = 174;
-	Vector InitPos = 1;
-	uint32 owner_entity_id = 8;
+	uint64 guid = 11;
+	repeated uint32 target_lock_point_index_list = 516;
 	uint32 room_id = 3;
-	uint32 prop_owner_entity_id = 2;
-	uint32 target_entity_id = 7;
-	bool is_peer_id_from_player = 172;
-	uint32 config_id = 15;
+	bool is_peer_id_from_player = 1886;
+	bool HEPFGKFLCCD = 13;
+	uint32 owner_entity_id = 14;
+	bool OFGGANCKDLM = 438;
+	uint32 target_lock_point_index = 8;
+	Vector InitEulerAngles = 4;
+	uint32 prop_owner_entity_id = 1;
 	uint32 camp_type = 5;
-	Vector InitEulerAngles = 14;
-	bool KJLIAJBFMKL = 6;
-	repeated uint32 target_entity_id_list = 418;
+	ForwardType forward_type = 7;
+	Vector InitPos = 9;
+	uint32 target_entity_id = 2;
+	uint32 config_id = 15;
+	uint32 camp_id = 12;
+	repeated uint32 target_entity_id_list = 216;
+	uint32 entity_id = 10;
+	bool CNIILEKPCMD = 6;
 }

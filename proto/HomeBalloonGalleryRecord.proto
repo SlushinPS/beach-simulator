@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeGroupPlayerInfo.proto";
-// Obf: JGNJFAPBOBJ
+// Obf: MMNCPMEDCDB
 message HomeBalloonGalleryRecord {
-	uint32 timestamp = 11;
-	HomeGroupPlayerInfo player_info = 14;
-	uint32 hit_count = 12;
-	uint32 score = 1;
+	uint32 score = 14;
+	HomeGroupPlayerInfo player_info = 12;
+	uint32 hit_count = 10;
+	uint32 timestamp = 5;
 }

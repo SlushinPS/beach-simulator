@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4544
-// Obf: HBDFALCPCIA
+// CmdId: 22825
+// Obf: OEJJANGAIPG
 message HomeSceneJumpRsp {
-	bool is_enter_room_scene = 14;
-	int32 retcode = 13;
+	int32 retcode = 14;
+	bool is_enter_room_scene = 8;
 }

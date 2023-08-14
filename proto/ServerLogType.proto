@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EBGEGNIBCPC
+// Obf: DEJFCBNPEJO
 enum ServerLogType {
 	SERVER_LOG_NONE = 0;
 	SERVER_LOG_ABILITY = 1;

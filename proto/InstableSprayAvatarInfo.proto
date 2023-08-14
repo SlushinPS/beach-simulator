@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JIOLGMNCBND
+// Obf: FMCNMNANCCL
 message InstableSprayAvatarInfo {
-	bool is_trial = 11;
-	uint64 avatar_id = 1;
+	bool is_trial = 15;
+	uint64 avatar_id = 12;
 }

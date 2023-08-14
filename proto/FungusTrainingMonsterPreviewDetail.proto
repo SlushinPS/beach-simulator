@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EELEHAKPGNM
+// Obf: JMOBGEADKMA
 message FungusTrainingMonsterPreviewDetail {
-	repeated uint32 affix_list = 7;
-	uint32 level = 1;
-	uint32 monster_id = 8;
+	uint32 monster_id = 15;
+	uint32 level = 6;
+	repeated uint32 affix_list = 11;
 }

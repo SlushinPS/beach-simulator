@@ -17,18 +17,18 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CoinCollectTeamInfoData.proto";
-// Obf: BPIFCPLNNJL
+// Obf: KKFFELDHOKC
 message CoinCollectLevelData {
-	uint32 JOFGBFDLDAF = 14;
-	repeated CoinCollectTeamInfoData double_best_team_info_list = 10;
-	uint32 NHNHIJEMGAC = 9;
-	uint32 NJLICCIECCN = 13;
-	uint32 BOIEKLOHHPD = 5;
-	bool DDMNCCBCKNM = 12;
-	uint32 MGFFCLFPODP = 4;
-	bool NFIPGNAFDKH = 1;
-	CoinCollectTeamInfoData single_best_team_info = 3;
-	uint32 level_id = 8;
-	bool is_level_open = 15;
-	bool HMOBOIEILIF = 2;
+	uint32 CGCAEFMBDLE = 13;
+	uint32 OIDEGDJMAAH = 11;
+	bool NJJLELKNFPL = 10;
+	bool GICIIMOFPLC = 9;
+	bool is_level_open = 5;
+	bool NFKJLPLDDBM = 4;
+	uint32 NOBHHOIAPMM = 12;
+	uint32 GENIGFJFKEE = 3;
+	uint32 level_id = 15;
+	CoinCollectTeamInfoData single_best_team_info = 8;
+	repeated CoinCollectTeamInfoData double_best_team_info_list = 2;
+	uint32 PKPHLANBFAM = 14;
 }

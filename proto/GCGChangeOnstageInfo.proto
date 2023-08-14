@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGSkillPreviewInfo.proto";
-// Obf: OLOGMLCKOKK
+// Obf: IKANKDKBMOE
 message GCGChangeOnstageInfo {
-	GCGSkillPreviewInfo change_onstage_preview_info = 14;
-	bool is_quick = 5;
-	uint32 card_guid = 4;
+	GCGSkillPreviewInfo change_onstage_preview_info = 2;
+	bool is_quick = 4;
+	uint32 card_guid = 5;
 }

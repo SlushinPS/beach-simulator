@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: AGNHEKAOCEH
+// Obf: APPDFAFBKIM
 message AddNoGachaAvatarCardTransferItem {
-	bool is_new = 5;
-	uint32 count = 14;
-	uint32 item_id = 10;
+	uint32 count = 1;
+	uint32 item_id = 15;
+	bool is_new = 13;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGDuelChallenge.proto";
-// CmdId: 7450
-// Obf: EOLPOJJCOII
+// CmdId: 23408
+// Obf: HAANDGNFDFC
 message GCGChallengeUpdateNotify {
-	uint32 server_seq = 11;
-	GCGDuelChallenge challenge = 9;
+	uint32 server_seq = 12;
+	GCGDuelChallenge challenge = 2;
 }

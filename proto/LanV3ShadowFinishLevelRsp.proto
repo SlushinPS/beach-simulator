@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22016
-// Obf: JPBFJMKGFIG
+// CmdId: 5118
+// Obf: LEPNIMLOLAK
 message LanV3ShadowFinishLevelRsp {
-	int32 retcode = 3;
+	int32 retcode = 14;
 }

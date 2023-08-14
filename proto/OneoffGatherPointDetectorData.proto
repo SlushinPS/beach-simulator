@@ -17,13 +17,14 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: LPLOENMNIOC
+// Obf: OAJJEFFIDPJ
 message OneoffGatherPointDetectorData {
-	uint32 config_id = 11;
-	bool is_all_collected = 9;
-	uint32 group_id = 10;
-	bool is_hint_valid = 4;
-	Vector hint_center_pos = 3;
+	uint32 config_id = 7;
+	bool is_hint_valid = 10;
+	Vector hint_center_pos = 1;
 	uint32 hint_radius = 8;
-	uint32 material_id = 13;
+	uint32 material_id = 9;
+	uint32 group_id = 11;
+	uint32 HJMMAOMEHOL = 15;
+	bool is_all_collected = 6;
 }

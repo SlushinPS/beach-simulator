@@ -18,9 +18,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlayerWorldLocationInfo.proto";
 import "PlayerLocationInfo.proto";
-// CmdId: 256
-// Obf: CFNJLMJCOIP
+// CmdId: 7085
+// Obf: KEIDNDOFINC
 message WorldPlayerLocationNotify {
-	repeated PlayerWorldLocationInfo player_world_loc_list = 7;
-	repeated PlayerLocationInfo player_loc_list = 9;
+	repeated PlayerWorldLocationInfo player_world_loc_list = 10;
+	repeated PlayerLocationInfo player_loc_list = 1;
 }

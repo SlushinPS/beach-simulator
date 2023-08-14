@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8808
-// Obf: AMHFJHELOKA
+// CmdId: 6623
+// Obf: HIIHDIFBOFC
 message IrodoriMasterStartGalleryRsp {
-	int32 retcode = 9;
+	int32 retcode = 5;
 }

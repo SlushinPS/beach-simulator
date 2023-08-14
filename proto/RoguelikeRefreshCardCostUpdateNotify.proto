@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8875
-// Obf: DEOKADBOKOL
+// CmdId: 27478
+// Obf: GFKLFEABNDL
 message RoguelikeRefreshCardCostUpdateNotify {
-	uint32 item_id = 12;
-	uint32 item_count = 14;
+	uint32 item_count = 5;
+	uint32 item_id = 3;
 }

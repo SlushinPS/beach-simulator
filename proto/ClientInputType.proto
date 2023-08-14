@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DFMBCLCIGOD
+// Obf: NIHDBIEPBGP
 enum ClientInputType {
 	CLIENT_INPUT_NONE = 0;
 	CLIENT_INPUT_KEYBORD_MOUSE = 1;

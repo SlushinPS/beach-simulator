@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FireworksLaunchSchemeData.proto";
-// CmdId: 6007
-// Obf: PHEIBOINJNF
+// CmdId: 2905
+// Obf: OFNADKLLKHD
 message FireworksLaunchDataNotify {
-	uint32 last_use_scheme_id = 7;
-	repeated FireworksLaunchSchemeData scheme_data_list = 10;
+	repeated FireworksLaunchSchemeData scheme_data_list = 2;
+	uint32 last_use_scheme_id = 9;
 }

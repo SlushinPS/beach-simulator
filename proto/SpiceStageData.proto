@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KGCOAKGGDMA
+// Obf: IHFHICEPOPB
 message SpiceStageData {
-	bool is_open = 11;
-	uint32 success_times = 14;
-	uint32 stage_id = 6;
+	uint32 stage_id = 3;
+	bool is_open = 14;
+	uint32 success_times = 9;
 }

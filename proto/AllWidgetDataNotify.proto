@@ -16,30 +16,32 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "WidgetCoolDownData.proto";
-import "LunchBoxData.proto";
-import "WeatherWizardData.proto";
-import "AnchorPointData.proto";
-import "SkyCrystalDetectorData.proto";
-import "WidgetSlotData.proto";
-import "ClientCollectorData.proto";
-import "FGNNOLDBLNO.proto";
 import "OneoffGatherPointDetectorData.proto";
-// CmdId: 4274
-// Obf: KKFGPLOAPPM
+import "ClientCollectorData.proto";
+import "WidgetCoolDownData.proto";
+import "AnchorPointData.proto";
+import "LunchBoxData.proto";
+import "LANPHFCMEBN.proto";
+import "SkyCrystalDetectorData.proto";
+import "EPIAFADAJAN.proto";
+import "WidgetSlotData.proto";
+import "WeatherWizardData.proto";
+// CmdId: 2294
+// Obf: PODFDFDOCGK
 message AllWidgetDataNotify {
-	uint32 EDDCGLBMNLB = 1745;
-	uint32 AIOOKJNCEEL = 9;
-	repeated WidgetCoolDownData HAHHHLCIIOL = 13;
-	LunchBoxData lunch_box_data = 14;
-	WeatherWizardData weather_wizard_data = 7;
-	repeated AnchorPointData anchor_point_list = 10;
+	repeated OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 4;
+	repeated ClientCollectorData client_collector_data_list = 9;
+	uint32 CMFPEOMAJLM = 10;
+	repeated WidgetCoolDownData PEOHMDJKMKO = 8;
+	repeated AnchorPointData anchor_point_list = 15;
+	LunchBoxData lunch_box_data = 11;
+	repeated WidgetCoolDownData MCMDFPAFOIG = 14;
+	LANPHFCMEBN ELIOJBDGIMJ = 12;
 	SkyCrystalDetectorData sky_crystal_detector_data = 1;
-	repeated WidgetSlotData slot_list = 5;
-	repeated ClientCollectorData client_collector_data_list = 15;
-	repeated WidgetCoolDownData HLEHGMDGPDC = 8;
-	repeated uint32 ENNIJLCIBGH = 1276;
-	repeated uint32 background_active_widget_list = 3;
-	FGNNOLDBLNO MHDAHEDKPMG = 2;
-	repeated OneoffGatherPointDetectorData oneoff_gather_point_detector_data_list = 12;
+	repeated uint32 EMPBLGKLCOA = 1790;
+	EPIAFADAJAN NNPMMJCEJAO = 1715;
+	uint32 HALAOGOBMKJ = 1816;
+	repeated WidgetSlotData slot_list = 13;
+	repeated uint32 background_active_widget_list = 6;
+	WeatherWizardData weather_wizard_data = 2;
 }

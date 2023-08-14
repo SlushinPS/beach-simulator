@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5837
-// Obf: EOCEPNHLLAF
+// CmdId: 24205
+// Obf: FPHEIMEJOHH
 message StartFishingReq {
-	uint32 rod_entity_id = 15;
-	uint32 fish_pool_id = 1;
+	uint32 fish_pool_id = 3;
+	uint32 rod_entity_id = 14;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1953
-// Obf: OCNALLJIACD
+// CmdId: 27931
+// Obf: LGAINENCJLA
 message UnlockCoopChapterReq {
-	uint32 chapter_id = 8;
+	uint32 chapter_id = 11;
 }

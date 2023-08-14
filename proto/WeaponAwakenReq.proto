@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 666
-// Obf: ODIJEFHHODN
+// CmdId: 23146
+// Obf: AFPFPKMLIPD
 message WeaponAwakenReq {
-	map<uint32, uint32> affix_level_map = 11;
-	uint64 item_guid = 2;
-	uint64 target_weapon_guid = 9;
+	uint64 target_weapon_guid = 2;
+	map<uint32, uint32> affix_level_map = 4;
+	uint64 item_guid = 15;
 }

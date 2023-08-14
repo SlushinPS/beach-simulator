@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MapMarkTipsInfo.proto";
-// CmdId: 3094
-// Obf: CDKJIFMGMGN
+// CmdId: 26346
+// Obf: KAMAAHEKBHL
 message GetMapMarkTipsRsp {
-	int32 retcode = 6;
-	repeated MapMarkTipsInfo mark_tips_list = 11;
+	repeated MapMarkTipsInfo mark_tips_list = 13;
+	int32 retcode = 8;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2023
-// Obf: OHJNPDMFBCF
+// CmdId: 22558
+// Obf: KHMMMBDOHDD
 message SeaLampTakeContributionRewardRsp {
-	uint32 config_id = 7;
-	int32 retcode = 10;
+	uint32 config_id = 1;
+	int32 retcode = 7;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EMAIJJNIDOE
+// Obf: CGABDBLBBGF
 message MassiveWaterInfo {
 	int64 id = 1;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "EvtBeingHitInfo.proto";
 import "ForwardType.proto";
-// CmdId: 375
-// Obf: PPNOMHAOEOJ
+import "EvtBeingHitInfo.proto";
+// CmdId: 8650
+// Obf: OPODPPOAPKP
 message EvtBeingHitNotify {
-	EvtBeingHitInfo being_hit_info = 10;
 	ForwardType forward_type = 9;
+	EvtBeingHitInfo being_hit_info = 4;
 }

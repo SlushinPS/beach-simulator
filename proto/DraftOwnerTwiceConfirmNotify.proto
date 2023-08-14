@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5430
-// Obf: MFIINAFHINM
+// CmdId: 8918
+// Obf: IKPCELLECGF
 message DraftOwnerTwiceConfirmNotify {
-	uint32 draft_id = 3;
-	uint32 twice_confirm_deadline_time = 5;
+	uint32 twice_confirm_deadline_time = 14;
+	uint32 draft_id = 2;
 }

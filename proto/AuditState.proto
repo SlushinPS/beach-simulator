@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BFNGHFNKELO
+// Obf: MDIBKDBOAAO
 enum AuditState {
 	AUDIT_NONE = 0;
 	AUDIT_WAITING = 1;

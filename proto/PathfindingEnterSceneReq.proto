@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ObstacleInfo.proto";
-// CmdId: 2355
-// Obf: DABOPANJCMH
+// CmdId: 2347
+// Obf: FPAOCKHOFJL
 message PathfindingEnterSceneReq {
+	bool is_editor = 3;
 	uint32 version = 4;
-	uint32 scene_id = 12;
-	repeated ObstacleInfo obstacles = 7;
-	uint32 MPIPHNNEMBK = 3;
-	bool is_editor = 14;
-	uint32 JAAGGFLGGGL = 11;
+	uint32 KJJLLFIJKNA = 2;
+	repeated ObstacleInfo obstacles = 10;
+	uint32 GKFDHIPOHOE = 5;
+	uint32 scene_id = 15;
 }

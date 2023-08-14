@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8751
-// Obf: AIIFDHIDFJH
+// CmdId: 22632
+// Obf: KPAHHCIABPF
 message LunaRiteAreaFinishNotify {
 	uint32 area_id = 15;
 }

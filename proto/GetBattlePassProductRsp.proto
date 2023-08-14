@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2616
-// Obf: AFKHEFNDFAK
+// CmdId: 29703
+// Obf: JBBMCHOBBFD
 message GetBattlePassProductRsp {
-	string product_id = 14;
-	int32 retcode = 7;
-	string price_tier = 12;
-	uint32 battle_pass_product_play_type = 15;
-	uint32 cur_schedule_id = 10;
+	int32 retcode = 1;
+	string price_tier = 3;
+	string product_id = 10;
+	uint32 cur_schedule_id = 5;
+	uint32 battle_pass_product_play_type = 7;
 }

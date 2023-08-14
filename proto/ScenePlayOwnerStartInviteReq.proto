@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4422
-// Obf: ALGGNKOEHBL
+// CmdId: 5530
+// Obf: PPHPKBBAPKE
 message ScenePlayOwnerStartInviteReq {
-	uint32 play_id = 3;
-	bool is_skip_match = 12;
+	bool is_skip_match = 6;
+	uint32 play_id = 8;
 }

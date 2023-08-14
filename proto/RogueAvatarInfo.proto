@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JCEMADFLBNA
+// Obf: OKCFELECGJB
 message RogueAvatarInfo {
-	uint32 avatar_id = 5;
-	bool is_alive = 6;
-	bool PLAKJHBAGJK = 15;
+	uint32 avatar_id = 1;
+	bool GAKIEJLMJAI = 4;
+	bool is_alive = 14;
 }

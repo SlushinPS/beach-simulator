@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2020
-// Obf: JIJMOEPDNAF
+// CmdId: 1567
+// Obf: HKPFGBDPCLI
 message TreasureMapGuideTaskDoneNotify {
 }

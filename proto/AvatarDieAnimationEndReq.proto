@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 1619
-// Obf: PINLKDHNFPM
+// CmdId: 4506
+// Obf: HPOMJHEAICH
 message AvatarDieAnimationEndReq {
-	Vector reborn_pos = 15;
-	uint32 skill_id = 4;
-	uint64 die_guid = 1;
+	uint32 skill_id = 9;
+	uint64 die_guid = 8;
+	Vector reborn_pos = 14;
 }

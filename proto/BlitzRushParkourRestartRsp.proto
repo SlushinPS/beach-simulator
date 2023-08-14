@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8867
-// Obf: KBKIEGDEFPH
+// CmdId: 22318
+// Obf: FCAILEJAJBE
 message BlitzRushParkourRestartRsp {
-	uint32 schedule_id = 13;
-	uint32 group_id = 15;
-	int32 retcode = 8;
+	uint32 schedule_id = 9;
+	int32 retcode = 10;
+	uint32 group_id = 1;
 }

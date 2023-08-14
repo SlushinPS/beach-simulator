@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 281
-// Obf: KAGKLNAHCAM
+// CmdId: 24814
+// Obf: AHBDCDEOHII
 message EnterSceneDoneRsp {
-	uint32 enter_scene_token = 13;
-	int32 retcode = 3;
+	uint32 enter_scene_token = 12;
+	int32 retcode = 15;
 }

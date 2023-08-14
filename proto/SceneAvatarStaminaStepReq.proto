@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 230
-// Obf: OEBOGEELNOL
+// CmdId: 543
+// Obf: OALKNGKGAJL
 message SceneAvatarStaminaStepReq {
-	bool use_client_rot = 4;
-	Vector rot = 15;
+	Vector rot = 5;
+	bool use_client_rot = 8;
 }

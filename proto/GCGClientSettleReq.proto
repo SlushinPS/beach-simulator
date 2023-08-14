@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7796
-// Obf: IJMBPIHHMFM
+// CmdId: 5826
+// Obf: MAPPJDLLDEM
 message GCGClientSettleReq {
 }

@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 2466
-// Obf: ACPJMJPFENC
+// CmdId: 20886
+// Obf: BHDDDPNGPNF
 message TowerLevelEndNotify {
-	uint32 next_floor_id = 1;
-	uint32 continue_state = 2;
-	bool is_success = 4;
-	repeated uint32 finished_star_cond_list = 7;
-	repeated ItemParam reward_item_list = 10;
+	repeated uint32 finished_star_cond_list = 14;
+	bool is_success = 7;
+	uint32 continue_state = 4;
+	repeated ItemParam reward_item_list = 13;
+	uint32 next_floor_id = 5;
 }

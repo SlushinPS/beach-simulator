@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "IrodoriMasterLevelDetailInfo.proto";
-// Obf: EMCIPFMAAHF
+// Obf: HNGOJKODKMG
 message IrodoriMasterLevelInfo {
-	repeated IrodoriMasterLevelDetailInfo detail_info = 3;
-	uint32 level_id = 14;
+	uint32 level_id = 10;
+	repeated IrodoriMasterLevelDetailInfo detail_info = 1;
 }

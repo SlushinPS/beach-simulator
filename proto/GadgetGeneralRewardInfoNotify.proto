@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GadgetGeneralRewardInfo.proto";
-// CmdId: 821
-// Obf: GBNLCOJLDPC
+// CmdId: 7557
+// Obf: DILFBIEBAAF
 message GadgetGeneralRewardInfoNotify {
-	GadgetGeneralRewardInfo general_reward_info = 14;
-	uint32 entity_id = 5;
+	uint32 entity_id = 9;
+	GadgetGeneralRewardInfo general_reward_info = 1;
 }

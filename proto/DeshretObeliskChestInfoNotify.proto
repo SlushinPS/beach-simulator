@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DeshretObeliskChestInfo.proto";
-// CmdId: 859
-// Obf: GOOBLMIJGFH
+// CmdId: 22407
+// Obf: IPMPIFNCLNK
 message DeshretObeliskChestInfoNotify {
-	repeated DeshretObeliskChestInfo chest_info_list = 7;
+	repeated DeshretObeliskChestInfo chest_info_list = 13;
 }

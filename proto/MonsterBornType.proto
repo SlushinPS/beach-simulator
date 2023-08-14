@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CNKCBENCCOC
+// Obf: LNFJOAGMCEF
 enum MonsterBornType {
 	MONSTER_BORN_TYPE_NONE = 0;
 	MONSTER_BORN_TYPE_DEFAULT = 1;

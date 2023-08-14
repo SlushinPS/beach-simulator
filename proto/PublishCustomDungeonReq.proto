@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6242
-// Obf: IENMHAOCFGP
+// CmdId: 21897
+// Obf: GBABEIIMMEL
 message PublishCustomDungeonReq {
-	uint64 dungeon_guid = 14;
-	repeated uint32 tag_list = 3;
+	repeated uint32 tag_list = 9;
+	uint64 dungeon_guid = 2;
 }

@@ -19,7 +19,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "AbilityString.proto";
 import "AbilityAttachedModifier.proto";
 import "ModifierDurability.proto";
-// Obf: DCPBFOKKPFJ
+// Obf: OAHPGFENJJK
 message AbilityAppliedModifier {
 	int32 modifier_local_id = 1;
 	uint32 parent_ability_entity_id = 2;
@@ -30,7 +30,7 @@ message AbilityAppliedModifier {
 	float exist_duration = 7;
 	AbilityAttachedModifier attached_instanced_modifier = 8;
 	uint32 apply_entity_id = 9;
-	bool DLOLFHNNEKI = 10;
+	bool is_attached_parent_ability = 10;
 	ModifierDurability modifier_durability = 11;
 	uint32 sbuff_uid = 12;
 	bool is_serverbuff_modifier = 13;

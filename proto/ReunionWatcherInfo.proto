@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CGOBDJBAKME
+// Obf: ECJKINNLLGF
 message ReunionWatcherInfo {
-	uint32 reward_unlock_time = 3;
-	uint32 total_progress = 11;
-	uint32 watcher_id = 13;
-	uint32 cur_progress = 1;
-	bool is_taken_reward = 2;
+	uint32 cur_progress = 5;
+	uint32 reward_unlock_time = 6;
+	bool is_taken_reward = 7;
+	uint32 watcher_id = 2;
+	uint32 total_progress = 12;
 }

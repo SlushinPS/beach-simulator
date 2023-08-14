@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PushTipsData.proto";
-// CmdId: 2206
-// Obf: EFCABIHALNP
+// CmdId: 28129
+// Obf: CCALHGOIIHE
 message PushTipsAllDataNotify {
-	repeated PushTipsData push_tips_list = 7;
+	repeated PushTipsData push_tips_list = 1;
 }

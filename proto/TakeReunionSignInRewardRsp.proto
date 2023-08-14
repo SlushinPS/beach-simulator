@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ReunionSignInInfo.proto";
-// CmdId: 5057
-// Obf: GDKHNBIMABH
+// CmdId: 28118
+// Obf: AJPIILEHDNK
 message TakeReunionSignInRewardRsp {
-	int32 retcode = 6;
-	ReunionSignInInfo sign_in_info = 1;
+	ReunionSignInInfo sign_in_info = 5;
+	int32 retcode = 3;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3227
-// Obf: GOGNIJGLMLG
+// CmdId: 26350
+// Obf: NOKLHPPCPKB
 message PlayerChatCDNotify {
-	uint32 over_time = 1;
+	uint32 over_time = 2;
 }

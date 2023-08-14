@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8603
-// Obf: BKPNLGDHNAF
+// CmdId: 4170
+// Obf: CCNKNDEFNKO
 message WinterCampAcceptGiveItemReq {
-	uint32 uid = 12;
+	uint32 uid = 4;
 }

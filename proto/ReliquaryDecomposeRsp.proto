@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 632
-// Obf: DLBMKMKGNKB
+// CmdId: 5943
+// Obf: AGGLLEHOPED
 message ReliquaryDecomposeRsp {
-	int32 retcode = 6;
-	repeated uint64 guid_list = 3;
+	repeated uint64 guid_list = 9;
+	int32 retcode = 2;
 }

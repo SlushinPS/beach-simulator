@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "DungeonEntryPointInfo.proto";
 import "DungeonEntryInfo.proto";
-// CmdId: 996
-// Obf: FEABLOCKDAP
+import "DungeonEntryPointInfo.proto";
+// CmdId: 28381
+// Obf: FJKAAALHLDG
 message DungeonEntryInfoRsp {
-	repeated DungeonEntryPointInfo dungeon_entry_point_list = 15;
+	repeated DungeonEntryInfo dungeon_entry_list = 4;
+	repeated DungeonEntryPointInfo dungeon_entry_point_list = 11;
+	int32 retcode = 13;
 	uint32 point_id = 5;
-	repeated DungeonEntryInfo dungeon_entry_list = 6;
-	uint32 recommend_dungeon_id = 14;
-	int32 retcode = 1;
+	uint32 recommend_dungeon_id = 2;
 }

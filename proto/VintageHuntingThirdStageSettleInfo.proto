@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KNKOFBCIECL
+// Obf: PFNELEKLOFJ
 message VintageHuntingThirdStageSettleInfo {
-	uint32 left_time = 9;
-	bool is_success = 4;
+	uint32 left_time = 14;
+	bool is_success = 8;
 }

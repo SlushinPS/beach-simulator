@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChannelerSlabCamp.proto";
-// Obf: MGFAOBBLLAD
+// Obf: FFPKPPELBHH
 message ChannelerSlabChallenge {
-	repeated ChannelerSlabCamp camp_list = 14;
-	uint32 active_camp_index = 8;
+	uint32 active_camp_index = 4;
+	repeated ChannelerSlabCamp camp_list = 6;
 }

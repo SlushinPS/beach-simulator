@@ -19,12 +19,12 @@ option java_package = "emu.grasscutter.net.proto";
 import "LanternRiteFireworksInfo.proto";
 import "LanternProjectionInfo.proto";
 import "SalvageStageInfo.proto";
-// Obf: JJKBLBCBCEH
+// Obf: AFGNDKEKPOG
 message LanternRiteActivityDetailInfo {
-	LanternRiteFireworksInfo fireworks_info = 15;
-	bool HHHOIKIBHOA = 11;
-	LanternProjectionInfo projection_info = 7;
-	bool NGDCCCDNHHE = 5;
-	bool is_content_closed = 12;
-	repeated SalvageStageInfo stage_info_list = 4;
+	bool ENLPIFHELEK = 10;
+	bool is_content_closed = 7;
+	LanternRiteFireworksInfo fireworks_info = 14;
+	LanternProjectionInfo projection_info = 9;
+	bool JNBNIPBJGFK = 12;
+	repeated SalvageStageInfo stage_info_list = 11;
 }

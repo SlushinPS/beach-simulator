@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PBNavMeshTile.proto";
-// CmdId: 2309
-// Obf: CKEFNCPEEKL
+// CmdId: 2341
+// Obf: HFCANNOCOEG
 message GMShowNavMeshRsp {
-	int32 retcode = 9;
-	repeated PBNavMeshTile tiles = 15;
+	int32 retcode = 1;
+	repeated PBNavMeshTile tiles = 6;
 }

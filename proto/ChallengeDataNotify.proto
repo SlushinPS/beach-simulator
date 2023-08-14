@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 968
-// Obf: LGGFHHBFBIL
+// CmdId: 2864
+// Obf: MFANHHFJIBJ
 message ChallengeDataNotify {
-	uint32 challenge_index = 10;
-	uint32 param_index = 6;
-	uint32 value = 5;
+	uint32 challenge_index = 5;
+	uint32 param_index = 9;
+	uint32 value = 8;
 }

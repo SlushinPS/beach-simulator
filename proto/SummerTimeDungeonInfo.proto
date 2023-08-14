@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DOGHNGGDOPO
+// Obf: BICHGADPDCM
 message SummerTimeDungeonInfo {
-	uint32 ONINCEHHENA = 2;
-	uint32 PADCPPNAKOL = 4;
-	uint32 dungeon_id = 7;
-	uint32 OLEAMLOOABN = 3;
-	uint32 BOCOGLPBAHG = 13;
+	uint32 BKCFOGDDEAJ = 11;
+	uint32 JCMPLCKOOEF = 8;
+	uint32 dungeon_id = 2;
+	uint32 NGOIBHADCOM = 4;
+	uint32 PNEFNEDHNLC = 14;
 }

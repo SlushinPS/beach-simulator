@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 319
-// Obf: PCLLDJIMKHE
+// CmdId: 4542
+// Obf: MJLLALFOONC
 message EvtLocalGadgetOwnerLeaveSceneNotify {
-	uint32 entity_id = 5;
+	uint32 entity_id = 11;
 }

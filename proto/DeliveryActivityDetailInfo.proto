@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: IOHOBABPFDF
+// Obf: DOBDHABKDGM
 message DeliveryActivityDetailInfo {
-	uint32 day_index = 12;
-	bool is_taken_reward = 1;
-	repeated uint32 finished_delivery_quest_index = 8;
+	repeated uint32 finished_delivery_quest_index = 14;
+	uint32 day_index = 13;
+	bool is_taken_reward = 6;
 }

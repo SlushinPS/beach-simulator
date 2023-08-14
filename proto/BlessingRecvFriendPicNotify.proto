@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2083
-// Obf: NBLGOLLKBCB
+// CmdId: 5919
+// Obf: NPBEGPMKMBF
 message BlessingRecvFriendPicNotify {
-	uint32 uid = 13;
-	uint32 pic_id = 8;
+	uint32 pic_id = 15;
+	uint32 uid = 5;
 }

@@ -19,17 +19,17 @@ option java_package = "emu.grasscutter.net.proto";
 import "VintageHuntingFirstStageSettleInfo.proto";
 import "VintageHuntingSecondStageSettleInfo.proto";
 import "VintageHuntingThirdStageSettleInfo.proto";
-// CmdId: 24282
-// Obf: PJLPILDHFJO
+// CmdId: 5258
+// Obf: KFBFKDKFKLJ
 message SceneGalleryVintageHuntingSettleNotify {
-	uint32 MDKJMHIIMKE = 7;
-	uint32 JDEMIFFOFCA = 1;
-	bool is_new_record = 10;
-	uint32 stage_id = 4;
-	bool has_new_watcher = 8;
+	bool is_new_record = 14;
+	bool has_new_watcher = 10;
+	uint32 stage_id = 7;
+	uint32 IIIGIBNKMJH = 5;
+	uint32 IBPJMGKABFO = 6;
 	oneof info {
-		VintageHuntingFirstStageSettleInfo first_stage_info = 2;
-		VintageHuntingSecondStageSettleInfo second_stage_info = 3;
-		VintageHuntingThirdStageSettleInfo third_stage_info = 12;
+		VintageHuntingFirstStageSettleInfo first_stage_info = 3;
+		VintageHuntingSecondStageSettleInfo second_stage_info = 12;
+		VintageHuntingThirdStageSettleInfo third_stage_info = 11;
 	}
 }

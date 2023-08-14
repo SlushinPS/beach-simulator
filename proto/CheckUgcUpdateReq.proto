@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "UgcType.proto";
-// CmdId: 6303
-// Obf: MCMPDMKLJFP
+// CmdId: 8229
+// Obf: GANFHAADKOP
 message CheckUgcUpdateReq {
-	UgcType ugc_type = 4;
+	UgcType ugc_type = 15;
 }

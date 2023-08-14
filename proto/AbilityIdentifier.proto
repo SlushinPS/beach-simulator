@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PIEGLPACNBP
+// Obf: JJPHDINFFJI
 message AbilityIdentifier {
-	uint32 instanced_modifier_id = 11;
-	int32 local_id = 2;
-	bool is_serverbuff_modifier = 14;
-	uint32 modifier_owner_id = 1;
-	uint32 ability_caster_id = 15;
-	uint32 instanced_ability_id = 9;
+	int32 local_id = 5;
+	uint32 instanced_ability_id = 11;
+	bool is_serverbuff_modifier = 2;
+	uint32 instanced_modifier_id = 12;
+	uint32 MDEDDJNNKOI = 6;
+	uint32 BKJOIGAMEAM = 10;
 }

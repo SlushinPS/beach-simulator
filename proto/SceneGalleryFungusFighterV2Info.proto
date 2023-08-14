@@ -16,18 +16,18 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DDGEDPLEEIN
+// Obf: FGLANFANLNG
 message SceneGalleryFungusFighterV2Info {
-	message ILMJPLKAIOC {
-		uint32 fungus_id = 7;
-		uint64 NPFMGHGMNDM = 13;
-		bool is_alive = 4;
+	message FCIGPKIBPNN {
+		uint64 HAPBKADOKLK = 8;
+		uint32 fungus_id = 1;
+		bool is_alive = 7;
 	}
 	
-	string transaction = 12;
-	uint32 EEJCKKKEBOK = 4;
-	repeated ILMJPLKAIOC EJFKIMLBMNM = 15;
-	uint64 GEGILDOGNDG = 13;
-	uint32 KDCKPCGPNNG = 9;
-	float PKHOBOKAIEN = 6;
+	uint64 ODDEHJAABFE = 12;
+	string transaction = 1;
+	repeated FCIGPKIBPNN AEJLKLALBCE = 2;
+	float PDFMDAEIJNK = 10;
+	uint32 OGOLIHBAJDL = 4;
+	uint32 IBJOJJBHKCF = 13;
 }

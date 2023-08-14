@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 336
-// Obf: FLLMEHMJIDK
+// CmdId: 20036
+// Obf: BMANLPLANOJ
 message MonsterAlertChangeNotify {
-	repeated uint32 monster_entity_list = 12;
-	uint32 avatar_entity_id = 3;
+	uint32 avatar_entity_id = 14;
 	uint32 is_alert = 1;
+	repeated uint32 monster_entity_list = 12;
 }

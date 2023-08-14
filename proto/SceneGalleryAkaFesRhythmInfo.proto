@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: IMAAAEPOLLC
+// Obf: HGLPJFFJHAD
 message SceneGalleryAkaFesRhythmInfo {
-	string transaction = 13;
-	bool GEFPKPGFGIG = 5;
+	string transaction = 10;
+	bool MJICPHCAODG = 13;
 }

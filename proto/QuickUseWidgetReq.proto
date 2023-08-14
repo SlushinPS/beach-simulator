@@ -21,15 +21,15 @@ import "WidgetCameraInfo.proto";
 import "WidgetCreatorInfo.proto";
 import "WidgetThunderBirdFeatherInfo.proto";
 import "WidgetSorushInfo.proto";
-// CmdId: 4266
-// Obf: LFNGOLHIBCA
+// CmdId: 4406
+// Obf: HKMKLJLIKPO
 message QuickUseWidgetReq {
-	bool MDCPHIOENOJ = 782;
 	oneof param {
-		WidgetCreateLocationInfo location_info = 1827;
-		WidgetCameraInfo camera_info = 1598;
-		WidgetCreatorInfo creator_info = 1489;
-		WidgetThunderBirdFeatherInfo thunder_bird_feather_info = 767;
-		WidgetSorushInfo sorush_info = 75;
+		WidgetCreateLocationInfo location_info = 322;
+		WidgetCameraInfo camera_info = 1362;
+		WidgetCreatorInfo creator_info = 649;
+		WidgetThunderBirdFeatherInfo thunder_bird_feather_info = 1473;
+		WidgetSorushInfo sorush_info = 1353;
 	}
+	bool EEJNPDEBBIK = 253;
 }

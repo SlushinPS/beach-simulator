@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 183
-// Obf: JIEKKJEKJDG
+// CmdId: 8986
+// Obf: AJDFJMPKPDK
 message DailyTaskFilterCityRsp {
-	int32 retcode = 15;
-	uint32 city_id = 4;
+	uint32 city_id = 2;
+	int32 retcode = 4;
 }

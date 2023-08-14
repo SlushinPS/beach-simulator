@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NLNPAPLIEDM
+// Obf: EKDNNONAKME
 enum GCGIntentionChangeType {
 	GCG_INTENTION_CHANGE_NONE = 0;
 	GCG_INTENTION_CHANGE_RM = 1;

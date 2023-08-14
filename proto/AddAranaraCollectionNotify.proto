@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AranaraCollectionState.proto";
-// CmdId: 6358
-// Obf: IPOMAKMJOGD
+// CmdId: 4632
+// Obf: HFMGAHLDEHE
 message AddAranaraCollectionNotify {
-	AranaraCollectionState GOLJHHICAGJ = 7;
-	uint32 collection_id = 9;
-	uint32 collection_type = 12;
-	AranaraCollectionState OMHMCJAFCJH = 4;
+	uint32 collection_type = 5;
+	uint32 collection_id = 7;
+	AranaraCollectionState NHLNJGDOKBF = 8;
+	AranaraCollectionState MPFFGBKBNEP = 3;
 }

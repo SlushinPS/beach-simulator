@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5825
-// Obf: MABHDMMLLCK
+// CmdId: 26704
+// Obf: MDNEPFPANAP
 message FishChosenNotify {
-	uint32 fish_id = 10;
+	uint32 fish_id = 15;
 }

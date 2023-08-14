@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4674
-// Obf: IKEBBMFCGJL
+// CmdId: 28348
+// Obf: MOBKNFJDDOD
 message HomeClearGroupRecordReq {
-	uint32 group_id = 10;
+	uint32 group_id = 6;
 }

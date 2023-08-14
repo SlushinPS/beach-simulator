@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 453
-// Obf: LJCOMNDKOAO
+// CmdId: 24145
+// Obf: NNLDEBNHEEF
 message GetQuestLackingResourceReq {
-	uint32 quest_id = 1;
+	uint32 quest_id = 5;
 }

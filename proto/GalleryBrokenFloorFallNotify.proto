@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5564
-// Obf: KIHFMBALOIK
+// CmdId: 9913
+// Obf: NNKNOOLCKMB
 message GalleryBrokenFloorFallNotify {
-	uint32 fall_count = 6;
+	uint32 fall_count = 1;
 	uint32 gallery_id = 2;
 }

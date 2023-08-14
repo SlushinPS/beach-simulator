@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BGEPDKGLCMN
+// Obf: CJAADENOOAJ
 message TowerLevelStarCondData {
-	uint32 star_cond_index = 15;
-	uint32 cond_value = 7;
-	bool HHFLBKFMCIH = 4;
-	bool DJEMLDOFGLI = 11;
+	uint32 NGHNFHCLFBH = 12;
+	bool IBGHBFANCBK = 6;
+	bool OILLLBMMABH = 9;
+	uint32 OMOECEGOALC = 2;
 }

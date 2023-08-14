@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AbilityInvokeEntry.proto";
-// CmdId: 1196
-// Obf: PJFLGALPCNO
+// CmdId: 26313
+// Obf: IFAKFDEJFLI
 message AbilityInvocationsNotify {
-	repeated AbilityInvokeEntry invokes = 1;
+	repeated AbilityInvokeEntry invokes = 15;
 }

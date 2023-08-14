@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CustomCommonNodeInfo.proto";
-// Obf: OPKMKFIPECP
+// Obf: CIJAJILMPEJ
 message HomeCustomFurnitureInfo {
-	uint32 guid = 6;
-	repeated CustomCommonNodeInfo sub_furniture_list = 11;
+	uint32 guid = 9;
+	repeated CustomCommonNodeInfo sub_furniture_list = 10;
 }

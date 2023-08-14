@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FJNMGCOBEDA
+// Obf: JACEDADNMHF
 message RoguelikeRuneRecord {
-	uint32 AMDENNHDBNO = 7;
-	uint32 rune_id = 9;
-	uint32 FCDJENECOPL = 4;
+	uint32 GEENANGPMFL = 13;
+	uint32 OLCPNJOLEMO = 6;
+	uint32 rune_id = 12;
 }

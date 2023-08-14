@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2594
-// Obf: OEOGMGDLIGK
+// CmdId: 29874
+// Obf: NIKAOPNGPPH
 message GetBonusActivityRewardReq {
-	uint32 bonus_activity_id = 13;
+	uint32 bonus_activity_id = 5;
 }

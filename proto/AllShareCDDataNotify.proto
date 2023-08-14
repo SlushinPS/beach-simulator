@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "ShareCDInfo.proto";
-// CmdId: 9075
-// Obf: EBEACBANELN
+import "JHBKKCOELHA.proto";
+// CmdId: 3440
+// Obf: BAIIFJOGPBL
 message AllShareCDDataNotify {
-	map<uint32, ShareCDInfo> share_cd_info_map = 11;
+	map<uint32, JHBKKCOELHA> GCDFANCJJOA = 12;
 }

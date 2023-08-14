@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 872
-// Obf: DEJDCEGIBII
+// CmdId: 925
+// Obf: AMKENHADEJN
 message WorktopOptionNotify {
-	uint32 gadget_entity_id = 4;
-	repeated uint32 option_list = 11;
+	repeated uint32 option_list = 7;
+	uint32 gadget_entity_id = 3;
 }

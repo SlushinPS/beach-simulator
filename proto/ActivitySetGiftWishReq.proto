@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8597
-// Obf: MGCLLPLFFDJ
+// CmdId: 24397
+// Obf: GLDKPGNMFGL
 message ActivitySetGiftWishReq {
-	uint32 schedule_id = 1;
+	uint32 schedule_id = 10;
 	map<uint32, uint32> gift_num_map = 6;
 }

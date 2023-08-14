@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4647
-// Obf: JDBFBGGHBOE
+// CmdId: 24840
+// Obf: HFBBPKBDIHH
 message HomeKickPlayerReq {
-	uint32 target_uid = 2;
 	bool is_kick_all = 14;
+	uint32 target_uid = 7;
 }

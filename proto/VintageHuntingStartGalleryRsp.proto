@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20075
-// Obf: IJNJCMHHFEL
+// CmdId: 20765
+// Obf: JOPNAAOPCIL
 message VintageHuntingStartGalleryRsp {
 	int32 retcode = 12;
 }

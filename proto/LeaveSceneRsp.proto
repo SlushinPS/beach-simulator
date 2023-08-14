@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 202
-// Obf: JAJCPAPGLDM
+// CmdId: 25971
+// Obf: EKLHCGLKLLM
 message LeaveSceneRsp {
-	int32 retcode = 7;
+	int32 retcode = 12;
 }

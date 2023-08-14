@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GalleryStartSource.proto";
-// Obf: IILPODAEJLO
+// Obf: OIGHHDCGKOJ
 message SceneGalleryIslandPartyDownHillInfo {
-	uint32 coin = 7;
-	uint32 max_kill_monster_count = 10;
+	uint32 total_kill_monster_count = 7;
+	uint32 coin = 13;
 	GalleryStartSource start_source = 3;
-	uint32 total_kill_monster_count = 4;
+	uint32 max_kill_monster_count = 14;
 }

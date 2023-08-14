@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8956
-// Obf: KBEFHHEOABA
+// CmdId: 28736
+// Obf: CPJLGNLKLHB
 message MistTrialGetChallengeMissionReq {
-	uint32 trial_id = 15;
+	uint32 trial_id = 14;
 }

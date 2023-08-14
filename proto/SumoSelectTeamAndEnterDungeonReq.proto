@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SumoTeamData.proto";
-// CmdId: 8326
-// Obf: EOBIHPJLCPA
+// CmdId: 28230
+// Obf: OOBBHBIGGNI
 message SumoSelectTeamAndEnterDungeonReq {
-	repeated SumoTeamData team_list = 6;
-	uint32 difficulty_id = 14;
-	uint32 stage_id = 5;
-	uint32 activity_id = 2;
+	uint32 stage_id = 4;
+	uint32 difficulty_id = 5;
+	uint32 activity_id = 8;
+	repeated SumoTeamData team_list = 13;
 }

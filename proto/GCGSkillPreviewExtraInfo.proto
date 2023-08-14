@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGSkillPreviewCardInfo.proto";
-// Obf: GPBPONKAFJA
+// Obf: FCPHAKGFEOD
 message GCGSkillPreviewExtraInfo {
-	repeated GCGSkillPreviewCardInfo HDCFLCDAIDJ = 12;
-	repeated GCGSkillPreviewCardInfo NFLBFMMOEOD = 1;
+	repeated GCGSkillPreviewCardInfo HJKOLBBIEKP = 10;
+	repeated GCGSkillPreviewCardInfo GDOGONCLICI = 13;
 }

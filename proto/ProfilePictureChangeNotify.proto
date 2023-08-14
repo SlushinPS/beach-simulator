@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// CmdId: 4074
-// Obf: BACBAKKDEGF
+// CmdId: 5763
+// Obf: OHNJEEDFEEL
 message ProfilePictureChangeNotify {
-	ProfilePicture profile_picture = 4;
+	ProfilePicture profile_picture = 3;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GJIJNIDNLEF
+// Obf: MJEHIMOOCNJ
 message ActivityScheduleInfo {
-	uint32 schedule_id = 6;
-	uint32 begin_time = 3;
-	uint32 activity_id = 8;
-	uint32 end_time = 13;
-	bool is_open = 14;
+	bool is_open = 6;
+	uint32 begin_time = 7;
+	uint32 end_time = 8;
+	uint32 schedule_id = 4;
+	uint32 activity_id = 1;
 }

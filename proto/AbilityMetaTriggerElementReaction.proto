@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ODBBPNOOEOI
+// Obf: CGLLCIMMIMJ
 message AbilityMetaTriggerElementReaction {
-	uint32 element_reactor_type = 2;
-	uint32 element_reaction_type = 14;
+	uint32 IPMHLABHJOI = 5;
+	uint32 trigger_entity_id = 2;
+	uint32 JOGAEKDGFBH = 12;
+	uint32 AFGOOBDJBGK = 6;
 	int32 hit_index = 3;
-	uint32 trigger_entity_id = 1;
-	uint32 element_source_type = 4;
 }

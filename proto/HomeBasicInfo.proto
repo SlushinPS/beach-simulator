@@ -17,14 +17,14 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeLimitedShopInfo.proto";
-// Obf: IJLFNOMCNNH
+// Obf: ICMPDPAEKNA
 message HomeBasicInfo {
-	string owner_nick_name = 7;
+	uint32 level = 11;
+	string owner_nick_name = 5;
+	bool is_in_edit_mode = 9;
+	uint32 BEIJAFMDNFK = 13;
+	uint32 GLJCPMPPCKO = 8;
+	uint64 exp = 10;
+	uint32 PAOBDHAMCKB = 14;
 	HomeLimitedShopInfo limited_shop_info = 15;
-	uint32 cur_room_scene_id = 9;
-	bool is_in_edit_mode = 14;
-	uint64 exp = 1;
-	uint32 level = 13;
-	uint32 home_owner_uid = 5;
-	uint32 cur_module_id = 4;
 }

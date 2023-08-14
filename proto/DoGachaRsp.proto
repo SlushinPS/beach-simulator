@@ -17,26 +17,26 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GachaItem.proto";
-// CmdId: 1572
-// Obf: MPPONHMOAGA
+// CmdId: 25647
+// Obf: LDCEEHGLDNN
 message DoGachaRsp {
-	uint32 curScheduleDailyGachaTimes = 1392;
-	uint32 wishMaxProgress = 4;
-	uint32 gachaScheduleId = 15;
-	int32 retcode = 13;
-	uint32 wishProgress = 12;
-	uint32 dailyGachaTimes = 418;
-	uint32 gachaTimesLimit = 3;
-	repeated GachaItem gacha_item_list = 11;
+	uint32 tenCostItemNum = 8;
+	uint32 gachaTimes = 5;
+	uint32 wishMaxProgress = 9;
+	repeated GachaItem gacha_item_list = 6;
+	uint32 leftGachaTimes = 11;
+	int32 retcode = 2;
+	uint32 costItemNum = 10;
+	uint32 curScheduleDailyGachaTimes = 706;
+	uint32 wishProgress = 4;
+	bool is_under_general_restrict = 1054;
 	uint32 gachaType = 14;
-	uint32 newGachaRandom = 8;
-	uint32 leftGachaTimes = 6;
-	uint32 gachaTimes = 10;
-	uint32 tenCostItemNum = 1;
-	uint32 wishItemId = 2;
-	uint32 costItemNum = 5;
-	bool KIHLEFLGKAD = 888;
-	uint32 tenCostItemId = 7;
-	uint32 costItemId = 9;
-	bool PLBFOACGPII = 125;
+	uint32 dailyGachaTimes = 509;
+	uint32 newGachaRandom = 7;
+	bool is_under_minors_restrict = 1446;
+	uint32 gachaScheduleId = 13;
+	uint32 costItemId = 12;
+	uint32 tenCostItemId = 3;
+	uint32 gachaTimesLimit = 15;
+	uint32 wishItemId = 1;
 }

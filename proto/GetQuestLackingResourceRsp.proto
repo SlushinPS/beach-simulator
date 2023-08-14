@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 456
-// Obf: CBCCIGNFPAL
+// CmdId: 28297
+// Obf: FDCIDFLNJKP
 message GetQuestLackingResourceRsp {
-	int32 retcode = 15;
-	map<uint32, uint32> lacked_place_map = 8;
-	uint32 quest_id = 10;
-	repeated uint32 lacked_npc_list = 11;
-	repeated uint32 lacked_place_list = 13;
-	map<uint32, uint32> lacked_npc_map = 12;
+	repeated uint32 lacked_npc_list = 15;
+	map<uint32, uint32> lacked_place_map = 4;
+	repeated uint32 lacked_place_list = 10;
+	int32 retcode = 9;
+	map<uint32, uint32> lacked_npc_map = 1;
+	uint32 quest_id = 7;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8611
-// Obf: LLJOJKMGHDJ
+// CmdId: 9617
+// Obf: LGMBEAKGELG
 message PotionSaveDungeonResultReq {
-	uint32 stage_id = 13;
-	uint32 level_id = 8;
+	uint32 level_id = 13;
+	uint32 stage_id = 7;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 670
-// Obf: IGGKOFLKOID
+// CmdId: 7572
+// Obf: KIEBPLBPCAE
 message DestroyMaterialRsp {
-	repeated uint32 item_id_list = 6;
-	repeated uint32 item_count_list = 5;
-	int32 retcode = 14;
+	int32 retcode = 10;
+	repeated uint32 item_id_list = 4;
+	repeated uint32 item_count_list = 2;
 }

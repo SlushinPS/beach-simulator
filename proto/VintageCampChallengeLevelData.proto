@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MHCOINNJFDI
+// Obf: AMLJLLCPAPJ
 message VintageCampChallengeLevelData {
-	uint32 level_id = 1;
-	bool is_finish = 14;
-	bool is_open = 13;
-	uint32 stage_id = 9;
+	bool is_open = 7;
+	uint32 level_id = 4;
+	bool is_finish = 9;
+	uint32 stage_id = 3;
 }

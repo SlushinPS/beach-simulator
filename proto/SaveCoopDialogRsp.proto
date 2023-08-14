@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1999
-// Obf: EOMMFCFDBDN
+// CmdId: 8107
+// Obf: NAGJNOIEKMK
 message SaveCoopDialogRsp {
-	uint32 OHGJGOFMHNP = 12;
-	uint32 IMOEGKJCNNL = 2;
-	int32 retcode = 7;
+	uint32 HIJPOLONNOA = 9;
+	uint32 CMJNNOEEBKC = 8;
+	int32 retcode = 15;
 }

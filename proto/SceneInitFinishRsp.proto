@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 255
-// Obf: NMAKCEKIKPC
+// CmdId: 3805
+// Obf: IEBDLOBLJDP
 message SceneInitFinishRsp {
-	uint32 enter_scene_token = 3;
-	int32 retcode = 2;
+	int32 retcode = 4;
+	uint32 enter_scene_token = 13;
 }

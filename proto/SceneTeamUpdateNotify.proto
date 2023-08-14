@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SceneTeamAvatar.proto";
-// CmdId: 1652
-// Obf: BNPIBIMJIEG
+// CmdId: 4509
+// Obf: CJJPNPLKBCA
 message SceneTeamUpdateNotify {
-	repeated SceneTeamAvatar scene_team_avatar_list = 8;
-	bool is_in_mp = 13;
+	bool is_in_mp = 4;
+	repeated SceneTeamAvatar scene_team_avatar_list = 13;
 }

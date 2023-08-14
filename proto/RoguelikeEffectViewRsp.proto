@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8770
-// Obf: PCMEPDMFBKK
+// CmdId: 26737
+// Obf: PPEPCKCALHO
 message RoguelikeEffectViewRsp {
-	int32 retcode = 8;
+	int32 retcode = 4;
 }

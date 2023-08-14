@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "IrodoriChessPlayerInfo.proto";
-// CmdId: 5390
-// Obf: HKMHJLNBACN
+// CmdId: 21679
+// Obf: NAJDJPEICOL
 message IrodoriChessPlayerInfoNotify {
-	IrodoriChessPlayerInfo player_info = 13;
+	IrodoriChessPlayerInfo player_info = 7;
 }

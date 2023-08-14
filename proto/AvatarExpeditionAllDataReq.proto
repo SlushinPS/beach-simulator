@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1665
-// Obf: PNEIGBDCOON
+// CmdId: 24160
+// Obf: IKHOKBJEAGP
 message AvatarExpeditionAllDataReq {
 }

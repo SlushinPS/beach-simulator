@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1997
-// Obf: CAAHLDMDGBL
+// CmdId: 26025
+// Obf: JDLGCMDAEFP
 message CoopCgShowNotify {
-	repeated uint32 cg_list = 5;
+	repeated uint32 cg_list = 4;
 }

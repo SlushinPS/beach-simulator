@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21476
-// Obf: GMGFPDFNNCP
+// CmdId: 945
+// Obf: MIOMAHBMLPA
 message VintageMarketDeliverItemRsp {
-	int32 retcode = 15;
-	uint32 trader_id = 2;
+	int32 retcode = 8;
+	uint32 trader_id = 15;
 }

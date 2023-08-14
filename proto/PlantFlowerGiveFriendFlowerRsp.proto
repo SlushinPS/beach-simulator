@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8910
-// Obf: FMBMFAKHCCD
+// CmdId: 24990
+// Obf: MJEGFOOHJFK
 message PlantFlowerGiveFriendFlowerRsp {
-	int32 retcode = 14;
-	uint32 schedule_id = 6;
-	repeated uint32 limit_flower_list = 12;
+	int32 retcode = 13;
+	repeated uint32 limit_flower_list = 10;
+	uint32 schedule_id = 3;
 }

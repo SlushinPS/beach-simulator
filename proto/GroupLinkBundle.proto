@@ -16,15 +16,16 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "IADPAEJBNNG.proto";
 import "Vector.proto";
-// Obf: NJAGHNCNFMN
+import "IDEMOFBGNAI.proto";
+// Obf: KNPEBMLJPPI
 message GroupLinkBundle {
-	uint32 radius = 8;
-	IADPAEJBNNG LLFLMBEKAOF = 3;
-	Vector center = 13;
-	bool LDMGLAGNIHP = 9;
-	uint32 bundle_id = 7;
-	uint32 scene_id = 2;
-	bool is_activated = 4;
+	uint32 bundle_id = 1;
+	Vector center = 5;
+	uint32 scene_id = 10;
+	uint32 radius = 9;
+	bool is_activated = 12;
+	IDEMOFBGNAI ACEOKLIIBEL = 6;
+	uint32 HJMMAOMEHOL = 13;
+	bool KBKLLODIIOD = 7;
 }

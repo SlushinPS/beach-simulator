@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CustomGadgetTreeInfo.proto";
-// CmdId: 842
-// Obf: JCECAPKAIAG
+// CmdId: 8377
+// Obf: BFFLIJJIIDB
 message GadgetCustomTreeInfoNotify {
-	CustomGadgetTreeInfo custom_gadget_tree_info = 4;
-	uint32 gadget_entity_id = 2;
+	CustomGadgetTreeInfo custom_gadget_tree_info = 13;
+	uint32 gadget_entity_id = 7;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DEBGOFDFMIK
+// Obf: MBBGDAFCIBA
 message ChessMonsterInfo {
-	repeated uint32 affix_list = 12;
-	uint32 monster_id = 14;
-	uint32 level = 9;
+	uint32 monster_id = 11;
+	repeated uint32 affix_list = 9;
+	uint32 level = 10;
 }

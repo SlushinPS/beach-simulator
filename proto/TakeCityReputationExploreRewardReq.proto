@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2834
-// Obf: GMFGIEFMNMC
+// CmdId: 24844
+// Obf: JAOEMELOGIB
 message TakeCityReputationExploreRewardReq {
 	repeated uint32 explore_id_list = 9;
-	uint32 city_id = 11;
+	uint32 city_id = 8;
 }

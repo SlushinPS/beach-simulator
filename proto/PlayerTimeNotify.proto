@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 111
-// Obf: GGKAHPHPKKE
+// CmdId: 9057
+// Obf: FFDLNGLDKCG
 message PlayerTimeNotify {
-	uint64 player_time = 2;
-	bool is_paused = 3;
-	uint64 server_time = 5;
+	uint64 player_time = 9;
+	uint64 server_time = 12;
+	bool is_paused = 15;
 }

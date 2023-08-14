@@ -19,7 +19,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "MassiveWaterInfo.proto";
 import "MassiveGrassInfo.proto";
 import "MassiveBoxInfo.proto";
-// Obf: NIMIKLAIICO
+// Obf: JEJIJKEBLHM
 message ServerMassiveEntity {
 	uint32 entity_type = 1;
 	uint32 config_id = 2;

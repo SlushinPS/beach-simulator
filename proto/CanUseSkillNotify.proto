@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1016
-// Obf: PBIONEOKAFI
+// CmdId: 1186
+// Obf: DBEMADCMEEF
 message CanUseSkillNotify {
-	bool is_can_use_skill = 10;
+	bool is_can_use_skill = 8;
 }

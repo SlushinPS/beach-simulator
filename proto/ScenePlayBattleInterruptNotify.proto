@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4414
-// Obf: DMLMFFCPOKO
+// CmdId: 26908
+// Obf: BNNBEGMGKGN
 message ScenePlayBattleInterruptNotify {
-	uint32 interrupt_state = 3;
-	uint32 play_type = 10;
-	uint32 play_id = 11;
+	uint32 play_type = 4;
+	uint32 interrupt_state = 14;
+	uint32 play_id = 5;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PLCAMHHOHAM
+// Obf: LHEBFKHNPDH
 message CutSceneExtraParam {
-	repeated double detail_param_list = 9;
+	repeated double detail_param_list = 14;
 }

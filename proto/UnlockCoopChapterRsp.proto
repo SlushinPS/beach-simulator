@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1998
-// Obf: OOHLONDPAFP
+// CmdId: 3122
+// Obf: NDDHACEDMHC
 message UnlockCoopChapterRsp {
-	int32 retcode = 12;
-	uint32 chapter_id = 1;
+	int32 retcode = 10;
+	uint32 chapter_id = 11;
 }

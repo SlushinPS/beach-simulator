@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8830
-// Obf: KLPLNODAPGB
+// CmdId: 8098
+// Obf: AJBBBMHAGAF
 message MichiaeMatsuriGainCrystalExpUpdateNotify {
-	uint32 gain_crystal_exp = 3;
-	uint32 activity_id = 6;
+	uint32 gain_crystal_exp = 11;
+	uint32 activity_id = 1;
 }

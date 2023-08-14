@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: AHLIHONCKCL
+// Obf: KPGGJJGHJOP
 message PlayerLocationInfo {
-	Vector rot = 8;
-	uint32 uid = 15;
-	Vector pos = 6;
+	Vector pos = 13;
+	uint32 uid = 4;
+	Vector rot = 1;
 }

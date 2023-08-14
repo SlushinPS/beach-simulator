@@ -18,11 +18,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "TransmitReason.proto";
-// CmdId: 211
-// Obf: FCKPPKGOODO
+// CmdId: 1993
+// Obf: JCLHHNAJONP
 message ClientTransmitReq {
-	Vector pos = 1;
+	uint32 scene_id = 1;
+	Vector pos = 15;
 	TransmitReason reason = 4;
-	Vector rot = 13;
-	uint32 scene_id = 3;
+	Vector rot = 8;
 }

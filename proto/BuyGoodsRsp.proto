@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ShopGoods.proto";
-// CmdId: 772
-// Obf: IBEBDIGLBGI
+// CmdId: 611
+// Obf: ODFCPEHCGFK
 message BuyGoodsRsp {
-	uint32 shop_type = 6;
-	repeated ShopGoods goods_list = 10;
-	uint32 buy_count = 8;
-	ShopGoods goods = 15;
-	int32 retcode = 13;
+	uint32 buy_count = 3;
+	int32 retcode = 1;
+	ShopGoods goods = 9;
+	uint32 shop_type = 4;
+	repeated ShopGoods goods_list = 15;
 }

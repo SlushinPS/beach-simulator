@@ -16,25 +16,26 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "GCGZone.proto";
-import "GABNJIGBIHE.proto";
 import "GCGDiceSideType.proto";
-// Obf: CEGEHEEFNLJ
+import "CEEPKCAOHLJ.proto";
+import "GCGZone.proto";
+// Obf: DNDHNGIACGF
 message GCGPlayerField {
-	uint32 EMBGKGCNFPE = 4;
-	GCGZone PIOEBHEPAIC = 6;
-	GCGZone GNCOGNIKACN = 11;
-	uint32 controller_id = 10;
-	uint32 EEFLPHPIMDL = 12;
-	GCGZone DPIINFPCNEK = 8;
-	repeated GABNJIGBIHE DNEEMCIDCAF = 2;
-	GCGZone FPGFCMDIABG = 15;
-	repeated GCGDiceSideType dice_side_list = 9;
-	uint32 KFDOPOINLPP = 5;
-	uint32 ADCHOFHFPPC = 116;
-	map<uint32, GCGZone> modify_zone_map = 1;
-	uint32 JAMNMKIOPEO = 7;
-	bool is_passed = 13;
-	GCGZone JKEOEAIEALF = 14;
-	uint32 GNKGJFHDCDI = 3;
+	repeated GCGDiceSideType dice_side_list = 14;
+	bool is_passed = 2;
+	uint32 KIHMBBMMJKI = 3;
+	uint32 controller_id = 11;
+	uint32 MDEKELAOHKO = 8;
+	repeated CEEPKCAOHLJ EFMBIJOIDPE = 7;
+	uint32 HGNJMEDAFMM = 1544;
+	GCGZone HENGENMHDGF = 15;
+	GCGZone FHANJJPHMOE = 4;
+	uint32 GLFPMNKMPBC = 12;
+	GCGZone LJJCDJELPIC = 1;
+	uint32 BFFNBEBPAAH = 13;
+	uint32 LOHFKBDACGA = 5;
+	bool FILKLCKODNB = 819;
+	GCGZone MCKHNMONINH = 6;
+	GCGZone CAMJHCAMMIM = 10;
+	map<uint32, GCGZone> modify_zone_map = 9;
 }

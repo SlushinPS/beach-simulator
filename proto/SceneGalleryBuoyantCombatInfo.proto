@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HDHABJDINKO
+// Obf: JIODPPMMGPA
 message SceneGalleryBuoyantCombatInfo {
-	uint32 kill_monster_count = 13;
-	uint32 score = 6;
-	uint32 kill_special_monster_count = 8;
+	uint32 kill_special_monster_count = 6;
+	uint32 kill_monster_count = 8;
+	uint32 score = 11;
 }

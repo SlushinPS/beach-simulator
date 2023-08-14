@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 148
-// Obf: CONCBIGOIIK
+// CmdId: 24757
+// Obf: IPEBEDBBELN
 message PlayerLogoutRsp {
-	int32 retcode = 8;
+	int32 retcode = 3;
 }

@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MotionInfo.proto";
-// CmdId: 3041
-// Obf: DMJCEGMGLPO
+// CmdId: 2141
+// Obf: GFBHCMKNPCG
 message ForceDragAvatarNotify {
-	bool is_first_valid = 5;
-	uint32 entity_id = 9;
-	uint64 LFMPHLPNICH = 6;
-	uint64 GCPALFFBPPJ = 10;
-	MotionInfo motion_info = 1;
-	uint32 scene_time = 12;
+	MotionInfo motion_info = 4;
+	uint32 entity_id = 1;
+	uint64 BLNEOPIFBGK = 10;
+	bool is_first_valid = 15;
+	uint64 CHFNMCLHBOI = 3;
+	uint32 scene_time = 7;
 }

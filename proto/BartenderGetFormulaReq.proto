@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 8318
-// Obf: MEMOMGOBBKN
+// CmdId: 5932
+// Obf: KGDPCLMNDAH
 message BartenderGetFormulaReq {
-	repeated ItemParam item_list = 15;
-	uint32 quest_id = 3;
+	repeated ItemParam item_list = 10;
+	uint32 quest_id = 14;
 }

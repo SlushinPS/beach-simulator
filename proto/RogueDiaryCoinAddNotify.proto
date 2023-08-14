@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8422
-// Obf: BHDGGBDBCKM
+// CmdId: 21318
+// Obf: AAOAGELEOBH
 message RogueDiaryCoinAddNotify {
-	uint32 num = 15;
+	uint32 num = 11;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SalvagePreventGallerySettleInfo.proto";
-// Obf: FJEONJBODPP
+// Obf: CJHIMPDDGKJ
 message SalvagePreventSettleInfo {
-	bool is_new_record = 5;
-	SalvagePreventGallerySettleInfo settle_info = 8;
+	SalvagePreventGallerySettleInfo settle_info = 15;
+	bool is_new_record = 14;
 }

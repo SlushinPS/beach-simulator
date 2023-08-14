@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8653
-// Obf: JEJBAADOPFM
+// CmdId: 20570
+// Obf: EALIDOJBPOA
 message HideAndSeekChooseMapReq {
-	repeated uint32 map_list = 3;
+	repeated uint32 map_list = 4;
 }

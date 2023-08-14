@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1715
-// Obf: KHHAIONIOOK
+// CmdId: 27302
+// Obf: PNDEJAEBEOE
 message ItemRenameAvatarRsp {
-	uint32 cd_time = 7;
-	int32 retcode = 9;
-	uint32 rename_id = 6;
+	uint32 rename_id = 8;
+	uint32 cd_time = 5;
+	int32 retcode = 6;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4093
-// Obf: FHHCIEMALEB
+// CmdId: 25338
+// Obf: BGDKEKKBHDA
 message GetPlayerBlacklistReq {
 }

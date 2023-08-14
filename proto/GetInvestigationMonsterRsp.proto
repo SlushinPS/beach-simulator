@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "InvestigationMonster.proto";
-// CmdId: 1930
-// Obf: KCOJOLFAOPO
+// CmdId: 23497
+// Obf: PBLBHKIGDKG
 message GetInvestigationMonsterRsp {
-	repeated InvestigationMonster monster_list = 13;
+	repeated InvestigationMonster monster_list = 9;
 	bool is_for_mark = 1;
-	int32 retcode = 6;
+	int32 retcode = 11;
 }

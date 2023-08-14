@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1634
-// Obf: ICBGFMJPIKM
+// CmdId: 3696
+// Obf: EPCCINELCEK
 message AvatarChangeElementTypeReq {
-	uint32 area_id = 3;
-	uint32 scene_id = 6;
+	uint32 area_id = 11;
+	uint32 scene_id = 1;
 }

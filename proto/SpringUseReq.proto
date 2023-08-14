@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1799
-// Obf: MLEGBAIPGGO
+// CmdId: 9537
+// Obf: LNJBPIEBBFJ
 message SpringUseReq {
 	uint64 guid = 10;
 }

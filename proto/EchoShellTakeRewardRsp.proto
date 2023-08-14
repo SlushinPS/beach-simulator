@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8644
-// Obf: HMIGOGOPCGA
+// CmdId: 22695
+// Obf: HGDBPCPCCKF
 message EchoShellTakeRewardRsp {
-	uint32 reward_id = 6;
-	int32 retcode = 12;
+	uint32 reward_id = 3;
+	int32 retcode = 8;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KLKBCNOPODD
+// Obf: KNOMEKLEAGH
 message GCGBossChallengeData {
-	repeated uint32 unlock_level_id_list = 2;
-	uint32 id = 8;
+	repeated uint32 unlock_level_id_list = 7;
+	uint32 id = 13;
 }

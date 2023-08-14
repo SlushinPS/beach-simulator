@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OJEGAOGCPNM
+// Obf: MPJAFJCKMDI
 enum InBattleMechanicusStageType {
 	IN_BATTLE_MECHANICUS_STAGE_NONE = 0;
 	IN_BATTLE_MECHANICUS_STAGE_BUILD = 1;

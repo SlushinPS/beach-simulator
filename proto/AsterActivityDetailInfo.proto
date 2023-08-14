@@ -16,19 +16,19 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "AsterProgressDetailInfo.proto";
+import "AsterMidDetailInfo.proto";
 import "AsterLittleDetailInfo.proto";
 import "AsterLargeDetailInfo.proto";
-import "AsterMidDetailInfo.proto";
-// Obf: NAIBJIHKMIK
+import "AsterProgressDetailInfo.proto";
+// Obf: JCGOLKKIELM
 message AsterActivityDetailInfo {
-	uint32 CBLMAGNNCGK = 6;
-	AsterProgressDetailInfo aster_progress = 11;
-	bool is_content_closed = 5;
+	bool is_content_closed = 3;
+	uint32 BLIJLCKCIJP = 7;
+	AsterMidDetailInfo aster_mid = 11;
+	uint32 content_close_time = 14;
+	AsterLittleDetailInfo aster_little = 13;
+	AsterLargeDetailInfo aster_large = 9;
+	uint32 ADOPPAOJEAN = 2;
+	AsterProgressDetailInfo aster_progress = 5;
 	bool is_special_reward_taken = 4;
-	AsterLittleDetailInfo aster_little = 3;
-	AsterLargeDetailInfo aster_large = 7;
-	AsterMidDetailInfo aster_mid = 8;
-	uint32 content_close_time = 9;
-	uint32 CGOCPLCJMBA = 12;
 }

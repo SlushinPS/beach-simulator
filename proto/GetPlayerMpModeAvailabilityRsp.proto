@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1816
-// Obf: ACIMIPPBCHH
+// CmdId: 28762
+// Obf: HMBNKLOHKPA
 message GetPlayerMpModeAvailabilityRsp {
-	int32 mp_ret = 2;
-	repeated uint32 param_list = 6;
-	int32 retcode = 5;
+	int32 mp_ret = 7;
+	int32 retcode = 4;
+	repeated uint32 param_list = 9;
 }

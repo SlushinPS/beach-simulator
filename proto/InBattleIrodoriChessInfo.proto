@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "IrodoriChessMysteryInfo.proto";
-// Obf: GOMHKNNBAAD
+// Obf: OEGGLNPLBIG
 message InBattleIrodoriChessInfo {
-	uint32 DHOCBFFKAEN = 6;
-	uint32 GPBHPHDEJLI = 15;
-	repeated uint32 selected_card_id_list = 7;
-	uint32 left_monsters = 1;
-	IrodoriChessMysteryInfo mystery_info = 9;
+	repeated uint32 selected_card_id_list = 9;
+	IrodoriChessMysteryInfo mystery_info = 1;
+	uint32 ALNKBIFEJHG = 11;
+	uint32 left_monsters = 7;
+	uint32 BPPCDLMFKCP = 10;
 }

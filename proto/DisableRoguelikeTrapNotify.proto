@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8574
-// Obf: APDKCKFEFDP
+// CmdId: 1027
+// Obf: IDKBMNGKHIL
 message DisableRoguelikeTrapNotify {
-	uint32 card_id = 14;
+	uint32 card_id = 4;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HOMOAMKNEFJ
+// Obf: DDPMPGDLDEN
 enum CreateReason {
 	CREATE_NONE = 0;
 	CREATE_QUEST = 1;

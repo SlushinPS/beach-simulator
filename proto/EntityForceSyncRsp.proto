@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MotionInfo.proto";
-// CmdId: 246
-// Obf: FKPHGMDKEDP
+// CmdId: 24909
+// Obf: MIKANEGPAPE
 message EntityForceSyncRsp {
-	uint32 entity_id = 15;
-	uint32 scene_time = 11;
-	int32 retcode = 3;
-	MotionInfo fail_motion = 14;
+	uint32 scene_time = 9;
+	uint32 entity_id = 7;
+	int32 retcode = 12;
+	MotionInfo fail_motion = 15;
 }

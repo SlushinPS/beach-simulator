@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: IGGAOLBKDMP
+// Obf: EDNDPFHDNHB
 enum FireworksLaunchParamType {
 	FIREWORKS_LAUNCH_PARAM_NONE = 0;
 	FIREWORKS_LAUNCH_PARAM_REPEAT = 1;

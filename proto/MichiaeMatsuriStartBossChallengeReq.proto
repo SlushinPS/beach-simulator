@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8699
-// Obf: NODACEDACJP
+// CmdId: 4975
+// Obf: OAANEIEKKEL
 message MichiaeMatsuriStartBossChallengeReq {
-	uint32 difficulty = 11;
-	uint32 gadget_entity_id = 10;
+	uint32 difficulty = 7;
+	uint32 gadget_entity_id = 13;
 }

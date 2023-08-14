@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ServerMassiveEntity.proto";
-// CmdId: 353
-// Obf: AHGAIMBKGGG
+// CmdId: 27278
+// Obf: MOGACMBGKBA
 message CreateMassiveEntityNotify {
-	repeated ServerMassiveEntity massive_entity_list = 14;
+	repeated ServerMassiveEntity massive_entity_list = 6;
 }

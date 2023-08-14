@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "OFOHJIEDJKD.proto";
-// Obf: JJCAJPELBLO
+import "GCGPhaseType.proto";
+// Obf: KLNNAIBLJHK
 message GCGPhase {
-	OFOHJIEDJKD HOPBAFOJFNJ = 6;
-	map<uint32, uint32> allow_controller_map = 15;
+	map<uint32, uint32> allow_controller_map = 10;
+	GCGPhaseType LCCELAGJMCM = 2;
 }

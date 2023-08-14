@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 2635
-// Obf: JCFLLLAJOAJ
+// CmdId: 28080
+// Obf: MMMGPODLJLI
 message BattlePassBuySuccNotify {
-	uint32 schedule_id = 8;
-	uint32 KIAHMPEBJDL = 3;
-	repeated ItemParam item_list = 2;
-	uint32 IEGIKGOKEID = 11;
+	uint32 GFJLNEAJKLK = 1;
+	uint32 schedule_id = 3;
+	uint32 LBPIJCBBKNE = 11;
+	repeated ItemParam item_list = 5;
 }

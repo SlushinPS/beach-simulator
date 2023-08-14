@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "LunchBoxData.proto";
-// CmdId: 4273
-// Obf: MKLJPIPDEHJ
+// CmdId: 6360
+// Obf: JHPONNNMJFP
 message SetUpLunchBoxWidgetRsp {
-	LunchBoxData lunch_box_data = 2;
-	int32 retcode = 9;
+	int32 retcode = 8;
+	LunchBoxData lunch_box_data = 6;
 }

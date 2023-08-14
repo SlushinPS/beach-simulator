@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FriendBrief.proto";
-// CmdId: 4017
-// Obf: KOGGDBKKKLD
+// CmdId: 25239
+// Obf: AEJPFHJJMJD
 message PSNFriendListNotify {
-	repeated FriendBrief psn_friend_list = 9;
+	repeated FriendBrief psn_friend_list = 7;
 }

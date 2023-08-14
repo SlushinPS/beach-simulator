@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4066
-// Obf: HBGFPLDINMA
+// CmdId: 22319
+// Obf: ADDINGBOAFE
 message RemoveBlacklistRsp {
-	int32 retcode = 9;
-	uint32 target_uid = 12;
+	int32 retcode = 7;
+	uint32 target_uid = 11;
 }

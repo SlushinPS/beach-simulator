@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: IEMLLFGMPCI
+// Obf: OAFCFHMPGEH
 message AdjustTrackingInfo {
-	string LKKFJNDEIAB = 6;
-	string DLKIMODBMME = 5;
-	string JEKNGABCEOG = 2;
-	string BBLFIMANGAD = 9;
-	string AJCKEINKHMB = 11;
-	string PACALGLDIGB = 15;
+	string AIEDPJJNAMJ = 3;
+	string JLFPJDBIKGL = 4;
+	string MCNDGMMPLEL = 15;
+	string EADIAAOPFBN = 8;
+	string JNAFPGEIFCD = 7;
+	string GOOEKEHFLAI = 10;
 }

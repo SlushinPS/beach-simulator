@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6232
-// Obf: DBOACICOHED
+// CmdId: 8657
+// Obf: GONBFMOOHBP
 message OutStuckCustomDungeonReq {
 }

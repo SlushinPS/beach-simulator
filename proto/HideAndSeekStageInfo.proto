@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "HideAndSeekPlayerBattleInfo.proto";
 import "HideAndSeekStageType.proto";
-// Obf: BIPGIAOICCJ
+import "HideAndSeekPlayerBattleInfo.proto";
+// Obf: AABBILIFMCJ
 message HideAndSeekStageInfo {
-	repeated uint32 hider_uid_list = 4;
-	uint32 map_id = 14;
-	map<uint32, HideAndSeekPlayerBattleInfo> battle_info_map = 9;
-	uint32 hunter_uid = 3;
-	HideAndSeekStageType stage_type = 12;
-	bool is_record_score = 1;
+	uint32 map_id = 3;
+	uint32 hunter_uid = 4;
+	HideAndSeekStageType stage_type = 9;
+	map<uint32, HideAndSeekPlayerBattleInfo> battle_info_map = 8;
+	bool is_record_score = 13;
+	repeated uint32 hider_uid_list = 7;
 }

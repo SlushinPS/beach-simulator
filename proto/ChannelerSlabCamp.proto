@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: AKPGAHJAFMB
+// Obf: DLJGHOCEDAE
 message ChannelerSlabCamp {
-	uint32 buff_num = 3;
-	Vector pos = 6;
-	uint32 group_id = 1;
-	uint32 reward_id = 12;
+	Vector pos = 11;
+	uint32 reward_id = 15;
+	uint32 group_id = 14;
+	uint32 buff_num = 5;
 }

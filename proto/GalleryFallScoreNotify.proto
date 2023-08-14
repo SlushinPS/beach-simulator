@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FallPlayerBrief.proto";
-// CmdId: 5548
-// Obf: AEFOEBDICOD
+// CmdId: 22349
+// Obf: GHEKAHNMDLJ
 message GalleryFallScoreNotify {
-	map<uint32, FallPlayerBrief> uid_brief_map = 13;
-	uint32 gallery_id = 3;
+	uint32 gallery_id = 2;
+	map<uint32, FallPlayerBrief> uid_brief_map = 4;
 }

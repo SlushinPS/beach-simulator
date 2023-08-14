@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5319
-// Obf: KLALPHGMNFB
+// CmdId: 8256
+// Obf: DAAIHBPJAJP
 message ChessPickCardRsp {
-	uint32 card_id = 9;
-	uint32 card_index = 6;
-	int32 retcode = 1;
+	uint32 card_index = 15;
+	int32 retcode = 14;
+	uint32 card_id = 13;
 }

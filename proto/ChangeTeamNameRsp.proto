@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1670
-// Obf: FPPJFDJHMAA
+// CmdId: 29496
+// Obf: JKAKFOEKEDH
 message ChangeTeamNameRsp {
-	string team_name = 4;
+	int32 retcode = 5;
 	int32 team_id = 12;
-	int32 retcode = 8;
+	string team_name = 15;
 }

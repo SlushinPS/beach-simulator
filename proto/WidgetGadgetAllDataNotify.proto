@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "WidgetGadgetData.proto";
-// CmdId: 4252
-// Obf: IJIBKCFOCNO
+// CmdId: 6076
+// Obf: GBEAGNDJKEC
 message WidgetGadgetAllDataNotify {
-	repeated WidgetGadgetData widget_gadget_data = 13;
+	repeated WidgetGadgetData widget_gadget_data = 15;
 }

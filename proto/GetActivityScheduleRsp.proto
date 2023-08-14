@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ActivityScheduleInfo.proto";
-// CmdId: 2103
-// Obf: JCDDALBCEJN
+// CmdId: 7421
+// Obf: AKAPOEANCFC
 message GetActivityScheduleRsp {
-	uint32 remain_fly_sea_lamp_num = 3;
-	int32 retcode = 1;
-	repeated ActivityScheduleInfo activity_schedule_list = 8;
+	int32 retcode = 4;
+	uint32 remain_fly_sea_lamp_num = 15;
+	repeated ActivityScheduleInfo activity_schedule_list = 13;
 }

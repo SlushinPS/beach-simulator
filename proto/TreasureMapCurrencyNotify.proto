@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2060
-// Obf: KLFPMMBEBEB
+// CmdId: 24210
+// Obf: HIBMEJAIMMJ
 message TreasureMapCurrencyNotify {
 	uint32 currency_num = 2;
 }

@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MistTrialLevelData.proto";
-// Obf: GAMAHBMCHGE
+// Obf: PKOJHCCPLDH
 message MistTrialActivityDetailInfo {
-	repeated MistTrialLevelData trial_level_data_list = 4;
+	repeated MistTrialLevelData trial_level_data_list = 7;
 }

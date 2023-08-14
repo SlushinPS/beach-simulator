@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "AvatarExpeditionInfo.proto";
 import "ItemParam.proto";
-// CmdId: 1763
-// Obf: OGJINPEMNDO
+import "AvatarExpeditionInfo.proto";
+// CmdId: 25237
+// Obf: KMJKPNMNOOM
 message AvatarExpeditionGetRewardRsp {
-	int32 retcode = 7;
-	map<uint64, AvatarExpeditionInfo> expedition_info_map = 8;
-	repeated ItemParam item_list = 10;
-	repeated ItemParam extra_item_list = 9;
+	repeated ItemParam extra_item_list = 13;
+	map<uint64, AvatarExpeditionInfo> expedition_info_map = 9;
+	int32 retcode = 12;
+	repeated ItemParam item_list = 5;
 }

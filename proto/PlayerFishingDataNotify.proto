@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5843
-// Obf: PAODNIBLDNN
+// CmdId: 6317
+// Obf: JPONLOAPCLH
 message PlayerFishingDataNotify {
-	uint32 last_fish_rod_id = 9;
+	uint32 last_fish_rod_id = 12;
 }

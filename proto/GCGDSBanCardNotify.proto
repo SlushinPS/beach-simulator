@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7168
-// Obf: LDBNFKGJEIL
+// CmdId: 6451
+// Obf: AOPLHLKEBNK
 message GCGDSBanCardNotify {
 	repeated uint32 card_list = 6;
 }

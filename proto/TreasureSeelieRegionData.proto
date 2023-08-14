@@ -17,16 +17,16 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: GBBGOGACLPL
+// Obf: AOALBKBJENB
 message TreasureSeelieRegionData {
-	float region_radius = 3;
+	uint32 JGGFJJFHMBA = 4;
 	bool is_open = 15;
-	bool is_done = 9;
-	uint32 GMPLAHBFNDI = 2;
-	uint32 PDGGKGMJEOF = 12;
-	uint32 region_id = 14;
-	uint32 open_time = 1;
-	uint32 scene_id = 7;
-	Vector region_center_pos = 4;
-	uint32 DDJIADJINIP = 8;
+	float region_radius = 14;
+	bool is_done = 6;
+	uint32 scene_id = 8;
+	uint32 GLJJLGABDLD = 11;
+	Vector region_center_pos = 3;
+	uint32 open_time = 5;
+	uint32 region_id = 1;
+	uint32 PDHMGHBAEDH = 13;
 }

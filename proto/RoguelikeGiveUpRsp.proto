@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RoguelikeDungeonSettleInfo.proto";
-// CmdId: 8304
-// Obf: PEGCOHGPKHP
+// CmdId: 8629
+// Obf: MOKLOILKHMI
 message RoguelikeGiveUpRsp {
-	int32 retcode = 2;
-	uint32 stage_id = 15;
-	optional RoguelikeDungeonSettleInfo settle_info = 10;
+	int32 retcode = 1;
+	uint32 stage_id = 14;
+	optional RoguelikeDungeonSettleInfo settle_info = 6;
 }

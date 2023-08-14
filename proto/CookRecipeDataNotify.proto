@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CookRecipeData.proto";
-// CmdId: 143
-// Obf: GABHMDEGHOJ
+// CmdId: 21778
+// Obf: NAJPFJCAPEI
 message CookRecipeDataNotify {
-	CookRecipeData recipe_data = 8;
+	CookRecipeData recipe_data = 1;
 }

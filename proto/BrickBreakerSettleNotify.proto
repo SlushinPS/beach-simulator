@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
-// CmdId: 21157
-// Obf: IHELNMAAFMI
+// CmdId: 5789
+// Obf: BIICAPPJJBM
 message BrickBreakerSettleNotify {
-	// Obf: FNHLFJPMOFA
+	// Obf: DIAJCONBEOL
 	enum SettleReason {
 		SETTLE_REASON_TIME_OUT = 0;
 		SETTLE_PLAY_END = 1;
@@ -28,14 +28,14 @@ message BrickBreakerSettleNotify {
 		SETTLE_LIFE_COUNT = 3;
 	}
 	
-	repeated Uint32Pair update_skill_list = 11;
-	uint32 combo = 12;
-	uint32 score = 13;
-	bool is_dungeon = 7;
-	SettleReason reason = 3;
-	uint32 level_id = 1;
-	uint32 gallery_id = 15;
-	uint32 time = 14;
-	bool is_single_mode = 9;
-	bool is_new_record = 2;
+	SettleReason reason = 5;
+	uint32 combo = 14;
+	repeated Uint32Pair update_skill_list = 12;
+	uint32 time = 1;
+	uint32 score = 10;
+	bool is_single_mode = 2;
+	bool is_dungeon = 4;
+	uint32 gallery_id = 13;
+	uint32 level_id = 3;
+	bool is_new_record = 15;
 }

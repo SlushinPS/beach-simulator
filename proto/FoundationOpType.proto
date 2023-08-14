@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MDNDNFJFKDJ
+// Obf: LJLDCFOCBKF
 enum FoundationOpType {
 	FOUNDATION_OP_NONE = 0;
 	FOUNDATION_OP_BUILD = 1;

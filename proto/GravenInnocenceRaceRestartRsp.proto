@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24299
-// Obf: IGNMHIBOFEA
+// CmdId: 1603
+// Obf: MKJMIKIMLBG
 message GravenInnocenceRaceRestartRsp {
-	uint32 gallery_id = 2;
-	int32 retcode = 11;
+	int32 retcode = 1;
+	uint32 gallery_id = 12;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24739
-// Obf: ALPEGHLBHIH
+// CmdId: 6928
+// Obf: EMFHOFBBBOM
 message TeamChainRestartDungeonRsp {
 	int32 retcode = 14;
 }

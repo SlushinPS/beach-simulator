@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 926
-// Obf: KADKLLMILMP
+// CmdId: 20161
+// Obf: EKFFOLPOFOG
 message DungeonCandidateTeamInviteNotify {
-	uint32 player_uid = 2;
-	uint32 dungeon_id = 15;
-	uint32 vaild_deadline_time_sec = 12;
+	uint32 dungeon_id = 13;
+	uint32 player_uid = 14;
+	uint32 vaild_deadline_time_sec = 5;
 }

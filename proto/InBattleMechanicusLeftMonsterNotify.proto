@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5348
-// Obf: OJPFPFGNELP
+// CmdId: 9107
+// Obf: EPHLIIMGJPA
 message InBattleMechanicusLeftMonsterNotify {
-	uint32 left_monster = 11;
+	uint32 left_monster = 3;
 }

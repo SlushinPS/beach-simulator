@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BargainSnapshot.proto";
-// CmdId: 466
-// Obf: DBNBIOIIKIB
+// CmdId: 3517
+// Obf: JMGOGNLGAAH
 message GetAllActivatedBargainDataRsp {
-	int32 retcode = 15;
-	repeated BargainSnapshot snapshot_list = 12;
+	repeated BargainSnapshot snapshot_list = 6;
+	int32 retcode = 2;
 }

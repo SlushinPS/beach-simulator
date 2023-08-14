@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "OnlinePlayerInfo.proto";
-// Obf: NDFLFMOCGDH
+// Obf: AADLFNACADO
 message ScenePlayerInfo {
-	OnlinePlayerInfo online_player_info = 3;
-	uint32 uid = 13;
-	string name = 6;
-	uint32 peer_id = 12;
-	uint32 scene_id = 5;
+	uint32 peer_id = 15;
 	bool is_connected = 14;
+	uint32 uid = 4;
+	string name = 13;
+	OnlinePlayerInfo online_player_info = 12;
+	uint32 scene_id = 1;
 }

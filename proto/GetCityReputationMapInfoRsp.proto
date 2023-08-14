@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2821
-// Obf: FOCHOIHCBHJ
+// CmdId: 24830
+// Obf: NFLPNFKGHED
 message GetCityReputationMapInfoRsp {
-	bool NNJLDLAOPIE = 10;
-	int32 retcode = 4;
-	repeated uint32 BNOMCHCNPFP = 15;
-	repeated uint32 JCBEMEPIHGH = 14;
-	bool JGAFDIAMBKO = 8;
+	int32 retcode = 14;
+	bool JJGPNHBKGHG = 9;
+	bool MOEFCHCBNGE = 8;
+	repeated uint32 BIDOKKBGJLG = 3;
+	repeated uint32 BOMGJJFKDOC = 5;
 }

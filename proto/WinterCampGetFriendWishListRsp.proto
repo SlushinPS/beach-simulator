@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "WinterCampFriendWishData.proto";
-// CmdId: 8223
-// Obf: BMEFFPHBKAF
+// CmdId: 24739
+// Obf: MGIDKFPJFKK
 message WinterCampGetFriendWishListRsp {
-	int32 retcode = 10;
-	repeated WinterCampFriendWishData wish_data_list = 15;
+	repeated WinterCampFriendWishData wish_data_list = 9;
+	int32 retcode = 3;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGTCTavernChallengeData.proto";
-// CmdId: 7976
-// Obf: BPPMNLFJGBJ
+// CmdId: 384
+// Obf: PEGBBMGEMBI
 message GCGTCTavernChallengeUpdateNotify {
-	GCGTCTavernChallengeData tavern_challenge = 6;
+	GCGTCTavernChallengeData tavern_challenge = 3;
 }

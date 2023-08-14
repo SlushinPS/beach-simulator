@@ -19,9 +19,9 @@ option java_package = "emu.grasscutter.net.proto";
 import "SeaLampV3CampInfo.proto";
 import "SeaLampV3ShadowInfo.proto";
 import "SeaLampV3RaceInfo.proto";
-// Obf: GNIMFGCJKMP
+// Obf: FJJFJJIFIOF
 message SeaLampV3DetailInfo {
-	SeaLampV3CampInfo camp_info = 13;
-	SeaLampV3ShadowInfo shadow_info = 1;
-	SeaLampV3RaceInfo race_info = 5;
+	SeaLampV3CampInfo camp_info = 11;
+	SeaLampV3ShadowInfo shadow_info = 7;
+	SeaLampV3RaceInfo race_info = 1;
 }

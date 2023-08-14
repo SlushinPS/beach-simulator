@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2032
-// Obf: MALICCMIPPP
+// CmdId: 5
+// Obf: KLFGBKPBBFB
 message LoadActivityTerrainNotify {
 	uint32 activity_id = 10;
 }

@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SeaLampV3CampStageInfo.proto";
-// Obf: NAFCFFFCKIL
+// Obf: ODOLBLNLDPC
 message SeaLampV3CampInfo {
-	repeated SeaLampV3CampStageInfo stage_info_list = 6;
+	repeated SeaLampV3CampStageInfo stage_info_list = 1;
 }

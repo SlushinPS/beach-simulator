@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ForgeQueueManipulateType.proto";
-// CmdId: 671
-// Obf: EKPELHPHLBH
+// CmdId: 25920
+// Obf: KLKEPLGJNFI
 message ForgeQueueManipulateReq {
-	ForgeQueueManipulateType manipulate_type = 15;
 	uint32 forge_queue_id = 1;
+	ForgeQueueManipulateType manipulate_type = 5;
 }

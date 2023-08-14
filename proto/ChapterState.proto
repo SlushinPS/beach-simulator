@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OBEGIEJOPKH
+// Obf: IGBMFOLFJLJ
 enum ChapterState {
 	CHAPTER_STATE_INVALID = 0;
 	CHAPTER_STATE_UNABLE_TO_BEGIN = 1;

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AbilityControlBlock.proto";
-// CmdId: 1184
-// Obf: PLMKKNIJMEC
+// CmdId: 300
+// Obf: GEMMGPJKGAF
 message AbilityChangeNotify {
-	uint32 entity_id = 10;
-	AbilityControlBlock ability_control_block = 2;
+	AbilityControlBlock ability_control_block = 12;
+	uint32 entity_id = 8;
 }

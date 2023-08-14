@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Quest.proto";
-// CmdId: 496
-// Obf: HFGOKLHAEPB
+// CmdId: 22114
+// Obf: NCEKGFIOHJG
 message QuestListUpdateNotify {
-	repeated Quest quest_list = 5;
+	repeated Quest quest_list = 1;
 }

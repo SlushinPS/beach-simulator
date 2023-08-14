@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22696
-// Obf: MACBCAPDCGK
+// CmdId: 4911
+// Obf: DBFHBDJEKPA
 message LanV3ShadowFinishLevelReq {
-	uint32 finish_time = 12;
-	uint32 level_id = 10;
+	uint32 level_id = 4;
+	uint32 finish_time = 5;
 }

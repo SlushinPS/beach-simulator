@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "InterOpType.proto";
 import "InteractType.proto";
-// CmdId: 5207
-// Obf: OPJAAKOAPKD
+import "InterOpType.proto";
+// CmdId: 20932
+// Obf: GHMGNGDJKJA
 message MiracleRingDeliverItemRsp {
-	int32 retcode = 2;
-	InterOpType op_type = 6;
-	InteractType interact_type = 15;
-	uint32 gadget_id = 7;
-	uint32 gadget_entity_id = 14;
+	InteractType interact_type = 7;
+	uint32 gadget_id = 9;
+	int32 retcode = 12;
+	InterOpType op_type = 4;
+	uint32 gadget_entity_id = 13;
 }

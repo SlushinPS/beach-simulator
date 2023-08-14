@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2172
-// Obf: MDNOMIGCOMD
+// CmdId: 2062
+// Obf: GHBPLPABKMI
 message SalesmanDeliverItemReq {
-	uint32 schedule_id = 13;
+	uint32 schedule_id = 9;
 }

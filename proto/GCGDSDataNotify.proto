@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "GCGDSCardData.proto";
 import "GCGDSDeckData.proto";
-// CmdId: 7427
-// Obf: EOFJNHHLIPK
+import "GCGDSCardData.proto";
+// CmdId: 5324
+// Obf: CMLLLACMKLH
 message GCGDSDataNotify {
-	repeated uint32 KKELFGLDFLD = 13;
-	repeated GCGDSCardData card_list = 12;
-	repeated uint32 OIHGKILIBJA = 9;
-	uint32 cur_deck_id = 3;
-	repeated GCGDSDeckData deck_list = 5;
-	repeated uint32 EBJBAEHKDIC = 8;
+	repeated uint32 MHMJEGIKGEO = 13;
+	repeated GCGDSDeckData deck_list = 12;
+	uint32 cur_deck_id = 14;
+	repeated GCGDSCardData card_list = 9;
+	repeated uint32 JAAGNIPPLGB = 1;
+	repeated uint32 CKAAGHHJEAE = 7;
 }

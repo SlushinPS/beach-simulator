@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4352
-// Obf: MNHNFNBFDMG
+// CmdId: 2989
+// Obf: AAJJMIGOGKD
 message ScenePlayOwnerCheckRsp {
-	uint32 play_id = 12;
-	bool is_skip_match = 2;
-	int32 retcode = 10;
+	repeated uint32 param_list = 7;
+	uint32 play_id = 13;
+	bool is_skip_match = 5;
 	uint32 wrong_uid = 8;
-	repeated uint32 param_list = 4;
+	int32 retcode = 6;
 }

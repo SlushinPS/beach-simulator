@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 48
-// Obf: IDDOIEHMKEF
+// CmdId: 8231
+// Obf: BLIJCEANDPM
 message PingRsp {
-	uint32 client_time = 15;
-	int32 retcode = 14;
-	uint32 seq = 9;
+	uint32 seq = 6;
+	int32 retcode = 2;
+	uint32 client_time = 12;
 }

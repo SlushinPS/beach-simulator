@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: AEENJMJINAK
+// Obf: KCPCLEFJLPB
 message OfficialCustomDungeon {
-	uint32 win_times = 3;
-	uint32 dungeon_id = 11;
+	uint32 dungeon_id = 9;
+	uint32 win_times = 6;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2855
-// Obf: AKGEAPMEBIK
+// CmdId: 29784
+// Obf: JAGKENHAHHN
 message CityReputationLevelupNotify {
-	uint32 city_id = 15;
-	uint32 level = 3;
+	uint32 level = 5;
+	uint32 city_id = 14;
 }

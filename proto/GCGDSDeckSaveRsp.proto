@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7071
-// Obf: DFHFNGDMLCA
+// CmdId: 9738
+// Obf: BMBIGJKELML
 message GCGDSDeckSaveRsp {
-	bool is_valid = 6;
-	int32 retcode = 4;
-	uint32 deck_id = 12;
-	fixed32 create_time = 2;
+	bool is_valid = 3;
+	uint32 deck_id = 11;
+	int32 retcode = 7;
+	fixed32 create_time = 9;
 }

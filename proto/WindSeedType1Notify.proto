@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23131
-// Obf: ELJDECFEHLJ
+// CmdId: 3604
+// Obf: FGKAHIENJJG
 message WindSeedType1Notify {
-	uint32 config_id = 11;
+	uint32 config_id = 12;
 	bytes payload = 2;
 }

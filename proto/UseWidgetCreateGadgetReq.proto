@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 4272
-// Obf: BACNGKGEKIB
+// CmdId: 2124
+// Obf: GLCLJMKPDLG
 message UseWidgetCreateGadgetReq {
-	uint32 material_id = 14;
-	Vector pos = 10;
-	Vector rot = 13;
+	Vector rot = 9;
+	uint32 material_id = 1;
+	Vector pos = 12;
 }

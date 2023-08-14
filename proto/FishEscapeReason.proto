@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DGDCCMHODEN
+// Obf: ILAHKGBCAOC
 enum FishEscapeReason {
 	FISN_ESCAPE_NONE = 0;
 	FISH_ESCAPE_SHOCKED = 1;

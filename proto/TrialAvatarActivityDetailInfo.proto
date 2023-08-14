@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TrialAvatarActivityRewardDetailInfo.proto";
-// Obf: CNHGNLNNLKL
+// Obf: ALGLMCJHKGN
 message TrialAvatarActivityDetailInfo {
-	repeated TrialAvatarActivityRewardDetailInfo reward_info_list = 6;
+	repeated TrialAvatarActivityRewardDetailInfo reward_info_list = 11;
 }

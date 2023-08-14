@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 366
-// Obf: AJPIDIELIII
+// CmdId: 3111
+// Obf: PKIMGJKJMFE
 message MonsterForceAlertNotify {
-	uint32 monster_entity_id = 11;
+	uint32 monster_entity_id = 8;
 }

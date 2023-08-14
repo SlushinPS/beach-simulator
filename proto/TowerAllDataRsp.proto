@@ -17,26 +17,26 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TowerFloorRecord.proto";
-import "TowerMonthlyBrief.proto";
 import "TowerCurLevelRecord.proto";
-// CmdId: 2487
-// Obf: JHFGICEJJLA
+import "TowerMonthlyBrief.proto";
+// CmdId: 3897
+// Obf: BDPBFJJNCKK
 message TowerAllDataRsp {
-	uint32 schedule_start_time = 159;
-	uint32 NALKMJPEKCD = 12;
-	uint32 MIFBIGEDCJH = 4;
-	map<uint32, uint32> floor_open_time_map = 1;
-	repeated TowerFloorRecord tower_floor_record_list = 11;
-	uint32 next_schedule_change_time = 3;
-	bool is_first_interact = 2;
-	bool is_finished_entrance_floor = 10;
-	TowerMonthlyBrief last_schedule_monthly_brief = 5;
-	int32 retcode = 14;
-	TowerMonthlyBrief monthly_brief = 741;
-	uint32 MIGOLAOAOOK = 13;
-	TowerCurLevelRecord cur_level_record = 15;
-	uint32 EDFFKEPDKBN = 8;
-	map<uint32, uint32> HDJMDHAPMME = 7;
-	uint32 DMCKKIKKMLB = 6;
-	uint32 tower_schedule_id = 9;
+	bool is_finished_entrance_floor = 12;
+	uint32 schedule_start_time = 1168;
+	uint32 FEOKMKFLOFI = 6;
+	uint32 CFHPLJKKOFG = 15;
+	uint32 NFLJLHDCPFJ = 5;
+	repeated TowerFloorRecord tower_floor_record_list = 14;
+	uint32 JJJCPHMBMLG = 9;
+	bool is_first_interact = 7;
+	TowerCurLevelRecord cur_level_record = 10;
+	TowerMonthlyBrief last_schedule_monthly_brief = 4;
+	map<uint32, uint32> floor_open_time_map = 13;
+	TowerMonthlyBrief monthly_brief = 120;
+	uint32 next_schedule_change_time = 11;
+	uint32 tower_schedule_id = 3;
+	map<uint32, uint32> skip_floor_granted_reward_item_map = 8;
+	int32 retcode = 2;
+	uint32 MOOJNLEAKFC = 1;
 }

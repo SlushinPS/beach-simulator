@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24130
-// Obf: JCFOAENGAII
+// CmdId: 4312
+// Obf: BKECFLCINNO
 message GearActivityFinishPlayGearRsp {
-	int32 retcode = 6;
-	uint32 level_id = 7;
-	bool is_success = 5;
+	bool is_success = 1;
+	uint32 level_id = 8;
+	int32 retcode = 2;
 }

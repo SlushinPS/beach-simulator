@@ -17,16 +17,16 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "LanternRiteFireworksReformFactorInfo.proto";
-// CmdId: 8256
-// Obf: DPEEGFLDCAM
+// CmdId: 24400
+// Obf: BKJJDNKMIFK
 message LanternRiteDoFireworksReformRsp {
-	uint32 JGLNDBHIAPK = 10;
-	bool is_lucky = 6;
-	uint32 MBEGNNPJAPL = 11;
-	int32 retcode = 5;
-	uint32 DKBBJDIMJPB = 3;
-	uint32 FCGOPINPKBP = 15;
-	uint32 challenge_id = 14;
-	repeated LanternRiteFireworksReformFactorInfo factor_info_list = 2;
-	uint32 stage_id = 12;
+	bool is_lucky = 1;
+	uint32 NACPGJMEPCP = 15;
+	uint32 COOIJAMKABA = 12;
+	uint32 challenge_id = 10;
+	uint32 KCHDLMCFANC = 5;
+	int32 retcode = 11;
+	repeated LanternRiteFireworksReformFactorInfo factor_info_list = 7;
+	uint32 ONFGHBLOLCK = 2;
+	uint32 stage_id = 6;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1801
-// Obf: MMPEGBPFHDD
+// CmdId: 3109
+// Obf: OLKAAOBEPHK
 message PSPlayerApplyEnterMpReq {
 	string target_psn_id = 6;
 }

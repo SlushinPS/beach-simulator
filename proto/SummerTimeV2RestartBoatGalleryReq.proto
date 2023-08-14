@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8342
-// Obf: GFHIFPKGPEH
+// CmdId: 164
+// Obf: BPKBGGEAOLM
 message SummerTimeV2RestartBoatGalleryReq {
-	uint32 gallery_id = 3;
+	uint32 gallery_id = 2;
 }

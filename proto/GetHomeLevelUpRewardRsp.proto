@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4579
-// Obf: GIAFFMBGNHJ
+// CmdId: 7279
+// Obf: OPPDHBNPFDI
 message GetHomeLevelUpRewardRsp {
-	uint32 level = 3;
-	int32 retcode = 6;
+	int32 retcode = 8;
+	uint32 level = 15;
 }

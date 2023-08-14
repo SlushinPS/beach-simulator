@@ -17,9 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 370
-// Obf: MMMMKEELLIA
+// CmdId: 23086
+// Obf: LBJMDFGMGBD
 message EvtAvatarLockChairReq {
-	uint64 chair_id = 11;
-	Vector position = 4;
+	Vector position = 13;
+	uint64 chair_id = 9;
+	int32 direction = 3;
 }

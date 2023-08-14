@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1248
-// Obf: BDCHKNLKJGP
+// CmdId: 21000
+// Obf: CHDLCNDEHEB
 message AvatarFightPropUpdateNotify {
-	uint64 avatar_guid = 4;
-	map<uint32, float> fight_prop_map = 14;
+	uint64 avatar_guid = 2;
+	map<uint32, float> fight_prop_map = 4;
 }

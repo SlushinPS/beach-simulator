@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4452
-// Obf: JAMFEAFLMEK
+// CmdId: 2811
+// Obf: OHOJDOFPJHI
 message HomeGetBlueprintSlotInfoReq {
 }

@@ -20,7 +20,7 @@ import "PropValue.proto";
 import "ShowEquip.proto";
 import "AvatarFetterInfo.proto";
 import "AvatarExcelInfo.proto";
-// Obf: LBFIEJKILCO
+// Obf: BHNAGPHOKLL
 message ShowAvatarInfo {
 	uint32 avatar_id = 1;
 	map<uint32, PropValue> prop_map = 2;

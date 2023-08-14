@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DCHIFHIDHGD
+// Obf: KFHOLBPEEPP
 message VintageHuntingStageData {
-	uint32 open_time = 15;
-	bool is_open = 11;
-	uint32 stage_id = 13;
-	uint32 EOEMEKGNKIM = 10;
-	bool is_finish = 9;
+	uint32 stage_id = 2;
+	bool is_finish = 4;
+	uint32 open_time = 12;
+	uint32 HKIIFCMCGCL = 9;
+	bool is_open = 8;
 }

@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BargainResultType.proto";
-// CmdId: 476
-// Obf: LDAHLOOJGPD
+// CmdId: 28942
+// Obf: IKJLNCGMPFH
 message BargainOfferPriceRsp {
-	int32 cur_mood = 6;
-	int32 retcode = 5;
-	BargainResultType bargain_result = 15;
-	uint32 result_param = 11;
+	int32 cur_mood = 10;
+	uint32 result_param = 8;
+	BargainResultType bargain_result = 12;
+	int32 retcode = 11;
 }

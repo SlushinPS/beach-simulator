@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CataLogGlobalWatcherFinishedData.proto";
-// CmdId: 6353
-// Obf: EEBGALKIANL
+// CmdId: 6277
+// Obf: INIFBMCNLFH
 message CataLogFinishedGlobalWatcherAllDataNotify {
 	repeated CataLogGlobalWatcherFinishedData finished_global_watcher_data_list = 14;
 }

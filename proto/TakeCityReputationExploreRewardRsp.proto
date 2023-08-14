@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 2894
-// Obf: EDPKBLDJBLM
+// CmdId: 26493
+// Obf: OKFPPCLGPPD
 message TakeCityReputationExploreRewardRsp {
-	uint32 city_id = 14;
-	repeated ItemParam item_list = 13;
-	repeated uint32 explore_id_list = 11;
 	int32 retcode = 2;
+	repeated uint32 explore_id_list = 5;
+	repeated ItemParam item_list = 10;
+	uint32 city_id = 15;
 }

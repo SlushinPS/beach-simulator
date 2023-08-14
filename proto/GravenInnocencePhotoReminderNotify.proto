@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22652
-// Obf: MOKIFBDKFAI
+// CmdId: 3372
+// Obf: GBKEHDKAHIE
 message GravenInnocencePhotoReminderNotify {
-	uint32 group_bundle_id = 14;
-	uint32 reminder_id = 10;
+	uint32 reminder_id = 2;
+	uint32 group_bundle_id = 10;
 }

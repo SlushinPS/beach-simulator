@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BLGBHLOPHLA
+// Obf: LHGEGGKAFLM
 enum CodexType {
 	CODEX_NONE = 0;
 	CODEX_QUEST = 1;

@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "ItemParam.proto";
 import "BattlePassRewardTakeOption.proto";
-// CmdId: 2639
-// Obf: JNPLKEHFOOM
+import "ItemParam.proto";
+// CmdId: 25609
+// Obf: JPNLFJHCEII
 message TakeBattlePassRewardRsp {
-	repeated ItemParam item_list = 10;
-	repeated BattlePassRewardTakeOption take_option_list = 11;
-	int32 retcode = 14;
+	int32 retcode = 12;
+	repeated BattlePassRewardTakeOption take_option_list = 4;
+	repeated ItemParam item_list = 14;
 }

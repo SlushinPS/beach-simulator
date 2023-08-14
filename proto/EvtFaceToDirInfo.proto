@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: DHDPCHAJIEC
+// Obf: DGNNOOGKIDC
 message EvtFaceToDirInfo {
-	uint32 entity_id = 8;
-	Vector face_dir = 9;
+	uint32 entity_id = 12;
+	Vector face_dir = 11;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CMCFPKPHHLE
+// Obf: NPAEFEDBCEF
 message SeaLampV3CampStageInfo {
-	bool is_finished = 10;
-	uint32 stage_id = 2;
-	uint32 level_id = 15;
-	bool is_open = 6;
+	uint32 level_id = 5;
+	uint32 stage_id = 4;
+	bool is_open = 8;
+	bool is_finished = 2;
 }

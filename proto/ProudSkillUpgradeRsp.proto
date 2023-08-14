@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1030
-// Obf: CAMMOIFNHBP
+// CmdId: 8300
+// Obf: JNAGAKFGDJO
 message ProudSkillUpgradeRsp {
-	uint32 proud_skill_id = 11;
-	uint64 avatar_guid = 5;
-	int32 retcode = 9;
+	uint32 proud_skill_id = 15;
+	int32 retcode = 7;
+	uint64 avatar_guid = 2;
 }

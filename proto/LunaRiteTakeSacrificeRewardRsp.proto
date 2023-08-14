@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8206
-// Obf: GCKABFAMNAD
+// CmdId: 24725
+// Obf: FIHDOAACOPM
 message LunaRiteTakeSacrificeRewardRsp {
-	repeated uint32 sacrifice_reward_list = 3;
-	uint32 sacrifice_reward_index = 6;
-	uint32 index = 1;
-	uint32 area_id = 12;
-	int32 retcode = 11;
+	repeated uint32 sacrifice_reward_list = 13;
+	uint32 index = 10;
+	int32 retcode = 3;
+	uint32 area_id = 1;
+	uint32 sacrifice_reward_index = 14;
 }

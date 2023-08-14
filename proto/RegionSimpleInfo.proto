@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BODMEBNADPL
+// Obf: KHPGILKGEPP
 message RegionSimpleInfo {
 	string name = 1;
 	string title = 2;

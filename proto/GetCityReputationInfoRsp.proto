@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CityReputationInfo.proto";
-// CmdId: 2896
-// Obf: BIKEGKDPFEO
+// CmdId: 128
+// Obf: GJNNLGKELGN
 message GetCityReputationInfoRsp {
-	int32 retcode = 7;
-	uint32 city_id = 8;
-	CityReputationInfo city_reputation_info = 4;
+	int32 retcode = 5;
+	uint32 city_id = 10;
+	CityReputationInfo city_reputation_info = 1;
 }

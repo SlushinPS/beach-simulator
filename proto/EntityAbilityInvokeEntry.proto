@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AbilityInvokeEntry.proto";
-// Obf: EPKNGJMINJD
+// Obf: GMHAEILNEPA
 message EntityAbilityInvokeEntry {
-	uint32 entity_id = 13;
-	repeated AbilityInvokeEntry invokes = 14;
+	repeated AbilityInvokeEntry invokes = 2;
+	uint32 entity_id = 3;
 }

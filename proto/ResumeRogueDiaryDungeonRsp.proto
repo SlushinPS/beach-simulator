@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8145
-// Obf: HBBDJAPLOKK
+// CmdId: 21442
+// Obf: IPGBEANOLHH
 message ResumeRogueDiaryDungeonRsp {
 	int32 retcode = 14;
 }

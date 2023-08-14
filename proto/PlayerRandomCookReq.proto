@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 105
-// Obf: CPAAIMKDMGD
+// CmdId: 7190
+// Obf: DPMOJNLNJPL
 message PlayerRandomCookReq {
-	repeated ItemParam material_list = 4;
+	repeated ItemParam material_list = 3;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TowerFloorRecord.proto";
-// CmdId: 2496
-// Obf: MAFKENDBENG
+// CmdId: 23989
+// Obf: EEHMCGKNNPI
 message TowerFloorRecordChangeNotify {
-	repeated TowerFloorRecord tower_floor_record_list = 10;
-	bool is_finished_entrance_floor = 5;
+	repeated TowerFloorRecord tower_floor_record_list = 9;
+	bool is_finished_entrance_floor = 1;
 }

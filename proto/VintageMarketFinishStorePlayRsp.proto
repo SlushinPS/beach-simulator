@@ -16,17 +16,17 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23124
-// Obf: MFJJOHIPMMC
+// CmdId: 26589
+// Obf: CGBKFHKIFGO
 message VintageMarketFinishStorePlayRsp {
-	uint32 store_round = 2;
-	repeated uint32 ANCAJOMMFCH = 4;
-	uint32 DOKMLEHIOEC = 15;
-	uint32 IIHEIILJCOF = 9;
-	repeated uint32 LMJAOBFADPK = 8;
-	repeated uint32 HLECFMJDPKN = 10;
-	map<uint32, uint32> store_income_map = 1;
-	uint32 GNABNHELILJ = 14;
-	int32 retcode = 7;
-	uint32 KIEEJLCCNIE = 13;
+	uint32 LKAAFHACDFC = 4;
+	map<uint32, uint32> store_income_map = 13;
+	uint32 store_round = 8;
+	repeated uint32 DBHHFCGNKPL = 7;
+	int32 retcode = 15;
+	uint32 KNAKMHNLEJG = 1;
+	repeated uint32 FNEJNJNILKJ = 10;
+	uint32 EBGJAODGLHK = 5;
+	uint32 JJJNGDOHBKG = 11;
+	repeated uint32 JFLJGFOIKED = 9;
 }

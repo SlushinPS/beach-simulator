@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CustomDungeonBlock.proto";
-// CmdId: 6221
-// Obf: EBIIFMEFIBM
+// CmdId: 6751
+// Obf: FCADMAFCJEF
 message SaveCustomDungeonRoomRsp {
-	repeated CustomDungeonBlock error_block_list = 2;
-	int32 retcode = 9;
-	uint32 room_id = 7;
+	repeated CustomDungeonBlock error_block_list = 15;
+	uint32 room_id = 11;
+	int32 retcode = 13;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: IMPKEBNAIPJ
+// Obf: FNNGJDPGKJL
 message SceneGalleryDuelHeartInfo {
-	uint32 difficulty = 15;
+	uint32 difficulty = 14;
 }

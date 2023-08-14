@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 412
-// Obf: BBADCCGIMHI
+// CmdId: 8744
+// Obf: GBNPJGGAOJP
 message PersonalLineNewUnlockNotify {
-	repeated uint32 personal_line_id_list = 15;
+	repeated uint32 personal_line_id_list = 5;
 }

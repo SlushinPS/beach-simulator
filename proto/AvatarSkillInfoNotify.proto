@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AvatarSkillInfo.proto";
-// CmdId: 1035
-// Obf: ECFIAOJHBFD
+// CmdId: 29066
+// Obf: NHOMLJLJGFL
 message AvatarSkillInfoNotify {
-	map<uint32, AvatarSkillInfo> skill_map = 4;
-	uint64 guid = 15;
+	map<uint32, AvatarSkillInfo> skill_map = 11;
+	uint64 guid = 13;
 }

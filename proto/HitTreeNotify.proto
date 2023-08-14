@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 3420
-// Obf: LDBJKFHJNKH
+// CmdId: 8766
+// Obf: BAGAPIFEAFI
 message HitTreeNotify {
-	uint32 tree_type = 6;
-	Vector tree_pos = 14;
-	Vector drop_pos = 10;
+	Vector tree_pos = 9;
+	Vector drop_pos = 7;
+	uint32 tree_type = 10;
 }

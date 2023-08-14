@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SumoDungeonTeam.proto";
-// CmdId: 8408
-// Obf: MLJFENGIFKG
+// CmdId: 5911
+// Obf: MMJJICILIBA
 message SumoSetNoSwitchPunishTimeNotify {
-	uint32 stage_id = 12;
-	repeated SumoDungeonTeam dungeon_team_list = 9;
-	uint32 PHBHNGMAEKN = 10;
-	uint32 DHAAEJHLHNB = 5;
-	uint32 activity_id = 8;
-	uint32 BDAFDFKPJAE = 2;
+	uint32 GNDNKOIMJEL = 9;
+	uint32 JCMAPNDMPHD = 8;
+	uint32 activity_id = 14;
+	repeated SumoDungeonTeam dungeon_team_list = 12;
+	uint32 KLNJLIIECPD = 6;
+	uint32 stage_id = 11;
 }

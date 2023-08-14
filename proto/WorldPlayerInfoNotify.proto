@@ -18,10 +18,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "OnlinePlayerInfo.proto";
 import "PlayerWidgetInfo.proto";
-// CmdId: 3344
-// Obf: PAAJDHIIGDG
+// CmdId: 2239
+// Obf: JGMOCNKDELA
 message WorldPlayerInfoNotify {
-	repeated OnlinePlayerInfo player_info_list = 11;
-	repeated PlayerWidgetInfo player_widget_info_list = 1;
-	repeated uint32 player_uid_list = 3;
+	repeated OnlinePlayerInfo player_info_list = 7;
+	repeated PlayerWidgetInfo player_widget_info_list = 5;
+	repeated uint32 player_uid_list = 15;
 }

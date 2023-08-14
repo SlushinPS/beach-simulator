@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CNJAAHMIHJF
+// Obf: HMHCFCIHGCO
 enum GCGSettleOption {
 	GCG_SETTLE_OPT_NONE = 0;
 	GCG_SETTLE_OPT_EXIT = 1;

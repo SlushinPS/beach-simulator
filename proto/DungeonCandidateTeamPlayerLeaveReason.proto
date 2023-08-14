@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DKFEAEEPKME
+// Obf: ILAFDGNADFG
 enum DungeonCandidateTeamPlayerLeaveReason {
 	DUNGEON_CANDIDATE_TPLR_NORMAL = 0;
 	DUNGEON_CANDIDATE_TPLR_DIE = 1;

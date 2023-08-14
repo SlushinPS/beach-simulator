@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SpiceStageData.proto";
-// Obf: KMDDHMJGLKE
+// Obf: LGJNDJKCPGP
 message SpiceActivityDetailInfo {
-	uint32 KIFHDNINMHD = 7;
+	uint32 PMGNKOHDPJA = 7;
+	uint32 PKFDOLJJNDI = 6;
 	repeated SpiceStageData spice_stage_data_list = 8;
-	uint32 BDGNIOMACMP = 5;
 }

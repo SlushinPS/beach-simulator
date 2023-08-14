@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ActivityAcceptGiftResultInfo.proto";
-// CmdId: 8567
-// Obf: LOLBOBPPOOL
+// CmdId: 20446
+// Obf: MDPMPEHJFDE
 message ActivityAcceptGiveGiftRsp {
-	ActivityAcceptGiftResultInfo accept_gift_result_info = 2;
-	uint32 schedule_id = 6;
-	int32 retcode = 9;
+	ActivityAcceptGiftResultInfo accept_gift_result_info = 12;
+	int32 retcode = 4;
+	uint32 schedule_id = 1;
 }

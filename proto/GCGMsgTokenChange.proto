@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "MNDCMMKBIBP.proto";
-// Obf: NMOMNMJEDFF
+import "GCGReason.proto";
+// Obf: MIGFNPNBPFM
 message GCGMsgTokenChange {
-	MNDCMMKBIBP reason = 2;
-	uint32 DDJGBKCEKJC = 6;
-	uint32 FIGGLGDEGIG = 5;
-	uint32 IHEELKBILHO = 1;
-	uint32 card_guid = 12;
+	uint32 card_guid = 6;
+	uint32 PEILGGCEBEG = 9;
+	uint32 BKGKHIEOMFB = 12;
+	GCGReason reason = 10;
+	uint32 ECHCABEMDII = 14;
 }

@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GJIPMDIPMGO
+// Obf: CFBFFJIHDHB
 message SeaLampActivityDetailInfo {
-	uint32 phase_id = 15;
-	repeated uint32 JLAFALJAHBL = 13;
-	repeated uint32 GFHLEOBJAIL = 5;
-	uint32 days = 1;
-	uint32 DNLDBIOFPCD = 9;
-	uint32 NIOMOKCABBI = 3;
-	uint32 progress = 2;
+	uint32 KEEHFLCINNM = 8;
+	uint32 progress = 7;
+	uint32 AGBEEFKCBIN = 9;
+	uint32 days = 3;
+	uint32 phase_id = 6;
+	repeated uint32 MDLABDFGHBC = 14;
+	repeated uint32 NGAIOHOOHDO = 5;
 }

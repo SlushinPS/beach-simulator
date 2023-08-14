@@ -17,33 +17,33 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 263
-// Obf: CGLDNNDKGHN
+// CmdId: 27569
+// Obf: KAGMEJHECDK
 message BeginCameraSceneLookNotify {
-	// Obf: HEGALHEOJIG
+	// Obf: ONABGJCLONK
 	enum KeepRotType {
 		KEEP_ROT_X = 0;
 		KEEP_ROT_XY = 1;
 	}
 	
-	bool CCCLAFNEBGN = 7;
-	float NLAMNKNJJDH = 613;
-	bool MHJDHLAFBLE = 11;
-	uint32 JOFGLBIHMHH = 1484;
-	float HBOFNBPGPLI = 10;
-	repeated string other_params = 5;
-	bool FFPDDLGFGKL = 1965;
-	uint32 entity_id = 1456;
-	float FCNNDFADOFL = 4;
-	bool GDOAFMGAJCB = 1;
-	bool JDOJPLBIBDE = 8;
-	bool JIDHHBFDMOK = 15;
-	Vector LKECKPKNOIP = 3;
-	uint32 PNDLGCIPIAA = 1356;
-	KeepRotType keep_rot_type = 2;
-	bool LELBPCJOPCE = 13;
-	Vector OKIEEACHAID = 9;
-	float duration = 12;
-	bool BACBEFNEHGG = 6;
-	float NLCMNGGEIJG = 14;
+	uint32 entity_id = 609;
+	bool JBCEDEGCGFJ = 8;
+	bool ADPLABBOBKF = 15;
+	uint32 DOCBFPIPMPK = 1006;
+	Vector LKGGBPLCEJI = 12;
+	bool KJHLOCKMIMB = 1477;
+	float GJNLEMGJCJI = 10;
+	bool IPKFLPFLNNI = 9;
+	bool PDOCOOCFAIH = 5;
+	Vector MMOMOKPCOJK = 14;
+	bool FPDPEHICGAC = 7;
+	float MIKBDFOBIBB = 3;
+	float CLLOFLJICAF = 11;
+	repeated string other_params = 2;
+	KeepRotType keep_rot_type = 4;
+	bool FFHJPJBDLJC = 1;
+	float duration = 6;
+	uint32 GEBMAIIKMBJ = 54;
+	bool MCFGAPGPNLN = 13;
+	float OJKGLFJCMID = 801;
 }

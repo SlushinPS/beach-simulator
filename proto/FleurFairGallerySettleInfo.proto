@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HGEBLCIHPJP
+// Obf: GKJMHDPMKHB
 message FleurFairGallerySettleInfo {
-	bool is_success = 3;
-	uint32 CHEAJDKKPDB = 7;
-	map<uint32, int32> energy_stat_map = 11;
-	uint32 FGIHLGCHBMN = 15;
-	uint32 energy = 14;
+	uint32 MLBGMECACGJ = 8;
+	uint32 JJGNMPAAGEM = 3;
+	bool is_success = 13;
+	uint32 energy = 6;
+	map<uint32, int32> energy_stat_map = 10;
 }

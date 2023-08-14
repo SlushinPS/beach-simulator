@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JBHCEGDJHHD
+// Obf: CLGMCBNFGLM
 message CharAmusementAvatarInfo {
-	uint32 uid = 9;
-	repeated uint32 avatar_id_list = 15;
-	uint32 punish_time = 3;
+	uint32 punish_time = 8;
+	uint32 uid = 3;
+	repeated uint32 avatar_id_list = 12;
 }

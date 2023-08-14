@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CIIKACHFINK
+// Obf: FNMHKJNGFMI
 enum GCGDiceSideType {
 	GCG_DICE_SIDE_INVALID = 0;
 	GCG_DICE_SIDE_CRYO = 1;

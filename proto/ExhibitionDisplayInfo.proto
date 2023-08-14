@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FALKBLEJAOC
+// Obf: MCIHMDBLAPP
 message ExhibitionDisplayInfo {
 	uint32 id = 1;
 	uint32 param = 2;

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7789
-// Obf: CEBBCAEOLJO
+// CmdId: 270
+// Obf: ACEEALMICHB
 message GCGDSCardFaceUnlockNotify {
-	uint32 face_type = 11;
-	uint32 card_id = 1;
+	uint32 face_type = 15;
+	uint32 card_id = 5;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: POGLABOIEHB
+// Obf: PHGODGJHNLN
 message LanV3BoatMultiPlayerData {
-	uint32 HIIPJHPJDCJ = 5;
-	uint32 uid = 8;
+	uint32 LJAAMODEICH = 9;
+	uint32 uid = 11;
 }

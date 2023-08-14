@@ -19,14 +19,14 @@ option java_package = "emu.grasscutter.net.proto";
 import "OneoffGatherPointDetectorData.proto";
 import "ClientCollectorData.proto";
 import "SkyCrystalDetectorQuickUseResult.proto";
-// CmdId: 4253
-// Obf: PIBILHMMMKA
+// CmdId: 24972
+// Obf: KHPNPEEKKPG
 message QuickUseWidgetRsp {
-	uint32 material_id = 9;
-	int32 retcode = 5;
+	int32 retcode = 11;
+	uint32 material_id = 6;
 	oneof param {
-		OneoffGatherPointDetectorData detector_data = 4;
-		ClientCollectorData client_collector_data = 11;
-		SkyCrystalDetectorQuickUseResult sky_crystal_detector_quick_use_result = 150503;
+		OneoffGatherPointDetectorData detector_data = 5;
+		ClientCollectorData client_collector_data = 15;
+		SkyCrystalDetectorQuickUseResult sky_crystal_detector_quick_use_result = 207137;
 	}
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 192
-// Obf: OEKGAKDIMMK
+// CmdId: 767
+// Obf: NOJIOLBGOMB
 message TakePlayerLevelRewardRsp {
-	uint32 level = 7;
-	uint32 reward_id = 10;
-	int32 retcode = 1;
+	int32 retcode = 4;
+	uint32 level = 6;
+	uint32 reward_id = 14;
 }

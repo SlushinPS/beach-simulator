@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GalleryStartSource.proto";
-// Obf: DNKEAFFCEPM
+// Obf: EGNBGLFKJHA
 message SceneGalleryIslandPartyRaftInfo {
-	uint32 MPEGPHEPACG = 6;
-	uint32 LPGAJONPBMC = 14;
-	uint32 coin = 5;
-	uint32 PAOCIBHJAHO = 9;
 	uint32 point_id = 11;
-	GalleryStartSource start_source = 2;
+	uint32 IKOIIPFMHEM = 9;
+	GalleryStartSource start_source = 7;
+	uint32 OKHOJEDMEOE = 6;
+	uint32 KBHJIMOJNNK = 8;
+	uint32 coin = 10;
 }

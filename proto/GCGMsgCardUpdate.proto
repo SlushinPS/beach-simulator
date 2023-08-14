@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGCard.proto";
-// Obf: NEFONJEKHIL
+// Obf: BBMMBOIEDOK
 message GCGMsgCardUpdate {
-	GCGCard card = 1;
+	GCGCard card = 5;
 }

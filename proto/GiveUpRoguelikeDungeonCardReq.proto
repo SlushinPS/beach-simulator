@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8147
-// Obf: HHONHBALFOG
+// CmdId: 8630
+// Obf: GKBNCJBCIDH
 message GiveUpRoguelikeDungeonCardReq {
 }

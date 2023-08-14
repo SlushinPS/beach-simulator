@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 676
-// Obf: ODCHPBIBCJM
+// CmdId: 29241
+// Obf: GCPFLNHNBIN
 message ReliquaryPromoteReq {
-	uint64 item_guid = 12;
-	uint64 target_guid = 5;
+	uint64 target_guid = 13;
+	uint64 item_guid = 7;
 }

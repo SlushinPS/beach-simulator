@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1902
-// Obf: ACMNNBKNNFK
+// CmdId: 23800
+// Obf: DEMDDKHMDFD
 message GetInvestigationMonsterReq {
-	bool is_for_mark = 3;
-	repeated uint32 city_id_list = 4;
+	bool is_for_mark = 12;
+	repeated uint32 city_id_list = 6;
 }

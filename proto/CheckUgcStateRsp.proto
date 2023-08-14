@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6335
-// Obf: CCLNOBMBJNK
+// CmdId: 7329
+// Obf: BLBBJKIJDBB
 message CheckUgcStateRsp {
-	int32 retcode = 4;
+	int32 retcode = 7;
 }

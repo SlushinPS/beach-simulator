@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4719
-// Obf: KKDGLPBMPLP
+// CmdId: 24383
+// Obf: PEEGKBPPJOB
 message HomeLimitedShopGoodsListReq {
 }

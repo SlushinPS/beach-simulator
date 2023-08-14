@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 266
-// Obf: KFEOCKJDOGM
+// CmdId: 2500
+// Obf: EPLABGNHJHF
 message SceneDestroyEntityRsp {
-	uint32 entity_id = 3;
-	int32 retcode = 14;
+	uint32 entity_id = 8;
+	int32 retcode = 7;
 }

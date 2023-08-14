@@ -18,10 +18,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "CrucibleBattleUidInfo.proto";
-// Obf: GKNCGFLIHAF
+// Obf: AADKBFPPACE
 message CrucibleActivityDetailInfo {
-	Vector pos = 3;
-	repeated CrucibleBattleUidInfo uid_info_list = 10;
-	uint32 cost_time = 5;
-	uint32 battle_world_level = 12;
+	Vector pos = 7;
+	uint32 cost_time = 2;
+	uint32 battle_world_level = 4;
+	repeated CrucibleBattleUidInfo uid_info_list = 9;
 }

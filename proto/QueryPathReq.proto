@@ -16,25 +16,25 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "QueryFilter.proto";
 import "Vector3Int.proto";
+import "QueryFilter.proto";
 import "Vector.proto";
-// CmdId: 2375
-// Obf: NEHFAPFJMDE
+// CmdId: 2359
+// Obf: GOKDPGJBHEM
 message QueryPathReq {
-	// Obf: CHNMLGAIJDL
+	// Obf: MFMCBMBEPJD
 	enum OptionType {
 		OPTION_NONE = 0;
 		OPTION_NORMAL = 1;
 		OPTION_FIRST_CAN_GO = 2;
 	}
 	
-	QueryFilter filter = 8;
-	Vector3Int COBIGJHHLJJ = 10;
-	Vector source_pos = 12;
-	int32 query_id = 5;
-	OptionType query_type = 4;
-	repeated Vector destination_pos = 14;
-	Vector3Int OCDLHELPCKN = 15;
-	uint32 scene_id = 11;
+	Vector3Int ANOOBDOFLPG = 6;
+	QueryFilter filter = 12;
+	int32 query_id = 3;
+	uint32 scene_id = 7;
+	Vector source_pos = 15;
+	OptionType query_type = 9;
+	Vector3Int LAOKIPAJIGN = 5;
+	repeated Vector destination_pos = 13;
 }

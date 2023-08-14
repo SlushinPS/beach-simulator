@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: AEGIBHGNMDO
+// Obf: LBBNCBHPMPJ
 message VintagePresentLevelData {
-	uint32 present_id = 6;
-	bool is_finish = 4;
-	uint32 stage_id = 5;
-	bool is_open = 13;
+	uint32 present_id = 11;
+	uint32 stage_id = 4;
+	bool is_finish = 3;
+	bool is_open = 6;
 }

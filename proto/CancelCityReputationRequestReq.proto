@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2830
-// Obf: BINIMLECNHN
+// CmdId: 3312
+// Obf: GIFLFPHCDJI
 message CancelCityReputationRequestReq {
-	uint32 request_id = 12;
-	uint32 city_id = 9;
+	uint32 city_id = 12;
+	uint32 request_id = 11;
 }

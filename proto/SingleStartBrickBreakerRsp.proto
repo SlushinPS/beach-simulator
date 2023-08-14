@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21701
-// Obf: OAGKOOODJDM
+// CmdId: 20651
+// Obf: ILLIPGBDFKO
 message SingleStartBrickBreakerRsp {
-	bool is_dungeon = 1;
-	uint32 level_id = 5;
-	int32 retcode = 2;
+	uint32 level_id = 12;
+	int32 retcode = 15;
+	bool is_dungeon = 13;
 }

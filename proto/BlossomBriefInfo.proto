@@ -17,16 +17,17 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: BNLFPPDNIEP
+// Obf: LHLCLOAIDOK
 message BlossomBriefInfo {
-	uint32 city_id = 3;
-	uint32 scene_id = 15;
-	uint32 monster_level = 10;
-	uint32 state = 13;
-	uint32 refresh_id = 1;
-	Vector pos = 4;
-	uint32 circle_camp_id = 11;
-	bool is_guide_opened = 9;
-	uint32 reward_id = 12;
-	uint32 resin = 6;
+	uint32 state = 10;
+	bool is_guide_opened = 5;
+	uint32 resin = 2;
+	uint32 circle_camp_id = 14;
+	uint32 BGNHKCLIPCF = 12;
+	uint32 HJMMAOMEHOL = 8;
+	uint32 scene_id = 13;
+	uint32 refresh_id = 11;
+	uint32 reward_id = 7;
+	Vector pos = 15;
+	uint32 city_id = 4;
 }

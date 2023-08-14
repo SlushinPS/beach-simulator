@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BreakoutSyncConnectUidInfo.proto";
-// Obf: OHONHNDAHHA
+// Obf: DGCAHJEHMHC
 message BreakoutSyncCreateConnect {
-	repeated BreakoutSyncConnectUidInfo uid_info_list = 2;
+	repeated BreakoutSyncConnectUidInfo uid_info_list = 11;
 }

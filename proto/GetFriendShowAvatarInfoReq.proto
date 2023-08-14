@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4063
-// Obf: FHLFPFEGLPN
+// CmdId: 3887
+// Obf: HPFMOEEPOGI
 message GetFriendShowAvatarInfoReq {
-	uint32 uid = 14;
+	uint32 uid = 1;
 }

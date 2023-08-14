@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4849
-// Obf: LAFHCNHLKPN
+// CmdId: 27509
+// Obf: PGBJFFDPDIA
 message FurnitureMakeStartReq {
-	uint32 avatar_id = 12;
-	uint32 make_id = 5;
+	uint32 avatar_id = 8;
+	uint32 make_id = 7;
 }

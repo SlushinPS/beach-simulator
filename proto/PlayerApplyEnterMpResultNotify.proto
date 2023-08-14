@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1821
-// Obf: MAKFNJCFBCJ
+// CmdId: 3467
+// Obf: EIIOBJEBLEH
 message PlayerApplyEnterMpResultNotify {
-	// Obf: DMNILJCFCCF
+	// Obf: DLBJOMOJCKD
 	enum Reason {
 		REASON_PLAYER_JUDGE = 0;
 		REASON_SCENE_CANNOT_ENTER = 1;
@@ -37,8 +37,8 @@ message PlayerApplyEnterMpResultNotify {
 		REASON_MAX_PLAYER = 13;
 	}
 	
-	string target_nickname = 3;
-	Reason reason = 14;
-	bool is_agreed = 11;
-	uint32 target_uid = 8;
+	Reason reason = 10;
+	string target_nickname = 14;
+	uint32 target_uid = 3;
+	bool is_agreed = 2;
 }

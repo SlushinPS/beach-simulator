@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// Obf: KDBPCHGCLDM
+// Obf: KGHFCKLJBLC
 message GachaTransferItem {
-	ItemParam item = 1;
-	bool is_transfer_item_new = 12;
+	ItemParam item = 9;
+	bool is_transfer_item_new = 6;
 }

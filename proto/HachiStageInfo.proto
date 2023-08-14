@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: AAALOFKKDHO
+// Obf: JMOKJKJMOBG
 message HachiStageInfo {
-	uint32 open_time = 3;
-	bool is_open = 7;
-	uint32 stage_id = 11;
-	bool is_finished = 10;
+	uint32 open_time = 9;
+	bool is_open = 6;
+	uint32 stage_id = 3;
+	bool is_finished = 14;
 }

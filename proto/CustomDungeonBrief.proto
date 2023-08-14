@@ -16,20 +16,20 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "CustomDungeonState.proto";
 import "CustomDungeonSetting.proto";
-import "CustomDungeonSocial.proto";
 import "CustomDungeonAbstract.proto";
-// Obf: FEMNGDDNOOD
+import "CustomDungeonState.proto";
+import "CustomDungeonSocial.proto";
+// Obf: DBBDLBCHPMD
 message CustomDungeonBrief {
-	uint64 dungeon_guid = 7;
-	CustomDungeonState state = 3;
-	bool is_psn_platform = 6;
-	CustomDungeonSetting setting = 15;
-	repeated uint32 tag_list = 11;
-	CustomDungeonSocial social = 9;
-	CustomDungeonAbstract abstract = 1;
-	uint32 dungeon_id = 10;
-	uint32 battle_min_cost_time = 13;
-	uint32 last_save_time = 14;
+	uint64 dungeon_guid = 1;
+	uint32 dungeon_id = 4;
+	CustomDungeonSetting setting = 13;
+	repeated uint32 tag_list = 3;
+	bool is_psn_platform = 7;
+	CustomDungeonAbstract abstract = 6;
+	uint32 last_save_time = 2;
+	CustomDungeonState state = 12;
+	uint32 battle_min_cost_time = 5;
+	CustomDungeonSocial social = 15;
 }

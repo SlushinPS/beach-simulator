@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23191
-// Obf: CHFFLLNADHL
+// CmdId: 3102
+// Obf: FBCMJOGLAPC
 message FungusFighterClearTrainingRuntimeDataRsp {
-	int32 retcode = 15;
+	int32 retcode = 13;
 }

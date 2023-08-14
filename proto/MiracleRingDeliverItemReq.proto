@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "ItemParam.proto";
 import "InterOpType.proto";
-// CmdId: 5225
-// Obf: BNJDIEFADNA
+import "ItemParam.proto";
+// CmdId: 28950
+// Obf: KAPKGMCLHAO
 message MiracleRingDeliverItemReq {
-	uint32 gadget_id = 11;
-	uint32 gadget_entity_id = 4;
-	repeated ItemParam item_param_list = 2;
+	InterOpType op_type = 11;
 	repeated uint64 food_weapon_guid_list = 8;
-	InterOpType op_type = 10;
+	repeated ItemParam item_param_list = 2;
+	uint32 gadget_entity_id = 14;
+	uint32 gadget_id = 13;
 }

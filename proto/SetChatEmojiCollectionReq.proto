@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChatEmojiCollectionData.proto";
-// CmdId: 4019
-// Obf: IOLHCMEELHO
+// CmdId: 21632
+// Obf: CAOLNHCCHFO
 message SetChatEmojiCollectionReq {
-	ChatEmojiCollectionData chat_emoji_collection_data = 14;
+	ChatEmojiCollectionData chat_emoji_collection_data = 10;
 }

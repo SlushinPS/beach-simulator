@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2150
-// Obf: PJGDCPMBNLD
+// CmdId: 1255
+// Obf: IPBBLEEEPNI
 message SeaLampFlyLampRsp {
-	int32 retcode = 1;
-	uint32 item_num = 15;
-	uint32 item_id = 2;
+	int32 retcode = 13;
+	uint32 item_id = 3;
+	uint32 item_num = 7;
 }

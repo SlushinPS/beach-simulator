@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1448
-// Obf: POFLFHOCBCI
+// CmdId: 9893
+// Obf: GCJNHCHGLEL
 message DelMailReq {
-	repeated uint32 mail_id_list = 3;
+	repeated uint32 mail_id_list = 8;
 }

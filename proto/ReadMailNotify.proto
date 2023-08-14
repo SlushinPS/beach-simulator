@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1402
-// Obf: EIMKILMHOCI
+// CmdId: 6739
+// Obf: EHONJGBBFEG
 message ReadMailNotify {
-	repeated uint32 mail_id_list = 6;
+	repeated uint32 mail_id_list = 2;
 }

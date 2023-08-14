@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MCEHDANFECI
+// Obf: OIEHOMKJPKB
 message GCGDuelChallenge {
-	uint32 challenge_id = 11;
-	uint32 cur_progress = 3;
-	uint32 total_progress = 5;
+	uint32 total_progress = 4;
+	uint32 cur_progress = 5;
+	uint32 challenge_id = 15;
 }

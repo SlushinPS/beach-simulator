@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5046
-// Obf: GPMFMJLKPGP
+// CmdId: 4033
+// Obf: HPPNKIKPNOP
 message PrivateChatRsp {
-	int32 retcode = 11;
-	uint32 chat_forbidden_endtime = 6;
+	int32 retcode = 2;
+	uint32 chat_forbidden_endtime = 5;
 }

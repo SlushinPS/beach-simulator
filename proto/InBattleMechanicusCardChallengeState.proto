@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FHPDBJDFEJF
+// Obf: NCNMHENBLME
 enum InBattleMechanicusCardChallengeState {
 	IN_BATTLE_MECHANICUS_CARD_CHALLENGE_NONE = 0;
 	IN_BATTLE_MECHANICUS_CARD_CHALLENGE_ON_GOING = 1;

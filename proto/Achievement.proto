@@ -16,18 +16,18 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LPAPJAKPDJO
+// Obf: NJOHADFBICH
 message Achievement {
-	enum OHCJGBIOHNI {
+	enum KNKEIELCCDB {
 		OPFLKOJMOIG_Invalid = 0;
 		OPFLKOJMOIG_Unfinished = 1;
 		OPFLKOJMOIG_Finished = 2;
 		OPFLKOJMOIG_RewardTaken = 3;
 	}
 	
-	uint32 id = 3;
-	OHCJGBIOHNI status = 10;
-	uint32 total_progress = 14;
 	uint32 finish_timestamp = 15;
-	uint32 cur_progress = 5;
+	KNKEIELCCDB status = 10;
+	uint32 total_progress = 4;
+	uint32 cur_progress = 14;
+	uint32 id = 5;
 }

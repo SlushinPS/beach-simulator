@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8125
-// Obf: GDEGCNGJALI
+// CmdId: 20895
+// Obf: FDMHDAKLMDF
 message LanternRiteStartFireworksReformReq {
-	uint32 challenge_id = 1;
-	uint32 stage_id = 6;
+	uint32 stage_id = 5;
+	uint32 challenge_id = 3;
 }

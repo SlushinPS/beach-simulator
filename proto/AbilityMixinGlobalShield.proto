@@ -16,11 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
+// Obf: NMBEIFBPELC
 message AbilityMixinGlobalShield {
-	bool is_create_effect = 8;
-	float sub_shield = 3;
-	uint32 avatar_id = 12;
-	string shield_effect_name = 13;
-	float height_offset = 4;
-	float shield = 6;
+	float FIEFKGHCBBO = 9;
+	string shield_effect_name = 8;
+	float APBPKKMCPIA = 7;
+	bool is_create_effect = 6;
+	float AFHOPKKJCJF = 14;
+	uint32 avatar_id = 11;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3398
-// Obf: GCJHDKBBIEO
+// CmdId: 22366
+// Obf: IIPOKPCHEKL
 message DungeonEntryToBeExploreNotify {
-	uint32 dungeon_entry_config_id = 13;
-	uint32 OEODHMHLAMF = 14;
-	uint32 scene_id = 2;
+	uint32 scene_id = 15;
+	uint32 dungeon_entry_scene_point_id = 13;
+	uint32 dungeon_entry_config_id = 5;
 }

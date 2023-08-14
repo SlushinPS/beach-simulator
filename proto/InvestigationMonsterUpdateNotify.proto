@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "InvestigationMonster.proto";
-// CmdId: 1924
-// Obf: MIPONPDFIHM
+// CmdId: 23884
+// Obf: FFNIIIKPNCC
 message InvestigationMonsterUpdateNotify {
-	InvestigationMonster investigation_monster = 7;
+	InvestigationMonster investigation_monster = 13;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 189
-// Obf: AIJFKNJPJNM
+// CmdId: 23699
+// Obf: EOHKJFLKHHF
 message AntiAddictNotify {
+	string level = 7;
 	int32 msg_type = 6;
-	string msg = 10;
-	string level = 15;
+	string msg = 12;
 }

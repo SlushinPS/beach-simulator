@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FriendBrief.proto";
-// CmdId: 4042
-// Obf: CFHBPFPNIIA
+// CmdId: 24279
+// Obf: GPGJECPCLBN
 message GetRecentMpPlayerListRsp {
-	int32 retcode = 3;
-	repeated FriendBrief recent_mp_player_brief_list = 1;
+	int32 retcode = 10;
+	repeated FriendBrief recent_mp_player_brief_list = 14;
 }

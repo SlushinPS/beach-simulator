@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BounceConjuringChapterInfo.proto";
-// Obf: CFIHPDHBMCA
+// Obf: HGOHIHOJOHL
 message BounceConjuringActivityDetailInfo {
-	bool is_content_closed = 4;
-	uint32 content_close_time = 14;
-	repeated BounceConjuringChapterInfo chapter_info_list = 11;
+	repeated BounceConjuringChapterInfo chapter_info_list = 9;
+	bool is_content_closed = 10;
+	uint32 content_close_time = 7;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8787
-// Obf: CANIENJAKPP
+// CmdId: 7818
+// Obf: PMIBAMHBFNP
 message RogueSwitchAvatarReq {
+	uint32 cell_id = 10;
 	uint32 dungeon_id = 4;
-	repeated uint64 onstage_avatar_guid_list = 15;
-	uint64 cur_avatar_guid = 12;
-	uint32 cell_id = 11;
+	repeated uint64 onstage_avatar_guid_list = 3;
+	uint64 cur_avatar_guid = 11;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RogueEffectRecord.proto";
-// CmdId: 8729
-// Obf: MCCLLLHNFLA
+// CmdId: 920
+// Obf: NDEIBOEENEJ
 message RoguelikeEffectDataNotify {
-	repeated RogueEffectRecord card_list = 15;
-	repeated RogueEffectRecord curse_list = 7;
+	repeated RogueEffectRecord curse_list = 10;
+	repeated RogueEffectRecord card_list = 3;
 }

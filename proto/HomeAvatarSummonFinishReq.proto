@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4608
-// Obf: LDBMJNNNKGL
+// CmdId: 24791
+// Obf: OJLLDCGAIDJ
 message HomeAvatarSummonFinishReq {
-	uint32 event_id = 12;
+	uint32 event_id = 11;
 }

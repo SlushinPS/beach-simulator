@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DKMOJFDCKBB
+// Obf: HANDEHKHMKN
 enum ChangeHpReason {
 	CHANGE_HP_REASON_NONE = 0;
 	CHANGE_HP_REASON_SUB_AVATAR = 1;

@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlatformInfo.proto";
-// CmdId: 201
-// Obf: BGNOPBLONBJ
+// CmdId: 8048
+// Obf: CIGDJCNIJNN
 message PlatformChangeRouteNotify {
-	uint32 entity_id = 8;
-	PlatformInfo platform = 6;
-	uint32 scene_time = 1;
+	PlatformInfo platform = 5;
+	uint32 entity_id = 13;
+	uint32 scene_time = 8;
 }

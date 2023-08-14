@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGMessagePack.proto";
-// CmdId: 7112
-// Obf: BPAKPFAPKMD
+// CmdId: 27500
+// Obf: FKDKOMEEIKC
 message GCGMessagePackNotify {
-	repeated GCGMessagePack msg_pack_list = 5;
-	uint32 server_seq = 10;
+	repeated GCGMessagePack msg_pack_list = 14;
+	uint32 server_seq = 9;
 }

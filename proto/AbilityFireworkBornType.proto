@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: IEELHDCPPBO
+// Obf: KNMNMIBIHEK
 message AbilityFireworkBornType {
-	Vector move_dir = 4;
-	uint32 effect_index = 7;
-	Vector pos = 2;
-	Vector rot = 6;
+	uint32 effect_index = 14;
+	Vector rot = 5;
+	Vector pos = 12;
+	Vector move_dir = 15;
 }

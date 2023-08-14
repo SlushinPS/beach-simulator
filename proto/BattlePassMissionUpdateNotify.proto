@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BattlePassMission.proto";
-// CmdId: 2608
-// Obf: JOKICBOOOGF
+// CmdId: 24008
+// Obf: HNPGDHAKAEB
 message BattlePassMissionUpdateNotify {
-	repeated BattlePassMission mission_list = 9;
+	repeated BattlePassMission mission_list = 7;
 }

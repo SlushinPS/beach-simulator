@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// Obf: ELAJOGMGEHO
+// Obf: BGECNEDIMFL
 message SignInData {
-	repeated ItemParam reward_item_list = 3;
-	uint32 day_count = 11;
+	repeated ItemParam reward_item_list = 1;
+	uint32 day_count = 8;
 }

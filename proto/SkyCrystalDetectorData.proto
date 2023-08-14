@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: HDIPMHHKDFC
+// Obf: CGPNNBOBEKN
 message SkyCrystalDetectorData {
-	bool is_hint_valid = 6;
-	Vector hint_center_pos = 3;
-	uint32 config_id = 12;
-	uint32 group_id = 14;
+	uint32 group_id = 10;
+	uint32 config_id = 11;
+	Vector hint_center_pos = 9;
+	bool is_hint_valid = 2;
 }

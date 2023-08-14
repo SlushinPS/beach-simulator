@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeGroupPlayerInfo.proto";
-// Obf: NINHFCFLPGA
+// Obf: HGDAOFJDFAB
 message HomeSeekFurniturePlayerScore {
-	HomeGroupPlayerInfo player_info = 4;
-	uint32 score = 1;
+	HomeGroupPlayerInfo player_info = 5;
+	uint32 score = 15;
 }

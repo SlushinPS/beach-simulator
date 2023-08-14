@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JMLGMJCMHIG
+// Obf: KNNNABKDKMA
 enum GetUgcType {
 	GET_UGC_NONE = 0;
 	GET_UGC_TYPE_MINE = 1;

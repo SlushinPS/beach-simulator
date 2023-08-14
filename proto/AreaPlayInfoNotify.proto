@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AreaPlayType.proto";
-// CmdId: 3153
-// Obf: OCJMKKKGBIK
+// CmdId: 23472
+// Obf: DFPINIJHMOB
 message AreaPlayInfoNotify {
-	uint32 detail_play_type = 3;
-	AreaPlayType area_play_type = 1;
+	uint32 detail_play_type = 15;
+	AreaPlayType area_play_type = 10;
 }

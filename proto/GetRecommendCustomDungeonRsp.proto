@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "OtherCustomDungeonBrief.proto";
-// CmdId: 6215
-// Obf: KEENKJMPHCF
+// CmdId: 4300
+// Obf: HFKEKKEANHL
 message GetRecommendCustomDungeonRsp {
-	int32 retcode = 15;
-	repeated OtherCustomDungeonBrief custom_dungeon_list = 14;
+	repeated OtherCustomDungeonBrief custom_dungeon_list = 2;
+	int32 retcode = 14;
 }

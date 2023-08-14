@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5816
-// Obf: AEMJFKIEJBB
+// CmdId: 653
+// Obf: ICBFGJKDNNP
 message FishBiteRsp {
-	int32 retcode = 8;
+	int32 retcode = 1;
 }

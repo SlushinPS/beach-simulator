@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1760
-// Obf: JPCKJHLHHDC
+// CmdId: 22687
+// Obf: LOFEGPAMIBK
 message SpringUseRsp {
-	uint64 guid = 14;
-	int32 retcode = 5;
+	int32 retcode = 7;
+	uint64 guid = 12;
 }

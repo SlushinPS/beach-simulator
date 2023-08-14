@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8660
-// Obf: KANEKLPBDMO
+// CmdId: 8503
+// Obf: LMKBIBBIMME
 message SpiceActivityFinishMakeSpiceReq {
-	bool is_success = 3;
-	repeated uint32 left_material_id_list = 7;
-	uint32 left_turns = 14;
-	uint32 stage_id = 6;
+	repeated uint32 left_material_id_list = 2;
+	uint32 left_turns = 8;
+	bool is_success = 12;
+	uint32 stage_id = 4;
 }

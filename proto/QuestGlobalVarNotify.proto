@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "QuestGlobalVar.proto";
-// CmdId: 403
-// Obf: BICAFJINAPH
+// CmdId: 23502
+// Obf: JGINEENLNCF
 message QuestGlobalVarNotify {
-	repeated QuestGlobalVar var_list = 12;
+	repeated QuestGlobalVar var_list = 1;
 }

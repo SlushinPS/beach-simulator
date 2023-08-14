@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8530
-// Obf: PEEBIBADBKI
+// CmdId: 29407
+// Obf: HIOHDPEELEE
 message GachaActivityUpdateElemNotify {
-	uint32 elem_type = 15;
+	uint32 elem_type = 13;
 }

@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "WidgetSlotTag.proto";
 import "WidgetSlotOp.proto";
-// CmdId: 4300
-// Obf: JJDOFKPCAFB
+import "WidgetSlotTag.proto";
+// CmdId: 21852
+// Obf: INPIBEBKEEA
 message SetWidgetSlotReq {
-	uint32 material_id = 8;
-	repeated WidgetSlotTag tag_list = 6;
-	WidgetSlotOp op = 15;
+	uint32 material_id = 15;
+	WidgetSlotOp op = 2;
+	repeated WidgetSlotTag tag_list = 11;
 }

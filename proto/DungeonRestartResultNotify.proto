@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 997
-// Obf: IHGFCPMNMCC
+// CmdId: 22679
+// Obf: BONJMLPEAOA
 message DungeonRestartResultNotify {
-	bool is_add_accpet = 12;
+	bool is_add_accpet = 13;
 }

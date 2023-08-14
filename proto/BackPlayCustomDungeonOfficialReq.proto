@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6220
-// Obf: CJKCLGAOCPI
+// CmdId: 368
+// Obf: PGHFANAPDJA
 message BackPlayCustomDungeonOfficialReq {
-	uint32 room_id = 9;
+	uint32 room_id = 4;
 }

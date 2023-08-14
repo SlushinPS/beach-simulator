@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GravenInnocenceCarveStageInfo.proto";
-// Obf: LGDCIALAHHL
+// Obf: AGMFABMFAOF
 message GravenInnocenceCarveInfo {
-	repeated GravenInnocenceCarveStageInfo stage_info_list = 6;
-	uint32 can_edit_count = 13;
-	repeated uint32 has_edit_config_id_list = 15;
+	uint32 can_edit_count = 8;
+	repeated uint32 has_edit_config_id_list = 13;
+	repeated GravenInnocenceCarveStageInfo stage_info_list = 12;
 }

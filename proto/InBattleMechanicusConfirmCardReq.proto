@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5384
-// Obf: OMHJACCEMAI
+// CmdId: 2433
+// Obf: FFLBMBBEPBO
 message InBattleMechanicusConfirmCardReq {
-	uint32 card_id = 5;
-	uint32 play_index = 4;
-	uint32 group_id = 13;
+	uint32 card_id = 8;
+	uint32 play_index = 9;
+	uint32 group_id = 15;
 }

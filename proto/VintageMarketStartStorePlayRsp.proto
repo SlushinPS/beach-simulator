@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21534
-// Obf: EOJPDJPAPHI
+// CmdId: 6794
+// Obf: CKCAFGJGOIL
 message VintageMarketStartStorePlayRsp {
-	int32 retcode = 2;
-	uint32 store_round = 5;
-	uint32 DOBPHKELDMI = 14;
-	uint32 DPCAMJBDBNC = 15;
+	uint32 store_round = 4;
+	uint32 NDKCCHHJMCG = 14;
+	uint32 ACGCAGDFOCM = 1;
+	int32 retcode = 12;
 }

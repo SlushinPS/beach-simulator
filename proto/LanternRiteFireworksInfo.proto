@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "LanternRiteFireworksStageInfo.proto";
-// Obf: DCFHHMDCJEJ
+// Obf: KIINMBGKFOK
 message LanternRiteFireworksInfo {
-	repeated LanternRiteFireworksStageInfo stage_info_list = 11;
+	repeated LanternRiteFireworksStageInfo stage_info_list = 4;
 }

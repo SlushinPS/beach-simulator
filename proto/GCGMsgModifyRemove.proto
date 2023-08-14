@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "MNDCMMKBIBP.proto";
-// Obf: PFIOBCGCDMJ
+import "GCGReason.proto";
+// Obf: BNHEMNJABOO
 message GCGMsgModifyRemove {
-	repeated uint32 card_guid_list = 2;
-	uint32 owner_card_guid = 12;
-	uint32 controller_id = 14;
-	MNDCMMKBIBP reason = 3;
+	GCGReason reason = 7;
+	uint32 owner_card_guid = 2;
+	repeated uint32 card_guid_list = 11;
+	uint32 controller_id = 1;
 }

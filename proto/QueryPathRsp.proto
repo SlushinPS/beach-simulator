@@ -17,17 +17,18 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 2396
-// Obf: MMGFDHKGJPM
+// CmdId: 2319
+// Obf: EDKMFDJCIHL
 message QueryPathRsp {
-	enum PEFGMLDKCDG {
-		AMHEPLPEHOG_StatusFail = 0;
-		AMHEPLPEHOG_StatusSucc = 1;
-		AMHEPLPEHOG_StatusPartial = 2;
+	// Obf: LFJGAFPHNNE
+	enum PathStatusType {
+		PathStatusType_StatusFail = 0;
+		PathStatusType_StatusSucc = 1;
+		PathStatusType_StatusPartial = 2;
 	}
 	
-	PEFGMLDKCDG query_status = 2;
-	int32 retcode = 3;
-	repeated Vector corners = 10;
-	int32 query_id = 8;
+	int32 query_id = 6;
+	repeated Vector corners = 1;
+	int32 retcode = 8;
+	PathStatusType query_status = 15;
 }

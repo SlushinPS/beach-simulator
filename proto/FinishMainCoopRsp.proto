@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1989
-// Obf: MEDHHGAKCNK
+// CmdId: 23766
+// Obf: FOIFFFGHDOJ
 message FinishMainCoopRsp {
-	int32 retcode = 9;
-	uint32 ending_save_point_id = 7;
-	uint32 id = 5;
+	int32 retcode = 13;
+	uint32 id = 4;
+	uint32 ending_save_point_id = 1;
 }

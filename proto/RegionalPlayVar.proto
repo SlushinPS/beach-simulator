@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NDNEODLPIPC
+// Obf: INFLJKJBHAN
 message RegionalPlayVar {
-	float JNLLFMIHDAL = 8;
-	float LAKGMEOKBKJ = 6;
-	uint32 type = 14;
-	float value = 5;
+	float CDLIONNFPIF = 14;
+	uint32 type = 5;
+	float LPCPLLLHLIO = 11;
+	float value = 4;
 }

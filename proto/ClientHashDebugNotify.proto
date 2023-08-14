@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3061
-// Obf: NPBHGFHPGBP
+// CmdId: 7727
+// Obf: MNCGJJDIJBL
 message ClientHashDebugNotify {
-	uint32 job_id = 9;
+	uint32 job_id = 6;
 }

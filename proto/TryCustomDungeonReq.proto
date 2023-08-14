@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6248
-// Obf: LPOHNDHICOE
+// CmdId: 28599
+// Obf: HBGHIIHHGBA
 message TryCustomDungeonReq {
-	uint32 room_id = 6;
+	uint32 room_id = 10;
 }

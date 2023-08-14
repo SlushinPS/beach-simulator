@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 210
-// Obf: ADFBMCLLEEI
+// CmdId: 4510
+// Obf: FMJCHPEKAMI
 message UnmarkEntityInMinMapNotify {
-	uint32 entity_id = 11;
+	uint32 entity_id = 8;
 }

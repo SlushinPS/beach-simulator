@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SummerTimeV2BoatGallerySettleInfo.proto";
-// CmdId: 8884
-// Obf: OHGHLADJNIO
+// CmdId: 7571
+// Obf: PHLOLMELHDI
 message SummerTimeV2BoatSettleNotify {
-	uint32 stage_id = 6;
-	bool is_new_record = 14;
-	uint32 gallery_id = 15;
-	SummerTimeV2BoatGallerySettleInfo settle_info = 1;
+	bool is_new_record = 2;
+	uint32 stage_id = 8;
+	uint32 gallery_id = 6;
+	SummerTimeV2BoatGallerySettleInfo settle_info = 9;
 }

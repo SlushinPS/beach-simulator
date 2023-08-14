@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7207
-// Obf: DCGKGHOFDMC
+// CmdId: 25699
+// Obf: JIJLJAGIFFL
 message GCGLevelChallengeFinishNotify {
-	repeated uint32 finished_challenge_id_list = 15;
-	uint32 level_id = 1;
+	uint32 level_id = 4;
+	repeated uint32 finished_challenge_id_list = 8;
 }

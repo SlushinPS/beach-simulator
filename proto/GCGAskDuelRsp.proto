@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGDuel.proto";
-// CmdId: 7659
-// Obf: IEHCEMKOPCF
+// CmdId: 4662
+// Obf: HMJBIINDMKE
 message GCGAskDuelRsp {
-	int32 retcode = 6;
-	GCGDuel duel = 12;
+	GCGDuel duel = 9;
+	int32 retcode = 12;
 }

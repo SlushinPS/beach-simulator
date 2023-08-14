@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6223
-// Obf: DLOHIBCNMFA
+// CmdId: 23301
+// Obf: JBHBHCNKNDA
 message ChangeCustomDungeonRoomRsp {
-	uint32 room_id = 4;
-	int32 retcode = 3;
+	uint32 room_id = 10;
+	int32 retcode = 7;
 }

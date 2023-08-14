@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ILLHNCAJNLB
+// Obf: JGHLPIEADFI
 message SceneGalleryMuqadasPotionInfo {
-	uint32 GKFJJMPJCMK = 11;
-	uint32 score = 12;
-	uint32 capture_weakness_count = 14;
-	uint32 FNAEKILFJLD = 7;
+	uint32 capture_weakness_count = 8;
+	uint32 score = 14;
+	uint32 DINDBMDOMNK = 1;
+	uint32 GBPLMILEILK = 3;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20037
-// Obf: PLDPOKBIPFE
+// CmdId: 5576
+// Obf: BHOCNKMDEJE
 message FungusRenameRsp {
-	int32 retcode = 15;
-	uint32 fungus_id = 8;
-	uint32 name_id = 7;
+	uint32 fungus_id = 7;
+	int32 retcode = 9;
+	uint32 name_id = 5;
 }

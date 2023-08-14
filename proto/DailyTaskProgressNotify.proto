@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DailyTaskInfo.proto";
-// CmdId: 163
-// Obf: PKNBMIJGAGF
+// CmdId: 27206
+// Obf: GGPEBLCLECH
 message DailyTaskProgressNotify {
-	DailyTaskInfo info = 15;
+	DailyTaskInfo info = 4;
 }

@@ -19,7 +19,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "MapMarkPointType.proto";
 import "MapMarkFromType.proto";
-// Obf: GOBPDEPLBLM
+// Obf: HJDOENNHBIL
 message MapMarkPoint {
 	uint32 scene_id = 1;
 	string name = 2;
@@ -28,4 +28,5 @@ message MapMarkPoint {
 	uint32 monster_id = 5;
 	MapMarkFromType from_type = 6;
 	uint32 quest_id = 7;
+	uint32 HJMMAOMEHOL = 8;
 }

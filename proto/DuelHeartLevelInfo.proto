@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DuelHeartLevelDifficultyInfo.proto";
-// Obf: GMILLBPNIFK
+// Obf: GBABBOEHLPP
 message DuelHeartLevelInfo {
-	bool is_open = 10;
-	repeated DuelHeartLevelDifficultyInfo difficulty_info_list = 4;
-	bool is_cg_viewed = 15;
-	uint32 level_id = 5;
+	bool is_cg_viewed = 13;
+	bool is_open = 12;
+	repeated DuelHeartLevelDifficultyInfo difficulty_info_list = 14;
+	uint32 level_id = 2;
 }

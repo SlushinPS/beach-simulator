@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 848
-// Obf: KLCNPHMJEMD
+// CmdId: 27194
+// Obf: MJHAKKACKEC
 message SelectWorktopOptionRsp {
 	uint32 option_id = 13;
-	int32 retcode = 6;
-	uint32 gadget_entity_id = 3;
+	int32 retcode = 9;
+	uint32 gadget_entity_id = 14;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JBIEMDCOMAM
+// Obf: OPKICDMJEJM
 message BuildingInfo {
 	uint32 building_id = 1;
 	uint32 point_config_id = 2;

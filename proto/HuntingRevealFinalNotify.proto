@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "HuntingPair.proto";
 import "Vector.proto";
-// CmdId: 4323
-// Obf: HCLMOEJPDHJ
+import "HuntingPair.proto";
+// CmdId: 9240
+// Obf: JCGMDEDDIEG
 message HuntingRevealFinalNotify {
-	HuntingPair hunting_pair = 13;
-	uint32 finished_group_id = 5;
-	Vector final_position = 4;
+	Vector final_position = 10;
+	HuntingPair hunting_pair = 5;
+	uint32 finished_group_id = 15;
 }

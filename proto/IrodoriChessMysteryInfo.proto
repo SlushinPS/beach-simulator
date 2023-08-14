@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "IrodoriChessEntranceDetailInfo.proto";
-// Obf: KNDPCBBNOPD
+// Obf: NHCKIFIGBNE
 message IrodoriChessMysteryInfo {
-	repeated uint32 entrance_point_id_list = 12;
-	IrodoriChessEntranceDetailInfo entrance_detail_info = 7;
-	repeated uint32 exit_point_id_list = 13;
+	repeated uint32 exit_point_id_list = 1;
+	repeated uint32 entrance_point_id_list = 11;
+	IrodoriChessEntranceDetailInfo entrance_detail_info = 12;
 }

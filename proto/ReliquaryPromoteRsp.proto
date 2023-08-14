@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 626
-// Obf: BLKJJIONAEC
+// CmdId: 28265
+// Obf: BHHEEALIMML
 message ReliquaryPromoteRsp {
-	repeated uint32 cur_append_prop_list = 14;
-	uint64 target_reliquary_guid = 6;
-	repeated uint32 old_append_prop_list = 2;
-	uint32 cur_promote_level = 1;
-	int32 retcode = 7;
-	uint32 old_promote_level = 15;
+	uint32 GDNPFIPFIOJ = 1;
+	uint64 target_reliquary_guid = 2;
+	int32 retcode = 12;
+	uint32 MCLHMKNEIKH = 11;
+	repeated uint32 FJJPDKBCGND = 14;
+	repeated uint32 JNPAMCBCIMC = 7;
 }

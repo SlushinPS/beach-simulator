@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: OPDCPCFOLIE
+// Obf: BAFEPPHIOGH
 message AbilityActionCreateGadget {
-	Vector rot = 8;
-	uint32 room_id = 6;
-	Vector pos = 13;
+	Vector pos = 10;
+	Vector rot = 12;
+	uint32 room_id = 7;
 }

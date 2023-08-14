@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MailData.proto";
-// CmdId: 1464
-// Obf: JJJMNCKNNLO
+// CmdId: 9526
+// Obf: FMMMCILNFIA
 message GetAllMailRsp {
-	bool is_truncated = 9;
-	int32 retcode = 7;
-	bool is_collected = 8;
-	repeated MailData mail_list = 5;
+	int32 retcode = 6;
+	bool is_collected = 12;
+	repeated MailData mail_list = 1;
+	bool is_truncated = 11;
 }

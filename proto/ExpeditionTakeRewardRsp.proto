@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2130
-// Obf: GAKLPCILJLJ
+// CmdId: 20403
+// Obf: CODANKLOAKC
 message ExpeditionTakeRewardRsp {
-	uint32 reward_level = 10;
-	bool is_bonus = 4;
-	int32 retcode = 1;
+	int32 retcode = 12;
+	uint32 reward_level = 3;
+	bool is_bonus = 7;
 	uint32 path_id = 14;
 }

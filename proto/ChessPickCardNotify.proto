@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChessNormalCardInfo.proto";
-// CmdId: 5389
-// Obf: JJOMNLOFMCD
+// CmdId: 7573
+// Obf: BLKAJBHIMKA
 message ChessPickCardNotify {
-	uint32 curse_card_id = 9;
-	ChessNormalCardInfo normal_card_info = 5;
+	uint32 curse_card_id = 10;
+	ChessNormalCardInfo normal_card_info = 15;
 }

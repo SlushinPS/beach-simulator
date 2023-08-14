@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
-// CmdId: 4856
-// Obf: MCDJNNGJBIO
+// CmdId: 2948
+// Obf: FGLMMAMBPBP
 message FurnitureCurModuleArrangeCountNotify {
-	repeated Uint32Pair furniture_arrange_count_list = 14;
+	repeated Uint32Pair furniture_arrange_count_list = 1;
 }

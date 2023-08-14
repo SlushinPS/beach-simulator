@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "HDDANIDHCMI.proto";
-// Obf: JFOAKAHBIHD
+import "KDHIAEFLGFM.proto";
+// Obf: DJOLCFBNNAP
 message SummerTimeV2BoatGallerySettleInfo {
-	uint32 used_time = 3;
-	uint32 gallery_id = 11;
-	HDDANIDHCMI reason = 5;
-	uint32 param2 = 9;
-	uint32 param3 = 10;
-	uint32 param1 = 2;
+	uint32 used_time = 1;
+	uint32 param3 = 2;
+	uint32 param2 = 12;
+	uint32 gallery_id = 4;
+	uint32 param1 = 13;
+	KDHIAEFLGFM reason = 14;
 }

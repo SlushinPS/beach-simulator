@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2161
-// Obf: CELNOIPFMAO
+// CmdId: 892
+// Obf: HKPBLKONDCK
 message DragonSpineChapterProgressChangeNotify {
-	uint32 schedule_id = 4;
-	uint32 chapter_id = 11;
-	uint32 cur_progress = 1;
+	uint32 cur_progress = 11;
+	uint32 chapter_id = 4;
+	uint32 schedule_id = 7;
 }

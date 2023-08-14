@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PBAFNBPPAND
+// Obf: LEKHHDAJFPK
 message AttackHitEffectResult {
-	float hitHaltTime = 6;
-	float hitHaltTimeScale = 2;
-	float retreatStrength = 14;
-	float airStrength = 13;
-	uint32 IDJFCEPGOOF = 5;
-	uint32 ODEDPMCMFNN = 8;
+	uint32 PPEJOCMAFFH = 11;
+	float HLMGLLLLEIJ = 7;
+	uint32 POCHAAAEPMH = 2;
+	float NMMAGALAPME = 13;
+	float DPMHMPLKOEK = 1;
+	float LOHBEFJPFHA = 5;
 }

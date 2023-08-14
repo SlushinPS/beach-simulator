@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8341
-// Obf: KBCDPPOOJKP
+// CmdId: 20500
+// Obf: DDOPBPBNBDM
 message StartRogueDiaryRoomReq {
-	uint32 room_difficulty = 9;
-	bool is_select_hard = 10;
+	bool is_select_hard = 9;
+	uint32 room_difficulty = 13;
 }

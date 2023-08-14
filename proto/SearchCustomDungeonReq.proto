@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6247
-// Obf: ECLLHPICGKL
+// CmdId: 5413
+// Obf: BMOIIAPAJKF
 message SearchCustomDungeonReq {
-	string dungeon_code = 7;
+	string dungeon_code = 15;
 }

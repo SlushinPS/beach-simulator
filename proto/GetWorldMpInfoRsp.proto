@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3316
-// Obf: ODKECHBHNEL
+// CmdId: 1461
+// Obf: IBJEKEMGICD
 message GetWorldMpInfoRsp {
-	bool is_in_mp_mode = 2;
-	uint32 quit_mp_valid_time = 4;
-	int32 retcode = 12;
+	int32 retcode = 9;
+	bool is_in_mp_mode = 4;
+	uint32 quit_mp_valid_time = 1;
 }

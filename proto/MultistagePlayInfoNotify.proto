@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MultistagePlayInfo.proto";
-// CmdId: 5375
-// Obf: MIEJFIABBON
+// CmdId: 7198
+// Obf: DPIGADECPJK
 message MultistagePlayInfoNotify {
-	MultistagePlayInfo info = 1;
+	MultistagePlayInfo info = 8;
 }

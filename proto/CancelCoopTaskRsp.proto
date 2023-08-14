@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1960
-// Obf: JCNLCFBEGJN
+// CmdId: 26816
+// Obf: MMIJBEHIGHH
 message CancelCoopTaskRsp {
-	uint32 chapter_id = 11;
-	int32 retcode = 10;
+	int32 retcode = 3;
+	uint32 chapter_id = 9;
 }

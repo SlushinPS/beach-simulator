@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8105
-// Obf: HIBIPBLJMJL
+// CmdId: 24896
+// Obf: ENNDBBGDALI
 message RoguelikeEffectViewReq {
-	repeated uint32 BJBPCJDCIDI = 14;
-	repeated uint32 NEPOEDIHJJH = 6;
+	repeated uint32 GMMCJDAIPBO = 13;
+	repeated uint32 FNABJPMKHPI = 3;
 }

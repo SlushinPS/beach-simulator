@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DungeonEntryInfo.proto";
-// Obf: HNGDNNFJAPO
+// Obf: CECCCBKAFKN
 message DungeonEntryPointInfo {
+	repeated DungeonEntryInfo dungeon_entry_list = 9;
+	uint32 point_id = 2;
 	uint32 recommend_dungeon_id = 10;
-	uint32 scene_id = 14;
-	uint32 point_id = 9;
-	repeated DungeonEntryInfo dungeon_entry_list = 2;
+	uint32 scene_id = 12;
 }

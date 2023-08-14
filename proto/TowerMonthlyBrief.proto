@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PLCFJBMLEGG
+// Obf: HHBHKONDDNK
 message TowerMonthlyBrief {
-	uint32 LJGBNNKAJOF = 5;
-	uint32 FGDCNEJCNJO = 14;
+	uint32 DLPIFFMADHI = 13;
+	uint32 MEJOLHPJGJK = 5;
 	uint32 tower_schedule_id = 6;
-	uint32 LINAGDMNNGF = 3;
+	uint32 KCGJAFBPCLB = 2;
 }

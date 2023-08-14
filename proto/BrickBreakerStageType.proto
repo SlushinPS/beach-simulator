@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: INKEDONPJCP
+// Obf: EDEDAHIPILO
 enum BrickBreakerStageType {
 	BRICK_BREAKER_STAGE_PREPARE = 0;
 	BRICK_BREAKER_STAGE_PICK = 1;

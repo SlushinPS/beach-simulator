@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SignInInfo.proto";
-// CmdId: 2548
-// Obf: ALFBOEJKDFN
+// CmdId: 27270
+// Obf: FJOGFJFOIMF
 message GetSignInRewardRsp {
-	int32 retcode = 6;
-	SignInInfo sign_in_info = 13;
+	int32 retcode = 9;
+	SignInInfo sign_in_info = 11;
 }

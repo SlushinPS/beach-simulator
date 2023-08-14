@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4516
-// Obf: LBEGABLDMMD
+// CmdId: 21101
+// Obf: NPIGIKMGBIE
 message SetFriendEnterHomeOptionRsp {
-	int32 retcode = 9;
+	int32 retcode = 11;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PFDHNKJENDB
+// Obf: JBJHKBMOKIL
 message ChessCardInfo {
-	uint32 card_id = 3;
-	uint32 effect_stack = 9;
+	uint32 card_id = 10;
+	uint32 effect_stack = 15;
 }

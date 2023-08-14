@@ -18,16 +18,16 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "LanternRiteFireworksReformSkillInfo.proto";
 import "LanternRiteFireworksReformFactorInfo.proto";
-// CmdId: 8260
-// Obf: MNFKALOFEIO
+// CmdId: 9926
+// Obf: HNEJCEGCLLM
 message LanternRiteStartFireworksReformRsp {
-	uint32 MBEGNNPJAPL = 12;
-	int32 retcode = 8;
-	repeated LanternRiteFireworksReformSkillInfo skill_info_list = 1;
-	uint32 DKBBJDIMJPB = 10;
-	repeated LanternRiteFireworksReformFactorInfo factor_info_list = 6;
-	uint32 JGLNDBHIAPK = 9;
-	uint32 FCGOPINPKBP = 3;
-	uint32 challenge_id = 13;
-	uint32 stage_id = 14;
+	uint32 COOIJAMKABA = 14;
+	uint32 KCHDLMCFANC = 3;
+	uint32 challenge_id = 2;
+	uint32 stage_id = 11;
+	uint32 NACPGJMEPCP = 5;
+	repeated LanternRiteFireworksReformSkillInfo skill_info_list = 9;
+	uint32 ONFGHBLOLCK = 12;
+	repeated LanternRiteFireworksReformFactorInfo factor_info_list = 10;
+	int32 retcode = 1;
 }

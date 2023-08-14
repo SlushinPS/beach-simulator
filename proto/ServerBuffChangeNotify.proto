@@ -17,18 +17,18 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ServerBuff.proto";
-// CmdId: 323
-// Obf: LACOIJCBPHJ
+// CmdId: 6462
+// Obf: FIKGOMABCGP
 message ServerBuffChangeNotify {
-	// Obf: OKJGNGFMJGH
+	// Obf: EEAKJOFDEFO
 	enum ServerBuffChangeType {
 		SERVER_BUFF_CHANGE_TYPE_ADD_SERVER_BUFF = 0;
 		SERVER_BUFF_CHANGE_TYPE_DEL_SERVER_BUFF = 1;
 	}
 	
-	repeated ServerBuff server_buff_list = 5;
-	repeated uint64 avatar_guid_list = 12;
+	repeated ServerBuff server_buff_list = 15;
+	repeated uint64 avatar_guid_list = 8;
+	ServerBuffChangeType server_buff_change_type = 11;
+	repeated uint32 entity_id_list = 14;
 	bool is_creature_buff = 7;
-	ServerBuffChangeType server_buff_change_type = 3;
-	repeated uint32 entity_id_list = 9;
 }

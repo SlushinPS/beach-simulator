@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "OnlinePlayerInfo.proto";
-// Obf: AAPPNPJAPJK
+// Obf: CHCHJENHKAA
 message MatchPlayerInfo {
-	OnlinePlayerInfo player_info = 15;
-	bool is_agreed = 12;
+	bool is_agreed = 2;
+	OnlinePlayerInfo player_info = 1;
 }

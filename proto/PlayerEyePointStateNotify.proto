@@ -19,21 +19,21 @@ option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "CylinderRegionSize.proto";
 import "PolygonRegionSize.proto";
-// CmdId: 3327
-// Obf: NAIIGNAOFCC
+// CmdId: 27367
+// Obf: ANOPEDIPEFI
 message PlayerEyePointStateNotify {
-	int32 fix_lod_level = 12;
-	bool JHPIEDBDGGB = 15;
-	uint32 ALEEOKDNOEE = 2;
-	bool KNOFPFLJPFA = 14;
-	uint32 IMKAAEABEPB = 1;
-	uint32 PACCIPICIEK = 4;
-	Vector eye_point_pos = 9;
-	uint32 AKIAFBHPMDI = 6;
+	uint32 DEOOGIIMFBE = 13;
+	uint32 DOKGNDBIHPI = 2;
+	int32 fix_lod_level = 11;
+	bool NEGNMGELLCN = 5;
+	uint32 IOGAOKLPFGP = 10;
+	uint32 JLFOFGIFNGL = 7;
+	bool PAOBMOJHPKC = 14;
+	Vector eye_point_pos = 12;
 	oneof region_size {
-		float sphere_radius = 1935;
-		Vector cubic_size = 181;
-		CylinderRegionSize cylinder_size = 976;
-		PolygonRegionSize polygon_size = 1589;
+		float sphere_radius = 1032;
+		Vector cubic_size = 1182;
+		CylinderRegionSize cylinder_size = 1127;
+		PolygonRegionSize polygon_size = 1917;
 	}
 }

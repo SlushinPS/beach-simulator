@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CreateEntityInfo.proto";
-// CmdId: 484
-// Obf: OFKELNHNCGE
+// CmdId: 4869
+// Obf: CPPCDDEOKGP
 message QuestCreateEntityRsp {
-	uint32 parent_quest_id = 14;
-	bool is_rewind = 8;
-	uint32 entity_id = 4;
-	uint32 quest_id = 3;
-	CreateEntityInfo entity = 7;
-	int32 retcode = 2;
+	uint32 entity_id = 8;
+	uint32 quest_id = 12;
+	bool is_rewind = 7;
+	uint32 parent_quest_id = 11;
+	int32 retcode = 15;
+	CreateEntityInfo entity = 9;
 }

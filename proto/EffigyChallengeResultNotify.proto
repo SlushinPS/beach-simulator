@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2013
-// Obf: MMECOIDHKCA
+// CmdId: 1233
+// Obf: HNDFJNMPMLE
 message EffigyChallengeResultNotify {
-	bool is_success = 5;
-	uint32 challenge_id = 11;
-	uint32 challenge_score = 7;
-	uint32 challenge_max_score = 2;
+	bool is_success = 1;
+	uint32 challenge_id = 7;
+	uint32 challenge_score = 10;
+	uint32 challenge_max_score = 9;
 }

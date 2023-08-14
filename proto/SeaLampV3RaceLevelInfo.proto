@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OADPHHELDFB
+// Obf: KCGDNNFAMJI
 message SeaLampV3RaceLevelInfo {
+	uint32 level_id = 7;
+	bool is_open = 13;
 	uint32 max_score = 3;
-	bool is_open = 5;
-	uint32 level_id = 2;
 }

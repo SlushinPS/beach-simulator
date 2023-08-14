@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BILANGJEJAM
+// Obf: GDHFFBFCAPJ
 message Furniture {
 	uint32 count = 1;
 }

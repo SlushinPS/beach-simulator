@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1904
-// Obf: BIGDKJLPFAM
+// CmdId: 8462
+// Obf: GBGKOACHBNE
 message TakeInvestigationRewardReq {
-	uint32 id = 7;
+	uint32 id = 8;
 }

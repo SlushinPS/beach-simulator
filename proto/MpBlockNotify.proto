@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1805
-// Obf: MBDHLMOEAHN
+// CmdId: 27749
+// Obf: AEBMFPKLIHH
 message MpBlockNotify {
-	uint32 end_time = 12;
+	uint32 end_time = 1;
 }

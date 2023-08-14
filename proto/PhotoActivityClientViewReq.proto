@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8632
-// Obf: HLGDOJBCHEN
+// CmdId: 21878
+// Obf: HHJLNGIDODJ
 message PhotoActivityClientViewReq {
-	uint32 pos_id = 9;
+	uint32 pos_id = 12;
 }

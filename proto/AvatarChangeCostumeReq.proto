@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1683
-// Obf: CHHPFFOGJEK
+// CmdId: 8840
+// Obf: IMDCBJNFILE
 message AvatarChangeCostumeReq {
-	uint64 avatar_guid = 5;
-	uint32 costume_id = 10;
+	uint64 avatar_guid = 13;
+	uint32 costume_id = 5;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4023
-// Obf: IJNLDELJPGC
+// CmdId: 29743
+// Obf: CLGNPHEFEOK
 message GetFriendShowNameCardInfoReq {
-	uint32 uid = 2;
+	uint32 uid = 13;
 }

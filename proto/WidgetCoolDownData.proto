@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OFHAPFBPCJN
+// Obf: ANGGPDIPOFF
 message WidgetCoolDownData {
-	bool is_success = 15;
-	uint32 id = 10;
-	uint64 cool_down_time = 5;
+	uint32 id = 1;
+	uint64 cool_down_time = 14;
+	bool is_success = 2;
 }

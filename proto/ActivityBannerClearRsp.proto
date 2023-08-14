@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2069
-// Obf: DAKEIIHELME
+// CmdId: 24680
+// Obf: IDPPBEIEGLL
 message ActivityBannerClearRsp {
-	uint32 activity_id = 9;
-	int32 retcode = 4;
-	uint32 schedule_id = 2;
+	uint32 activity_id = 10;
+	int32 retcode = 13;
+	uint32 schedule_id = 14;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2183
-// Obf: LFOJLGMFNNF
+// CmdId: 23837
+// Obf: LONBPIOEFCO
 message BlessingScanRsp {
-	uint32 FHNDIAGJKDD = 1;
-	uint32 FPHKONHPKMM = 14;
+	uint32 EAAMLKFJMKK = 12;
 	int32 retcode = 3;
+	uint32 CLCIHLHKGLO = 4;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CompoundQueueData.proto";
-// CmdId: 180
-// Obf: BGHIMPKEDMG
+// CmdId: 25801
+// Obf: MMAMJJIHNBP
 message CompoundDataNotify {
-	repeated uint32 unlockCompoundList = 4;
-	repeated CompoundQueueData compoundQueueDataList = 6;
+	repeated CompoundQueueData compoundQueueDataList = 9;
+	repeated uint32 unlockCompoundList = 6;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4398
-// Obf: CDGILLOLAKA
+// CmdId: 7175
+// Obf: MGJKDALKMIK
 message ScenePlayOwnerInviteNotify {
-	uint32 invite_cd = 1;
-	uint32 play_id = 2;
-	bool is_remain_reward = 8;
+	uint32 play_id = 5;
+	bool is_remain_reward = 10;
+	uint32 invite_cd = 12;
 }

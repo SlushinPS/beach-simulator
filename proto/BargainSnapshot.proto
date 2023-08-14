@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OPLEOKJHFKD
+// Obf: KIOJOGPNAKF
 message BargainSnapshot {
-	uint32 PJHMEHGELGC = 13;
-	int32 cur_mood = 14;
-	uint32 HADMOPEJFIC = 12;
-	uint32 bargain_id = 10;
+	uint32 IOCNPJJNHLD = 12;
+	uint32 BALOPACHCDB = 2;
+	int32 cur_mood = 9;
+	uint32 bargain_id = 15;
 }

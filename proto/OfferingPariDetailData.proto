@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GEFPJNAPGJK
+// Obf: KMNOJIOKFHB
 message OfferingPariDetailData {
-	uint32 IGHMDGHKADF = 8;
-	bool CJNBGNOIIJL = 4;
+	uint32 GEDMGFJIPAH = 14;
+	bool BLMBNCGDAOI = 15;
 }

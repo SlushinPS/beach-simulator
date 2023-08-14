@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ExpeditionAssistInfo.proto";
-// CmdId: 2115
-// Obf: OJLMACKHDHF
+// CmdId: 29625
+// Obf: KEDDMLKOJBA
 message GetExpeditionAssistInfoListRsp {
-	int32 retcode = 10;
-	repeated ExpeditionAssistInfo assist_info_list = 13;
+	repeated ExpeditionAssistInfo assist_info_list = 2;
+	int32 retcode = 9;
 }

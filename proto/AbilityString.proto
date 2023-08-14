@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KHIKIFCBPKH
+// Obf: PPIBJBLBJDL
 message AbilityString {
 	oneof type {
 		string str = 1;

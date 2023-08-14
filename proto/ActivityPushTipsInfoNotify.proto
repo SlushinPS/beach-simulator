@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ActivityPushTipsData.proto";
-// CmdId: 8720
-// Obf: JDFBCDFOPFK
+// CmdId: 22464
+// Obf: HJAPAKFKNOA
 message ActivityPushTipsInfoNotify {
-	uint32 activity_id = 5;
-	repeated ActivityPushTipsData activity_push_tips_data_list = 9;
-	uint32 schedule_id = 4;
+	uint32 schedule_id = 5;
+	uint32 activity_id = 7;
+	repeated ActivityPushTipsData activity_push_tips_data_list = 12;
 }

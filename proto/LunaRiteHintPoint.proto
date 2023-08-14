@@ -18,10 +18,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "LunaRiteHintPointType.proto";
-// Obf: EOGOMPLBCGB
+// Obf: PBNGPDHJOBG
 message LunaRiteHintPoint {
-	uint32 area_id = 1;
-	Vector pos = 15;
-	LunaRiteHintPointType type = 14;
+	uint32 area_id = 11;
+	Vector pos = 2;
 	uint32 index = 10;
+	LunaRiteHintPointType type = 9;
 }

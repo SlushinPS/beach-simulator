@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EIEEEEGCDEJ
+// Obf: JKIMDJMBCOP
 message FishInfo {
-	uint32 KNHKIEOMMFC = 13;
-	uint32 IKHMLANEEBO = 14;
+	uint32 BKNIFIIKAOJ = 5;
+	uint32 KMEKOBBJLDH = 2;
 }

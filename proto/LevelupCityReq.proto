@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 274
-// Obf: BNHEFCDPKAM
+// CmdId: 8097
+// Obf: DAIDHECFAML
 message LevelupCityReq {
-	uint32 item_num = 12;
-	uint32 scene_id = 4;
-	uint32 area_id = 1;
+	uint32 scene_id = 11;
+	uint32 area_id = 3;
+	uint32 item_num = 1;
 }

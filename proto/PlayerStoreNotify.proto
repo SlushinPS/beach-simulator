@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "Item.proto";
 import "StoreType.proto";
-// CmdId: 675
-// Obf: HGPCEKDICPC
+import "Item.proto";
+// CmdId: 4667
+// Obf: HMFIJAJOPNN
 message PlayerStoreNotify {
-	uint32 weight_limit = 15;
-	repeated Item item_list = 10;
 	StoreType store_type = 8;
+	uint32 weight_limit = 5;
+	repeated Item item_list = 6;
 }

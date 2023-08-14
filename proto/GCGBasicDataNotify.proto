@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7514
-// Obf: CBOGDEPDNHD
+// CmdId: 9567
+// Obf: PODIFCIOOFD
 message GCGBasicDataNotify {
-	uint32 exp = 10;
-	repeated uint32 level_reward_taken_list = 13;
-	uint32 level = 4;
+	uint32 exp = 2;
+	uint32 level = 9;
+	repeated uint32 level_reward_taken_list = 11;
 }

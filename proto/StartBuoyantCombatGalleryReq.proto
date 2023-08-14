@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8385
-// Obf: GHHINIACJLE
+// CmdId: 103
+// Obf: AFLOCEGEGKO
 message StartBuoyantCombatGalleryReq {
-	uint32 gallery_level = 7;
-	uint32 gallery_id = 5;
+	uint32 gallery_level = 12;
+	uint32 gallery_id = 8;
 }

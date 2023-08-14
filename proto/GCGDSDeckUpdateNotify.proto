@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7317
-// Obf: CAIHDEJCPHL
+// CmdId: 7613
+// Obf: AKDJGLGKGBH
 message GCGDSDeckUpdateNotify {
-	uint32 deck_id = 12;
-	bool is_valid = 15;
+	bool is_valid = 9;
+	uint32 deck_id = 13;
 }

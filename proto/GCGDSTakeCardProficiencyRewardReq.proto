@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7908
-// Obf: GKGGPNPPDDJ
+// CmdId: 5853
+// Obf: AOBNLPLOONH
 message GCGDSTakeCardProficiencyRewardReq {
-	uint32 card_id = 4;
-	uint32 reward_index = 12;
+	uint32 reward_index = 7;
+	uint32 card_id = 14;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PropValue.proto";
-// CmdId: 134
-// Obf: GPOOEKBEBCI
+// CmdId: 25174
+// Obf: FNNAEOMEFBL
 message SetPlayerPropReq {
-	repeated PropValue prop_list = 15;
+	repeated PropValue prop_list = 9;
 }

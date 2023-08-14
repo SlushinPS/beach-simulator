@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlantFlowerRecvFlowerData.proto";
-// CmdId: 8051
-// Obf: NPAPKLIHAGJ
+// CmdId: 26967
+// Obf: FEMOOJCKNIK
 message PlantFlowerGetRecvFlowerListRsp {
-	uint32 schedule_id = 13;
 	repeated PlantFlowerRecvFlowerData recv_flower_list = 14;
-	int32 retcode = 12;
+	uint32 schedule_id = 11;
+	int32 retcode = 7;
 }

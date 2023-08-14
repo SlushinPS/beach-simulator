@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChessCardInfo.proto";
-// CmdId: 5344
-// Obf: GMHFOCJGAOP
+// CmdId: 8933
+// Obf: OJGFMPPBDML
 message ChessSelectedCardsNotify {
-	repeated ChessCardInfo selected_card_info_list = 11;
+	repeated ChessCardInfo selected_card_info_list = 1;
 }

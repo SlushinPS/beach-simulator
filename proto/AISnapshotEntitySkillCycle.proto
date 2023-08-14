@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MGDEKEBNMGP
+// Obf: PKECKJELEOK
 message AISnapshotEntitySkillCycle {
-	bool OHDGIGLHKPL = 8;
-	uint32 skill_id = 11;
-	bool HADJNPKLEOG = 14;
-	bool EEMBPJGDNOI = 10;
-	bool DGABAHCOHDC = 9;
+	bool AOPLIONFLEF = 6;
+	uint32 skill_id = 8;
+	bool KCOIOILFEJG = 2;
+	bool OMHCFDIDJPC = 3;
+	bool OIOLEBJAMEH = 13;
 }

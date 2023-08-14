@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5435
-// Obf: IOKAFLPDGGC
+// CmdId: 969
+// Obf: GMFDKJJCCKM
 message DraftGuestReplyInviteNotify {
-	uint32 draft_id = 10;
-	uint32 guest_uid = 1;
-	bool is_agree = 5;
+	bool is_agree = 14;
+	uint32 draft_id = 11;
+	uint32 guest_uid = 10;
 }

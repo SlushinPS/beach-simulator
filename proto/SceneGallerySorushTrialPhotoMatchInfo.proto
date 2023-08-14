@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BDEDFJCEACE
+// Obf: AGGFCJPDIKK
 message SceneGallerySorushTrialPhotoMatchInfo {
-	bool BAKIEFCCBOF = 7;
-	bool GGDAMGGIEAD = 12;
+	bool OKCBPHMHPGD = 10;
+	bool HDJEBJJFDGD = 9;
 }

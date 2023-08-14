@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2078
-// Obf: BLPLOJMDAKF
+// CmdId: 2777
+// Obf: AIDMNLCKPFD
 message ActivityBannerNotify {
-	uint32 schedule_id = 6;
-	uint32 activity_id = 13;
+	uint32 schedule_id = 15;
+	uint32 activity_id = 1;
 }

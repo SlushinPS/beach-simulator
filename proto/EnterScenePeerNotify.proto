@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 257
-// Obf: EPIMOMFOMBE
+// CmdId: 21053
+// Obf: JBBPPLGGMPC
 message EnterScenePeerNotify {
-	uint32 peer_id = 5;
-	uint32 host_peer_id = 13;
-	uint32 dest_scene_id = 6;
-	uint32 enter_scene_token = 12;
+	uint32 enter_scene_token = 7;
+	uint32 peer_id = 14;
+	uint32 host_peer_id = 8;
+	uint32 dest_scene_id = 3;
 }

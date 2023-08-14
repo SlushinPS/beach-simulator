@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5506
-// Obf: MIDGPBFAFOO
+// CmdId: 24942
+// Obf: GOAEODGCNEO
 message GalleryIslandPartyDownHillInfoNotify {
-	uint32 total_kill_monster_count = 15;
-	uint32 coin = 12;
-	uint32 gallery_id = 11;
+	uint32 coin = 15;
+	uint32 total_kill_monster_count = 1;
+	uint32 gallery_id = 9;
 }

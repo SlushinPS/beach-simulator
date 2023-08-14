@@ -18,9 +18,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ForwardType.proto";
 import "EvtRushMoveInfo.proto";
-// CmdId: 364
-// Obf: JKGONCBKEGO
+// CmdId: 25987
+// Obf: HLMODAGGEGO
 message EvtRushMoveNotify {
-	ForwardType forward_type = 12;
-	EvtRushMoveInfo evt_rush_move_info = 8;
+	ForwardType forward_type = 6;
+	EvtRushMoveInfo evt_rush_move_info = 15;
 }

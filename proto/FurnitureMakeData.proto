@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GEJHMMOBDLD
+// Obf: OLNPKHEMJEN
 message FurnitureMakeData {
-	uint32 index = 11;
-	fixed32 accelerateTime = 9;
-	uint32 make_id = 12;
-	fixed32 begin_time = 5;
-	uint32 avatar_id = 4;
-	uint32 durTime = 8;
+	uint32 durTime = 14;
+	fixed32 accelerateTime = 15;
+	uint32 make_id = 7;
+	uint32 avatar_id = 10;
+	uint32 index = 12;
+	fixed32 begin_time = 1;
 }

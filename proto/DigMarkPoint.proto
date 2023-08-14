@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: NLKAGPEGIKH
+// Obf: MMHLOCIIAHG
 message DigMarkPoint {
-	Vector rot = 8;
-	Vector pos = 7;
+	Vector rot = 12;
 	uint32 bundle_id = 6;
+	Vector pos = 9;
 }

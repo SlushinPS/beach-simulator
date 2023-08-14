@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Route.proto";
-// CmdId: 3166
-// Obf: BOHDJDBDKHO
+// CmdId: 6834
+// Obf: AMKKLHPPGHJ
 message AvatarFollowRouteNotify {
-	Route route = 4;
-	uint32 template_id = 13;
-	uint32 start_scene_time_ms = 14;
-	string client_params = 12;
 	uint32 entity_id = 1;
+	Route route = 3;
+	uint32 template_id = 14;
+	uint32 start_scene_time_ms = 11;
+	string client_params = 8;
 }

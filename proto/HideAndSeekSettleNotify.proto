@@ -18,22 +18,22 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HideAndSeekSettleInfo.proto";
 import "ExhibitionDisplayInfo.proto";
-// CmdId: 5318
-// Obf: PNDEJLGFIJC
+// CmdId: 21206
+// Obf: APEHHCPLOAB
 message HideAndSeekSettleNotify {
-	// Obf: KABKPGKDJMK
+	// Obf: KHGDIAMGMCJ
 	enum SettleReason {
 		SETTLE_REASON_TIME_OUT = 0;
 		SETTLE_PLAY_END = 1;
 		SETTLE_PLAYER_QUIT = 2;
 	}
 	
-	repeated HideAndSeekSettleInfo settle_info_list = 8;
-	SettleReason reason = 15;
-	uint32 stage_type = 10;
-	uint32 play_index = 11;
-	repeated uint32 winner_list = 5;
-	bool is_record_score = 13;
-	uint32 cost_time = 12;
-	repeated ExhibitionDisplayInfo score_list = 3;
+	uint32 cost_time = 11;
+	uint32 play_index = 1;
+	SettleReason reason = 13;
+	repeated uint32 winner_list = 7;
+	uint32 stage_type = 4;
+	bool is_record_score = 3;
+	repeated HideAndSeekSettleInfo settle_info_list = 9;
+	repeated ExhibitionDisplayInfo score_list = 12;
 }

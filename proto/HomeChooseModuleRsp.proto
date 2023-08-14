@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4658
-// Obf: DDACLBMKPPF
+// CmdId: 20087
+// Obf: JHDBAFEAKGO
 message HomeChooseModuleRsp {
-	uint32 module_id = 15;
-	int32 retcode = 5;
+	uint32 module_id = 7;
+	int32 retcode = 1;
 }

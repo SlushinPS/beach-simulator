@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FDJIODEJHOM
+// Obf: DALBJGGPCNF
 message DungeonEnterPosInfo {
-	uint32 point_id = 14;
-	uint32 quest_id = 1;
+	uint32 point_id = 13;
+	uint32 quest_id = 12;
 }

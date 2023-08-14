@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7184
-// Obf: JCGFAKDDGJK
+// CmdId: 21565
+// Obf: MHHDHGFMPAD
 message GCGWorldChallengeUnlockNotify {
-	repeated uint32 unlock_id_list = 13;
+	repeated uint32 unlock_id_list = 7;
 }

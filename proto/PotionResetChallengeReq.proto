@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8298
-// Obf: FDHEHHCPHPH
+// CmdId: 2937
+// Obf: NJKOPJFKKIH
 message PotionResetChallengeReq {
-	uint32 stage_id = 10;
+	uint32 stage_id = 3;
 }

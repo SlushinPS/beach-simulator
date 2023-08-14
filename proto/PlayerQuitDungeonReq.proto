@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 955
-// Obf: HGDHINONLCB
+// CmdId: 20980
+// Obf: CCMGMAFLDCH
 message PlayerQuitDungeonReq {
-	bool is_quit_immediately = 8;
-	uint32 point_id = 4;
+	uint32 point_id = 5;
+	bool is_quit_immediately = 13;
 }

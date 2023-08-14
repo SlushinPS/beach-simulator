@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BMFELBMMIJF
+// Obf: OCKGAFIGEMB
 message FungusPlotStageDetail {
-	bool is_open = 13;
-	uint32 stage_id = 6;
+	bool is_open = 7;
+	uint32 stage_id = 8;
 }

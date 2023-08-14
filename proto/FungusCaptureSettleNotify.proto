@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5543
-// Obf: HNBDNINHFGM
+// CmdId: 26783
+// Obf: KJAPNBDNNMI
 message FungusCaptureSettleNotify {
-	bool is_success = 3;
+	bool is_success = 11;
 }

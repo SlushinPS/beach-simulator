@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGAttackCostInfo.proto";
-import "GCGSelectOnStageCostInfo.proto";
 import "GCGPlayCardCostInfo.proto";
-// Obf: FKDHOACPGNF
+import "GCGSelectOnStageCostInfo.proto";
+// Obf: IHIBNCDNGPC
 message GCGCostReviseInfo {
-	repeated GCGAttackCostInfo attack_cost_list = 12;
-	bool is_can_attack = 15;
-	repeated uint32 can_use_hand_card_id_list = 9;
+	bool is_can_attack = 4;
+	repeated GCGAttackCostInfo attack_cost_list = 3;
+	repeated uint32 can_use_hand_card_id_list = 12;
+	repeated GCGPlayCardCostInfo play_card_cost_list = 8;
 	repeated GCGSelectOnStageCostInfo select_on_stage_cost_list = 1;
-	repeated GCGPlayCardCostInfo play_card_cost_list = 13;
 }

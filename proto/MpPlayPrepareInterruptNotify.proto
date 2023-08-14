@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1809
-// Obf: OBNKKKDMJHD
+// CmdId: 3739
+// Obf: GAJIFLDAKCO
 message MpPlayPrepareInterruptNotify {
-	uint32 mp_play_id = 11;
+	uint32 mp_play_id = 5;
 }

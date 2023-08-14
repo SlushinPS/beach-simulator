@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeSeekFurniturePlayerScore.proto";
-// Obf: PAJGLJGGGNO
+// Obf: HIKDFFBMMHO
 message HomeSeekFurnitureOneRecord {
-	repeated HomeSeekFurniturePlayerScore engaged_player_score_list = 13;
-	uint32 timestamp = 5;
+	uint32 timestamp = 4;
+	repeated HomeSeekFurniturePlayerScore engaged_player_score_list = 6;
 }

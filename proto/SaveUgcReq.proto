@@ -19,11 +19,11 @@ option java_package = "emu.grasscutter.net.proto";
 import "UgcType.proto";
 import "UgcMusicRecord.proto";
 import "UgcMusicBriefInfo.proto";
-// CmdId: 6325
-// Obf: OLCCDLNIBJO
+// CmdId: 4331
+// Obf: NFDPAGDPKFO
 message SaveUgcReq {
-	uint32 schedule_id = 5;
-	UgcType ugc_type = 8;
-	optional UgcMusicRecord music_record = 6;
-	optional UgcMusicBriefInfo music_brief_info = 1004;
+	UgcType ugc_type = 4;
+	uint32 schedule_id = 2;
+	optional UgcMusicRecord music_record = 9;
+	optional UgcMusicBriefInfo music_brief_info = 1606;
 }

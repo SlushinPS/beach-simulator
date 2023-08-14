@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeLimitedShopGoods.proto";
-// CmdId: 4703
-// Obf: ANKOBLDAIFN
+// CmdId: 6986
+// Obf: LJPBHFGDDHL
 message HomeLimitedShopBuyGoodsRsp {
-	uint32 buy_count = 5;
-	int32 retcode = 9;
-	repeated HomeLimitedShopGoods goods_list = 12;
-	HomeLimitedShopGoods goods = 3;
+	int32 retcode = 14;
+	uint32 buy_count = 7;
+	HomeLimitedShopGoods goods = 15;
+	repeated HomeLimitedShopGoods goods_list = 2;
 }

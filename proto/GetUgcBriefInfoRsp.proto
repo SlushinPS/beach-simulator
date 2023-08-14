@@ -18,11 +18,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "UgcType.proto";
 import "UgcMusicBriefInfo.proto";
-// CmdId: 6321
-// Obf: PMLGAFMPMFK
+// CmdId: 25183
+// Obf: IGIDBNBJDIA
 message GetUgcBriefInfoRsp {
-	uint64 ugc_guid = 6;
-	int32 retcode = 4;
-	UgcType ugc_type = 12;
-	optional UgcMusicBriefInfo music_brief_info = 10;
+	UgcType ugc_type = 13;
+	uint64 ugc_guid = 1;
+	int32 retcode = 2;
+	optional UgcMusicBriefInfo music_brief_info = 12;
 }

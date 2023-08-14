@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1914
-// Obf: IHHFOENFHJG
+// CmdId: 1562
+// Obf: NNNEAKIELHD
 message TakeInvestigationTargetRewardRsp {
+	uint32 quest_id = 7;
 	int32 retcode = 15;
-	uint32 quest_id = 4;
 }

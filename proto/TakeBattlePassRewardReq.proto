@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BattlePassRewardTakeOption.proto";
-// CmdId: 2626
-// Obf: EAHNLBGINBO
+// CmdId: 28914
+// Obf: AEFJDMJIPGE
 message TakeBattlePassRewardReq {
-	repeated BattlePassRewardTakeOption take_option_list = 11;
+	repeated BattlePassRewardTakeOption take_option_list = 2;
 }

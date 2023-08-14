@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TowerMonthlyDetail.proto";
-// CmdId: 2407
-// Obf: FJGFHOJLKAH
+// CmdId: 27785
+// Obf: FBOMFHOAGBM
 message TowerRecordHandbookRsp {
-	int32 retcode = 6;
-	repeated TowerMonthlyDetail monthly_detail_list = 9;
+	repeated TowerMonthlyDetail monthly_detail_list = 3;
+	int32 retcode = 10;
 }

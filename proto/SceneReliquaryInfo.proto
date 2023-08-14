@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FNNPFGFHKCK
+// Obf: HEMALDBEKEL
 message SceneReliquaryInfo {
 	uint32 item_id = 1;
 	uint64 guid = 2;

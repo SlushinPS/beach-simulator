@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5369
-// Obf: CNAMFENODFM
+// CmdId: 20706
+// Obf: CNALGDHEIDC
 message HideAndSeekPlayerReadyNotify {
-	repeated uint32 uid_list = 3;
+	repeated uint32 uid_list = 13;
 }

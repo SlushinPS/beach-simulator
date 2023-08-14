@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 140
-// Obf: LIBPJCAAPKH
+// CmdId: 22773
+// Obf: KMDIDIAADBP
 message PlayerForceExitRsp {
-	int32 retcode = 8;
+	int32 retcode = 9;
 }

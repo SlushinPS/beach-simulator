@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DuelHeartLevelInfo.proto";
-// Obf: PHJLCCEGOOL
+// Obf: AMFDOEOCHLJ
 message DuelHeartDetailInfo {
-	repeated DuelHeartLevelInfo level_info_list = 14;
+	repeated DuelHeartLevelInfo level_info_list = 15;
 }

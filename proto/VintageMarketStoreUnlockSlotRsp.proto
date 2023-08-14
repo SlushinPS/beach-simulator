@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23887
-// Obf: HJLCNOBFIHJ
+// CmdId: 25104
+// Obf: HMBCBBBOBJD
 message VintageMarketStoreUnlockSlotRsp {
+	uint32 slot_count = 4;
 	int32 retcode = 6;
-	uint32 slot_count = 10;
-	uint32 store_id = 9;
+	uint32 store_id = 14;
 }

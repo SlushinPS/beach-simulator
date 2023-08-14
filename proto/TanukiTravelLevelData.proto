@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NLIDHPKHNHF
+// Obf: OKBFMCFBABK
 message TanukiTravelLevelData {
-	uint32 route_id = 14;
-	bool is_open = 9;
-	bool is_finish = 15;
+	bool is_finish = 2;
+	uint32 route_id = 12;
+	bool is_open = 6;
 }

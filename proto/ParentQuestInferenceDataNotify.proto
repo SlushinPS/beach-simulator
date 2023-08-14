@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "InferencePageInfo.proto";
-// CmdId: 469
-// Obf: GJIDJKKLDMI
+// CmdId: 24796
+// Obf: LPFEFNDAENI
 message ParentQuestInferenceDataNotify {
-	uint32 parent_quest_id = 12;
-	repeated InferencePageInfo inference_page_list = 7;
+	repeated InferencePageInfo inference_page_list = 12;
+	uint32 parent_quest_id = 4;
 }

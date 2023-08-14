@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "EventTriggerType.proto";
-// CmdId: 121
-// Obf: JFLBONPKIDI
+// CmdId: 8879
+// Obf: MANDFGEOJJC
 message ClientTriggerEventNotify {
-	EventTriggerType event_type = 13;
-	uint32 force_id = 10;
+	uint32 force_id = 2;
+	EventTriggerType event_type = 4;
 }

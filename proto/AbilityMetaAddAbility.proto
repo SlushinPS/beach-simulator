@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AbilityAppliedAbility.proto";
-// Obf: KGNBOGPLLAM
+// Obf: GOIHMEADCCK
 message AbilityMetaAddAbility {
-	AbilityAppliedAbility ability = 2;
+	AbilityAppliedAbility ability = 9;
 }

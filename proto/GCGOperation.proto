@@ -24,16 +24,16 @@ import "GCGOperationPass.proto";
 import "GCGOperationPlayCard.proto";
 import "GCGOperationReboot.proto";
 import "GCGOperationSurrender.proto";
-// Obf: LMDBIHEBAJM
+// Obf: KMHPEHOILKJ
 message GCGOperation {
 	oneof op {
-		GCGOperationRedraw op_redraw = 6;
-		GCGOperationOnStageSelect op_select_on_stage = 12;
-		GCGOperationReroll op_reroll = 14;
-		GCGOperationAttack op_attack = 11;
-		GCGOperationPass op_pass = 2;
-		GCGOperationPlayCard op_play_card = 8;
-		GCGOperationReboot op_reboot = 15;
-		GCGOperationSurrender op_surrender = 9;
+		GCGOperationRedraw op_redraw = 9;
+		GCGOperationOnStageSelect op_select_on_stage = 14;
+		GCGOperationReroll op_reroll = 3;
+		GCGOperationAttack op_attack = 4;
+		GCGOperationPass op_pass = 13;
+		GCGOperationPlayCard op_play_card = 1;
+		GCGOperationReboot op_reboot = 12;
+		GCGOperationSurrender op_surrender = 10;
 	}
 }

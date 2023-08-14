@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DragonSpineChapterInfo.proto";
-// Obf: EJGGAFPNCNC
+// Obf: JBJKLFFFLJE
 message DragonSpineActivityDetailInfo {
-	uint32 MPBEPGFLKGH = 12;
-	uint32 weapon_enhance_level = 5;
-	bool is_content_closed = 4;
-	uint32 EFJOFMJNHEM = 8;
-	uint32 BFHMDKOEJPC = 1;
-	uint32 LNHGDOBIBFH = 7;
-	repeated DragonSpineChapterInfo chapter_info_list = 14;
+	repeated DragonSpineChapterInfo chapter_info_list = 11;
+	uint32 NIBHAJNIAIC = 6;
+	uint32 AIGICGINPLO = 14;
+	uint32 GKBIMMMIGNF = 2;
+	uint32 BCMDOANABLH = 1;
+	uint32 weapon_enhance_level = 4;
+	bool is_content_closed = 7;
 }

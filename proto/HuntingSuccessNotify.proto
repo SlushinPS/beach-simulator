@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HuntingPair.proto";
-// CmdId: 4316
-// Obf: DOIEGEDKPLC
+// CmdId: 28721
+// Obf: IPJFJJENICP
 message HuntingSuccessNotify {
-	HuntingPair hunting_pair = 15;
+	HuntingPair hunting_pair = 1;
 }

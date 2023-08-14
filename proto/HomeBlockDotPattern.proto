@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FIABNBMDCIE
+// Obf: CEIDPNFLOBJ
 message HomeBlockDotPattern {
-	uint32 height = 15;
-	uint32 width = 11;
-	bytes data = 4;
+	uint32 width = 10;
+	bytes data = 8;
+	uint32 height = 7;
 }

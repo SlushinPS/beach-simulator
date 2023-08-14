@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 209
-// Obf: PCMGBKMODLM
+// CmdId: 5015
+// Obf: KDJMBHPJOAG
 message ExecuteGroupTriggerRsp {
-	int32 retcode = 11;
+	int32 retcode = 5;
 }

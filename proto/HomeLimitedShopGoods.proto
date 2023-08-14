@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// Obf: ABKIHDDHCBB
+// Obf: FHFADBDGHEK
 message HomeLimitedShopGoods {
-	ItemParam goods_item = 4;
-	repeated ItemParam cost_item_list = 2;
-	uint32 goods_id = 3;
-	uint32 bought_num = 8;
-	uint32 KAPLOLJDEON = 10;
-	uint32 buy_limit = 11;
+	repeated ItemParam cost_item_list = 15;
+	uint32 NPBGGAMEDJG = 4;
+	uint32 bought_num = 6;
+	uint32 NODBIKCALJI = 3;
+	ItemParam goods_item = 2;
+	uint32 JOMBNPMFHGG = 10;
 }

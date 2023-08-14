@@ -19,7 +19,7 @@ option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "HomeMarkPointNPCData.proto";
 import "HomeMarkPointSuiteData.proto";
-// Obf: AAMJFNLFJIJ
+// Obf: MDHHDACNAEL
 message HomeMarkPointFurnitureData {
 	uint32 guid = 1;
 	uint32 furniture_id = 2;

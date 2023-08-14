@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 369
-// Obf: IBMDDFGACLA
+// CmdId: 4320
+// Obf: PPAHLMFGPPN
 message DelTeamEntityNotify {
-	repeated uint32 del_entity_id_list = 13;
-	uint32 scene_id = 4;
+	repeated uint32 del_entity_id_list = 7;
+	uint32 scene_id = 15;
 }

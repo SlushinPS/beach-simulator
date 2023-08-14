@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ADPDFNABDCI
+// Obf: PGEKJBDCGND
 message QuestGlobalVar {
-	int32 value = 13;
+	int32 value = 14;
 	uint32 key = 8;
 }

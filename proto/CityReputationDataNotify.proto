@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CityReputationSimpleInfo.proto";
-// CmdId: 2816
-// Obf: ONLFJBNBLNL
+// CmdId: 8325
+// Obf: DJMIMCGIGFJ
 message CityReputationDataNotify {
-	repeated CityReputationSimpleInfo simple_info_list = 10;
+	repeated CityReputationSimpleInfo simple_info_list = 14;
 }

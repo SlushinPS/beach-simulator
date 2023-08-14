@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MatchType.proto";
-// CmdId: 4173
-// Obf: PMDNIAJFAFJ
+// CmdId: 21369
+// Obf: FGDKKCBNGMI
 message PlayerConfirmMatchRsp {
-	uint32 match_id = 1;
-	MatchType match_type = 6;
-	bool is_agreed = 11;
-	int32 retcode = 9;
+	MatchType match_type = 1;
+	uint32 match_id = 5;
+	bool is_agreed = 12;
+	int32 retcode = 13;
 }

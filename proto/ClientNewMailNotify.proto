@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1430
-// Obf: BEBABNFCJIO
+// CmdId: 2769
+// Obf: HPLLHIPOLHA
 message ClientNewMailNotify {
-	uint32 CDIKCAIGHAE = 2;
-	uint32 KJEEEDPFMFE = 6;
-	bool IGMALOKLIPP = 14;
+	uint32 BEGBPFBABMD = 3;
+	bool CLHPNHOHONM = 2;
+	uint32 OEGCAHNJAMF = 14;
 }

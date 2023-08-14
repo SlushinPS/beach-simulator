@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HOIEMLAHNLA
+// Obf: IECFBICKHEE
 message EvtSetAttackTargetInfo {
-	uint32 entity_id = 4;
-	uint32 select_point_index = 7;
+	uint32 select_point_index = 3;
 	uint32 attack_target_id = 10;
+	uint32 entity_id = 13;
 }

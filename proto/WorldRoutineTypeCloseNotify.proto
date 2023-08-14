@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3526
-// Obf: FEKEACGGELE
+// CmdId: 4128
+// Obf: PNDNHCJBFLN
 message WorldRoutineTypeCloseNotify {
-	uint32 routine_type = 3;
+	uint32 routine_type = 7;
 }

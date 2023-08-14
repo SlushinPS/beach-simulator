@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 449
-// Obf: FFMNPJJJCDK
+// CmdId: 28219
+// Obf: DIAGJLMDMDL
 message QuestUpdateQuestTimeVarNotify {
-	map<uint32, uint32> time_var_map = 5;
-	uint32 parent_quest_id = 4;
+	map<uint32, uint32> time_var_map = 4;
+	uint32 parent_quest_id = 11;
 }

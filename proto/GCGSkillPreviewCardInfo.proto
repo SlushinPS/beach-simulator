@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGZoneType.proto";
-// Obf: FOFECGMPFKJ
+// Obf: LMDLEFJFAPO
 message GCGSkillPreviewCardInfo {
-	uint32 owner_card_guid = 5;
-	GCGZoneType JIDNEOMFFLG = 8;
-	uint32 ALBELDPNILM = 7;
-	uint32 face_type = 9;
-	uint32 card_id = 6;
-	uint32 card_guid = 4;
 	uint32 controller_id = 11;
+	uint32 LAANIMGLHMH = 1;
+	uint32 face_type = 13;
+	uint32 owner_card_guid = 6;
+	uint32 card_guid = 8;
+	uint32 card_id = 10;
+	GCGZoneType NLNGGNHNOEC = 9;
 }

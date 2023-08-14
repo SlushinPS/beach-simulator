@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MatchType.proto";
-// CmdId: 4157
-// Obf: MMLHDBJNOEN
+// CmdId: 1167
+// Obf: CMDGGJDBOIO
 message PlayerConfirmMatchReq {
-	bool is_agreed = 14;
-	MatchType match_type = 9;
+	MatchType match_type = 15;
+	bool is_agreed = 12;
 }

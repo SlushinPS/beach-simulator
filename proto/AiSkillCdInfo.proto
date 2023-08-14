@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EIAFDAJNOBI
+// Obf: AJLFKACFMII
 message AiSkillCdInfo {
-	map<uint32, uint32> skill_cd_map = 1;
-	map<uint32, uint32> skill_group_cd_map = 6;
+	map<uint32, uint32> skill_cd_map = 6;
+	map<uint32, uint32> skill_group_cd_map = 11;
 }

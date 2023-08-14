@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SalvageEscortSettleInfo.proto";
-// CmdId: 8693
-// Obf: NEHPEIKIILH
+// CmdId: 28329
+// Obf: AIIFIIHCLGB
 message SalvageEscortSettleNotify {
-	SalvageEscortSettleInfo settle_info = 6;
-	uint32 gallery_id = 13;
+	uint32 gallery_id = 7;
+	SalvageEscortSettleInfo settle_info = 10;
 }

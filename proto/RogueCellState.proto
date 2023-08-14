@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EBBGLLMHKCK
+// Obf: JEOOKNEBNDN
 enum RogueCellState {
 	ROGUE_CELL_NONE = 0;
 	ROGUE_CELL_BATTLE = 1;

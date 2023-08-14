@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2424
-// Obf: FBPIMGGFEPL
+// CmdId: 5764
+// Obf: ELMPNCMADBL
 message TowerGetFloorStarRewardReq {
-	uint32 floor_id = 6;
+	uint32 floor_id = 3;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JGMEMCCGCDN
+// Obf: LKAMMLNBBDM
 enum MatchReason {
 	MATCH_NONE = 0;
 	MATCH_FINISH = 1;

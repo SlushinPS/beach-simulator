@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DJEMKNENFJA
+// Obf: HJEEHJPLDFD
 message ShortAbilityHashPair {
-	sfixed32 ability_name_hash = 11;
+	sfixed32 ability_name_hash = 15;
 	sfixed32 ability_config_hash = 14;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 920
-// Obf: CDGHAGGKCJP
+// CmdId: 20800
+// Obf: GCCLANHLJPH
 message DungeonCandidateTeamRefuseNotify {
-	uint32 player_uid = 4;
+	uint32 player_uid = 8;
 }

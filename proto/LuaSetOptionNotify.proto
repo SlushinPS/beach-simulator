@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 374
-// Obf: HHEIBNCGICK
+// CmdId: 21205
+// Obf: BEHGHCFKCEI
 message LuaSetOptionNotify {
-	// Obf: OMFLJFLOMGA
+	// Obf: KDJIBGKLHDO
 	enum LuaOptionType {
 		LUA_OPTION_NONE = 0;
 		LUA_OPTION_PLAYER_INPUT = 1;
 	}
 	
-	string lua_set_param = 13;
-	LuaOptionType option_type = 7;
+	string lua_set_param = 14;
+	LuaOptionType option_type = 3;
 }

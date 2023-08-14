@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5371
-// Obf: IPNPGOAMLNC
+// CmdId: 8363
+// Obf: FNJECIMONEP
 message FleurFairBuffEnergyNotify {
-	uint32 energy = 10;
+	uint32 energy = 14;
 }

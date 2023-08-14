@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlayerOfferingData.proto";
-// CmdId: 2919
-// Obf: KJBCCPLLEHG
+// CmdId: 21253
+// Obf: KEHILLDAGMC
 message OfferingInteractRsp {
-	PlayerOfferingData offering_data = 11;
-	int32 retcode = 13;
+	int32 retcode = 1;
+	PlayerOfferingData offering_data = 10;
 }

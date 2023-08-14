@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 156
-// Obf: LKFOLMKGHDK
+// CmdId: 9714
+// Obf: FAAFPGCGNCF
 message DailyTaskDataNotify {
-	uint32 finished_num = 6;
-	uint32 score_reward_id = 9;
-	bool is_taken_score_reward = 15;
+	bool is_taken_score_reward = 11;
+	uint32 score_reward_id = 3;
+	uint32 finished_num = 13;
 }

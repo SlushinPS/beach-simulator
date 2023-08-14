@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5340
-// Obf: KHPCKCDPIFA
+// CmdId: 20128
+// Obf: NNPIGOCJPOK
 message ChessManualRefreshCardsRsp {
-	int32 retcode = 11;
+	int32 retcode = 15;
 }

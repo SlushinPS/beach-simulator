@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AnimatorParameterValueInfo.proto";
-// Obf: NJDDPFCLLPO
+// Obf: KMKPHPFFDNG
 message EvtAnimatorParameterInfo {
-	uint32 entity_id = 8;
-	bool is_server_cache = 9;
-	AnimatorParameterValueInfo value = 15;
-	int32 name_id = 5;
+	int32 name_id = 4;
+	AnimatorParameterValueInfo value = 10;
+	bool is_server_cache = 15;
+	uint32 entity_id = 11;
 }

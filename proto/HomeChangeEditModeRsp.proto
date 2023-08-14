@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4809
-// Obf: PHGILHHOFNM
+// CmdId: 7491
+// Obf: CICADGGFJOK
 message HomeChangeEditModeRsp {
+	int32 retcode = 2;
 	bool is_enter_edit_mode = 6;
-	int32 retcode = 12;
 }

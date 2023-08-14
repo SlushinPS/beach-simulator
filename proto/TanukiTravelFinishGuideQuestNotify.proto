@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8045
-// Obf: ECGJBENJDOP
+// CmdId: 29894
+// Obf: HLGANLFHMGL
 message TanukiTravelFinishGuideQuestNotify {
-	uint32 activity_id = 12;
+	uint32 activity_id = 2;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3445
-// Obf: HCIHPLMCEFF
+// CmdId: 23683
+// Obf: DBLNBBNCINO
 message ChangeWorldToSingleModeReq {
 }

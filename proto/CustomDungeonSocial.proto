@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FBHKENMMCIP
+// Obf: DDALIIIJCDF
 message CustomDungeonSocial {
-	uint32 win_num = 9;
-	uint32 store_num = 10;
-	uint32 like_num = 7;
-	uint32 play_num = 11;
+	uint32 DKDJDMMPICM = 13;
+	uint32 OPCLKCLOEJG = 4;
+	uint32 AGFMPAJMBMF = 2;
+	uint32 GLBMLFCKMHP = 7;
 }

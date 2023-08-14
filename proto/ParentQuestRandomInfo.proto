@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NIIAKFJMIEN
+// Obf: NIGBJJFCAGF
 message ParentQuestRandomInfo {
-	repeated uint32 factor_list = 12;
-	uint32 template_id = 1;
-	uint32 entrance_id = 13;
+	uint32 template_id = 10;
+	repeated uint32 factor_list = 9;
+	uint32 entrance_id = 3;
 }

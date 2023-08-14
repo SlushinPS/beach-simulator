@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5530
-// Obf: PDBEBEOPLME
+// CmdId: 29335
+// Obf: LGFCPBKCNHC
 message GalleryPreStartNotify {
-	uint32 gallery_id = 14;
-	uint32 pre_start_end_time = 4;
+	uint32 gallery_id = 5;
+	uint32 pre_start_end_time = 9;
 }

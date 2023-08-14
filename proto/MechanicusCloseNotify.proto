@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3948
-// Obf: NGIPLGINCPF
+// CmdId: 25277
+// Obf: GELIIDJKNOL
 message MechanicusCloseNotify {
-	uint32 mechanicus_id = 11;
+	uint32 mechanicus_id = 3;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4405
-// Obf: NOMCCNBIGPA
+// CmdId: 22034
+// Obf: GHKNGANHLPA
 message ScenePlayOwnerStartInviteRsp {
+	int32 retcode = 8;
+	bool is_skip_match = 6;
 	uint32 play_id = 5;
-	bool is_skip_match = 8;
-	int32 retcode = 12;
 }

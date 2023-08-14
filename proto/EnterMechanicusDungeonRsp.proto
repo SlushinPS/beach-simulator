@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3964
-// Obf: EKIFFKENNLB
+// CmdId: 29863
+// Obf: MGILGCJGFEB
 message EnterMechanicusDungeonRsp {
-	uint32 dungeon_id = 14;
-	int32 retcode = 6;
-	uint32 difficult_level = 3;
-	uint32 wrong_uid = 2;
+	uint32 difficult_level = 7;
+	uint32 dungeon_id = 12;
+	uint32 wrong_uid = 14;
+	int32 retcode = 1;
 }

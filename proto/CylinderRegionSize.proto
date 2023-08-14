@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: IDHBCOHLJPD
+// Obf: IHDOOLIJIMD
 message CylinderRegionSize {
-	float radius = 2;
-	float height = 13;
+	float height = 4;
+	float radius = 13;
 }

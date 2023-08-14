@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2133
-// Obf: KEAKBINOFII
+// CmdId: 8663
+// Obf: DBAKMINAGNC
 message BlessingRedeemRewardRsp {
-	map<uint32, uint32> pic_num_map = 7;
-	int32 retcode = 10;
+	map<uint32, uint32> pic_num_map = 5;
+	int32 retcode = 6;
 }

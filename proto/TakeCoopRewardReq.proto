@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1963
-// Obf: DFDBGBKBEAK
+// CmdId: 23462
+// Obf: FELHCPBNOHO
 message TakeCoopRewardReq {
-	uint32 reward_config_id = 5;
+	uint32 reward_config_id = 2;
 }

@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GalleryStartSource.proto";
-// CmdId: 5526
-// Obf: HPLCPGGJMBC
+// CmdId: 26134
+// Obf: KCENJJNMBDM
 message GalleryWillStartCountdownNotify {
+	GalleryStartSource start_source = 11;
+	bool is_end = 9;
 	uint32 end_time = 4;
-	uint32 gallery_id = 3;
-	bool is_end = 2;
-	GalleryStartSource start_source = 8;
+	uint32 gallery_id = 6;
 }

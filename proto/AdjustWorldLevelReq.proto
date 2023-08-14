@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 190
-// Obf: LOENDAOINPF
+// CmdId: 8482
+// Obf: ENGKHDPANFI
 message AdjustWorldLevelReq {
-	uint32 ACFMMFELEHP = 14;
-	uint32 OLDCBGGJLDH = 9;
+	uint32 DPHFLHKHLIF = 2;
+	uint32 LOCDLJCPGPO = 9;
 }

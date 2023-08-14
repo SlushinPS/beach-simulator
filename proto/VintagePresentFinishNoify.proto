@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23227
-// Obf: AAJPNCAGJPI
+// CmdId: 7068
+// Obf: HPKLGLKHIJC
 message VintagePresentFinishNoify {
-	uint32 present_id = 14;
+	uint32 present_id = 12;
 }

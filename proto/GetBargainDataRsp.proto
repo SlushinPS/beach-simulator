@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BargainSnapshot.proto";
-// CmdId: 405
-// Obf: FLEAIDOFCHJ
+// CmdId: 8330
+// Obf: ALABLOCEOIH
 message GetBargainDataRsp {
-	int32 retcode = 13;
 	BargainSnapshot snapshot = 5;
-	uint32 bargain_id = 15;
+	int32 retcode = 1;
+	uint32 bargain_id = 9;
 }

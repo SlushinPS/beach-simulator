@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 142
-// Obf: CIDMNOMHPKC
+// CmdId: 7541
+// Obf: AILEMFGGGHN
 message PlayerCompoundMaterialReq {
-	uint32 count = 6;
-	uint32 compound_id = 12;
+	uint32 compound_id = 2;
+	uint32 count = 11;
 }

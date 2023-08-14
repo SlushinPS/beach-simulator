@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ShowAvatarInfo.proto";
-// CmdId: 4018
-// Obf: IMDEPFBGBPM
+// CmdId: 26299
+// Obf: GKKBKHLCING
 message GetFriendShowAvatarInfoRsp {
-	uint32 uid = 13;
-	repeated ShowAvatarInfo show_avatar_info_list = 10;
-	int32 retcode = 11;
+	uint32 uid = 8;
+	int32 retcode = 6;
+	repeated ShowAvatarInfo show_avatar_info_list = 14;
 }

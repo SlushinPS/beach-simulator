@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: EGJNNEHKJCO
+// Obf: IIBEOFMNCMM
 message WinterCampRaceStageInfo {
-	Vector pos = 7;
+	uint32 id = 5;
+	uint32 max_score = 10;
+	Vector pos = 1;
 	uint32 open_time = 2;
-	uint32 max_score = 15;
-	uint32 id = 11;
 }

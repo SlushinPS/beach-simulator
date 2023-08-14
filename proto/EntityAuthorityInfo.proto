@@ -22,7 +22,7 @@ import "SceneEntityAiInfo.proto";
 import "Vector.proto";
 import "AnimatorParameterValueInfoPair.proto";
 import "EntityClientExtraInfo.proto";
-// Obf: MMDHAIOHCBJ
+// Obf: DHLPFKPHPNF
 message EntityAuthorityInfo {
 	AbilitySyncStateInfo ability_info = 1;
 	EntityRendererChangedInfo renderer_changed_info = 2;

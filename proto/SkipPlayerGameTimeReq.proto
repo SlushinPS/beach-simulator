@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 165
-// Obf: CLJNJBDHDEN
+// CmdId: 22076
+// Obf: DEFBFNOLMID
 message SkipPlayerGameTimeReq {
-	uint32 game_time = 6;
-	bool is_force_set = 12;
-	uint32 client_game_time = 11;
+	uint32 game_time = 12;
+	bool is_force_set = 1;
+	uint32 client_game_time = 7;
 }

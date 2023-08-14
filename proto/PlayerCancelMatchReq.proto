@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MatchType.proto";
-// CmdId: 4171
-// Obf: CEOKCPHMBIB
+// CmdId: 9117
+// Obf: HOBFLBCLPIC
 message PlayerCancelMatchReq {
-	MatchType match_type = 10;
+	MatchType match_type = 7;
 }

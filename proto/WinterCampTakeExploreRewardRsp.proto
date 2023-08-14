@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8549
-// Obf: IOCEHLCHDAL
+// CmdId: 5622
+// Obf: DNAGNDHNANO
 message WinterCampTakeExploreRewardRsp {
-	int32 retcode = 1;
-	uint32 id = 9;
+	int32 retcode = 11;
+	uint32 id = 4;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "HDDANIDHCMI.proto";
-// Obf: ONLKNMDGDMB
+import "KDHIAEFLGFM.proto";
+// Obf: NODDJLNJHAK
 message BalloonGallerySettleInfo {
-	uint32 hit_count = 6;
-	HDDANIDHCMI reason = 5;
-	uint32 owner_uid = 12;
-	uint32 score = 11;
+	uint32 hit_count = 10;
+	KDHIAEFLGFM reason = 12;
+	uint32 score = 6;
+	uint32 owner_uid = 14;
 }

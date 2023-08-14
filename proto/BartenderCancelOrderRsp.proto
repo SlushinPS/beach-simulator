@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8417
-// Obf: HHJDDENECKG
+// CmdId: 1772
+// Obf: MPPMFOJADJE
 message BartenderCancelOrderRsp {
-	uint32 quest_id = 3;
-	int32 retcode = 11;
+	int32 retcode = 3;
+	uint32 quest_id = 12;
 }

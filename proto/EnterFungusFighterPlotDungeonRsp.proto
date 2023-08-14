@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22991
-// Obf: EDFNINHFKJP
+// CmdId: 8831
+// Obf: JMNIMPHGFHP
 message EnterFungusFighterPlotDungeonRsp {
-	uint32 dungeon_id = 9;
-	repeated uint32 fungus_id_list = 5;
-	int32 retcode = 2;
+	repeated uint32 fungus_id_list = 9;
+	uint32 dungeon_id = 2;
+	int32 retcode = 6;
 }

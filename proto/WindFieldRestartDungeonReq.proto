@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21920
-// Obf: PODNDDMDCFD
+// CmdId: 27756
+// Obf: ABNPNMDPANP
 message WindFieldRestartDungeonReq {
 }

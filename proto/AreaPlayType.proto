@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KAJOBPDKGLN
+// Obf: ENDBNJAECJM
 enum AreaPlayType {
 	AREA_PLAY_NONE = 0;
 	AREA_PLAY_CLIMATE = 1;

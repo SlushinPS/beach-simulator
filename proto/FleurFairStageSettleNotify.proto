@@ -18,12 +18,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FleurFairGallerySettleInfo.proto";
 import "FleurFairBossSettleInfo.proto";
-// CmdId: 5349
-// Obf: OBBJIFHGAEK
+// CmdId: 23852
+// Obf: OPDHCFCGAEK
 message FleurFairStageSettleNotify {
-	uint32 stage_type = 8;
+	uint32 stage_type = 12;
 	oneof detail {
-		FleurFairGallerySettleInfo gallery_settle_info = 7;
+		FleurFairGallerySettleInfo gallery_settle_info = 13;
 		FleurFairBossSettleInfo boss_settle_info = 14;
 	}
 }

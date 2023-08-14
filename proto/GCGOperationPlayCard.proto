@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: IIAFPBDJMEP
+// Obf: ICKMAPONOBO
 message GCGOperationPlayCard {
-	uint32 card_guid = 11;
-	uint32 replace_card_guid = 12;
-	repeated uint32 cost_dice_index_list = 10;
-	repeated uint32 target_card_guid_list = 2;
+	uint32 replace_card_guid = 3;
+	repeated uint32 cost_dice_index_list = 6;
+	uint32 card_guid = 4;
+	repeated uint32 target_card_guid_list = 15;
 }

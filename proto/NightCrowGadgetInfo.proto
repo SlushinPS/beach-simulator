@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CDFJGPAHAAJ
+// Obf: OHIBCIDJNDB
 message NightCrowGadgetInfo {
 	repeated uint32 argument_list = 1;
 }

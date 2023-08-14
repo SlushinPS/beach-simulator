@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CBDNLHOCBPN
+// Obf: HKOILFOAMGM
 message LanternRiteFireworksReformFactorInfo {
-	uint32 factor_id = 5;
 	uint32 factor_value = 3;
+	uint32 factor_id = 4;
 }

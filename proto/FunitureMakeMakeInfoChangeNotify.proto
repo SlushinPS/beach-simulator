@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FurnitureMakeMakeInfo.proto";
-// CmdId: 4556
-// Obf: LNHFEHDEIIB
+// CmdId: 25867
+// Obf: ALGNKBPNMPA
 message FunitureMakeMakeInfoChangeNotify {
-	FurnitureMakeMakeInfo make_info = 9;
+	FurnitureMakeMakeInfo make_info = 1;
 }

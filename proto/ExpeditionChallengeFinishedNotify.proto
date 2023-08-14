@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2128
-// Obf: ADBFEJABOGD
+// CmdId: 7357
+// Obf: LHGENCGNMBM
 message ExpeditionChallengeFinishedNotify {
-	uint32 id = 6;
+	uint32 id = 5;
 }

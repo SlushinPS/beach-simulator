@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KLLMIOGKNNI
+// Obf: HFCNMMNOEDA
 enum ProtEntityType {
 	PROT_ENTITY_TYPE_NONE = 0;
 	PROT_ENTITY_TYPE_AVATAR = 1;

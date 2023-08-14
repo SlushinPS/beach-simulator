@@ -16,21 +16,21 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "InferencePageInfo.proto";
 import "ChildQuest.proto";
+import "InferencePageInfo.proto";
 import "ParentQuestRandomInfo.proto";
-// Obf: NHFLHNIKBLK
+// Obf: HJOGPKJDLID
 message ParentQuest {
-	uint32 accept_time = 9;
-	repeated int32 quest_var = 15;
-	bool is_finished = 2;
-	map<uint32, uint32> time_var_map = 13;
-	uint32 BENEFOELIBI = 11;
-	repeated InferencePageInfo inference_page_list = 7;
-	repeated ChildQuest child_quest_list = 5;
-	uint32 NFAHBNHBHDE = 12;
-	uint64 video_key = 14;
-	bool is_random = 10;
-	uint32 parent_quest_id = 8;
-	ParentQuestRandomInfo random_info = 1;
+	uint64 video_key = 4;
+	uint32 parent_quest_state = 8;
+	uint32 quest_var_seq = 15;
+	bool is_random = 11;
+	uint32 accept_time = 3;
+	repeated ChildQuest child_quest_list = 1;
+	repeated int32 quest_var = 7;
+	repeated InferencePageInfo inference_page_list = 9;
+	bool is_finished = 14;
+	uint32 parent_quest_id = 5;
+	map<uint32, uint32> time_var_map = 10;
+	ParentQuestRandomInfo random_info = 2;
 }

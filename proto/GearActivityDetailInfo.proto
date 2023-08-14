@@ -18,8 +18,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GearLevelData.proto";
 import "JigsawPictureData.proto";
-// Obf: GBMIHIPOEON
+// Obf: LJAEIOLGCDE
 message GearActivityDetailInfo {
-	repeated GearLevelData gear_level_data_list = 2;
+	repeated GearLevelData gear_level_data_list = 8;
 	JigsawPictureData jigsaw_picture_data = 5;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MatchReason.proto";
-// CmdId: 4189
-// Obf: DHAEFJHDJNH
+// CmdId: 5482
+// Obf: EGKPJLFGEFN
 message PlayerMatchStopNotify {
-	uint32 host_uid = 12;
-	MatchReason reason = 9;
+	MatchReason reason = 13;
+	uint32 host_uid = 6;
 }

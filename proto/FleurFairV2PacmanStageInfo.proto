@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PLJMDBLDDMM
+// Obf: AKNPJDEPLJK
 message FleurFairV2PacmanStageInfo {
-	bool LFMODLNLODD = 1;
+	bool HJLJEJDPAJP = 11;
 }

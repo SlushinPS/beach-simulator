@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LBDBMDFKMFC
+// Obf: BCEJBMMGGDO
 message BlitzRushStage {
-	bool is_open = 10;
-	uint32 open_time = 2;
+	uint32 open_time = 6;
+	bool is_open = 12;
 }

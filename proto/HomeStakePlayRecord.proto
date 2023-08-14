@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeGroupPlayerInfo.proto";
-// Obf: PAALPLOAHON
+// Obf: GBGHKILPOKF
 message HomeStakePlayRecord {
-	repeated HomeGroupPlayerInfo engaged_player_info_list = 1;
-	uint32 timestamp = 2;
+	repeated HomeGroupPlayerInfo engaged_player_info_list = 14;
+	uint32 timestamp = 15;
 }

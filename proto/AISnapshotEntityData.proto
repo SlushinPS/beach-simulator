@@ -17,18 +17,18 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AISnapshotEntitySkillCycle.proto";
-// Obf: NJIBEBILPBB
+// Obf: NJBGLLKFBPP
 message AISnapshotEntityData {
-	uint32 attack_target_id = 2;
-	float CEOENMEAEDG = 5;
-	repeated AISnapshotEntitySkillCycle finished_skill_cycles = 4;
-	float LFMMACBLFAB = 3;
-	float AIGOPDJPEPO = 13;
-	uint32 MFMNONHPLGD = 12;
-	float AAAOLEGAMIK = 8;
-	uint32 LCFLEGHABMP = 7;
-	uint32 NKICKCLEJKF = 9;
-	uint32 entity_id = 11;
-	map<uint32, uint32> hitting_avatars = 1;
-	uint32 FCPDGFADJGP = 6;
+	uint32 entity_id = 4;
+	uint32 MONLECHIPDH = 10;
+	uint32 CFEJHIOCIDN = 8;
+	float CPOCCODHHND = 5;
+	float IGNJPGLNHPI = 12;
+	repeated AISnapshotEntitySkillCycle finished_skill_cycles = 13;
+	map<uint32, uint32> hitting_avatars = 11;
+	float HFFKLJAFLNJ = 3;
+	float MPNEAAFEJIJ = 6;
+	uint32 LCFPBOOCMNP = 9;
+	uint32 LMKIMJLALNM = 15;
+	uint32 attack_target_id = 7;
 }

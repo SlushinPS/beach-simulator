@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MJDHHOAILGG
+// Obf: APFGDKHEIBO
 enum RecordUsage {
 	UGC_RECORD_USAGE_NONE = 0;
 	UGC_RECORD_USAGE_IMPORT = 1;

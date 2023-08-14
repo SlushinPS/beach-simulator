@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LAACCPKHDCM
+// Obf: EEDDJAMKPAE
 enum MapMarkTipsType {
 	MARK_TIPS_DUNGEON_ELEMENT_TRIAL = 0;
 }

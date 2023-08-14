@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MaterialInfo.proto";
-// CmdId: 697
-// Obf: AFOBMEMONBP
+// CmdId: 6985
+// Obf: MGALBJFALCL
 message DestroyMaterialReq {
 	repeated MaterialInfo material_list = 9;
 }

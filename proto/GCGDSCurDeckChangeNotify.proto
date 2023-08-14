@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7563
-// Obf: AOMFGHHCOLO
+// CmdId: 26619
+// Obf: IPOLOAOIEKC
 message GCGDSCurDeckChangeNotify {
-	uint32 deck_id = 5;
+	uint32 deck_id = 7;
 }

@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AuditState.proto";
-// Obf: FLGMEOPENJA
+// Obf: MOIJAPOKNPK
 message ContentAuditInfo {
 	bool is_open = 1;
 	string content = 2;
-	uint32 PPHEKAGMMLG = 3;
-	AuditState JLICCDMDPJH = 4;
+	uint32 submit_count = 3;
+	AuditState audit_state = 4;
 	uint32 submit_limit = 5;
 }

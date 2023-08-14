@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8903
-// Obf: JGOADGMLKGO
+// CmdId: 8921
+// Obf: NPCOOLFBIIG
 message GachaActivityResetReq {
-	uint32 stage_id = 15;
+	uint32 stage_id = 2;
 }

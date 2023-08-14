@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8594
-// Obf: LNJIJECJAMI
+// CmdId: 22183
+// Obf: AGFCKCAGECB
 message ViewLanternProjectionTipsRsp {
-	int32 retcode = 7;
+	int32 retcode = 8;
 }

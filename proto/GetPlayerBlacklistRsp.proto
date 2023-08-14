@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FriendBrief.proto";
-// CmdId: 4011
-// Obf: GEKGOCPNEOO
+// CmdId: 20310
+// Obf: NFLFLEHNLAJ
 message GetPlayerBlacklistRsp {
-	int32 retcode = 6;
-	repeated FriendBrief blacklist = 7;
+	repeated FriendBrief blacklist = 4;
+	int32 retcode = 10;
 }

@@ -16,16 +16,16 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DHKCEDAEGOD
+// Obf: ONDNMNBNCPE
 message ScenePlayBattleInfo {
-	uint32 progress = 9;
-	uint32 state = 15;
-	uint32 type = 1;
+	repeated uint32 progress_stage_list = 2;
+	uint32 state = 7;
 	uint32 prepare_end_time = 4;
-	uint32 play_id = 13;
-	uint32 mode = 8;
-	uint32 start_time = 5;
-	uint32 duration = 11;
-	uint32 play_type = 12;
-	repeated uint32 progress_stage_list = 10;
+	uint32 play_type = 14;
+	uint32 play_id = 9;
+	uint32 mode = 13;
+	uint32 start_time = 11;
+	uint32 duration = 10;
+	uint32 type = 12;
+	uint32 progress = 5;
 }

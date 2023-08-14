@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GGEMPDNDKAP
+// Obf: DCMHPMBLDHL
 message HomeScenePointFishFarmingInfo {
-	uint32 scene_id = 1;
-	uint32 local_entity_id = 10;
-	repeated uint32 fish_id_list = 4;
+	repeated uint32 fish_id_list = 13;
+	uint32 scene_id = 11;
+	uint32 local_entity_id = 5;
 }

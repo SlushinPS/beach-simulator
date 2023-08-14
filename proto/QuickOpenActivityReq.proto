@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8800
-// Obf: BDDMCMNEFEE
+// CmdId: 3073
+// Obf: JOJPJIOKKGI
 message QuickOpenActivityReq {
-	uint32 activity_id = 5;
+	uint32 activity_id = 7;
 }

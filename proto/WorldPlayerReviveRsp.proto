@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 204
-// Obf: COOLDGLJJKA
+// CmdId: 3657
+// Obf: OBBNANBMDCB
 message WorldPlayerReviveRsp {
-	int32 retcode = 9;
+	int32 retcode = 14;
 }

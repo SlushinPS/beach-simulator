@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4044
-// Obf: AIEMKHBEBON
+// CmdId: 9501
+// Obf: BOAFNHFKOAD
 message SignatureAuditConfigNotify {
-	bool is_open = 2;
-	uint32 submit_limit = 9;
+	uint32 submit_limit = 14;
+	bool is_open = 8;
 }

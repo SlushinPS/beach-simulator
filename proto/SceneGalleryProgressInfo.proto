@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CCEEIMHAFHM
+// Obf: IHIKIBFDDFL
 message SceneGalleryProgressInfo {
-	uint32 progress = 3;
-	repeated uint32 progress_stage_list = 6;
-	string key = 10;
-	uint32 PINFNMPCGIF = 15;
+	string key = 5;
+	uint32 progress = 4;
+	uint32 ui_form = 3;
+	repeated uint32 progress_stage_list = 13;
 }

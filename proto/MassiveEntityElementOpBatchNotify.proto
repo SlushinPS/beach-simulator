@@ -18,18 +18,18 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ShapeSphere.proto";
 import "ShapeBox.proto";
-// CmdId: 392
-// Obf: NPLPDJJPHHF
+// CmdId: 699
+// Obf: FLIFJJHNFJO
 message MassiveEntityElementOpBatchNotify {
-	uint32 HJOLNBIAFFL = 9;
-	int32 ENHINAPBAFJ = 8;
-	int32 AKKLKJBNCGN = 4;
-	uint32 user_id = 12;
-	int32 entity_type = 1;
-	float attack_element_durability = 10;
-	uint32 attacker_id = 7;
+	int32 PIGDAOBDKBB = 7;
+	uint32 op_idx = 4;
+	uint32 user_id = 13;
+	uint32 attacker_id = 1;
+	int32 entity_type = 10;
+	int32 IOJOIDKOIBH = 9;
 	oneof check_shape {
-		ShapeSphere shape_sphere = 14;
-		ShapeBox shape_box = 5;
+		ShapeSphere shape_sphere = 12;
+		ShapeBox shape_box = 11;
 	}
+	float attack_element_durability = 14;
 }

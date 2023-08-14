@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CustomDungeonBrief.proto";
-// CmdId: 6213
-// Obf: BCEOFBOGIEI
+// CmdId: 8476
+// Obf: CPNIIHAEIPL
 message CustomDungeonUpdateNotify {
-	CustomDungeonBrief dungeon_brief = 14;
+	CustomDungeonBrief dungeon_brief = 6;
 }

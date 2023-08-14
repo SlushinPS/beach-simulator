@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5584
-// Obf: MOCNEPOFOLB
+// CmdId: 25744
+// Obf: BOHILAMBODG
 message GalleryBulletHitNotify {
-	uint32 gallery_id = 8;
-	uint32 hit_count = 11;
+	uint32 gallery_id = 15;
+	uint32 hit_count = 12;
 }

@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MotionInfo.proto";
-// CmdId: 298
-// Obf: EHIHFBNCECE
+// CmdId: 8671
+// Obf: CLCODHLGEKC
 message EntityForceSyncReq {
-	MotionInfo motion_info = 2;
-	uint32 entity_id = 4;
-	uint32 room_id = 14;
-	uint32 scene_time = 10;
+	uint32 scene_time = 15;
+	uint32 room_id = 3;
+	uint32 entity_id = 13;
+	MotionInfo motion_info = 12;
 }

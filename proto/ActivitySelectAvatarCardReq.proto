@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2053
-// Obf: JMJCDFAFKNM
+// CmdId: 6953
+// Obf: HBNGNNBBKKO
 message ActivitySelectAvatarCardReq {
-	uint32 activity_id = 7;
-	uint32 reward_id = 8;
+	uint32 activity_id = 10;
+	uint32 reward_id = 1;
 }

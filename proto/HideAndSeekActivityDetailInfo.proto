@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HideAndSeekMapInfo.proto";
-// Obf: PHNGEOHNGLH
+// Obf: LKJFGCOHNDN
 message HideAndSeekActivityDetailInfo {
-	repeated uint32 OFCDAFADFMD = 12;
-	repeated uint32 OJOEODJPDKD = 11;
+	repeated uint32 JPONAAHBGID = 2;
+	repeated uint32 NPKOJCAPCIJ = 5;
 	repeated HideAndSeekMapInfo open_map_info_list = 14;
-	repeated uint32 KONDBPJKNLK = 4;
-	repeated uint32 FCDJJELDDLI = 1;
+	repeated uint32 MDEIGNMPCOO = 8;
+	repeated uint32 LLDFJKPBKLM = 3;
 }

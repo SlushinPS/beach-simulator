@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 1690
-// Obf: CDONCHPFNAE
+// CmdId: 23169
+// Obf: JENKJBLNBMD
 message ChangeAvatarReq {
-	Vector move_pos = 3;
-	bool is_move = 9;
-	uint32 skill_id = 15;
-	uint64 guid = 8;
+	Vector move_pos = 9;
+	uint64 guid = 4;
+	bool is_move = 3;
+	uint32 skill_id = 7;
 }

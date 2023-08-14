@@ -19,11 +19,11 @@ option java_package = "emu.grasscutter.net.proto";
 import "MichiaeMatsuriChestPositionInfo.proto";
 import "MichiaeMatsuriChallengePositionInfo.proto";
 import "MichiaeMatsuriStage.proto";
-// Obf: EJAINFBCALP
+// Obf: DNIDKOCBCEA
 message MichiaeMatsuriActivityDetailInfo {
-	repeated MichiaeMatsuriChestPositionInfo chest_pos_list = 11;
-	repeated uint32 unlocked_crystal_skill_list = 6;
-	uint32 gain_crystal_exp = 9;
-	repeated MichiaeMatsuriChallengePositionInfo challenge_pos_list = 7;
-	repeated MichiaeMatsuriStage stage_list = 15;
+	uint32 gain_crystal_exp = 15;
+	repeated uint32 unlocked_crystal_skill_list = 2;
+	repeated MichiaeMatsuriChestPositionInfo chest_pos_list = 9;
+	repeated MichiaeMatsuriChallengePositionInfo challenge_pos_list = 11;
+	repeated MichiaeMatsuriStage stage_list = 1;
 }

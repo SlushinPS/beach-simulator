@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PropValue.proto";
-// CmdId: 3465
-// Obf: GGEEDINMPLC
+// CmdId: 813
+// Obf: FOHMBEGKOHM
 message WorldDataNotify {
-	map<uint32, PropValue> world_prop_map = 14;
+	map<uint32, PropValue> world_prop_map = 12;
 }

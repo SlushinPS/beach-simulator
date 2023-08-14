@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8290
-// Obf: DEEDIBPLJLB
+// CmdId: 6458
+// Obf: PFOCEKDDPBC
 message MusicGameStartRsp {
-	int32 retcode = 1;
-	uint32 music_basic_id = 13;
-	uint64 ugc_guid = 10;
+	uint32 music_basic_id = 5;
+	int32 retcode = 2;
+	uint64 ugc_guid = 1;
 }

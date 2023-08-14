@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21623
-// Obf: ACPEMIFBNNB
+// CmdId: 5843
+// Obf: GIFEBICDBCF
 message FungusFighterRestartTraningDungeonRsp {
-	int32 retcode = 4;
+	int32 retcode = 10;
 }

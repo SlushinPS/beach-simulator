@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KGNMKIIMAGA
+// Obf: BHBIGPHGPGA
 message RoutePointChangeInfo {
-	float wait_time = 9;
-	float target_velocity = 5;
-	uint32 point_index = 8;
+	float target_velocity = 14;
+	float wait_time = 5;
+	uint32 point_index = 4;
 }

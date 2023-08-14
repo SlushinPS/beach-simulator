@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2687
-// Obf: PALNPGEPFIH
+// CmdId: 20624
+// Obf: DPBGALMPEBD
 message TakeAchievementRewardReq {
-	repeated uint32 id_list = 7;
+	repeated uint32 id_list = 15;
 }

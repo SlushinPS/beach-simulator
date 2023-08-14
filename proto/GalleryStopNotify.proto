@@ -16,8 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5572
-// Obf: KNILNOFCPBH
+import "KDHIAEFLGFM.proto";
+// CmdId: 20569
+// Obf: DOHEBPBCJDH
 message GalleryStopNotify {
-	uint32 gallery_id = 1;
+	KDHIAEFLGFM GKKMABPCMBH = 10;
+	uint32 gallery_id = 13;
 }

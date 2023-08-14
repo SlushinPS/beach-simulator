@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8708
-// Obf: NFABAKHMLGP
+// CmdId: 27988
+// Obf: GJEHOHLDKCF
 message RoguelikeMistClearNotify {
 }

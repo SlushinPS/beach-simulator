@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MainCoop.proto";
-// CmdId: 1978
-// Obf: JBMOBMBBPMC
+// CmdId: 2587
+// Obf: FMEOBOHIEGC
 message AllCoopInfoNotify {
-	repeated MainCoop main_coop_list = 6;
+	repeated MainCoop main_coop_list = 13;
 }

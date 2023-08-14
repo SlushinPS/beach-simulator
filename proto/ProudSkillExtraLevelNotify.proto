@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1094
-// Obf: GCKJMOIPFPE
+// CmdId: 5863
+// Obf: CADAKBCNNHN
 message ProudSkillExtraLevelNotify {
-	uint32 talent_index = 12;
-	uint32 extra_level = 5;
-	uint64 avatar_guid = 13;
-	uint32 talent_type = 6;
+	uint64 avatar_guid = 4;
+	uint32 talent_index = 9;
+	uint32 extra_level = 8;
+	uint32 talent_type = 2;
 }

@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChannellerSlabLoopDungeonInfo.proto";
-// Obf: EBDILIGFDML
+// Obf: OIMGPMJMHJJ
 message ChannellerSlabLoopDungeonStageInfo {
-	repeated ChannellerSlabLoopDungeonInfo dungeon_info_list = 6;
-	uint32 last_difficulty_id = 14;
-	repeated uint32 taken_reward_index_list = 1;
-	bool is_open = 9;
-	uint32 open_time = 8;
+	bool is_open = 2;
+	repeated ChannellerSlabLoopDungeonInfo dungeon_info_list = 14;
+	uint32 last_difficulty_id = 12;
+	uint32 open_time = 13;
+	repeated uint32 taken_reward_index_list = 5;
 }

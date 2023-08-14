@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RegionSimpleInfo.proto";
-// Obf: IGDHIBNDKBO
+// Obf: BFDHIPNAGPP
 message QueryRegionListHttpRsp {
 	int32 retcode = 1;
 	repeated RegionSimpleInfo region_list = 2;

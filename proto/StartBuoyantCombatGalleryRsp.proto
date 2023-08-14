@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8774
-// Obf: PFCCNLCEGJH
+// CmdId: 2642
+// Obf: GAMICAFALCB
 message StartBuoyantCombatGalleryRsp {
-	int32 retcode = 12;
-	uint32 gallery_level = 2;
-	uint32 gallery_id = 13;
+	uint32 gallery_id = 11;
+	int32 retcode = 3;
+	uint32 gallery_level = 15;
 }

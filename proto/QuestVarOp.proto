@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MKOAOABANJO
+// Obf: KCGCOKGAMJM
 message QuestVarOp {
-	int32 value = 14;
-	bool is_add = 9;
-	uint32 index = 5;
+	int32 value = 4;
+	uint32 index = 1;
+	bool is_add = 11;
 }

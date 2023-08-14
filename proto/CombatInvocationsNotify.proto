@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CombatInvokeEntry.proto";
-// CmdId: 310
-// Obf: FLAKGKFNPBM
+// CmdId: 20271
+// Obf: BLEFDDJFMLO
 message CombatInvocationsNotify {
-	repeated CombatInvokeEntry invoke_list = 5;
+	repeated CombatInvokeEntry invoke_list = 15;
 }

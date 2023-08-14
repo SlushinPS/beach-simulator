@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TreasureMapBonusChallengeInfo.proto";
-// CmdId: 2091
-// Obf: FBLOFCGMIAK
+// CmdId: 23317
+// Obf: JLLLKAKIGKC
 message TreasureMapBonusChallengeNotify {
-	TreasureMapBonusChallengeInfo info = 14;
+	TreasureMapBonusChallengeInfo info = 11;
 }

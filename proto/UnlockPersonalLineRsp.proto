@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 411
-// Obf: BEPAEGMNOLD
+// CmdId: 5048
+// Obf: HPGEEFKDBJD
 message UnlockPersonalLineRsp {
-	uint32 personal_line_id = 10;
-	int32 retcode = 11;
+	int32 retcode = 9;
+	uint32 personal_line_id = 11;
 	oneof param {
-		uint32 level = 3;
+		uint32 level = 12;
 		uint32 chapter_id = 7;
 	}
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GEAOCPFMLEP
+// Obf: OPLFNKHAOBP
 enum AvatarType {
 	AVATAR_TYPE_NONE = 0;
 	AVATAR_TYPE_FORMAL = 1;

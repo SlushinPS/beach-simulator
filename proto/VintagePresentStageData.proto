@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "VintagePresentLevelData.proto";
-// Obf: GCJFMLKOFKM
+// Obf: DNJIJMEJEIB
 message VintagePresentStageData {
-	bool is_open = 10;
-	uint32 stage_id = 4;
-	bool is_finish = 14;
-	uint32 open_time = 15;
-	map<uint32, VintagePresentLevelData> present_level_map = 3;
+	bool is_open = 11;
+	uint32 stage_id = 6;
+	bool is_finish = 2;
+	map<uint32, VintagePresentLevelData> present_level_map = 5;
+	uint32 open_time = 8;
 }

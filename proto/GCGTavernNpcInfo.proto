@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GPIDFBHLGOB
+// Obf: INFMGDAOJAG
 message GCGTavernNpcInfo {
-	uint32 scene_point_id = 7;
-	uint32 id = 5;
+	uint32 id = 8;
 	uint32 level_id = 1;
+	uint32 scene_point_id = 14;
 }

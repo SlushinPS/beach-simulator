@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGTavernNpcInfo.proto";
-// CmdId: 7468
-// Obf: IOBIPFCILJM
+// CmdId: 22278
+// Obf: OPIJKGKPKBF
 message GCGTavernNpcInfoNotify {
-	repeated GCGTavernNpcInfo EJIAEGOLJFF = 5;
-	GCGTavernNpcInfo character_npc = 2;
-	repeated GCGTavernNpcInfo ONAOKJENBPG = 7;
+	GCGTavernNpcInfo character_npc = 12;
+	repeated GCGTavernNpcInfo JCHPIOHAECM = 10;
+	repeated GCGTavernNpcInfo MPNDEBELHOO = 5;
 }

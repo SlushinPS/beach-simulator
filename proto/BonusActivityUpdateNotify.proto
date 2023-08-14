@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BonusActivityInfo.proto";
-// CmdId: 2564
-// Obf: KOKOGPAPCKA
+// CmdId: 28781
+// Obf: CCPKAKDJGBN
 message BonusActivityUpdateNotify {
-	repeated BonusActivityInfo bonus_activity_info_list = 8;
+	repeated BonusActivityInfo bonus_activity_info_list = 14;
 }

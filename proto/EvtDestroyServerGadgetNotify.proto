@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 317
-// Obf: HNCKICFGIFN
+// CmdId: 23600
+// Obf: OGEONEOAOEN
 message EvtDestroyServerGadgetNotify {
-	uint32 entity_id = 2;
+	uint32 entity_id = 7;
 }

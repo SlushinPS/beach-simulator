@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5708
-// Obf: BFNPDJHLHNP
+// CmdId: 20880
+// Obf: IEOPFDFPIND
 message ServerMessageNotify {
-	uint32 index = 9;
+	uint32 index = 12;
 }

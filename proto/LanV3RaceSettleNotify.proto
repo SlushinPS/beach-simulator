@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24410
-// Obf: KANEOLFCHPA
+// CmdId: 1020
+// Obf: GKFEKPFIGKD
 message LanV3RaceSettleNotify {
-	bool is_success = 2;
-	uint32 OHFJJJNAIKN = 10;
-	uint32 NHGEAMPJEEM = 9;
-	uint32 gallery_id = 5;
-	uint32 level_id = 4;
-	uint32 CKGDCGAGEDA = 7;
-	bool is_new_record = 1;
-	uint32 score = 8;
+	uint32 NFNMJPHJDJL = 2;
+	uint32 gallery_id = 9;
+	uint32 OPKOOKDBDLD = 5;
+	uint32 CKGIEEOOHON = 15;
+	bool is_new_record = 8;
+	uint32 level_id = 6;
+	bool is_success = 13;
+	uint32 score = 11;
 }

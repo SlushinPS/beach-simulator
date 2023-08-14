@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 158
-// Obf: PCCMHCHDPBK
+// CmdId: 9133
+// Obf: BJPJABIIHDF
 message PlayerLogoutNotify {
-	int32 retcode = 1;
+	int32 retcode = 6;
 }

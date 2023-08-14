@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4040
-// Obf: ECHCGDJNBDG
+// CmdId: 5389
+// Obf: FLDCNEGDODM
 message UpdatePS4FriendListRsp {
-	repeated string psn_id_list = 15;
-	int32 retcode = 8;
+	repeated string psn_id_list = 6;
+	int32 retcode = 5;
 }

@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TowerFightRecordPair.proto";
-// Obf: DDGMCLMGAEB
+// Obf: EMBGICANBKA
 message TowerMonthlyCombatRecord {
-	TowerFightRecordPair EHHBCCELFJP = 10;
-	TowerFightRecordPair CKFJOBEGIBP = 3;
-	TowerFightRecordPair INPDIKBEPHO = 4;
-	repeated TowerFightRecordPair most_reveal_avatar_list = 1;
-	TowerFightRecordPair OOJBKPKOEOB = 8;
-	TowerFightRecordPair INGIBPLIPAB = 12;
+	TowerFightRecordPair AEMLKAIEELH = 14;
+	TowerFightRecordPair OBPLLGJLKHF = 2;
+	TowerFightRecordPair LDEOAIPGDJC = 12;
+	TowerFightRecordPair HNFPAAPAABN = 4;
+	repeated TowerFightRecordPair most_reveal_avatar_list = 11;
+	TowerFightRecordPair LJPMFHNJBDD = 10;
 }

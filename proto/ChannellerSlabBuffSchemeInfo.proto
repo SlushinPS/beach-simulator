@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CHLBOOLNDEN
+// Obf: FPHALDOONBG
 message ChannellerSlabBuffSchemeInfo {
-	uint32 DAAFHHDKFOK = 1;
-	map<uint32, uint32> slot_map = 3;
-	uint32 DBNLCMLIKGC = 5;
+	uint32 OGCHFGCANIP = 2;
+	uint32 JBJAFBCPAGD = 11;
+	map<uint32, uint32> slot_map = 9;
 }

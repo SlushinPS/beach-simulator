@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: BAADBIGHGPM
+// Obf: EKELBKHKMLP
 message HomeFurnitureSuiteData {
-	repeated int32 included_furniture_index_list = 2;
-	uint32 suite_id = 13;
-	uint32 guid = 3;
-	Vector spawn_pos = 15;
-	bool is_allow_summon = 14;
+	Vector spawn_pos = 14;
+	uint32 guid = 10;
+	uint32 suite_id = 8;
+	repeated int32 included_furniture_index_list = 3;
+	bool is_allow_summon = 7;
 }

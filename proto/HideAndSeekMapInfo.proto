@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DKJEPJOGLDO
+// Obf: FHFHFNPPCFI
 message HideAndSeekMapInfo {
-	repeated uint32 match_lock_reason_list = 10;
-	uint32 id = 4;
+	uint32 id = 1;
+	repeated uint32 match_lock_reason_list = 3;
 }

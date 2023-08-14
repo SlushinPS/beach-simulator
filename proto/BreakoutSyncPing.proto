@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MMPEIBJBNMB
+// Obf: LEPGDJGKNLI
 message BreakoutSyncPing {
-	uint64 client_game_time = 14;
-	uint64 server_game_time = 11;
+	uint64 client_game_time = 13;
+	uint64 server_game_time = 4;
 }

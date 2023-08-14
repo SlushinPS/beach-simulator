@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 898
-// Obf: GEAPKJPIIBL
+// CmdId: 9742
+// Obf: FNFAIBECOME
 message GadgetChangeLevelTagRsp {
-	int32 retcode = 2;
+	int32 retcode = 15;
 }

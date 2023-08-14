@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1813
-// Obf: EPNIBNCAMOE
+// CmdId: 20017
+// Obf: JBFAELEDEGP
 message MpPlayOwnerStartInviteRsp {
-	int32 retcode = 11;
+	bool is_skip_match = 8;
+	int32 retcode = 1;
 	uint32 mp_play_id = 13;
-	bool is_skip_match = 2;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5421
-// Obf: GKFGBAAFEIN
+// CmdId: 24753
+// Obf: NLNCHHAMKLJ
 message DraftTwiceConfirmResultNotify {
-	uint32 draft_id = 4;
-	bool is_all_argee = 5;
+	uint32 draft_id = 11;
+	bool is_all_argee = 3;
 }

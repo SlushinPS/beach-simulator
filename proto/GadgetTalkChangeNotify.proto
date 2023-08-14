@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 888
-// Obf: DCOECKBJGIA
+// CmdId: 3815
+// Obf: AMGLFFODACB
 message GadgetTalkChangeNotify {
-	uint32 cur_gadget_talk_state = 14;
-	uint32 gadget_entity_id = 3;
+	uint32 gadget_entity_id = 10;
+	uint32 cur_gadget_talk_state = 11;
 }

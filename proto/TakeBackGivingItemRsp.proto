@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 145
-// Obf: OJJEFFEPDLI
+// CmdId: 20307
+// Obf: MCKLDOKBMBC
 message TakeBackGivingItemRsp {
-	uint32 giving_id = 2;
-	int32 retcode = 12;
+	uint32 giving_id = 14;
+	int32 retcode = 9;
 }

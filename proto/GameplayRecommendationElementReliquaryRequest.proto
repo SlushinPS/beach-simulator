@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PAALDLMIFHJ
+// Obf: NBDCLJMOJMI
 message GameplayRecommendationElementReliquaryRequest {
-	uint32 element_type = 3;
-	uint32 equip_type = 5;
+	uint32 equip_type = 13;
+	uint32 element_type = 2;
 }

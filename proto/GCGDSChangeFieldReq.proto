@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7321
-// Obf: MJDLKAIIMNM
+// CmdId: 549
+// Obf: LMNCFIKIMJF
 message GCGDSChangeFieldReq {
-	uint32 field_id = 12;
-	uint32 deck_id = 4;
+	uint32 deck_id = 3;
+	uint32 field_id = 7;
 }

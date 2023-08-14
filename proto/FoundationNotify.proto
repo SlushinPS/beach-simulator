@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FoundationInfo.proto";
-// CmdId: 838
-// Obf: MLGJDILLNOB
+// CmdId: 3606
+// Obf: OACBEHADMHF
 message FoundationNotify {
-	FoundationInfo info = 2;
-	uint32 gadget_entity_id = 5;
+	FoundationInfo info = 3;
+	uint32 gadget_entity_id = 4;
 }

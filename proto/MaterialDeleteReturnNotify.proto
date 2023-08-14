@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MaterialDeleteReturnType.proto";
-// CmdId: 623
-// Obf: JKLIILONGOM
+// CmdId: 6719
+// Obf: KLNDAJDJPNC
 message MaterialDeleteReturnNotify {
-	map<uint32, uint32> GMKEMPBHDOA = 4;
-	MaterialDeleteReturnType type = 6;
-	map<uint32, uint32> CMLDFHFNPHG = 10;
+	MaterialDeleteReturnType type = 12;
+	map<uint32, uint32> JICOKOIADLN = 11;
+	map<uint32, uint32> AJFNGKJPABI = 3;
 }

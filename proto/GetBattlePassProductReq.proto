@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2623
-// Obf: KPMHPLPAEEJ
+// CmdId: 2201
+// Obf: ONOAMGPAPPH
 message GetBattlePassProductReq {
-	uint32 battle_pass_product_play_type = 14;
+	uint32 battle_pass_product_play_type = 1;
 }

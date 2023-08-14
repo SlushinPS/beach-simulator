@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JGBCFAMHKCP
+// Obf: KFCPBANHIDH
 message PBNavMeshPoly {
-	// Obf: NENAAAKMHPN
+	// Obf: LDJGIJGJJBP
 	enum EdgeType {
 		INNER = 0;
 		TILE_BOUND = 1;
@@ -26,7 +26,7 @@ message PBNavMeshPoly {
 		TILE_BOUND_OVERIDE = 3;
 	}
 	
-	repeated int32 vects = 2;
-	repeated EdgeType edge_types = 13;
-	int32 area = 5;
+	int32 area = 1;
+	repeated EdgeType edge_types = 11;
+	repeated int32 vects = 7;
 }

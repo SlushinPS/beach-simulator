@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PbNavMeshStatsInfo.proto";
-// CmdId: 2374
-// Obf: PLPMACOCIMJ
+// CmdId: 2339
+// Obf: AKDOLJNNLOM
 message NavMeshStatsNotify {
-	repeated PbNavMeshStatsInfo infos = 9;
+	repeated PbNavMeshStatsInfo infos = 2;
 }

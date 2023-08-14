@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AbilitySyncStateInfo.proto";
-// Obf: BCJDGLPGIFK
+// Obf: EHPIOEOLPIA
 message PlayTeamEntityInfo {
 	uint32 entity_id = 1;
 	uint32 player_uid = 2;

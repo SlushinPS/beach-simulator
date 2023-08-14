@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2146
-// Obf: IMDAGCFCHAK
+// CmdId: 7738
+// Obf: IINFKHGEHPA
 message EnterTrialAvatarActivityDungeonReq {
+	uint32 enter_point_id = 2;
 	uint32 activity_id = 10;
-	uint32 trial_avatar_index_id = 3;
-	uint32 enter_point_id = 8;
+	uint32 trial_avatar_index_id = 6;
 }

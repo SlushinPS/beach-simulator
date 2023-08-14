@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2106
-// Obf: MAAKMJOIMIG
+// CmdId: 20340
+// Obf: OMEPMBGNIDB
 message SetCurExpeditionChallengeIdReq {
-	uint32 id = 11;
+	uint32 id = 4;
 }

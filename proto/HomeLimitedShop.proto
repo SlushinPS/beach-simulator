@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeLimitedShopGoods.proto";
-// Obf: NPMNNGIFGEG
+// Obf: MDHPMMADLIK
 message HomeLimitedShop {
-	repeated HomeLimitedShopGoods goods_list = 14;
+	repeated HomeLimitedShopGoods goods_list = 5;
 }

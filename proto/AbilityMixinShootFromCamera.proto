@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: EOEKNCGNPGB
+// Obf: KMDKCMLECGB
 message AbilityMixinShootFromCamera {
-	Vector InitPos = 5;
-	Vector forward = 4;
+	Vector InitPos = 4;
+	Vector forward = 11;
 }

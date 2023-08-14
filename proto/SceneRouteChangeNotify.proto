@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SceneRouteChangeInfo.proto";
-// CmdId: 297
-// Obf: MCHDAMBCLPA
+// CmdId: 9691
+// Obf: JOCLHFBINGA
 message SceneRouteChangeNotify {
-	uint32 scene_id = 8;
-	repeated SceneRouteChangeInfo route_list = 9;
-	uint32 scene_time = 3;
+	uint32 scene_time = 13;
+	uint32 scene_id = 7;
+	repeated SceneRouteChangeInfo route_list = 11;
 }

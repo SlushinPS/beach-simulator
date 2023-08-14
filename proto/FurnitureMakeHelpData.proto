@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: IGGFPDFMJAL
+// Obf: OJADJNFBBCL
 message FurnitureMakeHelpData {
-	uint32 uid = 8;
-	uint32 times = 5;
+	uint32 times = 10;
+	uint32 uid = 4;
 }

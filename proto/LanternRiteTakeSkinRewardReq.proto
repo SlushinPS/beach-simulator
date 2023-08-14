@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8066
-// Obf: HKBMBCKHENM
+// CmdId: 26440
+// Obf: LMCOJFIFJBF
 message LanternRiteTakeSkinRewardReq {
 }

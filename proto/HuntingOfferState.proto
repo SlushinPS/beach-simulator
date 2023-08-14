@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NAEFMCHLNCK
+// Obf: DINBLJHHDJN
 enum HuntingOfferState {
 	HUNTING_OFFER_STATE_NONE = 0;
 	HUNTING_OFFER_STATE_STARTED = 1;

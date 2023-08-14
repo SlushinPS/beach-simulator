@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlayerRTTInfo.proto";
-// CmdId: 6
-// Obf: DBMMIAMOIGH
+// CmdId: 421
+// Obf: JNKBKEOBKGL
 message WorldPlayerRTTNotify {
-	repeated PlayerRTTInfo player_rtt_list = 9;
+	repeated PlayerRTTInfo player_rtt_list = 6;
 }

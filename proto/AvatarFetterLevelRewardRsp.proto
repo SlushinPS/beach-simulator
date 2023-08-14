@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1732
-// Obf: CLPAKFGDIPA
+// CmdId: 3975
+// Obf: MEJJHABMCID
 message AvatarFetterLevelRewardRsp {
-	uint64 avatar_guid = 3;
 	uint32 fetter_level = 12;
-	uint32 reward_id = 2;
-	int32 retcode = 15;
+	uint32 reward_id = 7;
+	int32 retcode = 5;
+	uint64 avatar_guid = 11;
 }

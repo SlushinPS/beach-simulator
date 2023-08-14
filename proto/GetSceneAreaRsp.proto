@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CityInfo.proto";
-// CmdId: 224
-// Obf: KAKHAKLHMDF
+// CmdId: 27029
+// Obf: GOPJBKDDELB
 message GetSceneAreaRsp {
-	repeated CityInfo city_info_list = 3;
-	int32 retcode = 9;
-	uint32 scene_id = 14;
-	repeated uint32 area_id_list = 6;
+	repeated CityInfo city_info_list = 11;
+	int32 retcode = 3;
+	uint32 scene_id = 7;
+	repeated uint32 area_id_list = 2;
 }

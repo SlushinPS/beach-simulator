@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DynamicSVONode.proto";
-// Obf: JBLLEPHMFMJ
+// Obf: HJCMPLOCJKE
 message DynamicLayerNodes {
-	repeated DynamicSVONode nodes = 11;
-	int32 level = 10;
+	int32 level = 5;
+	repeated DynamicSVONode nodes = 14;
 }

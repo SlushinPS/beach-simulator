@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CoopPoint.proto";
-// CmdId: 1951
-// Obf: ICIDLEFMBMM
+// CmdId: 7401
+// Obf: DELDCGOMOEG
 message CoopPointUpdateNotify {
-	CoopPoint coop_point = 5;
+	CoopPoint coop_point = 6;
 }

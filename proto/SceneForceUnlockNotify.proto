@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 243
-// Obf: LNPMOKMCIOM
+// CmdId: 3275
+// Obf: AKPHLEGNIAH
 message SceneForceUnlockNotify {
-	repeated uint32 force_id_list = 4;
-	bool is_add = 9;
+	bool is_add = 15;
+	repeated uint32 force_id_list = 2;
 }

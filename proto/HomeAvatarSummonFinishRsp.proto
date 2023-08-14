@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4562
-// Obf: OJOBMFOEFCL
+// CmdId: 8835
+// Obf: LIPNGPJHCIB
 message HomeAvatarSummonFinishRsp {
-	uint32 event_id = 10;
-	int32 retcode = 9;
+	int32 retcode = 1;
+	uint32 event_id = 4;
 }

@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ReunionMissionInfo.proto";
-// CmdId: 5085
-// Obf: IABDIONJBBC
+// CmdId: 20173
+// Obf: AFBFGPLPJKF
 message TakeReunionMissionRewardRsp {
-	ReunionMissionInfo mission_info = 9;
-	int32 retcode = 14;
-	uint32 reward_index = 6;
-	uint32 reward_id = 7;
+	ReunionMissionInfo mission_info = 8;
+	uint32 reward_index = 4;
+	uint32 reward_id = 1;
+	int32 retcode = 12;
 }

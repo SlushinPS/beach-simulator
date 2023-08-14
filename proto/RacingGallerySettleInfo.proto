@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "HDDANIDHCMI.proto";
-// Obf: IBEPMEHMFIP
+import "KDHIAEFLGFM.proto";
+// Obf: APOLMDBNNMP
 message RacingGallerySettleInfo {
-	uint32 use_time = 14;
-	uint32 winner_uid = 10;
-	HDDANIDHCMI reason = 11;
+	uint32 winner_uid = 13;
+	uint32 use_time = 1;
+	KDHIAEFLGFM reason = 6;
 }

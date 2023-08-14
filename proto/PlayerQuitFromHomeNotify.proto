@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4605
-// Obf: NMHILDHPJFE
+// CmdId: 27102
+// Obf: CAIIHFNBIMA
 message PlayerQuitFromHomeNotify {
-	// Obf: KPNJEBFIPEO
+	// Obf: ALCHPFAKDCI
 	enum QuitReason {
 		INVALID = 0;
 		KICK_BY_HOST = 1;
@@ -30,5 +30,5 @@ message PlayerQuitFromHomeNotify {
 		CUR_MODULE_CLOSED = 6;
 	}
 	
-	QuitReason reason = 13;
+	QuitReason reason = 14;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "EntityMoveFailInfo.proto";
-// CmdId: 237
-// Obf: DFCABGAIOAM
+// CmdId: 8605
+// Obf: GKFMIOACJJA
 message SceneEntitiesMovesRsp {
-	repeated EntityMoveFailInfo entity_move_fail_info_list = 15;
+	repeated EntityMoveFailInfo entity_move_fail_info_list = 12;
 }

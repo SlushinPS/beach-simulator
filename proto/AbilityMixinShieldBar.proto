@@ -16,9 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
+// Obf: FIIOICNBIAJ
 message AbilityMixinShieldBar {
-	float max_shield = 5;
-	uint32 element_type = 8;
-	uint32 player_num = 10;
-	float shield = 7;
+	uint32 element_type = 7;
+	float FFMBPIKIJAP = 5;
+	float FIEFKGHCBBO = 8;
+	uint32 player_num = 1;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3283
-// Obf: HFEPLDBGOGF
+// CmdId: 27174
+// Obf: DLNOGFFHMHA
 message SceneWeatherForcastReq {
-	uint32 weather_area_id = 5;
+	uint32 weather_area_id = 2;
 }

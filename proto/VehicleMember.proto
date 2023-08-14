@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LJCCNICECIC
+// Obf: NFOCOBNABPO
 message VehicleMember {
 	uint32 uid = 1;
 	uint64 avatar_guid = 2;

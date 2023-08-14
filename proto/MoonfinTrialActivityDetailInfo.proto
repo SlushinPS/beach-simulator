@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MoonfinTrialLevelInfo.proto";
-// Obf: MAJAOJJADHK
+// Obf: KPPONIEPJGF
 message MoonfinTrialActivityDetailInfo {
-	map<uint32, MoonfinTrialLevelInfo> level_info_map = 1;
-	uint32 special_fish_count = 5;
+	uint32 special_fish_count = 6;
+	map<uint32, MoonfinTrialLevelInfo> level_info_map = 3;
 }

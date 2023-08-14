@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "IrodoriFlowerData.proto";
 import "IrodoriChessData.proto";
 import "IrodoriPoetryData.proto";
 import "IrodoriMasterLevelInfo.proto";
-// Obf: CJMCFPIKLJG
+import "IrodoriFlowerData.proto";
+// Obf: MCNHNNBBFKH
 message IrodoriActivityDetailInfo {
-	IrodoriFlowerData flower_data = 1;
-	IrodoriChessData chess_data = 2;
-	IrodoriPoetryData poetry_data = 13;
-	repeated IrodoriMasterLevelInfo master_level_list = 3;
+	IrodoriChessData chess_data = 8;
+	IrodoriPoetryData poetry_data = 4;
+	repeated IrodoriMasterLevelInfo master_level_list = 1;
+	IrodoriFlowerData flower_data = 13;
 }

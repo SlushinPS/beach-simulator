@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FOPDMMNKCLB
+// Obf: ODDFKCNFKLI
 message SalvageScoreChallengeInfo {
-	uint32 max_score = 3;
-	uint32 salvage_challenge_id = 12;
+	uint32 max_score = 15;
+	uint32 salvage_challenge_id = 5;
 }

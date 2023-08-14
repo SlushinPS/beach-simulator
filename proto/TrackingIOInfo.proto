@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JOKGLALOCCK
+// Obf: KHGEJFEMNFJ
 message TrackingIOInfo {
-	string PHKLBMJLABP = 8;
-	string MCPANGKOECL = 15;
-	string OFKJCJFIHDA = 4;
-	string ADHIHLMGAAA = 9;
-	string BEBOGAEBAGG = 10;
-	string BBMJLHFKKDB = 7;
-	string OAKADAODLLM = 14;
+	string JFEEMKEKMKN = 6;
+	string FCPKNHGBLCF = 7;
+	string OHMDCAEDJPG = 15;
+	string DPKNOBIHNPI = 4;
+	string MDBEAHIPNIC = 1;
+	string LCNCLEJILOF = 11;
+	string GIAEKBEHJIC = 12;
 }

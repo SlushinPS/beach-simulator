@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "InBattleMechanicusBuildingInfo.proto";
-// Obf: KPDBJECAPML
+// Obf: PJPBCNJIJAJ
 message InBattleMechanicusPlayerInfo {
-	uint32 HCIGMAMMHPI = 6;
-	repeated InBattleMechanicusBuildingInfo building_list = 12;
-	uint32 uid = 10;
-	uint32 DHOCBFFKAEN = 9;
-	bool is_card_confirmed = 14;
+	uint32 uid = 12;
+	repeated InBattleMechanicusBuildingInfo building_list = 1;
+	bool is_card_confirmed = 15;
+	uint32 KPMCJHIAAPO = 11;
+	uint32 ALNKBIFEJHG = 7;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4026
-// Obf: DGDJIDOAGPL
+// CmdId: 28550
+// Obf: MIOFHIOGCNF
 message GetAllUnlockNameCardRsp {
-	repeated uint32 name_card_list = 11;
-	int32 retcode = 13;
+	repeated uint32 name_card_list = 8;
+	int32 retcode = 9;
 }

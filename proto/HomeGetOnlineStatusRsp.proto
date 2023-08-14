@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "OnlinePlayerInfo.proto";
-// CmdId: 4746
-// Obf: HIANAFLOAEM
+// CmdId: 8222
+// Obf: AAFHDCLFODB
 message HomeGetOnlineStatusRsp {
-	int32 retcode = 7;
-	repeated OnlinePlayerInfo player_info_list = 2;
+	int32 retcode = 10;
+	repeated OnlinePlayerInfo player_info_list = 6;
 }

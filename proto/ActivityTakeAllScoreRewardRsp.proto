@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8332
-// Obf: HDEJPPGNCAB
+// CmdId: 1014
+// Obf: KPENJMPPFHB
 message ActivityTakeAllScoreRewardRsp {
-	uint32 activity_id = 6;
-	repeated uint32 reward_config_list = 9;
-	int32 retcode = 10;
+	uint32 activity_id = 3;
+	int32 retcode = 11;
+	repeated uint32 reward_config_list = 2;
 }

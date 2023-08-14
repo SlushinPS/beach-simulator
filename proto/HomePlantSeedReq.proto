@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4578
-// Obf: LNJFLEBKHEP
+// CmdId: 20675
+// Obf: ICKLAFNIFMO
 message HomePlantSeedReq {
-	repeated uint32 seed_id_list = 7;
-	uint32 field_guid = 6;
-	uint32 index = 10;
+	repeated uint32 seed_id_list = 4;
+	uint32 index = 12;
+	uint32 field_guid = 10;
 }

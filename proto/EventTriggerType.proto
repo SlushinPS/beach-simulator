@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: COGCCGNJACN
+// Obf: NCBNIKIODKP
 enum EventTriggerType {
 	EVENT_TRIGGER_NONE = 0;
 	EVENT_TRIGGER_ENTER_FORCE = 1;

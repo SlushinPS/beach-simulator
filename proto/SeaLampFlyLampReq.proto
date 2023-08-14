@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 2144
-// Obf: KDILEHOKEMA
+// CmdId: 283
+// Obf: IIMOKOHGGJJ
 message SeaLampFlyLampReq {
-	Vector pos = 15;
-	int32 param = 6;
-	uint32 item_num = 1;
+	Vector pos = 6;
+	int32 param = 7;
+	uint32 item_num = 15;
 	uint32 item_id = 8;
 }

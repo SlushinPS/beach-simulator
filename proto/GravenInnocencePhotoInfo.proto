@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "GravenInnocencePhotoObjectInfo.proto";
 import "GravenInnocencePhotoStageInfo.proto";
-// Obf: KOEBDBCCGLJ
+import "GravenInnocencePhotoObjectInfo.proto";
+// Obf: HLNCBIKONCA
 message GravenInnocencePhotoInfo {
-	repeated GravenInnocencePhotoObjectInfo object_info_list = 8;
-	repeated GravenInnocencePhotoStageInfo stage_info_list = 13;
+	repeated GravenInnocencePhotoStageInfo stage_info_list = 11;
+	repeated GravenInnocencePhotoObjectInfo object_info_list = 15;
 }

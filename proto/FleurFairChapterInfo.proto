@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ANBPPBIEHCK
+// Obf: BGDPGELKJAF
 message FleurFairChapterInfo {
-	uint32 chapter_id = 3;
-	uint32 open_time = 7;
+	uint32 open_time = 9;
+	uint32 chapter_id = 12;
 }

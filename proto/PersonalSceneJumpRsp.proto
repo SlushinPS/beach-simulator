@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 289
-// Obf: PLGLDALKIJC
+// CmdId: 26151
+// Obf: FENDEOICMKE
 message PersonalSceneJumpRsp {
-	Vector dest_pos = 8;
-	uint32 dest_scene_id = 5;
-	int32 retcode = 14;
+	uint32 dest_scene_id = 6;
+	Vector dest_pos = 14;
+	int32 retcode = 8;
 }

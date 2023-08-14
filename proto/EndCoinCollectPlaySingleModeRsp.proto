@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21649
-// Obf: FMMLKPHCBJE
+// CmdId: 24474
+// Obf: FFAMGAGOFAI
 message EndCoinCollectPlaySingleModeRsp {
 	int32 retcode = 13;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8583
-// Obf: APIHLPKFBGN
+// CmdId: 2690
+// Obf: GALCIMKINBH
 message MusicGameStartReq {
-	uint32 music_basic_id = 9;
-	bool is_save_score = 11;
-	uint64 ugc_guid = 4;
+	uint64 ugc_guid = 12;
+	uint32 music_basic_id = 8;
+	bool is_save_score = 13;
 }

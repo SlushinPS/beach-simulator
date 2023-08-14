@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4786
-// Obf: NDEGAABFNKA
+// CmdId: 20885
+// Obf: BFCMDBHEBGK
 message GetHomeExchangeWoodInfoReq {
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8143
-// Obf: HNIGMIMDMJK
+// CmdId: 8056
+// Obf: IOHMHIBGLGI
 message StartRogueNormalCellChallengeRsp {
-	uint32 dungeon_id = 10;
-	uint32 cell_id = 12;
-	int32 retcode = 9;
+	uint32 cell_id = 15;
+	uint32 dungeon_id = 1;
+	int32 retcode = 12;
 }

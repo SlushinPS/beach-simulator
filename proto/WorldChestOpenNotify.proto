@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3098
-// Obf: GOCBFIPGBEC
+// CmdId: 9116
+// Obf: CMEJIMOMCEO
 message WorldChestOpenNotify {
-	uint32 group_id = 11;
-	uint32 config_id = 6;
-	uint32 scene_id = 2;
+	uint32 group_id = 5;
+	uint32 config_id = 4;
+	uint32 scene_id = 11;
 }

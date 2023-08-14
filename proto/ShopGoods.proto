@@ -17,26 +17,26 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// Obf: PIILCEEKMMC
+// Obf: OBABFCEJLGK
 message ShopGoods {
-	uint32 begin_time = 14;
-	uint32 APOECIACFPK = 1474;
-	repeated ItemParam cost_item_list = 10;
-	uint32 max_level = 8;
-	uint32 AEBBIJALJCB = 1508;
-	uint32 scoin = 12;
-	uint32 hcoin = 11;
-	uint32 min_level = 13;
-	uint32 bought_num = 7;
-	uint32 KINAPHHFNPA = 256;
-	uint32 next_refresh_time = 1;
-	uint32 buy_limit = 3;
-	ItemParam goods_item = 6;
-	uint32 secondary_sheet_id = 1819;
-	uint32 KAPLOLJDEON = 15;
-	uint32 goods_id = 9;
-	uint32 end_time = 4;
+	uint32 NPBGGAMEDJG = 4;
+	uint32 FEMEEIEHBBL = 11;
+	uint32 JOMBNPMFHGG = 8;
+	repeated ItemParam cost_item_list = 3;
+	uint32 AAINEEHFPBJ = 1690;
+	uint32 bought_num = 14;
+	uint32 DIHOGOJNKHB = 923;
+	uint32 begin_time = 13;
+	uint32 BNEKKILPEKF = 1950;
 	repeated uint32 preGoodsIdList = 5;
-	uint32 IAEPIAMFCPF = 772;
-	uint32 mcoin = 2;
+	uint32 KANFIKNKONL = 10;
+	ItemParam goods_item = 1;
+	uint32 NODBIKCALJI = 12;
+	uint32 EKGBDJFIDJO = 2;
+	uint32 KKKOCADJCHM = 898;
+	uint32 OENMLOAFHMJ = 1946;
+	uint32 BDBHIJCECNP = 7;
+	uint32 end_time = 6;
+	uint32 hcoin = 15;
+	uint32 next_refresh_time = 9;
 }

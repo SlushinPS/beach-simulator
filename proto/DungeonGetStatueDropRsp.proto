@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 924
-// Obf: MEBFNMCCCAJ
+// CmdId: 29858
+// Obf: BLLAODMBPOE
 message DungeonGetStatueDropRsp {
-	int32 retcode = 14;
+	int32 retcode = 11;
 }

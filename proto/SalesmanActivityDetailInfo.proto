@@ -17,16 +17,16 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SalesmanStatusType.proto";
-// Obf: HHBPGNPOECK
+// Obf: OODHMOEJLLE
 message SalesmanActivityDetailInfo {
-	bool EMDKLOLLFIE = 11;
-	SalesmanStatusType status = 2;
-	uint32 EHHIEIBIFOH = 7;
-	map<uint32, uint32> selected_reward_id_map = 9;
-	uint32 MCJPKPDEIOE = 13;
-	uint32 day_reward_id = 14;
-	uint32 day_index = 6;
-	uint32 KNGECCJOOKO = 3;
-	uint32 HMIKNKJJAIH = 1;
-	bool OAAPGPJLNDM = 15;
+	uint32 AFJBNMCAMOB = 9;
+	SalesmanStatusType status = 12;
+	bool FNPJPBEODBN = 2;
+	uint32 GCGDGLAKAIC = 3;
+	uint32 day_index = 4;
+	map<uint32, uint32> selected_reward_id_map = 6;
+	uint32 CCKNCIGDIDH = 14;
+	uint32 day_reward_id = 8;
+	bool PNGNAEEEEHC = 1;
+	uint32 HCAIPINLEJC = 15;
 }

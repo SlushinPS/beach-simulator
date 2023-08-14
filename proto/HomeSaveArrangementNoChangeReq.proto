@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4628
-// Obf: JAAAAHEADGJ
+// CmdId: 2521
+// Obf: GPHNPONJLKO
 message HomeSaveArrangementNoChangeReq {
-	uint32 scene_id = 9;
+	uint32 scene_id = 1;
 }

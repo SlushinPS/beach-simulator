@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AbilityString.proto";
-// Obf: HDNMEHLEAGE
+// Obf: HFHFECKAJGB
 message ModifierProperty {
-	float value = 4;
-	AbilityString key = 12;
+	AbilityString key = 10;
+	float value = 14;
 }

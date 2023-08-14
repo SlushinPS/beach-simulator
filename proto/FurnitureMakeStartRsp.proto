@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FurnitureMakeSlot.proto";
-// CmdId: 4724
-// Obf: MGPINOKJHIM
+// CmdId: 21400
+// Obf: BBEDDELOBIC
 message FurnitureMakeStartRsp {
-	FurnitureMakeSlot furniture_make_slot = 10;
-	int32 retcode = 12;
+	int32 retcode = 1;
+	FurnitureMakeSlot furniture_make_slot = 6;
 }

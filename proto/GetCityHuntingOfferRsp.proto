@@ -18,13 +18,13 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HuntingOfferData.proto";
 import "HuntingPair.proto";
-// CmdId: 4321
-// Obf: PEOADBLKKFM
+// CmdId: 6015
+// Obf: PHNMECOCEEN
 message GetCityHuntingOfferRsp {
-	uint32 next_refresh_time = 6;
-	uint32 cur_week_finished_count = 3;
-	uint32 city_id = 2;
-	int32 retcode = 11;
-	repeated HuntingOfferData hunting_offer_list = 1;
-	HuntingPair ongoing_hunting_pair = 9;
+	int32 retcode = 12;
+	repeated HuntingOfferData hunting_offer_list = 9;
+	uint32 next_refresh_time = 3;
+	uint32 city_id = 6;
+	uint32 cur_week_finished_count = 4;
+	HuntingPair ongoing_hunting_pair = 15;
 }

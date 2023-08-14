@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BlossomChestInfo.proto";
-// CmdId: 835
-// Obf: JPJFICLJICJ
+// CmdId: 28622
+// Obf: LEBKALOBMAA
 message BlossomChestInfoNotify {
-	uint32 entity_id = 11;
-	BlossomChestInfo blossom_chest_info = 14;
+	uint32 entity_id = 15;
+	BlossomChestInfo blossom_chest_info = 13;
 }

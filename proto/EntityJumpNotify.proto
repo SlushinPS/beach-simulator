@@ -17,18 +17,18 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 206
-// Obf: GBHPACMEGNN
+// CmdId: 8767
+// Obf: KLMLLNEFCEG
 message EntityJumpNotify {
-	// Obf: KIAKCFAKDAM
+	// Obf: ONNNDBFLCGB
 	enum Type {
 		NULL = 0;
 		ACTIVE = 1;
 		PASSIVE = 2;
 	}
 	
-	Vector rot = 6;
-	Vector pos = 14;
-	uint32 entity_id = 13;
+	Vector rot = 14;
 	Type jump_type = 1;
+	uint32 entity_id = 10;
+	Vector pos = 2;
 }

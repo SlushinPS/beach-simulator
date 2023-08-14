@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HIFDGGNOKNC
+// Obf: KKPDGAEKGHF
 message Vector3Int {
 	int32 x = 1;
 	int32 y = 2;

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BuoyantCombatGallerySettleInfo.proto";
-// Obf: CPKHDLEDMBM
+// Obf: MDJEIBAMMGM
 message BuoyantCombatSettleInfo {
-	BuoyantCombatGallerySettleInfo settle_info = 2;
-	bool is_new_record = 14;
+	bool is_new_record = 1;
+	BuoyantCombatGallerySettleInfo settle_info = 15;
 }

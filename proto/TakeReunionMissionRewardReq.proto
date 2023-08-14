@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5092
-// Obf: ODCOABFIGPA
+// CmdId: 6568
+// Obf: MNLBDJCBCHJ
 message TakeReunionMissionRewardReq {
-	uint32 reward_index = 11;
-	uint32 mission_id = 5;
-	uint32 reward_id = 6;
+	uint32 mission_id = 13;
+	uint32 reward_id = 10;
+	uint32 reward_index = 5;
 }

@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: NELMFHIBKGK
+// Obf: AEPAOCNLPHA
 message CustomDungeonBlock {
-	uint32 block_id = 5;
-	uint32 guid = 11;
-	Vector pos = 3;
-	Vector rot = 10;
+	uint32 guid = 15;
+	Vector rot = 9;
+	Vector pos = 5;
+	uint32 block_id = 10;
 }

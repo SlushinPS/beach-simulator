@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 315
-// Obf: OMODMHOJJCL
+// CmdId: 4595
+// Obf: MJNMJNGNOJO
 message EvtBeingHealedNotify {
-	float BCPCBNJPKML = 15;
-	uint32 source_id = 13;
-	float INLMLKPPDPI = 5;
-	uint32 target_id = 1;
+	uint32 source_id = 5;
+	float NNKHJEJKNDO = 8;
+	float OHLCBKLHLGL = 3;
+	uint32 target_id = 7;
 }

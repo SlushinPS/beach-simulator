@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5381
-// Obf: IMMPAKBFGBD
+// CmdId: 2047
+// Obf: CGAIMPHPHLB
 message BrickBreakerSelectAvatarReq {
-	repeated uint32 avatar_id = 6;
+	repeated uint32 avatar_id = 12;
 }

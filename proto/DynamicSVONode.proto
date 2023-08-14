@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: JPEGENEFKLC
+// Obf: HOJNPGJMOML
 message DynamicSVONode {
-	int64 index = 3;
-	Vector refer_pos = 14;
-	int32 area = 4;
+	Vector refer_pos = 10;
+	int32 area = 7;
+	int64 index = 11;
 }

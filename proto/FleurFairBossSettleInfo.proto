@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FleurFairPlayerStatInfo.proto";
-// Obf: GHACMDAFIFI
+// Obf: BCMAOMLGLBJ
 message FleurFairBossSettleInfo {
-	uint32 cost_time = 8;
-	repeated FleurFairPlayerStatInfo stat_info_list = 14;
-	uint32 energy = 7;
+	repeated FleurFairPlayerStatInfo stat_info_list = 7;
+	uint32 energy = 8;
+	uint32 reward_token_num = 10;
 	bool is_success = 5;
-	uint32 reward_token_num = 6;
+	uint32 cost_time = 6;
 }

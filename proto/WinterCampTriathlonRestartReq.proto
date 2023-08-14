@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8466
-// Obf: IAJJGKEHBBB
+// CmdId: 9024
+// Obf: NHGOMJHKLGD
 message WinterCampTriathlonRestartReq {
-	uint32 gallery_id = 10;
+	uint32 gallery_id = 3;
 }

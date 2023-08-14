@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NMPOJEDAAMJ
+// Obf: NKDOHGNGCLG
 message LunchBoxData {
-	map<uint32, uint32> slot_material_map = 8;
+	map<uint32, uint32> slot_material_map = 10;
 }

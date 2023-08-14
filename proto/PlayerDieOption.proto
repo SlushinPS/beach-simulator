@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DOMJGLDFCKC
+// Obf: FEBNBMEEDHK
 enum PlayerDieOption {
 	DIE_OPT_NONE = 0;
 	DIE_OPT_REPLAY = 1;

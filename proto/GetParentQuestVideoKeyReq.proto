@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 463
-// Obf: ONLAGNGPCLK
+// CmdId: 28598
+// Obf: IDDDDFEJCNE
 message GetParentQuestVideoKeyReq {
-	uint32 parent_quest_id = 10;
+	uint32 parent_quest_id = 14;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DJFFNNEHCFM
+// Obf: KDHDHJBABKP
 message ChatChannelInfo {
-	bool is_shield = 7;
-	uint32 channel_id = 8;
+	uint32 channel_id = 13;
+	bool is_shield = 4;
 }

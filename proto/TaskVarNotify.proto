@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TaskVar.proto";
-// CmdId: 139
-// Obf: IOKCKNLIKDI
+// CmdId: 21431
+// Obf: PMLGBPPNAOH
 message TaskVarNotify {
-	repeated TaskVar task_var_list = 2;
+	repeated TaskVar task_var_list = 9;
 }

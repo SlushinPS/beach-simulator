@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5335
-// Obf: DOAKLELLMLN
+// CmdId: 23219
+// Obf: CBAEIOIMNEL
 message InBattleMechanicusPickCardReq {
-	uint32 card_id = 8;
-	uint32 play_index = 1;
 	uint32 group_id = 3;
+	uint32 card_id = 8;
+	uint32 play_index = 12;
 }

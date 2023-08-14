@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "OfferingPariDetailData.proto";
-// Obf: MHPIGIIPLIC
+// Obf: EHPEFDGPGAA
 message PlayerOfferingData {
-	map<uint32, uint32> EOLCDPBPNGG = 8;
-	bool is_first_interact = 10;
-	uint32 offering_id = 5;
-	uint32 level = 9;
-	repeated uint32 taken_level_reward_list = 12;
-	bool HJLIDMNHDFD = 3;
-	optional OfferingPariDetailData offering_pari_detail_data = 1695;
+	bool is_first_interact = 4;
+	uint32 offering_id = 11;
+	uint32 level = 8;
+	bool DDNFFOGFCIC = 13;
+	map<uint32, uint32> ELLFOGGMMKI = 2;
+	repeated uint32 taken_level_reward_list = 7;
+	optional OfferingPariDetailData offering_pari_detail_data = 173;
 }

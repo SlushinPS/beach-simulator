@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 5810
-// Obf: EABNBHCMNAD
+// CmdId: 5374
+// Obf: IKLIODDJHGC
 message FishAttractNotify {
-	uint32 uid = 10;
-	Vector pos = 3;
-	repeated uint32 fish_id_list = 11;
+	repeated uint32 fish_id_list = 14;
+	Vector pos = 6;
+	uint32 uid = 3;
 }

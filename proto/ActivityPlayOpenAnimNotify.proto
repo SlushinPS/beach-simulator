@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2131
-// Obf: NOCEOLGOMJF
+// CmdId: 4102
+// Obf: EHFADECPIFI
 message ActivityPlayOpenAnimNotify {
-	uint32 activity_id = 5;
+	uint32 activity_id = 7;
 }

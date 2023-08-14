@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TowerTeam.proto";
-// Obf: MKOKJFHLIGK
+// Obf: KJMLGFALEGC
 message TowerCurLevelRecord {
-	repeated TowerTeam tower_team_list = 11;
-	repeated uint32 buff_id_list = 2;
-	bool is_upper_part = 12;
-	uint32 cur_floor_id = 9;
-	bool is_empty = 3;
-	uint32 cur_level_index = 1;
+	repeated TowerTeam tower_team_list = 3;
+	bool is_upper_part = 7;
+	uint32 cur_floor_id = 13;
+	bool is_empty = 14;
+	uint32 cur_level_index = 11;
+	repeated uint32 buff_id_list = 8;
 }

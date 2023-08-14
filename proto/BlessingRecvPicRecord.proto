@@ -17,15 +17,15 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// Obf: JEBPABIDNIL
+// Obf: FDIOPMKFCCB
 message BlessingRecvPicRecord {
-	ProfilePicture profile_picture = 5;
-	bool is_recv = 3;
-	string remark_name = 4;
-	string signature = 9;
-	uint32 pic_id = 12;
-	uint32 avatar_id = 2;
-	string nickname = 13;
+	uint32 pic_id = 15;
 	uint32 uid = 7;
-	uint32 index = 10;
+	ProfilePicture profile_picture = 9;
+	string remark_name = 1;
+	uint32 avatar_id = 6;
+	bool is_recv = 10;
+	string signature = 4;
+	uint32 index = 13;
+	string nickname = 14;
 }

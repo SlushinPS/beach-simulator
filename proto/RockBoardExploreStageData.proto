@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JKELHAHIIKF
+// Obf: DCLEEHMPDLI
 message RockBoardExploreStageData {
-	bool is_open = 11;
-	bool is_finish = 4;
-	uint32 open_time = 13;
-	uint32 stage_id = 15;
+	bool is_open = 5;
+	uint32 open_time = 6;
+	uint32 stage_id = 8;
+	bool is_finish = 3;
 }

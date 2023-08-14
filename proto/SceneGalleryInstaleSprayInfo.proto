@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SceneGalleryInstableSprayBuffInfo.proto";
-// Obf: EABGBOLNENA
+// Obf: EFDDBLJDBKF
 message SceneGalleryInstaleSprayInfo {
-	uint32 score = 15;
-	repeated SceneGalleryInstableSprayBuffInfo buff_info_list = 14;
+	uint32 score = 1;
+	repeated SceneGalleryInstableSprayBuffInfo buff_info_list = 2;
 }

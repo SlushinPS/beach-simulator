@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KNLGCAFBAOA
+// Obf: MLEODELMDAD
 enum ReportReasonType {
 	REPORT_REASON_NONE = 0;
 	REPORT_REASON_DECEPTIVE_ADS = 1;

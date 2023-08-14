@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 104
-// Obf: EKHNFDJIEAF
+// CmdId: 3419
+// Obf: DDDJCPOFHBL
 message PlayerGameTimeByLuaNotify {
-	uint32 sim_speed = 11;
-	uint32 uid = 1;
-	uint32 game_time = 14;
+	uint32 sim_speed = 15;
+	uint32 uid = 10;
+	uint32 game_time = 4;
 }

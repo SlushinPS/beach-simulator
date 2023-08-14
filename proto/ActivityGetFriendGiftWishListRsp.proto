@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ActivityFriendGiftWishData.proto";
-// CmdId: 8682
-// Obf: OPACLPPNNFM
+// CmdId: 5014
+// Obf: DOPDNCHPPMD
 message ActivityGetFriendGiftWishListRsp {
-	uint32 schedule_id = 5;
-	repeated ActivityFriendGiftWishData friend_gift_wish_list = 3;
+	repeated ActivityFriendGiftWishData friend_gift_wish_list = 8;
 	int32 retcode = 9;
+	uint32 schedule_id = 13;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5568
-// Obf: EGCCNDJADBN
+// CmdId: 20552
+// Obf: MECIBLPNLEF
 message HomeGalleryInPlayingNotify {
-	uint32 gallery_id = 14;
+	uint32 gallery_id = 11;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "WorldRoutineTypeInfo.proto";
-// CmdId: 3508
-// Obf: NMMMLHGIFDF
+// CmdId: 1912
+// Obf: KBJMEOIECKM
 message WorldAllRoutineTypeNotify {
-	repeated WorldRoutineTypeInfo world_routine_type_list = 12;
+	repeated WorldRoutineTypeInfo world_routine_type_list = 14;
 }

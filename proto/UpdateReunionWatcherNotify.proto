@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ReunionWatcherInfo.proto";
-// CmdId: 5051
-// Obf: OBAENJHKKDK
+// CmdId: 8205
+// Obf: MOCAGIFIKPO
 message UpdateReunionWatcherNotify {
-	ReunionWatcherInfo watcher_info = 9;
-	uint32 mission_id = 13;
+	ReunionWatcherInfo watcher_info = 8;
+	uint32 mission_id = 10;
 }

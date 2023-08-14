@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7017
-// Obf: DCJMMAFGEFD
+// CmdId: 24602
+// Obf: BGEPCHMCEBK
 message GCGSkillPreviewAskRsp {
-	int32 retcode = 2;
+	int32 retcode = 15;
 }

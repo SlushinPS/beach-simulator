@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3196
-// Obf: CHELMBBJJKH
+// CmdId: 22405
+// Obf: AFINGDDHMPO
 message LeaveWorldNotify {
 }

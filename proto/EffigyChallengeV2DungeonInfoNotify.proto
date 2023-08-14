@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24567
-// Obf: HEEABPJLCIK
+// CmdId: 25353
+// Obf: KLKEPODPBIL
 message EffigyChallengeV2DungeonInfoNotify {
-	uint32 skill_no = 1;
-	uint32 challenge_mode_difficulty = 7;
-	uint32 level_id = 11;
+	uint32 level_id = 5;
+	uint32 challenge_mode_difficulty = 12;
+	uint32 skill_no = 2;
 }

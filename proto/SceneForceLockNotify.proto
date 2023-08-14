@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 203
-// Obf: ECEAOCGLDJA
+// CmdId: 7079
+// Obf: AOJACOMMPOP
 message SceneForceLockNotify {
-	repeated uint32 force_id_list = 12;
+	repeated uint32 force_id_list = 1;
 }

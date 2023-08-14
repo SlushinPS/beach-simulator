@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21521
-// Obf: FMKDOMIHJDP
+// CmdId: 27163
+// Obf: NBEDCPAKDGL
 message VintageMarketStoreViewStrategyReq {
-	uint32 strategy_id = 2;
-	repeated uint32 strategy_list = 13;
+	repeated uint32 strategy_list = 1;
+	uint32 strategy_id = 6;
 }

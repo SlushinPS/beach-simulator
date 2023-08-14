@@ -20,13 +20,15 @@ import "HomeRacingRecord.proto";
 import "HomeBalloonRecord.proto";
 import "HomeStakeRecord.proto";
 import "HomeSeekFurnitureAllRecord.proto";
-// Obf: BDLOJCGKBBH
+import "ExplosionInfo.proto";
+// Obf: OFACPDLFMFO
 message HomeGroupRecord {
-	uint32 group_id = 13;
+	uint32 group_id = 1;
 	oneof detail {
-		HomeRacingRecord racing_gallery_info = 1583;
-		HomeBalloonRecord balloon_gallery_info = 1466;
-		HomeStakeRecord stake_play_info = 1887;
-		HomeSeekFurnitureAllRecord seek_furniture_gallery_info = 696;
+		HomeRacingRecord racing_gallery_info = 722;
+		HomeBalloonRecord balloon_gallery_info = 1806;
+		HomeStakeRecord stake_play_info = 1224;
+		HomeSeekFurnitureAllRecord seek_furniture_gallery_info = 400;
+		ExplosionInfo explosion_info = 1571;
 	}
 }

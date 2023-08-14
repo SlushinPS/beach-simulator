@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2154
-// Obf: MBKMPAKHNKB
+// CmdId: 9989
+// Obf: IAPDCOGBMLL
 message SeaLampContributeItemRsp {
-	int32 retcode = 5;
-	uint32 BIMKNDECJAI = 6;
-	uint32 AHINNHBBILH = 12;
-	uint32 add_progress = 10;
+	uint32 add_progress = 8;
+	uint32 PBLDLEJHKIC = 12;
+	int32 retcode = 7;
+	uint32 LMKMIKOGFMG = 14;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomePlantFieldData.proto";
-// CmdId: 4587
-// Obf: HDBFHCNNNAH
+// CmdId: 5633
+// Obf: DNIBKDNPBMG
 message HomePlantInfoRsp {
-	repeated HomePlantFieldData field_list = 7;
-	int32 retcode = 10;
+	int32 retcode = 11;
+	repeated HomePlantFieldData field_list = 4;
 }

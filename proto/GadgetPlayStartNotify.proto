@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 887
-// Obf: BJANKDMFCMN
+// CmdId: 1524
+// Obf: PPGEEFEAOCO
 message GadgetPlayStartNotify {
-	uint32 start_time = 7;
-	uint32 play_type = 3;
-	uint32 entity_id = 1;
+	uint32 entity_id = 4;
+	uint32 play_type = 13;
+	uint32 start_time = 6;
 }

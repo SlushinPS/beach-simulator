@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3994
-// Obf: BPMLDBDGHPB
+// CmdId: 28997
+// Obf: APPHFPLLELJ
 message MechanicusCandidateTeamCreateReq {
 	uint32 difficult_level = 9;
 }

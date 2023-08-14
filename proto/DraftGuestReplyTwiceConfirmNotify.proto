@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5434
-// Obf: GODFJAPAHNI
+// CmdId: 8578
+// Obf: MPOOBJMHCMD
 message DraftGuestReplyTwiceConfirmNotify {
+	uint32 draft_id = 13;
+	bool is_agree = 6;
 	uint32 guest_uid = 11;
-	uint32 draft_id = 12;
-	bool is_agree = 14;
 }

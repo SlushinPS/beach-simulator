@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SumoStageData.proto";
-// Obf: NGGOFMMFPPM
+// Obf: CNCHFJOILPA
 message SumoActivityDetailInfo {
-	uint32 last_stage_id = 2;
-	map<uint32, SumoStageData> sumo_stage_map = 12;
-	uint32 difficulty_id = 10;
+	map<uint32, SumoStageData> sumo_stage_map = 2;
+	uint32 last_stage_id = 14;
+	uint32 difficulty_id = 8;
 }

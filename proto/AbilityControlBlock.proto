@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AbilityEmbryo.proto";
-// Obf: OLBGGLMLEBL
+// Obf: GGPHMELJCOL
 message AbilityControlBlock {
 	repeated AbilityEmbryo ability_embryo_list = 1;
 }

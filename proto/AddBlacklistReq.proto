@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4020
-// Obf: JHLJPPPLLJL
+// CmdId: 27236
+// Obf: OKNKMLEPCKN
 message AddBlacklistReq {
-	uint32 target_uid = 5;
+	uint32 target_uid = 12;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "FurnitureMakeSlot.proto";
 import "FurnitureMakeBeHelpedData.proto";
-// CmdId: 4457
-// Obf: HIDEAJGPAMG
+import "FurnitureMakeSlot.proto";
+// CmdId: 22219
+// Obf: JAIJGEPLECI
 message FurnitureMakeBeHelpedNotify {
-	FurnitureMakeSlot furniture_make_slot = 2;
-	FurnitureMakeBeHelpedData furniture_make_helped_data = 10;
+	FurnitureMakeBeHelpedData furniture_make_helped_data = 9;
+	FurnitureMakeSlot furniture_make_slot = 5;
 }

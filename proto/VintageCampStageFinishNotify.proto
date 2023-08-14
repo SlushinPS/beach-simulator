@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22702
-// Obf: HLIHBAHGELA
+// CmdId: 7506
+// Obf: BKAGBLBKDPP
 message VintageCampStageFinishNotify {
-	uint32 stage_id = 11;
+	uint32 stage_id = 6;
 }

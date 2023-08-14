@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NDMOFEBNCGM
+// Obf: OBLMNDJLEDI
 message GCGSkillPreviewTokenInfo {
-	uint32 JAGENMHHAPJ = 9;
-	uint32 KKPBODKKDGK = 4;
-	uint32 FIGGLGDEGIG = 14;
+	uint32 KFBIKHHBKEE = 3;
+	uint32 BACKHFIPFPG = 8;
+	uint32 BKGKHIEOMFB = 12;
 }

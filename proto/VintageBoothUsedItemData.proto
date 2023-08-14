@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LAPLEDLNMOP
+// Obf: CIBMOLOFPCO
 message VintageBoothUsedItemData {
-	bool is_open = 14;
-	uint32 gadget_id = 15;
+	bool is_open = 15;
+	uint32 gadget_id = 8;
 }

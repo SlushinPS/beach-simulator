@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 269
-// Obf: GNENOGJPOIO
+// CmdId: 315
+// Obf: LHECKPDNFHN
 message MarkEntityInMinMapNotify {
-	Vector position = 15;
-	uint32 monster_id = 1;
-	uint32 entity_id = 6;
+	uint32 entity_id = 9;
+	Vector position = 13;
+	uint32 monster_id = 8;
 }

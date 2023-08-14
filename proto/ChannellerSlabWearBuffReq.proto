@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8674
-// Obf: ILHMLOEAMIM
+// CmdId: 2514
+// Obf: PIGHNDPAHDH
 message ChannellerSlabWearBuffReq {
-	uint32 slot_id = 13;
 	bool is_mp = 11;
-	uint32 buff_id = 5;
+	uint32 slot_id = 9;
+	uint32 buff_id = 14;
 }

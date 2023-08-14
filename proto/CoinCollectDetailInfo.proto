@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CoinCollectLevelData.proto";
-// Obf: OHDPPODAGHJ
+// Obf: KAMACGOLOFG
 message CoinCollectDetailInfo {
-	repeated CoinCollectLevelData level_data_list = 7;
+	repeated CoinCollectLevelData level_data_list = 10;
 }

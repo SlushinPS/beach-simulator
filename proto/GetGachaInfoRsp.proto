@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GachaInfo.proto";
-// CmdId: 1596
-// Obf: LNMLGJLDDAF
+// CmdId: 23881
+// Obf: IAAKKGACPDM
 message GetGachaInfoRsp {
-	uint32 dailyGachaTimes = 5;
-	repeated GachaInfo gacha_info_list = 2;
-	bool KIHLEFLGKAD = 10;
-	bool PLBFOACGPII = 6;
-	int32 retcode = 8;
-	uint32 gachaRandom = 15;
+	repeated GachaInfo gacha_info_list = 3;
+	uint32 gachaRandom = 12;
+	uint32 dailyGachaTimes = 9;
+	bool is_under_general_restrict = 7;
+	int32 retcode = 2;
+	bool is_under_minors_restrict = 5;
 }

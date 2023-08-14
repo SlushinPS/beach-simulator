@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FleurFairV2StageData.proto";
-// Obf: MNBNPPENDJF
+// Obf: JIHOPDGHCJO
 message FleurFairV2PacmanInfo {
-	uint32 HPKAAFECFHF = 12;
+	uint32 AIAIFMJPEBO = 5;
 	repeated FleurFairV2StageData stage_data_list = 13;
 }

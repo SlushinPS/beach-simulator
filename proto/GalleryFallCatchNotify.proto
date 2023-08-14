@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5555
-// Obf: KKKFFBCMIIK
+// CmdId: 25177
+// Obf: IGFPHNOGKDB
 message GalleryFallCatchNotify {
-	uint32 cur_score = 9;
-	map<uint32, uint32> ball_catch_count_map = 14;
-	uint32 time_cost = 11;
-	bool is_ground = 6;
-	uint32 add_score = 2;
-	uint32 gallery_id = 13;
+	bool is_ground = 15;
+	uint32 cur_score = 4;
+	uint32 gallery_id = 5;
+	uint32 time_cost = 12;
+	map<uint32, uint32> ball_catch_count_map = 7;
+	uint32 add_score = 1;
 }

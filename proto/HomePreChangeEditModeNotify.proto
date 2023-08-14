@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4830
-// Obf: DGFGCDOOMLC
+// CmdId: 27578
+// Obf: AMAHNNLDPHO
 message HomePreChangeEditModeNotify {
-	bool is_enter_edit_mode = 4;
+	bool is_enter_edit_mode = 14;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8938
-// Obf: HPEBAMLNNBK
+// CmdId: 21002
+// Obf: CMBEHKMDONA
 message BartenderCancelLevelRsp {
-	int32 retcode = 12;
-	uint32 level_id = 1;
+	uint32 level_id = 5;
+	int32 retcode = 7;
 }

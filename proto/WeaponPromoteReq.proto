@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 606
-// Obf: APGGEFMJPLG
+// CmdId: 23298
+// Obf: LDCKBPMEBGB
 message WeaponPromoteReq {
-	uint64 target_weapon_guid = 10;
+	uint64 target_weapon_guid = 12;
 }

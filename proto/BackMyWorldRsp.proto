@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 213
-// Obf: GGOPGGHJKAH
+// CmdId: 25964
+// Obf: CLFDBEPFLAI
 message BackMyWorldRsp {
-	int32 retcode = 2;
+	int32 retcode = 9;
 }

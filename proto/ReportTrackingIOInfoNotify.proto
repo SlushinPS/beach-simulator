@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4125
-// Obf: MDAOJDPNCPC
+// CmdId: 24423
+// Obf: LCBMIHKJAMC
 message ReportTrackingIOInfoNotify {
-	string ADHIHLMGAAA = 1;
-	string BEBOGAEBAGG = 15;
-	string OAKADAODLLM = 14;
-	string PHKLBMJLABP = 6;
-	string BBMJLHFKKDB = 9;
+	string MDBEAHIPNIC = 6;
+	string JFEEMKEKMKN = 8;
+	string FCPKNHGBLCF = 5;
+	string GIAEKBEHJIC = 11;
+	string DPKNOBIHNPI = 2;
 }

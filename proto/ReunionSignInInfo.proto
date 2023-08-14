@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GMGFEJLIFEO
+// Obf: KADJKCANCHH
 message ReunionSignInInfo {
-	repeated uint32 reward_day_list = 6;
-	uint32 ALFPAAEHDIA = 10;
-	uint32 CPFCNAEHCLC = 4;
-	uint32 config_id = 15;
+	uint32 IOGOBJPGDPJ = 10;
+	repeated uint32 reward_day_list = 4;
+	uint32 config_id = 1;
+	uint32 LMOEFBHICGL = 11;
 }

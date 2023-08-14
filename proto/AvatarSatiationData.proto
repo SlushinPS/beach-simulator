@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FFMALMEHHFM
+// Obf: PNGEFKDMGGI
 message AvatarSatiationData {
-	float finish_time = 14;
 	float penalty_finish_time = 1;
-	uint64 avatar_guid = 7;
+	uint64 avatar_guid = 4;
+	float finish_time = 9;
 }

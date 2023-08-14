@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SalvageChallengeInfo.proto";
-// Obf: KNOOPADKNLA
+// Obf: NLKNABPOEJN
 message SalvageStageInfo {
-	repeated SalvageChallengeInfo challenge_info_list = 5;
-	bool is_open = 12;
-	uint32 stage_id = 1;
+	uint32 stage_id = 8;
+	repeated SalvageChallengeInfo challenge_info_list = 1;
+	bool is_open = 5;
 }

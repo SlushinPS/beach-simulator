@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RogueDiaryAvatar.proto";
-// CmdId: 8838
-// Obf: JJKONECIGHG
+// CmdId: 26124
+// Obf: DDBGDIEFCNK
 message RogueDiaryReviveAvatarReq {
-	RogueDiaryAvatar revive_avatar = 5;
+	RogueDiaryAvatar revive_avatar = 7;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "MNDCMMKBIBP.proto";
-// Obf: BPICLNJFDNB
+import "GCGReason.proto";
+// Obf: GOGOIEAGGHH
 message GCGMsgCostDice {
-	MNDCMMKBIBP reason = 4;
-	repeated uint32 select_dice_index_list = 6;
-	uint32 controller_id = 9;
+	GCGReason reason = 4;
+	uint32 controller_id = 3;
+	repeated uint32 select_dice_index_list = 11;
 }

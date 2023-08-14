@@ -16,21 +16,21 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
+import "AbilityAttachedModifier.proto";
 import "ModifierProperty.proto";
 import "ModifierAction.proto";
 import "AbilityString.proto";
-import "AbilityAttachedModifier.proto";
-// Obf: NANLJHBMAGF
+// Obf: FFBMKELHDNF
 message AbilityMetaModifierChange {
-	repeated ModifierProperty properties = 14;
-	ModifierAction action = 4;
-	uint32 apply_entity_id = 2;
-	bool is_mute_remote = 15;
-	bool JGGDMDGLJOP = 8;
-	AbilityString parent_ability_name = 1;
-	uint32 server_buff_uid = 7;
-	AbilityString parent_ability_override = 10;
-	AbilityAttachedModifier attached_instanced_modifier = 3;
-	bool DLOLFHNNEKI = 12;
-	int32 modifier_local_id = 5;
+	AbilityAttachedModifier attached_instanced_modifier = 15;
+	uint32 server_buff_uid = 5;
+	repeated ModifierProperty properties = 6;
+	bool BNMCKEBPDGI = 11;
+	bool is_attached_parent_ability = 2;
+	uint32 apply_entity_id = 9;
+	ModifierAction action = 1;
+	bool HEDGMMNKADC = 10;
+	AbilityString parent_ability_name = 7;
+	AbilityString parent_ability_override = 8;
+	int32 modifier_local_id = 14;
 }

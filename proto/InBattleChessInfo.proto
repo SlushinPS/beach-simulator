@@ -17,17 +17,17 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChessPlayerInfo.proto";
-import "ChessCardInfo.proto";
 import "ChessMysteryInfo.proto";
-// Obf: MHMGAMCCIBM
+import "ChessCardInfo.proto";
+// Obf: DNBDGCOOHPA
 message InBattleChessInfo {
-	map<uint32, ChessPlayerInfo> player_info_map = 5;
-	uint32 left_monsters = 2;
-	uint32 NJMFOBKBHHC = 1;
-	repeated ChessCardInfo selected_card_info_list = 14;
-	uint32 CGJKFELBPMB = 15;
-	uint32 round = 8;
-	ChessMysteryInfo mystery_info = 3;
-	uint32 excaped_monsters = 11;
-	repeated uint32 ban_card_tag_list = 6;
+	uint32 round = 14;
+	map<uint32, ChessPlayerInfo> player_info_map = 9;
+	repeated uint32 ban_card_tag_list = 13;
+	ChessMysteryInfo mystery_info = 4;
+	uint32 IOCEGCOPGNJ = 5;
+	uint32 excaped_monsters = 15;
+	uint32 left_monsters = 7;
+	uint32 ECACOGNFOLF = 1;
+	repeated ChessCardInfo selected_card_info_list = 12;
 }

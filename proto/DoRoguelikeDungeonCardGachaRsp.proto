@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8548
-// Obf: APEPMBHLAHM
+// CmdId: 3293
+// Obf: DAPHODPAJPK
 message DoRoguelikeDungeonCardGachaRsp {
-	int32 retcode = 10;
-	repeated uint32 card_list = 5;
-	bool is_can_refresh = 12;
+	bool is_can_refresh = 9;
+	int32 retcode = 5;
+	repeated uint32 card_list = 1;
 }

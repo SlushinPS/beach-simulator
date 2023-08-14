@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23521
-// Obf: PKFLOFECPKG
+// CmdId: 4810
+// Obf: BFHHKLDLBDA
 message DuelHeartRestartDungeonRsp {
-	int32 retcode = 5;
+	int32 retcode = 4;
 }

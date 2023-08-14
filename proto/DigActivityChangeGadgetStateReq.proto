@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8435
-// Obf: DHIKDGNBKEG
+// CmdId: 6858
+// Obf: HNGKKIHKFMA
 message DigActivityChangeGadgetStateReq {
-	uint32 entity_id = 7;
+	uint32 entity_id = 12;
 }

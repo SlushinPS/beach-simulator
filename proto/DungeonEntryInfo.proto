@@ -17,15 +17,15 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "WeeklyBossResinDiscountInfo.proto";
-// Obf: FCEKHDABEJM
+// Obf: HFIHEBKHMPP
 message DungeonEntryInfo {
-	uint32 FFJHKNBBFMF = 13;
-	uint32 dungeon_id = 9;
-	uint32 max_boss_chest_num = 5;
-	bool is_passed = 12;
-	uint32 ODGFEEPJAJA = 11;
-	uint32 next_refresh_time = 10;
-	WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 3;
-	uint32 start_time = 4;
-	uint32 end_time = 2;
+	uint32 next_refresh_time = 12;
+	uint32 CFAFALIPFEN = 9;
+	uint32 EOLGBLICEIA = 14;
+	uint32 max_boss_chest_num = 11;
+	uint32 dungeon_id = 13;
+	uint32 end_time = 7;
+	uint32 start_time = 2;
+	bool is_passed = 5;
+	WeeklyBossResinDiscountInfo weekly_boss_resin_discount_info = 6;
 }

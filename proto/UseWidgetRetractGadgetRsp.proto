@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4282
-// Obf: AAJAPAIAIBN
+// CmdId: 20644
+// Obf: NILFNJFKJGK
 message UseWidgetRetractGadgetRsp {
-	uint32 entity_id = 7;
-	int32 retcode = 6;
+	uint32 entity_id = 8;
+	int32 retcode = 2;
 }

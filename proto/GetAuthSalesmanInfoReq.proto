@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2195
-// Obf: EHMILPNKCDL
+// CmdId: 28580
+// Obf: HHJPNKINLJM
 message GetAuthSalesmanInfoReq {
-	uint32 schedule_id = 7;
+	uint32 schedule_id = 2;
 }

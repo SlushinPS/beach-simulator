@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4337
-// Obf: BPMBCDOIIDJ
+// CmdId: 6556
+// Obf: HKCGDJANEBA
 message GetCityHuntingOfferReq {
-	uint32 city_id = 3;
+	uint32 city_id = 2;
 }

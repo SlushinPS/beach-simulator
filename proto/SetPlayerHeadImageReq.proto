@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4028
-// Obf: BFCLIPDJCHJ
+// CmdId: 4071
+// Obf: PDIPMMGDOGN
 message SetPlayerHeadImageReq {
-	uint32 avatar_id = 11;
+	uint32 avatar_id = 7;
 }

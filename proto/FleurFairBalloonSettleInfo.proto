@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BalloonSettleInfo.proto";
-// Obf: LGEHCMJFCLE
+// Obf: IMOKJJJALDF
 message FleurFairBalloonSettleInfo {
-	BalloonSettleInfo settle_info = 2;
-	bool is_new_record = 12;
+	bool is_new_record = 3;
+	BalloonSettleInfo settle_info = 12;
 }

@@ -18,10 +18,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RogueDiaryAvatarDisableStatus.proto";
 import "ActivityDungeonAvatar.proto";
-// Obf: GAOKGMAAAOF
+// Obf: EFJJCHONDHM
 message RogueDiaryAvatar {
-	uint32 tired_round = 1;
-	uint32 level = 6;
-	repeated RogueDiaryAvatarDisableStatus disable_status_list = 5;
-	ActivityDungeonAvatar avatar = 15;
+	repeated RogueDiaryAvatarDisableStatus disable_status_list = 6;
+	uint32 tired_round = 3;
+	ActivityDungeonAvatar avatar = 13;
+	uint32 level = 5;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2110
-// Obf: BOLNDGAJEMN
+// CmdId: 22688
+// Obf: DDDKJPKKONH
 message TakeDeliveryDailyRewardRsp {
-	int32 retcode = 10;
-	uint32 schedule_id = 13;
+	int32 retcode = 15;
+	uint32 schedule_id = 6;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23979
-// Obf: IBKCHIEDEOJ
+// CmdId: 26902
+// Obf: AIJJGMDJKFM
 message MuqadasPotionCaptureWeaknessRsp {
-	int32 retcode = 8;
+	int32 retcode = 6;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 178
-// Obf: OIOAGJGLGBJ
+// CmdId: 27662
+// Obf: JAGPJBOAGGK
 message PlayerInjectFixNotify {
-	bytes inject_fix = 4;
-	uint32 id = 10;
+	bytes inject_fix = 3;
+	uint32 id = 7;
 }

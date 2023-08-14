@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SalvageEscortGallerySettleInfo.proto";
-// Obf: CCFLBANIHHO
+// Obf: IIBLODPLGHA
 message SalvageEscortSettleInfo {
-	bool is_new_record = 15;
-	SalvageEscortGallerySettleInfo settle_info = 10;
+	SalvageEscortGallerySettleInfo settle_info = 1;
+	bool is_new_record = 12;
 }

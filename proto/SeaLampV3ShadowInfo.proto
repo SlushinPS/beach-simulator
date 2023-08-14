@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SeaLampV3ShadowStageInfo.proto";
-// Obf: KHGILCEDNKL
+// Obf: CDNDGGOEPCJ
 message SeaLampV3ShadowInfo {
-	repeated SeaLampV3ShadowStageInfo stage_info_list = 2;
+	repeated SeaLampV3ShadowStageInfo stage_info_list = 8;
 }

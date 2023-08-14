@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HuntingPair.proto";
-// CmdId: 4301
-// Obf: BLAENPLHGNJ
+// CmdId: 2156
+// Obf: NDKEKIINJHO
 message HuntingGiveUpReq {
-	HuntingPair hunting_pair = 8;
+	HuntingPair hunting_pair = 2;
 }

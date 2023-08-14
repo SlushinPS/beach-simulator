@@ -18,13 +18,13 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GalleryStartSource.proto";
 import "IslandPartySailStage.proto";
-// Obf: AAKECFHHIMB
+// Obf: GBGEALIJHNE
 message SceneGalleryIslandPartySailInfo {
-	uint32 DOIFHHACKHE = 14;
-	uint32 coin = 15;
+	uint32 coin = 1;
+	uint32 CGEHJNCLFIH = 7;
+	uint32 GHJGNKKLNED = 11;
 	GalleryStartSource start_source = 13;
-	uint32 POAAKPIBPIF = 8;
-	uint32 PICIGOLIPOG = 1;
-	IslandPartySailStage stage = 11;
-	uint32 PJPNOKJPCHO = 9;
+	uint32 KAGPALOPJHK = 10;
+	uint32 FIBKEJGKANH = 4;
+	IslandPartySailStage stage = 6;
 }

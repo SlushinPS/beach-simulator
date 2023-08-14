@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MapMarkPoint.proto";
-// CmdId: 3389
-// Obf: MFHPKHNAIBA
+// CmdId: 1812
+// Obf: OIHCCJMLEGJ
 message MarkMapReq {
-	// Obf: PLJOBIBHMNF
+	// Obf: NIELEKBPCIJ
 	enum Operation {
 		OPERATION_ADD = 0;
 		OPERATION_MOD = 1;
@@ -28,7 +28,7 @@ message MarkMapReq {
 		OPERATION_GET = 3;
 	}
 	
-	MapMarkPoint old = 5;
 	MapMarkPoint mark = 6;
-	Operation op = 1;
+	Operation op = 3;
+	MapMarkPoint old = 15;
 }

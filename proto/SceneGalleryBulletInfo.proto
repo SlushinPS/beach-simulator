@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JCHAFGJDGCD
+// Obf: MGDFHDAFPOA
 message SceneGalleryBulletInfo {
+	uint32 end_time = 10;
 	map<uint32, uint32> hit_count_map = 14;
-	uint32 end_time = 5;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGGameBriefData.proto";
-// CmdId: 7506
-// Obf: FJBOGLHIKLG
+// CmdId: 7256
+// Obf: LIAFFLMEDKE
 message GCGGameBriefDataNotify {
+	bool is_new_game = 11;
 	GCGGameBriefData gcg_brief_data = 3;
-	bool is_new_game = 8;
 }

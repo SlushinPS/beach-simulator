@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HEGKNDKHNDF
+// Obf: DFJGCCIKGLP
 message GearLevelData {
-	uint32 open_time = 3;
-	bool is_open = 6;
-	uint32 APNDNCIJLKB = 8;
-	uint32 HKLBAPAMEOK = 5;
-	uint32 level_id = 12;
-	bool is_finished = 9;
+	uint32 level_id = 4;
+	uint32 EEMGKJOCHHK = 3;
+	uint32 open_time = 14;
+	bool is_open = 12;
+	bool is_finished = 8;
+	uint32 MMGJJBELBHF = 9;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GPHKEHNFMKB
+// Obf: JFAPHAJKBAO
 message PushTipsData {
-	uint32 state = 5;
-	uint32 push_tips_id = 12;
+	uint32 state = 2;
+	uint32 push_tips_id = 4;
 }

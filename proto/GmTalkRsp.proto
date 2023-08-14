@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2
-// Obf: CPIFOBKLKCI
+// CmdId: 3923
+// Obf: AEABDALLNNB
 message GmTalkRsp {
-	string retmsg = 11;
-	int32 retcode = 10;
-	string msg = 15;
+	int32 retcode = 3;
+	string msg = 7;
+	string retmsg = 5;
 }

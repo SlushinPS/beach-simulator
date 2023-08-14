@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7645
-// Obf: JCGBJLLGAEF
+// CmdId: 24619
+// Obf: EOMKPGMHIAP
 message GCGGameCreateFailReasonNotify {
-	// Obf: DIBOBKFKGCD
+	// Obf: AGFDEJHKJPM
 	enum GCGGameCreateReason {
 		REASON_NONE = 0;
 		REASON_GAME_MAX = 1;
@@ -29,5 +29,5 @@ message GCGGameCreateFailReasonNotify {
 		REASON_OPPONENT_CLIENT_VERSION_NOT_LASTEST = 5;
 	}
 	
-	GCGGameCreateReason reason = 15;
+	GCGGameCreateReason reason = 6;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4636
-// Obf: DJKMNGFPAEG
+// CmdId: 21452
+// Obf: KHIPDABPPKO
 message HomeDeleteBlueprintReq {
-	uint32 slot_id = 13;
+	uint32 slot_id = 7;
 }

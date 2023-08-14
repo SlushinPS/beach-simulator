@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EDLANNDLHPG
+// Obf: MCGDIGGLBJM
 message GCGOperationOnStageSelect {
-	repeated uint32 cost_dice_index_list = 3;
-	uint32 card_guid = 1;
+	uint32 card_guid = 14;
+	repeated uint32 cost_dice_index_list = 13;
 }

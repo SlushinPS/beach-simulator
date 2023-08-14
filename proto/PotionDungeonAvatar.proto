@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OAEHPANKIBF
+// Obf: NDLPLDGABEA
 message PotionDungeonAvatar {
-	bool is_trial = 1;
-	uint64 avatar_guid = 11;
+	uint64 avatar_guid = 15;
+	bool is_trial = 8;
 }

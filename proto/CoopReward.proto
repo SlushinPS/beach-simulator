@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BINNDDAEFHM
+// Obf: PCNHBJPDMOB
 message CoopReward {
-	// Obf: POAEGMCBHPM
+	// Obf: NNDLFEMBJMK
 	enum State {
 		STATE_UNLOCK = 0;
 		STATE_LOCK = 1;
 		STATE_TAKEN = 2;
 	}
 	
-	uint32 id = 8;
-	State state = 9;
+	uint32 id = 2;
+	State state = 10;
 }

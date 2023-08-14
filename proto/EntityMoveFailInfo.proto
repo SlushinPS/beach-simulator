@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MotionInfo.proto";
-// Obf: BCCECLGNPCG
+// Obf: ODNIIBAOJHO
 message EntityMoveFailInfo {
-	uint32 entity_id = 5;
-	uint32 scene_time = 15;
-	int32 retcode = 12;
-	MotionInfo fail_motion = 11;
-	uint32 reliable_seq = 9;
+	MotionInfo fail_motion = 9;
+	uint32 scene_time = 8;
+	uint32 reliable_seq = 3;
+	int32 retcode = 5;
+	uint32 entity_id = 6;
 }

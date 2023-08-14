@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21944
-// Obf: OGKJEIDNHHC
+// CmdId: 28836
+// Obf: DEKFKAKMIAP
 message TreasureSeelieCollectOrbsNotify {
-	uint32 current_num = 10;
-	uint32 total_num = 2;
+	uint32 total_num = 9;
+	uint32 current_num = 15;
 }

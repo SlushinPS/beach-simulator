@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2197
-// Obf: JLOMOAKPNKH
+// CmdId: 4661
+// Obf: DNILGAELCAE
 message FlightActivityRestartRsp {
-	uint32 schedule_id = 9;
-	int32 retcode = 14;
-	uint32 group_id = 5;
+	uint32 group_id = 6;
+	int32 retcode = 7;
+	uint32 schedule_id = 4;
 }

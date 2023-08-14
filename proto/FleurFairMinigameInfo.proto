@@ -19,14 +19,14 @@ option java_package = "emu.grasscutter.net.proto";
 import "FleurFairBalloonInfo.proto";
 import "FleurFairFallInfo.proto";
 import "FleurFairMusicGameInfo.proto";
-// Obf: GNHMEEEBHED
+// Obf: AJGPICOCNKF
 message FleurFairMinigameInfo {
-	uint32 minigame_id = 10;
-	bool is_open = 15;
-	uint32 open_time = 2;
+	uint32 open_time = 15;
+	uint32 minigame_id = 11;
+	bool is_open = 5;
 	oneof detail {
-		FleurFairBalloonInfo balloon_info = 6;
-		FleurFairFallInfo fall_info = 4;
-		FleurFairMusicGameInfo music_info = 7;
+		FleurFairBalloonInfo balloon_info = 14;
+		FleurFairFallInfo fall_info = 7;
+		FleurFairMusicGameInfo music_info = 10;
 	}
 }

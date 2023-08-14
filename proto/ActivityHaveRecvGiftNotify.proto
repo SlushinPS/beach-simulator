@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8733
-// Obf: HAJLGICGADJ
+// CmdId: 20546
+// Obf: CHFGKDAEKLE
 message ActivityHaveRecvGiftNotify {
-	uint32 schedule_id = 9;
+	uint32 schedule_id = 10;
 }

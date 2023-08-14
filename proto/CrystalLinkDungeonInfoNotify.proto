@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "CrystalLinkDungeonAvatarInfo.proto";
 import "CrystalLinkBuffInfo.proto";
-// CmdId: 8163
-// Obf: OJFNDOKLFDL
+import "CrystalLinkDungeonAvatarInfo.proto";
+// CmdId: 23068
+// Obf: KKLDKKEDNNN
 message CrystalLinkDungeonInfoNotify {
-	repeated CrystalLinkDungeonAvatarInfo dungeon_avatar_info_list = 3;
-	uint32 difficulty_id = 1;
-	uint32 level_id = 6;
-	repeated CrystalLinkBuffInfo buff_info_list = 13;
-	uint32 init_gallery_progress = 10;
-	bool is_upper_part = 4;
+	bool is_upper_part = 14;
+	repeated CrystalLinkBuffInfo buff_info_list = 1;
+	repeated CrystalLinkDungeonAvatarInfo dungeon_avatar_info_list = 15;
+	uint32 level_id = 7;
+	uint32 difficulty_id = 4;
+	uint32 init_gallery_progress = 2;
 }

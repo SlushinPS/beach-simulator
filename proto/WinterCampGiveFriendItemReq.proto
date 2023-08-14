@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 8878
-// Obf: FPLLNAOJKDL
+// CmdId: 4625
+// Obf: AGLKMBBPCJA
 message WinterCampGiveFriendItemReq {
-	repeated ItemParam item_list = 5;
-	uint32 uid = 14;
+	repeated ItemParam item_list = 7;
+	uint32 uid = 13;
 }

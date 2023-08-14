@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7152
-// Obf: CHEOBKOCNAJ
+// CmdId: 21610
+// Obf: LCALGLIAGJG
 message GCGInitFinishRsp {
-	int32 retcode = 1;
+	int32 retcode = 2;
 }

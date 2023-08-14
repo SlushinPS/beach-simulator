@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5353
-// Obf: GLAOFIIDCHP
+// CmdId: 4472
+// Obf: NBGFNPFNHDL
 message HideAndSeekSelectAvatarRsp {
-	uint32 avatar_id = 15;
-	int32 retcode = 3;
+	int32 retcode = 2;
+	uint32 avatar_id = 3;
 }

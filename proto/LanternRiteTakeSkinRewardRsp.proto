@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8773
-// Obf: PLKLLLNHDHN
+// CmdId: 23147
+// Obf: BCHEOHLDCHK
 message LanternRiteTakeSkinRewardRsp {
-	int32 retcode = 5;
+	int32 retcode = 14;
 }

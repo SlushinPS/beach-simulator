@@ -17,12 +17,6 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GadgetBornType.proto";
-import "PlatformInfo.proto";
-import "GadgetPlayInfo.proto";
-import "LENNDLOGFIM.proto";
-import "OPEMEOGOHME.proto";
-import "HKILNLMDIGF.proto";
-import "Item.proto";
 import "GatherGadgetInfo.proto";
 import "WorktopInfo.proto";
 import "ClientGadgetInfo.proto";
@@ -44,7 +38,14 @@ import "RoguelikeGadgetInfo.proto";
 import "NightCrowGadgetInfo.proto";
 import "DeshretObeliskGadgetInfo.proto";
 import "CoinCollectOperatorInfo.proto";
-// Obf: GBAFHJBNENJ
+import "TrifleGadget.proto";
+import "PlatformInfo.proto";
+import "JMFPBNKNHED.proto";
+import "GadgetPlayInfo.proto";
+import "GDGKKLFMJKH.proto";
+import "OMBIJJLAHFB.proto";
+import "BDOCPDNCIEF.proto";
+// Obf: JOBMECDLBKP
 message SceneGadgetInfo {
 	uint32 gadget_id = 1;
 	uint32 group_id = 2;
@@ -52,23 +53,12 @@ message SceneGadgetInfo {
 	uint32 owner_entity_id = 4;
 	GadgetBornType born_type = 5;
 	uint32 gadget_state = 6;
-	uint32 FMINBPFFNBJ = 7;
+	uint32 KPKNNJLPMFP = 7;
 	bool is_show_cutscene = 8;
 	uint32 authority_peer_id = 9;
 	bool is_enable_interact = 10;
-	uint32 AIKNPDNDMDA = 11;
-	uint32 mark_flag = 21;
-	uint32 prop_owner_entity_id = 22;
-	PlatformInfo platform = 23;
-	repeated uint32 interact_uid_list = 24;
-	uint32 draft_id = 25;
-	uint32 CKAMEJBIAMM = 26;
-	GadgetPlayInfo play_info = 100;
-	LENNDLOGFIM NAAPIJKGJNO = 101;
-	OPEMEOGOHME PDCKPMIIAMG = 102;
-	HKILNLMDIGF EIALEFBIJBO = 103;
+	uint32 CLICILNBKDD = 11;
 	oneof content {
-		Item trifle_item = 12;
 		GatherGadgetInfo gather_gadget = 13;
 		WorktopInfo worktop = 14;
 		ClientGadgetInfo client_gadget = 15;
@@ -90,5 +80,17 @@ message SceneGadgetInfo {
 		NightCrowGadgetInfo night_crow_gadget_info = 62;
 		DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;
 		CoinCollectOperatorInfo coin_collect_operator_info = 64;
+		TrifleGadget trifle_gadget = 67;
 	}
+	uint32 mark_flag = 21;
+	uint32 prop_owner_entity_id = 22;
+	PlatformInfo platform = 23;
+	repeated uint32 interact_uid_list = 24;
+	uint32 draft_id = 25;
+	uint32 KHICBPFFAII = 26;
+	JMFPBNKNHED GPOHBBPBBEC = 27;
+	GadgetPlayInfo play_info = 100;
+	GDGKKLFMJKH DPJFGJDHGGJ = 101;
+	OMBIJJLAHFB PBBAFKFGHIB = 102;
+	BDOCPDNCIEF FDKBHOCNBPH = 103;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ClientMassiveEntity.proto";
-// CmdId: 356
-// Obf: NJNGKBHEMHJ
+// CmdId: 24517
+// Obf: GCKEBOMKGFN
 message DestroyMassiveEntityNotify {
-	repeated ClientMassiveEntity massive_entity_list = 15;
+	repeated ClientMassiveEntity massive_entity_list = 6;
 }

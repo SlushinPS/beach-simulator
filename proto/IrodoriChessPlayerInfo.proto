@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MGCABBFFCLE
+// Obf: MMBAOMNDHLH
 message IrodoriChessPlayerInfo {
-	uint32 uid = 7;
-	uint32 GPBHPHDEJLI = 2;
-	uint32 DHOCBFFKAEN = 3;
+	uint32 uid = 11;
+	uint32 ALNKBIFEJHG = 6;
+	uint32 BPPCDLMFKCP = 12;
 }

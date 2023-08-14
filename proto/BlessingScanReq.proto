@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2191
-// Obf: AKPFMOJGKLM
+// CmdId: 21594
+// Obf: EDHNPBHAIPB
 message BlessingScanReq {
-	uint32 entity_id = 6;
+	uint32 entity_id = 11;
 }

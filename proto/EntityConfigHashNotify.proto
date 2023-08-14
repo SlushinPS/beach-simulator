@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "EntityConfigHashEntry.proto";
-// CmdId: 3104
-// Obf: FOBAMKHAKCA
+// CmdId: 20100
+// Obf: PDDKPFNOALF
 message EntityConfigHashNotify {
-	repeated EntityConfigHashEntry CKKJPAICDJG = 8;
-	repeated EntityConfigHashEntry HNOOHPABCKC = 3;
-	repeated EntityConfigHashEntry ANBBPLNOHMH = 9;
+	repeated EntityConfigHashEntry FHDKCMPIHIP = 4;
+	repeated EntityConfigHashEntry JJPHMNNPEEO = 15;
+	repeated EntityConfigHashEntry JHONBNABCLP = 6;
 }

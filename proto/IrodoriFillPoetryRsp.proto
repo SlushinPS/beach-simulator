@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "IrodoriPoetryThemeData.proto";
-// CmdId: 8240
-// Obf: HJMIABNAPAF
+// CmdId: 26146
+// Obf: ADHEDEOBDII
 message IrodoriFillPoetryRsp {
-	int32 retcode = 14;
-	IrodoriPoetryThemeData theme_data = 8;
+	int32 retcode = 2;
+	IrodoriPoetryThemeData theme_data = 13;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2224
-// Obf: LFLDAIMDGIB
+// CmdId: 1612
+// Obf: LNAHCLEAOFF
 message PushTipsReadFinishReq {
-	uint32 push_tips_id = 1;
+	uint32 push_tips_id = 2;
 }

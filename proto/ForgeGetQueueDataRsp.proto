@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ForgeQueueData.proto";
-// CmdId: 659
-// Obf: MHKFEDKBJIN
+// CmdId: 9429
+// Obf: HOLCPCEMEMI
 message ForgeGetQueueDataRsp {
-	uint32 max_queue_num = 14;
-	map<uint32, ForgeQueueData> forge_queue_map = 7;
-	int32 retcode = 9;
+	uint32 max_queue_num = 3;
+	int32 retcode = 11;
+	map<uint32, ForgeQueueData> forge_queue_map = 12;
 }

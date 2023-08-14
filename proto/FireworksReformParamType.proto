@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HPKCINCADAL
+// Obf: FPEFLILOLGL
 enum FireworksReformParamType {
 	FIREWORKS_REFORM_PARAM_NONE = 0;
 	FIREWORKS_REFORM_PARAM_COLOR = 1;

@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "ChannellerSlabBuffSchemeInfo.proto";
 import "ChannellerSlabAssistInfo.proto";
-// Obf: CAGONPCNIDL
+import "ChannellerSlabBuffSchemeInfo.proto";
+// Obf: DLIGELBIGDK
 message ChannellerSlabBuffInfo {
-	ChannellerSlabBuffSchemeInfo AGGNKCMFEJK = 6;
-	repeated ChannellerSlabAssistInfo assist_info_list = 5;
-	ChannellerSlabBuffSchemeInfo AHBMAAMGCND = 2;
-	repeated uint32 buff_id_list = 13;
+	repeated ChannellerSlabAssistInfo assist_info_list = 6;
+	ChannellerSlabBuffSchemeInfo ABIJPNCCLIG = 11;
+	repeated uint32 buff_id_list = 2;
+	ChannellerSlabBuffSchemeInfo HEKCEFKOLOE = 15;
 }

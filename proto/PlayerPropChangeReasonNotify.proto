@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PropChangeReason.proto";
-// CmdId: 1230
-// Obf: OEDIGGOJKGL
+// CmdId: 28241
+// Obf: PEAMCBGHMPI
 message PlayerPropChangeReasonNotify {
-	PropChangeReason reason = 6;
-	uint32 prop_type = 5;
-	float old_value = 12;
-	float cur_value = 2;
+	PropChangeReason reason = 11;
+	float old_value = 15;
+	float cur_value = 10;
+	uint32 prop_type = 8;
 }

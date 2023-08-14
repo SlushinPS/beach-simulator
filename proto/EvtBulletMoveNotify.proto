@@ -18,10 +18,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "ForwardType.proto";
-// CmdId: 333
-// Obf: LFKAAHFDIKE
+// CmdId: 8672
+// Obf: PJHHOALDCDN
 message EvtBulletMoveNotify {
-	Vector cur_pos = 14;
-	uint32 entity_id = 2;
-	ForwardType forward_type = 13;
+	uint32 entity_id = 6;
+	Vector cur_pos = 13;
+	ForwardType forward_type = 15;
 }

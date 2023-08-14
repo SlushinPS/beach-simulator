@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ONANEFOCOHJ
+// Obf: ODBNGGKHDMP
 message CityReputationRequestInfo {
-	// Obf: LIDAMOCDKLI
+	// Obf: ICFLLDEGEJN
 	message RequestInfo {
-		bool is_taken_reward = 3;
-		uint32 quest_id = 13;
-		uint32 request_id = 1;
+		uint32 request_id = 10;
+		uint32 quest_id = 6;
+		bool is_taken_reward = 11;
 	}
 	
-	bool is_open = 6;
-	repeated RequestInfo request_info_list = 1;
+	repeated RequestInfo request_info_list = 7;
+	bool is_open = 15;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5576
-// Obf: MKMKNCMAPPG
+// CmdId: 25773
+// Obf: ODFHDFBJDIN
 message BackRebornGalleryRsp {
-	uint32 gallery_id = 9;
-	int32 retcode = 12;
+	uint32 gallery_id = 6;
+	int32 retcode = 2;
 }

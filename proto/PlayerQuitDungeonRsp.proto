@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 948
-// Obf: KFAMCAGJKJA
+// CmdId: 4431
+// Obf: KHKEMHFADOL
 message PlayerQuitDungeonRsp {
-	uint32 point_id = 2;
-	int32 retcode = 4;
+	int32 retcode = 8;
+	uint32 point_id = 13;
 }

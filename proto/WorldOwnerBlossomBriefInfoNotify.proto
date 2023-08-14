@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BlossomBriefInfo.proto";
-// CmdId: 2772
-// Obf: PHFHKCMBGOB
+// CmdId: 2494
+// Obf: ILOJPNAEJEO
 message WorldOwnerBlossomBriefInfoNotify {
-	repeated BlossomBriefInfo brief_info_list = 10;
+	repeated BlossomBriefInfo brief_info_list = 5;
 }

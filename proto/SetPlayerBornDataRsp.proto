@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 128
-// Obf: GFAMJEPFNNJ
+// CmdId: 22804
+// Obf: CGFIJAMAKEG
 message SetPlayerBornDataRsp {
-	int32 retcode = 5;
+	int32 retcode = 14;
 }

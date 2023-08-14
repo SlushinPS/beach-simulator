@@ -16,9 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OANICCCLDGG
+// Obf: NOFHPJHCIIK
 message ShareCDInfo {
-	uint32 share_cd_id = 12;
 	uint64 cd_start_time = 7;
-	uint32 index = 8;
+	uint32 PEBLCLHLKNC = 11;
 }

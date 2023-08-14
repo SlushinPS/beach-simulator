@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1613
-// Obf: EBLCDMCNFJI
+// CmdId: 8572
+// Obf: CPNEKEDGLHM
 message SetUpAvatarTeamRsp {
-	uint64 cur_avatar_guid = 5;
-	uint32 team_id = 2;
-	int32 retcode = 8;
-	repeated uint64 avatar_team_guid_list = 12;
+	uint32 team_id = 4;
+	uint64 cur_avatar_guid = 7;
+	repeated uint64 avatar_team_guid_list = 1;
+	int32 retcode = 3;
 }

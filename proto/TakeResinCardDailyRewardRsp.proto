@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 4123
-// Obf: JJEPFMPCOFD
+// CmdId: 319
+// Obf: BCALHNAGNKI
 message TakeResinCardDailyRewardRsp {
-	int32 retcode = 4;
-	uint32 product_config_id = 2;
-	repeated ItemParam item_vec = 11;
+	repeated ItemParam item_vec = 6;
+	uint32 product_config_id = 9;
+	int32 retcode = 2;
 }

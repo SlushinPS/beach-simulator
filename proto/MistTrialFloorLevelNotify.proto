@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 901
-// Obf: KCHMGJJNGID
+// CmdId: 9166
+// Obf: KEDBFDOGFDH
 message MistTrialFloorLevelNotify {
-	uint32 floor_level = 5;
-	uint32 dungeon_scene_id = 3;
+	uint32 dungeon_scene_id = 13;
+	uint32 floor_level = 7;
 }

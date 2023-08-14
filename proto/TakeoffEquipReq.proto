@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 616
-// Obf: DDDNJNIKELL
+// CmdId: 23894
+// Obf: MGOICFILCBB
 message TakeoffEquipReq {
-	uint64 avatar_guid = 10;
-	uint32 slot = 11;
+	uint32 slot = 14;
+	uint64 avatar_guid = 5;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8782
-// Obf: PPHCLADLDMD
+// CmdId: 23758
+// Obf: IGCLOKNBJDJ
 message ActivityGetCanGiveFriendGiftRsp {
-	map<uint32, uint32> gift_num_map = 6;
-	uint32 schedule_id = 1;
-	int32 retcode = 14;
+	int32 retcode = 4;
+	map<uint32, uint32> gift_num_map = 1;
+	uint32 schedule_id = 14;
 }

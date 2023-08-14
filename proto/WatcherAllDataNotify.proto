@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2275
-// Obf: HELHEAHMIPB
+// CmdId: 1850
+// Obf: EBPCOMFODKD
 message WatcherAllDataNotify {
-	repeated uint32 watcher_list = 6;
+	repeated uint32 watcher_list = 15;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8193
-// Obf: LOBPMMMDJCH
+// CmdId: 7273
+// Obf: FPFIAGABLFJ
 message ChannellerSlabLoopDungeonSelectConditionRsp {
 	repeated uint32 condition_id_list = 13;
-	int32 retcode = 4;
-	uint32 difficulty_id = 12;
-	uint32 dungeon_index = 14;
+	uint32 difficulty_id = 4;
+	uint32 dungeon_index = 8;
+	int32 retcode = 10;
 }

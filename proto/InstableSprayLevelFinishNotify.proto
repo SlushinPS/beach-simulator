@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24945
-// Obf: NIHHEDEJIJA
+// CmdId: 5076
+// Obf: MFDDMHDLDHL
 message InstableSprayLevelFinishNotify {
-	uint32 level_id = 9;
-	repeated uint32 score_list = 14;
-	uint32 round = 7;
-	bool GAMNEAPANCK = 15;
-	uint32 difficulty = 2;
-	uint32 stage_id = 10;
-	bool JAHFFHODNDP = 5;
+	repeated uint32 score_list = 13;
+	uint32 level_id = 6;
+	bool FOMGENIPFND = 7;
+	uint32 stage_id = 8;
+	uint32 difficulty = 10;
+	bool DKDOLLHPNDI = 11;
+	uint32 round = 14;
 }

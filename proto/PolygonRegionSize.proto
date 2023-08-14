@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "VectorPlane.proto";
-// Obf: MGDFIKKDIGG
+// Obf: GHHFCCDJEIE
 message PolygonRegionSize {
-	repeated VectorPlane point_list = 12;
 	float height = 14;
+	repeated VectorPlane point_list = 13;
 }

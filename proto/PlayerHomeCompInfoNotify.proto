@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlayerHomeCompInfo.proto";
-// CmdId: 4769
-// Obf: CBGMFLDFHFN
+// CmdId: 365
+// Obf: JIGJFLJCOGP
 message PlayerHomeCompInfoNotify {
-	PlayerHomeCompInfo comp_info = 14;
+	PlayerHomeCompInfo comp_info = 2;
 }

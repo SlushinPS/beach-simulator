@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BlossomBriefInfo.proto";
-// CmdId: 2796
-// Obf: PCNGBIDFALG
+// CmdId: 8452
+// Obf: DODBCPCGPMA
 message GetBlossomBriefInfoListRsp {
-	repeated BlossomBriefInfo brief_info_list = 6;
+	repeated BlossomBriefInfo brief_info_list = 11;
 	int32 retcode = 2;
 }

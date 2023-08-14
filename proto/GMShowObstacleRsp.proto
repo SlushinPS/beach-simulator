@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GMObstacleInfo.proto";
-// CmdId: 2377
-// Obf: KDCANMAJPFE
+// CmdId: 2327
+// Obf: ICKFGENGGKI
 message GMShowObstacleRsp {
-	repeated GMObstacleInfo obstacles = 9;
-	int32 retcode = 7;
+	int32 retcode = 4;
+	repeated GMObstacleInfo obstacles = 12;
 }

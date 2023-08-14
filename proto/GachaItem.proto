@@ -18,11 +18,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
 import "GachaTransferItem.proto";
-// Obf: FPBHAFGFLPA
+// Obf: NJOOCPHJKKG
 message GachaItem {
-	bool is_gacha_item_new = 15;
+	repeated ItemParam token_item_list = 9;
+	bool is_gacha_item_new = 6;
 	ItemParam gacha_item = 4;
-	bool is_flash_card = 3;
-	repeated ItemParam token_item_list = 8;
-	repeated GachaTransferItem transfer_items = 14;
+	bool is_flash_card = 2;
+	repeated GachaTransferItem transfer_items = 1;
 }

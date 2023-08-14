@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8254
-// Obf: PPCGLLKDMIC
+// CmdId: 29988
+// Obf: LCFLBJAGLAO
 message StartRogueDiaryPlayReq {
-	uint32 difficulty = 6;
-	uint32 stage_id = 12;
+	uint32 difficulty = 4;
+	uint32 stage_id = 10;
 }

@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// Obf: PDEOKHPGMIJ
+// Obf: AHGOAHBMENB
 message GadgetGeneralRewardInfo {
 	uint32 resin = 1;
 	uint32 dead_time = 2;

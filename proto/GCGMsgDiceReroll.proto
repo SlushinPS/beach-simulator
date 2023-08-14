@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGDiceSideType.proto";
-// Obf: DBHOHKMKEPA
+// Obf: NNGPPLAPAHP
 message GCGMsgDiceReroll {
-	repeated GCGDiceSideType dice_side_list = 1;
-	repeated uint32 select_dice_index_list = 8;
-	uint32 controller_id = 15;
+	uint32 controller_id = 13;
+	repeated uint32 select_dice_index_list = 15;
+	repeated GCGDiceSideType dice_side_list = 11;
 }

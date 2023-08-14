@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1664
-// Obf: LJCBDKBNGAI
+// CmdId: 24187
+// Obf: PJLNPGJDAIG
 message ChangeTeamNameReq {
-	string team_name = 2;
-	int32 team_id = 9;
+	string team_name = 14;
+	int32 team_id = 3;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8278
-// Obf: NGODGIDMEEE
+// CmdId: 4914
+// Obf: DBDFLMPILFO
 message WinterCampGetFriendWishListReq {
 }

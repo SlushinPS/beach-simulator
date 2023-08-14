@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3095
-// Obf: EOIDAHGDGNF
+// CmdId: 6805
+// Obf: FPHPMKCMJIM
 message EntityTagChangeNotify {
-	uint32 entity_id = 12;
-	string tag = 7;
-	bool is_add = 3;
+	bool is_add = 1;
+	uint32 entity_id = 8;
+	string tag = 6;
 }

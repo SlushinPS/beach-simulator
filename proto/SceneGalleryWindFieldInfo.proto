@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HLDHGBMJLGC
+// Obf: LJEIJCNLPPJ
 message SceneGalleryWindFieldInfo {
-	uint32 DHFCIMPBFGA = 10;
-	uint32 MAAGMCEBIDE = 3;
-	uint32 CGLDHPKMAGO = 1;
-	uint32 JGDMJDMFAAE = 7;
-	uint32 CNLIBIEBLKC = 11;
-	uint32 FAKKJNHNFIO = 2;
-	uint32 AFJNAIOEMJG = 9;
-	uint32 JBMNGNMJHME = 12;
+	uint32 OKJOJDABKGC = 15;
+	uint32 GPPOHEOBDGJ = 13;
+	uint32 GCMNEADPFBH = 12;
+	uint32 DPOBEKFGJOP = 5;
+	uint32 GIMCFEIADKI = 6;
+	uint32 EHLLLIJFOJG = 2;
+	uint32 KJCLNIGPNDF = 3;
+	uint32 NHFGIBDCPGC = 11;
 }

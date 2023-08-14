@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: OHIFMEACCCK
+// Obf: POCJBKACJPC
 message HomeFurnitureCustomSuiteData {
-	Vector spawn_pos = 4;
-	repeated int32 included_furniture_index_list = 13;
-	uint32 guid = 1;
+	repeated int32 included_furniture_index_list = 7;
+	Vector spawn_pos = 14;
+	uint32 guid = 10;
 }

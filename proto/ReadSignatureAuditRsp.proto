@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4090
-// Obf: KJMABJBDJHA
+// CmdId: 27511
+// Obf: FGKMCKFALJL
 message ReadSignatureAuditRsp {
-	int32 retcode = 4;
+	int32 retcode = 5;
 }

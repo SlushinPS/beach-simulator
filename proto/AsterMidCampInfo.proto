@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: MJEKKMFIINK
+// Obf: ODKHFPBJNFJ
 message AsterMidCampInfo {
-	uint32 camp_id = 3;
-	Vector pos = 14;
+	uint32 camp_id = 5;
+	Vector pos = 2;
 }

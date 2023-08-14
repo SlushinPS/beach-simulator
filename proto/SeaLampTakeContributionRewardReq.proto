@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2118
-// Obf: DKNNFAMBGMH
+// CmdId: 4205
+// Obf: OLMEKFIPIAN
 message SeaLampTakeContributionRewardReq {
-	uint32 config_id = 13;
-	uint32 activity_id = 3;
+	uint32 config_id = 11;
+	uint32 activity_id = 2;
 }

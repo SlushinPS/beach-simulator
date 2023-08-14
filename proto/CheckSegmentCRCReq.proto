@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SegmentCRCInfo.proto";
-// CmdId: 68
-// Obf: IGMEGBIDJBE
+// CmdId: 580
+// Obf: ECKKMPNIBAE
 message CheckSegmentCRCReq {
-	repeated SegmentCRCInfo info_list = 2;
+	repeated SegmentCRCInfo info_list = 10;
 }

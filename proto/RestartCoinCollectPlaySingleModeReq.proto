@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22708
-// Obf: JJAOHMJPPLF
+// CmdId: 1251
+// Obf: ANBGNFABIMN
 message RestartCoinCollectPlaySingleModeReq {
-	uint32 level_id = 7;
-	uint32 multistage_play_index = 1;
+	uint32 multistage_play_index = 13;
+	uint32 level_id = 10;
 }

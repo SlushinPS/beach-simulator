@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20538
-// Obf: GOJPPFBAMPJ
+// CmdId: 1158
+// Obf: LKKGMJHPCCF
 message VintageMarketDividendFinishNotify {
-	uint32 LGCEBJNOBAM = 8;
-	uint32 LJIOMIABKJC = 2;
+	uint32 FMABDGMGDAM = 14;
+	uint32 LCIDAMLLGHM = 6;
 }

@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2049
-// Obf: OKAMLPHOFID
+// CmdId: 23532
+// Obf: PBOFMNJLMLI
 message ExpeditionStartRsp {
-	int32 retcode = 3;
-	uint32 FLHKBCEIKLE = 9;
-	repeated uint32 avatar_id_list = 8;
-	uint32 MFNGJOCIAPE = 6;
-	uint32 path_id = 1;
+	uint32 DDCIILLJCLH = 11;
+	uint32 path_id = 3;
+	repeated uint32 avatar_id_list = 6;
+	uint32 EPLFCNHCJOD = 10;
+	int32 retcode = 13;
 }

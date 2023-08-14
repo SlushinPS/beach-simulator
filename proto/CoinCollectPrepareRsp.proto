@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24271
-// Obf: AJCNMNHNCHG
+// CmdId: 28970
+// Obf: HOFCDBFOBGG
 message CoinCollectPrepareRsp {
-	int32 retcode = 3;
+	int32 retcode = 15;
 }

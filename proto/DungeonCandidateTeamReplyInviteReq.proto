@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 959
-// Obf: MJMBLIAIAKH
+// CmdId: 4838
+// Obf: NBECIALIFBA
 message DungeonCandidateTeamReplyInviteReq {
 	bool is_accept = 12;
 }

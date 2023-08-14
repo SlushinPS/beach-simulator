@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PKLHDBCCFOJ
+// Obf: IEHLDBPHMGH
 message AsterLargeDetailInfo {
-	bool is_open = 11;
-	uint32 begin_time = 9;
+	uint32 begin_time = 1;
+	bool is_open = 2;
 }

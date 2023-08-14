@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20376
-// Obf: OAIOHBNFMIN
+// CmdId: 20708
+// Obf: BOADCMOEAAA
 message LanV3BoatGameTransferFinishNotify {
-	bool is_reenter = 4;
+	bool is_reenter = 3;
 }

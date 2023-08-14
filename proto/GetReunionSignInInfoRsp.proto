@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ReunionSignInInfo.proto";
-// CmdId: 5089
-// Obf: DFELNPBAODE
+// CmdId: 22823
+// Obf: EOMJOAPOLLI
 message GetReunionSignInInfoRsp {
-	int32 retcode = 8;
-	ReunionSignInInfo sign_in_info = 5;
+	int32 retcode = 3;
+	ReunionSignInInfo sign_in_info = 7;
 }

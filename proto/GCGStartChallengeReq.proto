@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "JKLJHDFICPL.proto";
-// CmdId: 7584
-// Obf: IOAEPMIGNBO
+import "HPJPOMAIPNC.proto";
+// CmdId: 7232
+// Obf: NMKLJLIBFME
 message GCGStartChallengeReq {
-	uint32 level_id = 13;
-	JKLJHDFICPL KPHEDFKMFOG = 6;
-	uint32 config_id = 2;
+	uint32 level_id = 9;
+	uint32 config_id = 5;
+	HPJPOMAIPNC OJJEDPGEKFK = 14;
 }

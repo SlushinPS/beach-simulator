@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TeamChainChooseTeamInfo.proto";
-// CmdId: 24706
-// Obf: NGHJFAKOJFL
+// CmdId: 6657
+// Obf: JCEODPFPNHF
 message TeamChainEnterDungeonReq {
-	uint32 difficulty = 6;
-	repeated TeamChainChooseTeamInfo team_info_list = 2;
-	uint32 stage_id = 4;
+	repeated TeamChainChooseTeamInfo team_info_list = 6;
+	uint32 difficulty = 5;
+	uint32 stage_id = 7;
 }

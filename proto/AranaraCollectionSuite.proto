@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AranaraCollectionState.proto";
-// Obf: ANMLMDHANJA
+// Obf: FOCGEBIMEFI
 message AranaraCollectionSuite {
-	uint32 collection_type = 10;
-	map<uint32, AranaraCollectionState> collection_id_state_map = 4;
+	uint32 collection_type = 2;
+	map<uint32, AranaraCollectionState> collection_id_state_map = 11;
 }

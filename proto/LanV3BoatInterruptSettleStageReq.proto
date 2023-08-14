@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23111
-// Obf: EFBPHICBIKE
+// CmdId: 24666
+// Obf: NPODMHKIKBB
 message LanV3BoatInterruptSettleStageReq {
 }

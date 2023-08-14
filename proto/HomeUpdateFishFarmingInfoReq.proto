@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeFishFarmingInfo.proto";
-// CmdId: 4609
-// Obf: PNAGPKFHGOI
+// CmdId: 25936
+// Obf: JPGPNNMFHGF
 message HomeUpdateFishFarmingInfoReq {
-	HomeFishFarmingInfo fish_farming_info = 6;
+	HomeFishFarmingInfo fish_farming_info = 13;
 }

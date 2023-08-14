@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8474
-// Obf: DEPDCABIIMH
+// CmdId: 133
+// Obf: LLHECDBHABH
 message GetRogueDairyRepairInfoRsp {
 	int32 retcode = 7;
 }

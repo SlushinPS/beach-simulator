@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4292
-// Obf: KLAFBCFKMAM
+// CmdId: 27403
+// Obf: FGIPDBHBOPH
 message WidgetReportRsp {
-	uint32 material_id = 8;
-	int32 retcode = 7;
+	int32 retcode = 2;
+	uint32 material_id = 5;
 }

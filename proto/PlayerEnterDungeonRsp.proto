@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 972
-// Obf: LKMOKPDJCPJ
+// CmdId: 24874
+// Obf: IPGDOPKIBPO
 message PlayerEnterDungeonRsp {
-	uint32 point_id = 3;
-	int32 retcode = 10;
-	uint32 dungeon_id = 8;
+	uint32 point_id = 1;
+	uint32 dungeon_id = 10;
+	int32 retcode = 2;
 }

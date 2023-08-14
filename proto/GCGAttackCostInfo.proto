@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
-// Obf: IADEIPANMIH
+// Obf: BGMPBKGJJCO
 message GCGAttackCostInfo {
-	uint32 skill_id = 12;
-	repeated Uint32Pair cost_map = 4;
+	uint32 skill_id = 6;
+	repeated Uint32Pair cost_map = 1;
 }

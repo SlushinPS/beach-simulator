@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OIOHOFNIFMG
+// Obf: FLPMADKIODG
 message IslandPartyStageData {
+	uint32 stage_id = 1;
+	bool is_open = 11;
 	uint32 best_score = 5;
-	bool is_open = 2;
-	uint32 stage_id = 13;
 }

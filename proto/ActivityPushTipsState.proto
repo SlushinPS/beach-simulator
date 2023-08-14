@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OPOLNPOBLMB
+// Obf: DKHCNPIKCHO
 enum ActivityPushTipsState {
 	ACTIVITY_PUSH_TIPS_STATE_NONE = 0;
 	ACTIVITY_PUSH_TIPS_STATE_START = 1;

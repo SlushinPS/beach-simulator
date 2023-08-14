@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 284
-// Obf: FHHPFEOPMKH
+// CmdId: 28639
+// Obf: INKMFHKEGIA
 message SceneAvatarStaminaStepRsp {
-	bool use_client_rot = 10;
-	Vector rot = 3;
-	int32 retcode = 13;
+	Vector rot = 12;
+	bool use_client_rot = 7;
+	int32 retcode = 4;
 }

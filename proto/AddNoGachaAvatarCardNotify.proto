@@ -17,14 +17,14 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AddNoGachaAvatarCardTransferItem.proto";
-// CmdId: 1794
-// Obf: AGOKHIGKIPO
+// CmdId: 7037
+// Obf: BEANNFLOONI
 message AddNoGachaAvatarCardNotify {
-	uint32 avatar_id = 7;
-	uint32 initial_promote_level = 2;
-	uint32 item_id = 1;
-	uint32 reason = 8;
-	uint32 initial_level = 5;
+	uint32 MGBKMNHIFOE = 15;
+	uint32 avatar_id = 14;
+	uint32 reason = 12;
 	bool is_transfer_to_item = 9;
-	repeated AddNoGachaAvatarCardTransferItem transfer_item_list = 14;
+	uint32 item_id = 1;
+	repeated AddNoGachaAvatarCardTransferItem transfer_item_list = 2;
+	uint32 CBBMIOFHCIC = 8;
 }

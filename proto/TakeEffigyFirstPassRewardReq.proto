@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2189
-// Obf: KFOLKBOGDBF
+// CmdId: 6014
+// Obf: NFEDNNHJOCC
 message TakeEffigyFirstPassRewardReq {
-	uint32 challenge_id = 5;
+	uint32 challenge_id = 9;
 }

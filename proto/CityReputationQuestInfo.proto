@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OGNIGMMAPNI
+// Obf: BPDJNOOMGFG
 message CityReputationQuestInfo {
-	repeated uint32 ECMOALGJMHK = 14;
-	repeated uint32 LJEOOGFNFLM = 4;
-	bool is_open = 10;
+	bool is_open = 1;
+	repeated uint32 HOOJELIFKIM = 15;
+	repeated uint32 BFBDLFFGNOH = 4;
 }

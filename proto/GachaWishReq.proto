@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1555
-// Obf: KFKGMMKOJPE
+// CmdId: 23244
+// Obf: HPILINGFDBP
 message GachaWishReq {
-	uint32 gachaScheduleId = 10;
+	uint32 gachaType = 12;
 	uint32 item_id = 7;
-	uint32 gachaType = 11;
+	uint32 gachaScheduleId = 10;
 }

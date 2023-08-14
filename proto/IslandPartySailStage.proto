@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CMBIHEEBLBL
+// Obf: IAJMOMGBODC
 enum IslandPartySailStage {
 	ISLAND_PARTY_SAIL_STAGE_NONE = 0;
 	ISLAND_PARTY_SAIL_STAGE_SAIL = 1;

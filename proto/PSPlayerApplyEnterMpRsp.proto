@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1842
-// Obf: LBNPFNBAJOI
+// CmdId: 21696
+// Obf: IPBKEIBFBCN
 message PSPlayerApplyEnterMpRsp {
-	uint32 param = 12;
-	string target_psn_id = 10;
-	int32 retcode = 2;
+	int32 retcode = 14;
+	string target_psn_id = 7;
+	uint32 param = 13;
 }

@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "VehicleInteractType.proto";
-// CmdId: 833
-// Obf: PJIEJOJGDBJ
+// CmdId: 28312
+// Obf: BPOCDLCHOCO
 message VehicleInteractReq {
-	bool NKHNKOHCCHJ = 5;
-	uint32 entity_id = 9;
-	VehicleInteractType interact_type = 2;
-	uint32 pos = 14;
+	uint32 entity_id = 10;
+	uint32 pos = 7;
+	VehicleInteractType interact_type = 9;
+	bool EPCIACIPLAN = 15;
 }

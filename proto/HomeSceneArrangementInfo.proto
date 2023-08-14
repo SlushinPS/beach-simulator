@@ -16,21 +16,21 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
+import "HomeBlockArrangementInfo.proto";
 import "HomeFurnitureData.proto";
 import "Vector.proto";
-import "HomeBlockArrangementInfo.proto";
-// Obf: OPEJIIPLGJN
+// Obf: LEMEOONDDGM
 message HomeSceneArrangementInfo {
-	repeated HomeFurnitureData Unk3300_CMBCIBBCMOK = 12;
-	Vector born_pos = 4;
-	repeated HomeBlockArrangementInfo block_arrangement_info_list = 15;
-	Vector djinn_pos = 3;
-	uint32 scene_id = 14;
+	repeated HomeBlockArrangementInfo block_arrangement_info_list = 2;
+	repeated HomeFurnitureData HDOFAHGPJGK = 7;
+	repeated HomeFurnitureData MLECLIOFALA = 12;
+	Vector born_rot = 9;
+	uint32 scene_id = 8;
+	uint32 bgm_id = 3;
+	uint32 comfort_value = 5;
 	HomeFurnitureData main_house = 6;
-	repeated HomeFurnitureData Unk3300_EOHAHHFDAPI = 5;
-	bool is_set_born_pos = 2;
-	uint32 bgm_id = 10;
-	uint32 tmp_version = 1;
-	Vector born_rot = 13;
-	uint32 comfort_value = 11;
+	uint32 tmp_version = 13;
+	bool is_set_born_pos = 1;
+	Vector djinn_pos = 4;
+	Vector born_pos = 10;
 }

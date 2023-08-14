@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CustomGadgetTreeInfo.proto";
-// CmdId: 8104
-// Obf: HKKNDLNFJAH
+// CmdId: 25884
+// Obf: BJFBABCDCPD
 message PlantFlowerEditFlowerCombinationReq {
-	uint32 entity_id = 6;
-	CustomGadgetTreeInfo flower_combination_info = 13;
-	uint32 schedule_id = 4;
+	uint32 entity_id = 2;
+	CustomGadgetTreeInfo flower_combination_info = 4;
+	uint32 schedule_id = 7;
 }

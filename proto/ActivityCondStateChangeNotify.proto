@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
-// CmdId: 2178
-// Obf: GEKIGGBPDNC
+// CmdId: 8757
+// Obf: NEGNAIMEEAO
 message ActivityCondStateChangeNotify {
-	repeated uint32 activated_sale_id_list = 13;
-	repeated uint32 expire_cond_list = 7;
-	uint32 activity_id = 10;
+	repeated uint32 DCPENBLPKHK = 11;
 	repeated Uint32Pair disable_transfer_point_interaction_list = 4;
-	repeated uint32 meet_cond_list = 5;
-	uint32 schedule_id = 6;
+	uint32 activity_id = 1;
+	repeated uint32 PHCOMIFAIJD = 8;
+	repeated uint32 activated_sale_id_list = 14;
+	uint32 schedule_id = 10;
 }

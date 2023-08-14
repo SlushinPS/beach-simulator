@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FleurFairMusicRecord.proto";
-// Obf: BNLGMOEKANO
+// Obf: BOOAFGNBGIM
 message FleurFairMusicGameInfo {
-	map<uint32, FleurFairMusicRecord> music_record_map = 7;
+	map<uint32, FleurFairMusicRecord> music_record_map = 11;
 }

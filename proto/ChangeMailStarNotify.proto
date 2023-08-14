@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1421
-// Obf: MJIPPMLPCIK
+// CmdId: 2285
+// Obf: BNOGMFJDHHL
 message ChangeMailStarNotify {
-	repeated uint32 mail_id_list = 13;
-	bool is_star = 14;
+	bool is_star = 13;
+	repeated uint32 mail_id_list = 15;
 }

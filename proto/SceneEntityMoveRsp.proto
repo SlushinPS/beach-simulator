@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MotionInfo.proto";
-// CmdId: 287
-// Obf: MKKILPEEIOB
+// CmdId: 20380
+// Obf: EAFJAPJJKNJ
 message SceneEntityMoveRsp {
-	uint32 entity_id = 13;
-	uint32 scene_time = 2;
-	uint32 reliable_seq = 14;
-	int32 retcode = 1;
-	MotionInfo fail_motion = 4;
+	int32 retcode = 8;
+	uint32 reliable_seq = 12;
+	uint32 entity_id = 15;
+	uint32 scene_time = 1;
+	MotionInfo fail_motion = 9;
 }

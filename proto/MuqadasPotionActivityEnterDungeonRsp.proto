@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21540
-// Obf: BCENGACGCML
+// CmdId: 21120
+// Obf: CPMDCIAIPDN
 message MuqadasPotionActivityEnterDungeonRsp {
-	uint32 level_id = 9;
-	int32 retcode = 7;
+	uint32 level_id = 7;
+	int32 retcode = 12;
 }

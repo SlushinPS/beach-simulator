@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4088
-// Obf: ELEGLLHFKJG
+// CmdId: 23862
+// Obf: IBMHDIAKIGL
 message UpdatePS4FriendListNotify {
-	repeated string psn_id_list = 8;
+	repeated string psn_id_list = 9;
 }

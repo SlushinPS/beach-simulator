@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BattlePassSchedule.proto";
-// CmdId: 2621
-// Obf: JNGCODHNGLG
+// CmdId: 27464
+// Obf: AFCLFFABLPC
 message BattlePassCurScheduleUpdateNotify {
-	bool have_cur_schedule = 10;
-	BattlePassSchedule cur_schedule = 14;
+	BattlePassSchedule cur_schedule = 9;
+	bool have_cur_schedule = 11;
 }

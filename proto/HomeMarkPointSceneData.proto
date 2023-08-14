@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "Vector.proto";
 import "HomeMarkPointFurnitureData.proto";
-// Obf: BGMMGBMIKON
+import "Vector.proto";
+// Obf: OKNHJBLIEGA
 message HomeMarkPointSceneData {
-	Vector safe_point_pos = 1;
-	Vector teapot_spirit_pos = 13;
-	uint32 module_id = 12;
-	uint32 scene_id = 6;
-	repeated HomeMarkPointFurnitureData furniture_list = 10;
+	repeated HomeMarkPointFurnitureData furniture_list = 7;
+	Vector HPIMNKGLMNC = 8;
+	uint32 module_id = 9;
+	uint32 scene_id = 5;
+	Vector KGAJHCFOHCB = 3;
 }

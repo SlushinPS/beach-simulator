@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DBNNAIEGABK
+// Obf: BPDPOCMBCLI
 enum MapMarkPointType {
 	MAP_MARK_POINT_TYPE_NPC = 0;
 	MAP_MARK_POINT_TYPE_QUEST = 1;

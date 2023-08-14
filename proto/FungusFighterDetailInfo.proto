@@ -20,13 +20,13 @@ import "FungusTrainingProgressDetail.proto";
 import "FungusTrainingDungeonDetail.proto";
 import "FungusDetail.proto";
 import "FungusPlotStageDetail.proto";
-// Obf: MIMDIDPCGII
+// Obf: HIDHOOJCCJF
 message FungusFighterDetailInfo {
-	repeated uint32 NHPGAMMGJPD = 1;
-	repeated uint32 NIKBJLIBKDK = 15;
-	repeated FungusTrainingProgressDetail training_dungeon_progress_detail_list = 5;
-	repeated FungusTrainingDungeonDetail training_dungeon_detail_list = 4;
-	repeated FungusDetail fungus_detail_list = 7;
-	repeated FungusPlotStageDetail plot_stage_detail_list = 2;
-	repeated uint32 KMIAOOFMCFB = 14;
+	repeated uint32 HOHBALCCDMB = 13;
+	repeated uint32 FOGDNLKADKI = 1;
+	repeated FungusTrainingProgressDetail training_dungeon_progress_detail_list = 8;
+	repeated FungusTrainingDungeonDetail training_dungeon_detail_list = 9;
+	repeated FungusDetail fungus_detail_list = 5;
+	repeated uint32 IGAAEONOMGM = 7;
+	repeated FungusPlotStageDetail plot_stage_detail_list = 15;
 }

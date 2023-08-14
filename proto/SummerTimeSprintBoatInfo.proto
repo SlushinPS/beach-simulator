@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SummerTimeSprintBoatRecord.proto";
-// Obf: OJNCOEHJAKA
+// Obf: MBIICFNNNII
 message SummerTimeSprintBoatInfo {
 	repeated SummerTimeSprintBoatRecord record_list = 3;
 }

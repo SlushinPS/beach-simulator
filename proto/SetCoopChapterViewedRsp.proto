@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1959
-// Obf: FMDKNDKKLAA
+// CmdId: 23389
+// Obf: AIFNGABDBJK
 message SetCoopChapterViewedRsp {
-	uint32 chapter_id = 14;
-	int32 retcode = 13;
+	int32 retcode = 12;
+	uint32 chapter_id = 6;
 }

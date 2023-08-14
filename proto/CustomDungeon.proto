@@ -18,10 +18,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CustomDungeonSetting.proto";
 import "CustomDungeonRoom.proto";
-// Obf: CJMOPGOKAOI
+// Obf: JLKPGHBFPHE
 message CustomDungeon {
-	CustomDungeonSetting setting = 6;
-	uint32 dungeon_id = 1;
-	uint64 dungeon_guid = 10;
-	repeated CustomDungeonRoom room_list = 9;
+	CustomDungeonSetting setting = 14;
+	repeated CustomDungeonRoom room_list = 7;
+	uint64 dungeon_guid = 3;
+	uint32 dungeon_id = 8;
 }

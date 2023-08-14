@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RegionSearchState.proto";
-// Obf: JPDFHCAIBHD
+// Obf: HFKBIABFDBJ
 message RegionSearch {
-	uint32 progress = 1;
-	RegionSearchState state = 14;
-	bool is_entered = 4;
-	uint32 region_search_id = 10;
+	uint32 progress = 4;
+	RegionSearchState state = 5;
+	bool is_entered = 13;
+	uint32 region_search_id = 7;
 }

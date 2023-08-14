@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "AbilitySyncStateInfo.proto";
 import "AbilityControlBlock.proto";
-// Obf: CIPMBEDPLNL
+import "AbilitySyncStateInfo.proto";
+// Obf: PMLNKMHJPKI
 message TeamEnterSceneInfo {
-	uint32 team_entity_id = 6;
-	AbilitySyncStateInfo team_ability_info = 10;
-	AbilityControlBlock ability_control_block = 5;
+	uint32 team_entity_id = 5;
+	AbilityControlBlock ability_control_block = 7;
+	AbilitySyncStateInfo team_ability_info = 8;
 }

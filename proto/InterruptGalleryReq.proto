@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5521
-// Obf: MAMKCEBMMMN
+// CmdId: 22371
+// Obf: OJAPFHMNHMC
 message InterruptGalleryReq {
-	uint32 gallery_id = 15;
+	uint32 gallery_id = 14;
 }

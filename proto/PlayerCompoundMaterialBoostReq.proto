@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 114
-// Obf: DFEPFLOHFBD
+// CmdId: 26353
+// Obf: HLAOGKCEDGO
 message PlayerCompoundMaterialBoostReq {
-	uint32 HDPLMDCFPAF = 12;
-	uint32 MBEFPCNDEII = 11;
-	bool is_boost_all = 9;
-	uint32 MHMAGJKPDIO = 7;
+	uint32 OFGJECHPEPD = 3;
+	bool is_boost_all = 1;
+	uint32 DDGFJLPEALM = 6;
+	uint32 OJEJLNFJDGG = 14;
 }

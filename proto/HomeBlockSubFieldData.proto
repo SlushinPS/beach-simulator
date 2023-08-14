@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: OPNHIHEAIIK
+// Obf: HEOEAKDEIJA
 message HomeBlockSubFieldData {
-	Vector rot = 10;
-	Vector pos = 12;
+	Vector rot = 2;
+	Vector pos = 8;
 }

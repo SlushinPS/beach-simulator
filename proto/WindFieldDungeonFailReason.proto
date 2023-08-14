@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LCLLFHFCPHG
+// Obf: EPFKHGDAOCP
 enum WindFieldDungeonFailReason {
 	WIND_FIELD_DUNGEON_FAIL_NONE = 0;
 	WIND_FIELD_DUNGEON_FAIL_CANCEL = 1;

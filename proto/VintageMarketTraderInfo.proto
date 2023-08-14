@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// Obf: CIOAOABLMOM
+// Obf: BHAHOKCAAAA
 message VintageMarketTraderInfo {
-	uint32 trader_id = 8;
-	repeated ItemParam available_item_list = 12;
+	repeated ItemParam available_item_list = 10;
+	uint32 trader_id = 9;
 }

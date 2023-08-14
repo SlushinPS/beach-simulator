@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22291
-// Obf: HKCLMBHDLFO
+// CmdId: 2448
+// Obf: PEIAOFDMODM
 message InstableSprayRestartDungeonRsp {
-	int32 retcode = 11;
-	uint32 level_id = 13;
+	uint32 level_id = 1;
+	int32 retcode = 15;
 }

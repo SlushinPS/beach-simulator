@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "QuestVarOp.proto";
-// CmdId: 438
-// Obf: JDNJONIOMEA
+// CmdId: 28126
+// Obf: CJGCHOPODCD
 message QuestUpdateQuestVarReq {
-	uint32 parent_quest_var_seq = 11;
-	uint32 parent_quest_id = 1;
-	uint32 quest_id = 2;
-	repeated QuestVarOp quest_var_op_list = 4;
+	repeated QuestVarOp quest_var_op_list = 8;
+	uint32 parent_quest_var_seq = 9;
+	uint32 parent_quest_id = 11;
+	uint32 quest_id = 7;
 }

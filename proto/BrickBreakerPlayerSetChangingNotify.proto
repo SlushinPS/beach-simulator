@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5329
-// Obf: CFLFAICKEOC
+// CmdId: 3619
+// Obf: KBILJEDLKJO
 message BrickBreakerPlayerSetChangingNotify {
-	bool is_changing = 3;
-	uint32 uid = 6;
+	uint32 uid = 8;
+	bool is_changing = 9;
 }

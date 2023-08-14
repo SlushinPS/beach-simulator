@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "UgcMusicNote.proto";
-// Obf: EANCFIOAJDF
+// Obf: MOHEEEFBOEK
 message UgcMusicTrack {
-	repeated UgcMusicNote music_note_list = 9;
+	repeated UgcMusicNote music_note_list = 5;
 }

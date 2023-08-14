@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "LuminanceStoneChallengeSettleInfo.proto";
-// CmdId: 8565
-// Obf: JPGNPPEDCAP
+// CmdId: 22564
+// Obf: EACMAIEIMML
 message LuminanceStoneChallengeSettleNotify {
-	LuminanceStoneChallengeSettleInfo settle_info = 7;
-	uint32 gallery_id = 2;
+	LuminanceStoneChallengeSettleInfo settle_info = 5;
+	uint32 gallery_id = 6;
 }

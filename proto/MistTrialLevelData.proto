@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MistTrialBestAvatar.proto";
-// Obf: IIDDKHKAAON
+// Obf: BLADFOJPMAB
 message MistTrialLevelData {
-	uint32 first_pass_time = 4;
-	uint32 open_time = 11;
-	bool is_open = 9;
-	repeated MistTrialBestAvatar best_avatar_list = 6;
-	MistTrialBestAvatar best_hit_avatar = 8;
 	uint32 level_id = 13;
+	uint32 first_pass_time = 11;
+	bool is_open = 14;
+	MistTrialBestAvatar best_hit_avatar = 9;
+	repeated MistTrialBestAvatar best_avatar_list = 10;
+	uint32 open_time = 7;
 }

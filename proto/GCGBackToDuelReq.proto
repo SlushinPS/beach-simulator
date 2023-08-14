@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7300
-// Obf: NLODGPMIPPA
+// CmdId: 664
+// Obf: OMMOCDHAKEJ
 message GCGBackToDuelReq {
-	bool is_back = 7;
+	bool is_back = 9;
 }

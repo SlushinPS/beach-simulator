@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: AIMPMCMFJIK
+// Obf: EBKELAKJJEC
 message SceneGalleryAkaFesArchaeologyInfo {
-	uint32 EDBAKLDPAAD = 8;
-	uint32 IDOPBHGABCE = 2;
+	uint32 DPFKGAJIFGG = 4;
+	uint32 FNFGFKGDJPH = 7;
 }

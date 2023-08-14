@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LFJPKCJBNDP
+// Obf: CAACAGHNDPP
 message GCGMsgReactionBegin {
-	uint32 card_guid = 13;
-	uint32 skill_id = 8;
+	uint32 skill_id = 2;
+	uint32 card_guid = 12;
 }

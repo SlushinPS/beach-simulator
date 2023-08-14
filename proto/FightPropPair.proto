@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: AAIGEAGCKAA
+// Obf: DKENFABIHAJ
 message FightPropPair {
 	uint32 prop_type = 1;
 	float prop_value = 2;

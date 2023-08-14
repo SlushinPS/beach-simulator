@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: FGPAAKCNONO
+// Obf: COEPLIBIANG
 message PlaceInfo {
 	Vector pos = 1;
 	Vector rot = 2;

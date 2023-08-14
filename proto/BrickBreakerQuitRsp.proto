@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20028
-// Obf: PHMKBGIMJIE
+// CmdId: 22313
+// Obf: JOENFPPHBEL
 message BrickBreakerQuitRsp {
-	int32 retcode = 4;
+	int32 retcode = 3;
 }

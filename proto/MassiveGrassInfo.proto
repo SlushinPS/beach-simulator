@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: EACNKHKNNDA
+// Obf: GGNBMDPHDAN
 message MassiveGrassInfo {
 	uint32 id = 1;
 	Vector center = 2;

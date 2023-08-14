@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5391
-// Obf: LOPBKCGNPJD
+// CmdId: 4947
+// Obf: KKAFAGKOAOI
 message BrickBreakerSetChangingReq {
-	bool is_changing = 5;
+	bool is_changing = 13;
 }

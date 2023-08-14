@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
-// Obf: DDJCLHEIKPE
+// Obf: CLIOHIGGKBE
 message MechanicusInfo {
-	bool is_finish_teach_dungeon = 10;
-	repeated Uint32Pair gear_level_pair_list = 11;
-	uint32 punish_over_time = 13;
-	repeated uint32 MBOJECMGEPI = 7;
-	repeated uint32 NNFLCNDGEEE = 3;
-	uint32 mechanicus_id = 5;
+	uint32 mechanicus_id = 2;
+	repeated uint32 GAFGMEGNBJA = 10;
+	repeated uint32 OFDKKEIMMJE = 12;
+	uint32 punish_over_time = 11;
 	uint32 coin = 15;
+	bool is_finish_teach_dungeon = 1;
+	repeated Uint32Pair gear_level_pair_list = 13;
 }

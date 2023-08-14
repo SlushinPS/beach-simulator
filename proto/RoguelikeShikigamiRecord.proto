@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EAGEBKMEIPO
+// Obf: OPGJPAHGJKG
 message RoguelikeShikigamiRecord {
-	uint32 level = 4;
-	uint32 id = 8;
+	uint32 id = 4;
+	uint32 level = 15;
 }

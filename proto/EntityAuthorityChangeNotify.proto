@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AuthorityChange.proto";
-// CmdId: 326
-// Obf: JOFAGGLCECB
+// CmdId: 3913
+// Obf: PCGGEAGLBGD
 message EntityAuthorityChangeNotify {
-	repeated AuthorityChange authority_change_list = 6;
+	repeated AuthorityChange authority_change_list = 13;
 }

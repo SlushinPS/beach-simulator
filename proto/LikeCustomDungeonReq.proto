@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6230
-// Obf: LDFBPPEBIJA
+// CmdId: 6450
+// Obf: DMNLJNOKENH
 message LikeCustomDungeonReq {
-	bool is_cancel_like = 12;
-	uint64 dungeon_guid = 9;
+	uint64 dungeon_guid = 1;
+	bool is_cancel_like = 9;
 }

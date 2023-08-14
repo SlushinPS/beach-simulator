@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7128
-// Obf: JFFHJBPBMAL
+// CmdId: 27109
+// Obf: LNBLGEBNNGC
 message GCGGrowthLevelRewardNotify {
-	repeated uint32 level_reward_taken_list = 5;
+	repeated uint32 level_reward_taken_list = 12;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EKIAFPHGIBH
+// Obf: IFLKBEFDMPH
 enum VisionType {
 	VISION_TYPE_NONE = 0;
 	VISION_TYPE_MEET = 1;

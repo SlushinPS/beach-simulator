@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: BCMINADPFCD
+// Obf: IOFJMGKBCOC
 message ParkourLevelInfo {
+	uint32 best_record = 13;
 	uint32 open_time = 14;
-	bool is_open = 7;
-	Vector pos = 3;
-	uint32 best_record = 2;
+	bool is_open = 1;
+	Vector pos = 7;
 }

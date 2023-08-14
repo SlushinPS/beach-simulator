@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4489
-// Obf: OEMBFGFLDHP
+// CmdId: 5429
+// Obf: FMFCLDDJBEA
 message HomeTransferRsp {
-	int32 retcode = 5;
+	int32 retcode = 3;
 }

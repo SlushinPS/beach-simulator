@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MBKOPEPFGAG
+// Obf: LLNDNAFDJAL
 message RedPointData {
 	uint32 red_point_type = 1;
 	bool is_show = 2;

@@ -17,14 +17,14 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 8107
-// Obf: DMOJHANFDAB
+// CmdId: 25372
+// Obf: FEFHCLAIFHB
 message BartenderCompleteOrderReq {
-	uint32 OIBFDJOINLD = 3;
-	uint32 GAPDCJGFION = 7;
-	uint32 NJHLGJPCJJP = 10;
-	repeated uint32 optional_order_list = 2;
-	bool is_view_formula = 4;
-	uint32 quest_id = 8;
-	repeated ItemParam item_list = 13;
+	uint32 quest_id = 10;
+	uint32 MBAAHPBEAEI = 5;
+	bool is_view_formula = 7;
+	uint32 GPGCCDPDENJ = 11;
+	repeated ItemParam item_list = 4;
+	uint32 BBNAEDJABBD = 8;
+	repeated uint32 optional_order_list = 6;
 }

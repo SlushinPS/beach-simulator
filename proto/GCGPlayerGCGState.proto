@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BENCNDAAMML
+// Obf: INLADMODIGO
 message GCGPlayerGCGState {
-	bool LAKOPLONGKL = 13;
-	uint32 uid = 14;
-	bool MLIOBMAMIAI = 1;
+	bool BBPAKEDIMOK = 1;
+	uint32 uid = 4;
+	bool FPKMCAHAFIF = 15;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2748
-// Obf: MGAMANOMEKL
+// CmdId: 2992
+// Obf: DHFOJJJLEBN
 message BlossomChestCreateNotify {
-	uint32 refresh_id = 12;
-	uint32 circle_camp_id = 15;
+	uint32 refresh_id = 8;
+	uint32 circle_camp_id = 2;
 }

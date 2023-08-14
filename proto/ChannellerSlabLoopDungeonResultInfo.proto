@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EBKOOMFFCIP
+// Obf: BIMIBAHBDAC
 message ChannellerSlabLoopDungeonResultInfo {
-	bool is_in_time_limit = 14;
-	uint32 dungeon_index = 6;
-	uint32 challenge_max_score = 1;
-	bool is_success = 5;
-	uint32 challenge_score = 15;
+	uint32 challenge_max_score = 4;
+	uint32 dungeon_index = 11;
+	bool is_success = 10;
+	bool is_in_time_limit = 7;
+	uint32 challenge_score = 1;
 }

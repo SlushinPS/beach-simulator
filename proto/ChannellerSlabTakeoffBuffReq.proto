@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8112
-// Obf: KDBPPMGGOGJ
+// CmdId: 6732
+// Obf: HCMNCGIMEBO
 message ChannellerSlabTakeoffBuffReq {
-	uint32 buff_id = 7;
-	uint32 slot_id = 15;
-	bool is_mp = 5;
+	uint32 slot_id = 13;
+	bool is_mp = 1;
+	uint32 buff_id = 12;
 }

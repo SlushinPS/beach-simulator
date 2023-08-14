@@ -21,15 +21,15 @@ import "MotionInfo.proto";
 import "PropPair.proto";
 import "FightPropPair.proto";
 import "AnimatorParameterValueInfoPair.proto";
-import "EntityClientData.proto";
-import "EntityEnvironmentInfo.proto";
-import "EntityAuthorityInfo.proto";
-import "ServerBuff.proto";
 import "SceneAvatarInfo.proto";
 import "SceneMonsterInfo.proto";
 import "SceneNpcInfo.proto";
 import "SceneGadgetInfo.proto";
-// Obf: LMOBCIGGDEA
+import "EntityClientData.proto";
+import "EntityEnvironmentInfo.proto";
+import "EntityAuthorityInfo.proto";
+import "ServerBuff.proto";
+// Obf: DGPPPPBJILO
 message SceneEntityInfo {
 	ProtEntityType entity_type = 1;
 	uint32 entity_id = 2;
@@ -39,6 +39,12 @@ message SceneEntityInfo {
 	repeated FightPropPair fight_prop_list = 6;
 	uint32 life_state = 7;
 	repeated AnimatorParameterValueInfoPair animator_para_list = 9;
+	oneof entity {
+		SceneAvatarInfo avatar = 10;
+		SceneMonsterInfo monster = 11;
+		SceneNpcInfo npc = 12;
+		SceneGadgetInfo gadget = 13;
+	}
 	uint32 last_move_scene_time_ms = 17;
 	uint32 last_move_reliable_seq = 18;
 	EntityClientData entity_client_data = 19;
@@ -46,10 +52,4 @@ message SceneEntityInfo {
 	EntityAuthorityInfo entity_authority_info = 21;
 	repeated string tag_list = 22;
 	repeated ServerBuff server_buff_list = 23;
-	oneof entity {
-		SceneAvatarInfo avatar = 10;
-		SceneMonsterInfo monster = 11;
-		SceneNpcInfo npc = 12;
-		SceneGadgetInfo gadget = 13;
-	}
 }

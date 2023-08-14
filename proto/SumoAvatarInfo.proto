@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FMCHEOACJGI
+// Obf: EGPCHKBINEA
 message SumoAvatarInfo {
-	bool is_trial = 4;
-	uint64 avatar_id = 1;
+	bool is_trial = 11;
+	uint64 avatar_id = 10;
 }

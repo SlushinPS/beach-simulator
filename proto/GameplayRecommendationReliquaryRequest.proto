@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CIOJFBLABCG
+// Obf: HLNOLNPKOKD
 message GameplayRecommendationReliquaryRequest {
-	uint32 equip_type = 7;
+	uint32 equip_type = 3;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8671
-// Obf: AECCEJHDGKD
+// CmdId: 25469
+// Obf: PHIAELCHFCP
 message RoguelikeGiveUpReq {
-	uint32 stage_id = 7;
+	uint32 stage_id = 2;
 }

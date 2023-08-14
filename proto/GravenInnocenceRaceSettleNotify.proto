@@ -16,18 +16,18 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "HDDANIDHCMI.proto";
-// CmdId: 24356
-// Obf: MIKKPOKHFPA
+import "KDHIAEFLGFM.proto";
+// CmdId: 22442
+// Obf: PMHAGALHGOM
 message GravenInnocenceRaceSettleNotify {
-	bool is_new_record = 3;
-	uint32 OHFJJJNAIKN = 12;
-	uint32 EFDEFAPICPP = 1;
-	uint32 score = 14;
-	uint32 gallery_id = 4;
-	bool is_success = 8;
-	uint32 NHGEAMPJEEM = 10;
-	HDDANIDHCMI reason = 6;
-	uint32 level_id = 15;
-	uint32 CKGDCGAGEDA = 11;
+	uint32 level_id = 7;
+	bool is_new_record = 14;
+	uint32 OPKOOKDBDLD = 4;
+	KDHIAEFLGFM reason = 3;
+	uint32 LNIPPMNEEGE = 10;
+	uint32 CKGIEEOOHON = 5;
+	bool is_success = 2;
+	uint32 gallery_id = 12;
+	uint32 NFNMJPHJDJL = 1;
+	uint32 score = 9;
 }

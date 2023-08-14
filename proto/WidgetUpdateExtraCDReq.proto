@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "WidgetExtraCdType.proto";
-// CmdId: 5977
-// Obf: AEGIILILAJA
+// CmdId: 24037
+// Obf: MNBKHKHMIBN
 message WidgetUpdateExtraCDReq {
-	uint32 cd_group = 10;
-	uint32 material_id = 13;
-	WidgetExtraCdType extra_cd_type = 7;
+	uint32 cd_group = 9;
+	uint32 material_id = 8;
+	WidgetExtraCdType extra_cd_type = 4;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2637
-// Obf: EHBCMBGNEAI
+// CmdId: 21680
+// Obf: HLNLOLMOCDI
 message BattlePassMissionDelNotify {
-	repeated uint32 del_mission_id_list = 9;
+	repeated uint32 del_mission_id_list = 8;
 }

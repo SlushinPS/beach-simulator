@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RogueCellInfo.proto";
-// CmdId: 8723
-// Obf: KLMMGJJDKAP
+// CmdId: 4597
+// Obf: KBOGKJLJKEB
 message RogueCellUpdateNotify {
-	RogueCellInfo cell_info = 3;
+	RogueCellInfo cell_info = 9;
 }

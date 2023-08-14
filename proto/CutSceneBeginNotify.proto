@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CutSceneExtraParam.proto";
-// CmdId: 285
-// Obf: PNGBGNKECJP
+// CmdId: 418
+// Obf: LKBOJOLENCC
 message CutSceneBeginNotify {
-	repeated CutSceneExtraParam extra_param_list = 9;
-	uint32 cutscene_id = 13;
-	bool is_wait_others = 3;
+	uint32 cutscene_id = 11;
+	bool is_wait_others = 8;
+	repeated CutSceneExtraParam extra_param_list = 15;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8170
-// Obf: FMBKHMGAFLF
+// CmdId: 23353
+// Obf: EBPGPMJAIPH
 message SummerTimeSprintBoatRestartReq {
-	uint32 schedule_id = 2;
-	uint32 group_id = 15;
+	uint32 group_id = 7;
+	uint32 schedule_id = 5;
 }

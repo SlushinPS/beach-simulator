@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4276
-// Obf: HGGOPPKOBFP
+// CmdId: 726
+// Obf: DELBDBAHPJJ
 message AnchorPointOpRsp {
-	uint32 anchor_point_id = 5;
-	uint32 anchor_point_op_type = 8;
-	int32 retcode = 7;
+	int32 retcode = 6;
+	uint32 anchor_point_id = 2;
+	uint32 anchor_point_op_type = 7;
 }

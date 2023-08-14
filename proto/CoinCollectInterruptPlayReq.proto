@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24014
-// Obf: HHLKLFILMDB
+// CmdId: 9799
+// Obf: FHDOGKHBAPC
 message CoinCollectInterruptPlayReq {
 	uint32 gallery_id = 14;
 }

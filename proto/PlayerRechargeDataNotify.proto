@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProductPriceTier.proto";
-// CmdId: 4126
-// Obf: LCEGDLFPCEE
+// CmdId: 9891
+// Obf: DPACKGEIODG
 message PlayerRechargeDataNotify {
-	uint32 card_product_remain_days = 15;
-	repeated ProductPriceTier product_price_tier_list = 10;
+	uint32 card_product_remain_days = 4;
+	repeated ProductPriceTier product_price_tier_list = 5;
 }

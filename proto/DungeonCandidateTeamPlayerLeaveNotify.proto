@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DungeonCandidateTeamPlayerLeaveReason.proto";
-// CmdId: 905
-// Obf: KKOAFBEJGBO
+// CmdId: 23849
+// Obf: LCCBHDIDMLM
 message DungeonCandidateTeamPlayerLeaveNotify {
-	DungeonCandidateTeamPlayerLeaveReason reason = 4;
-	uint32 player_uid = 10;
+	uint32 player_uid = 9;
+	DungeonCandidateTeamPlayerLeaveReason reason = 14;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4204
-// Obf: MBADNAIENJG
+// CmdId: 20900
+// Obf: BOOFNCELDCM
 message SetCodexPushtipsReadRsp {
-	uint32 GMMHIHAOJIM = 11;
-	int32 retcode = 3;
-	uint32 HFJNAAGCKFJ = 1;
+	uint32 JKLHOJOCLJD = 3;
+	uint32 CFNJIOIOLPG = 8;
+	int32 retcode = 15;
 }

@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "VintageMarketStoreOpInfo.proto";
-// CmdId: 24268
-// Obf: GCPPKPNMMMO
+// CmdId: 28932
+// Obf: KOKENMMFKPO
 message VintageMarketStoreChooseStrategyReq {
-	repeated uint32 strategy_list = 4;
-	repeated VintageMarketStoreOpInfo store_op_list = 9;
 	uint32 store_id = 1;
+	repeated VintageMarketStoreOpInfo store_op_list = 8;
+	repeated uint32 strategy_list = 11;
 }

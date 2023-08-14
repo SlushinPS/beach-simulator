@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OACEIOAILNE
+// Obf: BGGFBNKFLHN
 message MpPlayRewardInfo {
 	uint32 resin = 1;
 	repeated uint32 remain_uid_list = 2;

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KEJFFCAKLNH
+// Obf: NFFHIBBIIKB
 message HomeResource {
-	uint32 store_value = 4;
+	uint32 AIHDOEBOLLC = 1;
 	fixed32 next_refresh_time = 5;
-	uint32 store_limit = 13;
+	uint32 CELOOEHBGBJ = 3;
 }

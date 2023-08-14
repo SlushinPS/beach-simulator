@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20089
-// Obf: ALIGFBMFEOC
+// CmdId: 21081
+// Obf: EKFLIDIIPKF
 message VintageHuntingStartGalleryReq {
 	uint32 stage_id = 8;
 }

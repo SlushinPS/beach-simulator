@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// Obf: LFPLMPFDIHK
+// Obf: LCFEBPAKLPL
 message CrucibleBattleUidInfo {
-	uint32 icon = 3;
-	uint32 uid = 13;
-	ProfilePicture profile_picture = 14;
-	string online_id = 7;
-	string nickname = 12;
+	uint32 uid = 3;
+	string online_id = 4;
+	uint32 icon = 14;
+	string nickname = 10;
+	ProfilePicture profile_picture = 6;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6301
-// Obf: BDKJKLBIEHJ
+// CmdId: 24435
+// Obf: BNKNLILOIHN
 message UgcNotify {
-	bool LMICNFHFLFF = 4;
-	bool PNILOAIHDHO = 3;
-	bool IGIJBHLPGJD = 6;
-	bool FHPMJMNGPMO = 13;
+	bool GKJAPKJDBPN = 8;
+	bool POPHCJEGGJG = 3;
+	bool IOPFGIPIHAG = 2;
+	bool KOJNKEAKAFK = 10;
 }

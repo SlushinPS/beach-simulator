@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8486
-// Obf: AMFGMCCHNCB
+// CmdId: 1133
+// Obf: JFHKICKOAAP
 message UpgradeRoguelikeShikigamiRsp {
+	uint32 FHBEKAOCDHF = 9;
+	int32 retcode = 6;
 	uint32 cur_level = 7;
-	int32 retcode = 4;
-	uint32 OOHLIPJCHNE = 3;
 }

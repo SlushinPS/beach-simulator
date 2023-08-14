@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4885
-// Obf: OKJCAMICNIL
+// CmdId: 9713
+// Obf: LPNNHLDIFJN
 message HomeAvtarAllFinishRewardNotify {
-	repeated uint32 event_id_list = 13;
+	repeated uint32 event_id_list = 12;
 }

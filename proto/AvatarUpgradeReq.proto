@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1629
-// Obf: FEBHFJCIKEH
+// CmdId: 28204
+// Obf: CFIFEHLBHPM
 message AvatarUpgradeReq {
-	uint64 avatar_guid = 12;
+	uint32 item_id = 5;
+	uint64 avatar_guid = 10;
 	uint32 count = 1;
-	uint32 item_id = 4;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGEndReason.proto";
-// Obf: DBICIBMDGLB
+// Obf: PCCDBPMPMIG
 message GCGMsgGameOver {
-	uint32 win_controller_id = 2;
-	GCGEndReason end_reason = 11;
+	GCGEndReason end_reason = 3;
+	uint32 win_controller_id = 15;
 }

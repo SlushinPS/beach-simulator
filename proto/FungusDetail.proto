@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KFHPBFMEBFB
+// Obf: CGJNHNHCIIB
 message FungusDetail {
-	bool is_cultivate = 9;
-	uint32 KCAJBKNPANK = 14;
-	uint32 POJPAMKELAA = 2;
-	uint32 fungus_id = 5;
-	uint32 name_id = 1;
+	uint32 fungus_id = 6;
+	uint32 POHAEGNNKFE = 15;
+	bool is_cultivate = 7;
+	uint32 name_id = 3;
+	uint32 EPEECFNCAJE = 9;
 }

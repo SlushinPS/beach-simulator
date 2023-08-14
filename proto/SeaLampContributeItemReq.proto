@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 2004
-// Obf: FKLLBGKIHFB
+// CmdId: 6321
+// Obf: NGOMKAGCPMF
 message SeaLampContributeItemReq {
-	uint32 activity_id = 12;
-	repeated ItemParam item_list = 9;
+	repeated ItemParam item_list = 13;
+	uint32 activity_id = 8;
 }

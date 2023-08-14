@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "InstableSprayAvatarInfo.proto";
-// CmdId: 22671
-// Obf: KLJFPCMKFNN
+// CmdId: 23206
+// Obf: PKKFPHJOOKJ
 message InstableSprayEnterDungeonReq {
 	uint32 difficulty = 6;
-	repeated InstableSprayAvatarInfo avatar_info_list = 3;
-	uint32 stage_id = 8;
+	repeated InstableSprayAvatarInfo avatar_info_list = 12;
+	uint32 stage_id = 9;
 }

@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FoundationStatus.proto";
-// Obf: DGNBNKHBONE
+// Obf: HJBPIEDJHAP
 message FoundationInfo {
 	FoundationStatus status = 1;
 	repeated uint32 uid_list = 2;

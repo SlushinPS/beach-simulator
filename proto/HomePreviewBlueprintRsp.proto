@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeSceneArrangementInfo.proto";
-// CmdId: 4513
-// Obf: EENHBJDKAPC
+// CmdId: 23117
+// Obf: KGNPKKIELFO
 message HomePreviewBlueprintRsp {
-	string share_code = 3;
-	HomeSceneArrangementInfo scene_arrangement_info = 13;
-	int32 retcode = 1;
+	string share_code = 5;
+	HomeSceneArrangementInfo scene_arrangement_info = 6;
+	int32 retcode = 12;
 }

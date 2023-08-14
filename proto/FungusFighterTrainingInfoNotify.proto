@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5566
-// Obf: CIBENDOKFKH
+// CmdId: 23534
+// Obf: OJOKNMJALIF
 message FungusFighterTrainingInfoNotify {
-	uint32 MPEELPGPHIJ = 7;
-	uint32 PJDEJHODAMK = 8;
-	uint32 KPCEBEHOKNO = 1;
-	uint32 NHGJDJBLEFA = 2;
-	uint32 NDNFMHHOMCM = 15;
-	uint32 CJLJCDGDKPD = 14;
-	uint32 buff_id = 4;
+	uint32 JGFOFOCHKGG = 13;
+	uint32 ODNFAFPKLKF = 3;
+	uint32 AAIGFGNIFNF = 12;
+	uint32 NKDAHKKLFMC = 14;
+	uint32 buff_id = 9;
+	uint32 FPODCAPPDKP = 6;
+	uint32 HELFHNFBNNE = 8;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BAODMLGNPKC
+// Obf: HOLFHPKHFLL
 message HomeAvatarRewardEventInfo {
-	uint32 LHAPBMODLNM = 7;
-	uint32 event_id = 9;
-	uint32 suite_id = 2;
-	uint32 avatar_id = 1;
-	uint32 guid = 6;
+	uint32 guid = 11;
+	uint32 event_id = 8;
+	uint32 avatar_id = 5;
+	uint32 random_position = 1;
+	uint32 suite_id = 3;
 }

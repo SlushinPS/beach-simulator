@@ -16,18 +16,18 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "CMDMHNMLEBD.proto";
-import "JJFAPPOGLLE.proto";
-import "AKEBNLHDNPG.proto";
-import "EDMLKGMOBLK.proto";
-import "CIAJIBCPGKL.proto";
-import "BKDCMHLFHMC.proto";
-// Obf: EDJJPNEEFNE
+import "IHLKALJJCFJ.proto";
+import "BCIBGJPGJNH.proto";
+import "ONGCBHPILNP.proto";
+import "MEJPJACBPIG.proto";
+import "FHLNPLFEFFO.proto";
+import "GLCFFFILFGK.proto";
+// Obf: FIDDEODMLFC
 message AkaFesDetailInfo {
-	CMDMHNMLEBD IIAMHKKGHFO = 1;
-	JJFAPPOGLLE CIEGJJKCJFC = 6;
-	AKEBNLHDNPG IBIIDGBEANP = 7;
-	EDMLKGMOBLK potion_info = 13;
-	CIAJIBCPGKL DNMDFPIOKNM = 5;
-	BKDCMHLFHMC LGPFKPCHKJA = 2;
+	IHLKALJJCFJ IEKAJGGJEFD = 12;
+	BCIBGJPGJNH KIJKCBOBFIM = 10;
+	ONGCBHPILNP EPBBHCIHJOB = 11;
+	MEJPJACBPIG potion_info = 1;
+	FHLNPLFEFFO NJALPDCPMOL = 5;
+	GLCFFFILFGK JFHPDMPHDKG = 13;
 }

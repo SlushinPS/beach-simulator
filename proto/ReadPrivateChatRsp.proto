@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5034
-// Obf: DLFLHOEDAKA
+// CmdId: 9593
+// Obf: LOCJJOEEJMG
 message ReadPrivateChatRsp {
-	int32 retcode = 1;
+	int32 retcode = 7;
 }

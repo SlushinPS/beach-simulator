@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: AEGLPKDOHJN
+// Obf: MAIBEHDCKJL
 message StatueGadgetInfo {
 	repeated uint32 opened_statue_uid_list = 1;
 }

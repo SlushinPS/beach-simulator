@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22255
-// Obf: JJMJBBICLLA
+// CmdId: 26648
+// Obf: NCFCPFPADFD
 message VintageDecorateBoothRsp {
-	int32 retcode = 6;
+	int32 retcode = 7;
 }

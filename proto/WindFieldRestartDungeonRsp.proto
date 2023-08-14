@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20315
-// Obf: KKINCKBIIGA
+// CmdId: 816
+// Obf: INFBHECNIEL
 message WindFieldRestartDungeonRsp {
-	int32 retcode = 3;
+	int32 retcode = 13;
 }

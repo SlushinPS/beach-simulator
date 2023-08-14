@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JAIAMJEOAGD
+// Obf: HMDOLFMPBAF
 message FungusFighterMonsterDetail {
-	bool is_alive = 6;
-	float cur_hp_percentage = 4;
+	bool is_alive = 11;
 	uint32 fungus_id = 9;
+	float cur_hp_percentage = 6;
 }

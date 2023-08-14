@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5341
-// Obf: JJHJDHFPIOP
+// CmdId: 1259
+// Obf: HEHLJCHPHKF
 message HideAndSeekSelectAvatarReq {
-	uint32 avatar_id = 13;
+	uint32 avatar_id = 9;
 }

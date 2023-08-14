@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OBHGPHDNFBI
+// Obf: KIAKELJMIDM
 message HideAndSeekPlayerBattleInfo {
-	uint32 avatar_id = 9;
-	uint32 costume_id = 8;
-	repeated uint32 skill_list = 15;
-	bool is_ready = 12;
+	repeated uint32 skill_list = 10;
+	uint32 avatar_id = 8;
+	bool is_ready = 11;
+	uint32 costume_id = 12;
 }

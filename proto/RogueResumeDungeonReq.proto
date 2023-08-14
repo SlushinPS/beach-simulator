@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8182
-// Obf: AOCFDMGEADM
+// CmdId: 28359
+// Obf: AIMIGPHLJNN
 message RogueResumeDungeonReq {
-	uint32 stage_id = 1;
+	uint32 stage_id = 15;
 }

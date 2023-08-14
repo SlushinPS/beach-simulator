@@ -18,8 +18,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CrystalLinkBuffInfo.proto";
 import "CrystalLinkAvatarInfo.proto";
-// Obf: EPPFIDECGAF
+// Obf: HJHHNKFBGDE
 message CrystalLinkTeamInfo {
-	repeated CrystalLinkBuffInfo buff_info_list = 9;
-	repeated CrystalLinkAvatarInfo avatar_info_list = 14;
+	repeated CrystalLinkBuffInfo buff_info_list = 7;
+	repeated CrystalLinkAvatarInfo avatar_info_list = 6;
 }

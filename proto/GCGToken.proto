@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ELLELBPJFFN
+// Obf: JHBHDBKHDID
 message GCGToken {
-	uint32 value = 13;
-	uint32 key = 8;
+	uint32 value = 12;
+	uint32 key = 6;
 }

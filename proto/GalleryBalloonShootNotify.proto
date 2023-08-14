@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5596
-// Obf: PCHKHMNIOOH
+// CmdId: 20139
+// Obf: EOKGCKKIJBE
 message GalleryBalloonShootNotify {
-	uint32 cur_score = 15;
-	uint32 trigger_entity_id = 9;
-	int32 add_score = 3;
-	uint32 combo = 5;
-	uint64 combo_disable_time = 6;
-	uint32 gallery_id = 11;
+	uint32 gallery_id = 15;
+	uint32 cur_score = 1;
+	uint32 combo = 2;
+	uint64 combo_disable_time = 11;
+	int32 add_score = 14;
+	uint32 trigger_entity_id = 6;
 }

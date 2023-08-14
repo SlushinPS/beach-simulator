@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MistTrialMissionInfo.proto";
-// CmdId: 8668
-// Obf: PEFLPJCGOEG
+// CmdId: 23092
+// Obf: BAFLEOPDPDH
 message MistTrialGetChallengeMissionRsp {
+	uint32 trial_id = 1;
 	repeated MistTrialMissionInfo mission_info_list = 5;
-	uint32 trial_id = 11;
-	int32 retcode = 12;
+	int32 retcode = 3;
 }

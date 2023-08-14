@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "InvestigationTarget.proto";
-// CmdId: 1927
-// Obf: NMHPHAJMFGP
+// CmdId: 1218
+// Obf: MCKLNIEGCOK
 message PlayerInvestigationTargetNotify {
-	repeated InvestigationTarget investigation_target_list = 12;
+	repeated InvestigationTarget investigation_target_list = 14;
 }

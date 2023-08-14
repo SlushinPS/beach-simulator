@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4644
-// Obf: PHOFGHHDLJC
+// CmdId: 1240
+// Obf: EJOPLCKJMCO
 message HomeSearchBlueprintReq {
-	string share_code = 5;
+	string share_code = 14;
 }

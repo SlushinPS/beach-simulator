@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 291
-// Obf: JGAOHFKBMGM
+// CmdId: 8257
+// Obf: GPEHNKALIPD
 message JoinPlayerFailNotify {
-	int32 retcode = 4;
+	int32 retcode = 14;
 }

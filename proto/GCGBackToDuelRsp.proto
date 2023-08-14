@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7285
-// Obf: PCCJGEGIPDN
+// CmdId: 23880
+// Obf: OPJHIHKBBPF
 message GCGBackToDuelRsp {
-	int32 retcode = 3;
+	int32 retcode = 6;
 }

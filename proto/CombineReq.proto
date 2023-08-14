@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 607
-// Obf: FPPKDCOOBKP
+// CmdId: 753
+// Obf: JIBOADJOLAM
 message CombineReq {
-	uint32 combine_count = 9;
-	uint64 avatar_guid = 12;
-	uint32 combine_id = 11;
+	uint32 combine_count = 5;
+	uint64 avatar_guid = 2;
+	uint32 combine_id = 3;
 }

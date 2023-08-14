@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3037
-// Obf: MGONCHGNCBI
+// CmdId: 4766
+// Obf: JKGNLOIACHE
 message SceneWeatherForcastRsp {
-	int32 retcode = 10;
-	repeated uint32 forcast_climate_list = 6;
-	uint64 next_climate_time = 12;
+	repeated uint32 forcast_climate_list = 3;
+	uint64 next_climate_time = 1;
+	int32 retcode = 7;
 }

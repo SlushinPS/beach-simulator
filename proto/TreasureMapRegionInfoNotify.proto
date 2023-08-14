@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TreasureMapRegionInfo.proto";
-// CmdId: 2034
-// Obf: DEKOGKDOANP
+// CmdId: 27963
+// Obf: DIKFBCIJBMP
 message TreasureMapRegionInfoNotify {
-	TreasureMapRegionInfo region_info = 10;
+	TreasureMapRegionInfo region_info = 1;
 }

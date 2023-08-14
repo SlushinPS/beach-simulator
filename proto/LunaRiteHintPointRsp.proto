@@ -18,11 +18,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "LunaRiteHintStatusType.proto";
 import "LunaRiteHintPoint.proto";
-// CmdId: 8827
-// Obf: NKCOOONNCIL
+// CmdId: 853
+// Obf: MEAPLBFAGPK
 message LunaRiteHintPointRsp {
-	LunaRiteHintStatusType hint_status = 2;
-	int32 retcode = 1;
-	uint32 area_id = 8;
-	repeated LunaRiteHintPoint hint_point = 7;
+	LunaRiteHintStatusType hint_status = 6;
+	uint32 area_id = 1;
+	int32 retcode = 10;
+	repeated LunaRiteHintPoint hint_point = 14;
 }

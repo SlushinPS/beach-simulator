@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 803
-// Obf: LHKKCADAMFD
+// CmdId: 6743
+// Obf: FJJEGAOHOAC
 message VehicleStaminaNotify {
-	uint32 entity_id = 15;
-	float cur_stamina = 13;
+	uint32 entity_id = 10;
+	float cur_stamina = 5;
 }

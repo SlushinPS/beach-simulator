@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomePictureFrameInfo.proto";
-// CmdId: 4886
-// Obf: NHMHOHMOOEH
+// CmdId: 5740
+// Obf: EDHFOGMDKKM
 message HomeUpdatePictureFrameInfoRsp {
-	int32 retcode = 15;
-	HomePictureFrameInfo picture_frame_info = 4;
+	HomePictureFrameInfo picture_frame_info = 9;
+	int32 retcode = 13;
 }

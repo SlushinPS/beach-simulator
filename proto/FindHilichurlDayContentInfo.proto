@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BHHCINDOAGH
+// Obf: LJINFOOCFLO
 message FindHilichurlDayContentInfo {
-	uint32 start_time = 1;
+	uint32 start_time = 14;
 }

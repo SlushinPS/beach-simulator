@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "SceneEntityInfo.proto";
 import "VisionType.proto";
-// CmdId: 3293
-// Obf: CPLHMKMEOPO
+import "SceneEntityInfo.proto";
+// CmdId: 23971
+// Obf: IPGEPMGGCGP
 message ScenePlayerBackgroundAvatarRefreshNotify {
-	uint32 param = 13;
-	repeated SceneEntityInfo entity_list = 6;
-	VisionType appear_type = 3;
+	VisionType appear_type = 14;
+	uint32 param = 10;
+	repeated SceneEntityInfo entity_list = 5;
 }

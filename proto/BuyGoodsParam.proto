@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ShopGoods.proto";
-// Obf: LPGBNMHAFFF
+// Obf: FNALFHKDPMN
 message BuyGoodsParam {
-	uint32 buy_count = 3;
-	ShopGoods goods = 9;
+	uint32 buy_count = 15;
+	ShopGoods goods = 1;
 }

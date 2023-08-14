@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RogueDiaryAvatar.proto";
-// CmdId: 8477
-// Obf: LIIEHDOMENC
+// CmdId: 6423
+// Obf: EPOPECKEHCC
 message EnterRogueDiaryDungeonReq {
-	repeated RogueDiaryAvatar chosen_avatar_list = 1;
 	repeated uint32 chosen_card_list = 3;
+	repeated RogueDiaryAvatar chosen_avatar_list = 1;
 }

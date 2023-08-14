@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HLLFOJAOECP
+// Obf: LKCLDCKNEGO
 message GCGOperationReboot {
-	repeated uint32 cost_card_guid_list = 4;
-	repeated uint32 dice_index_list = 8;
+	repeated uint32 dice_index_list = 5;
+	repeated uint32 cost_card_guid_list = 7;
 }

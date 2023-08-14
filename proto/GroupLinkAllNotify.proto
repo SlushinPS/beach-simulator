@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GroupLinkBundle.proto";
-// CmdId: 5778
-// Obf: JMLCPNBJIEM
+// CmdId: 22877
+// Obf: ICDIPPGCHPF
 message GroupLinkAllNotify {
-	repeated GroupLinkBundle bundle_list = 7;
+	repeated GroupLinkBundle bundle_list = 4;
 }

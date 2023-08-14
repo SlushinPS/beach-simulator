@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MEAHMOOPKGL
+// Obf: CECDBOPLBJJ
 message FleurFairV2StageData {
-	uint32 stage_id = 2;
-	uint32 best_score = 3;
-	bool is_open = 10;
-	bool is_finish = 14;
+	bool is_open = 5;
+	bool is_finish = 2;
+	uint32 best_score = 12;
+	uint32 stage_id = 3;
 }

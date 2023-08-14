@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 149
-// Obf: IGMIFEKGJNK
+// CmdId: 1771
+// Obf: DJHGLEGIDAC
 message PlayerSetPauseRsp {
-	int32 retcode = 4;
+	int32 retcode = 3;
 }

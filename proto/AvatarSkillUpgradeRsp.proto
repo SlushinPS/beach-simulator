@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1021
-// Obf: KHCOMHBCLEP
+// CmdId: 22584
+// Obf: JDINKHGKCON
 message AvatarSkillUpgradeRsp {
-	int32 retcode = 8;
-	uint64 avatar_guid = 6;
-	uint32 cur_level = 12;
-	uint32 avatar_skill_id = 3;
-	uint32 old_level = 5;
+	uint32 cur_level = 2;
+	uint32 old_level = 9;
+	int32 retcode = 4;
+	uint32 avatar_skill_id = 1;
+	uint64 avatar_guid = 7;
 }

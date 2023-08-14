@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ActivityPushTipsState.proto";
-// Obf: PAGNHNLLIPL
+// Obf: IBNKKJGBKML
 message ActivityPushTipsData {
-	ActivityPushTipsState state = 14;
-	uint32 activity_push_tips_id = 5;
+	uint32 activity_push_tips_id = 13;
+	ActivityPushTipsState state = 6;
 }

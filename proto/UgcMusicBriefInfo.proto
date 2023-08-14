@@ -16,27 +16,27 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OMNDDJHEJKO
+// Obf: HEAHHCHLDAP
 message UgcMusicBriefInfo {
-	uint32 KKJAPAIMHIC = 202;
-	bool PJGMJFMIEHC = 4;
-	uint64 import_from_ugc_guid = 7;
-	uint32 music_id = 15;
-	bool LNKPDCCGIAH = 5;
-	uint32 NAHIMHCLDPP = 1797;
-	uint32 BCGJBPBHCIH = 6;
-	uint32 KFHMNMKPDJG = 3;
-	bool is_psn_platform = 2;
-	uint32 INNALIGPKDP = 1022;
-	repeated uint32 EFPAABGJJNA = 283;
-	uint32 ENGPANOHIJF = 10;
-	uint32 CPKICNCAJJI = 11;
-	uint64 ugc_guid = 1;
-	bool BIMIGJFEMBK = 9;
-	uint32 version = 14;
-	uint32 GBEJELFJOCL = 8;
-	repeated uint32 BFKFFKFPHOJ = 1951;
-	uint32 max_score = 13;
-	string creator_nickname = 12;
-	uint32 GGINDIFEHBC = 587;
+	string creator_nickname = 2;
+	uint32 KNFNFNAEODI = 7;
+	bool PCOJFEOMDBK = 3;
+	uint32 IOPMLJEDCEN = 1129;
+	uint32 KNLGDHEOICD = 8;
+	bool is_psn_platform = 14;
+	uint64 ugc_guid = 5;
+	uint32 LNLDAMPFKJO = 263;
+	uint32 BBIEBFNKIAN = 13;
+	uint32 JBMPDKHGANB = 388;
+	repeated uint32 HEGNHLBBGFL = 1365;
+	repeated uint32 GCLLDEFJCPH = 865;
+	uint32 music_id = 11;
+	uint32 MBJGIACIGJB = 9;
+	bool BKEELEDBHGE = 12;
+	uint32 KKIHPNJHKEP = 1352;
+	uint64 import_from_ugc_guid = 10;
+	uint32 DLEDJPPLMCE = 1;
+	bool KNDKOLIMFPJ = 4;
+	uint32 max_score = 6;
+	uint32 version = 15;
 }

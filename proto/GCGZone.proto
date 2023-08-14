@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ABJNNNLHPNF
+// Obf: OLBMLCGCKDN
 message GCGZone {
-	repeated uint32 card_list = 15;
+	repeated uint32 card_list = 1;
 }

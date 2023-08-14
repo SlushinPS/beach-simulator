@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8219
-// Obf: GIHGOLLOJHB
+// CmdId: 21102
+// Obf: KNPMACMDIDI
 message SumoSwitchTeamReq {
+	uint32 stage_id = 2;
 	uint32 activity_id = 5;
-	uint32 stage_id = 13;
 }

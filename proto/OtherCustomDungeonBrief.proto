@@ -16,21 +16,21 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "CustomDungeonSocial.proto";
 import "CustomDungeonSetting.proto";
-import "CustomDungeonAbstract.proto";
 import "SocialDetail.proto";
-// Obf: HMOAEGIHIGA
+import "CustomDungeonAbstract.proto";
+import "CustomDungeonSocial.proto";
+// Obf: HKCCDHPNEEE
 message OtherCustomDungeonBrief {
-	CustomDungeonSocial social = 2;
-	CustomDungeonSetting setting = 13;
-	bool HKNCBLBMNBC = 14;
-	uint64 dungeon_guid = 9;
-	uint32 battle_min_cost_time = 5;
-	repeated uint32 tag_list = 15;
-	CustomDungeonAbstract abstract = 10;
-	bool is_psn_platform = 3;
-	uint32 dungeon_id = 1;
-	bool BILNJJLBHIC = 11;
-	SocialDetail creator_detail = 4;
+	CustomDungeonSetting setting = 7;
+	repeated uint32 tag_list = 13;
+	uint64 dungeon_guid = 6;
+	bool is_adventure_dungeon = 2;
+	uint32 dungeon_id = 4;
+	bool is_psn_platform = 10;
+	uint32 battle_min_cost_time = 3;
+	SocialDetail creator_detail = 9;
+	CustomDungeonAbstract abstract = 8;
+	CustomDungeonSocial social = 14;
+	bool is_stored = 5;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 417
-// Obf: MJJNFPDAEJC
+// CmdId: 1366
+// Obf: EACELLFNBCE
 message QuestRenameAvatarReq {
-	bool is_check = 4;
-	uint32 rename_id = 8;
+	bool is_check = 14;
+	uint32 rename_id = 13;
 	string avatar_name = 9;
 }

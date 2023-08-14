@@ -17,14 +17,14 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGSkillPreviewInfo.proto";
-import "GCGChangeOnstageInfo.proto";
 import "GCGSkillPreviewPlayCardInfo.proto";
-// CmdId: 7519
-// Obf: KBFCIGIEFLK
+import "GCGChangeOnstageInfo.proto";
+// CmdId: 23522
+// Obf: GNFJLAAJCHF
 message GCGSkillPreviewNotify {
-	repeated GCGSkillPreviewInfo skill_preview_list = 15;
-	uint32 CEGLEJFCGIF = 14;
-	uint32 controller_id = 5;
-	repeated GCGChangeOnstageInfo change_onstage_preview_list = 2;
-	repeated GCGSkillPreviewPlayCardInfo play_card_list = 4;
+	repeated GCGSkillPreviewInfo skill_preview_list = 7;
+	uint32 EOKDJJAKKPJ = 11;
+	repeated GCGSkillPreviewPlayCardInfo play_card_list = 14;
+	repeated GCGChangeOnstageInfo change_onstage_preview_list = 13;
+	uint32 controller_id = 10;
 }

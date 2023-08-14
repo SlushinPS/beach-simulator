@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MotionInfo.proto";
-// CmdId: 235
-// Obf: CPFEBOEFDIO
+// CmdId: 26916
+// Obf: MMLNPAIKGGB
 message SceneEntityMoveReq {
-	uint32 reliable_seq = 7;
-	uint32 entity_id = 9;
-	MotionInfo motion_info = 4;
 	uint32 scene_time = 13;
+	uint32 reliable_seq = 9;
+	uint32 entity_id = 6;
+	MotionInfo motion_info = 8;
 }

@@ -17,17 +17,17 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 197
-// Obf: DFPNDCEELAF
+// CmdId: 4527
+// Obf: FEKPPCLHGIF
 message ItemGivingReq {
-	// Obf: MAEJHBECLNL
+	// Obf: HGCKAFEMAFE
 	enum ItemGivingType {
 		QUEST = 0;
 		GADGET = 1;
 	}
 	
-	map<uint64, uint32> item_guid_count_map = 6;
-	uint32 giving_id = 14;
-	repeated ItemParam item_param_list = 8;
-	ItemGivingType item_giving_type = 2;
+	uint32 giving_id = 12;
+	repeated ItemParam item_param_list = 15;
+	map<uint64, uint32> item_guid_count_map = 13;
+	ItemGivingType item_giving_type = 7;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: FNCFKHNAFFN
+// Obf: LEMINHIFLOG
 message GearColumnInfo {
-	uint32 gear_id = 12;
-	bool BOCJOBKGFII = 4;
-	bool JAPPFAKHOBL = 9;
-	uint32 NNEKELPHBAE = 11;
-	uint32 EGFFBAGNHFJ = 13;
+	uint32 gear_id = 8;
+	uint32 KPGMKFOLJLN = 7;
+	bool BOMLCILIEMG = 4;
+	bool FECKOAAIJKK = 15;
+	uint32 DIAJIFOBCHL = 14;
 }

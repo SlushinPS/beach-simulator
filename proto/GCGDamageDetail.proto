@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CPCANCKIHLI
+// Obf: NKOFHAJANJI
 message GCGDamageDetail {
-	uint32 card_guid = 3;
-	uint32 skill_id = 9;
+	uint32 skill_id = 14;
+	uint32 card_guid = 12;
 }

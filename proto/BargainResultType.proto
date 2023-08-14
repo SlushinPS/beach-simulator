@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ODJEENMANEG
+// Obf: AGEMDFOGNBD
 enum BargainResultType {
 	BARGAIN_COMPLETE_SUCC = 0;
 	BARGAIN_SINGLE_FAIL = 1;

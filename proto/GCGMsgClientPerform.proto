@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "FICAFCEJKPF.proto";
-// Obf: JPOOBBNLNDN
+import "GJHEHICILCG.proto";
+// Obf: MLJMKEDGPOL
 message GCGMsgClientPerform {
-	FICAFCEJKPF perform_type = 3;
-	repeated uint32 param_list = 1;
+	GJHEHICILCG perform_type = 7;
+	repeated uint32 param_list = 3;
 }

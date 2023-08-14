@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1435
-// Obf: OOLIOKGGLBO
+// CmdId: 27875
+// Obf: DCPMJKGKCGE
 message GetAuthkeyReq {
-	string auth_appid = 5;
-	uint32 MLKKOEBHEEI = 13;
-	uint32 GALOPIFDMON = 15;
+	uint32 PGANJHDNINM = 7;
+	string auth_appid = 2;
+	uint32 BIGHJAIBJJK = 14;
 }

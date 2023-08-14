@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7845
-// Obf: PDIGPHKJHIC
+// CmdId: 3674
+// Obf: HIGKKKJFAFM
 message GCGDSFieldUnlockNotify {
-	uint32 field_id = 13;
+	uint32 field_id = 7;
 }

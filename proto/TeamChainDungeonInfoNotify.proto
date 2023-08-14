@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21169
-// Obf: DOFEGBADGKC
+// CmdId: 22413
+// Obf: NNMIGBAIKAA
 message TeamChainDungeonInfoNotify {
-	repeated uint32 skill_no_list = 3;
-	uint32 stage_id = 2;
+	repeated uint32 skill_no_list = 13;
+	uint32 stage_id = 8;
 }

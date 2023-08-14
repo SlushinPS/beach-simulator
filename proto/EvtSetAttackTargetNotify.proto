@@ -18,9 +18,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "EvtSetAttackTargetInfo.proto";
 import "ForwardType.proto";
-// CmdId: 330
-// Obf: FPMNNPLLLEO
+// CmdId: 9927
+// Obf: LEHDJDHEPPB
 message EvtSetAttackTargetNotify {
-	EvtSetAttackTargetInfo evt_set_attack_target_info = 2;
+	EvtSetAttackTargetInfo evt_set_attack_target_info = 10;
 	ForwardType forward_type = 9;
 }

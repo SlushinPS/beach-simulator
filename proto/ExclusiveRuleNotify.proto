@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ExclusiveRuleInfo.proto";
-// CmdId: 113
-// Obf: KOPBCIIODNP
+// CmdId: 1418
+// Obf: ENPIKKCLNIB
 message ExclusiveRuleNotify {
-	repeated ExclusiveRuleInfo rule_info_list = 14;
+	repeated ExclusiveRuleInfo rule_info_list = 1;
 }

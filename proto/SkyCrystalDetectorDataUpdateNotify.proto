@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SkyCrystalDetectorData.proto";
-// CmdId: 4260
-// Obf: OGKOCKOKONN
+// CmdId: 5621
+// Obf: GAKEMNAPLEC
 message SkyCrystalDetectorDataUpdateNotify {
 	SkyCrystalDetectorData sky_crystal_detector_data = 6;
 }

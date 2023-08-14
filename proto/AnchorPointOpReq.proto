@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4271
-// Obf: JLKDLKHMMOM
+// CmdId: 23096
+// Obf: LHBIOIMEFCD
 message AnchorPointOpReq {
-	uint32 anchor_point_id = 15;
-	uint32 anchor_point_op_type = 14;
+	uint32 anchor_point_op_type = 5;
+	uint32 anchor_point_id = 3;
 }

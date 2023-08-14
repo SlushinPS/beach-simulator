@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGSkillLimitsInfo.proto";
-// Obf: GFOCGIAJJPL
+// Obf: JCJCMCGNDIM
 message GCGCardSkillLimitsInfo {
-	repeated GCGSkillLimitsInfo skill_limits_list = 13;
-	uint32 card_guid = 7;
+	uint32 card_guid = 6;
+	repeated GCGSkillLimitsInfo skill_limits_list = 4;
 }

@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AbilityScalarValueEntry.proto";
-// Obf: EDIDAGDNOLP
+// Obf: DKNHIBDBJDH
 message AbilityMetaReInitOverrideMap {
-	repeated AbilityScalarValueEntry override_map = 2;
+	repeated AbilityScalarValueEntry override_map = 10;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DAADDKFJJAH
+// Obf: DPNIPOMNPFI
 enum WidgetSlotOp {
 	WIDGET_SLOT_OP_ATTACH = 0;
 	WIDGET_SLOT_OP_DETACH = 1;

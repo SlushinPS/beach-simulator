@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 642
-// Obf: KGCIHOMNDOG
+// CmdId: 1884
+// Obf: NMODMKDKNDF
 message DropHintNotify {
-	repeated uint32 item_id_list = 10;
-	Vector position = 7;
+	Vector position = 3;
+	repeated uint32 item_id_list = 6;
 }

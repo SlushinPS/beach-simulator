@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HHKBKHDKCAG
+// Obf: LECFLFKFOOL
 message ChallengeBrief {
-	uint32 challenge_id = 5;
-	bool is_success = 10;
-	uint32 cur_progress = 12;
-	uint32 challenge_index = 4;
+	uint32 challenge_id = 14;
+	uint32 cur_progress = 3;
+	bool is_success = 9;
+	uint32 challenge_index = 15;
 }

@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: FJMINHJHNDA
+// Obf: JAGPFBDDEAN
 message EvtFixedRushMove {
-	uint32 entity_id = 2;
-	Vector target_pos = 5;
-	bool EKKDNPEOCCJ = 15;
-	float speed = 1;
-	bool HJFFLLFHBKH = 8;
-	repeated uint32 animator_state_id_list = 4;
-	string override_collider = 3;
+	float speed = 12;
+	string override_collider = 8;
+	bool IFFPKMEPDMA = 11;
+	uint32 entity_id = 15;
+	repeated uint32 animator_state_id_list = 10;
+	Vector target_pos = 3;
+	bool CEIIFCMKJJC = 13;
 }

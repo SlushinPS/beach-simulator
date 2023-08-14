@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PotionStageData.proto";
-// CmdId: 8502
-// Obf: KBJKNHIIGAC
+// CmdId: 27694
+// Obf: INHKNKCLHJC
 message PotionResetChallengeRsp {
-	int32 retcode = 9;
-	PotionStageData stage_data = 10;
+	int32 retcode = 3;
+	PotionStageData stage_data = 1;
 }

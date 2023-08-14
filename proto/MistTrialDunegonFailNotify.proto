@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8015
-// Obf: BKAPHGDLCNH
+// CmdId: 9722
+// Obf: IJCEGNADCHN
 message MistTrialDunegonFailNotify {
-	int32 dungeon_id = 12;
+	int32 dungeon_id = 14;
 }

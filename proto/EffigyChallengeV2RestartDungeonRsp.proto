@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23297
-// Obf: DEMIEILLAPL
+// CmdId: 22580
+// Obf: NJNAINNGJAN
 message EffigyChallengeV2RestartDungeonRsp {
-	int32 retcode = 14;
+	int32 retcode = 4;
 }

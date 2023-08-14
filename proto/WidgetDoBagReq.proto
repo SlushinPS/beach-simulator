@@ -18,12 +18,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "WidgetCreateLocationInfo.proto";
 import "WidgetCreatorInfo.proto";
-// CmdId: 4295
-// Obf: JFBFFLAEENK
+// CmdId: 2739
+// Obf: KFDNMJHKFAA
 message WidgetDoBagReq {
-	uint32 material_id = 10;
+	uint32 material_id = 15;
 	oneof op_info {
-		WidgetCreateLocationInfo location_info = 1329;
-		WidgetCreatorInfo widget_creator_info = 1593;
+		WidgetCreateLocationInfo location_info = 2046;
+		WidgetCreatorInfo widget_creator_info = 1156;
 	}
 }

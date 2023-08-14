@@ -16,16 +16,16 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8301
-// Obf: NCJKMIJMNOG
+// CmdId: 709
+// Obf: JBBOLPPBMHC
 message LanternRiteEndFireworksReformRsp {
-	bool GHNMLHGPOOE = 3;
-	bool LBCHAOJNILB = 13;
-	bool APCMMCILEOJ = 15;
-	bool is_new_record = 8;
-	uint32 challenge_id = 12;
-	uint32 stage_id = 9;
-	uint32 final_score = 14;
+	uint32 final_score = 1;
+	bool HPLLPLKOHLL = 6;
+	int32 retcode = 2;
+	uint32 stage_id = 3;
+	bool FBGNCOBOMAA = 9;
 	bool is_full_score = 10;
-	int32 retcode = 5;
+	bool HKBEDNIDDEI = 13;
+	uint32 challenge_id = 4;
+	bool is_new_record = 11;
 }

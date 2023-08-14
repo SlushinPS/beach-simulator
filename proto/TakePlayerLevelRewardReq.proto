@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 177
-// Obf: BDKEEBHCGLM
+// CmdId: 4273
+// Obf: FHNEDFBJCED
 message TakePlayerLevelRewardReq {
-	uint32 level = 2;
+	uint32 level = 6;
 }

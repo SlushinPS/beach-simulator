@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5534
-// Obf: MDKNCCBLKOA
+// CmdId: 1940
+// Obf: NGJJLICFOHI
 message InterruptGalleryRsp {
-	uint32 gallery_id = 1;
 	int32 retcode = 10;
+	uint32 gallery_id = 13;
 }

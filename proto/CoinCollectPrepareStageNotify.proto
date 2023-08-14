@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CoinCollectStageInfo.proto";
-// CmdId: 6455
-// Obf: LALGGEHKIAE
+// CmdId: 2218
+// Obf: FLHCCOOELDD
 message CoinCollectPrepareStageNotify {
-	CoinCollectStageInfo coin_collect_info = 7;
+	CoinCollectStageInfo coin_collect_info = 12;
 }

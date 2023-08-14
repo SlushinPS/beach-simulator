@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SeaLampV3RaceLevelInfo.proto";
-// Obf: MBDDHEHCMGF
+// Obf: JGHDIHINJML
 message SeaLampV3RaceInfo {
-	repeated SeaLampV3RaceLevelInfo level_info_list = 9;
+	repeated SeaLampV3RaceLevelInfo level_info_list = 12;
 }

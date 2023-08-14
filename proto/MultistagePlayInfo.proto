@@ -26,25 +26,27 @@ import "BrickBreakerStageInfo.proto";
 import "CoinCollectStageInfo.proto";
 import "LanV3BoatStageInfo.proto";
 import "FleurFairV2PacmanStageInfo.proto";
-// Obf: ONMCDEPPIOB
+import "TargetShootingInfo.proto";
+// Obf: EGPGHBCHGMA
 message MultistagePlayInfo {
-	uint32 group_id = 14;
-	uint32 stage_type = 8;
-	uint32 stage_index = 1;
-	uint32 duration = 11;
-	uint32 begin_time = 9;
-	uint32 play_index = 13;
-	uint32 play_type = 4;
+	uint32 begin_time = 8;
+	uint32 stage_index = 6;
+	uint32 stage_type = 15;
+	uint32 play_type = 7;
+	uint32 duration = 9;
+	uint32 group_id = 4;
+	uint32 play_index = 11;
 	oneof detail {
-		InBattleMechanicusInfo mechanicus_info = 1751;
-		InBattleFleurFairInfo fleur_fair_info = 1630;
-		HideAndSeekStageInfo hide_and_seek_info = 216;
-		InBattleChessInfo chess_info = 849;
-		InBattleIrodoriChessInfo irodori_chess_info = 2011;
-		CharAmusementInfo char_amusement_info = 1538;
-		BrickBreakerStageInfo brick_breaker_info = 903;
-		CoinCollectStageInfo coin_collect_info = 1102;
-		LanV3BoatStageInfo lan_v3_boat_info = 1033;
-		FleurFairV2PacmanStageInfo fleur_fair_v2_pacman_info = 2006;
+		InBattleMechanicusInfo mechanicus_info = 429;
+		InBattleFleurFairInfo fleur_fair_info = 1722;
+		HideAndSeekStageInfo hide_and_seek_info = 1717;
+		InBattleChessInfo chess_info = 1610;
+		InBattleIrodoriChessInfo irodori_chess_info = 753;
+		CharAmusementInfo char_amusement_info = 30;
+		BrickBreakerStageInfo brick_breaker_info = 1228;
+		CoinCollectStageInfo coin_collect_info = 424;
+		LanV3BoatStageInfo lan_v3_boat_info = 691;
+		FleurFairV2PacmanStageInfo fleur_fair_v2_pacman_info = 1371;
+		TargetShootingInfo target_shooting_info = 1191;
 	}
 }

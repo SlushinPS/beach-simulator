@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AvatarTeam.proto";
-// CmdId: 1633
-// Obf: NFCODIPLJGM
+// CmdId: 7828
+// Obf: OLBHAPJCKDM
 message AvatarTeamUpdateNotify {
-	repeated uint64 temp_avatar_guid_list = 11;
-	map<uint32, AvatarTeam> avatar_team_map = 7;
+	repeated uint64 temp_avatar_guid_list = 14;
+	map<uint32, AvatarTeam> avatar_team_map = 3;
 }

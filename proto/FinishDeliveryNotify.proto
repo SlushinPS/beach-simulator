@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2081
-// Obf: KLGLPDLDBCB
+// CmdId: 2454
+// Obf: GMCNFEOGNOG
 message FinishDeliveryNotify {
-	uint32 schedule_id = 1;
-	uint32 day_index = 13;
-	uint32 finished_quest_index = 15;
+	uint32 day_index = 9;
+	uint32 finished_quest_index = 4;
+	uint32 schedule_id = 8;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2181
-// Obf: NIMHLANNJAE
+// CmdId: 7912
+// Obf: OPBCAJPHJCN
 message AsterMiscInfoNotify {
-	uint32 CBLMAGNNCGK = 5;
-	uint32 CGOCPLCJMBA = 10;
+	uint32 ADOPPAOJEAN = 14;
+	uint32 BLIJLCKCIJP = 11;
 }

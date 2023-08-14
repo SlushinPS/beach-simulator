@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8587
-// Obf: JHJANGFJFMG
+// CmdId: 22759
+// Obf: MABEHPJOBFB
 message BartenderCancelLevelReq {
-	uint32 level_id = 11;
+	uint32 level_id = 6;
 }

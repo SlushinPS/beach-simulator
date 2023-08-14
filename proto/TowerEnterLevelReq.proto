@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2484
-// Obf: GMHIHFGPOBF
+// CmdId: 21406
+// Obf: OFJGAEGGHFE
 message TowerEnterLevelReq {
-	uint32 enter_point_id = 10;
+	uint32 enter_point_id = 5;
 }

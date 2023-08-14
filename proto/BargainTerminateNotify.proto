@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 426
-// Obf: JCPIHJIJLGJ
+// CmdId: 28886
+// Obf: IKMJMAHLHBE
 message BargainTerminateNotify {
-	uint32 bargain_id = 5;
+	uint32 bargain_id = 1;
 }

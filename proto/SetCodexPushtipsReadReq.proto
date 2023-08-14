@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4205
-// Obf: PHKFECLEDJN
+// CmdId: 26795
+// Obf: OHAHFGBBKCI
 message SetCodexPushtipsReadReq {
-	uint32 GMMHIHAOJIM = 12;
-	uint32 HFJNAAGCKFJ = 15;
+	uint32 JKLHOJOCLJD = 9;
+	uint32 CFNJIOIOLPG = 1;
 }

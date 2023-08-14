@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 674
-// Obf: DIBDGGGENIF
+// CmdId: 29611
+// Obf: OJDOCOAMKPC
 message McoinExchangeHcoinReq {
-	uint32 mcoin_cost = 15;
-	uint32 hcoin = 13;
+	uint32 mcoin_cost = 13;
+	uint32 hcoin = 8;
 }

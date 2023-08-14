@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GOPAHHOIEBG
+// Obf: IEFIFHKIGNC
 enum SalvageEscortStopReason {
 	SALVAGE_ESCORT_STOP_NONE = 0;
 	SALVAGE_ESCORT_STOP_SUCCESS = 1;

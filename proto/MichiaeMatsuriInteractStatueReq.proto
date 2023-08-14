@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8736
-// Obf: BEHEDEIECCE
+// CmdId: 25870
+// Obf: IEBOHGDOEEN
 message MichiaeMatsuriInteractStatueReq {
-	uint32 statue_entity_id = 12;
+	uint32 statue_entity_id = 6;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BCDBPJIBPJM
+// Obf: KAIDHCNAICH
 message VintageHuntingSecondStageInfo {
-	uint32 left_num = 7;
-	uint32 capture_animal_num = 13;
-	uint32 total_num = 15;
+	uint32 capture_animal_num = 3;
+	uint32 left_num = 9;
+	uint32 total_num = 8;
 }

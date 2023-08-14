@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 219
-// Obf: LDHAOJBJLEE
+// CmdId: 20938
+// Obf: BEJBGBNMMMH
 message PersonalSceneJumpReq {
-	uint32 point_id = 4;
+	uint32 point_id = 15;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8354
-// Obf: NELMFLKPDDH
+// CmdId: 2046
+// Obf: AJFOMEKACNG
 message MistTrialGetDungeonExhibitionDataRsp {
-	int32 retcode = 15;
-	uint32 trial_id = 14;
+	int32 retcode = 12;
+	uint32 trial_id = 4;
 }

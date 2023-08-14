@@ -19,11 +19,11 @@ option java_package = "emu.grasscutter.net.proto";
 import "CompoundQueueData.proto";
 import "CompoundBoostTakeStatusType.proto";
 import "ItemParam.proto";
-// CmdId: 173
-// Obf: OECDPFKACOM
+// CmdId: 26999
+// Obf: MGJOFINPPAE
 message PlayerCompoundMaterialBoostRsp {
-	repeated CompoundQueueData compoundQueueDataList = 2;
-	CompoundBoostTakeStatusType take_status = 3;
-	int32 retcode = 14;
-	repeated ItemParam take_item_list = 13;
+	repeated CompoundQueueData compoundQueueDataList = 15;
+	CompoundBoostTakeStatusType take_status = 9;
+	repeated ItemParam take_item_list = 12;
+	int32 retcode = 4;
 }

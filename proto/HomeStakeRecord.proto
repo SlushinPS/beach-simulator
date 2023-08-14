@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeStakePlayRecord.proto";
-// Obf: KDGCIAPGPDH
+// Obf: PADAGHHACBC
 message HomeStakeRecord {
-	repeated HomeStakePlayRecord record_list = 10;
+	repeated HomeStakePlayRecord record_list = 6;
 }

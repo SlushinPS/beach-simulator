@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 535
-// Obf: FOCAKAJLFCM
+// CmdId: 25074
+// Obf: LCOFOOPOHGJ
 message MeetNpcRsp {
-	uint32 npc_first_met_id = 2;
-	int32 retcode = 3;
+	int32 retcode = 7;
+	uint32 npc_first_met_id = 15;
 }

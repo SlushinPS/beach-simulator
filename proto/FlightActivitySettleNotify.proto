@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2002
-// Obf: DHONHJMPNPH
+// CmdId: 4885
+// Obf: LGLLKJGDFCO
 message FlightActivitySettleNotify {
-	uint32 total_num = 5;
-	uint32 group_id = 4;
-	bool is_new_record = 2;
-	uint32 DBIHJAJCNBC = 6;
-	uint32 PCEABJGNLBB = 3;
-	bool is_success = 12;
-	uint32 score = 7;
-	uint32 left_time = 9;
+	bool is_new_record = 10;
+	uint32 KPCGAHJMMLB = 8;
+	uint32 left_time = 13;
+	bool is_success = 5;
+	uint32 total_num = 9;
+	uint32 group_id = 11;
+	uint32 score = 2;
+	uint32 MKOHDHLECBN = 15;
 }

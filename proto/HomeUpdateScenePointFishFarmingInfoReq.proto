@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeScenePointFishFarmingInfo.proto";
-// CmdId: 4664
-// Obf: GBPCDCPBOED
+// CmdId: 201
+// Obf: EOMHIPOBJNK
 message HomeUpdateScenePointFishFarmingInfoReq {
-	HomeScenePointFishFarmingInfo fish_farming_info = 3;
+	HomeScenePointFishFarmingInfo fish_farming_info = 11;
 }

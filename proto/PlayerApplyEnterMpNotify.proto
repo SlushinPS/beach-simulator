@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "OnlinePlayerInfo.proto";
-// CmdId: 1828
-// Obf: AOPCBABBFLA
+// CmdId: 5296
+// Obf: DKNEOIPGLJP
 message PlayerApplyEnterMpNotify {
-	OnlinePlayerInfo src_player_info = 12;
-	uint32 src_app_id = 2;
-	uint32 src_thread_index = 10;
+	uint32 src_app_id = 5;
+	uint32 src_thread_index = 8;
+	OnlinePlayerInfo src_player_info = 14;
 }

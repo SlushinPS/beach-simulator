@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2152
-// Obf: ABKOOMHIHKJ
+// CmdId: 8294
+// Obf: ADPBOOBBLBG
 message GetAuthSalesmanInfoRsp {
-	int32 retcode = 15;
-	uint32 schedule_id = 7;
-	uint32 day_reward_id = 3;
+	uint32 day_reward_id = 11;
+	uint32 schedule_id = 1;
+	int32 retcode = 12;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 262
-// Obf: NKJIDFEHLEN
+// CmdId: 7030
+// Obf: FIMINAEMFFJ
 message AllSeenMonsterNotify {
-	repeated uint32 monster_id_list = 2;
+	repeated uint32 monster_id_list = 12;
 }

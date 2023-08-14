@@ -16,20 +16,20 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: APEMHACONJN
+// Obf: CIGMGGBFGNB
 message MainCoop {
-	// Obf: AJFHHEDBGFO
+	// Obf: HECGIMLHAJH
 	enum Status {
 		INVALID = 0;
 		RUNNING = 1;
 		FINISHED = 2;
 	}
 	
-	Status status = 12;
-	uint32 self_confidence = 2;
-	map<uint32, int32> PCCKFLCCIGB = 10;
-	map<uint32, uint32> seen_ending_map = 15;
-	uint32 id = 14;
-	map<uint32, int32> LJEBGEFGOAL = 1;
+	uint32 self_confidence = 5;
+	Status status = 1;
 	repeated uint32 save_point_id_list = 9;
+	uint32 id = 6;
+	map<uint32, int32> GEHNFJEPCJL = 12;
+	map<uint32, int32> GDBKBKACDFO = 8;
+	map<uint32, uint32> seen_ending_map = 3;
 }

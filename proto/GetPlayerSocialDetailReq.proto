@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4087
-// Obf: AKJBPMHCIAN
+// CmdId: 928
+// Obf: NELPPMEFINN
 message GetPlayerSocialDetailReq {
-	uint32 uid = 15;
+	uint32 uid = 14;
 }

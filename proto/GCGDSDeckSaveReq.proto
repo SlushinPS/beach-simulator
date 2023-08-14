@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7998
-// Obf: FNGHOONFNDP
+// CmdId: 1963
+// Obf: IPIBAHELHDK
 message GCGDSDeckSaveReq {
-	repeated uint32 card_list = 8;
-	string name = 7;
-	uint32 deck_id = 10;
-	repeated uint32 LAMMFAEALFK = 4;
+	repeated uint32 APCFHCPFONE = 13;
+	repeated uint32 card_list = 7;
+	uint32 deck_id = 8;
+	string name = 9;
 }

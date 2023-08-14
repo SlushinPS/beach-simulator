@@ -17,17 +17,17 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RogueDiaryRoomInfo.proto";
-// CmdId: 8535
-// Obf: EGAJOHLBGFN
+// CmdId: 1309
+// Obf: NNIHAPEMJIO
 message RogueDiaryDungeonInfoNotify {
-	uint32 cur_round = 13;
-	repeated uint32 ONGACECOCCB = 6;
-	uint32 coin = 15;
-	uint32 cur_room = 5;
-	repeated RogueDiaryRoomInfo room_list = 11;
-	uint32 dungeon_id = 12;
+	uint32 time = 14;
+	uint32 dungeon_id = 11;
+	repeated RogueDiaryRoomInfo room_list = 12;
+	uint32 cur_round = 7;
+	uint32 cur_room = 6;
+	uint32 stage_id = 3;
 	uint32 difficulty = 9;
-	uint32 time = 2;
-	uint32 stage_id = 1;
-	repeated uint32 MFAODDDELCH = 14;
+	uint32 coin = 13;
+	repeated uint32 CLLHDAGJKPH = 10;
+	repeated uint32 LIACDMDJOEG = 4;
 }

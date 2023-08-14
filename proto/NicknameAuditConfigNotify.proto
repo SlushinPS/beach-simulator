@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 157
-// Obf: NBFBAAAFDGM
+// CmdId: 22648
+// Obf: GJOAMDCKALK
 message NicknameAuditConfigNotify {
-	uint32 submit_limit = 13;
-	bool is_open = 2;
+	bool is_open = 12;
+	uint32 submit_limit = 8;
 }

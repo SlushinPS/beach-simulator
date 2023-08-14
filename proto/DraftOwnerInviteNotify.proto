@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5455
-// Obf: EINHACNCMIO
+// CmdId: 25369
+// Obf: JCPMEHNFCHP
 message DraftOwnerInviteNotify {
-	uint32 invite_deadline_time = 15;
-	uint32 draft_id = 2;
+	uint32 invite_deadline_time = 3;
+	uint32 draft_id = 11;
 }

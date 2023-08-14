@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4108
-// Obf: PICIJDFCGNC
+// CmdId: 22287
+// Obf: KMMHBDNEIPO
 message RechargeRsp {
-	int32 retcode = 7;
+	int32 retcode = 1;
 	string product_id = 13;
-	bool is_show_minors_hint = 15;
+	bool is_show_minors_hint = 9;
 }

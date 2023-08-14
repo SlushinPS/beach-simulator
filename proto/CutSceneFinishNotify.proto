@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 300
-// Obf: DIJIAKALONH
+// CmdId: 21199
+// Obf: NIJEOCGLPPB
 message CutSceneFinishNotify {
-	uint32 cutscene_id = 2;
+	uint32 cutscene_id = 4;
 }

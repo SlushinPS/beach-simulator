@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3113
-// Obf: BDHNPFFDMKB
+// CmdId: 6463
+// Obf: DEIJPDKGMJH
 message ShowClientTutorialNotify {
-	uint32 tutorial_id = 9;
+	uint32 tutorial_id = 8;
 }

@@ -18,8 +18,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
 import "PBNavMeshPoly.proto";
-// Obf: OPBBHGEONJL
+// Obf: PPNJOACGDIN
 message PBNavMeshTile {
-	repeated Vector vecs = 10;
-	repeated PBNavMeshPoly polys = 9;
+	repeated Vector vecs = 3;
+	repeated PBNavMeshPoly polys = 5;
 }

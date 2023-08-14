@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2127
-// Obf: EEPFMDNHGBA
+// CmdId: 8079
+// Obf: NHJJEFLAFLN
 message SeaLampCoinNotify {
-	uint32 sea_lamp_coin = 13;
+	uint32 sea_lamp_coin = 11;
 }

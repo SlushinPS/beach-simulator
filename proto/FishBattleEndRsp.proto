@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "ItemParam.proto";
 import "FishBattleResult.proto";
-// CmdId: 5842
-// Obf: HMIGHNHCFGK
+import "ItemParam.proto";
+// CmdId: 2479
+// Obf: IDIIDOMLDIA
 message FishBattleEndRsp {
-	// Obf: PGBJLBLAHGB
+	// Obf: KNCHAIIMIDM
 	enum FishNoRewardReason {
 		FISH_NO_REWARD_NONE = 0;
 		FISH_NO_REWARD_ACTIVITY_LIMIT = 1;
@@ -29,11 +29,11 @@ message FishBattleEndRsp {
 		FISH_NO_REWARD_POOL_LIMIT = 3;
 	}
 	
-	repeated ItemParam LBPLLDKBLEA = 14;
-	FishNoRewardReason no_reward_reason = 10;
-	bool is_got_reward = 12;
-	int32 retcode = 4;
-	FishBattleResult battle_result = 5;
-	repeated ItemParam ODDGKMGMOGO = 13;
-	repeated ItemParam reward_item_list = 1;
+	int32 retcode = 9;
+	FishBattleResult battle_result = 7;
+	repeated ItemParam reward_item_list = 11;
+	FishNoRewardReason no_reward_reason = 12;
+	repeated ItemParam FILLNPDLDGI = 8;
+	bool is_got_reward = 13;
+	repeated ItemParam AGADCCFPDEI = 6;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CHLPLBEMOKI
+// Obf: PILDGBGEJLC
 message TeamChainChooseAvatarInfo {
-	bool is_trial_avatar = 3;
-	uint32 avatar_id = 8;
+	uint32 avatar_id = 12;
+	bool is_trial_avatar = 5;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1843
-// Obf: HOIKDFGMDEB
+// CmdId: 21958
+// Obf: DADMLCKFBPL
 message MpPlayOwnerInviteNotify {
+	bool is_remain_reward = 5;
 	uint32 mp_play_id = 3;
-	uint32 cd = 14;
-	bool is_remain_reward = 10;
+	uint32 cd = 2;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChannellerSlabAssistInfo.proto";
-// CmdId: 8285
-// Obf: KALMCMHJCOK
+// CmdId: 26691
+// Obf: IPOJEJMHKDH
 message ChannellerSlabSaveAssistInfoReq {
-	repeated ChannellerSlabAssistInfo assist_info_list = 6;
+	repeated ChannellerSlabAssistInfo assist_info_list = 2;
 }

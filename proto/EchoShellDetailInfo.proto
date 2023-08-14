@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SummerTimeDungeonInfo.proto";
-// Obf: DIBPFDJEBMC
+// Obf: MDIGDNCLKNN
 message EchoShellDetailInfo {
-	repeated uint32 JCPFGDCAGFC = 5;
-	repeated uint32 LPEHAMKJFCA = 13;
-	repeated uint32 FKBCPCENBPP = 2;
-	repeated SummerTimeDungeonInfo summer_time_dungeon_list = 9;
+	repeated uint32 DNMOEAFCDGC = 5;
+	repeated uint32 IMBDIBFMPFM = 6;
+	repeated uint32 EADEHMKBOLK = 8;
+	repeated SummerTimeDungeonInfo summer_time_dungeon_list = 15;
 }

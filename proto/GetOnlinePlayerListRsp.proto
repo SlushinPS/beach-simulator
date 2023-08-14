@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "OnlinePlayerInfo.proto";
-// CmdId: 87
-// Obf: NEMPEMKPPMD
+// CmdId: 1234
+// Obf: AANMJBACMJM
 message GetOnlinePlayerListRsp {
-	uint32 param = 15;
-	int32 retcode = 1;
-	repeated OnlinePlayerInfo player_info_list = 9;
+	uint32 param = 10;
+	repeated OnlinePlayerInfo player_info_list = 13;
+	int32 retcode = 7;
 }

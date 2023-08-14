@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2372
-// Obf: HNANOCBJCEE
+// CmdId: 2311
+// Obf: IGADOOAJCML
 message PathfindingPingNotify {
 }

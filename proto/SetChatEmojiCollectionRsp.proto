@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4089
-// Obf: MMBMFFADHEM
+// CmdId: 2098
+// Obf: PELINEBALPE
 message SetChatEmojiCollectionRsp {
-	int32 retcode = 11;
+	int32 retcode = 7;
 }

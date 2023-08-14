@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8701
-// Obf: KKCJPHLNHFE
+// CmdId: 20123
+// Obf: GKBHKPMNPHK
 message SelectRoguelikeDungeonCardReq {
-	uint32 card_id = 4;
+	uint32 card_id = 11;
 }

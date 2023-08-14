@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 923
-// Obf: PEJFOCNHIPI
+// CmdId: 29252
+// Obf: FFNEOOIKHIA
 message DungeonRestartReq {
 }

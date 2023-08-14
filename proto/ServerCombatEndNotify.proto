@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1116
-// Obf: JBBDKHBAHCP
+// CmdId: 5895
+// Obf: EFGMGJABLNJ
 message ServerCombatEndNotify {
-	repeated uint32 combat_end_type_list = 5;
+	repeated uint32 combat_end_type_list = 1;
 }

@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3143
-// Obf: NCDFCHGNEHL
+// CmdId: 4490
+// Obf: KJPABKOEPJN
 message SceneAudioNotify {
-	repeated string param3 = 15;
-	uint32 source_uid = 10;
-	repeated float param2 = 3;
-	int32 type = 6;
-	repeated uint32 param1 = 12;
+	repeated string param3 = 11;
+	repeated float param2 = 6;
+	uint32 source_uid = 2;
+	repeated uint32 param1 = 4;
+	int32 type = 12;
 }

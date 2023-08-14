@@ -18,13 +18,13 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SalvageBundleChallengeInfo.proto";
 import "SalvageScoreChallengeInfo.proto";
-// Obf: ADJAGBNPNIN
+// Obf: PAGONIKGOBF
 message SalvageChallengeInfo {
 	uint32 challenge_type = 12;
-	bool is_unlock = 7;
+	bool is_unlock = 13;
 	oneof challenge_detail {
-		SalvageBundleChallengeInfo bundle_info = 8;
-		SalvageScoreChallengeInfo score_challenge_info = 14;
-		uint32 boss_challenge_id = 4;
+		SalvageBundleChallengeInfo bundle_info = 14;
+		SalvageScoreChallengeInfo score_challenge_info = 5;
+		uint32 boss_challenge_id = 10;
 	}
 }

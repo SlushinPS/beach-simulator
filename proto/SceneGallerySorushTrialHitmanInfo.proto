@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BIKCMMFIDCN
+// Obf: ICGDJBBKHIK
 message SceneGallerySorushTrialHitmanInfo {
-	uint64 CCIFJBGKFPC = 12;
+	uint64 BHJPNFEOPLM = 2;
 }

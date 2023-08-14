@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2196
-// Obf: MBLEGFJNECD
+// CmdId: 20410
+// Obf: HJHMFJBJDIC
 message TreasureMapPreTaskDoneNotify {
 }

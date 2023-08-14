@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23659
-// Obf: DKHBIMPOOJM
+// CmdId: 509
+// Obf: NCLDLEACMPK
 message DuelHeartCgEndNotify {
 }

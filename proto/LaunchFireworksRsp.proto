@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5931
-// Obf: NHBOGGANPPJ
+// CmdId: 25523
+// Obf: GFFDFGJKCEN
 message LaunchFireworksRsp {
-	int32 retcode = 5;
+	int32 retcode = 10;
 }

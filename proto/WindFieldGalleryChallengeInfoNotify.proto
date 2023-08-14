@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5536
-// Obf: FBDCHCNNNMC
+// CmdId: 23657
+// Obf: OEBEJDAIKIP
 message WindFieldGalleryChallengeInfoNotify {
-	bool is_success = 12;
-	uint32 CNLIBIEBLKC = 15;
-	uint32 JGDMJDMFAAE = 13;
-	bool is_start = 5;
-	uint32 JBMNGNMJHME = 1;
-	uint32 MAAGMCEBIDE = 9;
-	uint32 FAKKJNHNFIO = 14;
+	bool is_start = 7;
+	uint32 GCMNEADPFBH = 2;
+	uint32 EHLLLIJFOJG = 3;
+	uint32 OKJOJDABKGC = 9;
+	uint32 DPOBEKFGJOP = 11;
+	bool is_success = 14;
+	uint32 KJCLNIGPNDF = 5;
 }

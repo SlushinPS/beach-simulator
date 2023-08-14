@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NLIAPNIJAKO
+// Obf: AILILCAJDMA
 message SummerTimeStageInfo {
-	uint32 stage_id = 12;
 	bool is_open = 2;
-	uint32 open_time = 8;
+	uint32 open_time = 4;
+	uint32 stage_id = 3;
 }

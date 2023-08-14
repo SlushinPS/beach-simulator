@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8958
-// Obf: OONGFKFDNBI
+// CmdId: 26431
+// Obf: LCDEBKLGMJK
 message TriggerRoguelikeCurseNotify {
-	uint32 CMHIDNPDNFE = 15;
-	repeated uint32 effect_param_list = 3;
-	bool is_trigger_curse = 13;
-	uint32 JPMJHMPGOLL = 7;
+	uint32 FEECNNHNKGN = 1;
+	bool is_trigger_curse = 5;
+	repeated uint32 effect_param_list = 8;
+	uint32 KCCHKDKJDMI = 2;
 }

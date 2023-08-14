@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PKDPAPFKIAK
+// Obf: KENCCPDLDJG
 enum GalleryStartSource {
 	GALLERY_START_BY_NONE = 0;
 	GALLERY_START_BY_MATCH = 1;

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7303
-// Obf: HJKOHPKBMCO
+// CmdId: 22151
+// Obf: AIAOMBLBNME
 message GCGDSChangeCardBackReq {
-	uint32 card_back_id = 8;
-	uint32 deck_id = 7;
+	uint32 card_back_id = 12;
+	uint32 deck_id = 10;
 }

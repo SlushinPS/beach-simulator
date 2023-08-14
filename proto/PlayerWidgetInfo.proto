@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "WidgetSlotData.proto";
-// Obf: GOKMIMMNPFK
+// Obf: IEIPNDOKJIG
 message PlayerWidgetInfo {
-	uint32 uid = 13;
-	repeated WidgetSlotData slot_list = 14;
+	repeated WidgetSlotData slot_list = 15;
+	uint32 uid = 6;
 }

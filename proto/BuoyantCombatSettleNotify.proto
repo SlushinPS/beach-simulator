@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BuoyantCombatSettleInfo.proto";
-// CmdId: 8317
-// Obf: ALOBMBGFCHD
+// CmdId: 25655
+// Obf: AKAAACFPNKJ
 message BuoyantCombatSettleNotify {
-	uint32 gallery_id = 3;
-	BuoyantCombatSettleInfo settle_info = 15;
+	uint32 gallery_id = 9;
+	BuoyantCombatSettleInfo settle_info = 3;
 }

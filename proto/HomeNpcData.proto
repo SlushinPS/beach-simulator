@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: CNGHNAGPNIM
+// Obf: JOHOIPNEGBM
 message HomeNpcData {
+	Vector spawnRot = 12;
 	uint32 avatar_id = 10;
-	uint32 costume_id = 8;
-	Vector spawn_pos = 4;
-	Vector spawnRot = 7;
+	Vector spawn_pos = 2;
+	uint32 costume_id = 1;
 }

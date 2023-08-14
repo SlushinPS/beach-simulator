@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "EffigyDailyInfo.proto";
-// Obf: GBNCPNIPIOC
+// Obf: DLOMGLGOALI
 message EffigyActivityDetailInfo {
 	repeated uint32 taken_reward_index_list = 10;
-	repeated EffigyDailyInfo daily_info_list = 1;
-	uint32 last_difficulty_id = 3;
-	uint32 cur_score = 4;
+	uint32 last_difficulty_id = 6;
+	repeated EffigyDailyInfo daily_info_list = 11;
+	uint32 cur_score = 14;
 }

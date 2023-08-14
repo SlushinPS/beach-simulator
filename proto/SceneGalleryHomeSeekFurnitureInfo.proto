@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EBBPJONKNOI
+// Obf: MOHMOKLMNOA
 message SceneGalleryHomeSeekFurnitureInfo {
-	map<uint32, uint32> player_score_map = 12;
-	uint32 DMDKDGHPDJF = 13;
-	uint32 AOPDCFLABGK = 6;
-	uint32 KLNLKCAEJKM = 7;
+	uint32 MPKMCJKPIAI = 2;
+	map<uint32, uint32> player_score_map = 4;
+	uint32 JMKGIKHIGKF = 15;
+	uint32 FOMNOCFGOCP = 6;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5728
-// Obf: KDMHGFDLKJJ
+// CmdId: 23286
+// Obf: NMOLPBAOJOH
 message NormalUidOpNotify {
-	uint32 duration = 7;
-	uint32 param_index = 13;
-	repeated uint32 param_uid_list = 9;
-	repeated uint32 param_list = 2;
+	repeated uint32 param_list = 10;
+	repeated uint32 param_uid_list = 13;
+	uint32 param_index = 15;
+	uint32 duration = 14;
 }

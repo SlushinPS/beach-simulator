@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4843
-// Obf: BDAPKHGDJCD
+// CmdId: 27614
+// Obf: KBGKKKOOOLF
 message HomeAvatarSummonEventRsp {
-	uint32 event_id = 15;
-	int32 retcode = 4;
+	uint32 event_id = 7;
+	int32 retcode = 8;
 }

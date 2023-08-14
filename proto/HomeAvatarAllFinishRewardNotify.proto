@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4653
-// Obf: EBKECPJLCOH
+// CmdId: 9497
+// Obf: PLHINAALPPO
 message HomeAvatarAllFinishRewardNotify {
-	repeated uint32 event_id_list = 10;
+	repeated uint32 event_id_list = 12;
 }

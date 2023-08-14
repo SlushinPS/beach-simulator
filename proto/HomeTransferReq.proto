@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4460
-// Obf: FFFNGAHIEOK
+// CmdId: 28287
+// Obf: LEOKBBDBAKN
 message HomeTransferReq {
-	uint32 guid = 8;
-	bool is_transfer_to_safe_point = 9;
-	bool GGBOCPDIIKL = 13;
+	uint32 guid = 12;
+	bool JFEOCNJLCLG = 5;
+	bool is_transfer_to_safe_point = 3;
 }

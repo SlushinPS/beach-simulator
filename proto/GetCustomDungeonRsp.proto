@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "CustomDungeonBrief.proto";
 import "CustomDungeonBanInfo.proto";
-// CmdId: 6236
-// Obf: MIMFOAIFLLF
+import "CustomDungeonBrief.proto";
+// CmdId: 5372
+// Obf: OMIHDIPFCBH
 message GetCustomDungeonRsp {
-	int32 retcode = 5;
-	repeated CustomDungeonBrief brief_list = 8;
 	CustomDungeonBanInfo ban_info = 2;
+	int32 retcode = 10;
+	repeated CustomDungeonBrief brief_list = 15;
 }

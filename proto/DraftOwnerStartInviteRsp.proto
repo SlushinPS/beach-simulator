@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DraftInviteFailInfo.proto";
-// CmdId: 5472
-// Obf: CFPGNABGCLK
+// CmdId: 23377
+// Obf: LPNHHBLOLKK
 message DraftOwnerStartInviteRsp {
-	uint32 draft_id = 7;
-	uint32 wrong_uid = 6;
-	repeated DraftInviteFailInfo invite_fail_info_list = 4;
-	int32 retcode = 14;
+	uint32 draft_id = 14;
+	int32 retcode = 13;
+	uint32 wrong_uid = 4;
+	repeated DraftInviteFailInfo invite_fail_info_list = 9;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 239
-// Obf: FAOFIMHCBEM
+// CmdId: 29272
+// Obf: FFFCAOAIFDJ
 message ClientPauseNotify {
-	bool is_open = 6;
+	bool is_open = 8;
 }

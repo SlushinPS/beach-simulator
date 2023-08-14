@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EBCOKIIELIE
+// Obf: HOIECOCMCMI
 enum AbilityScalarType {
 	ABILITY_SCALAR_TYPE_UNKNOW = 0;
 	ABILITY_SCALAR_TYPE_FLOAT = 1;

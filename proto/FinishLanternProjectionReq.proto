@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8033
-// Obf: AFICEFMKCFC
+// CmdId: 9125
+// Obf: OEFALBKMCPI
 message FinishLanternProjectionReq {
-	uint32 level_id = 3;
-	uint32 finish_time = 4;
+	uint32 level_id = 11;
+	uint32 finish_time = 9;
 }

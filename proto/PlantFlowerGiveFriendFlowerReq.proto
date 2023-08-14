@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8164
-// Obf: NBOBKMJHLON
+// CmdId: 512
+// Obf: BLIGHIHGCGN
 message PlantFlowerGiveFriendFlowerReq {
-	map<uint32, uint32> flower_num_map = 13;
-	uint32 schedule_id = 3;
-	uint32 uid = 15;
+	uint32 schedule_id = 6;
+	uint32 uid = 11;
+	map<uint32, uint32> flower_num_map = 9;
 }

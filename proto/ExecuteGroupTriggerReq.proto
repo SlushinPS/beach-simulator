@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 292
-// Obf: BDCAJCDPPNP
+// CmdId: 29357
+// Obf: CBLDGHEMNOB
 message ExecuteGroupTriggerReq {
-	int32 param1 = 2;
-	int32 param2 = 3;
-	uint32 target_entity_id = 1;
-	string source_name = 12;
-	int32 param3 = 4;
-	uint32 source_entity_id = 10;
+	uint32 source_entity_id = 7;
+	uint32 target_entity_id = 6;
+	int32 param3 = 14;
+	int32 param1 = 4;
+	int32 param2 = 11;
+	string source_name = 8;
 }

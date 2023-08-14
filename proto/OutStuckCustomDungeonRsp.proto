@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6202
-// Obf: HGAEIJJPLPK
+// CmdId: 9580
+// Obf: DGCBOCHBEEB
 message OutStuckCustomDungeonRsp {
-	int32 retcode = 8;
+	int32 retcode = 12;
 }

@@ -17,14 +17,14 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: CEKLMKGAAMM
+// Obf: JMGECLOKOFJ
 message VehicleLocationInfo {
-	float BPINFNMHLLL = 10;
-	float DCCJBGLMDOC = 1;
-	repeated uint32 uid_list = 12;
-	uint32 entity_id = 7;
-	uint32 owner_uid = 9;
-	uint32 gadget_id = 11;
-	Vector rot = 15;
-	Vector pos = 14;
+	float PCBCDBGOKOK = 3;
+	repeated uint32 uid_list = 11;
+	float FOHOENOKMML = 7;
+	uint32 owner_uid = 5;
+	Vector rot = 14;
+	Vector pos = 4;
+	uint32 entity_id = 12;
+	uint32 gadget_id = 15;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "UgcType.proto";
-// CmdId: 6337
-// Obf: ADGKCBFLKJP
+// CmdId: 4301
+// Obf: EJECIPEHCFC
 message GetUgcBriefInfoReq {
-	uint64 ugc_guid = 9;
-	UgcType ugc_type = 11;
+	UgcType ugc_type = 2;
+	uint64 ugc_guid = 7;
 }

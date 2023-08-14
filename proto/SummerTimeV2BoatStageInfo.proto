@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JALCJCCHKJP
+// Obf: KFLNOKJNODO
 message SummerTimeV2BoatStageInfo {
-	uint32 best_score = 5;
-	uint32 stage_id = 8;
-	uint32 open_time = 2;
-	bool is_open = 13;
+	bool is_open = 11;
+	uint32 stage_id = 9;
+	uint32 best_score = 3;
+	uint32 open_time = 7;
 }

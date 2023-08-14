@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 198
-// Obf: ALOHABDLIMK
+// CmdId: 5837
+// Obf: ONGBJJGLNAP
 message TakeCompoundOutputReq {
 	uint32 compound_group_id = 1;
-	uint32 compound_id = 7;
+	uint32 compound_id = 2;
 }

@@ -17,23 +17,23 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChapterState.proto";
-// CmdId: 416
-// Obf: CLNHLPJKIHO
+// CmdId: 21508
+// Obf: MCCCGABFHBK
 message ChapterStateNotify {
-	// Obf: NNBEJPGCIMD
+	// Obf: MOEEEKPMIAO
 	message NeedPlayerLevel {
-		bool is_limit = 8;
-		uint32 configNeedPlayerLevel = 1;
+		bool is_limit = 1;
+		uint32 configNeedPlayerLevel = 11;
 	}
 	
-	// Obf: HDPCHNPCKLP
+	// Obf: GEFDHMJCBLD
 	message NeedBeginTime {
-		uint32 configNeedBeginTime = 4;
-		bool is_limit = 7;
+		uint32 configNeedBeginTime = 5;
+		bool is_limit = 1;
 	}
 	
-	uint32 chapter_id = 9;
-	NeedBeginTime need_begin_time = 13;
-	NeedPlayerLevel need_player_level = 1;
-	ChapterState chapter_state = 14;
+	NeedBeginTime need_begin_time = 10;
+	NeedPlayerLevel need_player_level = 3;
+	ChapterState chapter_state = 7;
+	uint32 chapter_id = 4;
 }

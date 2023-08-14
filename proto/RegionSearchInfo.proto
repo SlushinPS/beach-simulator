@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "RegionSearch.proto";
-// Obf: JKOCIJCICLI
+// Obf: DHHDMABOCLM
 message RegionSearchInfo {
-	uint32 id = 15;
-	repeated RegionSearch region_search_list = 14;
-	bool is_entered = 10;
+	uint32 id = 10;
+	bool is_entered = 2;
+	repeated RegionSearch region_search_list = 9;
 }

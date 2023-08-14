@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AvatarFetterInfo.proto";
-// CmdId: 1775
-// Obf: OGBCMAKENBC
+// CmdId: 29004
+// Obf: JKPPLBNFEGM
 message AvatarFetterDataNotify {
-	map<uint64, AvatarFetterInfo> fetter_info_map = 12;
+	map<uint64, AvatarFetterInfo> fetter_info_map = 8;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2642
-// Obf: BCMGHCKOMIP
+// CmdId: 25281
+// Obf: MMMKAPDNEHF
 message SetBattlePassViewedRsp {
-	uint32 schedule_id = 11;
-	int32 retcode = 1;
+	uint32 schedule_id = 2;
+	int32 retcode = 6;
 }

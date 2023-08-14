@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeGroupPlayerInfo.proto";
-// Obf: NMHIIBELGBG
+// Obf: EDIJLLFLAEF
 message HomeRacingGalleryRecord {
-	uint32 use_time = 15;
-	uint32 timestamp = 9;
-	HomeGroupPlayerInfo player_info = 14;
+	uint32 use_time = 3;
+	uint32 timestamp = 2;
+	HomeGroupPlayerInfo player_info = 11;
 }

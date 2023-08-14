@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 805
-// Obf: PJOANFBOENG
+// CmdId: 1396
+// Obf: HHADHIBOHBK
 message LiveStartNotify {
-	uint32 live_id = 4;
+	uint32 live_id = 3;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 109
-// Obf: JNNKIPADMND
+// CmdId: 3756
+// Obf: PNADDINCDLE
 message PlayerLevelRewardUpdateNotify {
-	repeated uint32 level_list = 9;
+	repeated uint32 level_list = 12;
 }

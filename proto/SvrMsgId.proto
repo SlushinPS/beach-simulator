@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ODLPLEJEEAK
+// Obf: MGJMJBMPFPG
 enum SvrMsgId {
 	MSG_UNKNOWN = 0;
 	MSG_BLOCK_REFRESH_COUNTDOWN = 1;

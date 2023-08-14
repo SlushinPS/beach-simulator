@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 242
-// Obf: PKDAGNPOOOK
+// CmdId: 29482
+// Obf: OLIJIMJGACD
 message EnterWorldAreaReq {
-	uint32 area_id = 11;
-	uint32 area_type = 9;
+	uint32 area_type = 8;
+	uint32 area_id = 15;
 }

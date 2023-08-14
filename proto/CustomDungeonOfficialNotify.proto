@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "TryCustomDungeonType.proto";
 import "EnterCustomDungeonType.proto";
-// CmdId: 6224
-// Obf: DKNJJMOMFDM
+import "TryCustomDungeonType.proto";
+// CmdId: 3645
+// Obf: BJEOENDLBCP
 message CustomDungeonOfficialNotify {
-	TryCustomDungeonType try_type = 14;
-	repeated uint32 official_black_coin_list = 8;
-	EnterCustomDungeonType enter_type = 10;
+	EnterCustomDungeonType enter_type = 12;
+	repeated uint32 official_black_coin_list = 7;
+	TryCustomDungeonType try_type = 9;
 }

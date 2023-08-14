@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: OHPPDGFKJFD
+// Obf: AACHABJNBBP
 message EvtSyncSkillAnchorPosition {
-	uint32 entity_id = 10;
-	Vector skill_anchor_position = 3;
+	Vector skill_anchor_position = 1;
+	uint32 entity_id = 9;
 }

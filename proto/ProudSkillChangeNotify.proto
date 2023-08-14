@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1084
-// Obf: EMABHKGFJMF
+// CmdId: 23429
+// Obf: GALAIBFEIIG
 message ProudSkillChangeNotify {
-	uint32 entity_id = 15;
-	uint64 avatar_guid = 11;
-	repeated uint32 proud_skill_list = 8;
-	uint32 skill_depot_id = 7;
+	uint32 entity_id = 4;
+	repeated uint32 proud_skill_list = 3;
+	uint32 skill_depot_id = 11;
+	uint64 avatar_guid = 9;
 }

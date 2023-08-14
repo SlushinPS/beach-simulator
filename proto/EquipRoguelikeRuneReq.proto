@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8154
-// Obf: BCFCGEFCINP
+// CmdId: 5188
+// Obf: ELNJIICIBLI
 message EquipRoguelikeRuneReq {
-	repeated uint32 rune_list = 11;
+	repeated uint32 rune_list = 13;
 }

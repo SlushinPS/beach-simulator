@@ -17,17 +17,17 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GalleryFlowerStartParam.proto";
-import "NGIFMHFCFAC.proto";
-// CmdId: 5575
-// Obf: JONMKDCLLLB
+import "ElectroherculesStartParam.proto";
+// CmdId: 23632
+// Obf: OILIMHJBKNF
 message GalleryStartNotify {
-	uint32 owner_uid = 5;
-	uint32 player_count = 12;
-	uint32 start_time = 8;
-	uint32 end_time = 2;
-	uint32 gallery_id = 3;
+	uint32 start_time = 10;
+	uint32 end_time = 14;
+	uint32 owner_uid = 4;
+	uint32 player_count = 6;
+	uint32 gallery_id = 2;
 	oneof detail {
-		GalleryFlowerStartParam flower_start_param = 14;
-		NGIFMHFCFAC electrohercules_start_param = 9;
+		GalleryFlowerStartParam flower_start_param = 7;
+		ElectroherculesStartParam electrohercules_start_param = 8;
 	}
 }

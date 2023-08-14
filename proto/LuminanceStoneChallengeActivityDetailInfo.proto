@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BCDOENHEMIL
+// Obf: HEELLKHPNAA
 message LuminanceStoneChallengeActivityDetailInfo {
-	uint32 current_stage_id = 2;
-	uint32 best_score = 1;
-	bool is_final_gallery_complete = 9;
-	bool is_content_closed = 13;
+	uint32 best_score = 7;
+	uint32 current_stage_id = 8;
+	bool is_final_gallery_complete = 1;
+	bool is_content_closed = 9;
 }

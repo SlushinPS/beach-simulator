@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// Obf: IJHCHNPKNGD
+// Obf: LJFHBAPBCDA
 message HomeGroupPlayerInfo {
-	uint32 player_level = 7;
-	uint32 uid = 11;
-	string psn_id = 5;
 	string nickname = 9;
-	string online_id = 8;
-	ProfilePicture profile_picture = 3;
+	uint32 player_level = 14;
+	ProfilePicture profile_picture = 13;
+	uint32 uid = 15;
+	string psn_id = 5;
+	string online_id = 4;
 }

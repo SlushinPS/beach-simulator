@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MDCOJLLKODN
+// Obf: PPJHINMBHKA
 message ChessActivityDetailInfo {
-	uint32 level = 7;
-	uint32 GPEHFLDFEAA = 13;
-	repeated uint32 finished_map_id_list = 8;
-	uint32 LDBPIMIFGNE = 3;
-	bool is_teach_dungeon_finished = 2;
-	bool is_content_closed = 1;
-	uint32 exp = 9;
-	uint32 punish_over_time = 6;
-	uint32 content_close_time = 10;
+	uint32 OGHIGEJOHCB = 6;
+	bool is_teach_dungeon_finished = 9;
+	uint32 exp = 4;
+	uint32 CNHHFJDFLNK = 3;
+	bool is_content_closed = 11;
+	repeated uint32 finished_map_id_list = 12;
+	uint32 level = 5;
+	uint32 content_close_time = 14;
+	uint32 punish_over_time = 15;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 633
-// Obf: GBBFEEHGFJE
+// CmdId: 715
+// Obf: DMDOBJKPENG
 message WeaponPromoteRsp {
-	int32 retcode = 15;
-	uint64 target_weapon_guid = 2;
-	uint32 old_promote_level = 14;
-	uint32 cur_promote_level = 5;
+	uint32 MCLHMKNEIKH = 4;
+	uint32 GDNPFIPFIOJ = 14;
+	int32 retcode = 6;
+	uint64 target_weapon_guid = 3;
 }

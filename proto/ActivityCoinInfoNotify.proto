@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2006
-// Obf: CGKCLIBAODN
+// CmdId: 27507
+// Obf: NLNPKCJECGK
 message ActivityCoinInfoNotify {
-	uint32 activity_id = 8;
-	map<uint32, uint32> activity_coin_map = 2;
+	map<uint32, uint32> activity_coin_map = 4;
+	uint32 activity_id = 6;
 	uint32 schedule_id = 9;
 }

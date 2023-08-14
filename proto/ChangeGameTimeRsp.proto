@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 130
-// Obf: LABMPLOLGJJ
+// CmdId: 28316
+// Obf: BEHKLPMPHBH
 message ChangeGameTimeRsp {
-	int32 retcode = 2;
+	uint32 cur_game_time = 1;
 	uint32 extra_days = 14;
-	uint32 cur_game_time = 5;
+	int32 retcode = 13;
 }

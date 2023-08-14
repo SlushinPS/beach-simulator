@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JKLCAHCABGP
+// Obf: JOOPENKNHFK
 message SceneGalleryTeamChainInfo {
-	uint32 LMBEBNHDECJ = 8;
-	uint32 MLKMBDPMGCN = 3;
-	uint32 CBCPCGHMLPE = 1;
-	uint32 BEFMGHJHLBN = 7;
-	uint32 EAJBENKCPGK = 11;
+	uint32 AAHLNAJKEKM = 10;
+	uint32 LBBODHJPPCD = 3;
+	uint32 IALCEBPFIAJ = 14;
+	uint32 JHPIKBDGGFH = 1;
+	uint32 ENGBIEPJBII = 12;
 }

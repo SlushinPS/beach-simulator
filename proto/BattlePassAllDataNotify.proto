@@ -18,10 +18,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BattlePassSchedule.proto";
 import "BattlePassMission.proto";
-// CmdId: 2628
-// Obf: PKMIHDNNEJI
+// CmdId: 3474
+// Obf: HDENJJOGGKA
 message BattlePassAllDataNotify {
-	BattlePassSchedule cur_schedule = 8;
-	repeated BattlePassMission mission_list = 7;
-	bool have_cur_schedule = 12;
+	BattlePassSchedule cur_schedule = 1;
+	repeated BattlePassMission mission_list = 9;
+	bool have_cur_schedule = 2;
 }

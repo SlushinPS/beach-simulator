@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24679
-// Obf: MJNLBIPJLKF
+// CmdId: 7004
+// Obf: POCEIGICBMH
 message CharAmusementSettleNotify {
 	uint32 finish_time = 9;
-	bool is_new_record = 1;
-	bool is_succ = 10;
+	bool is_new_record = 8;
+	bool is_succ = 3;
 }

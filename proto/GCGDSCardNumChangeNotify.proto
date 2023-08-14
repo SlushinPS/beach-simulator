@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7158
-// Obf: DBCICNAFMKH
+// CmdId: 8761
+// Obf: BCIGKHPFMLI
 message GCGDSCardNumChangeNotify {
-	uint32 num = 15;
-	uint32 card_id = 12;
+	uint32 num = 5;
+	uint32 card_id = 9;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 191
-// Obf: FOIEBCFOCLK
+// CmdId: 1074
+// Obf: JLLGODJMAAG
 message PlayerIpRegionNotify {
-	string ip_code = 3;
+	string ip_code = 9;
 }

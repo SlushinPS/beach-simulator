@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 915
-// Obf: DPHJKPDLJME
+// CmdId: 22297
+// Obf: BHBGFLBHMKP
 message DungeonReviseLevelNotify {
-	uint32 LPEGNBKLNPD = 2;
-	uint32 dungeon_id = 11;
-	uint32 MAGJOJOBHEK = 10;
+	uint32 dungeon_id = 13;
+	uint32 DEKNEDHELLG = 9;
+	uint32 CONMHGGJNMC = 10;
 }

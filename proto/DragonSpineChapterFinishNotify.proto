@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2072
-// Obf: IPHNALGCMCK
+// CmdId: 3871
+// Obf: ILMNKLMKDME
 message DragonSpineChapterFinishNotify {
-	uint32 chapter_id = 5;
+	uint32 chapter_id = 10;
 	uint32 schedule_id = 15;
-	uint32 weapon_enhance_level = 2;
+	uint32 weapon_enhance_level = 14;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 866
-// Obf: DDGKAOGAIMA
+// CmdId: 919
+// Obf: ECMCEKIMIEI
 message ProjectorOptionRsp {
-	uint32 op_type = 1;
-	int32 retcode = 5;
-	uint32 entity_id = 4;
+	uint32 op_type = 15;
+	int32 retcode = 6;
+	uint32 entity_id = 10;
 }

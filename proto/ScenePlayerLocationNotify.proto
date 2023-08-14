@@ -18,10 +18,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlayerLocationInfo.proto";
 import "VehicleLocationInfo.proto";
-// CmdId: 221
-// Obf: BDEAGHFPELD
+// CmdId: 29652
+// Obf: ADLIMHMEMDB
 message ScenePlayerLocationNotify {
-	repeated PlayerLocationInfo player_loc_list = 6;
-	repeated VehicleLocationInfo vehicle_loc_list = 9;
+	repeated PlayerLocationInfo player_loc_list = 3;
+	repeated VehicleLocationInfo vehicle_loc_list = 13;
 	uint32 scene_id = 14;
 }

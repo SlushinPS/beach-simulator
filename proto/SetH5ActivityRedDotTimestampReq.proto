@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5671
-// Obf: ECBNHMNEKCE
+// CmdId: 21249
+// Obf: FGGJKGHOHKD
 message SetH5ActivityRedDotTimestampReq {
-	uint32 client_red_dot_timestamp = 5;
+	uint32 client_red_dot_timestamp = 15;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeAvatarTalkFinishInfo.proto";
-// CmdId: 4896
-// Obf: AAFOIDEFOOE
+// CmdId: 1147
+// Obf: BMKBKBJBHLM
 message HomeAvatarTalkRsp {
-	int32 retcode = 3;
-	HomeAvatarTalkFinishInfo avatar_talk_info = 5;
+	int32 retcode = 15;
+	HomeAvatarTalkFinishInfo avatar_talk_info = 11;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4492
-// Obf: GJIFKMMJGMB
+// CmdId: 21872
+// Obf: BPBMGJIIDOL
 message HomeClearGroupRecordRsp {
-	int32 retcode = 13;
-	uint32 group_id = 8;
+	uint32 group_id = 4;
+	int32 retcode = 5;
 }

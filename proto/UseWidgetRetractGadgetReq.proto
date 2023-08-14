@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4256
-// Obf: LNHMLLJDNFJ
+// CmdId: 9147
+// Obf: NIMGOEPOCNP
 message UseWidgetRetractGadgetReq {
-	uint32 entity_id = 2;
+	uint32 entity_id = 14;
 }

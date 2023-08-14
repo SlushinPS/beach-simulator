@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5354
-// Obf: AAIAGJGNJIA
+// CmdId: 3019
+// Obf: FONHNGCLNGB
 message MultistagePlayStageEndNotify {
-	uint32 group_id = 15;
 	uint32 play_index = 14;
+	uint32 group_id = 6;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JGDHGGJKJEH
+// Obf: KPJPHHFNGPM
 message RogueEffectRecord {
-	bool is_new = 11;
-	uint32 count = 10;
-	repeated uint32 extra_param_list = 5;
-	uint32 source_id = 4;
+	bool is_new = 8;
+	uint32 count = 13;
+	repeated uint32 extra_param_list = 2;
+	uint32 source_id = 10;
 }

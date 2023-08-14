@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 679
-// Obf: JKJNKFEBOEE
+// CmdId: 24611
+// Obf: KLNPILMDDEE
 message SetIsAutoUnlockSpecificEquipReq {
 	bool is_auto_unlock_specific_equip = 2;
 }

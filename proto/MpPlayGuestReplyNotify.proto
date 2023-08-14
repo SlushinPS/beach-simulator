@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1849
-// Obf: ONMMIKFGKGC
+// CmdId: 25876
+// Obf: KEDEKBKBCNK
 message MpPlayGuestReplyNotify {
-	uint32 uid = 15;
-	uint32 mp_play_id = 12;
-	bool is_agree = 6;
+	uint32 mp_play_id = 5;
+	uint32 uid = 7;
+	bool is_agree = 3;
 }

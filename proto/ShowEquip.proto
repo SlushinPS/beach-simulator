@@ -18,7 +18,7 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Reliquary.proto";
 import "Weapon.proto";
-// Obf: EPAIHJBBEOM
+// Obf: OJMNHOEOFAN
 message ShowEquip {
 	uint32 item_id = 1;
 	oneof detail {

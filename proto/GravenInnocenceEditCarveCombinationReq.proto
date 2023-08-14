@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CustomGadgetTreeInfo.proto";
-// CmdId: 21123
-// Obf: NHDALOLAKAL
+// CmdId: 8110
+// Obf: EPMCIOGKKND
 message GravenInnocenceEditCarveCombinationReq {
-	uint32 entity_id = 10;
-	CustomGadgetTreeInfo combination_info = 9;
+	CustomGadgetTreeInfo combination_info = 7;
+	uint32 entity_id = 1;
 }

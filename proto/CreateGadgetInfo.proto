@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GadgetBornType.proto";
-// Obf: NCOOFLCLKIP
+// Obf: NDJJNLJIAKO
 message CreateGadgetInfo {
-	// Obf: MEEFCKCOLKE
+	// Obf: FGAGBNDOGCB
 	message Chest {
 		uint32 chest_drop_id = 1;
 		bool is_show_cutscene = 2;

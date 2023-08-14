@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CoopReward.proto";
-// CmdId: 1966
-// Obf: CKLPHKLCLJF
+// CmdId: 1034
+// Obf: ADOBCEAELOF
 message CoopRewardUpdateNotify {
-	repeated CoopReward reward_list = 8;
+	repeated CoopReward reward_list = 13;
 }

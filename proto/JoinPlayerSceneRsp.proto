@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 279
-// Obf: GHNLCOOPOBI
+// CmdId: 23693
+// Obf: BJNJBNHBFIF
 message JoinPlayerSceneRsp {
-	int32 retcode = 2;
+	int32 retcode = 1;
 }

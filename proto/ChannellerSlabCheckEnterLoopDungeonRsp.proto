@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8271
-// Obf: PEPIPMGMJBN
+// CmdId: 3830
+// Obf: NLJJOEJHNMP
 message ChannellerSlabCheckEnterLoopDungeonRsp {
-	int32 retcode = 7;
+	int32 retcode = 11;
 }

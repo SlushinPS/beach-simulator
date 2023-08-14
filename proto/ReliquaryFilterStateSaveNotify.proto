@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 683
-// Obf: HJOECKDNGON
+// CmdId: 4815
+// Obf: ECBLOLDIABL
 message ReliquaryFilterStateSaveNotify {
-	map<uint32, uint32> reliquary_filter_state_map = 14;
+	map<uint32, uint32> reliquary_filter_state_map = 4;
 }

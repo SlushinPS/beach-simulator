@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JADEFHANEBG
+// Obf: FKDCFIEKHGM
 message RogueDiaryProgress {
-	uint32 cur_round = 3;
-	bool is_enter_dungeon = 9;
-	uint32 stage_id = 2;
-	uint32 difficulty = 1;
-	repeated uint32 optional_card_list = 15;
+	repeated uint32 optional_card_list = 5;
+	uint32 cur_round = 1;
+	uint32 stage_id = 3;
+	bool is_enter_dungeon = 7;
+	uint32 difficulty = 2;
 }

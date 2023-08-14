@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ElectroherculesBattleStageInfo.proto";
-// Obf: HEOBEJGAFJO
+// Obf: OJPDJIODPJM
 message ElectroherculesBattleDetailInfo {
-	bool MAABHBPHKED = 14;
-	repeated ElectroherculesBattleStageInfo stage_info_list = 2;
+	bool FPADEODKEMH = 6;
+	repeated ElectroherculesBattleStageInfo stage_info_list = 11;
 }

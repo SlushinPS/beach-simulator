@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5314
-// Obf: HPFAKCEOEAM
+// CmdId: 5463
+// Obf: DCMLHBGHAGL
 message BrickBreakerSelectAvatarRsp {
-	repeated uint32 avatar_id = 14;
-	int32 retcode = 13;
+	repeated uint32 avatar_id = 9;
+	int32 retcode = 2;
 }

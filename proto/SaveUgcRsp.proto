@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "UgcType.proto";
-// CmdId: 6307
-// Obf: OBFGGENIOKA
+// CmdId: 27821
+// Obf: BEICNIMIEGB
 message SaveUgcRsp {
-	int32 retcode = 7;
-	uint64 ugc_guid = 4;
-	bool JGOOBHBPNBO = 11;
-	UgcType ugc_type = 9;
+	int32 retcode = 4;
+	bool ALFEMBIBABF = 15;
+	uint64 ugc_guid = 11;
+	UgcType ugc_type = 2;
 }

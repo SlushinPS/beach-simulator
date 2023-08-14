@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "ChannellerSlabBuffInfo.proto";
 import "ChannelerSlabChallengeStage.proto";
+import "ChannellerSlabBuffInfo.proto";
 import "ChannellerSlabLoopDungeonStageInfo.proto";
-// Obf: LMHEEEOPMJJ
+// Obf: IEHAEJGOPJC
 message ChannelerSlabActivityDetailInfo {
-	uint32 play_end_time = 9;
-	ChannellerSlabBuffInfo buff_info = 1;
-	repeated ChannelerSlabChallengeStage stage_list = 7;
-	ChannellerSlabLoopDungeonStageInfo loop_dungeon_stage_info = 4;
+	repeated ChannelerSlabChallengeStage stage_list = 1;
+	ChannellerSlabBuffInfo buff_info = 14;
+	uint32 play_end_time = 15;
+	ChannellerSlabLoopDungeonStageInfo loop_dungeon_stage_info = 5;
 }

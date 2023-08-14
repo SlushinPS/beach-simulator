@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ClientReconnectReason.proto";
-// CmdId: 64
-// Obf: BFOEAKGBCLA
+// CmdId: 650
+// Obf: FIDFKFNOCEC
 message ClientReconnectNotify {
-	ClientReconnectReason reason = 5;
+	ClientReconnectReason reason = 10;
 }

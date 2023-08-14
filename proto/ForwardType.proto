@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GPGOKLPGBAG
+// Obf: CLILGMMMGCK
 enum ForwardType {
 	FORWARD_TYPE_LOCAL = 0;
 	FORWARD_TYPE_TO_ALL = 1;

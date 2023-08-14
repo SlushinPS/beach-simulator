@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 268
-// Obf: BCNGDFENAPI
+// CmdId: 28443
+// Obf: GNAGNBFBJEB
 message SceneTransToPointRsp {
-	uint32 point_id = 12;
-	uint32 scene_id = 13;
-	int32 retcode = 3;
+	uint32 scene_id = 14;
+	int32 retcode = 2;
+	uint32 point_id = 5;
 }

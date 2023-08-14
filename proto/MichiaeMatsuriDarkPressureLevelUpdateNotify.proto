@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8677
-// Obf: BMOFCFPGHPI
+// CmdId: 29941
+// Obf: AFHLMAHKNEH
 message MichiaeMatsuriDarkPressureLevelUpdateNotify {
-	uint32 dark_pressure_level = 1;
+	uint32 dark_pressure_level = 8;
 }

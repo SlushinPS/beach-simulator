@@ -16,19 +16,19 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1121
-// Obf: MABCFNPGLCK
+// CmdId: 1181
+// Obf: BKDHPPNCFBO
 message ServerUpdateGlobalValueNotify {
-	// Obf: LEJABMEJPPG
+	// Obf: AHKBKOMMMJD
 	enum UpdateType {
 		INVALUE = 0;
 		ADD = 1;
 		SET = 2;
 	}
 	
-	float delta = 15;
-	float value = 13;
-	uint32 entity_id = 12;
-	uint32 key_hash = 9;
-	UpdateType update_type = 8;
+	float delta = 2;
+	uint32 entity_id = 8;
+	uint32 key_hash = 5;
+	UpdateType update_type = 3;
+	float value = 1;
 }

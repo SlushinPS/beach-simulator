@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1838
-// Obf: DLEBKDDJFGP
+// CmdId: 107
+// Obf: BFKDNDBMCMO
 message MpPlayGuestReplyInviteRsp {
-	uint32 mp_play_id = 1;
-	int32 retcode = 7;
+	uint32 mp_play_id = 10;
+	int32 retcode = 13;
 }

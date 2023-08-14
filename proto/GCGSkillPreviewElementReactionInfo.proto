@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGSkillPreviewReactionInfo.proto";
-// Obf: AMNNLCILKPN
+// Obf: JMDGONEJINN
 message GCGSkillPreviewElementReactionInfo {
-	repeated uint32 ODDODNFMJDF = 9;
-	repeated GCGSkillPreviewReactionInfo reaction_list = 10;
-	repeated uint32 FNDGHCIMDCE = 11;
+	repeated uint32 EGLBIAFCDDE = 2;
+	repeated GCGSkillPreviewReactionInfo reaction_list = 5;
+	repeated uint32 NIBNEKEFICM = 7;
 }

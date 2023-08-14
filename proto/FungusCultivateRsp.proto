@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21314
-// Obf: FEEECBNOJDJ
+// CmdId: 29789
+// Obf: PDPGFCCJLNB
 message FungusCultivateRsp {
-	uint32 cultivate_id = 12;
-	bool is_new_record = 15;
-	int32 retcode = 2;
+	uint32 cultivate_id = 10;
+	bool is_new_record = 11;
+	int32 retcode = 3;
 }

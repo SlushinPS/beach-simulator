@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8425
-// Obf: HFFKMAKLCDP
+// CmdId: 4848
+// Obf: CPNJIBMOFJO
 message ActivityReadPushTipsReq {
-	uint32 activity_id = 6;
-	repeated uint32 activity_push_tips_id_list = 15;
+	repeated uint32 activity_push_tips_id_list = 11;
+	uint32 activity_id = 14;
 }

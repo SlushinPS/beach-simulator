@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2186
-// Obf: OGOLDLMEIDA
+// CmdId: 24543
+// Obf: FPABPENKFCG
 message SetCurExpeditionChallengeIdRsp {
-	uint32 id = 5;
-	int32 retcode = 3;
+	uint32 id = 15;
+	int32 retcode = 2;
 }

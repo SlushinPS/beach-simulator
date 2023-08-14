@@ -18,9 +18,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MsgParam.proto";
 import "SvrMsgId.proto";
-// CmdId: 72
-// Obf: DGHMHACLEJA
+// CmdId: 20664
+// Obf: NEGGKKAEGNL
 message ShowMessageNotify {
-	repeated MsgParam params = 5;
-	SvrMsgId msg_id = 3;
+	repeated MsgParam params = 6;
+	SvrMsgId msg_id = 8;
 }

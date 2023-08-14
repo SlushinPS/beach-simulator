@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 162
-// Obf: DJFBMLNEOFC
+// CmdId: 21351
+// Obf: PMIAFBEBJNF
 message TakeBackGivingItemReq {
-	uint32 giving_id = 2;
+	uint32 giving_id = 6;
 }

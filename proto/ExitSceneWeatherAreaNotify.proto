@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 212
-// Obf: PPIMKDPAHCB
+// CmdId: 29563
+// Obf: PMMNBAJNFDK
 message ExitSceneWeatherAreaNotify {
-	uint32 weather_gadget_id = 4;
+	uint32 weather_gadget_id = 7;
 }

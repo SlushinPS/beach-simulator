@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4251
-// Obf: BKKIKGIALNK
+// CmdId: 2271
+// Obf: HLEILGAJMPD
 message WidgetReportReq {
-	bool OLMDMFHODCH = 9;
-	bool NJIKGBHPOEC = 15;
-	uint32 weather_wizard_shield_value = 1;
-	uint32 material_id = 13;
-	bool KMHNHCHDJOB = 14;
+	bool IENCBHNGNDM = 2;
+	uint32 material_id = 11;
+	uint32 weather_wizard_shield_value = 14;
+	bool NEIOFMCDAKD = 3;
+	bool KPAMJCLNJIF = 5;
 }

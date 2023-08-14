@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 596
-// Obf: OAFFPIJPBBM
+// CmdId: 3890
+// Obf: CJMFBCFOJFL
 message NpcTalkRsp {
-	uint32 entity_id = 15;
-	uint32 cur_talk_id = 1;
-	int32 retcode = 9;
-	uint32 npc_entity_id = 11;
+	int32 retcode = 4;
+	uint32 entity_id = 14;
+	uint32 cur_talk_id = 7;
+	uint32 npc_entity_id = 9;
 }

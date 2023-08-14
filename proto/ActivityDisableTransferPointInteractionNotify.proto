@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Uint32Pair.proto";
-// CmdId: 8212
-// Obf: KODDECOKPBA
+// CmdId: 25185
+// Obf: BOJFBMLODJO
 message ActivityDisableTransferPointInteractionNotify {
-	bool is_disable = 8;
-	Uint32Pair scene_point_pair = 2;
+	bool is_disable = 14;
+	Uint32Pair scene_point_pair = 7;
 }

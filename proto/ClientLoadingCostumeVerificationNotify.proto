@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3377
-// Obf: AKNAHMLPGOO
+// CmdId: 21932
+// Obf: IPHKDOMBFFJ
 message ClientLoadingCostumeVerificationNotify {
-	uint64 prefab_hash = 1;
-	uint32 costume_id = 6;
-	uint64 guid = 8;
+	uint32 costume_id = 13;
+	uint64 guid = 9;
+	uint64 prefab_hash = 14;
 }

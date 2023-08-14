@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PotionAvatarInfo.proto";
-// CmdId: 8252
-// Obf: CKFAMHGNPMK
+// CmdId: 4073
+// Obf: BBODJMOCMPK
 message PotionEnterDungeonReq {
-	repeated uint32 buff_id_list = 3;
-	uint32 mode_id = 2;
-	uint32 level_id = 9;
-	repeated PotionAvatarInfo avatar_info_list = 7;
-	uint32 stage_id = 15;
+	uint32 level_id = 8;
+	uint32 mode_id = 13;
+	repeated PotionAvatarInfo avatar_info_list = 14;
+	repeated uint32 buff_id_list = 5;
+	uint32 stage_id = 1;
 }

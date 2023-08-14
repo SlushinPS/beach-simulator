@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4670
-// Obf: PGLPEBOMONA
+// CmdId: 23571
+// Obf: AMLBHCJDHPI
 message HomeGetGroupRecordReq {
-	uint32 group_id = 14;
+	uint32 group_id = 5;
 }

@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "Vector.proto";
 import "HuntingPair.proto";
-// CmdId: 4348
-// Obf: MOKPILDIKJN
+import "Vector.proto";
+// CmdId: 27610
+// Obf: MHHNFFBFKJG
 message HuntingOngoingNotify {
-	bool is_started = 1;
-	uint32 finish_clue_count = 9;
-	bool is_final = 8;
-	Vector next_position = 10;
-	HuntingPair hunting_pair = 12;
-	uint32 fail_time = 4;
+	bool is_final = 7;
+	HuntingPair hunting_pair = 3;
+	uint32 finish_clue_count = 6;
+	uint32 fail_time = 14;
+	Vector next_position = 11;
+	bool is_started = 5;
 }

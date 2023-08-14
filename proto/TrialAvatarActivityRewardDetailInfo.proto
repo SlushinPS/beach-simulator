@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LEJKLPGFMIG
+// Obf: PPLODNCPDAI
 message TrialAvatarActivityRewardDetailInfo {
-	bool ICGKJKIDFKM = 9;
-	bool KCJNPAELNLF = 12;
-	uint32 reward_id = 14;
-	uint32 trial_avatar_index_id = 5;
+	bool NPBJPLFAJNH = 6;
+	uint32 reward_id = 15;
+	bool JMNALMMBDLH = 8;
+	uint32 trial_avatar_index_id = 4;
 }

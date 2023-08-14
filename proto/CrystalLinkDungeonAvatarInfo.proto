@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MEOEEOOKNAA
+// Obf: EMILFGGOCLJ
 message CrystalLinkDungeonAvatarInfo {
-	bool is_trial = 10;
-	uint64 avatar_guid = 14;
+	uint64 avatar_guid = 4;
+	bool is_trial = 5;
 }

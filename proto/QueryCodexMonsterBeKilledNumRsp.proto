@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4210
-// Obf: HPIAAICHPHD
+// CmdId: 9121
+// Obf: FADBFEMALBF
 message QueryCodexMonsterBeKilledNumRsp {
-	repeated uint32 be_captured_num_list = 1;
-	repeated uint32 be_killed_num_list = 12;
+	repeated uint32 DGHFMFFKNBM = 12;
+	repeated uint32 OHNNNCFNHKF = 8;
+	int32 retcode = 15;
 	repeated uint32 codex_id_list = 5;
-	int32 retcode = 8;
 }

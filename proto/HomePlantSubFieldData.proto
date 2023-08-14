@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomePlantFieldStatus.proto";
-// Obf: JICIBIJIHAB
+// Obf: EAFGKPCFDCI
 message HomePlantSubFieldData {
-	HomePlantFieldStatus MMNMLFLBMCF = 3;
-	uint32 JBCOCICMEJE = 4;
-	fixed32 end_time = 15;
-	repeated uint32 entity_id_list = 2;
-	uint32 FDCENJDIOCF = 9;
+	repeated uint32 entity_id_list = 6;
+	HomePlantFieldStatus CAKDDMKAIMD = 7;
+	uint32 JHFNDBIHLNB = 8;
+	fixed32 end_time = 14;
+	uint32 KHFGOPCOAGM = 3;
 }

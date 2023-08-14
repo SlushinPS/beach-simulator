@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlayerDieOption.proto";
-// CmdId: 964
-// Obf: HCEPCKPHFJM
+// CmdId: 3884
+// Obf: MOHIGAEGAKN
 message DungeonDieOptionReq {
+	bool is_quit_immediately = 13;
 	PlayerDieOption die_option = 8;
-	bool is_quit_immediately = 4;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NIENBIDGPFK
+// Obf: COBALHBKFBJ
 message AvatarTeamResonanceInfo {
-	repeated uint32 add_team_resonance_id_list = 14;
-	repeated uint32 del_team_resonance_id_list = 1;
-	uint64 avatar_guid = 12;
-	uint32 entity_id = 8;
+	uint32 entity_id = 7;
+	repeated uint32 APADELCPLGE = 1;
+	uint64 avatar_guid = 6;
+	repeated uint32 GFJMLEAFNBM = 14;
 }

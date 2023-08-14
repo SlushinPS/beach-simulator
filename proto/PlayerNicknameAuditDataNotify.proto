@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ContentAuditInfo.proto";
-// CmdId: 151
-// Obf: HLGDJHFLNOJ
+// CmdId: 29372
+// Obf: IBIFMJEIJFH
 message PlayerNicknameAuditDataNotify {
-	ContentAuditInfo info = 8;
+	ContentAuditInfo info = 2;
 }

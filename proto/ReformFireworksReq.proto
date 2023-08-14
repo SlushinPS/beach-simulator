@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FireworksReformData.proto";
-// CmdId: 6097
-// Obf: DAHCGDBHFOE
+// CmdId: 28941
+// Obf: PICLGFMPPAN
 message ReformFireworksReq {
-	FireworksReformData fireworks_reform_data = 15;
+	FireworksReformData fireworks_reform_data = 10;
 }

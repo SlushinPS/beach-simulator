@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8135
-// Obf: NAJKPDDGBMN
+// CmdId: 4582
+// Obf: HCHOMFHJNCO
 message SpiceActivityFinishMakeSpiceRsp {
-	bool is_success = 15;
-	int32 retcode = 12;
-	uint32 stage_id = 1;
+	bool is_success = 1;
+	int32 retcode = 7;
+	uint32 stage_id = 15;
 }

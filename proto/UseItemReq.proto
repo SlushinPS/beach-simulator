@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 635
-// Obf: GNDGAEMNKPM
+// CmdId: 9155
+// Obf: OKFMPIODGJM
 message UseItemReq {
-	uint32 count = 7;
-	uint32 option_idx = 11;
-	uint64 guid = 10;
-	bool is_enter_mp_dungeon_team = 13;
-	uint64 target_guid = 1;
+	bool is_enter_mp_dungeon_team = 8;
+	uint32 count = 14;
+	uint64 guid = 9;
+	uint64 target_guid = 15;
+	uint32 option_idx = 3;
 }

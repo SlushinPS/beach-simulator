@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4078
-// Obf: PPOCFBPEEAL
+// CmdId: 21775
+// Obf: BDOIGJMDPCO
 message FriendInfoChangeNotify {
-	uint32 uid = 7;
-	string online_id = 13;
+	uint32 uid = 13;
+	string online_id = 6;
 }

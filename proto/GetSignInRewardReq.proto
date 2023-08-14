@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2555
-// Obf: FNEBDDNALAP
+// CmdId: 25930
+// Obf: PBAPIOJOJFK
 message GetSignInRewardReq {
-	uint32 reward_day = 7;
-	uint32 schedule_id = 15;
+	uint32 schedule_id = 7;
+	uint32 reward_day = 2;
 }

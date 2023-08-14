@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 132
-// Obf: FGIIGEAAJGI
+// CmdId: 21803
+// Obf: JMEAMJOPKAD
 message DailyTaskFilterCityReq {
-	uint32 city_id = 8;
+	uint32 city_id = 14;
 }

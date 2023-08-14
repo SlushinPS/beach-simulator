@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3456
-// Obf: ALPHBKNIOPJ
+// CmdId: 3994
+// Obf: KEJHFACJGNI
 message LuaEnvironmentEffectNotify {
-	repeated float float_param_list = 12;
-	uint32 type = 14;
-	string effect_alias = 13;
-	repeated int32 int_param_list = 1;
+	string effect_alias = 5;
+	uint32 type = 10;
+	repeated int32 int_param_list = 11;
+	repeated float float_param_list = 3;
 }

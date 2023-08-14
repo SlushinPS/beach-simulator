@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4826
-// Obf: OJHBOIHODLL
+// CmdId: 27692
+// Obf: KNOGFPMPFGK
 message HomeModuleSeenReq {
-	repeated uint32 seen_module_id_list = 13;
+	repeated uint32 seen_module_id_list = 8;
 }

@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGMessage.proto";
-import "PEONGPLDDGK.proto";
-// Obf: MLKPIINGDEN
+import "DNLLNJDINJG.proto";
+// Obf: FLLBCOEFODJ
 message GCGMessagePack {
-	uint32 controller_id = 15;
-	repeated GCGMessage msg_list = 5;
-	PEONGPLDDGK action_type = 8;
-	uint32 IGCDCJEJMOF = 7;
+	uint32 controller_id = 6;
+	repeated GCGMessage msg_list = 13;
+	DNLLNJDINJG action_type = 4;
+	uint32 BJMHCKLMAHH = 9;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JHJEIKMHHHJ
+// Obf: NAAKMOEFMMI
 message FishingScore {
-	bool is_new_record = 11;
-	uint32 fishing_score = 8;
+	bool is_new_record = 13;
+	uint32 fishing_score = 11;
 }

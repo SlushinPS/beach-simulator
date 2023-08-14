@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8792
-// Obf: PAMJGNCPGFM
+// CmdId: 7922
+// Obf: GODGLNAOBHL
 message RogueSwitchAvatarRsp {
-	repeated uint64 backstage_avatar_guid_list = 1;
-	uint32 dungeon_id = 8;
-	uint32 cell_id = 9;
-	int32 retcode = 3;
+	uint64 cur_avatar_guid = 1;
+	int32 retcode = 9;
+	uint32 cell_id = 13;
+	repeated uint64 backstage_avatar_guid_list = 4;
+	uint32 dungeon_id = 11;
 	repeated uint64 onstage_avatar_guid_list = 15;
-	uint64 cur_avatar_guid = 7;
 }

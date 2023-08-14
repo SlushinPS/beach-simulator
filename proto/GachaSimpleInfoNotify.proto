@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1535
-// Obf: AFLNEIPPFCJ
+// CmdId: 25366
+// Obf: PINDMJICKID
 message GachaSimpleInfoNotify {
-	bool is_new = 5;
+	bool is_new = 8;
 }

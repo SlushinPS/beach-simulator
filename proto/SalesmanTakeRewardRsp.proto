@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2119
-// Obf: ABLDDCGLFCA
+// CmdId: 3724
+// Obf: NOOHGNDGLFB
 message SalesmanTakeRewardRsp {
+	uint32 schedule_id = 11;
+	uint32 position = 14;
+	int32 retcode = 12;
 	uint32 reward_id = 13;
-	int32 retcode = 15;
-	uint32 position = 9;
-	uint32 schedule_id = 8;
 }

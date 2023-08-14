@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "DailyTaskInfo.proto";
-// CmdId: 169
-// Obf: MECIJHANDBI
+// CmdId: 9896
+// Obf: LBMMGFMIMND
 message WorldOwnerDailyTaskNotify {
-	uint32 finished_daily_task_num = 5;
-	uint32 filter_city_id = 6;
-	repeated DailyTaskInfo task_list = 15;
+	uint32 PFDDEKLPFJL = 3;
+	uint32 PIOIDLPAJIN = 4;
+	repeated DailyTaskInfo task_list = 8;
 }

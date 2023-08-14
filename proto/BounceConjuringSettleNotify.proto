@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BounceConjuringGallerySettleInfo.proto";
-// CmdId: 8291
-// Obf: MLAFHDNKJEB
+// CmdId: 26223
+// Obf: JLBEGCIDNJD
 message BounceConjuringSettleNotify {
-	uint32 total_score = 15;
-	uint32 chapter_id = 5;
-	map<uint32, BounceConjuringGallerySettleInfo> settle_info_map = 11;
-	bool is_new_record = 3;
+	bool is_new_record = 8;
+	uint32 chapter_id = 6;
+	map<uint32, BounceConjuringGallerySettleInfo> settle_info_map = 4;
+	uint32 total_score = 14;
 }

@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AbilityInvokeEntry.proto";
-// CmdId: 1175
-// Obf: BPBEBFMHGNL
+// CmdId: 4864
+// Obf: OHCPCJBLDIN
 message AbilityInvocationFixedNotify {
-	AbilityInvokeEntry DLABNBJEFGF = 13;
-	AbilityInvokeEntry PIBKJHBGEHJ = 2;
-	AbilityInvokeEntry EINJCADCDFP = 12;
-	AbilityInvokeEntry DDLBMHEONMO = 11;
-	AbilityInvokeEntry KHNKKDJIDIF = 15;
-	AbilityInvokeEntry LGLHDKBGJDB = 3;
+	AbilityInvokeEntry GDJLCBBPFHF = 1;
+	AbilityInvokeEntry CMBLCNNPIKH = 12;
+	AbilityInvokeEntry OFJIPJDJDJF = 6;
+	AbilityInvokeEntry DDFBNNBICCH = 15;
+	AbilityInvokeEntry OEONLMEPEBK = 10;
+	AbilityInvokeEntry IGACLGPDICN = 7;
 }

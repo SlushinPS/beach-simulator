@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8506
-// Obf: LCIKELIFIJD
+// CmdId: 27441
+// Obf: AFHNDAIIEGE
 message ChannellerSlabLoopDungeonTakeFirstPassRewardRsp {
-	int32 retcode = 11;
-	uint32 dungeon_index = 5;
+	uint32 dungeon_index = 11;
+	int32 retcode = 14;
 }

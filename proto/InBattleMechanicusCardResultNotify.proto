@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "InBattleMechanicusCardInfo.proto";
-// CmdId: 5334
-// Obf: IHGGDCPCLJF
+// CmdId: 1024
+// Obf: PPNHJLCCCPN
 message InBattleMechanicusCardResultNotify {
-	uint64 wait_begin_time_us = 8;
-	repeated InBattleMechanicusCardInfo card_list = 13;
-	map<uint32, uint32> player_confirmed_card_map = 6;
+	uint64 wait_begin_time_us = 15;
 	uint32 play_index = 9;
-	uint32 group_id = 15;
-	uint32 wait_seconds = 10;
+	map<uint32, uint32> player_confirmed_card_map = 6;
+	uint32 wait_seconds = 4;
+	uint32 group_id = 10;
+	repeated InBattleMechanicusCardInfo card_list = 7;
 }

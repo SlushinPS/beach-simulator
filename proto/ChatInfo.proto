@@ -16,21 +16,21 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EEBBPLIOHON
+// Obf: KFPJAAEHBNB
 message ChatInfo {
-	// Obf: KGNCKLCKPLN
+	// Obf: LGDLFPKODMA
 	message SystemHint {
-		uint32 type = 13;
+		uint32 type = 15;
 	}
 	
-	uint32 time = 7;
-	uint32 to_uid = 6;
-	bool is_read = 4;
-	uint32 uid = 5;
-	uint32 sequence = 12;
+	uint32 to_uid = 10;
+	uint32 time = 13;
+	uint32 uid = 4;
 	oneof content {
-		string text = 408;
-		uint32 icon = 1308;
-		SystemHint system_hint = 166;
+		string text = 962;
+		uint32 icon = 1562;
+		SystemHint system_hint = 841;
 	}
+	bool is_read = 7;
+	uint32 sequence = 5;
 }

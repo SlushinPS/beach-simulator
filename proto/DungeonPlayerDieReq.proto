@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlayerDieType.proto";
-// CmdId: 994
-// Obf: JMLIFMDIDOM
+// CmdId: 3239
+// Obf: KLKMLEAJHNH
 message DungeonPlayerDieReq {
-	uint32 dungeon_id = 9;
-	PlayerDieType die_type = 7;
+	PlayerDieType die_type = 2;
+	uint32 dungeon_id = 1;
 }

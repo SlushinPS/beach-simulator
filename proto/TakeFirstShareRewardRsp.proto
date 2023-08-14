@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4046
-// Obf: INLMGJJKFKJ
+// CmdId: 7609
+// Obf: CPAIIAIOHBF
 message TakeFirstShareRewardRsp {
-	int32 retcode = 6;
+	int32 retcode = 14;
 }

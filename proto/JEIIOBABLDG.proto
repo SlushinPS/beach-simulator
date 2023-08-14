@@ -1,0 +1,38 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+// CmdId: 29971
+message JEIIOBABLDG {
+	enum GPNFPBAECHL {
+		MAHLBDMPLJA_PlayerJudge = 0;
+		MAHLBDMPLJA_PlayerEnterOptionRefuse = 1;
+		MAHLBDMPLJA_PlayerEnterOptionDirect = 2;
+		MAHLBDMPLJA_SystemJudge = 3;
+		MAHLBDMPLJA_HostInMatch = 4;
+		MAHLBDMPLJA_PsPlayerNotAcceptOthers = 5;
+		MAHLBDMPLJA_OpenStateNotOpen = 6;
+		MAHLBDMPLJA_HostInEditMode = 7;
+		MAHLBDMPLJA_PriorCheck = 8;
+		MAHLBDMPLJA_PlayerOffline = 9;
+	}
+	
+	uint32 target_uid = 1;
+	GPNFPBAECHL reason = 13;
+	string target_nickname = 15;
+	bool is_agreed = 4;
+}

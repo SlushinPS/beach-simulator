@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: CEOMNBFCDIO
+// Obf: NIPLDABFDEK
 message CataLogGlobalWatcherFinishedData {
-	uint32 catalog_type = 1;
-	repeated uint32 finished_global_watcher_list = 2;
+	uint32 catalog_type = 6;
+	repeated uint32 finished_global_watcher_list = 8;
 }

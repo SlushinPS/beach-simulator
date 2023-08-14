@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MIMMOJNHFCB
+// Obf: GCALEOBNFFH
 message EntityClientData {
 	uint32 wind_change_scene_time = 1;
 	float windmill_sync_angle = 2;

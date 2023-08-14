@@ -17,31 +17,31 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 1130
-// Obf: MOKHOJLFPPI
+// CmdId: 28351
+// Obf: HLBBDEJIMLI
 message WindSeedClientNotify {
-	// Obf: GEAHCBGKECM
+	// Obf: NEABCKDIKBA
 	message RefreshNotify {
-		uint32 refresh_num = 9;
+		uint32 refresh_num = 1;
 	}
 	
-	// Obf: JONENPANFIF
+	// Obf: FENMFHPLEIM
 	message AddWindBulletNotify {
-		Vector seed_pos = 3;
-		uint32 FCPFBPBHHLA = 15;
-		uint32 LFGEDEIMJNM = 13;
+		Vector seed_pos = 8;
+		uint32 AACKLENGCOO = 5;
+		uint32 AAJBMHIIPBP = 9;
 	}
 	
-	// Obf: GPMJILMANBH
+	// Obf: IKBNJENCHHH
 	message AreaNotify {
-		uint32 area_type = 15;
-		bytes area_code = 1;
-		uint32 area_id = 6;
+		uint32 area_id = 10;
+		uint32 area_type = 6;
+		bytes area_code = 5;
 	}
 	
 	oneof notify {
 		RefreshNotify refresh_notify = 2;
-		AddWindBulletNotify add_wind_bullet_notify = 3;
-		AreaNotify area_notify = 11;
+		AddWindBulletNotify add_wind_bullet_notify = 11;
+		AreaNotify area_notify = 14;
 	}
 }

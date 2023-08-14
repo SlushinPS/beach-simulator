@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20785
-// Obf: APACBDJEDCB
+// CmdId: 9782
+// Obf: FGMKPEIMFDD
 message LanV3RaceRestartReq {
-	uint32 gallery_id = 12;
+	uint32 gallery_id = 6;
 }

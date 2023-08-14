@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8077
-// Obf: DJILBHHLGAB
+// CmdId: 7220
+// Obf: PFIGBGCGBEB
 message RogueHealAvatarsReq {
-	uint32 cell_id = 9;
-	uint32 dungeon_id = 3;
+	uint32 cell_id = 2;
+	uint32 dungeon_id = 4;
 }

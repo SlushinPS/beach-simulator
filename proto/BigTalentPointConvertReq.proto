@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1055
-// Obf: MNCGEGPGLJE
+// CmdId: 23728
+// Obf: ILIIEMMFOAM
 message BigTalentPointConvertReq {
-	repeated uint64 item_guid_list = 12;
-	uint64 avatar_guid = 11;
+	repeated uint64 item_guid_list = 13;
+	uint64 avatar_guid = 1;
 }

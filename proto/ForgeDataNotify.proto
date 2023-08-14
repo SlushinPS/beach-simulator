@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ForgeQueueData.proto";
-// CmdId: 689
-// Obf: IFHDGBMDPEO
+// CmdId: 6813
+// Obf: BFIGHNIEAFO
 message ForgeDataNotify {
-	map<uint32, ForgeQueueData> forge_queue_map = 8;
-	repeated uint32 forge_id_list = 9;
-	uint32 max_queue_num = 1;
+	map<uint32, ForgeQueueData> forge_queue_map = 7;
+	uint32 max_queue_num = 9;
+	repeated uint32 forge_id_list = 4;
 }

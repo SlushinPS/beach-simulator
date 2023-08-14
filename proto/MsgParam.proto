@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: AKEGINNLLAP
+// Obf: PAAMEAIJADP
 message MsgParam {
 	oneof param {
-		uint32 int_param = 2;
-		float flt_param = 3;
-		string str_param = 12;
+		uint32 int_param = 8;
+		float flt_param = 15;
+		string str_param = 1;
 	}
 }

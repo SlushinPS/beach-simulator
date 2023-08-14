@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ANHIGENPEPA
+// Obf: EGNPAEHGJIF
 message MoonfinTrialLevelInfo {
-	uint32 open_time = 3;
-	uint32 best_record = 14;
+	uint32 best_record = 7;
+	uint32 open_time = 2;
 }

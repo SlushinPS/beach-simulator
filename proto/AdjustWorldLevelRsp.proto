@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 199
-// Obf: HPEBBOOPPOH
+// CmdId: 29945
+// Obf: IDFOMBDLFNJ
 message AdjustWorldLevelRsp {
-	int32 retcode = 10;
 	uint32 cd_over_time = 3;
-	uint32 after_world_level = 13;
+	uint32 after_world_level = 15;
+	int32 retcode = 6;
 }

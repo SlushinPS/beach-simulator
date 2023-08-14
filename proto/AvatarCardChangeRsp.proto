@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 605
-// Obf: CJNKHMPALFK
+// CmdId: 3627
+// Obf: JELOODBAPJB
 message AvatarCardChangeRsp {
-	int32 retcode = 12;
+	int32 retcode = 14;
 }

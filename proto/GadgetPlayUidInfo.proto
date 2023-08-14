@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// Obf: IOGPELBDBOE
+// Obf: KCMFIJJFEBB
 message GadgetPlayUidInfo {
-	ProfilePicture profile_picture = 6;
-	string online_id = 9;
-	uint32 uid = 12;
-	uint32 battle_watcher_id = 7;
-	string nickname = 5;
-	uint32 icon = 15;
-	uint32 score = 1;
+	ProfilePicture profile_picture = 1;
+	uint32 uid = 11;
+	uint32 score = 15;
+	string nickname = 2;
+	string online_id = 14;
+	uint32 battle_watcher_id = 12;
+	uint32 icon = 8;
 }

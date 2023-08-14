@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JOLBKGJKDDN
+// Obf: GKCILFACLDH
 message ItemParam {
 	uint32 item_id = 1;
 	uint32 count = 2;

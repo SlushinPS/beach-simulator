@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1810
-// Obf: MGOJCHIJEKM
+// CmdId: 7309
+// Obf: OKHLIINAOCP
 message MpPlayOwnerStartInviteReq {
-	uint32 mp_play_id = 13;
 	bool is_skip_match = 8;
+	uint32 mp_play_id = 3;
 }

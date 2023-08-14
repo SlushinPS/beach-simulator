@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5448
-// Obf: MDJEKMALCPP
+// CmdId: 2082
+// Obf: FAGAEMNKFEE
 message DraftGuestReplyInviteReq {
-	uint32 draft_id = 14;
-	bool is_agree = 7;
+	bool is_agree = 8;
+	uint32 draft_id = 5;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CustomGadgetTreeInfo.proto";
-// CmdId: 8621
-// Obf: JMFEFNENDAN
+// CmdId: 3931
+// Obf: GBOKDBEHDLN
 message IrodoriEditFlowerCombinationReq {
 	CustomGadgetTreeInfo combination_info = 14;
-	uint32 entity_id = 7;
+	uint32 entity_id = 11;
 }

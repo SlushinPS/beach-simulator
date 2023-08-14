@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "LuaShellType.proto";
-// CmdId: 115
-// Obf: LPFCBHBJBLP
+// CmdId: 29883
+// Obf: BGBMONILFCK
 message PlayerLuaShellNotify {
-	bytes lua_shell = 7;
-	LuaShellType shell_type = 13;
-	uint32 id = 4;
-	uint32 use_type = 10;
+	uint32 id = 10;
+	bytes lua_shell = 14;
+	uint32 use_type = 13;
+	LuaShellType shell_type = 9;
 }

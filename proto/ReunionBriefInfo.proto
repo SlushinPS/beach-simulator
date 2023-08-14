@@ -16,21 +16,21 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
+import "PEKMJNLFFEE.proto";
 import "ReunionPrivilegeInfo.proto";
-import "LNCJHILJOBA.proto";
-// Obf: BEMBBGJJLHH
+// Obf: PLPECNHEMCO
 message ReunionBriefInfo {
-	uint32 first_day_start_time = 9;
-	uint32 finish_time = 15;
-	uint32 start_time = 14;
-	bool PHFGHHKNPCJ = 4;
-	uint32 sign_in_config_id = 2;
-	ReunionPrivilegeInfo privilege_info = 7;
-	uint32 OCNMNFKHAEH = 8;
-	string version = 10;
-	repeated LNCJHILJOBA HJNFOKADAEN = 6;
-	uint32 privilege_id = 3;
-	bool CJKNNLMFNAH = 5;
-	uint32 mission_id = 11;
-	bool JFFIEEJGKBG = 13;
+	uint32 start_time = 1;
+	uint32 sign_in_config_id = 6;
+	uint32 OGDAOPBFBKM = 12;
+	bool PBKEBOEICMN = 14;
+	repeated PEKMJNLFFEE NMAEOONHPIJ = 15;
+	uint32 mission_id = 8;
+	uint32 first_day_start_time = 2;
+	uint32 privilege_id = 11;
+	string version = 7;
+	bool CJMFAOILNFB = 4;
+	ReunionPrivilegeInfo privilege_info = 9;
+	uint32 finish_time = 13;
+	bool KKDLAEGCONN = 5;
 }

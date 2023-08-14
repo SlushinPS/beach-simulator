@@ -17,16 +17,17 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 698
-// Obf: BKHCHIAKGAO
+// CmdId: 27346
+// Obf: FPLEFMOIOGE
 message CombineRsp {
-	uint32 combine_id = 3;
-	uint64 avatar_guid = 9;
-	uint32 combine_count = 7;
-	repeated ItemParam totalExtraItemList = 10;
-	repeated ItemParam cost_item_list = 1;
-	repeated ItemParam result_item_list = 11;
-	int32 retcode = 13;
-	repeated ItemParam totalRandomItemList = 4;
-	repeated ItemParam total_return_item_list = 8;
+	uint32 combine_id = 7;
+	uint32 combine_count = 3;
+	repeated ItemParam FDFCGJGJDPP = 13;
+	repeated ItemParam AJDGGDPILBD = 15;
+	repeated ItemParam AABDGFADCIJ = 11;
+	repeated ItemParam GFKKOPJFFLM = 10;
+	uint64 avatar_guid = 5;
+	int32 retcode = 6;
+	repeated ItemParam GAEEJPPNJDD = 8;
+	repeated ItemParam cost_item_list = 4;
 }

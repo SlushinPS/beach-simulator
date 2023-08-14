@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24774
-// Obf: NDJNCJJLLNI
+// CmdId: 25633
+// Obf: PDIJEFMDCDK
 message InstableSpraySwitchTeamRsp {
-	uint32 level_id = 9;
-	int32 retcode = 6;
+	uint32 level_id = 3;
+	int32 retcode = 7;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2631
-// Obf: JNGHDEIDOPE
+// CmdId: 20824
+// Obf: FJCCKDGCFBC
 message BuyBattlePassLevelReq {
-	uint32 buy_level = 13;
+	uint32 buy_level = 8;
 }

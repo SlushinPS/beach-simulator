@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2143
-// Obf: PCNDMAPPDAO
+// CmdId: 7340
+// Obf: DMOMEJPEGMC
 message BlessingAcceptAllGivePicRsp {
-	map<uint32, uint32> accept_pic_num_map = 1;
-	repeated uint32 accept_index_list = 11;
+	map<uint32, uint32> accept_pic_num_map = 15;
 	int32 retcode = 13;
+	repeated uint32 accept_index_list = 9;
 }

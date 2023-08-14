@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: PPAEHFBIOPF
+// Obf: JBHLMPKGLAM
 message GCGWeekChallengeInfo {
-	bool is_finished = 12;
-	uint32 EEGOAOGENLD = 5;
-	uint32 npc_id = 1;
+	uint32 JBCNJCHOJPF = 1;
+	bool is_finished = 10;
+	uint32 npc_id = 4;
 }

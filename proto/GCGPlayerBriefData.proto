@@ -17,14 +17,14 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// Obf: HPPFPGJGIPI
+// Obf: BNFKPMOOAEG
 message GCGPlayerBriefData {
-	string nick_name = 11;
-	ProfilePicture profile_picture = 7;
-	uint32 uid = 10;
-	repeated uint32 card_id_list = 4;
-	uint32 controller_id = 13;
-	map<uint32, uint32> card_face_map = 14;
-	string psn_id = 9;
-	string online_id = 5;
+	string nick_name = 6;
+	string online_id = 8;
+	uint32 uid = 2;
+	ProfilePicture profile_picture = 11;
+	repeated uint32 card_id_list = 10;
+	map<uint32, uint32> card_face_map = 1;
+	string psn_id = 14;
+	uint32 controller_id = 9;
 }

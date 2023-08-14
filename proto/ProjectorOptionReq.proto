@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 836
-// Obf: HLMNMEGJJAO
+// CmdId: 5441
+// Obf: HENBPBCCNHC
 message ProjectorOptionReq {
-	enum OPFNDCJBDLI {
+	enum NFEFIEJPDGO {
 		DOENKMNEPFO_PROJECTOR_OP_NONE = 0;
 		DOENKMNEPFO_PROJECTOR_OP_CREATE = 1;
 		DOENKMNEPFO_PROJECTOR_OP_DESTROY = 2;
 	}
 	
-	uint32 op_type = 5;
-	uint32 entity_id = 1;
+	uint32 entity_id = 5;
+	uint32 op_type = 15;
 }

@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LHIJIPANODC
+// Obf: DGLHDGCPEHF
 message RogueDiaryDungeonRecord {
-	uint32 difficulty = 3;
-	bool is_finish = 5;
-	uint32 max_round = 6;
-	uint32 finish_time = 15;
+	uint32 max_round = 1;
+	uint32 finish_time = 7;
+	bool is_finish = 14;
+	uint32 difficulty = 12;
 }

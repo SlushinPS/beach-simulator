@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MatchReason.proto";
-// CmdId: 4151
-// Obf: ALIFIGEGJLI
+// CmdId: 2964
+// Obf: NCIKOCGPPHC
 message PlayerGeneralMatchDismissNotify {
-	repeated uint32 uid_list = 14;
-	MatchReason reason = 4;
-	uint32 match_id = 15;
+	repeated uint32 uid_list = 5;
+	MatchReason reason = 8;
+	uint32 match_id = 2;
 }

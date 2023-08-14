@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ScenePlayBattleInfo.proto";
-// CmdId: 4425
-// Obf: KLKEPFDIFIC
+// CmdId: 1543
+// Obf: PHJNPOAHJEM
 message ScenePlayBattleInfoNotify {
-	ScenePlayBattleInfo battle_info = 13;
+	ScenePlayBattleInfo battle_info = 11;
 }

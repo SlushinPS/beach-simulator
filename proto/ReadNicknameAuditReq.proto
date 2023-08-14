@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 152
-// Obf: OKCMDAIBGNO
+// CmdId: 8131
+// Obf: APEFFPOJEKC
 message ReadNicknameAuditReq {
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8904
-// Obf: MEDKLJJEOKG
+// CmdId: 874
+// Obf: PJJOKGGAIOF
 message GachaActivityPercentNotify {
-	uint32 GIKCLDNNKBH = 13;
-	uint32 BMAOMMKFOII = 7;
-	uint32 CCNPDBCOPFG = 3;
-	map<uint32, uint32> target_num_map = 14;
+	uint32 DIMKFIMFNIM = 5;
+	uint32 DCKLFGBOPLF = 14;
+	uint32 DMONCCEBHPB = 4;
+	map<uint32, uint32> target_num_map = 3;
 }

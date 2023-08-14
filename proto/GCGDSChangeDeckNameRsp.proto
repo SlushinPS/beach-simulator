@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7411
-// Obf: FDLEMHPMKCF
+// CmdId: 4254
+// Obf: EPBOHPDPFOO
 message GCGDSChangeDeckNameRsp {
-	bool KDLBHMGIHBA = 12;
-	int32 retcode = 5;
-	uint32 deck_id = 3;
-	string name = 7;
+	bool GJJGJOMABDO = 13;
+	uint32 deck_id = 2;
+	int32 retcode = 3;
+	string name = 12;
 }

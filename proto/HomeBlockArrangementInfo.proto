@@ -16,28 +16,28 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "HomeFurnitureSuiteData.proto";
-import "HomeFurnitureData.proto";
-import "HomeBlockFieldData.proto";
-import "HomeAnimalData.proto";
-import "WeekendDjinnInfo.proto";
 import "HomeBlockDotPattern.proto";
+import "HomeFurnitureData.proto";
+import "HomeFurnitureSuiteData.proto";
 import "HomeFurnitureCustomSuiteData.proto";
-import "HomeNpcData.proto";
 import "HomeFurnitureGroupData.proto";
-// Obf: NJLAEMBOJCO
+import "HomeAnimalData.proto";
+import "HomeBlockFieldData.proto";
+import "HomeNpcData.proto";
+import "WeekendDjinnInfo.proto";
+// Obf: KOODNOKODIG
 message HomeBlockArrangementInfo {
-	uint32 comfort_value = 8;
-	repeated HomeFurnitureSuiteData furniture_suite_list = 10;
-	uint32 block_id = 15;
-	repeated HomeFurnitureData persistentFurnitureList = 6;
-	repeated HomeFurnitureData deployFurniureList = 11;
-	repeated HomeBlockFieldData field_list = 3;
-	repeated HomeAnimalData deploy_animal_list = 1;
-	bool is_unlocked = 12;
-	repeated WeekendDjinnInfo weekend_djinn_info_list = 9;
-	repeated HomeBlockDotPattern dot_pattern_list = 7;
-	repeated HomeFurnitureCustomSuiteData furniture_custom_suite_list = 4;
-	repeated HomeNpcData deploy_npc_list = 2;
-	repeated HomeFurnitureGroupData furniture_group_list = 5;
+	repeated HomeBlockDotPattern dot_pattern_list = 1;
+	repeated HomeFurnitureData BEBDBMPNNLE = 12;
+	repeated HomeFurnitureSuiteData furniture_suite_list = 14;
+	repeated HomeFurnitureCustomSuiteData furniture_custom_suite_list = 2;
+	uint32 block_id = 8;
+	repeated HomeFurnitureGroupData furniture_group_list = 4;
+	repeated HomeAnimalData deploy_animal_list = 15;
+	repeated HomeBlockFieldData field_list = 11;
+	uint32 comfort_value = 13;
+	repeated HomeFurnitureData CGNFDNDHLGL = 10;
+	repeated HomeNpcData deploy_npc_list = 9;
+	bool is_unlocked = 6;
+	repeated WeekendDjinnInfo weekend_djinn_info_list = 3;
 }

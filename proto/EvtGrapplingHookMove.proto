@@ -17,15 +17,15 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: IBHMAGDNHPL
+// Obf: KOEBOEKINMF
 message EvtGrapplingHookMove {
-	Vector target_pos = 5;
-	float FAHMFGGPNMA = 11;
-	float speed = 1;
-	repeated uint32 animator_state_id_list = 12;
-	bool EKKDNPEOCCJ = 2;
-	bool HJFFLLFHBKH = 8;
-	float FJPFLDIBPCN = 7;
-	string override_collider = 3;
-	uint32 entity_id = 14;
+	string override_collider = 4;
+	repeated uint32 animator_state_id_list = 6;
+	float speed = 14;
+	float CHLPMJKKOHB = 3;
+	Vector target_pos = 10;
+	float OJNIOEOFFOI = 15;
+	bool CEIIFCMKJJC = 7;
+	bool IFFPKMEPDMA = 12;
+	uint32 entity_id = 1;
 }

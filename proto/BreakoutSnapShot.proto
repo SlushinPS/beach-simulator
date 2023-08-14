@@ -21,7 +21,7 @@ import "BreakoutAction.proto";
 import "BreakoutSpawnPoint.proto";
 import "BreakoutElementReactionCounter.proto";
 import "BreakoutSyncConnectUidInfo.proto";
-// Obf: DHLCLOHBMIO
+// Obf: OLKOKCBEABM
 message BreakoutSnapShot {
 	uint64 client_game_time = 1;
 	uint64 server_game_time = 2;

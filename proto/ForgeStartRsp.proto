@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 611
-// Obf: DFGJKMJHMFG
+// CmdId: 24460
+// Obf: AAPABLBKOGM
 message ForgeStartRsp {
-	int32 retcode = 6;
+	int32 retcode = 10;
 }

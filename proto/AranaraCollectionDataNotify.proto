@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AranaraCollectionSuite.proto";
-// CmdId: 6378
-// Obf: EMOMOFJBBCP
+// CmdId: 21685
+// Obf: HCNPIEGFIGJ
 message AranaraCollectionDataNotify {
-	repeated AranaraCollectionSuite collection_suite_list = 13;
+	repeated AranaraCollectionSuite collection_suite_list = 2;
 }

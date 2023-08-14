@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8620
-// Obf: CGLBNIHCHCG
+// CmdId: 26271
+// Obf: KAHODAHFAJB
 message IrodoriEditFlowerCombinationRsp {
-	bool HKJABNODJMO = 3;
-	int32 retcode = 9;
-	bool EJIEJONDCCP = 13;
+	bool ODLPBHCGNJL = 15;
+	int32 retcode = 11;
+	bool MBDLGCECEIG = 1;
 }

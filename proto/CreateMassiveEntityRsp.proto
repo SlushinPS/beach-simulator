@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 341
-// Obf: NOEADFGHPAC
+// CmdId: 20637
+// Obf: AJJNIEABIAH
 message CreateMassiveEntityRsp {
-	int32 retcode = 9;
+	int32 retcode = 15;
 }

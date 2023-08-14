@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BreakoutAction.proto";
-// Obf: ECCMFFEGGHB
+// Obf: OEHCGNEIHCP
 message BreakoutSyncAction {
-	BreakoutAction action = 14;
+	BreakoutAction action = 10;
 }

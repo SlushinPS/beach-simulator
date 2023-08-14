@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8086
-// Obf: LIFEJICOEAI
+// CmdId: 24250
+// Obf: BCCHDDFBJOK
 message PlantFlowerSetFlowerWishRsp {
-	int32 retcode = 9;
-	uint32 schedule_id = 3;
+	uint32 schedule_id = 2;
+	int32 retcode = 4;
 }

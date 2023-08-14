@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EAGOACENHEI
+// Obf: PCGCBLHFCEC
 message WidgetThunderBirdFeatherInfo {
-	repeated uint32 entity_id_list = 15;
+	repeated uint32 entity_id_list = 9;
 }

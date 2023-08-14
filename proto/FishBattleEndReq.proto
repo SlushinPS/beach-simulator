@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FishBattleResult.proto";
-// CmdId: 5801
-// Obf: ANHKGPOJDEF
+// CmdId: 22572
+// Obf: CLOMLLEBGPB
 message FishBattleEndReq {
-	uint32 max_bonus_time = 12;
-	FishBattleResult battle_result = 9;
-	bool is_always_bonus = 10;
+	FishBattleResult battle_result = 2;
+	bool is_always_bonus = 3;
+	uint32 max_bonus_time = 1;
 }

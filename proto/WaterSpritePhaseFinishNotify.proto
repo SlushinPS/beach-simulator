@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2016
-// Obf: JNDHKGFAPJI
+// CmdId: 22107
+// Obf: GDGFKLEKPHP
 message WaterSpritePhaseFinishNotify {
 }

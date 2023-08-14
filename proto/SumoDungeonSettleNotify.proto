@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8606
-// Obf: CPECFKJCBMD
+// CmdId: 23188
+// Obf: JECFBMFHIPG
 message SumoDungeonSettleNotify {
-	uint32 DNKNMEGHIIJ = 10;
-	uint32 difficulty_id = 13;
-	bool is_new_record = 11;
-	uint32 stage_id = 1;
-	uint32 final_score = 3;
-	uint32 HBMBMJPFLCP = 9;
+	uint32 difficulty_id = 2;
+	uint32 DEJJPIOCJDD = 15;
+	uint32 final_score = 10;
+	uint32 KDPNBLFJKND = 4;
+	bool is_new_record = 14;
+	uint32 stage_id = 9;
 }

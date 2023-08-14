@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 216
-// Obf: PMGHPLODEOP
+// CmdId: 22064
+// Obf: ECDCICGGBDA
 message EnterTransPointRegionNotify {
-	uint32 point_id = 6;
-	uint32 scene_id = 5;
+	uint32 point_id = 5;
+	uint32 scene_id = 12;
 }

@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeCustomFurnitureInfo.proto";
-// CmdId: 4603
-// Obf: CNGCFPJKOJB
+// CmdId: 7355
+// Obf: CJIKNHKLFEB
 message HomeCustomFurnitureInfoNotify {
-	map<uint32, uint32> used_sub_furniture_count_map = 15;
-	repeated uint32 delete_custom_furniture_list = 12;
-	repeated HomeCustomFurnitureInfo custom_furniture_info_list = 1;
+	repeated uint32 delete_custom_furniture_list = 8;
+	repeated HomeCustomFurnitureInfo custom_furniture_info_list = 12;
+	map<uint32, uint32> used_sub_furniture_count_map = 10;
 }

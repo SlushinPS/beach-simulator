@@ -19,14 +19,14 @@ option java_package = "emu.grasscutter.net.proto";
 import "InBattleMechanicusSettleInfo.proto";
 import "InBattleChessSettleInfo.proto";
 import "InBattleIrodoriChessSettleInfo.proto";
-// CmdId: 5308
-// Obf: AOCBAJLHDMN
+// CmdId: 24122
+// Obf: LIKLBBAAGEP
 message MultistagePlaySettleNotify {
-	uint32 play_index = 1;
-	uint32 group_id = 4;
+	uint32 group_id = 3;
+	uint32 play_index = 2;
 	oneof detail {
-		InBattleMechanicusSettleInfo mechanicus_settle_info = 2025;
-		InBattleChessSettleInfo chess_settle_info = 934;
-		InBattleIrodoriChessSettleInfo irodori_chess_settle_info = 1372;
+		InBattleMechanicusSettleInfo mechanicus_settle_info = 1871;
+		InBattleChessSettleInfo chess_settle_info = 1956;
+		InBattleIrodoriChessSettleInfo irodori_chess_settle_info = 1026;
 	}
 }

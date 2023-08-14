@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: BDIKBENAFPG
+// Obf: AOMHKNOLLMO
 message PhotoPosData {
-	bool is_open = 5;
-	Vector center = 6;
-	bool is_view = 10;
-	uint32 pos_id = 15;
-	uint32 open_time = 14;
+	bool is_open = 11;
+	bool is_view = 9;
+	uint32 open_time = 2;
+	Vector center = 15;
+	uint32 pos_id = 4;
 }

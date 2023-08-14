@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2111
-// Obf: BHBNNEDNMOG
+// CmdId: 2165
+// Obf: PJMLLMMGELO
 message ActivityTakeWatcherRewardRsp {
-	int32 retcode = 6;
-	uint32 activity_id = 8;
-	uint32 watcher_id = 3;
+	uint32 watcher_id = 2;
+	int32 retcode = 13;
+	uint32 activity_id = 9;
 }

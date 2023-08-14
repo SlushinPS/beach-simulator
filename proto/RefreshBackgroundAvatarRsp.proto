@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1657
-// Obf: LKDCCAAPAMM
+// CmdId: 5063
+// Obf: CPFLBJCFPNF
 message RefreshBackgroundAvatarRsp {
-	map<uint64, uint32> hp_full_time_map = 1;
-	int32 retcode = 3;
+	int32 retcode = 15;
+	map<uint64, uint32> hp_full_time_map = 10;
 }

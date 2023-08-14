@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BHBOJFOBDPL
+// Obf: MLDLDNBOCAG
 message ResinCardData {
-	uint32 config_id = 4;
-	uint32 expire_time = 6;
-	uint32 GAOEKIGIGBP = 10;
-	uint32 remain_reward_days = 7;
+	uint32 expire_time = 4;
+	uint32 last_daily_reward_time = 7;
+	uint32 config_id = 6;
+	uint32 remain_reward_days = 9;
 }

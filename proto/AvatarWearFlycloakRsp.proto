@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1733
-// Obf: GMOAIAOMOGM
+// CmdId: 21633
+// Obf: BCLNBCGCHKJ
 message AvatarWearFlycloakRsp {
-	uint64 avatar_guid = 14;
-	int32 retcode = 9;
-	uint32 flycloak_id = 8;
+	int32 retcode = 10;
+	uint32 flycloak_id = 6;
+	uint64 avatar_guid = 3;
 }

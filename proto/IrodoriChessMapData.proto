@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "IrodoriChessEntranceDetailInfo.proto";
-// Obf: DAMDDJCAMKK
+// Obf: PEIPGGHAIMI
 message IrodoriChessMapData {
-	uint32 map_id = 11;
-	IrodoriChessEntranceDetailInfo entrance_detail_info = 7;
-	repeated uint32 equiped_card_list = 5;
-	uint32 best_score = 2;
+	uint32 best_score = 4;
+	repeated uint32 equiped_card_list = 11;
+	IrodoriChessEntranceDetailInfo entrance_detail_info = 2;
+	uint32 map_id = 1;
 }

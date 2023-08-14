@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PropValue.proto";
-// CmdId: 164
-// Obf: GONAPELADMF
+// CmdId: 7058
+// Obf: LFMCGGCLACB
 message PlayerPropNotify {
-	map<uint32, PropValue> prop_map = 8;
+	map<uint32, PropValue> prop_map = 14;
 }

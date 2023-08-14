@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 468
-// Obf: GFFPGFDCBIK
+// CmdId: 1753
+// Obf: OEEFAJLMMNF
 message QuestUpdateQuestVarNotify {
-	repeated int32 quest_var = 15;
-	uint32 parent_quest_id = 14;
-	uint32 parent_quest_var_seq = 3;
+	uint32 parent_quest_id = 3;
+	repeated int32 quest_var = 6;
+	uint32 parent_quest_var_seq = 9;
 }

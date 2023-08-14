@@ -18,11 +18,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomePlantSubFieldData.proto";
 import "Vector.proto";
-// Obf: APNHPMCHKJE
+// Obf: KMACEBKKPGM
 message HomePlantFieldData {
-	repeated HomePlantSubFieldData sub_field_list = 14;
-	uint32 field_guid = 10;
-	uint32 scene_id = 1;
-	Vector spawn_pos = 11;
-	uint32 furniture_id = 6;
+	uint32 field_guid = 8;
+	uint32 furniture_id = 14;
+	repeated HomePlantSubFieldData sub_field_list = 4;
+	Vector spawn_pos = 13;
+	uint32 scene_id = 15;
 }

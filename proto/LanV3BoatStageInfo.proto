@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HDIMLANJONI
+// Obf: OAMHCEMBNAA
 message LanV3BoatStageInfo {
-	repeated uint32 player_uid_list = 14;
-	bool is_single = 5;
-	uint32 map_id = 13;
-	uint32 match_id = 4;
+	uint32 match_id = 15;
+	repeated uint32 player_uid_list = 11;
+	uint32 map_id = 4;
+	bool is_single = 9;
 }

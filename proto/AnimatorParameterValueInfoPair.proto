@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AnimatorParameterValueInfo.proto";
-// Obf: HDPEDMCMNHN
+// Obf: CABIAHBAEHD
 message AnimatorParameterValueInfoPair {
 	int32 name_id = 1;
 	AnimatorParameterValueInfo animator_para = 2;

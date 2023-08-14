@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8297
-// Obf: CEGGELHPLKG
+// CmdId: 24688
+// Obf: ANEAJLBCHDG
 message EchoShellUpdateNotify {
-	uint32 shell_id = 4;
+	uint32 shell_id = 7;
 }

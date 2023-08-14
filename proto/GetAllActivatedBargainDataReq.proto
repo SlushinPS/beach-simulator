@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 436
-// Obf: AFPHNMAHMIG
+// CmdId: 22200
+// Obf: KGMCPOKKAIL
 message GetAllActivatedBargainDataReq {
 }

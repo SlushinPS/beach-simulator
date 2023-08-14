@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6135
-// Obf: GCGBBDICFEC
+// CmdId: 6197
+// Obf: MJDKDKCBFOF
 message ToTheMoonRemoveObstacleReq {
-	int32 handle = 2;
-	int32 query_id = 13;
-	uint32 scene_id = 9;
+	int32 query_id = 1;
+	uint32 scene_id = 14;
+	int32 handle = 3;
 }

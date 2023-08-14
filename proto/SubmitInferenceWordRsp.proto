@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 474
-// Obf: LMDBDNCJCIG
+// CmdId: 3679
+// Obf: OKILIGKEGJM
 message SubmitInferenceWordRsp {
-	uint32 word_id = 5;
-	uint32 conclusion_id = 3;
-	uint32 page_id = 1;
-	int32 retcode = 10;
+	int32 retcode = 2;
+	uint32 conclusion_id = 15;
+	uint32 page_id = 11;
+	uint32 word_id = 8;
 }

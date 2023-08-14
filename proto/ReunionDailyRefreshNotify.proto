@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ReunionBriefInfo.proto";
-// CmdId: 5088
-// Obf: DBHIKKMABNM
+// CmdId: 505
+// Obf: BFKFMPLPOAG
 message ReunionDailyRefreshNotify {
-	ReunionBriefInfo reunion_brief_info = 5;
+	ReunionBriefInfo reunion_brief_info = 7;
 }

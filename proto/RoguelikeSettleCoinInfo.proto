@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KFPDFBOIMFC
+// Obf: BEJIBAAEBGJ
 message RoguelikeSettleCoinInfo {
-	uint32 OHCKIMGAALC = 11;
-	uint32 LJIOMIABKJC = 8;
-	uint32 LCGJJIKGFKK = 1;
+	uint32 FEHAAKFFENC = 13;
+	uint32 FMABDGMGDAM = 3;
+	uint32 JKGKCICKAKD = 8;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AvatarRenameInfo.proto";
-// CmdId: 1730
-// Obf: OCMOBFMMGOO
+// CmdId: 26468
+// Obf: MEDFBIJCAGF
 message AvatarRenameInfoNotify {
-	repeated AvatarRenameInfo avatar_rename_list = 10;
+	repeated AvatarRenameInfo avatar_rename_list = 8;
 }

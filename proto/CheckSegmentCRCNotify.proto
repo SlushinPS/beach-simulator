@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SegmentInfo.proto";
-// CmdId: 88
-// Obf: FEKKMMKAEEM
+// CmdId: 2228
+// Obf: HHDCDJFCNJG
 message CheckSegmentCRCNotify {
-	repeated SegmentInfo info_list = 2;
+	repeated SegmentInfo info_list = 15;
 }

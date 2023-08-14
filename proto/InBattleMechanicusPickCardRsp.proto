@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5387
-// Obf: NCNAMKCLMCD
+// CmdId: 22789
+// Obf: GLGPEGAIBDE
 message InBattleMechanicusPickCardRsp {
-	uint32 group_id = 14;
-	uint32 play_index = 13;
-	uint32 card_id = 15;
-	int32 retcode = 1;
+	uint32 play_index = 5;
+	uint32 group_id = 6;
+	uint32 card_id = 14;
+	int32 retcode = 10;
 }

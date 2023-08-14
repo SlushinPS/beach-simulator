@@ -16,28 +16,28 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
+import "SceneEntityInfo.proto";
 import "AbilitySyncStateInfo.proto";
 import "ServerBuff.proto";
-import "SceneEntityInfo.proto";
-import "SceneAvatarInfo.proto";
-import "AbilityControlBlock.proto";
 import "AvatarInfo.proto";
-// Obf: GHFNMPHGENH
+import "AbilityControlBlock.proto";
+import "SceneAvatarInfo.proto";
+// Obf: EOCBJIPDPMB
 message SceneTeamAvatar {
-	uint32 weapon_entity_id = 5;
-	AbilitySyncStateInfo avatar_ability_info = 2;
-	AbilitySyncStateInfo weapon_ability_info = 7;
-	uint64 avatar_guid = 14;
-	bool is_on_scene = 9;
-	repeated ServerBuff server_buff_list = 1;
-	SceneEntityInfo scene_entity_info = 3;
-	SceneAvatarInfo scene_avatar_info = 8;
-	AbilityControlBlock ability_control_block = 15;
-	uint32 scene_id = 4;
-	uint32 player_uid = 12;
-	bool is_player_cur_avatar = 1077;
-	AvatarInfo avatar_info = 11;
-	uint64 weapon_guid = 10;
-	bool is_reconnect = 6;
-	uint32 entity_id = 13;
+	SceneEntityInfo scene_entity_info = 4;
+	uint32 weapon_entity_id = 8;
+	uint32 player_uid = 3;
+	bool GNPKDDJADKH = 15;
+	AbilitySyncStateInfo weapon_ability_info = 11;
+	repeated ServerBuff server_buff_list = 10;
+	AbilitySyncStateInfo avatar_ability_info = 7;
+	uint64 weapon_guid = 5;
+	AvatarInfo avatar_info = 6;
+	uint32 entity_id = 9;
+	uint64 avatar_guid = 12;
+	AbilityControlBlock ability_control_block = 1;
+	uint32 scene_id = 2;
+	SceneAvatarInfo scene_avatar_info = 14;
+	bool NIFBCGDKCNF = 1765;
+	bool BJHAOMGBCLC = 13;
 }

@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2607
-// Obf: CKIKOLEHENE
+// CmdId: 9060
+// Obf: KBDNDEDCINE
 message TakeBattlePassMissionPointRsp {
-	repeated uint32 mission_id_list = 1;
-	int32 retcode = 3;
+	int32 retcode = 8;
+	repeated uint32 mission_id_list = 3;
 }

@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CustomGadgetTreeInfo.proto";
-// CmdId: 807
-// Obf: LCGAKEFDFJB
+// CmdId: 172
+// Obf: HNJBNGIPOEK
 message GadgetChangeLevelTagReq {
-	uint32 level_tag_id = 13;
-	CustomGadgetTreeInfo combination_info = 3;
-	uint32 gadget_entity_id = 7;
+	CustomGadgetTreeInfo combination_info = 1;
+	uint32 gadget_entity_id = 10;
+	uint32 level_tag_id = 2;
 }

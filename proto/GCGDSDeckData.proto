@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NONPAKAOCNM
+// Obf: NNODKGHGGBA
 message GCGDSDeckData {
-	repeated uint32 card_list = 5;
-	string name = 1;
-	bool is_valid = 13;
-	uint32 id = 9;
-	uint32 card_back_id = 6;
-	fixed32 create_time = 3;
-	uint32 field_id = 4;
-	repeated uint32 LAMMFAEALFK = 12;
+	uint32 field_id = 9;
+	fixed32 create_time = 10;
+	string name = 7;
+	uint32 id = 5;
+	uint32 card_back_id = 11;
+	repeated uint32 APCFHCPFONE = 4;
+	bool is_valid = 1;
+	repeated uint32 card_list = 13;
 }

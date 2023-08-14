@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22701
-// Obf: KCFNLIHPJBG
+// CmdId: 6962
+// Obf: AFKKDAHBDKB
 message ElectroherculesBattleSettleNotify {
-	uint32 BNMHJGCJAPB = 10;
-	uint32 finish_time = 1;
-	uint32 gallery_id = 3;
-	bool is_new_record = 7;
-	uint32 stage_id = 14;
-	bool is_succ = 11;
-	bool BBEILLFPCOC = 2;
+	bool is_new_record = 4;
+	uint32 stage_id = 13;
+	bool NJFLJGMFEMK = 6;
+	bool is_succ = 5;
+	uint32 diffculty = 15;
+	uint32 finish_time = 11;
+	uint32 gallery_id = 14;
 }

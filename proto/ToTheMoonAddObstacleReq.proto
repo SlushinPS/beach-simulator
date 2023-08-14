@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ToTheMoonObstacleInfo.proto";
-// CmdId: 6148
-// Obf: GOGGGOPKCDG
+// CmdId: 6113
+// Obf: BKKEKODBELD
 message ToTheMoonAddObstacleReq {
-	ToTheMoonObstacleInfo obstacle = 4;
-	int32 query_id = 11;
-	uint32 scene_id = 7;
-	bool use_edge = 1;
+	ToTheMoonObstacleInfo obstacle = 15;
+	bool use_edge = 14;
+	uint32 scene_id = 11;
+	int32 query_id = 10;
 }

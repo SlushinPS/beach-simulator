@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2156
-// Obf: EIFHLIEECLM
+// CmdId: 29110
+// Obf: EEGCAFOLNOG
 message FleurFairReplayMiniGameRsp {
-	uint32 minigame_id = 5;
-	int32 retcode = 9;
+	int32 retcode = 4;
+	uint32 minigame_id = 10;
 }

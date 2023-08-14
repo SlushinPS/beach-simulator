@@ -18,12 +18,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BartenderTaskInfo.proto";
 import "BartenderLevelInfo.proto";
-// Obf: GEBFJGCMKNA
+// Obf: OHBPKHDADMI
 message BartenderActivityDetailInfo {
-	bool is_develop_module_open = 1;
-	repeated BartenderTaskInfo unlock_task_list = 5;
-	repeated BartenderLevelInfo unlock_level_list = 9;
-	repeated uint32 DNLJPHOBILO = 4;
-	repeated uint32 GILMKAGINJM = 8;
-	bool is_content_closed = 7;
+	repeated uint32 EFCFFFOKIIO = 15;
+	repeated uint32 OJDLKJNDJAH = 3;
+	bool is_develop_module_open = 9;
+	repeated BartenderTaskInfo unlock_task_list = 12;
+	bool is_content_closed = 5;
+	repeated BartenderLevelInfo unlock_level_list = 7;
 }

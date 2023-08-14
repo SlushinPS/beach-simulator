@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AbilityInvokeEntry.proto";
-// CmdId: 1155
-// Obf: CMJMPJAFMGK
+// CmdId: 26730
+// Obf: PKAPLLHEELP
 message AbilityInvocationFailNotify {
-	uint32 entity_id = 1;
-	AbilityInvokeEntry invoke = 12;
-	string reason = 2;
+	AbilityInvokeEntry invoke = 6;
+	uint32 entity_id = 9;
+	string reason = 1;
 }

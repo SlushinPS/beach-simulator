@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4094
-// Obf: OCDFJPIHLBA
+// CmdId: 771
+// Obf: HPKEIDMJIJI
 message SetPlayerSignatureReq {
-	string signature = 7;
+	string signature = 4;
 }

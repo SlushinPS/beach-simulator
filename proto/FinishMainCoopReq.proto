@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1976
-// Obf: EAMDLBPCLFM
+// CmdId: 20482
+// Obf: BCKINDNDCCJ
 message FinishMainCoopReq {
-	uint32 ending_save_point_id = 14;
-	uint32 id = 4;
+	uint32 ending_save_point_id = 5;
+	uint32 id = 3;
 }

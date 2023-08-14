@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeCustomFurnitureInfo.proto";
-// CmdId: 4551
-// Obf: HAPOEAEAONB
+// CmdId: 23160
+// Obf: OBEPJPMGCAE
 message HomeEditCustomFurnitureRsp {
-	int32 retcode = 10;
-	HomeCustomFurnitureInfo custom_furniture_info = 14;
+	HomeCustomFurnitureInfo custom_furniture_info = 7;
+	int32 retcode = 6;
 }

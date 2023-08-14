@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5815
-// Obf: IBGNCOIBEFF
+// CmdId: 27962
+// Obf: AOIPEJKPGCJ
 message FishPoolDataNotify {
-	uint32 entity_id = 3;
-	uint32 today_fish_num = 1;
+	uint32 entity_id = 11;
+	uint32 today_fish_num = 8;
 }

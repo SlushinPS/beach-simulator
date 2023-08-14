@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2904
-// Obf: ABEPPJCNPLH
+// CmdId: 4106
+// Obf: BNJNJNEBANI
 message OfferingInteractReq {
 	uint32 offering_id = 11;
 }

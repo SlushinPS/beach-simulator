@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3016
-// Obf: JMOLGNNDBKB
+// CmdId: 5604
+// Obf: EDMKDPALDGP
 message RefreshEntityAuthNotify {
 	repeated uint32 entity_id_list = 3;
 }

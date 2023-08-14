@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: INMJLAOJGFE
+// Obf: ICBOKGIFAJP
 message VintageMarketStoreInfo {
-	repeated uint32 FHILDEANGEK = 3;
-	uint32 store_id = 8;
-	uint32 slot_count = 9;
-	repeated uint32 LHLCBBGOCNE = 13;
-	repeated uint32 strategy_list = 15;
+	uint32 store_id = 1;
+	repeated uint32 DIHBDFFFFBG = 2;
+	uint32 slot_count = 10;
+	repeated uint32 strategy_list = 11;
+	repeated uint32 DPEOGCBENHO = 9;
 }

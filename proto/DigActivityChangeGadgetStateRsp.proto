@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8646
-// Obf: DFDICNIKEDM
+// CmdId: 26496
+// Obf: JMKJMIMOLAA
 message DigActivityChangeGadgetStateRsp {
-	int32 retcode = 2;
-	uint32 entity_id = 5;
+	uint32 entity_id = 6;
+	int32 retcode = 10;
 }

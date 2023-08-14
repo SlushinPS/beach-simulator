@@ -18,8 +18,8 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "LunaRiteAreaInfo.proto";
 import "LunaRiteHintPoint.proto";
-// Obf: HICKPBHAGFM
+// Obf: LEKDJAJFCEG
 message LunaRiteDetailInfo {
-	repeated LunaRiteAreaInfo area_info_list = 9;
-	repeated LunaRiteHintPoint hint_point = 11;
+	repeated LunaRiteAreaInfo area_info_list = 3;
+	repeated LunaRiteHintPoint hint_point = 15;
 }

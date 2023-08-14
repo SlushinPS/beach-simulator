@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1472
-// Obf: NDJKANLCIIP
+// CmdId: 5317
+// Obf: GLKNPOJNACB
 message GetMailItemReq {
-	repeated uint32 mail_id_list = 7;
+	repeated uint32 mail_id_list = 14;
 }

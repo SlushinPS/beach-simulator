@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1645
-// Obf: CALPEEFDPGK
+// CmdId: 24251
+// Obf: CMOIAGEGIOJ
 message AvatarGainCostumeNotify {
-	uint32 costume_id = 1;
+	uint32 costume_id = 6;
 }

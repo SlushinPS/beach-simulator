@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "SummerTimeV2DungeonStageInfo.proto";
 import "SummerTimeV2BoatStageInfo.proto";
-// Obf: FABCDGBBNAB
+import "SummerTimeV2DungeonStageInfo.proto";
+// Obf: OFEPIBOFMMO
 message SummerTimeV2DetailInfo {
-	repeated SummerTimeV2DungeonStageInfo dungeon_stage_info_list = 9;
-	repeated SummerTimeV2BoatStageInfo boat_stage_info_list = 10;
-	uint32 KMNJLNJDKCK = 5;
-	uint32 OBHFBOAPBNK = 11;
-	bool is_content_closed = 12;
+	repeated SummerTimeV2BoatStageInfo boat_stage_info_list = 14;
+	uint32 MBINEBFILLF = 12;
+	bool is_content_closed = 1;
+	uint32 LMALLBDPKGO = 6;
+	repeated SummerTimeV2DungeonStageInfo dungeon_stage_info_list = 7;
 }

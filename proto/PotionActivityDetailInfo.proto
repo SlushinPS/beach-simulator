@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PotionStageData.proto";
-// Obf: DPNFNNKEEOP
+// Obf: PIFGFOANEJJ
 message PotionActivityDetailInfo {
-	repeated PotionStageData stage_list = 4;
+	repeated PotionStageData stage_list = 2;
 }

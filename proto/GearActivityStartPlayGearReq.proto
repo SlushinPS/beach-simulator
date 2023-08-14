@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 23029
-// Obf: OENGEBNDPDI
+// CmdId: 7344
+// Obf: HAHAOBIBDLN
 message GearActivityStartPlayGearReq {
-	uint32 level_id = 1;
+	uint32 level_id = 4;
 }

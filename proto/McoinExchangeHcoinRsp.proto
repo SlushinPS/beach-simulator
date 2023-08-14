@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 617
-// Obf: KFGCMIDKGMC
+// CmdId: 21323
+// Obf: OEBFOFIJHGC
 message McoinExchangeHcoinRsp {
-	uint32 hcoin = 1;
-	uint32 mcoin_cost = 5;
-	int32 retcode = 11;
+	uint32 hcoin = 11;
+	int32 retcode = 5;
+	uint32 mcoin_cost = 1;
 }

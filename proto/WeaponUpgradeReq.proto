@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 688
-// Obf: PCCDPKOLOBP
+// CmdId: 9010
+// Obf: NHOOFHINDJC
 message WeaponUpgradeReq {
-	uint64 target_weapon_guid = 10;
-	repeated uint64 food_weapon_guid_list = 5;
+	uint64 target_weapon_guid = 14;
+	repeated uint64 food_weapon_guid_list = 9;
 	repeated ItemParam item_param_list = 12;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PropValue.proto";
-// CmdId: 1275
-// Obf: EPCKEHMDLNG
+// CmdId: 3503
+// Obf: IDBEABMPEFN
 message EntityPropNotify {
-	map<uint32, PropValue> prop_map = 5;
-	uint32 entity_id = 2;
+	map<uint32, PropValue> prop_map = 2;
+	uint32 entity_id = 5;
 }

@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: FJINHACIPMN
+// Obf: MLJBHICOBMH
 message EvtSyncEntityPositionInfo {
-	uint32 entity_id = 11;
-	Vector pos = 5;
-	uint32 IBEEKINNPFA = 12;
-	uint32 NLMICFIEANI = 10;
-	int32 face_angle_compact = 14;
+	Vector pos = 3;
+	uint32 entity_id = 2;
+	uint32 state_hash = 9;
+	uint32 normalized_time_compact = 7;
+	int32 face_angle_compact = 8;
 }

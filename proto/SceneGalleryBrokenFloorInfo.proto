@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NBMIJCFNNEK
+// Obf: FAPAGMKKDJG
 message SceneGalleryBrokenFloorInfo {
-	map<uint32, uint32> fall_count_map = 6;
-	uint32 end_time = 11;
+	uint32 end_time = 4;
+	map<uint32, uint32> fall_count_map = 14;
 }

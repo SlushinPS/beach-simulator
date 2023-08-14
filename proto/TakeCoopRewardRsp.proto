@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1993
-// Obf: DPPJIJJPDEM
+// CmdId: 22350
+// Obf: OCBMJEKGPLA
 message TakeCoopRewardRsp {
+	int32 retcode = 14;
 	uint32 reward_config_id = 1;
-	int32 retcode = 11;
 }

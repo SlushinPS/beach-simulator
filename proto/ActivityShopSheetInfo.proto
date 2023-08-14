@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GFKOLJPJAAA
+// Obf: AENJPCKAMNL
 message ActivityShopSheetInfo {
-	uint32 sheet_id = 9;
-	uint32 end_time = 3;
-	uint32 begin_time = 14;
+	uint32 begin_time = 1;
+	uint32 sheet_id = 14;
+	uint32 end_time = 15;
 }

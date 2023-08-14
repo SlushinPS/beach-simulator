@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NJDJNOHKGHG
+// Obf: KDDLGDGMJJJ
 message H5ActivityInfo {
-	uint32 HPLJKGAJNOA = 4;
-	bool is_entrance_open = 5;
-	uint32 PAIONNJCHAG = 12;
-	uint32 begin_time = 11;
-	uint32 content_close_time = 14;
-	string prefab_path = 8;
-	uint32 end_time = 15;
-	string url = 3;
+	string prefab_path = 12;
+	string url = 8;
+	bool is_entrance_open = 1;
+	uint32 FMENOAFNGHO = 13;
+	uint32 end_time = 3;
+	uint32 content_close_time = 4;
+	uint32 begin_time = 15;
+	uint32 JELEFCPLEJB = 14;
 }

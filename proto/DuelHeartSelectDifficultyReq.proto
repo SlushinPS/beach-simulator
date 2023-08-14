@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 22648
-// Obf: LIPGHOICFGO
+// CmdId: 29156
+// Obf: DFMIEJLIKMK
 message DuelHeartSelectDifficultyReq {
-	uint32 difficulty = 5;
+	uint32 difficulty = 9;
 }

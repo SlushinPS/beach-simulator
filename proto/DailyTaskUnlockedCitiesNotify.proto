@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 127
-// Obf: MAFKBKGEIBB
+// CmdId: 6722
+// Obf: PACMFFMCCEK
 message DailyTaskUnlockedCitiesNotify {
-	repeated uint32 unlocked_city_list = 5;
+	repeated uint32 unlocked_city_list = 15;
 }

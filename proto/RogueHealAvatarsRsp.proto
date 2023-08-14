@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8037
-// Obf: CLDNIDNBGAH
+// CmdId: 3917
+// Obf: CFJHEIHENJI
 message RogueHealAvatarsRsp {
-	int32 retcode = 11;
-	uint32 dungeon_id = 5;
-	uint32 cell_id = 13;
+	uint32 dungeon_id = 13;
+	int32 retcode = 12;
+	uint32 cell_id = 8;
 }

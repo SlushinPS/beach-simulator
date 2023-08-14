@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8579
-// Obf: CBDBJBJJGFJ
+// CmdId: 7953
+// Obf: MDBECONHBKJ
 message QuickOpenActivityRsp {
-	int32 retcode = 12;
-	uint32 activity_id = 10;
+	uint32 activity_id = 8;
+	int32 retcode = 13;
 }

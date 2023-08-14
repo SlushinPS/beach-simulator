@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2056
-// Obf: LJAHGJHMDDI
+// CmdId: 28964
+// Obf: MCIIDMDIKBG
 message BlessingGiveFriendPicRsp {
-	int32 retcode = 12;
-	uint32 uid = 15;
-	uint32 pic_id = 10;
+	uint32 uid = 12;
+	int32 retcode = 1;
+	uint32 pic_id = 13;
 }

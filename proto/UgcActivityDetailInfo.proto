@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "OfficialCustomDungeon.proto";
-// Obf: ECPILCBJFEO
+// Obf: JMCGOPMGNFN
 message UgcActivityDetailInfo {
-	uint32 custom_dungeon_group_id = 5;
-	bool FHPMJMNGPMO = 9;
-	repeated OfficialCustomDungeon official_custom_dungeon_list = 1;
-	bool EDIAHDMJHHF = 4;
+	repeated OfficialCustomDungeon official_custom_dungeon_list = 10;
+	bool DDFPBDAKDHF = 5;
+	uint32 custom_dungeon_group_id = 12;
+	bool IOPFGIPIHAG = 1;
 }

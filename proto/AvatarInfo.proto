@@ -23,8 +23,8 @@ import "AvatarFetterInfo.proto";
 import "AvatarExpeditionState.proto";
 import "AvatarEquipAffixInfo.proto";
 import "AvatarExcelInfo.proto";
-import "OOOHGLFDFCI.proto";
-// Obf: PLKMIPEBLOO
+import "JCDPOCOOGCI.proto";
+// Obf: FHPLJBCPFFF
 message AvatarInfo {
 	uint32 avatar_id = 1;
 	uint64 guid = 2;
@@ -52,5 +52,6 @@ message AvatarInfo {
 	uint32 costume_id = 25;
 	AvatarExcelInfo excel_info = 26;
 	uint32 anim_hash = 27;
-	OOOHGLFDFCI BAPGEFOMGBH = 28;
+	JCDPOCOOGCI PDGKJIIEPIO = 28;
+	uint32 GJFKDCJENJE = 29;
 }

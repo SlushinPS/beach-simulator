@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: LMMFMJFGNBP
+// Obf: JNJOKGNEKIK
 message GivingRecord {
-	bool is_gadget_giving = 13;
-	bool is_finished = 11;
-	map<uint32, uint32> material_cnt_map = 8;
-	uint32 last_group_id = 3;
-	uint32 group_id = 12;
-	uint32 giving_id = 9;
-	uint32 config_id = 7;
+	uint32 config_id = 2;
+	bool is_gadget_giving = 15;
+	uint32 last_group_id = 14;
+	uint32 giving_id = 3;
+	bool is_finished = 6;
+	map<uint32, uint32> material_cnt_map = 4;
+	uint32 group_id = 5;
 }

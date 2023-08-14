@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2065
-// Obf: MCFKLLABOAD
+// CmdId: 20683
+// Obf: CFEOAHDEJFD
 message TreasureMapRegionActiveNotify {
 	uint32 active_region_index = 11;
 }

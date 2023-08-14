@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TreasureSeelieRegionData.proto";
-// Obf: NAFAGCGIODM
+// Obf: OONIJLAKDKE
 message TreasureSeelieActivityDetailInfo {
-	repeated TreasureSeelieRegionData region_data_list = 6;
-	bool is_content_closed = 4;
-	uint32 treasure_close_time = 8;
+	uint32 treasure_close_time = 5;
+	bool is_content_closed = 1;
+	repeated TreasureSeelieRegionData region_data_list = 15;
 }

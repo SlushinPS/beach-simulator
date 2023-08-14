@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3099
-// Obf: GLLEKDKOBFO
+// CmdId: 2725
+// Obf: KEOMENNCOEA
 message GuestBeginEnterSceneNotify {
-	uint32 uid = 15;
-	uint32 scene_id = 12;
+	uint32 uid = 8;
+	uint32 scene_id = 5;
 }

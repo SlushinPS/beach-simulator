@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "AsterMidCampInfo.proto";
-// Obf: LCEADPMNHGH
+// Obf: DONDGHDLMDI
 message AsterMidDetailInfo {
-	bool is_open = 9;
-	uint32 collect_count = 4;
-	uint32 begin_time = 12;
-	repeated AsterMidCampInfo camp_list = 8;
+	uint32 collect_count = 12;
+	uint32 begin_time = 1;
+	bool is_open = 3;
+	repeated AsterMidCampInfo camp_list = 13;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 283
-// Obf: HDFFDMBDGNB
+// CmdId: 20211
+// Obf: OEHPGPJNGDB
 message HitClientTrivialNotify {
-	uint32 owner_entity_id = 10;
-	Vector position = 2;
+	uint32 owner_entity_id = 8;
+	Vector position = 5;
 }

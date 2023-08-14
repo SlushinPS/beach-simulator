@@ -16,23 +16,23 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "BattlePassCycle.proto";
-import "BattlePassUnlockStatus.proto";
-import "BattlePassProduct.proto";
 import "BattlePassRewardTag.proto";
-// Obf: HPPNLINPMJC
+import "BattlePassProduct.proto";
+import "BattlePassUnlockStatus.proto";
+import "BattlePassCycle.proto";
+// Obf: KFAIKMBDAIC
 message BattlePassSchedule {
-	BattlePassCycle cur_cycle = 13;
-	bool is_extra_paid_reward_taken = 12;
-	uint32 point = 6;
-	uint32 level = 5;
-	uint32 cur_cycle_points = 14;
-	bool is_viewed = 11;
-	BattlePassUnlockStatus unlock_status = 2;
-	uint32 schedule_id = 4;
-	uint32 begin_time = 1;
-	uint32 paid_platform_flags = 15;
-	BattlePassProduct product_info = 7;
-	uint32 end_time = 3;
+	bool is_extra_paid_reward_taken = 7;
+	uint32 end_time = 15;
 	repeated BattlePassRewardTag reward_taken_list = 9;
+	BattlePassProduct product_info = 4;
+	uint32 level = 8;
+	uint32 paid_platform_flags = 12;
+	uint32 schedule_id = 10;
+	uint32 begin_time = 13;
+	uint32 point = 2;
+	BattlePassUnlockStatus unlock_status = 11;
+	uint32 cur_cycle_points = 1;
+	BattlePassCycle cur_cycle = 3;
+	bool is_viewed = 14;
 }

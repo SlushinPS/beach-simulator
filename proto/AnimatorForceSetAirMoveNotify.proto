@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ForwardType.proto";
-// CmdId: 398
-// Obf: JDGIBNIHLFJ
+// CmdId: 20049
+// Obf: AKBHACPDPLA
 message AnimatorForceSetAirMoveNotify {
-	ForwardType forward_type = 4;
-	uint32 entity_id = 8;
-	bool in_air_move = 2;
+	ForwardType forward_type = 9;
+	bool in_air_move = 11;
+	uint32 entity_id = 12;
 }

@@ -18,12 +18,12 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ExhibitionDisplayInfo.proto";
 import "ProfilePicture.proto";
-// Obf: IJGJGEAKINM
+// Obf: PIMMEBGGMGO
 message LanV3BoatSettleInfo {
-	repeated ExhibitionDisplayInfo card_list = 8;
+	string nickname = 7;
+	uint32 uid = 14;
+	uint32 head_image = 8;
+	string online_id = 9;
+	repeated ExhibitionDisplayInfo card_list = 10;
 	ProfilePicture profile_picture = 12;
-	string nickname = 10;
-	uint32 uid = 3;
-	string online_id = 1;
-	uint32 head_image = 13;
 }

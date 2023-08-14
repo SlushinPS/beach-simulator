@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2167
-// Obf: NEMEICOEHKN
+// CmdId: 25586
+// Obf: OOBNLCBIPJK
 message GetActivityInfoReq {
-	repeated uint32 activity_id_list = 7;
+	repeated uint32 activity_id_list = 9;
 }

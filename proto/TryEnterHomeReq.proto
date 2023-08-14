@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4565
-// Obf: DGPBLIIAEOL
+// CmdId: 26594
+// Obf: EPFFLHEAHIE
 message TryEnterHomeReq {
-	bool is_transfer_to_safe_point = 12;
-	uint32 target_point = 8;
-	uint32 target_uid = 11;
-	bool GGBOCPDIIKL = 14;
+	uint32 target_uid = 4;
+	bool is_transfer_to_safe_point = 9;
+	uint32 target_point = 5;
+	bool JFEOCNJLCLG = 12;
 }

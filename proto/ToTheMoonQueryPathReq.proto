@@ -17,36 +17,39 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 6175
-// Obf: CIEJPEDGGGK
+// CmdId: 6117
+// Obf: HJKCMHJOIMF
 message ToTheMoonQueryPathReq {
-	// Obf: OALCKINEBHD
+	// Obf: IJNGEJBFHPM
 	enum OptionType {
 		OPTION_NONE = 0;
 		OPTION_NORMAL = 1;
 	}
 	
-	enum NJDHEEAOEBE {
-		OILPBFMHGMF_CLASSIC = 0;
-		OILPBFMHGMF_TENDENCY = 1;
-		OILPBFMHGMF_ADAPTIVE = 2;
-		OILPBFMHGMF_INFLECTION = 3;
+	// Obf: NIEHOIIPCLL
+	enum AStarMethod {
+		AStarMethod_CLASSIC = 0;
+		AStarMethod_TENDENCY = 1;
+		AStarMethod_ADAPTIVE = 2;
+		AStarMethod_INFLECTION = 3;
 	}
 	
-	enum IAKAPNKHDPJ {
-		EHFBKPBIGHA_ALL = 0;
-		EHFBKPBIGHA_AIR = 1;
-		EHFBKPBIGHA_WATER = 2;
+	// Obf: BLNDGHLPFLH
+	enum FilterType {
+		FilterType_ALL = 0;
+		FilterType_AIR = 1;
+		FilterType_WATER = 2;
 	}
 	
-	int32 fuzzy_range = 7;
-	OptionType query_type = 9;
-	int32 query_id = 11;
-	uint32 scene_id = 1;
-	bool PIODKBAAPMI = 3;
-	NJDHEEAOEBE HJKBMLBDJKE = 8;
-	IAKAPNKHDPJ FPKOPPELDPD = 14;
-	Vector destination_pos = 10;
-	Vector source_pos = 12;
-	bool PKAONDIKPNI = 13;
+	FilterType filter_type = 15;
+	OptionType query_type = 10;
+	bool PMELMGPKENE = 7;
+	Vector destination_pos = 1;
+	uint32 scene_id = 9;
+	int32 fuzzy_range = 8;
+	bool EAHHCMBPGDJ = 5;
+	repeated int32 CCHHHAJICHB = 13;
+	AStarMethod astar_method = 3;
+	Vector source_pos = 2;
+	int32 query_id = 14;
 }

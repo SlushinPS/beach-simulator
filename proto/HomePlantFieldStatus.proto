@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EOCCCEGKIIF
+// Obf: JBPMMAEOHLJ
 enum HomePlantFieldStatus {
 	HOME_FIELD_STATUE_NONE = 0;
 	HOME_FIELD_STATUE_SEED = 1;

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "WorldRoutineInfo.proto";
-// CmdId: 3521
-// Obf: EMCGADPBAGG
+// CmdId: 1471
+// Obf: LFKFNGGMMDB
 message WorldRoutineChangeNotify {
-	WorldRoutineInfo routine_info = 3;
-	uint32 routine_type = 5;
+	WorldRoutineInfo routine_info = 9;
+	uint32 routine_type = 12;
 }

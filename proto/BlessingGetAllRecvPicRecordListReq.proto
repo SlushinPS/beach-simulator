@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2067
-// Obf: MBLFJLBGFCG
+// CmdId: 22820
+// Obf: EDJKPCNNFJC
 message BlessingGetAllRecvPicRecordListReq {
 }

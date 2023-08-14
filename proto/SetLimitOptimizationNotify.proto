@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8557
-// Obf: IMGHPOJOJGI
+// CmdId: 3723
+// Obf: FOIMOOAKPHB
 message SetLimitOptimizationNotify {
-	bool is_active = 14;
+	bool is_active = 5;
 }

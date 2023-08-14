@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2063
-// Obf: OHENIFMMIKG
+// CmdId: 7641
+// Obf: FICDOMFDCLM
 message TakeAsterSpecialRewardReq {
-	uint32 schedule_id = 12;
+	uint32 schedule_id = 13;
 }

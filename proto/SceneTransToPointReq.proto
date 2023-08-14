@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 288
-// Obf: PLFFHAGMEHO
+// CmdId: 26498
+// Obf: EBDJGELLMOF
 message SceneTransToPointReq {
-	uint32 point_id = 1;
-	uint32 scene_id = 12;
+	uint32 point_id = 12;
+	uint32 scene_id = 4;
 }

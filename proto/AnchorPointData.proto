@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: JKCHIBPNIHL
+// Obf: EBCMEKLBHEL
 message AnchorPointData {
-	uint32 anchor_point_id = 8;
-	Vector pos = 11;
-	Vector rot = 1;
-	uint32 end_time = 4;
-	uint32 scene_id = 10;
+	uint32 scene_id = 11;
+	uint32 end_time = 12;
+	uint32 anchor_point_id = 1;
+	Vector pos = 5;
+	Vector rot = 7;
 }

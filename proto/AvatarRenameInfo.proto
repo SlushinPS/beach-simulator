@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NFELDEIIPPJ
+// Obf: NNBEINLIFPB
 message AvatarRenameInfo {
-	uint32 avatar_id = 12;
-	string avatar_name = 10;
+	string avatar_name = 1;
+	uint32 avatar_id = 13;
 }

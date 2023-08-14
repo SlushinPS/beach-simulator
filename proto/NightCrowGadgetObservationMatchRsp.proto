@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 880
-// Obf: CBFLBDKCGAO
+// CmdId: 3213
+// Obf: FEOKEFFEDBA
 message NightCrowGadgetObservationMatchRsp {
-	int32 retcode = 8;
+	int32 retcode = 7;
 }

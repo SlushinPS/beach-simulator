@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8899
-// Obf: JIJCNFCKCHK
+// CmdId: 9649
+// Obf: FCKADCNJBOB
 message RogueFinishRepairRsp {
-	int32 retcode = 13;
+	int32 retcode = 1;
 }

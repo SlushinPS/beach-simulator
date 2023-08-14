@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 441
-// Obf: KPMPKMLFOMI
+// CmdId: 943
+// Obf: AOHJLFJBFNO
 message NpcTalkStateNotify {
-	bool is_ban = 7;
+	bool is_ban = 9;
 }

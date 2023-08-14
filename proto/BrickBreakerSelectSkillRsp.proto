@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5304
-// Obf: FIPKHKIECEH
+// CmdId: 23314
+// Obf: HHGLBBHOLHB
 message BrickBreakerSelectSkillRsp {
-	repeated uint32 skill_id = 3;
-	int32 retcode = 7;
+	int32 retcode = 6;
+	repeated uint32 skill_id = 5;
 }

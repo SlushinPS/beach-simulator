@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 302
-// Obf: DGNMEHADJDI
+// CmdId: 9459
+// Obf: JBPDNKOINAN
 message HostPlayerNotify {
-	uint32 host_peer_id = 8;
-	uint32 host_uid = 3;
+	uint32 host_uid = 8;
+	uint32 host_peer_id = 7;
 }

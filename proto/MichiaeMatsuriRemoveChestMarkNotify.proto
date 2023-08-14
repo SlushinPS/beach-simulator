@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8539
-// Obf: FNNPJOFGFNB
+// CmdId: 7189
+// Obf: POPBCJIFLJD
 message MichiaeMatsuriRemoveChestMarkNotify {
-	uint32 group_id = 7;
-	uint32 config_id = 13;
+	uint32 config_id = 2;
+	uint32 group_id = 14;
 }

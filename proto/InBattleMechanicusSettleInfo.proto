@@ -17,14 +17,14 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MultistageSettleWatcherInfo.proto";
-// Obf: PLPPNHMGHEA
+// Obf: JHMFLFANOLC
 message InBattleMechanicusSettleInfo {
-	repeated MultistageSettleWatcherInfo watcher_list = 2;
-	uint64 scene_time_ms = 9;
-	uint32 DLDGAGDLKEO = 4;
-	uint32 MHCDNHLEGJJ = 10;
-	bool is_success = 8;
-	uint32 JJEKHBDPANH = 6;
-	uint32 group_id = 7;
-	uint32 play_index = 12;
+	uint32 OPBCDCIEDHF = 2;
+	repeated MultistageSettleWatcherInfo watcher_list = 10;
+	uint32 group_id = 12;
+	uint32 play_index = 6;
+	uint32 MOPJLMJENOM = 5;
+	uint64 scene_time_ms = 13;
+	bool is_success = 7;
+	uint32 MEKFBBKKKGP = 15;
 }

@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "TowerLevelRecord.proto";
-// Obf: PMCAONINPDD
+// Obf: BGHANHOBDGP
 message TowerFloorRecord {
-	map<uint32, uint32> passed_level_map = 14;
-	uint32 floor_id = 3;
-	repeated TowerLevelRecord passed_level_record_list = 6;
-	uint32 floor_star_reward_progress = 4;
+	uint32 floor_id = 11;
+	map<uint32, uint32> passed_level_map = 2;
+	uint32 floor_star_reward_progress = 7;
+	repeated TowerLevelRecord passed_level_record_list = 8;
 }

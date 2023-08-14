@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4059
-// Obf: PEKGHDHCCGE
+// CmdId: 5073
+// Obf: AJHIALPBPME
 message UpdatePS4BlockListRsp {
-	int32 retcode = 9;
+	int32 retcode = 13;
 }

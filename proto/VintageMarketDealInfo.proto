@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "VintageMarketTraderInfo.proto";
-// Obf: CKOJLAKBAGH
+// Obf: FENNPDEALKC
 message VintageMarketDealInfo {
-	map<uint32, VintageMarketTraderInfo> trader_item_info_map = 10;
+	map<uint32, VintageMarketTraderInfo> trader_item_info_map = 7;
 }

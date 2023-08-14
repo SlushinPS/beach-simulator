@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4841
-// Obf: IKPMJLAIAJM
+// CmdId: 1990
+// Obf: BEIGKDCMHAH
 message HomeSetBlueprintSlotOptionReq {
 	uint32 slot_id = 1;
-	bool is_allow_copy = 14;
+	bool is_allow_copy = 4;
 }

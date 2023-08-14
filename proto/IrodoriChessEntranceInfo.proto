@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "IrodoriChessMonsterInfo.proto";
-// Obf: MFOKPMJJLGC
+// Obf: NAIFBLPGFMN
 message IrodoriChessEntranceInfo {
-	uint32 entrance_point_id = 3;
-	repeated IrodoriChessMonsterInfo monster_info_list = 1;
+	repeated IrodoriChessMonsterInfo monster_info_list = 7;
+	uint32 entrance_point_id = 4;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DBFMPJOFCIN
+// Obf: AIOLAOJBABD
 message HuntingPair {
-	uint32 monster_config_id = 13;
-	uint32 refresh_id = 9;
+	uint32 monster_config_id = 2;
+	uint32 refresh_id = 11;
 }

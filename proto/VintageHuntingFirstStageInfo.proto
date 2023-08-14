@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: KJEODHHMHDG
+// Obf: LGOMHHBJHFE
 message VintageHuntingFirstStageInfo {
-	uint32 IIFPOPNBHKN = 4;
-	uint32 score = 15;
-	uint32 JHDHJDPNNOK = 11;
-	uint32 GBDOOANMBGO = 13;
+	uint32 score = 2;
+	uint32 FOFOBNPOLNO = 11;
+	uint32 GKNLFDOFFCN = 6;
+	uint32 FHPLLANPPMO = 12;
 }

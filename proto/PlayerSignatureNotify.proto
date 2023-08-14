@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4047
-// Obf: LIDFLOLPMPD
+// CmdId: 22738
+// Obf: AGGNLBIKJJH
 message PlayerSignatureNotify {
-	string signature = 4;
+	string signature = 1;
 }

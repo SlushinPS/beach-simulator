@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4731
-// Obf: EBLJDFELMFJ
+// CmdId: 20418
+// Obf: GIBKOEEJGPH
 message HomeBalloonGalleryScoreNotify {
-	uint32 trigger_entity_id = 10;
-	uint32 cur_score = 4;
-	uint32 gallery_id = 6;
-	uint32 add_score = 3;
+	uint32 cur_score = 13;
+	uint32 trigger_entity_id = 2;
+	uint32 gallery_id = 1;
+	uint32 add_score = 7;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 775
-// Obf: IONMOGGHBPF
+// CmdId: 9681
+// Obf: BLGEHKEBJAA
 message GetShopReq {
-	uint32 shop_type = 12;
+	uint32 shop_type = 4;
 }

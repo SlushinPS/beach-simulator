@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 876
-// Obf: JLDKEFIDBEK
+// CmdId: 958
+// Obf: PGCCKGDHLME
 message CreateVehicleRsp {
-	uint32 vehicle_id = 1;
-	uint32 entity_id = 4;
-	int32 retcode = 11;
+	uint32 vehicle_id = 9;
+	uint32 entity_id = 11;
+	int32 retcode = 2;
 }

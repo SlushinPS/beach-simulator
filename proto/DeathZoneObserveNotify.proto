@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 3462
-// Obf: FGLHJPPANKE
+// CmdId: 29864
+// Obf: GLFCPEKJHGL
 message DeathZoneObserveNotify {
-	uint32 target_entity_id = 11;
-	uint32 source_entity_id = 10;
+	uint32 target_entity_id = 5;
+	uint32 source_entity_id = 14;
 }

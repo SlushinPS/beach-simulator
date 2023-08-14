@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 241
-// Obf: KMAJKMENKJC
+// CmdId: 25752
+// Obf: EAKJEHOGBIG
 message SceneAreaWeatherNotify {
-	uint32 climate_type = 10;
-	float trans_duration = 9;
-	map<uint32, string> weather_value_map = 6;
-	uint32 weather_area_id = 2;
-	uint32 weather_gadget_id = 4;
+	uint32 climate_type = 2;
+	uint32 weather_area_id = 4;
+	float trans_duration = 8;
+	map<uint32, string> weather_value_map = 7;
+	uint32 weather_gadget_id = 12;
 }

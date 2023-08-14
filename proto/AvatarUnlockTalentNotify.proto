@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1002
-// Obf: EHAHCGECFJH
+// CmdId: 1805
+// Obf: KNLJFLHONOK
 message AvatarUnlockTalentNotify {
-	uint32 talent_id = 7;
-	uint32 skill_depot_id = 15;
-	uint64 avatar_guid = 4;
+	uint32 talent_id = 3;
+	uint64 avatar_guid = 9;
+	uint32 skill_depot_id = 8;
 	uint32 entity_id = 1;
 }

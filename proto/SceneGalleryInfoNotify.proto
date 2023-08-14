@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SceneGalleryInfo.proto";
-// CmdId: 5594
-// Obf: CPJDECLPLDA
+// CmdId: 5587
+// Obf: KONCIICIJOL
 message SceneGalleryInfoNotify {
-	SceneGalleryInfo gallery_info = 15;
+	SceneGalleryInfo gallery_info = 12;
 }

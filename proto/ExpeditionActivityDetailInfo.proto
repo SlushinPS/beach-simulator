@@ -16,14 +16,14 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "ExpeditionChallengeInfo.proto";
 import "ExpeditionPathInfo.proto";
-// Obf: EFAOCIPELNM
+import "ExpeditionChallengeInfo.proto";
+// Obf: OPCCCDFLFBA
 message ExpeditionActivityDetailInfo {
-	uint32 LIMGPLDAJKP = 3;
-	uint32 ADMDKNKKDOE = 8;
-	uint32 content_close_time = 13;
-	repeated ExpeditionChallengeInfo challenge_info_list = 15;
-	bool is_content_closed = 6;
-	repeated ExpeditionPathInfo path_info_list = 11;
+	bool is_content_closed = 12;
+	uint32 content_close_time = 1;
+	repeated ExpeditionPathInfo path_info_list = 5;
+	repeated ExpeditionChallengeInfo challenge_info_list = 4;
+	uint32 HCDDLBJBIOH = 9;
+	uint32 OLDDLIEHOBB = 2;
 }

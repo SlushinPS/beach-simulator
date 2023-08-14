@@ -16,19 +16,19 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8665
-// Obf: CFLPMAIKDFA
+// CmdId: 29677
+// Obf: MHLEOJINLKK
 message MistTrialSelectAvatarAndEnterDungeonReq {
-	// Obf: FGPIFIDBMKL
+	// Obf: JBBKIALOJOI
 	message SelectAvatarIndex {
 		oneof detail {
-			uint32 mist_trial_avatar_id = 4;
-			uint64 formal_avatar_guid = 5;
+			uint32 mist_trial_avatar_id = 5;
+			uint64 formal_avatar_guid = 14;
 		}
 	}
 	
-	uint32 trial_id = 10;
-	uint32 enter_point_id = 5;
-	repeated uint32 select_trial_avatar_id_list = 3;
-	repeated SelectAvatarIndex select_avatar_index_list = 4;
+	repeated SelectAvatarIndex select_avatar_index_list = 2;
+	uint32 trial_id = 4;
+	uint32 enter_point_id = 7;
+	repeated uint32 select_trial_avatar_id_list = 12;
 }

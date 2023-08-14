@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 993
-// Obf: BFBJLHKGKLE
+// CmdId: 3761
+// Obf: KABOLDJAOOI
 message DungeonCandidateTeamReplyInviteRsp {
-	bool is_trans_point = 7;
-	int32 retcode = 13;
-	uint32 dungeon_id = 15;
+	uint32 dungeon_id = 14;
+	bool is_trans_point = 2;
+	int32 retcode = 3;
 }

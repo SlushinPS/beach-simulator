@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8575
-// Obf: NHMGBMLKABK
+// CmdId: 26014
+// Obf: DJHKCNCGALH
 message PhotoActivityFinishReq {
-	uint32 check_root_id = 9;
-	uint32 pos_id = 2;
-	bool is_succ = 10;
+	uint32 check_root_id = 2;
+	bool is_succ = 11;
+	uint32 pos_id = 12;
 }

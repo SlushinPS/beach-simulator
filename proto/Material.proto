@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MaterialDeleteInfo.proto";
-// Obf: KOKDLGLHBDK
+// Obf: LCHIHMEJNML
 message Material {
 	uint32 count = 1;
 	MaterialDeleteInfo delete_info = 2;

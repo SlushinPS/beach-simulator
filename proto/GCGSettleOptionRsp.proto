@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGSettleOption.proto";
-// CmdId: 7918
-// Obf: GJDJDHBKHPG
+// CmdId: 3014
+// Obf: KMGOBCNOLII
 message GCGSettleOptionRsp {
-	GCGSettleOption option = 4;
-	int32 retcode = 12;
+	GCGSettleOption option = 1;
+	int32 retcode = 2;
 }

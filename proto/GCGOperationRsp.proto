@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 7697
-// Obf: HKDOBJEEIFB
+// CmdId: 7952
+// Obf: IFPJBIHDMLM
 message GCGOperationRsp {
-	uint32 op_seq = 8;
-	int32 retcode = 6;
+	int32 retcode = 9;
+	uint32 op_seq = 12;
 }

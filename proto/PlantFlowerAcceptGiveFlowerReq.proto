@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8705
-// Obf: FJEFMFNFKMN
+// CmdId: 27522
+// Obf: MJMNOHEKMFM
 message PlantFlowerAcceptGiveFlowerReq {
-	uint32 schedule_id = 4;
-	uint32 uid = 11;
+	uint32 uid = 6;
+	uint32 schedule_id = 11;
 }

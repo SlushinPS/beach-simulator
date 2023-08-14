@@ -17,14 +17,14 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "IslandPartyGallerySettleInfo.proto";
-import "HDDANIDHCMI.proto";
 import "ExhibitionDisplayInfo.proto";
-// CmdId: 24605
-// Obf: JFPKLLGALIJ
+import "KDHIAEFLGFM.proto";
+// CmdId: 23083
+// Obf: HJBCADIELAO
 message IslandPartySettleNotify {
-	bool is_new_record = 1;
-	repeated IslandPartyGallerySettleInfo settle_info_list = 15;
-	HDDANIDHCMI reason = 5;
-	repeated ExhibitionDisplayInfo score_list = 8;
-	uint32 time_remain = 12;
+	bool is_new_record = 12;
+	repeated IslandPartyGallerySettleInfo settle_info_list = 4;
+	uint32 time_remain = 6;
+	repeated ExhibitionDisplayInfo score_list = 9;
+	KDHIAEFLGFM reason = 15;
 }

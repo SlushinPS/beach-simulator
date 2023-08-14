@@ -18,10 +18,10 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BrickBreakerLevelInfo.proto";
 import "BrickBreakerActivityStageInfo.proto";
-// Obf: CEFLLFIKKKH
+// Obf: KCBKILMACFD
 message BrickBreakerDetailInfo {
-	repeated BrickBreakerLevelInfo GAAAMLJLIKD = 11;
-	repeated BrickBreakerActivityStageInfo stage_info_list = 3;
-	map<uint32, uint32> skill_info_map = 10;
-	repeated BrickBreakerLevelInfo BIBOJMLPCHL = 13;
+	repeated BrickBreakerLevelInfo BKFHCIKHHKN = 10;
+	repeated BrickBreakerActivityStageInfo stage_info_list = 9;
+	repeated BrickBreakerLevelInfo BBMAENNPEOD = 2;
+	map<uint32, uint32> skill_info_map = 13;
 }

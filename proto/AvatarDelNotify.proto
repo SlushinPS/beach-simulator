@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1701
-// Obf: OICLNIIPCBB
+// CmdId: 8219
+// Obf: IOKBLLAGPJD
 message AvatarDelNotify {
-	repeated uint64 avatar_guid_list = 5;
+	repeated uint64 avatar_guid_list = 7;
 }

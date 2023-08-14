@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 407
-// Obf: MDDOBAJAHDH
+// CmdId: 20137
+// Obf: EFHMAODMGJJ
 message QuestTransmitRsp {
-	uint32 point_id = 12;
-	uint32 quest_id = 7;
-	int32 retcode = 11;
+	int32 retcode = 5;
+	uint32 point_id = 9;
+	uint32 quest_id = 14;
 }

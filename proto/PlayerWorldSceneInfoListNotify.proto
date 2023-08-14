@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "PlayerWorldSceneInfo.proto";
-// CmdId: 3422
-// Obf: BJMKMMHILOB
+// CmdId: 7017
+// Obf: GGOIKEGFFAA
 message PlayerWorldSceneInfoListNotify {
-	repeated PlayerWorldSceneInfo info_list = 12;
+	repeated PlayerWorldSceneInfo info_list = 15;
 }

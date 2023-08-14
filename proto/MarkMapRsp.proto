@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "MapMarkPoint.proto";
-// CmdId: 3239
-// Obf: CHEHBLCPPJH
+// CmdId: 28945
+// Obf: BKCHBPAFDAC
 message MarkMapRsp {
+	int32 retcode = 7;
 	repeated MapMarkPoint mark_list = 12;
-	int32 retcode = 3;
 }

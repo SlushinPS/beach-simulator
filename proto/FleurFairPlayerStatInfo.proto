@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// Obf: HDKMJIFHKHF
+// Obf: BCAIOJNHPHN
 message FleurFairPlayerStatInfo {
-	string online_id = 8;
-	uint32 uid = 9;
-	ProfilePicture profile_picture = 1;
-	string nick_name = 12;
-	int32 param = 14;
-	uint32 head_image = 2;
-	uint32 stat_id = 5;
+	string nick_name = 13;
+	ProfilePicture profile_picture = 9;
+	uint32 uid = 1;
+	int32 param = 11;
+	uint32 head_image = 5;
+	string online_id = 12;
+	uint32 stat_id = 3;
 }

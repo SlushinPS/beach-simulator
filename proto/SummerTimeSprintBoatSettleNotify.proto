@@ -16,15 +16,15 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8942
-// Obf: FKIAHBGANCL
+// CmdId: 20382
+// Obf: CHKPPPMCLBM
 message SummerTimeSprintBoatSettleNotify {
-	uint32 score = 6;
-	uint32 total_num = 5;
-	uint32 DBIHJAJCNBC = 13;
-	bool is_new_record = 4;
-	uint32 PCEABJGNLBB = 3;
-	bool is_success = 14;
-	uint32 left_time = 10;
-	uint32 group_id = 11;
+	bool is_new_record = 8;
+	uint32 left_time = 5;
+	uint32 total_num = 7;
+	uint32 KPCGAHJMMLB = 11;
+	uint32 group_id = 6;
+	bool is_success = 12;
+	uint32 score = 9;
+	uint32 MKOHDHLECBN = 10;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GNDNOIIAFFH
+// Obf: MKJJODENGPP
 message FleurFairBalloonInfo {
 	uint32 best_score = 10;
 }

@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: MPEONKDACFL
+// Obf: BOPJHGACPAM
 message HomeLimitedShopInfo {
-	fixed32 nextOpenTime = 12;
-	uint32 uid = 6;
+	fixed32 PCECKPDEEBD = 13;
+	fixed32 IMBFLHNJAPD = 6;
+	fixed32 LMJPHDCDAJK = 15;
+	Vector djinn_rot = 7;
 	Vector djinn_pos = 8;
-	fixed32 nextCloseTime = 14;
-	Vector djinn_rot = 15;
-	fixed32 nextGuestOpenTime = 9;
+	uint32 uid = 2;
 }

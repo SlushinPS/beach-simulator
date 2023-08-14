@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4107
-// Obf: JHCCDEMDHEC
+// CmdId: 29342
+// Obf: OMJGLPPNBMP
 message TakeResinCardDailyRewardReq {
-	uint32 product_config_id = 2;
+	uint32 product_config_id = 12;
 }

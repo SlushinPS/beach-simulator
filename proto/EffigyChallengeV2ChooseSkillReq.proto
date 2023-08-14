@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20435
-// Obf: HEMGEBCJFAB
+// CmdId: 20097
+// Obf: EMCCILFMEHJ
 message EffigyChallengeV2ChooseSkillReq {
-	uint32 level_id = 1;
-	uint32 challenge_mode_skill_no = 14;
+	uint32 level_id = 12;
+	uint32 challenge_mode_skill_no = 11;
 }

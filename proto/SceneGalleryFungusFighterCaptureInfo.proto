@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: NKBJKDFPOMC
+// Obf: DOOLKCBOOBG
 message SceneGalleryFungusFighterCaptureInfo {
-	bool is_hide_progress = 14;
+	bool is_hide_progress = 6;
 }

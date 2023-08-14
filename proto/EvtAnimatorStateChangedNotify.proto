@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "EvtAnimatorStateChangedInfo.proto";
 import "ForwardType.proto";
-// CmdId: 384
-// Obf: ILGDEGOEDNE
+import "EvtAnimatorStateChangedInfo.proto";
+// CmdId: 1539
+// Obf: FHJIKJADHNP
 message EvtAnimatorStateChangedNotify {
-	EvtAnimatorStateChangedInfo evt_animator_state_changed_info = 3;
-	ForwardType forward_type = 5;
+	ForwardType forward_type = 8;
+	EvtAnimatorStateChangedInfo evt_animator_state_changed_info = 10;
 }

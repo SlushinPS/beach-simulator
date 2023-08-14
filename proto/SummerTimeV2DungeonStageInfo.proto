@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GPEJIIGDKJJ
+// Obf: PPKBMAMJLLF
 message SummerTimeV2DungeonStageInfo {
-	uint32 stage_id = 5;
-	bool is_prev_dungeon_succeed = 2;
-	bool is_open = 3;
-	uint32 open_time = 12;
+	bool is_prev_dungeon_succeed = 12;
+	bool is_open = 1;
+	uint32 open_time = 13;
+	uint32 stage_id = 2;
 }

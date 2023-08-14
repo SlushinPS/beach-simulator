@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 147
-// Obf: GAIGFCMNNHM
+// CmdId: 23994
+// Obf: JMHDCBIFBBI
 message ClientLockGameTimeNotify {
-	bool is_lock = 12;
+	bool is_lock = 1;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: DAFLDPNBLMC
+// Obf: BKNDPKGIHLP
 enum ClientReconnectReason {
 	CLIENT_RECONNNECT_NONE = 0;
 	CLIENT_RECONNNECT_QUIT_MP = 1;

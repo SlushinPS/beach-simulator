@@ -16,46 +16,49 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "FeatureBlockInfo.proto";
 import "ShortAbilityHashPair.proto";
-import "ResVersionConfig.proto";
+import "FeatureBlockInfo.proto";
 import "BlockInfo.proto";
-// CmdId: 172
-// Obf: EGNJOBMKBHK
+import "ResVersionConfig.proto";
+import "StopServerInfo.proto";
+// CmdId: 29665
+// Obf: NIDDAJCLAEC
 message PlayerLoginRsp {
-	int32 retcode = 15;
-	string next_resource_url = 163;
-	int32 ability_hash_code = 14;
-	string client_version_suffix = 1903;
-	bool NENMBLFJAMC = 7;
-	bytes sc_info = 136;
-	string client_md5 = 715;
-	string game_biz = 10;
-	repeated FeatureBlockInfo feature_block_info_list = 114;
-	uint32 target_uid = 1;
-	string register_cps = 1149;
-	repeated ShortAbilityHashPair short_ability_hash_map = 130;
-	bool is_use_ability_hash = 11;
-	bool is_transfer = 705;
-	bool ALCEGKPMOHB = 902;
-	bool is_audit = 997;
-	ResVersionConfig res_version_config = 1912;
-	ResVersionConfig next_res_version_config = 915;
-	string client_silence_version_suffix = 702;
-	uint32 target_home_owner_uid = 1909;
-	string client_silence_md5 = 1123;
-	map<uint32, BlockInfo> block_info_map = 834;
-	bool is_sc_open = 1908;
-	map<string, int32> ability_hash_map = 8;
-	bool is_data_need_relogin = 252;
-	bool GIKDHIDHBEE = 1209;
-	uint64 login_rand = 9;
-	string birthday = 383;
-	double total_tick_time = 903;
-	string country_code = 1280;
-	uint32 client_data_version = 4;
-	bytes player_data = 3;
-	bool GPMHJGJLAFH = 13;
+	string client_version_suffix = 1991;
+	map<string, int32> ability_hash_map = 10;
+	bool is_transfer = 1988;
+	uint32 target_home_owner_uid = 816;
+	bool is_data_need_relogin = 1993;
+	string game_biz = 4;
+	int32 ability_hash_code = 5;
+	repeated ShortAbilityHashPair short_ability_hash_map = 1373;
+	bool FBFJPEPMAOF = 15;
+	bool DHMNOPIMOOE = 14;
+	bool is_audit = 335;
+	string client_silence_md5 = 784;
+	string msg = 43;
+	repeated FeatureBlockInfo feature_block_info_list = 1627;
+	bool DNHHIMENOLD = 1371;
 	uint32 client_silence_data_version = 6;
-	uint32 player_data_version = 2;
+	bool PKKKINOCFMJ = 2;
+	int32 retcode = 8;
+	uint32 client_data_version = 12;
+	string birthday = 1688;
+	bool BOKKNHEOKPD = 620;
+	uint32 target_uid = 9;
+	map<uint32, BlockInfo> block_info_map = 2007;
+	bool GOFGOCDJDND = 281;
+	string next_resource_url = 986;
+	ResVersionConfig res_version_config = 413;
+	double total_tick_time = 262;
+	bytes player_data = 13;
+	bytes sc_info = 416;
+	uint64 login_rand = 3;
+	string ENNOCBNIHIK = 1258;
+	string country_code = 452;
+	uint32 player_data_version = 11;
+	string client_silence_version_suffix = 211;
+	StopServerInfo ECKNMCACJKG = 2021;
+	string client_md5 = 535;
+	ResVersionConfig next_res_version_config = 1132;
 }

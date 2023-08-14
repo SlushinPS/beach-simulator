@@ -17,7 +17,7 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ChessEntranceInfo.proto";
-// Obf: LJLDAKBJHMH
+// Obf: ODJEEDIBEJL
 message ChessEntranceDetailInfo {
-	repeated ChessEntranceInfo info_list = 4;
+	repeated ChessEntranceInfo info_list = 3;
 }

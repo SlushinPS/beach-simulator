@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EOKNPPNJALH
+// Obf: FHLNAHHBMIK
 message WorldRoutineInfo {
-	uint32 routine_id = 6;
-	uint32 progress = 8;
-	uint32 finish_progress = 7;
-	bool is_finished = 1;
+	bool is_finished = 5;
+	uint32 finish_progress = 10;
+	uint32 progress = 13;
+	uint32 routine_id = 2;
 }

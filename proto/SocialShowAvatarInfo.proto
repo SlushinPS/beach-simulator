@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HFJBPBGJGNP
+// Obf: OGKHFCINDJP
 message SocialShowAvatarInfo {
 	uint32 avatar_id = 1;
 	uint32 level = 2;

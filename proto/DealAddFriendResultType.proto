@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ABPPEJELBNL
+// Obf: AIMELHBOBLC
 enum DealAddFriendResultType {
 	DEAL_ADD_FRIEND_RESULT_TYPE_REJECT = 0;
 	DEAL_ADD_FRIEND_RESULT_TYPE_ACCEPT = 1;

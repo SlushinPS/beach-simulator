@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FireworksReformParam.proto";
-// Obf: IDCJCIHEMJP
+// Obf: PNMCPOPPKJL
 message FireworksReformData {
-	uint32 id = 10;
-	repeated FireworksReformParam reform_param_list = 7;
+	repeated FireworksReformParam reform_param_list = 9;
+	uint32 id = 4;
 }

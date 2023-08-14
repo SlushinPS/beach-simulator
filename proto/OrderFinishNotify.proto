@@ -17,12 +17,12 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 4137
-// Obf: EDJHIHJGLHP
+// CmdId: 26680
+// Obf: ONMGIDPPBDD
 message OrderFinishNotify {
-	uint32 add_mcoin = 14;
-	string product_id = 4;
-	uint32 card_product_remain_days = 3;
-	repeated ItemParam item_list = 7;
+	string product_id = 13;
+	repeated ItemParam item_list = 1;
+	uint32 add_mcoin = 4;
 	uint32 order_id = 5;
+	uint32 card_product_remain_days = 3;
 }

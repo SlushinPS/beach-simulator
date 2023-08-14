@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8972
-// Obf: PMEDFMKHEAA
+// CmdId: 29261
+// Obf: BKNCIBPMLBH
 message IrodoriChessUnequipCardReq {
 	uint32 level_id = 7;
-	uint32 card_id = 9;
-	bool is_hard_map = 8;
+	bool is_hard_map = 14;
+	uint32 card_id = 4;
 }

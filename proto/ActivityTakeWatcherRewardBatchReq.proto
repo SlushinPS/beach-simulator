@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2109
-// Obf: GJGCNOFOIFE
+// CmdId: 26003
+// Obf: PLEPPMOFALJ
 message ActivityTakeWatcherRewardBatchReq {
-	uint32 activity_id = 14;
-	repeated uint32 watcher_id_list = 6;
+	uint32 activity_id = 9;
+	repeated uint32 watcher_id_list = 8;
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 6216
-// Obf: DJBBNPHABDJ
+// CmdId: 24046
+// Obf: GGBOHFJLLFJ
 message RemoveCustomDungeonReq {
-	uint64 dungeon_guid = 1;
+	uint64 dungeon_guid = 14;
 }

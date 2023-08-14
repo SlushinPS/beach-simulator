@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: ALFLMNNNMIO
+// Obf: GKEGGCBBJNB
 message EffigyChallengeV2SettleInfo {
-	uint32 GGGMOHCJPGF = 3;
-	bool HKKEHABACHB = 5;
-	uint32 challenge_mode_difficulty = 2;
-	uint32 BEPLBNMJMHC = 9;
-	bool GELMKIJIEDG = 11;
-	uint32 GPNIFILAEFP = 10;
+	uint32 CMCCNBNFAJE = 11;
+	bool LFNCGGFLHPL = 9;
+	uint32 DCAKCNEDDEB = 12;
+	uint32 challenge_mode_difficulty = 3;
+	bool FOFHONJNIHG = 4;
+	uint32 PHNDBBLLHDI = 1;
 }

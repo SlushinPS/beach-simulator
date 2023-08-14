@@ -17,15 +17,17 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// Obf: AKDFHOEIHII
+// Obf: ONHCJCJDHEI
 message EvtAnimatorStateChangedInfo {
-	uint32 NLMICFIEANI = 7;
-	uint32 BCKFGDDJMBJ = 8;
-	bool CMLCMCKNCAH = 12;
-	int32 face_angle_compact = 4;
-	Vector pos = 6;
-	uint32 entity_id = 10;
-	float fade_duration = 1;
-	bool JNIONCMCEAO = 11;
-	uint32 HDHIBLLIPAO = 9;
+	uint32 ref_id = 9;
+	uint32 AFHAMAHFDFH = 4;
+	bool ONHINBKJJDG = 1;
+	Vector ref_pos = 14;
+	bool AEJFHAEJMAH = 10;
+	uint32 normalized_time_compact = 12;
+	Vector pos = 15;
+	float fade_duration = 7;
+	int32 face_angle_compact = 8;
+	uint32 entity_id = 6;
+	uint32 BBHJKALOLNJ = 2;
 }

@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SeaLampV3ShadowLevelInfo.proto";
-// Obf: BLJNOEIPFOA
+// Obf: PNEMGKLBDIL
 message SeaLampV3ShadowStageInfo {
-	repeated SeaLampV3ShadowLevelInfo level_info_list = 14;
-	bool is_open = 9;
-	uint32 stage_id = 12;
+	repeated SeaLampV3ShadowLevelInfo level_info_list = 15;
+	uint32 stage_id = 6;
+	bool is_open = 8;
 }

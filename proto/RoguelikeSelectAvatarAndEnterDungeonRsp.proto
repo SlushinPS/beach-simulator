@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8436
-// Obf: ICABEHHKBAC
+// CmdId: 7229
+// Obf: PONFJAPIHJJ
 message RoguelikeSelectAvatarAndEnterDungeonRsp {
-	int32 retcode = 15;
-	uint32 stage_id = 10;
+	int32 retcode = 7;
+	uint32 stage_id = 15;
 }

@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BBPFDAGPFLE
+// Obf: BICPJCKHOPA
 enum MpSettingType {
 	MP_SETTING_TYPE_NO_ENTER = 0;
 	MP_SETTING_TYPE_ENTER_FREELY = 1;

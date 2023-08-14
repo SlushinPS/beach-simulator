@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4796
-// Obf: IHHPAABMMLL
+// CmdId: 22421
+// Obf: NLOCIBLJBAO
 message HomeGetArrangementInfoReq {
-	repeated uint32 scene_id_list = 7;
+	repeated uint32 scene_id_list = 15;
 }

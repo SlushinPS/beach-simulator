@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5538
-// Obf: OFPJGBIFBAI
+// CmdId: 8962
+// Obf: ACEOJCLEDFE
 message GalleryCrystalLinkKillMonsterNotify {
-	uint32 gallery_id = 3;
 	uint32 score = 7;
+	uint32 gallery_id = 15;
 }

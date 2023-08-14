@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeSeekFurnitureOneRecord.proto";
-import "HDDANIDHCMI.proto";
-// CmdId: 4749
-// Obf: MDCJGGFAKAN
+import "KDHIAEFLGFM.proto";
+// CmdId: 9976
+// Obf: AKFAFPOJJMP
 message HomeSeekFurnitureGalleryScoreNotify {
-	HomeSeekFurnitureOneRecord record = 8;
-	HDDANIDHCMI reason = 9;
-	uint32 gallery_id = 6;
+	HomeSeekFurnitureOneRecord record = 15;
+	uint32 gallery_id = 8;
+	KDHIAEFLGFM reason = 7;
 }

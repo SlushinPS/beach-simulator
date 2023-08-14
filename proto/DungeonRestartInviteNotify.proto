@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 992
-// Obf: BCOAFDKBHEB
+// CmdId: 29338
+// Obf: CEELKKHAKNI
 message DungeonRestartInviteNotify {
-	uint32 point_id = 8;
-	uint32 cd = 4;
-	uint32 dungeon_id = 6;
-	uint32 player_uid = 5;
+	uint32 point_id = 11;
+	uint32 player_uid = 15;
+	uint32 cd = 7;
+	uint32 dungeon_id = 13;
 }

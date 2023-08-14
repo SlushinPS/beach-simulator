@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5221
-// Obf: MLGOLNCNKEN
+// CmdId: 29462
+// Obf: PBHJOEGFBLM
 message MiracleRingTakeRewardReq {
-	uint32 gadget_id = 4;
-	uint32 gadget_entity_id = 9;
+	uint32 gadget_id = 7;
+	uint32 gadget_entity_id = 13;
 }

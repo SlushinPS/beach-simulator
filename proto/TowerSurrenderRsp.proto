@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2433
-// Obf: GDJBAKHBAAE
+// CmdId: 22267
+// Obf: EGGOCENDCNC
 message TowerSurrenderRsp {
-	int32 retcode = 10;
+	int32 retcode = 5;
 }

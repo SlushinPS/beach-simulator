@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MAHLNNJLPLC
+// Obf: KDLMJBEFIOD
 message CustomDungeonSetting {
-	bool is_forbid_skill = 2;
-	uint32 life_num = 9;
-	uint32 coin_limit = 13;
-	uint32 time_limit = 10;
-	uint32 start_room_id = 5;
-	bool is_arrive_finish = 14;
-	repeated uint32 open_room_list = 11;
+	bool is_forbid_skill = 8;
+	uint32 KADOPMBDBPG = 5;
+	uint32 KHCGPFHNHMP = 4;
+	uint32 ACMIGHKKLKJ = 1;
+	uint32 HPFNIKCNFEE = 7;
+	repeated uint32 open_room_list = 6;
+	bool is_arrive_finish = 10;
 }

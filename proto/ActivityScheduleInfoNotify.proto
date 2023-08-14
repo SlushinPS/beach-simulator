@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ActivityScheduleInfo.proto";
-// CmdId: 2107
-// Obf: HHEIHADMIIN
+// CmdId: 23970
+// Obf: HGICHODDHDN
 message ActivityScheduleInfoNotify {
-	uint32 remain_fly_sea_lamp_num = 5;
-	repeated ActivityScheduleInfo activity_schedule_list = 12;
+	repeated ActivityScheduleInfo activity_schedule_list = 11;
+	uint32 remain_fly_sea_lamp_num = 10;
 }

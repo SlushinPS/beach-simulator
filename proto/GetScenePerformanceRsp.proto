@@ -17,16 +17,16 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Vector.proto";
-// CmdId: 3082
-// Obf: BIMLDBJFABH
+// CmdId: 25307
+// Obf: CCBGIDIOLLG
 message GetScenePerformanceRsp {
-	int32 retcode = 13;
-	uint32 JHINOOICAJM = 12;
-	uint32 HGJLDHOJLJJ = 6;
-	uint32 PGFLPDCCPMF = 10;
-	uint32 BHKAFKKOANC = 3;
-	uint32 NNEDOHGOGML = 14;
-	Vector pos = 8;
-	uint32 OEJLPKPBOIO = 1;
-	uint32 BPNLPLOGNKB = 5;
+	int32 retcode = 5;
+	uint32 FEMOKLOGGKC = 11;
+	uint32 MHBAHCBKGAA = 9;
+	uint32 DBOCOHDLNPF = 4;
+	uint32 BFKGDNEKFKC = 1;
+	Vector pos = 10;
+	uint32 LBIEDMNEMJC = 7;
+	uint32 BCHDPNANNKH = 3;
+	uint32 DKOEPIBPFCF = 14;
 }

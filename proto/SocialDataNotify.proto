@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4007
-// Obf: EFEGFHAHKEA
+// CmdId: 4307
+// Obf: FNHJDICHKFL
 message SocialDataNotify {
-	bool is_have_first_share = 10;
+	bool is_have_first_share = 13;
 }

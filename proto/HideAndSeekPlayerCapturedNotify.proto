@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 5503
-// Obf: KINIPNPNLBP
+// CmdId: 4718
+// Obf: CDIBKABNMLB
 message HideAndSeekPlayerCapturedNotify {
-	uint32 ghost_skill_id = 9;
+	uint32 ghost_skill_id = 13;
 }

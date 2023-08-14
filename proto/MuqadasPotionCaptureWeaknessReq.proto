@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 21302
-// Obf: MBNBLJCDDNH
+// CmdId: 23385
+// Obf: BADGBKNNNKH
 message MuqadasPotionCaptureWeaknessReq {
-	uint32 capture_weakness_count = 14;
-	uint32 level_id = 5;
+	uint32 capture_weakness_count = 12;
+	uint32 level_id = 1;
 }

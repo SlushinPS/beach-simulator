@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8479
-// Obf: MBFLONFIIIE
+// CmdId: 7915
+// Obf: LLJDDPALBGB
 message RefreshRoguelikeDungeonCardRsp {
-	int32 retcode = 14;
+	int32 retcode = 6;
 	repeated uint32 res_card_list = 2;
 }

@@ -16,11 +16,11 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: JCLHNCHPMHJ
+// Obf: ANMOGBHGIFM
 message DragonSpineChapterInfo {
-	uint32 progress = 14;
-	bool is_open = 3;
-	uint32 open_time = 8;
-	uint32 finished_mission_num = 9;
-	uint32 chapter_id = 6;
+	uint32 finished_mission_num = 10;
+	uint32 progress = 3;
+	uint32 open_time = 5;
+	bool is_open = 12;
+	uint32 chapter_id = 13;
 }

@@ -1,0 +1,48 @@
+// https://github.com/SlushinPS/beach-simulator
+// Copyright (C) 2023 Slushy Team
+//
+// This program is free software: you can redistribute it and/or modify
+// it under the terms of the GNU Affero General Public License as
+// published by the Free Software Foundation, either version 3 of the
+// License, or (at your option) any later version.
+//
+// This program is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU Affero General Public License for more details.
+//
+// You should have received a copy of the GNU Affero General Public License
+// along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+syntax = "proto3";
+option java_package = "emu.grasscutter.net.proto";
+enum DNLLNJDINJG {
+	DNLLNJDINJG_GcgActionNone = 0;
+	DNLLNJDINJG_GcgActionSpecialPhase = 1;
+	DNLLNJDINJG_GcgActionNextPhase = 2;
+	DNLLNJDINJG_GcgActionDraw = 3;
+	DNLLNJDINJG_GcgActionRedraw = 4;
+	DNLLNJDINJG_GcgActionSelectOnstage = 5;
+	DNLLNJDINJG_GcgActionRoll = 6;
+	DNLLNJDINJG_GcgActionReroll = 7;
+	DNLLNJDINJG_GcgActionAttack = 8;
+	DNLLNJDINJG_GcgActionPlayCard = 9;
+	DNLLNJDINJG_GcgActionPass = 10;
+	DNLLNJDINJG_GcgActionReboot = 11;
+	DNLLNJDINJG_GcgActionGameOver = 12;
+	DNLLNJDINJG_GcgActionTrigger = 13;
+	DNLLNJDINJG_GcgActionPhaseExit = 14;
+	DNLLNJDINJG_GcgActionCustom = 15;
+	DNLLNJDINJG_GcgActionNotifyCost = 16;
+	DNLLNJDINJG_GcgActionAfterOperation = 17;
+	DNLLNJDINJG_GcgActionUseSkill = 18;
+	DNLLNJDINJG_GcgActionNotifySkillPreview = 19;
+	DNLLNJDINJG_GcgActionPreviewAttack = 20;
+	DNLLNJDINJG_GcgActionPreviewAfterAttack = 21;
+	DNLLNJDINJG_GcgActionSendMessage = 22;
+	DNLLNJDINJG_GcgActionWaitingCharacter = 23;
+	DNLLNJDINJG_GcgActionTriggerSkill = 24;
+	DNLLNJDINJG_GcgActionBeforeNextOperation = 25;
+	DNLLNJDINJG_GcgActionRemoveCharacterCard = 26;
+	DNLLNJDINJG_GcgActionOnstageCheck = 27;
+}

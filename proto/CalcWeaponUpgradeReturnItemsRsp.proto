@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 619
-// Obf: KLAJDKIJABJ
+// CmdId: 24299
+// Obf: EFEMOPJBOBD
 message CalcWeaponUpgradeReturnItemsRsp {
-	int32 retcode = 10;
-	repeated ItemParam item_param_list = 6;
-	uint64 target_weapon_guid = 1;
+	repeated ItemParam item_param_list = 10;
+	uint64 target_weapon_guid = 15;
+	int32 retcode = 14;
 }

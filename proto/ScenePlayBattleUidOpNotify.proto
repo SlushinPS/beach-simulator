@@ -16,17 +16,17 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4384
-// Obf: IHPPLJPPAJH
+// CmdId: 602
+// Obf: FOEFOFMLBAI
 message ScenePlayBattleUidOpNotify {
-	repeated uint32 uid_list = 15;
-	uint32 play_type = 6;
-	string param_str = 11;
-	uint32 param_duration = 2;
-	repeated uint32 param_list = 1;
-	uint32 op = 13;
-	uint32 entity_id = 3;
-	uint32 param_index = 12;
-	uint32 play_id = 8;
-	repeated uint32 param_target_list = 7;
+	uint32 play_type = 8;
+	string param_str = 15;
+	uint32 param_duration = 9;
+	uint32 op = 5;
+	uint32 entity_id = 2;
+	uint32 param_index = 4;
+	repeated uint32 uid_list = 14;
+	repeated uint32 param_list = 7;
+	repeated uint32 param_target_list = 12;
+	uint32 play_id = 3;
 }

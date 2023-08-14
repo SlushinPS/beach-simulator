@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: EEMHANAPHOB
+// Obf: JFLKBCKHCOG
 message LanternRiteFireworksChallengeInfo {
-	bool is_full_score = 6;
-	uint32 best_score = 9;
-	uint32 challenge_id = 2;
+	bool is_full_score = 13;
+	uint32 challenge_id = 12;
+	uint32 best_score = 1;
 }

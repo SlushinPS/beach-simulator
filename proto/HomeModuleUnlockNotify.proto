@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4682
-// Obf: MNAPLAHGPJO
+// CmdId: 811
+// Obf: HFALGGLELPP
 message HomeModuleUnlockNotify {
-	uint32 module_id = 10;
+	uint32 module_id = 6;
 }

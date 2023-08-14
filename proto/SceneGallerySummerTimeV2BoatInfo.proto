@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: AEECACOMNGK
+// Obf: NHKMFGGHHMD
 message SceneGallerySummerTimeV2BoatInfo {
-	uint32 used_time = 7;
-	uint32 param2 = 12;
-	uint32 param1 = 3;
-	uint32 param3 = 2;
+	uint32 param3 = 15;
+	uint32 used_time = 13;
+	uint32 param1 = 6;
+	uint32 param2 = 7;
 }

@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "NpcPositionInfo.proto";
-// CmdId: 555
-// Obf: PKGGODCMAIB
+// CmdId: 412
+// Obf: BDFEJLKPOGK
 message GetSceneNpcPositionRsp {
-	int32 retcode = 2;
-	repeated NpcPositionInfo npc_info_list = 4;
-	uint32 scene_id = 3;
+	repeated NpcPositionInfo npc_info_list = 3;
+	uint32 scene_id = 11;
+	int32 retcode = 1;
 }

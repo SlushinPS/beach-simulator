@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "TowerMonthlyCombatRecord.proto";
 import "TowerMonthlyBrief.proto";
-// Obf: EGHIMFAFPDO
+import "TowerMonthlyCombatRecord.proto";
+// Obf: BODKPJIIDPO
 message TowerMonthlyDetail {
-	TowerMonthlyCombatRecord monthly_combat_record = 8;
-	TowerMonthlyBrief last_schedule_monthly_brief = 12;
+	TowerMonthlyBrief last_schedule_monthly_brief = 3;
+	TowerMonthlyCombatRecord monthly_combat_record = 15;
 }

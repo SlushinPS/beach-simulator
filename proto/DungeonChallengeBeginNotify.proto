@@ -16,13 +16,13 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 938
-// Obf: DKKGJFNOEAC
+// CmdId: 8891
+// Obf: FPMGJHAEAML
 message DungeonChallengeBeginNotify {
-	repeated uint32 uid_list = 10;
-	repeated uint32 param_list = 9;
-	uint32 group_id = 6;
-	uint32 challenge_id = 14;
 	uint32 challenge_index = 11;
-	uint32 father_index = 8;
+	uint32 group_id = 10;
+	repeated uint32 uid_list = 15;
+	uint32 father_index = 4;
+	uint32 challenge_id = 3;
+	repeated uint32 param_list = 6;
 }

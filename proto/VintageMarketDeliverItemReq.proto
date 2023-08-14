@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ItemParam.proto";
-// CmdId: 23543
-// Obf: MHMGHKMPJDE
+// CmdId: 27142
+// Obf: GGLDPBHFMIE
 message VintageMarketDeliverItemReq {
-	uint32 trader_id = 15;
-	repeated ItemParam deliver_item_list = 10;
+	repeated ItemParam deliver_item_list = 5;
+	uint32 trader_id = 11;
 }

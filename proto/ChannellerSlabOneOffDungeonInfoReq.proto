@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8017
-// Obf: EAJEGEBCEOK
+// CmdId: 26360
+// Obf: EDKOBFIEMAG
 message ChannellerSlabOneOffDungeonInfoReq {
 }

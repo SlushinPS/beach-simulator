@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4577
-// Obf: NENKFONOFIM
+// CmdId: 28208
+// Obf: BKMJMAFFLFP
 message HomeAvatarCostumeChangeNotify {
-	uint32 avatar_id = 7;
-	uint32 costume_id = 2;
+	uint32 costume_id = 7;
+	uint32 avatar_id = 11;
 }

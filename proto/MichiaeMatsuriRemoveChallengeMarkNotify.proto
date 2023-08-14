@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8886
-// Obf: DNAKIIJPPEO
+// CmdId: 1360
+// Obf: DKHLMLAAGCP
 message MichiaeMatsuriRemoveChallengeMarkNotify {
-	uint32 group_id = 10;
-	uint32 gadget_id = 6;
+	uint32 group_id = 11;
+	uint32 gadget_id = 4;
 }

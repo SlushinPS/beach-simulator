@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: OANGFNFEPOH
+// Obf: CBLALJMNGHC
 message GCGLevelData {
-	uint32 level_id = 11;
-	repeated uint32 finished_challenge_id_list = 9;
+	uint32 level_id = 13;
+	repeated uint32 finished_challenge_id_list = 2;
 }

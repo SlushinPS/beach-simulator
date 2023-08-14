@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 477
-// Obf: DNCAJBNOPPP
+// CmdId: 701
+// Obf: JBCPALGFBLI
 message AssociateInferenceWordReq {
-	uint32 JNLFGLHFBBC = 7;
-	uint32 page_id = 9;
-	uint32 PPMLICNJGAD = 8;
+	uint32 IJNKJEMGHDA = 3;
+	uint32 BPEAHKMACOJ = 1;
+	uint32 page_id = 6;
 }

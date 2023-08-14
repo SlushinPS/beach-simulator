@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: MAELGEKPEAL
+// Obf: BDGBIAFBCBG
 message GameplayRecommendationReliquaryMainPropData {
-	uint32 main_prop_id = 8;
-	uint32 permillage = 5;
+	uint32 main_prop_id = 6;
+	uint32 permillage = 3;
 }

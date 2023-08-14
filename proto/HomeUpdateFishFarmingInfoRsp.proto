@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4640
-// Obf: PIGODPPLHLK
+// CmdId: 28093
+// Obf: MFDGHKGNHHM
 message HomeUpdateFishFarmingInfoRsp {
-	int32 retcode = 14;
+	int32 retcode = 13;
 }

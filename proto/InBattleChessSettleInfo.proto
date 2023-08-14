@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ExhibitionDisplayInfo.proto";
-// Obf: BKEFJHEFJOI
+// Obf: GNMNAFJNHDB
 message InBattleChessSettleInfo {
-	uint32 JEPAOMINKKI = 15;
-	bool is_success = 8;
-	repeated ExhibitionDisplayInfo score_list = 3;
-	uint32 JCBIBJNPNAG = 7;
-	uint32 AGAANGAFDLM = 1;
-	uint64 scene_time_ms = 11;
-	uint32 DCENODPACJH = 14;
+	uint32 APEDJKIDLPC = 12;
+	uint64 scene_time_ms = 6;
+	repeated ExhibitionDisplayInfo score_list = 14;
+	uint32 FGMOMMCFHLH = 10;
+	uint32 CKOGGPOAAKH = 9;
+	bool is_success = 11;
+	uint32 PPKIBJMPFJG = 15;
 }

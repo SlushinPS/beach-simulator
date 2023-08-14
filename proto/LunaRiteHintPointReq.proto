@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8302
-// Obf: NGAIENINPOA
+// CmdId: 9947
+// Obf: CNCLAALAIML
 message LunaRiteHintPointReq {
-	uint32 area_id = 5;
+	uint32 area_id = 6;
 }

@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "HomeGroupRecord.proto";
-// CmdId: 4798
-// Obf: GBLINHCLCKG
+// CmdId: 4005
+// Obf: ONMPLCIJJJH
 message HomeGetGroupRecordRsp {
-	uint32 record_type = 5;
-	int32 retcode = 10;
-	HomeGroupRecord group_record = 4;
+	HomeGroupRecord group_record = 12;
+	int32 retcode = 6;
+	uint32 record_type = 11;
 }

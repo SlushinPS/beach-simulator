@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HFMFKBEJJFO
+// Obf: NKMPAJCDJAA
 message LanternRiteFireworksReformSkillInfo {
-	bool is_unlock = 12;
+	bool is_unlock = 5;
 	uint32 skill_id = 2;
-	uint32 BJFDCHNFEDM = 8;
-	uint32 AIHOIFIHCIN = 6;
+	uint32 KIECEBKGLDC = 11;
+	uint32 CHDAKJBMLJH = 1;
 }

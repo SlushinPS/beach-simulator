@@ -16,12 +16,12 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 1987
-// Obf: MCEIFCMNPHI
+// CmdId: 764
+// Obf: DEBIEHHKCMA
 message SaveMainCoopReq {
-	map<uint32, int32> LJEBGEFGOAL = 9;
-	uint32 save_point_id = 7;
-	map<uint32, int32> PCCKFLCCIGB = 8;
-	uint32 id = 5;
-	uint32 self_confidence = 6;
+	map<uint32, int32> GEHNFJEPCJL = 3;
+	map<uint32, int32> GDBKBKACDFO = 10;
+	uint32 save_point_id = 11;
+	uint32 id = 6;
+	uint32 self_confidence = 7;
 }

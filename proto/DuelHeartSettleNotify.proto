@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 20333
-// Obf: BJPKKCENFCA
+// CmdId: 28003
+// Obf: MOLIDPFOGML
 message DuelHeartSettleNotify {
-	bool is_succ = 13;
-	bool is_new_record = 15;
-	uint32 cost_time = 5;
+	uint32 cost_time = 11;
+	bool is_new_record = 1;
+	bool is_succ = 14;
 }

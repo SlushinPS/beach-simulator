@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "CityInfo.proto";
-// CmdId: 217
-// Obf: CAPLOJCDPDE
+// CmdId: 9797
+// Obf: IOPGGBHIHIC
 message LevelupCityRsp {
-	uint32 area_id = 2;
-	uint32 scene_id = 6;
-	CityInfo city_info = 1;
-	int32 retcode = 12;
+	CityInfo city_info = 13;
+	uint32 scene_id = 12;
+	uint32 area_id = 8;
+	int32 retcode = 3;
 }

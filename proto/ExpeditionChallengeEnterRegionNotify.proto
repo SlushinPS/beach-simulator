@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 2188
-// Obf: CFOKBBGKOKA
+// CmdId: 29889
+// Obf: KJLCCOGJHIP
 message ExpeditionChallengeEnterRegionNotify {
-	bool is_puzzle_finished = 11;
-	uint32 id = 8;
+	bool is_puzzle_finished = 4;
+	uint32 id = 9;
 }

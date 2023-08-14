@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 8669
-// Obf: CGNHFOKLMKB
+// CmdId: 5363
+// Obf: NLJDGJGBDDO
 message ActivityReadPushTipsRsp {
 	int32 retcode = 8;
 }

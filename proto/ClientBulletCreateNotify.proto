@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 24
-// Obf: EHMCALABOPM
+// CmdId: 4966
+// Obf: GPOBOMCCOMK
 message ClientBulletCreateNotify {
-	uint32 param = 7;
+	uint32 param = 2;
 }

@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "FungusTrainingMonsterPreviewDetail.proto";
-// Obf: KAHNKMNMPFM
+// Obf: HNFIMGFEFGO
 message FungusTrainingPoolPreviewDetail {
-	uint32 pool_id = 8;
-	repeated FungusTrainingMonsterPreviewDetail monster_preview_detail_list = 14;
+	uint32 pool_id = 9;
+	repeated FungusTrainingMonsterPreviewDetail monster_preview_detail_list = 13;
 }

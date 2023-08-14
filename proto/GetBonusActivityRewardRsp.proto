@@ -17,9 +17,9 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "BonusActivityInfo.proto";
-// CmdId: 2516
-// Obf: PGJOMLEKOII
+// CmdId: 5252
+// Obf: OLOGMMGAICF
 message GetBonusActivityRewardRsp {
-	BonusActivityInfo bonus_activity_info_list = 4;
-	int32 retcode = 9;
+	BonusActivityInfo bonus_activity_info_list = 2;
+	int32 retcode = 11;
 }

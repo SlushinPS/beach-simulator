@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: GFDMGCCDLMC
+// Obf: DGMFFJIKOKD
 message BreakoutBrickInfo {
 	uint32 hp = 1;
 	uint32 element_type = 2;

@@ -17,11 +17,11 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ProfilePicture.proto";
-// Obf: AINNIGAAKDE
+// Obf: EOEHMPMPKNF
 message FurnitureMakeBeHelpedData {
-	fixed32 time = 11;
-	uint32 icon = 4;
-	ProfilePicture profile_picture = 9;
-	uint32 uid = 7;
-	string player_name = 6;
+	ProfilePicture profile_picture = 8;
+	uint32 uid = 11;
+	fixed32 time = 3;
+	uint32 icon = 1;
+	string player_name = 14;
 }

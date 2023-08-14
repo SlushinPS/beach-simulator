@@ -17,10 +17,10 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "SalvagePreventStopReason.proto";
-// Obf: JHBBPDEDHJA
+// Obf: HDLGEIILLID
 message SalvagePreventGallerySettleInfo {
-	uint32 final_score = 2;
-	uint32 time_remain = 9;
-	SalvagePreventStopReason reason = 7;
-	uint32 monster_count = 1;
+	uint32 monster_count = 11;
+	uint32 final_score = 9;
+	uint32 time_remain = 10;
+	SalvagePreventStopReason reason = 6;
 }

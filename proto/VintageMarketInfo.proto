@@ -16,30 +16,30 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "VintageMarketDealInfo.proto";
 import "VintageMarketStoreInfo.proto";
-// Obf: PDENNFLJELI
+import "VintageMarketDealInfo.proto";
+// Obf: KAGBMAHKOIM
 message VintageMarketInfo {
-	map<uint32, bool> bargain_info_map = 11;
-	repeated uint32 MEEJFKENNMP = 13;
-	uint32 CLPNPHDFNBH = 6;
-	bool ALAECLHNADI = 10;
-	repeated uint32 BPOFBDLJFPK = 949;
-	bool LNEAMNHFFMO = 7;
-	repeated uint32 JABDNKAFNLP = 9;
-	uint32 FFOKDDBKLOA = 5;
-	bool IIPEEFDNMDK = 425;
-	repeated uint32 LBLKBOHLCOK = 12;
-	bool ODNMKMIFAOB = 8;
-	bool HBGKGPCPKKI = 4;
-	uint32 BKNOJOEHIMI = 142;
-	uint32 KNEDMCJKLNI = 1042;
-	repeated uint32 unlock_strategy_list = 1;
-	VintageMarketDealInfo deal_info = 14;
-	uint32 store_round = 2;
-	repeated VintageMarketStoreInfo open_store_list = 15;
-	bool OELIEEFPHHF = 1856;
-	bool OPEBDIBANJC = 1190;
-	bool OAFFFOFDCEH = 3;
-	uint32 CPJECBCDIAF = 162;
+	bool GLAMFOFAGHB = 11;
+	repeated uint32 AAHAODOBJKM = 3;
+	bool IIMBAGFEFPG = 1229;
+	uint32 MHBEIKFONOC = 9;
+	bool PJDGIHDIPFP = 5;
+	map<uint32, bool> bargain_info_map = 4;
+	repeated uint32 NNPCKHPIBEC = 12;
+	repeated VintageMarketStoreInfo open_store_list = 10;
+	repeated uint32 BPGHMOFCODI = 7;
+	bool IEPLKANKPPD = 1310;
+	VintageMarketDealInfo deal_info = 6;
+	uint32 BJFKPOGKOMD = 1704;
+	uint32 NBHJKLCJFKH = 1113;
+	uint32 store_round = 1;
+	repeated uint32 unlock_strategy_list = 13;
+	bool CEFFFAKMCDE = 14;
+	bool IBDPMPBMDOJ = 2;
+	bool FELLANIIDOF = 15;
+	uint32 CFFLPFMIIIG = 8;
+	uint32 JNBINOIMACB = 157;
+	repeated uint32 EGJLAHOIPJD = 1500;
+	bool AANHIOBNPKF = 83;
 }

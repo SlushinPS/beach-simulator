@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: HFOHFIIKIBN
+// Obf: GDCAPLGGPNE
 message SummerTimeV2DungeonSettleInfo {
-	uint32 KMNJLNJDKCK = 3;
-	bool is_success = 6;
-	uint32 OBHFBOAPBNK = 13;
+	bool is_success = 9;
+	uint32 LMALLBDPKGO = 3;
+	uint32 MBINEBFILLF = 8;
 }

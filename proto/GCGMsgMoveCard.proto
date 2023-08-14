@@ -17,13 +17,13 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "GCGZoneType.proto";
-import "MNDCMMKBIBP.proto";
-// Obf: HJFECEDKNMO
+import "GCGReason.proto";
+// Obf: JCOEHGMCLBD
 message GCGMsgMoveCard {
-	uint32 controller_id = 10;
-	repeated uint32 card_guid_list = 8;
-	GCGZoneType CDODKAPBJGJ = 7;
-	repeated uint32 fail_guid_list = 3;
-	MNDCMMKBIBP reason = 2;
-	GCGZoneType JDPOFKHHILC = 14;
+	GCGZoneType JMJDDFNHGMK = 8;
+	GCGZoneType BPFAOBOIEDL = 7;
+	GCGReason reason = 1;
+	uint32 controller_id = 14;
+	repeated uint32 fail_guid_list = 6;
+	repeated uint32 card_guid_list = 12;
 }

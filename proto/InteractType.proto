@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: IJMMJPAEDFE
+// Obf: MMHNBMOLJBI
 enum InteractType {
 	INTERACT_TYPE_NONE = 0;
 	INTERACT_TYPE_PICK_ITEM = 1;

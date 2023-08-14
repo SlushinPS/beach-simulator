@@ -16,10 +16,10 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-import "GCGMsgPVEIntention.proto";
 import "GCGIntentionChangeType.proto";
-// Obf: CMDHBMAEICP
+import "GCGMsgPVEIntention.proto";
+// Obf: DGLAGCBAICF
 message GCGMsgPVEIntentionChange {
-	repeated GCGMsgPVEIntention change_intention_list = 3;
 	GCGIntentionChangeType change_type = 11;
+	repeated GCGMsgPVEIntention change_intention_list = 3;
 }

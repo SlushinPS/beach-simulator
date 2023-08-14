@@ -18,9 +18,9 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "Item.proto";
 import "StoreType.proto";
-// CmdId: 602
-// Obf: MEIPEBBLOAK
+// CmdId: 370
+// Obf: IBPNONJJFIN
 message StoreItemChangeNotify {
-	repeated Item item_list = 4;
-	StoreType store_type = 7;
+	repeated Item item_list = 1;
+	StoreType store_type = 10;
 }

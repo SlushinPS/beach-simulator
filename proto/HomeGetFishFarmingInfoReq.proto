@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 4837
-// Obf: JHCNCPIGNBK
+// CmdId: 21521
+// Obf: AFLAFOBONGJ
 message HomeGetFishFarmingInfoReq {
 }

@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 928
-// Obf: MNNIMBPFDDM
+// CmdId: 7011
+// Obf: HCHCACOAIHC
 message DungeonDataNotify {
-	map<uint32, uint32> dungeon_data_map = 4;
+	map<uint32, uint32> dungeon_data_map = 13;
 }

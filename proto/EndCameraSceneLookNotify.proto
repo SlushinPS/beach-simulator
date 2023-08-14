@@ -16,7 +16,7 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 218
-// Obf: AIBPCFKJANH
+// CmdId: 4771
+// Obf: ENEFGMFFKJI
 message EndCameraSceneLookNotify {
 }

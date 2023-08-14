@@ -16,8 +16,8 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// Obf: BAEOODGOAOI
+// Obf: JLBKHIBLNFI
 message ExclusiveRuleInfo {
-	uint32 rule_type = 6;
-	repeated uint32 object_id_list = 13;
+	uint32 rule_type = 9;
+	repeated uint32 object_id_list = 4;
 }

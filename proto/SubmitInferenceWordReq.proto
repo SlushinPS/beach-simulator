@@ -16,9 +16,9 @@
 
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
-// CmdId: 409
-// Obf: JGOAAAGKOCA
+// CmdId: 22181
+// Obf: COAHIBCFPNM
 message SubmitInferenceWordReq {
-	uint32 word_id = 5;
 	uint32 page_id = 7;
+	uint32 word_id = 9;
 }

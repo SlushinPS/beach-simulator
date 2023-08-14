@@ -17,8 +17,8 @@
 syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 import "ClientMassiveEntity.proto";
-// CmdId: 312
-// Obf: LGBOFMHKONM
+// CmdId: 24080
+// Obf: EBOOJFFLOBI
 message CreateMassiveEntityReq {
-	repeated ClientMassiveEntity massive_entity_list = 9;
+	repeated ClientMassiveEntity massive_entity_list = 10;
 }
