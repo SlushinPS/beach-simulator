@@ -18,11 +18,11 @@ syntax = "proto3";
 option java_package = "emu.grasscutter.net.proto";
 // Obf: NBNGELFILMP
 message ForgeQueueData {
-	uint32 POMGMIIKMGK = 13;
+	uint32 total_finish_timestamp = 13;
 	uint32 avatar_id = 8;
-	uint32 FEAIEFCFKJK = 3;
-	uint32 MNHMIPIKBIH = 14;
-	uint32 JAJEGBOFAEE = 11;
-	uint32 DLAMPPPDANO = 4;
+	uint32 finish_count = 3;
+	uint32 queueId = 14;
+	uint32 unfinishCount = 11;
+	uint32 next_finish_timestamp = 4;
 	uint32 forge_id = 15;
 }
